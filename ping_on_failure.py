@@ -145,10 +145,10 @@ def message_diff(old, new):
         to_message = [
             x
             for x in to_message
-            if x["status"] != "SUCCESS" and x["status"] != "PENDING"
+            if "error" in x["status"].lower() or "fail" in x["status"].lower()
         ]
 
-        for m in to_message:
+        for m in reversed(to_message):
             msg = f"Job `{m['name']}` failed on commit `{commit['oid']}`: {commit['messageHeadline']}"
             discord(
                 {
@@ -230,7 +230,7 @@ if __name__ == "__main__":
         message_diff(old_all_data, all_data)
 
         with open(REPO_ROOT / "statuses.json", "w") as f:
-            json.dump(all_data, f)
+            json.dump(all_data, f, indent=2)
 
         if args.push:
             git(["add", "statuses.json"])
