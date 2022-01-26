@@ -19,13 +19,11 @@
 import os
 import json
 import argparse
-import tempfile
 import requests
 from pathlib import Path
-from urllib import request
 from typing import Any, Dict
 
-from git_utils import git, GitHubRepo, parse_remote
+from git_utils import git, GitHubRepo
 
 REPO_ROOT = Path(__file__).resolve().parent
 
@@ -130,7 +128,7 @@ def check_commit(commit: Dict[str, Any]) -> bool:
 def message_diff(old, new):
     def find_old(oid):
         for c in old:
-            if c == old["oid"]:
+            if c["oid"] == oid:
                 return c
         return None
 
@@ -168,14 +166,20 @@ def message_diff(old, new):
 def discord(body: Dict[str, Any]) -> Dict[str, Any]:
     url = os.environ["DISCORD_WEBHOOK"]
     r = requests.post(url, json=body)
-    print(r.content)
+
+    if r.status_code >= 300 or r.status_code < 200:
+        raise RuntimeError("Failed to send webhook: ", body, r, r.content)
+    else:
+        print(f"Send message for {body}: {r} ({r.content})")
 
 
 if __name__ == "__main__":
     help = "Ping discord on CI failures"
     parser = argparse.ArgumentParser(description=help)
-    parser.add_argument("--user", default="apache", help="ssh remote to parse")
-    parser.add_argument("--repo", default="tvm", help="ssh remote to parse")
+    parser.add_argument("--user", default="apache", help="github repo owner")
+    parser.add_argument("--repo", default="tvm", help="github repo")
+    parser.add_argument("--push", action="store_true", help="push changes to github")
+    parser.add_argument("--statuses", help="status json for testing")
     args = parser.parse_args()
 
     user = args.user
@@ -193,11 +197,18 @@ if __name__ == "__main__":
 
     all_data = []
 
-    with open(REPO_ROOT / "statuses.json") as f:
-        old_all_data = json.load(f)
+    if args.statuses:
+        old_all_data = json.loads(args.statuses)
+    else:
+        with open(REPO_ROOT / "statuses.json") as f:
+            old_all_data = json.load(f)
 
     while i < MAX_COMMITS_TO_CHECK:
+        # Backstop to prevent looking through all the past commits
+        i += len(commits)
+
         # Check each commit
+        print(f"Checking {len(commits)} commits")
         for commit in commits:
             all_data.append(check_commit(commit))
 
@@ -207,15 +218,13 @@ if __name__ == "__main__":
         ]
         if len(edges) == 0:
             break
-        else:
+        elif i < MAX_COMMITS_TO_CHECK:
             q = commits_query(user, repo, cursor=edges[-1]["cursor"])
             r = github.graphql(q)
             commits = r["data"]["repository"]["defaultBranchRef"]["target"]["history"][
                 "nodes"
             ]
 
-        # Backstop to prevent looking through all the past commits
-        i += len(commits)
 
     if old_all_data != all_data:
         message_diff(old_all_data, all_data)
@@ -223,8 +232,9 @@ if __name__ == "__main__":
         with open(REPO_ROOT / "statuses.json", "w") as f:
             json.dump(all_data, f)
 
-        git(["add", "statuses.json"])
-        git(["config", "user.email", "email@example.com"])
-        git(["config", "user.name", "Your Name"])
-        git(["commit", "-mupdate status"])
-        git(["push"])
+        if args.push:
+            git(["add", "statuses.json"])
+            git(["config", "user.email", "95660001+tvm-bot@users.noreply.github.com"])
+            git(["config", "user.name", "tvm-bot"])
+            git(["commit", "-mUpdate `status.json`"])
+            git(["push"])
