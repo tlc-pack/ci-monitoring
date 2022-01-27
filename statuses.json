@@ -1,5 +1,26 @@
 [
   {
+    "oid": "4b0558c508d2a0518a736b2609cb4bbf46e4ceb8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/4965247722?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/4965247794?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2389/display/redirect"
+      }
+    ],
+    "messageHeadline": "[EZ][Typo] Correct gather, scatter type rel error message (#10023)"
+  },
+  {
     "oid": "f161bc212b6be486052bb1d9e332dde47ff3f59d",
     "statuses": [
       {
@@ -9,7 +30,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/4964353321?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Relay][DefuseOps pass] bug fix: To support function body types other\u2026"
-  },
-  {
-    "oid": "ffff8dd300062ebb366b546af3af2d4570113d7d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4951247004?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4951246914?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2374/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add FP requantize flow. Set float32 flow by default for llvm x86 targ\u2026"
   }
 ]
