@@ -1,5 +1,26 @@
 [
   {
+    "oid": "f93f2a63c0152696598b928de709f925a83f1d68",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/4969871742?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/4969871656?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2390/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microTVM][tvmc] Add TVMC Micro tutorial for Zephyr (#10024)"
+  },
+  {
     "oid": "4b0558c508d2a0518a736b2609cb4bbf46e4ceb8",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Fix Bug]fix the bug of tensorflow frontend when parsing Range layer \u2026"
-  },
-  {
-    "oid": "abdccf90a06b22e21fe4803dfb82d95613a1fe1d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4951277310?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4951277437?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2375/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay][DefuseOps pass] bug fix: To support function body types other\u2026"
   }
 ]
