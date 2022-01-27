@@ -139,8 +139,13 @@ def message_diff(old, new):
         old_commit = find_old(commit["oid"])
         if old_commit is not None:
             # find which jobs to message
-            old_names = {x["name"] for x in old_commit["statuses"]}
-            to_message = [x for x in commit["statuses"] if x["name"] not in old_names]
+            old_statuses = {x["name"]: x for x in old_commit["statuses"]}
+            to_message = [
+                x
+                for x in commit["statuses"]
+                if x["name"] not in old_statuses
+                or old_statuses[x["name"]]["status"] != x["status"]
+            ]
         else:
             # message about all jobs
             to_message = commit["statuses"]
@@ -152,7 +157,7 @@ def message_diff(old, new):
         ]
 
         for m in reversed(to_message):
-            msg = f"Job `{m['name']}` failed on commit `{commit['oid']}`: {commit['messageHeadline']}"
+            msg = f"`{commit['oid']}`: {commit['messageHeadline']}\nFailed on `{m['name']}`"
             discord(
                 {
                     "content": msg,
@@ -227,7 +232,6 @@ if __name__ == "__main__":
             commits = r["data"]["repository"]["defaultBranchRef"]["target"]["history"][
                 "nodes"
             ]
-
 
     if old_all_data != all_data:
         message_diff(old_all_data, all_data)
