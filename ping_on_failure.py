@@ -110,10 +110,13 @@ def check_commit(commit: Dict[str, Any]) -> bool:
             # Parse GitHub Actions item
             workflow = status["checkSuite"]["workflowRun"]["workflow"]["name"]
             name = f"{workflow} / {status['name']}"
+            state = status["conclusion"]
+            if state is None:
+                state = "PENDING"
             unified_statuses.append(
                 {
                     "name": name,
-                    "status": status["conclusion"],
+                    "status": state,
                     "url": status["detailsUrl"],
                 }
             )
