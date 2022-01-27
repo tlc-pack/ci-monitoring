@@ -1,5 +1,26 @@
 [
   {
+    "oid": "a40de47372564e7807d16d010be04bf1c55d26d1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/4961398319?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/4961398255?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2386/display/redirect"
+      }
+    ],
+    "messageHeadline": "Document missing qnn operators (#10077)"
+  },
+  {
     "oid": "248ad45c6ab197fbec11512b596c7449db2febe6",
     "statuses": [
       {
@@ -14,11 +35,32 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2385/display/redirect"
       }
     ],
     "messageHeadline": "Change function constructors to WithFields (#9690)"
+  },
+  {
+    "oid": "09daa88b9e975e6a4ab9c9aeb3688cbe655ac764",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/4959028662?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/4959028577?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2384/display/redirect"
+      }
+    ],
+    "messageHeadline": "Don't explicitly link libgcc.a into libtvm_runtime.so on Android (#10\u2026"
   },
   {
     "oid": "90e454a0a7d541bf7eadb69dd2ddf52407bd5b37",
@@ -271,26 +313,5 @@
       }
     ],
     "messageHeadline": "[microTVM][tutorial] Add ENV variable to enable testing on physical h\u2026"
-  },
-  {
-    "oid": "5e7438feaabf5b843fdb0fac9d93934ffb313c5a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4948373008?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4948373086?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2371/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][Schedule] Blockize and Tensorize (#9871)"
   }
 ]
