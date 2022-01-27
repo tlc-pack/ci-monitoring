@@ -1,5 +1,26 @@
 [
   {
+    "oid": "f161bc212b6be486052bb1d9e332dde47ff3f59d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/4964353223?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/4964353321?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2388/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Fix Rust permissions for wasmtime and sccache (#10015)"
+  },
+  {
     "oid": "e42b9a30c6f71b8c0397fc1d4e29ecc3d695f49a",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Add FP requantize flow. Set float32 flow by default for llvm x86 targ\u2026"
-  },
-  {
-    "oid": "b9728773c18d59f5ba7a94a46e59d40703bb466d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4951212873?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4951212772?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2373/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Refactor base address determination to codegen (#9929)"
   }
 ]
