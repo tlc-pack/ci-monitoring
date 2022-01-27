@@ -1,5 +1,26 @@
 [
   {
+    "oid": "e42b9a30c6f71b8c0397fc1d4e29ecc3d695f49a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/4963891342?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/4963891223?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2387/display/redirect"
+      }
+    ],
+    "messageHeadline": "Add temp git dir to test_cc_reviewers test case (#10058)"
+  },
+  {
     "oid": "a40de47372564e7807d16d010be04bf1c55d26d1",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[microNPU] Refactor base address determination to codegen (#9929)"
-  },
-  {
-    "oid": "884fee4569bc76b87a777963d0b2b9b4c2e6464e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4950016908?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4950017180?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2372/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microTVM][tutorial] Add ENV variable to enable testing on physical h\u2026"
   }
 ]
