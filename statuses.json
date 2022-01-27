@@ -1,5 +1,21 @@
 [
   {
+    "oid": "fa317edf78ec9555a606fe57052d587c90a27375",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/4971713683?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/4971713771?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[CI][Fix] Remove additional qnn.op.transpose_conv2d from docs (#10083)"
+  },
+  {
     "oid": "f93f2a63c0152696598b928de709f925a83f1d68",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule][M4a] Schedule Rule: Multi-Level-Tiling (#10043)"
-  },
-  {
-    "oid": "92cd754c45a6ab51bb90a6a5227b1047fd5fbb2d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4951302041?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4951302129?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2376/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Fix Bug]fix the bug of tensorflow frontend when parsing Range layer \u2026"
   }
 ]
