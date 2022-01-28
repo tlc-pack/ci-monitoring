@@ -1,5 +1,26 @@
 [
   {
+    "oid": "7b9fd1e2ab5e0af927f202faef5d682706608fc7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/4982393185?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/4982393324?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2393/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Removing constant args from PrimFunc (#9951)"
+  },
+  {
     "oid": "e6af87491eb250a3266b1f09b36055c6ee79146b",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Improve the tensorflow frontend _test_spop_resource_variables to supp\u2026"
-  },
-  {
-    "oid": "095b63935efdd42effc0298998d67838086b7b26",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4952840153?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4952840017?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2378/display/redirect"
-      }
-    ],
-    "messageHeadline": "Revert \"[Frontend] Add Span filling for frontends to Relay (#9723)\" (\u2026"
   }
 ]
