@@ -1,5 +1,26 @@
 [
   {
+    "oid": "3af9c305a951162fda87cf01fce641f7ef62ec98",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/4984130278?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/4984130380?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2395/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microTVM] Update Zephyr to 2.7 (#10094)"
+  },
+  {
     "oid": "82d4d0fb1d36b503e0544ab67cc0e897687024ee",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Clear warnings when building with MSVC. (#10059)"
-  },
-  {
-    "oid": "1935341af7b2accae0fc4b1e2d6b94e053a27979",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4956984827?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4956984911?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2380/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] postproc: rewrite_parallel_vectorize_unroll (#10071)"
   }
 ]
