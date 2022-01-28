@@ -1,5 +1,26 @@
 [
   {
+    "oid": "6a274af9cb4e7baf6d9dd06f0fb38bea5ac3154a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/4987348658?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/4987348591?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2398/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Update hexagon API build instruction and cleanup hexagon_pr\u2026"
+  },
+  {
     "oid": "85d42f894e90dfa10c7933ed2ad3610754d51d84",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Don't explicitly link libgcc.a into libtvm_runtime.so on Android (#10\u2026"
-  },
-  {
-    "oid": "90e454a0a7d541bf7eadb69dd2ddf52407bd5b37",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4958421892?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4958421801?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2383/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay] QLinearMatMul allows 1D weight_scale, weight_zero_point input\u2026"
   }
 ]
