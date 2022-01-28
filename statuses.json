@@ -1,5 +1,26 @@
 [
   {
+    "oid": "82d4d0fb1d36b503e0544ab67cc0e897687024ee",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/4983934349?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/4983934448?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2394/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay] fix incorrect binding of Lets in ANF conversion (#10078)"
+  },
+  {
     "oid": "7b9fd1e2ab5e0af927f202faef5d682706608fc7",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] postproc: rewrite_parallel_vectorize_unroll (#10071)"
-  },
-  {
-    "oid": "cc8a7a298d2c6bb60bb111d972367c8841c0874d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4955016820?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4955016986?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2379/display/redirect"
-      }
-    ],
-    "messageHeadline": "Improve the tensorflow frontend _test_spop_resource_variables to supp\u2026"
   }
 ]
