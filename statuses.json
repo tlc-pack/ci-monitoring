@@ -1,5 +1,26 @@
 [
   {
+    "oid": "80d4d05e83f9de1fc1967c2bd30de3e67f04a7cc",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/4986103653?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/4986103604?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2396/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Runtime][PipelineExecutor] Pipeline Executor Sequential execution (#\u2026"
+  },
+  {
     "oid": "3af9c305a951162fda87cf01fce641f7ef62ec98",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Makefile] Fixed error in \"make clean\" (#10048)"
-  },
-  {
-    "oid": "d29c80166ff183c181c532e7bf10a81ae305a5b0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4958390676?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4958390791?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2381/display/redirect"
-      }
-    ],
-    "messageHeadline": "Clear warnings when building with MSVC. (#10059)"
   }
 ]
