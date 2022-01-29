@@ -1,5 +1,26 @@
 [
   {
+    "oid": "ba651974c8c9e97b65258238415e8bd9190bed11",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/4993297048?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/4993297017?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2402/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule][M4b] Testcases for TensorRT builder/runner (#10055)"
+  },
+  {
     "oid": "0fb5ae2e0119a6dc49025272754e245d4927245e",
     "statuses": [
       {
@@ -14,7 +35,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2401/display/redirect"
       }
     ],
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[CI] Fix Rust permissions for wasmtime and sccache (#10015)"
-  },
-  {
-    "oid": "e42b9a30c6f71b8c0397fc1d4e29ecc3d695f49a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4963891342?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4963891223?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2387/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add temp git dir to test_cc_reviewers test case (#10058)"
   }
 ]
