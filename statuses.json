@@ -1,5 +1,26 @@
 [
   {
+    "oid": "daaa2ca857861f286d81201e5184b9528948c3c4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5014050677?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5014050616?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2418/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Use Python 3.6 variant of pypa.io (#10114)"
+  },
+  {
     "oid": "c130ea3062b02b4de803392284b4f42b27a79c91",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] postproc: rewrite_cooperative_fetch (#10081)"
-  },
-  {
-    "oid": "ba651974c8c9e97b65258238415e8bd9190bed11",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4993297048?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4993297017?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2402/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule][M4b] Testcases for TensorRT builder/runner (#10055)"
   }
 ]
