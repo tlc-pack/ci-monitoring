@@ -1,5 +1,21 @@
 [
   {
+    "oid": "b365586159cd76a7fcd12d7915d2b59cc59e7105",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5003723796?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5003723883?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "Use ci.py explicitly in docs building instructions (#9971)"
+  },
+  {
     "oid": "f2d60fe96850f9e049945d69d489e9ac20f1e68f",
     "statuses": [
       {
@@ -35,7 +51,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2408/display/redirect"
       }
     ],
@@ -56,7 +72,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2407/display/redirect"
       }
     ],
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[microTVM] Update Zephyr to 2.7 (#10094)"
-  },
-  {
-    "oid": "82d4d0fb1d36b503e0544ab67cc0e897687024ee",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4983934349?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4983934448?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2394/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay] fix incorrect binding of Lets in ANF conversion (#10078)"
   }
 ]
