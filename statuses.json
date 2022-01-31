@@ -1,5 +1,26 @@
 [
   {
+    "oid": "36b48a5707321adba8a70e14da443566a9391e5a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5013743808?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5013743916?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2416/display/redirect"
+      }
+    ],
+    "messageHeadline": "[VirtualMachine] fix raw pointer using by VirtualMachine (#9980)"
+  },
+  {
     "oid": "dad8f62fc10282691227f303be3a7bd306e511c8",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Op][Topi] Gather, GatherND, Take can accept unsigned integers as ind\u2026"
-  },
-  {
-    "oid": "21154c2a42eff4e94352734cd19cfea9d580e8b5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4989612954?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4989612964?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2400/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TE] Fix Const Int bound analysis to handle uints for division (#10102)"
   }
 ]
