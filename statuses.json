@@ -1,5 +1,26 @@
 [
   {
+    "oid": "1d01e288d185eb716db3dc1dd5467f8f14ba77ba",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5006478540?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5006478656?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2413/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Update DGL in gpu image (#10111)"
+  },
+  {
     "oid": "3de25b83f91b25948b0dff0c121a5f3bd3d6421b",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Update hexagon API build instruction and cleanup hexagon_pr\u2026"
-  },
-  {
-    "oid": "85d42f894e90dfa10c7933ed2ad3610754d51d84",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4986250310?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4986250250?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2397/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule][M4a] Mutator: Mutate Parallel (#10096)"
   }
 ]
