@@ -1,5 +1,26 @@
 [
   {
+    "oid": "3de25b83f91b25948b0dff0c121a5f3bd3d6421b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5005166910?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5005167026?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2412/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Per-tensor support for int8 operations (#10018)"
+  },
+  {
     "oid": "3b20c21f9e1dd1d373fbbfe0deb118522eea5d29",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule][M4a] Mutator: Mutate Parallel (#10096)"
-  },
-  {
-    "oid": "80d4d05e83f9de1fc1967c2bd30de3e67f04a7cc",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4986103653?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4986103604?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2396/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Runtime][PipelineExecutor] Pipeline Executor Sequential execution (#\u2026"
   }
 ]
