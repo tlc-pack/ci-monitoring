@@ -1,5 +1,26 @@
 [
   {
+    "oid": "02a7a4182fa5909357353d9b445737e3e4827843",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5008665246?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5008664980?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2414/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Add support for nearest neighbor and bilinear upsampling (\u2026"
+  },
+  {
     "oid": "1d01e288d185eb716db3dc1dd5467f8f14ba77ba",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule][M4a] Mutator: Mutate-Tile-Size (#10092)"
-  },
-  {
-    "oid": "6a274af9cb4e7baf6d9dd06f0fb38bea5ac3154a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4987348658?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4987348591?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2398/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Update hexagon API build instruction and cleanup hexagon_pr\u2026"
   }
 ]
