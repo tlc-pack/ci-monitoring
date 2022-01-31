@@ -1,5 +1,26 @@
 [
   {
+    "oid": "c130ea3062b02b4de803392284b4f42b27a79c91",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5013809651?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5013809732?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2417/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Ethos(TM)-N 21.11 update (#10061)"
+  },
+  {
     "oid": "36b48a5707321adba8a70e14da443566a9391e5a",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule][M4b] Testcases for TensorRT builder/runner (#10055)"
-  },
-  {
-    "oid": "0fb5ae2e0119a6dc49025272754e245d4927245e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4992245538?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4992245501?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2401/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Op][Topi] Gather, GatherND, Take can accept unsigned integers as ind\u2026"
   }
 ]
