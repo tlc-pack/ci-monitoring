@@ -1,5 +1,26 @@
 [
   {
+    "oid": "5029c9d5e1ac2dbbff85ebfaad89ef0c1ede8e42",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5001499001?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5001498933?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2407/display/redirect"
+      }
+    ],
+    "messageHeadline": "Update nn.rs (#10063)"
+  },
+  {
     "oid": "779dc51e1332f417fa4c304b595ce76891dfc33a",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[PyTorch] Fix rsub type (#10090)"
-  },
-  {
-    "oid": "fa317edf78ec9555a606fe57052d587c90a27375",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4971713683?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4971713771?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2391/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI][Fix] Remove additional qnn.op.transpose_conv2d from docs (#10083)"
   }
 ]
