@@ -1,5 +1,26 @@
 [
   {
+    "oid": "f2d60fe96850f9e049945d69d489e9ac20f1e68f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5002157502?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5002157452?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2409/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Caffe Frontend] Add support for Power layer (#9655)"
+  },
+  {
     "oid": "d8d00530bb62e6919152a57c5abc59f5f69c8b1a",
     "statuses": [
       {
@@ -9,7 +30,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5001783706?check_suite_focus=true"
       },
       {
@@ -25,7 +46,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5001499001?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Relay] fix incorrect binding of Lets in ANF conversion (#10078)"
-  },
-  {
-    "oid": "7b9fd1e2ab5e0af927f202faef5d682706608fc7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4982393185?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4982393324?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2393/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Removing constant args from PrimFunc (#9951)"
   }
 ]
