@@ -1,5 +1,26 @@
 [
   {
+    "oid": "72b22f8151030f2a56c13e3b425a95d293ab0087",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5026673272?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5026673364?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2429/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay][VM] Fix loading late bound consts when none exist (#10087)"
+  },
+  {
     "oid": "339f8886f42c408dbc55c1af5b5450519ffc8a79",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[CI] Update DGL in gpu image (#10111)"
-  },
-  {
-    "oid": "3de25b83f91b25948b0dff0c121a5f3bd3d6421b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5005166910?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5005167026?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2412/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ETHOSN] Per-tensor support for int8 operations (#10018)"
   }
 ]
