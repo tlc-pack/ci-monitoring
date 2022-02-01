@@ -1,5 +1,47 @@
 [
   {
+    "oid": "187aeb5fe813c5bffc81e88ba890399ce7d53e1e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5015994718?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5015994854?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2423/display/redirect"
+      }
+    ],
+    "messageHeadline": "[AUTOTVM] Use opt level 3 when extracting tasks (#10065)"
+  },
+  {
+    "oid": "f9ddcdb3ae273e7582301fbd90632ccd7487c487",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5015990971?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5015991021?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2422/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Ansor] Improve OpenCL support (#10108)"
+  },
+  {
     "oid": "24d2a38116447b1c2363df3f5c0270e50b116207",
     "statuses": [
       {
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "Update nn.rs (#10063)"
-  },
-  {
-    "oid": "779dc51e1332f417fa4c304b595ce76891dfc33a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4995193652?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4995193679?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2406/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule][M4a] User-API: Tune-TE/TIR/Relay (#10079)"
-  },
-  {
-    "oid": "1f9c76ba2b10f092fdc3b6e8358fdf744d2c70c4",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4994108355?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/4994108362?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2404/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Op][Topi] 5 ops can accept unsigned integers as indices (#10098)"
   }
 ]
