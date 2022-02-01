@@ -1,5 +1,26 @@
 [
   {
+    "oid": "339f8886f42c408dbc55c1af5b5450519ffc8a79",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5025945379?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5025945166?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2428/display/redirect"
+      }
+    ],
+    "messageHeadline": "[USMP] Add performance characteristics to PoolInfo (#10005)"
+  },
+  {
     "oid": "9ef374f9c4ecff1a734a2281ff2d5646a8d7decb",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[ETHOSN] Per-tensor support for int8 operations (#10018)"
-  },
-  {
-    "oid": "3b20c21f9e1dd1d373fbbfe0deb118522eea5d29",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5004612661?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5004612581?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2411/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microTVM] Include standalone_crt dependencies in MLF (#10095)"
   }
 ]
