@@ -1,10 +1,31 @@
 [
   {
-    "oid": "a1f51aa230d33bed831b65eec6e209733dbfec57",
+    "oid": "780f88a4253733bd4038d7a6ef9a3b496491bceb",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5028913366?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5028913454?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2431/display/redirect"
+      }
+    ],
+    "messageHeadline": "[FIX,AUTOTVM] Add backtraces to tuning errors (#9901)"
+  },
+  {
+    "oid": "a1f51aa230d33bed831b65eec6e209733dbfec57",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5027883634?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Bugfix][Op] Fix shape inference of adv_index (#9717)"
-  },
-  {
-    "oid": "02a7a4182fa5909357353d9b445737e3e4827843",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5008665246?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5008664980?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2414/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Add support for nearest neighbor and bilinear upsampling (\u2026"
   }
 ]
