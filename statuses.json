@@ -1,5 +1,26 @@
 [
   {
+    "oid": "9ef374f9c4ecff1a734a2281ff2d5646a8d7decb",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5025285699?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5025285834?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2427/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CUDA] Support float16 erf,tan,atan (#10122)"
+  },
+  {
     "oid": "d576f3d340109a0b81e09619abf3ced79291b5b6",
     "statuses": [
       {
@@ -9,7 +30,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5024062215?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[microTVM] Include standalone_crt dependencies in MLF (#10095)"
-  },
-  {
-    "oid": "b365586159cd76a7fcd12d7915d2b59cc59e7105",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5003723796?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5003723883?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2410/display/redirect"
-      }
-    ],
-    "messageHeadline": "Use ci.py explicitly in docs building instructions (#9971)"
   }
 ]
