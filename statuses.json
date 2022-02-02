@@ -1,5 +1,16 @@
 [
   {
+    "oid": "8ce1b6c63b434b570355195871145ab6ea7e1c83",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2440/display/redirect"
+      }
+    ],
+    "messageHeadline": "[skip ci] Fix for ping_reviewers wait time (#10149)"
+  },
+  {
     "oid": "a91b518a6e55b309b115281ed45071925b78122f",
     "statuses": [
       {
@@ -292,26 +303,5 @@
       }
     ],
     "messageHeadline": "[CMSIS-NN] Moved test_cnn_small to the latest version (#9962)"
-  },
-  {
-    "oid": "2af42ba8e60ecdfa268c4f28db616e99fd41ac4c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5019263423?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5019263595?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2425/display/redirect"
-      }
-    ],
-    "messageHeadline": "Update ci_qemu to v0.10 and Zephyr project generator for Zephyr 2.7 (\u2026"
   }
 ]
