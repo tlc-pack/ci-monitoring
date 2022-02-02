@@ -1,5 +1,47 @@
 [
   {
+    "oid": "8727c607f9e97d95a91792f82596a27dfe122c3d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5040977590?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5040977391?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2438/display/redirect"
+      }
+    ],
+    "messageHeadline": "[onnx] fix onnx where broadcast (#10106)"
+  },
+  {
+    "oid": "ded40653663882e08ff3376273b50b67315e8bde",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5040813842?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5040813756?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2437/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Misc] typo and nit fixes (#10145)"
+  },
+  {
     "oid": "cb3d7e2271d0decc633492ca9ad7440b2dd3d5db",
     "statuses": [
       {
@@ -25,7 +67,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5039495976?check_suite_focus=true"
       },
       {
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "[CI] Further open up Rust permissions (#10115)"
-  },
-  {
-    "oid": "187aeb5fe813c5bffc81e88ba890399ce7d53e1e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5015994718?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5015994854?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2423/display/redirect"
-      }
-    ],
-    "messageHeadline": "[AUTOTVM] Use opt level 3 when extracting tasks (#10065)"
-  },
-  {
-    "oid": "f9ddcdb3ae273e7582301fbd90632ccd7487c487",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5015990971?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5015991021?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2422/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Ansor] Improve OpenCL support (#10108)"
   }
 ]
