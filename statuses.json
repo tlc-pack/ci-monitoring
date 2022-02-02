@@ -1,10 +1,31 @@
 [
   {
-    "oid": "8727c607f9e97d95a91792f82596a27dfe122c3d",
+    "oid": "a91b518a6e55b309b115281ed45071925b78122f",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5042062104?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5042062029?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2439/display/redirect"
+      }
+    ],
+    "messageHeadline": "Add bot to ping reviewers after no activity (#9973)"
+  },
+  {
+    "oid": "8727c607f9e97d95a91792f82596a27dfe122c3d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5040977590?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Update ci_qemu to v0.10 and Zephyr project generator for Zephyr 2.7 (\u2026"
-  },
-  {
-    "oid": "8aff6f1f8faecdb899504f7241aa81db4d97a223",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5019233568?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5019233660?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2424/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Further open up Rust permissions (#10115)"
   }
 ]
