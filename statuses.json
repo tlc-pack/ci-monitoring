@@ -1,5 +1,26 @@
 [
   {
+    "oid": "565e6b4c174c8684a15df12918cc45515648c3dc",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5039495976?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5039495861?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2435/display/redirect"
+      }
+    ],
+    "messageHeadline": "Add more logging information to ReshapeLikeRel (#10125)"
+  },
+  {
     "oid": "efe662fe66fbbd186cc9af9dddf61f3fe200f6bb",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[LLVM,TIR] Print LLVM intrinsic names instead of ids (#9964)"
-  },
-  {
-    "oid": "daaa2ca857861f286d81201e5184b9528948c3c4",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5014050677?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5014050616?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2418/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Use Python 3.6 variant of pypa.io (#10114)"
   }
 ]
