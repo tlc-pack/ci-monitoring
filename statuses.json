@@ -1,5 +1,26 @@
 [
   {
+    "oid": "f2b7e82adf961019eeb4b1cdedc54041647f3092",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5057168972?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5057169067?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2450/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU][3] Plan generation for the cascader (#9890)"
+  },
+  {
     "oid": "9518b7eb3c5985953bb3509e7daecfb3354a5f19",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "Add more logging information to ReshapeLikeRel (#10125)"
-  },
-  {
-    "oid": "efe662fe66fbbd186cc9af9dddf61f3fe200f6bb",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5032132648?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5032132682?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2434/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay][Pass] Add a relay pass to extract fake quantized ops (#10089)"
   }
 ]
