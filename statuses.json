@@ -1,5 +1,26 @@
 [
   {
+    "oid": "e53cbe48ca307d14a2359c1f6fe15f4ccfa87c8f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5046067158?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5046067217?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2442/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix LayoutRewriter (#10118)"
+  },
+  {
     "oid": "8ce1b6c63b434b570355195871145ab6ea7e1c83",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[CUDA] Support float16 erf,tan,atan (#10122)"
-  },
-  {
-    "oid": "d576f3d340109a0b81e09619abf3ced79291b5b6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5024062044?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5024062215?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2426/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CMSIS-NN] Moved test_cnn_small to the latest version (#9962)"
   }
 ]
