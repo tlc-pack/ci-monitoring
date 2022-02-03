@@ -1,5 +1,26 @@
 [
   {
+    "oid": "455c02a833b56bf5c91908ce1bb64a835d797df1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5057610320?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5057610430?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2451/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMScript] Support T.buffer_decl using data pointer from Let/Allocat\u2026"
+  },
+  {
     "oid": "f2b7e82adf961019eeb4b1cdedc54041647f3092",
     "statuses": [
       {
@@ -72,7 +93,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5056699402?check_suite_focus=true"
       },
       {
@@ -93,7 +114,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5056627228?check_suite_focus=true"
       },
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[CMSIS-NN] Convert scalar constants to tensor constants (#10100)"
-  },
-  {
-    "oid": "565e6b4c174c8684a15df12918cc45515648c3dc",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5039495976?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5039495861?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2435/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add more logging information to ReshapeLikeRel (#10125)"
   }
 ]
