@@ -1,5 +1,26 @@
 [
   {
+    "oid": "f929b0fc8e7a600978c9ac0418469bd70d046446",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5056801604?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5056801728?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2448/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Runtime][PackedFunc] Bring `PackedFunc` into TVM Object System (#10032)"
+  },
+  {
     "oid": "506bc3c61f911e680c54d893c2812ee60c850c54",
     "statuses": [
       {
@@ -11,6 +32,11 @@
         "name": "CI / Windows",
         "status": "PENDING",
         "url": "https://github.com/apache/tvm/runs/5056699402?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2447/display/redirect"
       }
     ],
     "messageHeadline": "[microTVM][Zephyr] Update RVM to Zephyr 2.7 (#10138)"
@@ -277,26 +303,5 @@
       }
     ],
     "messageHeadline": "[AutoScheduler] Allow device specification for AutoScheduler Runners.\u2026"
-  },
-  {
-    "oid": "faf63f9ae01e0b7f7ad41ce3092a941751c7be64",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5029080337?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5029080411?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2432/display/redirect"
-      }
-    ],
-    "messageHeadline": "Update ethos-u-vela for demo app (#10129)"
   }
 ]
