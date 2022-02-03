@@ -1,5 +1,47 @@
 [
   {
+    "oid": "a8741e2d0f66437349738fdbb7c3da80704c6eab",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5059530399?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5059530435?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2453/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Fix layout assignment in layout optimizer pass (#10143)"
+  },
+  {
+    "oid": "87365934d4b1bd36c4f4aa3f7ea99b371fd8df4a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5059525160?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5059525212?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2452/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Update ci_arm and ci_lint (#10146)"
+  },
+  {
     "oid": "455c02a833b56bf5c91908ce1bb64a835d797df1",
     "statuses": [
       {
@@ -261,47 +303,5 @@
       }
     ],
     "messageHeadline": "[onnx] fix onnx where broadcast (#10106)"
-  },
-  {
-    "oid": "ded40653663882e08ff3376273b50b67315e8bde",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5040813842?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5040813756?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2437/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Misc] typo and nit fixes (#10145)"
-  },
-  {
-    "oid": "cb3d7e2271d0decc633492ca9ad7440b2dd3d5db",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5040228704?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5040228849?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2436/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CMSIS-NN] Convert scalar constants to tensor constants (#10100)"
   }
 ]
