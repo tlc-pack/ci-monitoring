@@ -1,5 +1,26 @@
 [
   {
+    "oid": "96416c4941df0ba292dcf2f7ddb35c8909860341",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5059668844?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5059668784?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2454/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR][Schedule] Update compact_dataflow constraint (#10158)"
+  },
+  {
     "oid": "a8741e2d0f66437349738fdbb7c3da80704c6eab",
     "statuses": [
       {
@@ -140,7 +161,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2447/display/redirect"
       }
     ],
@@ -161,7 +182,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2446/display/redirect"
       }
     ],
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "Add bot to ping reviewers after no activity (#9973)"
-  },
-  {
-    "oid": "8727c607f9e97d95a91792f82596a27dfe122c3d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5040977590?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5040977391?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2438/display/redirect"
-      }
-    ],
-    "messageHeadline": "[onnx] fix onnx where broadcast (#10106)"
   }
 ]
