@@ -1,5 +1,26 @@
 [
   {
+    "oid": "2e6702c133c6eccb569cfe06fea4b678f375e19e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5047514237?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5047514172?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2444/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Add support for transpose convolution (#9855)"
+  },
+  {
     "oid": "95e466e8434c311c5d70eaf267020544224958e7",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[Relay][VM] Fix loading late bound consts when none exist (#10087)"
-  },
-  {
-    "oid": "339f8886f42c408dbc55c1af5b5450519ffc8a79",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5025945379?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5025945166?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2428/display/redirect"
-      }
-    ],
-    "messageHeadline": "[USMP] Add performance characteristics to PoolInfo (#10005)"
   }
 ]
