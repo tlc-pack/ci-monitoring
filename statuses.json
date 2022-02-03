@@ -1,5 +1,42 @@
 [
   {
+    "oid": "506bc3c61f911e680c54d893c2812ee60c850c54",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5056699279?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5056699402?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[microTVM][Zephyr] Update RVM to Zephyr 2.7 (#10138)"
+  },
+  {
+    "oid": "d436a10afa4a79d3d23938af40f9f0561d53bae9",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5056627136?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5056627228?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2446/display/redirect"
+      }
+    ],
+    "messageHeadline": "fix corner case when relay return empty tuple (#10128)"
+  },
+  {
     "oid": "a45aa3e6cd24bb805b28550e8c55b8838ee217ff",
     "statuses": [
       {
@@ -261,47 +298,5 @@
       }
     ],
     "messageHeadline": "Update ethos-u-vela for demo app (#10129)"
-  },
-  {
-    "oid": "780f88a4253733bd4038d7a6ef9a3b496491bceb",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5028913366?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5028913454?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2431/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FIX,AUTOTVM] Add backtraces to tuning errors (#9901)"
-  },
-  {
-    "oid": "a1f51aa230d33bed831b65eec6e209733dbfec57",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5027883634?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5027883842?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2430/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CUTLASS] Conv2d dgrad (#10110)"
   }
 ]
