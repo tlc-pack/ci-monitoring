@@ -1,5 +1,26 @@
 [
   {
+    "oid": "6942b3660df3551a3a9a86c2faba834d366a2a7e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5067420735?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5067420851?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2460/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Pass] Simplify consecutive casts in Relay (#10133)"
+  },
+  {
     "oid": "cbf6468c392f5dc39dab2bfb2187490962f18f61",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "fix corner case when relay return empty tuple (#10128)"
-  },
-  {
-    "oid": "a45aa3e6cd24bb805b28550e8c55b8838ee217ff",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5050802061?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5050802193?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2445/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CMSIS-NN] Moved all asserts in tests under a single utils function (\u2026"
   }
 ]
