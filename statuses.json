@@ -1,5 +1,16 @@
 [
   {
+    "oid": "1821acbb4fd1a150b6b2690f508349b9eb1135ee",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2463/display/redirect"
+      }
+    ],
+    "messageHeadline": "[skip ci] Fail silently in ping_reviewers GitHub actions. (#10173)"
+  },
+  {
     "oid": "95aac9224eb5ef30ab5bb67471c1b6ddfd6e1d6e",
     "statuses": [
       {
@@ -9,7 +20,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5071681804?check_suite_focus=true"
       },
       {
@@ -292,26 +303,5 @@
       }
     ],
     "messageHeadline": " Remove javah support (#10104)"
-  },
-  {
-    "oid": "f929b0fc8e7a600978c9ac0418469bd70d046446",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5056801604?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5056801728?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2448/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Runtime][PackedFunc] Bring `PackedFunc` into TVM Object System (#10032)"
   }
 ]
