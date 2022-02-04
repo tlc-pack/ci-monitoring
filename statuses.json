@@ -1,5 +1,26 @@
 [
   {
+    "oid": "1b71caebce056f59bbbe8c895027e918c4bdf2b7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5073852558?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5073852495?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2464/display/redirect"
+      }
+    ],
+    "messageHeadline": "gitignore build-* folders (#10168)"
+  },
+  {
     "oid": "1821acbb4fd1a150b6b2690f508349b9eb1135ee",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[microNPU][3] Plan generation for the cascader (#9890)"
-  },
-  {
-    "oid": "9518b7eb3c5985953bb3509e7daecfb3354a5f19",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5057004728?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5057004801?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2449/display/redirect"
-      }
-    ],
-    "messageHeadline": " Remove javah support (#10104)"
   }
 ]
