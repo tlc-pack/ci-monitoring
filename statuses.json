@@ -1,5 +1,47 @@
 [
   {
+    "oid": "cbf6468c392f5dc39dab2bfb2187490962f18f61",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5064333390?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5064333207?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2459/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay] Align strided slice shape functions (#10155)"
+  },
+  {
+    "oid": "e94e83dfcd0ffe9985e088ec34774a74a839eea0",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5064182779?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5064182860?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2458/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Drop back to Ethos(TM)-N release 21.08 (#10157)"
+  },
+  {
     "oid": "bec72f126b5abb9a80e78695b2b32e8d2defe7c1",
     "statuses": [
       {
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "[CMSIS-NN] Moved all asserts in tests under a single utils function (\u2026"
-  },
-  {
-    "oid": "2e6702c133c6eccb569cfe06fea4b678f375e19e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5047514237?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5047514172?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2444/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Add support for transpose convolution (#9855)"
-  },
-  {
-    "oid": "95e466e8434c311c5d70eaf267020544224958e7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5046842877?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5046843068?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2443/display/redirect"
-      }
-    ],
-    "messageHeadline": "[BugFix] Linker: undefined reference to kTargetPoolReadWriteAccess (#\u2026"
   }
 ]
