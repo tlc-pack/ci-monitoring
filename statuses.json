@@ -1,5 +1,47 @@
 [
   {
+    "oid": "bec72f126b5abb9a80e78695b2b32e8d2defe7c1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5062589112?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5062589059?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2457/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Enable network tests for U65 256 mac variant (#10159)"
+  },
+  {
+    "oid": "0482cdca6c96f8c13fee891d4956cb0f510db11c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5062526724?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5062526676?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2456/display/redirect"
+      }
+    ],
+    "messageHeadline": "OpenCL debug runtime timer handler added. (#10140)"
+  },
+  {
     "oid": "cfc8db0ae542a58061b33d9e610f8968322173eb",
     "statuses": [
       {
@@ -271,37 +313,5 @@
       }
     ],
     "messageHeadline": "[BugFix] Linker: undefined reference to kTargetPoolReadWriteAccess (#\u2026"
-  },
-  {
-    "oid": "e53cbe48ca307d14a2359c1f6fe15f4ccfa87c8f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5046067158?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5046067217?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2442/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix LayoutRewriter (#10118)"
-  },
-  {
-    "oid": "8ce1b6c63b434b570355195871145ab6ea7e1c83",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2441/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci] Fix for ping_reviewers wait time (#10149)"
   }
 ]
