@@ -1,5 +1,26 @@
 [
   {
+    "oid": "cfc8db0ae542a58061b33d9e610f8968322173eb",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5061806859?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5061806878?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2455/display/redirect"
+      }
+    ],
+    "messageHeadline": "remove async tst (#10160)"
+  },
+  {
     "oid": "96416c4941df0ba292dcf2f7ddb35c8909860341",
     "statuses": [
       {
@@ -14,7 +35,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2454/display/redirect"
       }
     ],
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[skip ci] Fix for ping_reviewers wait time (#10149)"
-  },
-  {
-    "oid": "a91b518a6e55b309b115281ed45071925b78122f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5042062104?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5042062029?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2439/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add bot to ping reviewers after no activity (#9973)"
   }
 ]
