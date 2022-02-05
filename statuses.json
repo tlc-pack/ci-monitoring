@@ -1,5 +1,26 @@
 [
   {
+    "oid": "63377f2edb9e6eedba2cdb23f5c6edc895105ba5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5080093134?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5080093153?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2466/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix broadcast InferCorrectLayout (#10156)"
+  },
+  {
     "oid": "34d70dea0d72b28eee499b218651c14e8643cc22",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[CI] Update ci_arm and ci_lint (#10146)"
-  },
-  {
-    "oid": "455c02a833b56bf5c91908ce1bb64a835d797df1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5057610320?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5057610430?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2451/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] Support T.buffer_decl using data pointer from Let/Allocat\u2026"
   }
 ]
