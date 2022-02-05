@@ -1,5 +1,26 @@
 [
   {
+    "oid": "34d70dea0d72b28eee499b218651c14e8643cc22",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5079639247?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5079639238?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2465/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay][VM] Relay VM memory liveness/lifetime analysis (#10026)"
+  },
+  {
     "oid": "1b71caebce056f59bbbe8c895027e918c4bdf2b7",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[TVMScript] Support T.buffer_decl using data pointer from Let/Allocat\u2026"
-  },
-  {
-    "oid": "f2b7e82adf961019eeb4b1cdedc54041647f3092",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5057168972?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5057169067?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2450/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU][3] Plan generation for the cascader (#9890)"
   }
 ]
