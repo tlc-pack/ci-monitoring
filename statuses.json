@@ -1,5 +1,26 @@
 [
   {
+    "oid": "774df1d12d2c50a228c8142a364d7f39d0340e42",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5084419940?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5084419976?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2467/display/redirect"
+      }
+    ],
+    "messageHeadline": "TVMC: Don't divide trials by zero tasks (#10164)"
+  },
+  {
     "oid": "63377f2edb9e6eedba2cdb23f5c6edc895105ba5",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[microNPU] Fix layout assignment in layout optimizer pass (#10143)"
-  },
-  {
-    "oid": "87365934d4b1bd36c4f4aa3f7ea99b371fd8df4a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5059525160?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5059525212?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2452/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Update ci_arm and ci_lint (#10146)"
   }
 ]
