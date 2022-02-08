@@ -1,5 +1,26 @@
 [
   {
+    "oid": "51ee04bd8135b915ed3a7c22c5e1f61a40e93a20",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5104543462?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5104543501?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2471/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Canonical simplify the intset before region cover proof (#9941)"
+  },
+  {
     "oid": "7fd73b2663ae33d341ab09834f215285eb9bd136",
     "statuses": [
       {
@@ -272,26 +293,5 @@
       }
     ],
     "messageHeadline": "[microNPU] Enable network tests for U65 256 mac variant (#10159)"
-  },
-  {
-    "oid": "0482cdca6c96f8c13fee891d4956cb0f510db11c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5062526724?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5062526676?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2456/display/redirect"
-      }
-    ],
-    "messageHeadline": "OpenCL debug runtime timer handler added. (#10140)"
   }
 ]
