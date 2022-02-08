@@ -1,5 +1,26 @@
 [
   {
+    "oid": "35a7992fe20154b4da57ab1e9d3aa2585e9d9151",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5112630665?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5112630840?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2475/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CUTLASS] Add parallel split-k support to wgrad (#10185)"
+  },
+  {
     "oid": "470a1c7f2ee9e594e5d7fdc94d82995cc011ac15",
     "statuses": [
       {
@@ -272,26 +293,5 @@
       }
     ],
     "messageHeadline": "[Meta Schedule] Allow Non-strict Population Size in Evolutionary Sear\u2026"
-  },
-  {
-    "oid": "6942b3660df3551a3a9a86c2faba834d366a2a7e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5067420735?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5067420851?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2460/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Pass] Simplify consecutive casts in Relay (#10133)"
   }
 ]
