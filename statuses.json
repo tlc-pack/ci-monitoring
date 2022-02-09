@@ -1,5 +1,26 @@
 [
   {
+    "oid": "de8fdec35b1f6f63422fec75b53a029711d23d48",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5123168295?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5123168406?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2478/display/redirect"
+      }
+    ],
+    "messageHeadline": "[cleanup] Remove task_sphinx_precheck.sh (#10196)"
+  },
+  {
     "oid": "8c53f623155a1ec2e3b7c32b82cc46d6d0ca193e",
     "statuses": [
       {
@@ -282,16 +303,5 @@
       }
     ],
     "messageHeadline": "gitignore build-* folders (#10168)"
-  },
-  {
-    "oid": "1821acbb4fd1a150b6b2690f508349b9eb1135ee",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2463/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci] Fail silently in ping_reviewers GitHub actions. (#10173)"
   }
 ]
