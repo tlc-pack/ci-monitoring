@@ -1,5 +1,26 @@
 [
   {
+    "oid": "5e4e2393e26fa97f67e86ac3b42ea069a17bbaa4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5130403208?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5130403143?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2491/display/redirect"
+      }
+    ],
+    "messageHeadline": "[QNN] Lookup operations for hard to implement operators (#10053)"
+  },
+  {
     "oid": "1571112d5fa2829cc179d69ccad25a9445af8475",
     "statuses": [
       {
@@ -9,7 +30,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5129480963?check_suite_focus=true"
       },
       {
@@ -25,7 +46,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5129235139?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[TIR] Allow compute_at create block predicate for non-trivial bounds \u2026"
-  },
-  {
-    "oid": "824772489e514faf06025d7c09ce4dc13dcd7d08",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5113119247?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5113119359?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2476/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FQ2I] Add topk to FQ2I (#10170)"
   }
 ]
