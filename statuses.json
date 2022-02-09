@@ -1,5 +1,26 @@
 [
   {
+    "oid": "3b2780a4141b5654439c43dfc7c1409f9cb1858c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5132877212?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5132877064?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2492/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microTVM][Tutorials] Add tutorials to run on ci_qemu (#10154)"
+  },
+  {
     "oid": "5e4e2393e26fa97f67e86ac3b42ea069a17bbaa4",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[cleanup] Remove task_sphinx_precheck.sh (#10196)"
-  },
-  {
-    "oid": "8c53f623155a1ec2e3b7c32b82cc46d6d0ca193e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5119604698?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5119604804?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2477/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Allow compute_at create block predicate for non-trivial bounds \u2026"
   }
 ]
