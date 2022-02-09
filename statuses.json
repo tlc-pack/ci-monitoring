@@ -1,5 +1,26 @@
 [
   {
+    "oid": "b0783b079e644ee8a63dacf644e17245391df53a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5126654946?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5126654754?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2486/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMC] Add codegen args to tvmc (#10190)"
+  },
+  {
     "oid": "6ce7e594fdb47fa6d6ca8a9825ed29015d641cd9",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Support PyTorch grid_sample  (#10184)"
-  },
-  {
-    "oid": "51ee04bd8135b915ed3a7c22c5e1f61a40e93a20",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5104543462?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5104543501?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2471/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Canonical simplify the intset before region cover proof (#9941)"
   }
 ]
