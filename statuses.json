@@ -1,5 +1,47 @@
 [
   {
+    "oid": "8133048100e15764d45ba7f3065f812739dd4a94",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5125871877?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5125871736?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2483/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Fix quantization parameters in test (#10178)"
+  },
+  {
+    "oid": "e23999e24be16c23514ab620e1578835fa314525",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5125856820?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5125856681?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2482/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Torch] Run torch JIT pass lower_all_tuples before conversion. (#10186)"
+  },
+  {
     "oid": "86e1e5615977fa3a4d8c32685ef0d3178736e956",
     "statuses": [
       {
@@ -261,47 +303,5 @@
       }
     ],
     "messageHeadline": "[skip ci] Fix scipy intersphinx link (#10181)"
-  },
-  {
-    "oid": "22c488e3a829ad700de6547be6096fb2d1f02e81",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5088068802?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5088068853?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2468/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Add target field to MetaScheduleContext (#10169)"
-  },
-  {
-    "oid": "774df1d12d2c50a228c8142a364d7f39d0340e42",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5084419940?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5084419976?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2467/display/redirect"
-      }
-    ],
-    "messageHeadline": "TVMC: Don't divide trials by zero tasks (#10164)"
   }
 ]
