@@ -1,5 +1,26 @@
 [
   {
+    "oid": "2a1cc091ff45d63b44af3741f2c3c35e187a32b2",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5125979249?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5125979357?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2484/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Per-channel int8 quantization for conv2d (#10131)"
+  },
+  {
     "oid": "8133048100e15764d45ba7f3065f812739dd4a94",
     "statuses": [
       {
@@ -51,7 +72,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5124958842?check_suite_focus=true"
       },
       {
@@ -67,7 +88,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5124892329?check_suite_focus=true"
       },
       {
@@ -88,7 +109,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5124868968?check_suite_focus=true"
       },
       {
@@ -292,16 +313,5 @@
       }
     ],
     "messageHeadline": "[CUTLASS] Initial support for conv2d wgrad (#10177)"
-  },
-  {
-    "oid": "2ea2f5a8e05ef1698ffda6daab8960858a591441",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2469/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci] Fix scipy intersphinx link (#10181)"
   }
 ]
