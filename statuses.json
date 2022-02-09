@@ -1,15 +1,57 @@
 [
   {
-    "oid": "26a5d812ecbb703f5ad6156c160845ae183e6026",
+    "oid": "1571112d5fa2829cc179d69ccad25a9445af8475",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/5128185059?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/5129481040?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5129480963?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2490/display/redirect"
+      }
+    ],
+    "messageHeadline": "[USMP] Register hill climb algorithm (#10182)"
+  },
+  {
+    "oid": "69403f19db5fbb64a3e8c74c76d8b0fde124c123",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5129235139?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5129235261?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2489/display/redirect"
+      }
+    ],
+    "messageHeadline": "[OpenCL] Fix vthread_extent for warp size 1 case (#10199)"
+  },
+  {
+    "oid": "26a5d812ecbb703f5ad6156c160845ae183e6026",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5128185059?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5128185195?check_suite_focus=true"
       },
       {
@@ -161,7 +203,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2481/display/redirect"
       }
     ],
@@ -182,7 +224,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2480/display/redirect"
       }
     ],
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "[FQ2I] Add topk to FQ2I (#10170)"
-  },
-  {
-    "oid": "35a7992fe20154b4da57ab1e9d3aa2585e9d9151",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5112630665?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5112630840?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2475/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CUTLASS] Add parallel split-k support to wgrad (#10185)"
-  },
-  {
-    "oid": "470a1c7f2ee9e594e5d7fdc94d82995cc011ac15",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5105328448?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5105328494?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2474/display/redirect"
-      }
-    ],
-    "messageHeadline": "[BugFix][TVMScript] Use operator `is` when recognizing TIR Module (#1\u2026"
   }
 ]
