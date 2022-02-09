@@ -1,5 +1,26 @@
 [
   {
+    "oid": "26a5d812ecbb703f5ad6156c160845ae183e6026",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5128185059?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5128185195?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2488/display/redirect"
+      }
+    ],
+    "messageHeadline": "Add scripts for automated build and testing (#10194)"
+  },
+  {
     "oid": "4d2cc29085bb371b9f46edff277e9112133202e4",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[BugFix][TVMScript] Use operator `is` when recognizing TIR Module (#1\u2026"
-  },
-  {
-    "oid": "afa0870e11c1bec2fff773c0f05e1a65d0ca08d6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5105326028?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5105326134?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2473/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] bug fix ApplyHistoryBest. Previously, ApplyHistoryBest\u2026"
   }
 ]
