@@ -1,5 +1,68 @@
 [
   {
+    "oid": "86e1e5615977fa3a4d8c32685ef0d3178736e956",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5124958951?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5124958842?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2481/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Refactor type inference data type checks (#10060)"
+  },
+  {
+    "oid": "928236713d92837538bf5cf9ed4fdb76651d208b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5124892329?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5124892488?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2480/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Add support for pack and unpack (#9960)"
+  },
+  {
+    "oid": "345dc37a07042175ab07186a5a4bc14db372a20e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5124868968?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5124869122?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2479/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Add support for mean on Ethos-N78 (#10130)"
+  },
+  {
     "oid": "de8fdec35b1f6f63422fec75b53a029711d23d48",
     "statuses": [
       {
@@ -240,68 +303,5 @@
       }
     ],
     "messageHeadline": "TVMC: Don't divide trials by zero tasks (#10164)"
-  },
-  {
-    "oid": "63377f2edb9e6eedba2cdb23f5c6edc895105ba5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5080093134?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5080093153?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2466/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix broadcast InferCorrectLayout (#10156)"
-  },
-  {
-    "oid": "34d70dea0d72b28eee499b218651c14e8643cc22",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5079639247?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5079639238?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2465/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay][VM] Relay VM memory liveness/lifetime analysis (#10026)"
-  },
-  {
-    "oid": "1b71caebce056f59bbbe8c895027e918c4bdf2b7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5073852558?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5073852495?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2464/display/redirect"
-      }
-    ],
-    "messageHeadline": "gitignore build-* folders (#10168)"
   }
 ]
