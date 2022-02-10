@@ -1,5 +1,26 @@
 [
   {
+    "oid": "09f7be28a1ed7e629ddc0c9fcf19d4feace05dd4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5140930972?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5140931085?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2498/display/redirect"
+      }
+    ],
+    "messageHeadline": "Implementation of Common Subexpression Elimination for TIR (#9482)"
+  },
+  {
     "oid": "222152b6a2e920cdf394a83182ff938530c52c7d",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[ETHOSN] Per-channel int8 quantization for conv2d (#10131)"
-  },
-  {
-    "oid": "8133048100e15764d45ba7f3065f812739dd4a94",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5125871877?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5125871736?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2483/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ETHOSN] Fix quantization parameters in test (#10178)"
   }
 ]
