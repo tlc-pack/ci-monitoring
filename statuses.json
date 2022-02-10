@@ -1,5 +1,26 @@
 [
   {
+    "oid": "222152b6a2e920cdf394a83182ff938530c52c7d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5138954939?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5138955191?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2497/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Add more details when showing node info (#10195)"
+  },
+  {
     "oid": "7a00843d146a5f975efc6e98e64e614e771a4885",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[ETHOSN] Fix quantization parameters in test (#10178)"
-  },
-  {
-    "oid": "e23999e24be16c23514ab620e1578835fa314525",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5125856820?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5125856681?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2482/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Torch] Run torch JIT pass lower_all_tuples before conversion. (#10186)"
   }
 ]
