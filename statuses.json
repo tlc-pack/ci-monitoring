@@ -1,5 +1,26 @@
 [
   {
+    "oid": "cdd494ad34547fb73e47dfbf5b64566205186400",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5148206157?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5148206222?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2501/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Invoke tensorflow tests individually (#10198)"
+  },
+  {
     "oid": "61b66cd112960ff27972008b5b62d68822719966",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[CMSIS-NN] Fix extension detection for CPUs (#10200)"
-  },
-  {
-    "oid": "b0783b079e644ee8a63dacf644e17245391df53a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5126654946?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5126654754?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2486/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMC] Add codegen args to tvmc (#10190)"
   }
 ]
