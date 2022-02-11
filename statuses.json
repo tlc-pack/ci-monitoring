@@ -1,5 +1,26 @@
 [
   {
+    "oid": "46547186366a1740dfa54ded18033f09d06d7ef5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5152060344?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5152060377?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2503/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Use TFLite tests for strided_slice (#10165)"
+  },
+  {
     "oid": "146cdc2a8a4025fbc35972d383787551576de81d",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[OpenCL] Fix vthread_extent for warp size 1 case (#10199)"
-  },
-  {
-    "oid": "26a5d812ecbb703f5ad6156c160845ae183e6026",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5128185059?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5128185195?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2488/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add scripts for automated build and testing (#10194)"
   }
 ]
