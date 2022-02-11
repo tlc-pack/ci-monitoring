@@ -1,5 +1,26 @@
 [
   {
+    "oid": "2ac6cfe41cc67caf427cbab77ede0643d5b01188",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5155538471?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5155538555?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2505/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix more ONNX URLs (#10220)"
+  },
+  {
     "oid": "8aeb722654b1a97657763a657c5a9bf41d8cf74c",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[QNN] Lookup operations for hard to implement operators (#10053)"
-  },
-  {
-    "oid": "1571112d5fa2829cc179d69ccad25a9445af8475",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5129481040?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5129480963?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2490/display/redirect"
-      }
-    ],
-    "messageHeadline": "[USMP] Register hill climb algorithm (#10182)"
   }
 ]
