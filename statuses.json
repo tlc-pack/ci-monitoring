@@ -1,5 +1,26 @@
 [
   {
+    "oid": "c20cbc55c03f9f048b151a1221469b9888123608",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5158774752?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5158774960?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2506/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fixes for follow up on PR #9631 (#10205)"
+  },
+  {
     "oid": "2ac6cfe41cc67caf427cbab77ede0643d5b01188",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[microTVM][Tutorials] Add tutorials to run on ci_qemu (#10154)"
-  },
-  {
-    "oid": "5e4e2393e26fa97f67e86ac3b42ea069a17bbaa4",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5130403208?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5130403143?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2491/display/redirect"
-      }
-    ],
-    "messageHeadline": "[QNN] Lookup operations for hard to implement operators (#10053)"
   }
 ]
