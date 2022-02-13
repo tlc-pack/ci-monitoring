@@ -1,5 +1,47 @@
 [
   {
+    "oid": "7396be5645fa59cb10ae8ee14b718dbf7737390b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5172395412?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5172395430?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2511/display/redirect"
+      }
+    ],
+    "messageHeadline": "Mark test_op_int8 as flaky (#10215)"
+  },
+  {
+    "oid": "947841f10a042e36071020c0fb6846fa45124500",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5172393316?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5172393298?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2510/display/redirect"
+      }
+    ],
+    "messageHeadline": "\"Resolved deprecation issue in test_op_qnn_conv2_transpose.py\" (#10228)"
+  },
+  {
     "oid": "77fcd1455d49f8069387147d3f799352e384eda3",
     "statuses": [
       {
@@ -261,47 +303,5 @@
       }
     ],
     "messageHeadline": "[ci] Add more details when showing node info (#10195)"
-  },
-  {
-    "oid": "7a00843d146a5f975efc6e98e64e614e771a4885",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5138585848?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5138585967?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2496/display/redirect"
-      }
-    ],
-    "messageHeadline": "[RPC] Add Missing Command Line Option \"through-proxy\" of RPC Server (\u2026"
-  },
-  {
-    "oid": "e50a923671905f59bd34bd2146e0cfee477242df",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5138280348?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5138280461?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2495/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add FreeRTOS variant of NPU demo (#10004)"
   }
 ]
