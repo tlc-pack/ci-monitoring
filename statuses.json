@@ -1,5 +1,26 @@
 [
   {
+    "oid": "55849e651e3dff6cffeb7fd14aa89699e9575d10",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5181725009?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5181725158?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2513/display/redirect"
+      }
+    ],
+    "messageHeadline": "[USMP] adding support for U2 and U3 usecases (#10193)"
+  },
+  {
     "oid": "bb60ee96c01ab911b1ad10ab5af6c3979fd5de16",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[Conda] Fix a compatibility bug in conda scripts (#10201)"
-  },
-  {
-    "oid": "09f7be28a1ed7e629ddc0c9fcf19d4feace05dd4",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5140930972?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5140931085?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2498/display/redirect"
-      }
-    ],
-    "messageHeadline": "Implementation of Common Subexpression Elimination for TIR (#9482)"
   }
 ]
