@@ -1,5 +1,26 @@
 [
   {
+    "oid": "ac9bf1fb8f67c61f1f8005ae0064b9acd924f4ea",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5185099437?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5185099625?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2514/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMC] Add configuration `tir.add_lower_pass` to option `--pass-confi\u2026"
+  },
+  {
     "oid": "55849e651e3dff6cffeb7fd14aa89699e9575d10",
     "statuses": [
       {
@@ -14,7 +35,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2513/display/redirect"
       }
     ],
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "PackedFunction to return params from the .so module, show warning whe\u2026"
-  },
-  {
-    "oid": "7c22f3fb945a8a3b629562b32c77d3e0a174c5d4",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5142055418?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5142055245?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2499/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Conda] Fix a compatibility bug in conda scripts (#10201)"
   }
 ]
