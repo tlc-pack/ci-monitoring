@@ -1,5 +1,42 @@
 [
   {
+    "oid": "2a840a37d59cdada611bb1e840c775c85bcfc01a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5185364412?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5185364540?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Refactor Hexagon.cmake (#10227)"
+  },
+  {
+    "oid": "ce45f268c9ecdc4f9ce6ceef585213f05859f178",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5185316363?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5185316522?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2515/display/redirect"
+      }
+    ],
+    "messageHeadline": "add a simplify rule for floordiv(x*8+7, 16) => floordiv(x, 2) (#10232)"
+  },
+  {
     "oid": "ac9bf1fb8f67c61f1f8005ae0064b9acd924f4ea",
     "statuses": [
       {
@@ -261,47 +298,5 @@
       }
     ],
     "messageHeadline": "[skip ci] Fix onnx/models URLs (#10218)"
-  },
-  {
-    "oid": "cdd494ad34547fb73e47dfbf5b64566205186400",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5148206157?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5148206222?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2501/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Invoke tensorflow tests individually (#10198)"
-  },
-  {
-    "oid": "61b66cd112960ff27972008b5b62d68822719966",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5143955909?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5143955745?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2500/display/redirect"
-      }
-    ],
-    "messageHeadline": "PackedFunction to return params from the .so module, show warning whe\u2026"
   }
 ]
