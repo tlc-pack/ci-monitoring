@@ -1,5 +1,21 @@
 [
   {
+    "oid": "2b00835d588c91e6203d6137f72593573caf297a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5203629425?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5203629587?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[Relay] Make DeviceAnalyzer a mixed mode visitor (#10248)"
+  },
+  {
     "oid": "0009a308d82a321f2399923ab14b4c088461b4f2",
     "statuses": [
       {
@@ -287,26 +303,5 @@
       }
     ],
     "messageHeadline": "Skip tensorflow test `test_forward_ssd` (#10231)"
-  },
-  {
-    "oid": "8c125ca6090a29f38a66d26138b056b7de27cb0b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5163799423?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5163799477?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2508/display/redirect"
-      }
-    ],
-    "messageHeadline": "[RPC] Take PageAllocator out of MinRPCServer, make it template parame\u2026"
   }
 ]
