@@ -1,5 +1,26 @@
 [
   {
+    "oid": "6de8fea475ed0d15d8659978fc89510b45d05d6a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5206685287?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5206685376?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2523/display/redirect"
+      }
+    ],
+    "messageHeadline": "add back supported tests (#10116)"
+  },
+  {
     "oid": "2b00835d588c91e6203d6137f72593573caf297a",
     "statuses": [
       {
@@ -287,26 +308,5 @@
       }
     ],
     "messageHeadline": "\"Resolved deprecation issue in test_op_qnn_conv2_transpose.py\" (#10228)"
-  },
-  {
-    "oid": "77fcd1455d49f8069387147d3f799352e384eda3",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5165669350?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5165669329?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2509/display/redirect"
-      }
-    ],
-    "messageHeadline": "Skip tensorflow test `test_forward_ssd` (#10231)"
   }
 ]
