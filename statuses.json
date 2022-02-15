@@ -1,5 +1,47 @@
 [
   {
+    "oid": "de73b99f7250721e3862801de8a7a1f7c6f11c5a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5193649629?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5193649678?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2518/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Torch] Fix conv2d transpose with group (#10235)"
+  },
+  {
+    "oid": "be176974a03b6f7e69fee2186f3847d9c092c546",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5193458421?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5193458361?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2517/display/redirect"
+      }
+    ],
+    "messageHeadline": "clean up conv2d type rels (#10236)"
+  },
+  {
     "oid": "2a840a37d59cdada611bb1e840c775c85bcfc01a",
     "statuses": [
       {
@@ -271,37 +313,5 @@
       }
     ],
     "messageHeadline": "fix an index out of bound problem of cache write block (#10203)"
-  },
-  {
-    "oid": "46547186366a1740dfa54ded18033f09d06d7ef5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5152060344?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5152060377?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2503/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Use TFLite tests for strided_slice (#10165)"
-  },
-  {
-    "oid": "146cdc2a8a4025fbc35972d383787551576de81d",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2502/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci] Fix onnx/models URLs (#10218)"
   }
 ]
