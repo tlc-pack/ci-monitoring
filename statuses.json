@@ -1,5 +1,84 @@
 [
   {
+    "oid": "0009a308d82a321f2399923ab14b4c088461b4f2",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5194602203?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5194602294?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2521/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TOPI] VNNI support for int8 dense (#10230)"
+  },
+  {
+    "oid": "a1d8f7251c4a01419d4cb342f88e63831d72cb10",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5194594921?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5194594954?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2520/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix a lint issue. (#10245)"
+  },
+  {
+    "oid": "b9fc7a84a31469c2db05ec4b8f0297d224311230",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5194594085?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5194594114?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[Tir]Adding detail error messages when MatchCopyPattern function is f\u2026"
+  },
+  {
+    "oid": "e13110f217dfdce04566d62999d07fdcd1ed1b72",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5194584781?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5194584668?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2519/display/redirect"
+      }
+    ],
+    "messageHeadline": "Support sub warp reduction for CUDA target. (#10207)"
+  },
+  {
     "oid": "de73b99f7250721e3862801de8a7a1f7c6f11c5a",
     "statuses": [
       {
@@ -229,89 +308,5 @@
       }
     ],
     "messageHeadline": "[RPC] Take PageAllocator out of MinRPCServer, make it template parame\u2026"
-  },
-  {
-    "oid": "6dece184bfa851fb740f87dfd01f78a9e7634282",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5163795102?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5163795175?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2507/display/redirect"
-      }
-    ],
-    "messageHeadline": "Adding support for Hexagon User DMA Engine (#10217)"
-  },
-  {
-    "oid": "c20cbc55c03f9f048b151a1221469b9888123608",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5158774752?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5158774960?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2506/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fixes for follow up on PR #9631 (#10205)"
-  },
-  {
-    "oid": "2ac6cfe41cc67caf427cbab77ede0643d5b01188",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5155538471?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5155538555?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2505/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix more ONNX URLs (#10220)"
-  },
-  {
-    "oid": "8aeb722654b1a97657763a657c5a9bf41d8cf74c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5152344861?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5152344798?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2504/display/redirect"
-      }
-    ],
-    "messageHeadline": "fix an index out of bound problem of cache write block (#10203)"
   }
 ]
