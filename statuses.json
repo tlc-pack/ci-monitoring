@@ -1,5 +1,89 @@
 [
   {
+    "oid": "47ca5fa502f212c13a9ad617680dccc9c0643097",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5222927096?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5222927161?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2530/display/redirect"
+      }
+    ],
+    "messageHeadline": "Gitignore work items in jvm and android_rpc (#10253)"
+  },
+  {
+    "oid": "a730d06a6347e3f7530243d1704a76e5a55878f9",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5222918136?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5222918222?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2529/display/redirect"
+      }
+    ],
+    "messageHeadline": "[RPC] Link in whole archive with BUILD_STATIC_RUNTIME (#10260)"
+  },
+  {
+    "oid": "39c34757c9acbfc9d56928a9aa069bd7cf4f85c9",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5222899595?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5222899674?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2528/display/redirect"
+      }
+    ],
+    "messageHeadline": "Add one extra space to improve diagnostic messages (#10268)"
+  },
+  {
+    "oid": "b1206b66e2b125180270548522acea0a393d59e6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5222896000?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5222895922?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2527/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Don't use cmake glob for auto-generated source files (#10259)"
+  },
+  {
     "oid": "b16e230654847f06a4713de60208692bb8da99a6",
     "statuses": [
       {
@@ -25,12 +109,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5221887652?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5221887537?check_suite_focus=true"
       },
       {
@@ -224,89 +308,5 @@
       }
     ],
     "messageHeadline": "clean up conv2d type rels (#10236)"
-  },
-  {
-    "oid": "2a840a37d59cdada611bb1e840c775c85bcfc01a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5185364412?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5185364540?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2516/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Refactor Hexagon.cmake (#10227)"
-  },
-  {
-    "oid": "ce45f268c9ecdc4f9ce6ceef585213f05859f178",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5185316363?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5185316522?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2515/display/redirect"
-      }
-    ],
-    "messageHeadline": "add a simplify rule for floordiv(x*8+7, 16) => floordiv(x, 2) (#10232)"
-  },
-  {
-    "oid": "ac9bf1fb8f67c61f1f8005ae0064b9acd924f4ea",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5185099437?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5185099625?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2514/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMC] Add configuration `tir.add_lower_pass` to option `--pass-confi\u2026"
-  },
-  {
-    "oid": "55849e651e3dff6cffeb7fd14aa89699e9575d10",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5181725009?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5181725158?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2513/display/redirect"
-      }
-    ],
-    "messageHeadline": "[USMP] adding support for U2 and U3 usecases (#10193)"
   }
 ]
