@@ -1,5 +1,26 @@
 [
   {
+    "oid": "646d1558299c86dd9f2a5f02e0cdc9187b9490d5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5221887652?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5221887537?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2525/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix JUnit failure reporting (#10121)"
+  },
+  {
     "oid": "64e94abcbb9578bf2ace2e6e1e1e618bd09d2605",
     "statuses": [
       {
@@ -287,26 +308,5 @@
       }
     ],
     "messageHeadline": "[PyTorch] add var_mean support (#10233)"
-  },
-  {
-    "oid": "7396be5645fa59cb10ae8ee14b718dbf7737390b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5172395412?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5172395430?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2511/display/redirect"
-      }
-    ],
-    "messageHeadline": "Mark test_op_int8 as flaky (#10215)"
   }
 ]
