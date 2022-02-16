@@ -1,5 +1,26 @@
 [
   {
+    "oid": "75122db551c13f5c0ac7143080a75ff7f427b331",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5222965966?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5222966042?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2531/display/redirect"
+      }
+    ],
+    "messageHeadline": "fix RPC waiting for device (#10255)"
+  },
+  {
     "oid": "47ca5fa502f212c13a9ad617680dccc9c0643097",
     "statuses": [
       {
@@ -287,26 +308,5 @@
       }
     ],
     "messageHeadline": "[Torch] Fix conv2d transpose with group (#10235)"
-  },
-  {
-    "oid": "be176974a03b6f7e69fee2186f3847d9c092c546",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5193458421?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5193458361?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2517/display/redirect"
-      }
-    ],
-    "messageHeadline": "clean up conv2d type rels (#10236)"
   }
 ]
