@@ -1,5 +1,26 @@
 [
   {
+    "oid": "64e94abcbb9578bf2ace2e6e1e1e618bd09d2605",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5208921139?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5208921178?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2524/display/redirect"
+      }
+    ],
+    "messageHeadline": "[QNN] Register a bunch of unary elementwise ops (#10086)"
+  },
+  {
     "oid": "6de8fea475ed0d15d8659978fc89510b45d05d6a",
     "statuses": [
       {
@@ -287,26 +308,5 @@
       }
     ],
     "messageHeadline": "Mark test_op_int8 as flaky (#10215)"
-  },
-  {
-    "oid": "947841f10a042e36071020c0fb6846fa45124500",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5172393316?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5172393298?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2510/display/redirect"
-      }
-    ],
-    "messageHeadline": "\"Resolved deprecation issue in test_op_qnn_conv2_transpose.py\" (#10228)"
   }
 ]
