@@ -1,5 +1,26 @@
 [
   {
+    "oid": "7f249545c792f70a48894b4ecc0f76d195264789",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5237610423?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5237610565?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2541/display/redirect"
+      }
+    ],
+    "messageHeadline": "Add a conversion of individual operations in FQ2I pass. (#10239)"
+  },
+  {
     "oid": "c54a3dd6999ead14fd118e6d84f2b64a1ecf3b9d",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Don't use cmake glob for auto-generated source files (#10259)"
-  },
-  {
-    "oid": "b16e230654847f06a4713de60208692bb8da99a6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5222575835?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5222575725?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2526/display/redirect"
-      }
-    ],
-    "messageHeadline": "[BUGFIX] Define kTargetPoolReadWriteAccess globally (#10262)"
   }
 ]
