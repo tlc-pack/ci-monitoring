@@ -1,10 +1,31 @@
 [
   {
-    "oid": "f983769c59935b18d106d7fa07e98bf22175b341",
+    "oid": "a713356e783fdeb06894f7170295ad18fb4d3a8e",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5226323666?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5226323704?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2536/display/redirect"
+      }
+    ],
+    "messageHeadline": "[VTA] Search for libvta_fsim.so in $TVM_LIBRARY_PATH (#10278)"
+  },
+  {
+    "oid": "f983769c59935b18d106d7fa07e98bf22175b341",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5225767150?check_suite_focus=true"
       },
       {
@@ -30,7 +51,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5225763235?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Relay] Make DeviceAnalyzer a mixed mode visitor (#10248)"
-  },
-  {
-    "oid": "0009a308d82a321f2399923ab14b4c088461b4f2",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5194602203?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5194602294?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2521/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TOPI] VNNI support for int8 dense (#10230)"
   }
 ]
