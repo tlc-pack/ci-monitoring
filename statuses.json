@@ -1,5 +1,26 @@
 [
   {
+    "oid": "47c23517f1152ba52aeb0b7b8d4b93f9956c4016",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5239705163?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5239705826?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2543/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Docker][Hexagon] Add docker file and scripts (#10263)"
+  },
+  {
     "oid": "bd152f754ddc5e1385b8217310928d0f798551da",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[RPC] Link in whole archive with BUILD_STATIC_RUNTIME (#10260)"
-  },
-  {
-    "oid": "39c34757c9acbfc9d56928a9aa069bd7cf4f85c9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5222899595?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5222899674?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2528/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add one extra space to improve diagnostic messages (#10268)"
   }
 ]
