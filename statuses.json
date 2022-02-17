@@ -1,5 +1,26 @@
 [
   {
+    "oid": "f583a700ae0047d52a957f593e9b38582f414e1f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5227117450?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5227117487?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2537/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BUGFIX] fix text printer when TVM_LOG_DEBUG is on (#10279)"
+  },
+  {
     "oid": "a713356e783fdeb06894f7170295ad18fb4d3a8e",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "add back supported tests (#10116)"
-  },
-  {
-    "oid": "2b00835d588c91e6203d6137f72593573caf297a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5203629425?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5203629587?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2522/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay] Make DeviceAnalyzer a mixed mode visitor (#10248)"
   }
 ]
