@@ -1,5 +1,26 @@
 [
   {
+    "oid": "93cbadb75dd65cca2544d2a91eb36c85969688c9",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5228126315?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5228126375?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2538/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Add support for LeakyReLU (#10127)"
+  },
+  {
     "oid": "f583a700ae0047d52a957f593e9b38582f414e1f",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[QNN] Register a bunch of unary elementwise ops (#10086)"
-  },
-  {
-    "oid": "6de8fea475ed0d15d8659978fc89510b45d05d6a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5206685287?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5206685376?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2523/display/redirect"
-      }
-    ],
-    "messageHeadline": "add back supported tests (#10116)"
   }
 ]
