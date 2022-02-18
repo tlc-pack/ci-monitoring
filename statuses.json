@@ -1,15 +1,57 @@
 [
   {
-    "oid": "da02c858fc9f4d66438ba3a96d9b038705185772",
+    "oid": "dace8b72e3a8173704a689a7074df4c6f36bda4a",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/5252162927?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/5252891641?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5252891686?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2558/display/redirect"
+      }
+    ],
+    "messageHeadline": "update (#10306)"
+  },
+  {
+    "oid": "9c0e9a02535ec4ce4135d11ac799bdbf11ca3345",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5252886568?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5252886650?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2557/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Fix getting/setting DMA state (#10288)"
+  },
+  {
+    "oid": "da02c858fc9f4d66438ba3a96d9b038705185772",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5252162927?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5252162848?check_suite_focus=true"
       },
       {
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "[ci] Mark `test_autotune_conv2d` flaky (#10298)"
-  },
-  {
-    "oid": "47c23517f1152ba52aeb0b7b8d4b93f9956c4016",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5239705163?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5239705826?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2543/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Docker][Hexagon] Add docker file and scripts (#10263)"
-  },
-  {
-    "oid": "bd152f754ddc5e1385b8217310928d0f798551da",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5237948610?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5237948702?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2542/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CMake] add support for find_package (#10097)"
   }
 ]
