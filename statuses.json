@@ -1,15 +1,36 @@
 [
   {
-    "oid": "dace8b72e3a8173704a689a7074df4c6f36bda4a",
+    "oid": "2c0a7c2a7e1df8203c14e4f0326a99aeaceb967a",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/5252891641?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/5253720040?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5253720098?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2559/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TOPI] Add support for groupped conv3d (#9873)"
+  },
+  {
+    "oid": "dace8b72e3a8173704a689a7074df4c6f36bda4a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5252891641?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5252891686?check_suite_focus=true"
       },
       {
@@ -25,12 +46,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5252886568?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5252886650?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[TIR] Add software pipelining (#10066)"
-  },
-  {
-    "oid": "4b3cb499977fd5a088c105a8bb03a8b45133bf9a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5242970935?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5242970899?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2544/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Mark `test_autotune_conv2d` flaky (#10298)"
   }
 ]
