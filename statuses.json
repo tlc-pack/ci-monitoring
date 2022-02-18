@@ -1,5 +1,26 @@
 [
   {
+    "oid": "4b3cb499977fd5a088c105a8bb03a8b45133bf9a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5242970935?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5242970899?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2544/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Mark `test_autotune_conv2d` flaky (#10298)"
+  },
+  {
     "oid": "47c23517f1152ba52aeb0b7b8d4b93f9956c4016",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Gitignore work items in jvm and android_rpc (#10253)"
-  },
-  {
-    "oid": "a730d06a6347e3f7530243d1704a76e5a55878f9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5222918136?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5222918222?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2529/display/redirect"
-      }
-    ],
-    "messageHeadline": "[RPC] Link in whole archive with BUILD_STATIC_RUNTIME (#10260)"
   }
 ]
