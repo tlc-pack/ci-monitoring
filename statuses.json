@@ -1,5 +1,26 @@
 [
   {
+    "oid": "316c5065d44802db4c8b35ab9bd9957b31c05abc",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5243680909?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5243680973?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2545/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Add software pipelining (#10066)"
+  },
+  {
     "oid": "4b3cb499977fd5a088c105a8bb03a8b45133bf9a",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "fix RPC waiting for device (#10255)"
-  },
-  {
-    "oid": "47ca5fa502f212c13a9ad617680dccc9c0643097",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5222927096?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5222927161?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2530/display/redirect"
-      }
-    ],
-    "messageHeadline": "Gitignore work items in jvm and android_rpc (#10253)"
   }
 ]
