@@ -1,15 +1,36 @@
 [
   {
-    "oid": "f3ea291ba991ca8fab9d798726205b40112f0d09",
+    "oid": "da02c858fc9f4d66438ba3a96d9b038705185772",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/5251232273?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/5252162927?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5252162848?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2556/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Update CPU image to v0.81 (#10305)"
+  },
+  {
+    "oid": "f3ea291ba991ca8fab9d798726205b40112f0d09",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5251232273?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5251232389?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[CMake] add support for find_package (#10097)"
-  },
-  {
-    "oid": "7f249545c792f70a48894b4ecc0f76d195264789",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5237610423?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5237610565?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2541/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add a conversion of individual operations in FQ2I pass. (#10239)"
   }
 ]
