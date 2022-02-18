@@ -1,5 +1,26 @@
 [
   {
+    "oid": "ffd517ad6ea2d9a558a8228ab6650de73ed87839",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5247923489?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5247923355?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2554/display/redirect"
+      }
+    ],
+    "messageHeadline": "[UnitTest] Disable ptx mma tests on unsupported nvcc versions. (#10229)"
+  },
+  {
     "oid": "81e4eafafa0249c69964aacb7f2e7e526d8a031c",
     "statuses": [
       {
@@ -35,7 +56,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2552/display/redirect"
       }
     ],
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Use `/usr/bin/env bash` in shebang for all scripts under tests (#10277)"
-  },
-  {
-    "oid": "db06b959f86f98ec5ca03040a10d9c0310c0f1f9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5228982869?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5228982930?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2539/display/redirect"
-      }
-    ],
-    "messageHeadline": "update dnnl version from v1.5 to v2.2 (#10266)"
   }
 ]
