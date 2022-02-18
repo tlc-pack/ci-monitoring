@@ -1,5 +1,26 @@
 [
   {
+    "oid": "f3ea291ba991ca8fab9d798726205b40112f0d09",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5251232273?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5251232389?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2555/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR][Schedule] simpilfy compute_at static bound (#10307)"
+  },
+  {
     "oid": "ffd517ad6ea2d9a558a8228ab6650de73ed87839",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Add a conversion of individual operations in FQ2I pass. (#10239)"
-  },
-  {
-    "oid": "c54a3dd6999ead14fd118e6d84f2b64a1ecf3b9d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5229392300?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5229392175?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2540/display/redirect"
-      }
-    ],
-    "messageHeadline": "Use `/usr/bin/env bash` in shebang for all scripts under tests (#10277)"
   }
 ]
