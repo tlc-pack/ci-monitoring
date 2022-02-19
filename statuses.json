@@ -1,15 +1,36 @@
 [
   {
-    "oid": "6591cbad2dffef101777a1f0ae1d04dc1f7a6b69",
+    "oid": "cae26807feef5f11db3aa415e6c6a8ad6d962c54",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/5254447181?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/5255158289?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5255158165?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2561/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay] [Virtual Device] Store function result virtual device in virt\u2026"
+  },
+  {
+    "oid": "6591cbad2dffef101777a1f0ae1d04dc1f7a6b69",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5254447181?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5254447132?check_suite_focus=true"
       },
       {
@@ -56,7 +77,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2558/display/redirect"
       }
     ],
@@ -77,7 +98,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2557/display/redirect"
       }
     ],
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Add -i option to fix ASF headers to lint scripts. (#10284)"
-  },
-  {
-    "oid": "d716c2ae9c15e4691c2deeb91e44aa3dff4011b6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5244073241?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5244073349?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2546/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FQ2I] Add support for some unary operators (#10273)"
   }
 ]
