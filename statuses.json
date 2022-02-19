@@ -1,15 +1,57 @@
 [
   {
-    "oid": "cae26807feef5f11db3aa415e6c6a8ad6d962c54",
+    "oid": "b445d66489019b53ecc07fa75ebad6f130e18cca",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/5255158289?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/5255458880?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5255458921?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2563/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Disable flaky cmsisnn tests (#10315)"
+  },
+  {
+    "oid": "6bce2c5532444f685ad9bac86dcaa203527497fb",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5255457247?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5255457302?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2562/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Disable flaky microTVM tests (#10313)"
+  },
+  {
+    "oid": "cae26807feef5f11db3aa415e6c6a8ad6d962c54",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5255158289?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5255158165?check_suite_focus=true"
       },
       {
@@ -56,7 +98,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2559/display/redirect"
       }
     ],
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Remember to add common sources when building TVMRT for Hexa\u2026"
-  },
-  {
-    "oid": "ca7596f1ff57bc5ec42e494e25b7a9bb0808b195",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5244084862?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5244084934?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2548/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Pass kDLHexagon device when allocating workspace pool on He\u2026"
-  },
-  {
-    "oid": "783add2068f5b4433ea8be2b8675a122a556e6fe",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5244076651?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5244076593?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2547/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add -i option to fix ASF headers to lint scripts. (#10284)"
   }
 ]
