@@ -1,5 +1,68 @@
 [
   {
+    "oid": "7d831e1dd34d441e9217096d0baf78e6f97c77d9",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5272585730?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5272585852?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2569/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Add auto-updating `last-successful` branch (#10056)"
+  },
+  {
+    "oid": "81df1519356f53b45120742e325f00772b362038",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5272549784?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5272549587?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2568/display/redirect"
+      }
+    ],
+    "messageHeadline": "Generate correct output tensor names in C Interface API (#10191)"
+  },
+  {
+    "oid": "3ffef3dcafcfd68ffb816c6151d3082d4e8dc6a5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5272532516?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5272532755?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2567/display/redirect"
+      }
+    ],
+    "messageHeadline": "[docker] Update CI to Python 3.7 and Ubuntu 18 (#10247)"
+  },
+  {
     "oid": "d65ff6594d4d6db0062537a1d43c0504173b8e5c",
     "statuses": [
       {
@@ -250,68 +313,5 @@
       }
     ],
     "messageHeadline": "[TIR][Schedule] simpilfy compute_at static bound (#10307)"
-  },
-  {
-    "oid": "ffd517ad6ea2d9a558a8228ab6650de73ed87839",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5247923489?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5247923355?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2554/display/redirect"
-      }
-    ],
-    "messageHeadline": "[UnitTest] Disable ptx mma tests on unsupported nvcc versions. (#10229)"
-  },
-  {
-    "oid": "81e4eafafa0249c69964aacb7f2e7e526d8a031c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5244101616?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5244101652?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2553/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add flaky test issue template (#10299)"
-  },
-  {
-    "oid": "b71e4dfb48eb3de22aebab47e1e5b5cb24ec1857",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5244096804?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5244096752?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2552/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microTVM] Add timeouts for CI tests (#10295)"
   }
 ]
