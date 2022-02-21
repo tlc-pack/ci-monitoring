@@ -1,5 +1,26 @@
 [
   {
+    "oid": "2f937801de21757a409d9d193f43fe5c0ab5a202",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5272998902?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5272999052?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2570/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] enable USMP (#10022)"
+  },
+  {
     "oid": "7d831e1dd34d441e9217096d0baf78e6f97c77d9",
     "statuses": [
       {
@@ -98,7 +119,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/1/display/redirect"
       }
     ],
@@ -119,8 +140,8 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2564/display/redirect"
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/2/display/redirect"
       }
     ],
     "messageHeadline": "[TE][Fix] Comparison of the output tensor (#9829)"
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[CI] Update CPU image to v0.81 (#10305)"
-  },
-  {
-    "oid": "f3ea291ba991ca8fab9d798726205b40112f0d09",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5251232273?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5251232389?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2555/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][Schedule] simpilfy compute_at static bound (#10307)"
   }
 ]
