@@ -4,12 +4,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5272998902?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5272999052?check_suite_focus=true"
       },
       {
@@ -98,8 +98,8 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2566/display/redirect"
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/7/display/redirect"
       }
     ],
     "messageHeadline": "[Arith] Support integer BufferLoad in IntervalSetEvaluator (#10327)"
@@ -224,7 +224,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/6/display/redirect"
       }
     ],
@@ -245,8 +245,8 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2559/display/redirect"
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/8/display/redirect"
       }
     ],
     "messageHeadline": "[TOPI] Add support for groupped conv3d (#9873)"
