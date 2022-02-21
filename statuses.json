@@ -1,5 +1,21 @@
 [
   {
+    "oid": "5a22c5609a3324f2f92df5b1740ec1019b112093",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5279466817?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5279466896?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[Docs] Fix an irrelevant sentence in relay.reverse (#10331)"
+  },
+  {
     "oid": "2f937801de21757a409d9d193f43fe5c0ab5a202",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Fix getting/setting DMA state (#10288)"
-  },
-  {
-    "oid": "da02c858fc9f4d66438ba3a96d9b038705185772",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5252162927?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5252162848?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2556/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Update CPU image to v0.81 (#10305)"
   }
 ]
