@@ -1,5 +1,26 @@
 [
   {
+    "oid": "d65ff6594d4d6db0062537a1d43c0504173b8e5c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5270613435?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5270613352?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2566/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Arith] Support integer BufferLoad in IntervalSetEvaluator (#10327)"
+  },
+  {
     "oid": "8d7607581dbad1ea1ebfddf7cf508a03b51f7d74",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[microTVM] Add timeouts for CI tests (#10295)"
-  },
-  {
-    "oid": "4d84d72078b0cabe0bb7bdf24af0f0d25010e8a3",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5244094359?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5244094399?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2551/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Mark some ehtosu tests as flaky (#10301)"
   }
 ]
