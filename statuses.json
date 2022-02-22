@@ -1,5 +1,26 @@
 [
   {
+    "oid": "91b2e91b02b337daad4b95bfc323af6814b345e7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5289503463?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5289503285?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2577/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Export `ir_lower_vtcm_pass` function in the init file (#10330)"
+  },
+  {
     "oid": "808c6a1cff63a4c2934b5e3b0005ac4e942b081c",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[ci] Disable flaky cmsisnn tests (#10315)"
-  },
-  {
-    "oid": "6bce2c5532444f685ad9bac86dcaa203527497fb",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5255457247?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5255457302?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/4/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Disable flaky microTVM tests (#10313)"
   }
 ]
