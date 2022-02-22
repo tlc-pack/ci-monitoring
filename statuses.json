@@ -1,5 +1,26 @@
 [
   {
+    "oid": "33082e0032fb57b0516ad7e3eabd11fe0203437e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5292290517?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5292290655?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2578/display/redirect"
+      }
+    ],
+    "messageHeadline": "[runtime] Add Metadata classes for AOTExecutor (#10282)"
+  },
+  {
     "oid": "91b2e91b02b337daad4b95bfc323af6814b345e7",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[TE][Fix] Comparison of the output tensor (#9829)"
-  },
-  {
-    "oid": "b445d66489019b53ecc07fa75ebad6f130e18cca",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5255458880?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5255458921?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/3/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Disable flaky cmsisnn tests (#10315)"
   }
 ]
