@@ -1,15 +1,36 @@
 [
   {
-    "oid": "d8d28bf5095f78b9bcd9ae6b8289d66b6389757b",
+    "oid": "d8e39fde1f975934ec9b0d0d206425b34e87f371",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/5281365451?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/5281713750?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5281713789?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2573/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Fix Ramp int32~64 mismatch in VectorizeLoop and NarrowDataType \u2026"
+  },
+  {
+    "oid": "d8d28bf5095f78b9bcd9ae6b8289d66b6389757b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5281365451?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5281365566?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[TOPI] Add support for groupped conv3d (#9873)"
-  },
-  {
-    "oid": "dace8b72e3a8173704a689a7074df4c6f36bda4a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5252891641?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5252891686?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2558/display/redirect"
-      }
-    ],
-    "messageHeadline": "update (#10306)"
   }
 ]
