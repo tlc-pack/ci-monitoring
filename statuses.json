@@ -1,5 +1,26 @@
 [
   {
+    "oid": "5956125ae49cb79b3c0ae6b946e2ae12565ab8c6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5295823858?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5295823741?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2579/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ONNX] only broadcast matmul if the shape has changed (#10321)"
+  },
+  {
     "oid": "33082e0032fb57b0516ad7e3eabd11fe0203437e",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[TIR] add support for multi-blocking layout and their transformation \u2026"
-  },
-  {
-    "oid": "73cf51b8246f1f0b5c0bff6fa206d154e053199b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5261865886?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5261865928?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/2/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TE][Fix] Comparison of the output tensor (#9829)"
   }
 ]
