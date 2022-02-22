@@ -1,5 +1,26 @@
 [
   {
+    "oid": "b5f1dabce45e4d4a68a2ecadeee811bac93b1c3c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5296381077?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5296381162?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2580/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Tir constants integration into compilation pipeline (#8509)"
+  },
+  {
     "oid": "5956125ae49cb79b3c0ae6b946e2ae12565ab8c6",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Arith] Support integer BufferLoad in IntervalSetEvaluator (#10327)"
-  },
-  {
-    "oid": "8d7607581dbad1ea1ebfddf7cf508a03b51f7d74",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5269457702?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5269457745?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/1/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] add support for multi-blocking layout and their transformation \u2026"
   }
 ]
