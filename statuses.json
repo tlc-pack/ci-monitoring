@@ -1,5 +1,26 @@
 [
   {
+    "oid": "808c6a1cff63a4c2934b5e3b0005ac4e942b081c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5286880811?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5286880683?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2576/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Remove the compiler library from the runtime link (#10334)"
+  },
+  {
     "oid": "55cfc4ad2df0120411b6b5ae2a2f28d8b467a25a",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[ci] Disable flaky microTVM tests (#10313)"
-  },
-  {
-    "oid": "cae26807feef5f11db3aa415e6c6a8ad6d962c54",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5255158289?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5255158165?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/5/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay] [Virtual Device] Store function result virtual device in virt\u2026"
   }
 ]
