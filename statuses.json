@@ -1,15 +1,36 @@
 [
   {
-    "oid": "d8e39fde1f975934ec9b0d0d206425b34e87f371",
+    "oid": "9dd62b4ddbf0f83558c8befe5bee1867e7daf06a",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/5281713750?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/5282055679?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5282055711?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2574/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BYOC-DNNL] add support for more ops and fusion patterns"
+  },
+  {
+    "oid": "d8e39fde1f975934ec9b0d0d206425b34e87f371",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5281713750?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5281713789?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Parameterize test_link_params. (#9276)"
-  },
-  {
-    "oid": "2c0a7c2a7e1df8203c14e4f0326a99aeaceb967a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5253720040?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5253720098?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/8/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TOPI] Add support for groupped conv3d (#9873)"
   }
 ]
