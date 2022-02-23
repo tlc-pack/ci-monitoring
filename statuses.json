@@ -1,5 +1,26 @@
 [
   {
+    "oid": "0abb1bdb04e6af24f5eb0aa22d4cea78f211eae9",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5300339083?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5300338964?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2586/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CUBLAS] Fix cublas batch matmul strategy plevel (#10351)"
+  },
+  {
     "oid": "270c1b3219829730f81dc03271e74a890a68d936",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Relay] Fix TFlite frontend for unpack, stridedslice (#10333)"
-  },
-  {
-    "oid": "5a22c5609a3324f2f92df5b1740ec1019b112093",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5279466817?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5279466896?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2571/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Docs] Fix an irrelevant sentence in relay.reverse (#10331)"
   }
 ]
