@@ -1,5 +1,26 @@
 [
   {
+    "oid": "70cc2abf91b5718b013fb4042dfe441d1918fcad",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5301159859?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5301160025?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2587/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Re-introduce redirect follow and update hash for Boost download \u2026"
+  },
+  {
     "oid": "0abb1bdb04e6af24f5eb0aa22d4cea78f211eae9",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[TIR] Fix Ramp int32~64 mismatch in VectorizeLoop and NarrowDataType \u2026"
-  },
-  {
-    "oid": "d8d28bf5095f78b9bcd9ae6b8289d66b6389757b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5281365451?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5281365566?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2572/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay] Fix TFlite frontend for unpack, stridedslice (#10333)"
   }
 ]
