@@ -1,5 +1,68 @@
 [
   {
+    "oid": "d3d8715687400e5a034d1a8a4494ef1ad1bc3a64",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5303463928?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5303464032?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2591/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] TIR Schedule Misc Update (#10341)"
+  },
+  {
+    "oid": "894772975ab33443cf25f40d9f1e2f7b96224978",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5303447184?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5303447302?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2590/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TOPI] VNNI support for batch matmul (#10332)"
+  },
+  {
+    "oid": "c3382990d9cdeae2004fce77a35c64c6852d13e6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5303443935?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5303444033?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2589/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Fix Flaky Test `test_task_scheduler_gradient` (#10360)"
+  },
+  {
     "oid": "faa2e6ad578f09b1248b5303b17c3fa24ebd0bd6",
     "statuses": [
       {
@@ -250,68 +313,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Export `ir_lower_vtcm_pass` function in the init file (#10330)"
-  },
-  {
-    "oid": "808c6a1cff63a4c2934b5e3b0005ac4e942b081c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5286880811?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5286880683?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2576/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ETHOSN] Remove the compiler library from the runtime link (#10334)"
-  },
-  {
-    "oid": "55cfc4ad2df0120411b6b5ae2a2f28d8b467a25a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5282469816?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5282469853?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2575/display/redirect"
-      }
-    ],
-    "messageHeadline": "RelayViz interface and terminal ast-dump (#10085)"
-  },
-  {
-    "oid": "9dd62b4ddbf0f83558c8befe5bee1867e7daf06a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5282055679?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5282055711?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2574/display/redirect"
-      }
-    ],
-    "messageHeadline": "[BYOC-DNNL] add support for more ops and fusion patterns"
   }
 ]
