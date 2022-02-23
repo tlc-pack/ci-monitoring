@@ -1,5 +1,26 @@
 [
   {
+    "oid": "d8f639a84fd9a11f03a949eb751a18018a9c1033",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5303875151?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5303875052?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2592/display/redirect"
+      }
+    ],
+    "messageHeadline": "[AOT] BugFix of workspace calculation (#10337)"
+  },
+  {
     "oid": "d3d8715687400e5a034d1a8a4494ef1ad1bc3a64",
     "statuses": [
       {
@@ -119,7 +140,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2586/display/redirect"
       }
     ],
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[runtime] Add Metadata classes for AOTExecutor (#10282)"
-  },
-  {
-    "oid": "91b2e91b02b337daad4b95bfc323af6814b345e7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5289503463?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5289503285?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2577/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Export `ir_lower_vtcm_pass` function in the init file (#10330)"
   }
 ]
