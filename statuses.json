@@ -1,5 +1,47 @@
 [
   {
+    "oid": "97648d8e0c4087df4012bb395e154b96ed5e46b6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5296653145?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5296653261?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2582/display/redirect"
+      }
+    ],
+    "messageHeadline": "add reading of nRF5340 DK product ID to determine which COM port to u\u2026"
+  },
+  {
+    "oid": "27d99609e78008ac85fc7811cf7df8c68c91395d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5296597529?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5296597483?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2581/display/redirect"
+      }
+    ],
+    "messageHeadline": "Simple workaround for PyTorch symbol crash problem in meta schedule t\u2026"
+  },
+  {
     "oid": "b5f1dabce45e4d4a68a2ecadeee811bac93b1c3c",
     "statuses": [
       {
@@ -25,12 +67,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5295823858?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5295823741?check_suite_focus=true"
       },
       {
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "Generate correct output tensor names in C Interface API (#10191)"
-  },
-  {
-    "oid": "3ffef3dcafcfd68ffb816c6151d3082d4e8dc6a5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5272532516?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5272532755?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2567/display/redirect"
-      }
-    ],
-    "messageHeadline": "[docker] Update CI to Python 3.7 and Ubuntu 18 (#10247)"
-  },
-  {
-    "oid": "d65ff6594d4d6db0062537a1d43c0504173b8e5c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5270613435?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5270613352?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/7/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Arith] Support integer BufferLoad in IntervalSetEvaluator (#10327)"
   }
 ]
