@@ -1,5 +1,26 @@
 [
   {
+    "oid": "faa2e6ad578f09b1248b5303b17c3fa24ebd0bd6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5301637095?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5301637555?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2588/display/redirect"
+      }
+    ],
+    "messageHeadline": "Add per channel quantization to QLinearConv and fix related bugs (#10\u2026"
+  },
+  {
     "oid": "70cc2abf91b5718b013fb4042dfe441d1918fcad",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[BYOC-DNNL] add support for more ops and fusion patterns"
-  },
-  {
-    "oid": "d8e39fde1f975934ec9b0d0d206425b34e87f371",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5281713750?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5281713789?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2573/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Fix Ramp int32~64 mismatch in VectorizeLoop and NarrowDataType \u2026"
   }
 ]
