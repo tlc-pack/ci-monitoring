@@ -1,5 +1,26 @@
 [
   {
+    "oid": "dcebd4d800c31380e745cafd6d9b6965ff2fc845",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5299316460?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5299316506?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2584/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI][Hexagon] Add Hexagon Tests to pipeline (#10302)"
+  },
+  {
     "oid": "6c6e873a1325a32418108daad6e38f3df8c37660",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[microNPU] enable USMP (#10022)"
-  },
-  {
-    "oid": "7d831e1dd34d441e9217096d0baf78e6f97c77d9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5272585730?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5272585852?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2569/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Add auto-updating `last-successful` branch (#10056)"
   }
 ]
