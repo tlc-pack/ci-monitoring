@@ -1,5 +1,26 @@
 [
   {
+    "oid": "1cd42e8cf18b2148962969df3826df637e5f2163",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5307738765?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5307738882?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2593/display/redirect"
+      }
+    ],
+    "messageHeadline": "[runtime] Improved log information with function signature (#10326)"
+  },
+  {
     "oid": "d8f639a84fd9a11f03a949eb751a18018a9c1033",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[ONNX] only broadcast matmul if the shape has changed (#10321)"
-  },
-  {
-    "oid": "33082e0032fb57b0516ad7e3eabd11fe0203437e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5292290517?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5292290655?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2578/display/redirect"
-      }
-    ],
-    "messageHeadline": "[runtime] Add Metadata classes for AOTExecutor (#10282)"
   }
 ]
