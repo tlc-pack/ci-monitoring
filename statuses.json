@@ -1,5 +1,26 @@
 [
   {
+    "oid": "6c6e873a1325a32418108daad6e38f3df8c37660",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5298007310?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5298007351?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2583/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ARM_CPU] Conv2d int8 intrinsic for cortex-A72 (#10310)"
+  },
+  {
     "oid": "97648d8e0c4087df4012bb395e154b96ed5e46b6",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[ci] Add auto-updating `last-successful` branch (#10056)"
-  },
-  {
-    "oid": "81df1519356f53b45120742e325f00772b362038",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5272549784?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5272549587?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2568/display/redirect"
-      }
-    ],
-    "messageHeadline": "Generate correct output tensor names in C Interface API (#10191)"
   }
 ]
