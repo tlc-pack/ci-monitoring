@@ -1,5 +1,26 @@
 [
   {
+    "oid": "f1ff61a7b9adb61eaa0db842bbf71c704d350154",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5317574741?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5317574849?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2602/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU][4] Add the cascader Proposal generator (#9959)"
+  },
+  {
     "oid": "25cc311acf35ef9de1d0e4180d6d99b31a533fde",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "Add per channel quantization to QLinearConv and fix related bugs (#10\u2026"
-  },
-  {
-    "oid": "70cc2abf91b5718b013fb4042dfe441d1918fcad",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5301159859?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5301160025?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2587/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Re-introduce redirect follow and update hash for Boost download \u2026"
   }
 ]
