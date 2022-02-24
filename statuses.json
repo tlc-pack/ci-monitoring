@@ -1,5 +1,26 @@
 [
   {
+    "oid": "0c210fc61f73be8d8b0388abc331c3adb7d7d3cc",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5313805313?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5313805345?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2597/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BUGFIX][ARITH] Fix FloorMod Simplifier (#10336)"
+  },
+  {
     "oid": "c5baa594235855d5ee3328289a1d96f9da0d32b6",
     "statuses": [
       {
@@ -9,7 +30,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5313271268?check_suite_focus=true"
       },
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[ARM_CPU] Conv2d int8 intrinsic for cortex-A72 (#10310)"
-  },
-  {
-    "oid": "97648d8e0c4087df4012bb395e154b96ed5e46b6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5296653145?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5296653261?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2582/display/redirect"
-      }
-    ],
-    "messageHeadline": "add reading of nRF5340 DK product ID to determine which COM port to u\u2026"
   }
 ]
