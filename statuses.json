@@ -1,5 +1,26 @@
 [
   {
+    "oid": "cb7f773218c26c3092cc275ef28e71839ebd18e3",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5319461005?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5319461090?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2604/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] RPC server/client for simulator (#10361)"
+  },
+  {
     "oid": "4102ebf239aa324a685d4157865a37d7e3b11c4b",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[TOPI] VNNI support for batch matmul (#10332)"
-  },
-  {
-    "oid": "c3382990d9cdeae2004fce77a35c64c6852d13e6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5303443935?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5303444033?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2589/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Fix Flaky Test `test_task_scheduler_gradient` (#10360)"
   }
 ]
