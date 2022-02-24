@@ -1,5 +1,26 @@
 [
   {
+    "oid": "35df4640859128df0d9271e085f7f5d29533d31f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5325108612?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5325108720?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2606/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Check more events before pinging reviewers (#10208)"
+  },
+  {
     "oid": "7e2467ac44945b8c4aa951574c3623b455987f76",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[AOT] BugFix of workspace calculation (#10337)"
-  },
-  {
-    "oid": "d3d8715687400e5a034d1a8a4494ef1ad1bc3a64",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5303463928?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5303464032?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2591/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] TIR Schedule Misc Update (#10341)"
   }
 ]
