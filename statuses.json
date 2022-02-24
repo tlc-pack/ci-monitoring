@@ -1,15 +1,36 @@
 [
   {
-    "oid": "b329544fc235965d41c62a18d0b7a46902a0b8e5",
+    "oid": "d295ea6fe27c72a6e052cb5f0d2adbe1f0328d34",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/5315109972?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/5315911918?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5315912220?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2599/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR][Transform] relax LoopPartition restriction that the intersectio\u2026"
+  },
+  {
+    "oid": "b329544fc235965d41c62a18d0b7a46902a0b8e5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5315109972?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5315109931?check_suite_focus=true"
       },
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[TIR] Misc minor updates (#10335)"
-  },
-  {
-    "oid": "dcebd4d800c31380e745cafd6d9b6965ff2fc845",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5299316460?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5299316506?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2584/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI][Hexagon] Add Hexagon Tests to pipeline (#10302)"
   }
 ]
