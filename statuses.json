@@ -1,5 +1,26 @@
 [
   {
+    "oid": "dcbdeddba290caee4f604e678a7e315aea038881",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5327103248?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5327103330?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2607/display/redirect"
+      }
+    ],
+    "messageHeadline": "Lower cache_read and cache_write to Hexagon DMA via tensorize (#10365)"
+  },
+  {
     "oid": "35df4640859128df0d9271e085f7f5d29533d31f",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[runtime] Improved log information with function signature (#10326)"
-  },
-  {
-    "oid": "d8f639a84fd9a11f03a949eb751a18018a9c1033",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5303875151?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5303875052?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2592/display/redirect"
-      }
-    ],
-    "messageHeadline": "[AOT] BugFix of workspace calculation (#10337)"
   }
 ]
