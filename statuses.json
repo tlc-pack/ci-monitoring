@@ -1,5 +1,42 @@
 [
   {
+    "oid": "07ad97766bacc49e373ddaaa8af0868153e39b8f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5339198600?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5339198770?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Replace strlen in constant initialization with sizeof (#10381)"
+  },
+  {
+    "oid": "d62a364ba783afef92623ee531043ee8dbd43566",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5339193710?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5339193779?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2610/display/redirect"
+      }
+    ],
+    "messageHeadline": "[VirtualMachine] new method allowing to set one input tensor by its i\u2026"
+  },
+  {
     "oid": "308d320a66f16abf67c5daf4ae58cec3567decdd",
     "statuses": [
       {
@@ -271,37 +308,5 @@
       }
     ],
     "messageHeadline": "[BUGFIX][ARITH] Fix FloorMod Simplifier (#10336)"
-  },
-  {
-    "oid": "c5baa594235855d5ee3328289a1d96f9da0d32b6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5313271305?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5313271268?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2596/display/redirect"
-      }
-    ],
-    "messageHeadline": "[COMMUNITY] csullivan -> Committer (#10364)"
-  },
-  {
-    "oid": "fbea56992da8cca1ad4cf8608bcd9250bc007508",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2595/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci] Fix onnx frontend lint (#10363)"
   }
 ]
