@@ -1,5 +1,47 @@
 [
   {
+    "oid": "329d8a5440a76f7aa7686696f98b15278b817d15",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5339243422?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5339243474?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2613/display/redirect"
+      }
+    ],
+    "messageHeadline": "[DOCS] Add how to contribute TVM docs with images. (#10287)"
+  },
+  {
+    "oid": "221329f8801d229c86ed072309e2adbaea6b3054",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5339211307?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5339211415?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2612/display/redirect"
+      }
+    ],
+    "messageHeadline": "check to avoid crash in opt_level=0 vm build (#10347)"
+  },
+  {
     "oid": "07ad97766bacc49e373ddaaa8af0868153e39b8f",
     "statuses": [
       {
@@ -11,6 +53,11 @@
         "name": "CI / Windows",
         "status": "PENDING",
         "url": "https://github.com/apache/tvm/runs/5339198770?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2611/display/redirect"
       }
     ],
     "messageHeadline": "[Hexagon] Replace strlen in constant initialization with sizeof (#10381)"
@@ -266,47 +313,5 @@
       }
     ],
     "messageHeadline": "[TIR][Transform] relax LoopPartition restriction that the intersectio\u2026"
-  },
-  {
-    "oid": "b329544fc235965d41c62a18d0b7a46902a0b8e5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5315109972?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5315109931?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2598/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Lint] Fix Pylint Issues (#10358)"
-  },
-  {
-    "oid": "0c210fc61f73be8d8b0388abc331c3adb7d7d3cc",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5313805313?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5313805345?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2597/display/redirect"
-      }
-    ],
-    "messageHeadline": "[BUGFIX][ARITH] Fix FloorMod Simplifier (#10336)"
   }
 ]
