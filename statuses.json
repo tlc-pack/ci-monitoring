@@ -1,5 +1,26 @@
 [
   {
+    "oid": "308d320a66f16abf67c5daf4ae58cec3567decdd",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5337818191?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5337818351?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2609/display/redirect"
+      }
+    ],
+    "messageHeadline": "[RELAY] [VIRTUALDEVICE] Change syntax for device planning and store p\u2026"
+  },
+  {
     "oid": "d9fac4f305c5462de4ab08cd220d60b42c0414f7",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[skip ci] Fix onnx frontend lint (#10363)"
-  },
-  {
-    "oid": "cc8221453049a4b1dba04feabf3a7e9bd32bb4ca",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5307833796?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5307833699?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2594/display/redirect"
-      }
-    ],
-    "messageHeadline": "refactored GraphProto.from_onnx into smaller functions (#10267)"
   }
 ]
