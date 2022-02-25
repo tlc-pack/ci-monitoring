@@ -1,5 +1,26 @@
 [
   {
+    "oid": "b31a5ccb6a533f5674bf1daab7a3fc20b61c7ea0",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5339765112?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5339765219?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2614/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Update Tuning Interfaces. (#10367)"
+  },
+  {
     "oid": "329d8a5440a76f7aa7686696f98b15278b817d15",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[ETHOSN] Improved identification of driver library version (#10285)"
-  },
-  {
-    "oid": "d295ea6fe27c72a6e052cb5f0d2adbe1f0328d34",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5315911918?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5315912220?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2599/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][Transform] relax LoopPartition restriction that the intersectio\u2026"
   }
 ]
