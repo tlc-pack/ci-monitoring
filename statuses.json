@@ -1,5 +1,26 @@
 [
   {
+    "oid": "01f306ffb75163dcab5822de35db06761a2f60b7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5346407502?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5346407537?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2619/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix tvmc run error message when inputs aren't found. (#10017)"
+  },
+  {
     "oid": "4a9db23bb2228c4f690a80a71ea066d4596145b0",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[TIR, Relay] improve bfloat16 support (#10112)"
-  },
-  {
-    "oid": "cb7f773218c26c3092cc275ef28e71839ebd18e3",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5319461005?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5319461090?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2604/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] RPC server/client for simulator (#10361)"
   }
 ]
