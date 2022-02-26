@@ -1,5 +1,26 @@
 [
   {
+    "oid": "37f7e57a046a6f3162f78142f0f5748ff98ab4b7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5343547839?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5343547862?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2617/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix plint error. (#10394)"
+  },
+  {
     "oid": "8b3019845671af836169068ebbb2eef1d7131027",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Runtime][Pipeline Executor] multiple threads management and the data\u2026"
-  },
-  {
-    "oid": "f1ff61a7b9adb61eaa0db842bbf71c704d350154",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5317574741?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5317574849?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2602/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU][4] Add the cascader Proposal generator (#9959)"
   }
 ]
