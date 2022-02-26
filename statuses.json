@@ -1,5 +1,26 @@
 [
   {
+    "oid": "4a9db23bb2228c4f690a80a71ea066d4596145b0",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5343974865?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5343974825?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2618/display/redirect"
+      }
+    ],
+    "messageHeadline": "meta schedule misc update (#10389)"
+  },
+  {
     "oid": "37f7e57a046a6f3162f78142f0f5748ff98ab4b7",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] RPC server/client for simulator (#10361)"
-  },
-  {
-    "oid": "4102ebf239aa324a685d4157865a37d7e3b11c4b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5317829876?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5317829937?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2603/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Runtime][Pipeline Executor] multiple threads management and the data\u2026"
   }
 ]
