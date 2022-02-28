@@ -1,5 +1,21 @@
 [
   {
+    "oid": "7127296c2b603e00344800f2d95aff5dc257f194",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5363334534?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5363334626?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Arithmetic analysis (#10403)"
+  },
+  {
     "oid": "9ca2139d0f3c52912b37a897c34d0d4175ce088a",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[VirtualMachine] new method allowing to set one input tensor by its i\u2026"
-  },
-  {
-    "oid": "308d320a66f16abf67c5daf4ae58cec3567decdd",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5337818191?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5337818351?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2609/display/redirect"
-      }
-    ],
-    "messageHeadline": "[RELAY] [VIRTUALDEVICE] Change syntax for device planning and store p\u2026"
   }
 ]
