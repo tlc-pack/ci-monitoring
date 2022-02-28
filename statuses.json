@@ -1,5 +1,26 @@
 [
   {
+    "oid": "b7caa128dff65e7c61a88ac5fb14f60a175452f5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5356615368?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5356615294?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2622/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fixed a bug in the convert_fully_connected() function (#10371)"
+  },
+  {
     "oid": "40f881b958950c4a550d9c9c3e0f0778ec21960b",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[microNPU] adding more tests with USMP (#10362)"
-  },
-  {
-    "oid": "dcbdeddba290caee4f604e678a7e315aea038881",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5327103248?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5327103330?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2607/display/redirect"
-      }
-    ],
-    "messageHeadline": "Lower cache_read and cache_write to Hexagon DMA via tensorize (#10365)"
   }
 ]
