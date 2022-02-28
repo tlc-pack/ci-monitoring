@@ -1,5 +1,26 @@
 [
   {
+    "oid": "9ca2139d0f3c52912b37a897c34d0d4175ce088a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5357105866?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5357105727?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2623/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TensorIR] Renormalize split pattern (#10401)"
+  },
+  {
     "oid": "b7caa128dff65e7c61a88ac5fb14f60a175452f5",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[RELAY] [VIRTUALDEVICE] Change syntax for device planning and store p\u2026"
-  },
-  {
-    "oid": "d9fac4f305c5462de4ab08cd220d60b42c0414f7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5332854213?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5332854148?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2608/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] adding more tests with USMP (#10362)"
   }
 ]
