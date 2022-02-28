@@ -1,5 +1,21 @@
 [
   {
+    "oid": "b55997df0b5aa1bad1edd8b535a5a287c0acac5e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5365019205?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5365019272?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[microTVM][RVM] Skip USB device attach if device is already attached \u2026"
+  },
+  {
     "oid": "b56770b2cb1d629cd852ff06f3ed8f7f9f8f4e88",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[DOCS] Add how to contribute TVM docs with images. (#10287)"
-  },
-  {
-    "oid": "221329f8801d229c86ed072309e2adbaea6b3054",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5339211307?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5339211415?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2612/display/redirect"
-      }
-    ],
-    "messageHeadline": "check to avoid crash in opt_level=0 vm build (#10347)"
   }
 ]
