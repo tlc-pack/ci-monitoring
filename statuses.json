@@ -1,5 +1,21 @@
 [
   {
+    "oid": "bd14a4d36e0d364ef9bd34b2ee96cc09ce64d4b3",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5373713074?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5373712923?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "Modify debug output (#10372)"
+  },
+  {
     "oid": "d101c50a794665a437253a6c1c0f30f74c30502f",
     "statuses": [
       {
@@ -277,26 +293,5 @@
       }
     ],
     "messageHeadline": "Fix tvmc run error message when inputs aren't found. (#10017)"
-  },
-  {
-    "oid": "4a9db23bb2228c4f690a80a71ea066d4596145b0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5343974865?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5343974825?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2618/display/redirect"
-      }
-    ],
-    "messageHeadline": "meta schedule misc update (#10389)"
   }
 ]
