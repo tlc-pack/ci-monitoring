@@ -1,5 +1,21 @@
 [
   {
+    "oid": "d101c50a794665a437253a6c1c0f30f74c30502f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5373041193?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5373041287?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[CI][1/2] Update the Python version of pyxir (#10406)"
+  },
+  {
     "oid": "5e353d5cdc4dffebf05e94dd75f64fe2a9f322c1",
     "statuses": [
       {
@@ -282,26 +298,5 @@
       }
     ],
     "messageHeadline": "meta schedule misc update (#10389)"
-  },
-  {
-    "oid": "37f7e57a046a6f3162f78142f0f5748ff98ab4b7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5343547839?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5343547862?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2617/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix plint error. (#10394)"
   }
 ]
