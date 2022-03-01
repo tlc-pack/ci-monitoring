@@ -1,5 +1,21 @@
 [
   {
+    "oid": "111b2da1372ec53cae76d63a21a45eb0c26e4a64",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5369812391?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5369812338?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "RelayViz Graphviz renderer (#10400)"
+  },
+  {
     "oid": "92a80e93446331780cfa81452b164862845e7c65",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[FIX,PROFILING] Add extra precision to numbers when serializing to js\u2026"
-  },
-  {
-    "oid": "920654cf91584fedaf92ca8505620adf542cae71",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5339806365?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5339806424?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2615/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Bugfix][TVMScript] Convert BufferSlice to BufferLoad when used as ra\u2026"
   }
 ]
