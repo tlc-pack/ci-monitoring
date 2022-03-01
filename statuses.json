@@ -1,5 +1,21 @@
 [
   {
+    "oid": "5e353d5cdc4dffebf05e94dd75f64fe2a9f322c1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5372971095?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5372971246?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[Runtime][ThreadPool]Refactor affinity function and support CPU affin\u2026"
+  },
+  {
     "oid": "111b2da1372ec53cae76d63a21a45eb0c26e4a64",
     "statuses": [
       {
@@ -287,26 +303,5 @@
       }
     ],
     "messageHeadline": "Fix plint error. (#10394)"
-  },
-  {
-    "oid": "8b3019845671af836169068ebbb2eef1d7131027",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5340722312?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5340722378?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2616/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FIX,PROFILING] Add extra precision to numbers when serializing to js\u2026"
   }
 ]
