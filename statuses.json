@@ -1,5 +1,26 @@
 [
   {
+    "oid": "92a80e93446331780cfa81452b164862845e7c65",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5368200048?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5368199999?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2629/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci][1/2] Shard `frontend: GPU` job into 2 jobs (#10413)"
+  },
+  {
     "oid": "b72e115afbeb3fa1c40353b8aad7375fa62dfa4e",
     "statuses": [
       {
@@ -35,7 +56,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2627/display/redirect"
       }
     ],
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Bugfix][TVMScript] Convert BufferSlice to BufferLoad when used as ra\u2026"
-  },
-  {
-    "oid": "b31a5ccb6a533f5674bf1daab7a3fc20b61c7ea0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5339765112?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5339765219?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2614/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Update Tuning Interfaces. (#10367)"
   }
 ]
