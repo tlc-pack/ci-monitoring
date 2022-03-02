@@ -1,5 +1,26 @@
 [
   {
+    "oid": "1115d3d770cf22859117a5462d757edef512c037",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5384999089?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5384999155?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2634/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci][2/2] Shard `frontend: GPU` job into 2 jobs (#10414)"
+  },
+  {
     "oid": "f49a853a5af3afd636fdbd2648f2c93445c790e5",
     "statuses": [
       {
@@ -277,26 +298,5 @@
       }
     ],
     "messageHeadline": "Enable groups argument for conv2d_transpose on the cudnn backend (#10\u2026"
-  },
-  {
-    "oid": "784618e2439e193f15388eb879a076dc4110a183",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5353355756?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5353355784?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2620/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Runtime][PipelineExecutor] Polish the name and comments of variable.\u2026"
   }
 ]
