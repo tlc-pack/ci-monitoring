@@ -1,5 +1,47 @@
 [
   {
+    "oid": "122be3fb18902bf2317797fedfa867dcf9607ef9",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5386047135?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5386047176?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2638/display/redirect"
+      }
+    ],
+    "messageHeadline": "Add group_conv2d_transpose_nchw to CUDA backend (#10423)"
+  },
+  {
+    "oid": "8e10713a7a2554ef5ea5147a011528a292c4c966",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5386042854?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5386042793?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2637/display/redirect"
+      }
+    ],
+    "messageHeadline": "Lily -> Committer (#10417)"
+  },
+  {
     "oid": "6962ffac21c48ff3217a1af0e5f28b53690e1a37",
     "statuses": [
       {
@@ -256,47 +298,5 @@
       }
     ],
     "messageHeadline": "Add @slow decorator to run tests on `main` (#10057)"
-  },
-  {
-    "oid": "7127296c2b603e00344800f2d95aff5dc257f194",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5363334534?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5363334626?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2624/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Arithmetic analysis (#10403)"
-  },
-  {
-    "oid": "9ca2139d0f3c52912b37a897c34d0d4175ce088a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5357105866?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5357105727?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2623/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TensorIR] Renormalize split pattern (#10401)"
   }
 ]
