@@ -1,5 +1,26 @@
 [
   {
+    "oid": "6962ffac21c48ff3217a1af0e5f28b53690e1a37",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5385962569?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5385962622?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2636/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Bugfix][Arith] Fix TryFuseIter (#10427)"
+  },
+  {
     "oid": "a8ec42316ba57be577d3f129f2086d0be2ad139d",
     "statuses": [
       {
@@ -277,26 +298,5 @@
       }
     ],
     "messageHeadline": "[TensorIR] Renormalize split pattern (#10401)"
-  },
-  {
-    "oid": "b7caa128dff65e7c61a88ac5fb14f60a175452f5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5356615368?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5356615294?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2622/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fixed a bug in the convert_fully_connected() function (#10371)"
   }
 ]
