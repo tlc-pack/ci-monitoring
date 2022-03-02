@@ -1,5 +1,26 @@
 [
   {
+    "oid": "a5cb76a35fd2c0176144f5f526a05486cfe9f6dc",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5396775827?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5396775962?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2646/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay] Fix shape func for strided slice (#10418)"
+  },
+  {
     "oid": "fdbb88f3c6f45efaac5217d15f6efbe2c8d26557",
     "statuses": [
       {
@@ -67,12 +88,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5395771906?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5395772121?check_suite_focus=true"
       },
       {
@@ -282,21 +303,5 @@
       }
     ],
     "messageHeadline": "Modify debug output (#10372)"
-  },
-  {
-    "oid": "d101c50a794665a437253a6c1c0f30f74c30502f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5373041193?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5373041287?check_suite_focus=true"
-      }
-    ],
-    "messageHeadline": "[CI][1/2] Update the Python version of pyxir (#10406)"
   }
 ]
