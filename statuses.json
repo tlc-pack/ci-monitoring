@@ -1,5 +1,26 @@
 [
   {
+    "oid": "a8ec42316ba57be577d3f129f2086d0be2ad139d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5385789105?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5385789044?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2635/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TensorIR] Update VerifyGPU (#10405)"
+  },
+  {
     "oid": "1115d3d770cf22859117a5462d757edef512c037",
     "statuses": [
       {
@@ -277,26 +298,5 @@
       }
     ],
     "messageHeadline": "Fixed a bug in the convert_fully_connected() function (#10371)"
-  },
-  {
-    "oid": "40f881b958950c4a550d9c9c3e0f0778ec21960b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5353361887?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5353361939?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2621/display/redirect"
-      }
-    ],
-    "messageHeadline": "Enable groups argument for conv2d_transpose on the cudnn backend (#10\u2026"
   }
 ]
