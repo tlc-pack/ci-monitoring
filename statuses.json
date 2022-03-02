@@ -1,5 +1,26 @@
 [
   {
+    "oid": "8f6fa8f2c41406cb54d01647ba8731e4ceb8f4ab",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5388032935?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5388032870?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2640/display/redirect"
+      }
+    ],
+    "messageHeadline": "[cleanup] Log compile errors for AOT tests (#10214)"
+  },
+  {
     "oid": "1df1580ef0d0543b5c0a4bad95db8133bb4afc89",
     "statuses": [
       {
@@ -35,7 +56,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2638/display/redirect"
       }
     ],
@@ -56,7 +77,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2637/display/redirect"
       }
     ],
@@ -277,26 +298,5 @@
       }
     ],
     "messageHeadline": "[microTVM][RVM] Skip USB device attach if device is already attached \u2026"
-  },
-  {
-    "oid": "b56770b2cb1d629cd852ff06f3ed8f7f9f8f4e88",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5364626847?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5364626933?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2626/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microTVM] Zephyr: refactor _find_openocd_serial_port (#10346)"
   }
 ]
