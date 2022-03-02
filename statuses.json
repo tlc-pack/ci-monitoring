@@ -1,5 +1,26 @@
 [
   {
+    "oid": "49134538a2fc998343ada7390265aa9222d6f29f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5395771906?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5395772121?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2642/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CMSIS-NN] enable USMP with CMSIS-NN (#10224)"
+  },
+  {
     "oid": "a772de837d1af6598dd3be2e30ae1cfa27b6a057",
     "statuses": [
       {
@@ -267,26 +288,5 @@
       }
     ],
     "messageHeadline": "[ci][1/2] Shard `frontend: GPU` job into 2 jobs (#10413)"
-  },
-  {
-    "oid": "b72e115afbeb3fa1c40353b8aad7375fa62dfa4e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5366738976?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5366739097?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2628/display/redirect"
-      }
-    ],
-    "messageHeadline": "Realize the function op during forward rewrite (#10410)"
   }
 ]
