@@ -1,5 +1,26 @@
 [
   {
+    "oid": "d721d320bd2f66d342d24b71600fe1f5e222e952",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5411386058?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5411386174?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2653/display/redirect"
+      }
+    ],
+    "messageHeadline": "[runtime] AOTExecutor implementation and c target code-generator (#10\u2026"
+  },
+  {
     "oid": "db14b7e3a22ef5bc7a20fdc399a87262f37d881c",
     "statuses": [
       {
@@ -9,7 +30,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5410496293?check_suite_focus=true"
       },
       {
@@ -25,12 +46,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5410246747?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5410247076?check_suite_focus=true"
       },
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[MISC] Add miss Type2Str and remove compile warnings (#10430)"
-  },
-  {
-    "oid": "122be3fb18902bf2317797fedfa867dcf9607ef9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5386047135?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5386047176?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2638/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add group_conv2d_transpose_nchw to CUDA backend (#10423)"
   }
 ]
