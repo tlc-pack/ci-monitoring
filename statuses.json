@@ -1,5 +1,26 @@
 [
   {
+    "oid": "5e33ffcfdabc4661d4df104594ed15b94a3da8c7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5402856425?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5402856491?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2648/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Allow execution on target or simulator from HexagonLauncher\u2026"
+  },
+  {
     "oid": "74a08b98329687eba42ff5e5f52e61abdbde5f1b",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[ci][2/2] Shard `frontend: GPU` job into 2 jobs (#10414)"
-  },
-  {
-    "oid": "f49a853a5af3afd636fdbd2648f2c93445c790e5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5379429426?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5379429529?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2633/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix relative include path (#10402)"
   }
 ]
