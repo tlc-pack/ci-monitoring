@@ -1,5 +1,26 @@
 [
   {
+    "oid": "70ad1d51d25f5e47ba47db9d40a189ab11301f40",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5410246747?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5410247076?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2651/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Add workflow to cc teams (#10322)"
+  },
+  {
     "oid": "8f46d12cb4a02f34543912afab1f0bba58e8fec1",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "Lily -> Committer (#10417)"
-  },
-  {
-    "oid": "6962ffac21c48ff3217a1af0e5f28b53690e1a37",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5385962569?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5385962622?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2636/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Bugfix][Arith] Fix TryFuseIter (#10427)"
   }
 ]
