@@ -1,5 +1,26 @@
 [
   {
+    "oid": "8f46d12cb4a02f34543912afab1f0bba58e8fec1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5409702863?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5409703143?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2650/display/redirect"
+      }
+    ],
+    "messageHeadline": "hot fix (#10464)"
+  },
+  {
     "oid": "0c836b73ffd9669bcc416515dce6436cbd7d7ebe",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[Bugfix][Arith] Fix TryFuseIter (#10427)"
-  },
-  {
-    "oid": "a8ec42316ba57be577d3f129f2086d0be2ad139d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5385789105?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5385789044?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2635/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TensorIR] Update VerifyGPU (#10405)"
   }
 ]
