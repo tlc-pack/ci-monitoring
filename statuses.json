@@ -1,5 +1,26 @@
 [
   {
+    "oid": "ede5601d8921ffb494c169e0a746a58125db30ff",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5415191432?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5415191242?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2659/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Use available CPUs in builds (#10359)"
+  },
+  {
     "oid": "2ea6e5524bab18c61e0bd50b820ad4d6bfc62e5e",
     "statuses": [
       {
@@ -25,7 +46,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2657/display/redirect"
       }
     ],
@@ -272,26 +293,5 @@
       }
     ],
     "messageHeadline": "[Frontend][TFLite] Added broadcasting to prelu alpha. (#10435)"
-  },
-  {
-    "oid": "60ffcb5367188e6484e67f2a7bbb6ddd461e1fc7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5396371372?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5396371489?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2644/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix a Uninitialized Variable Warnings. (#10436)"
   }
 ]
