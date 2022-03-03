@@ -1,5 +1,26 @@
 [
   {
+    "oid": "db14b7e3a22ef5bc7a20fdc399a87262f37d881c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5410496448?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5410496293?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2652/display/redirect"
+      }
+    ],
+    "messageHeadline": "just a typo fixed (#10442)"
+  },
+  {
     "oid": "70ad1d51d25f5e47ba47db9d40a189ab11301f40",
     "statuses": [
       {
@@ -30,7 +51,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5409703143?check_suite_focus=true"
       },
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "Add group_conv2d_transpose_nchw to CUDA backend (#10423)"
-  },
-  {
-    "oid": "8e10713a7a2554ef5ea5147a011528a292c4c966",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5386042854?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5386042793?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2637/display/redirect"
-      }
-    ],
-    "messageHeadline": "Lily -> Committer (#10417)"
   }
 ]
