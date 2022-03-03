@@ -1,5 +1,26 @@
 [
   {
+    "oid": "4d586e271d54396e4bad1b7074dde1e6bc063a38",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5412800847?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5412800950?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2657/display/redirect"
+      }
+    ],
+    "messageHeadline": "Modify Jenkinsfile to prevent builds from triggering on branch indexi\u2026"
+  },
+  {
     "oid": "45d3830d4a38c465e796ee9b1f9696dbeb5d5c99",
     "statuses": [
       {
@@ -15,7 +36,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5412035240?check_suite_focus=true"
       },
       {
@@ -36,7 +57,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5412026032?check_suite_focus=true"
       },
       {
@@ -109,7 +130,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2651/display/redirect"
       }
     ],
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "Fix plint complain for some files. (#10433)"
-  },
-  {
-    "oid": "49134538a2fc998343ada7390265aa9222d6f29f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5395771906?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5395772121?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2642/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CMSIS-NN] enable USMP with CMSIS-NN (#10224)"
   }
 ]
