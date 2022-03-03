@@ -1,5 +1,26 @@
 [
   {
+    "oid": "0c836b73ffd9669bcc416515dce6436cbd7d7ebe",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5403839655?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5403839811?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2649/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU][5] Convert Proposals to te.Schedules (#10062)"
+  },
+  {
     "oid": "5e33ffcfdabc4661d4df104594ed15b94a3da8c7",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[TensorIR] Update VerifyGPU (#10405)"
-  },
-  {
-    "oid": "1115d3d770cf22859117a5462d757edef512c037",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5384999089?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5384999155?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2634/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][2/2] Shard `frontend: GPU` job into 2 jobs (#10414)"
   }
 ]
