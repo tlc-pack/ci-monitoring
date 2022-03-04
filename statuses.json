@@ -1,5 +1,26 @@
 [
   {
+    "oid": "1271e6cc34eda7be8ce7502c206b1dcef11ab4f1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5416827328?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5416827268?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2663/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Fix Cyclic Dependency in PyClass Family (#10368)"
+  },
+  {
     "oid": "b7922f3abc2fad348e07f34dfdab471f722f4cda",
     "statuses": [
       {
@@ -9,7 +30,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5416300182?check_suite_focus=true"
       },
       {
@@ -30,7 +51,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5416285762?check_suite_focus=true"
       },
       {
@@ -56,7 +77,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2660/display/redirect"
       }
     ],
@@ -77,7 +98,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2659/display/redirect"
       }
     ],
@@ -272,26 +293,5 @@
       }
     ],
     "messageHeadline": "[microNPU][5] Convert Proposals to te.Schedules (#10062)"
-  },
-  {
-    "oid": "5e33ffcfdabc4661d4df104594ed15b94a3da8c7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5402856425?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5402856491?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2648/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Allow execution on target or simulator from HexagonLauncher\u2026"
   }
 ]
