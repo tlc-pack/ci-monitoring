@@ -1,10 +1,21 @@
 [
   {
+    "oid": "3f96f3d3ac6c033110d8d08257c3375a6522e871",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2675/display/redirect"
+      }
+    ],
+    "messageHeadline": "[skip ci][ci] hotfix Jenkinsfile (#10492)"
+  },
+  {
     "oid": "8fe75fd42c114b6e864862b1745ab388bc8eb734",
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5426989467?check_suite_focus=true"
       },
       {
@@ -292,26 +303,5 @@
       }
     ],
     "messageHeadline": "[runtime][Hexagon] AOTExecutor implementation for C Codegen (#10311)"
-  },
-  {
-    "oid": "64bf0ef28daa0f1c8fd3be462e45e17c42f477ed",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5415240477?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5415240560?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2660/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Fix slow test script permissions (#10457)"
   }
 ]
