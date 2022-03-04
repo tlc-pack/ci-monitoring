@@ -1,5 +1,26 @@
 [
   {
+    "oid": "33b9b5c1a916f04d6058e8cfa000642d073a3396",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5416970349?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5416970299?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2664/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hotfix] Black format (#10482)"
+  },
+  {
     "oid": "1271e6cc34eda7be8ce7502c206b1dcef11ab4f1",
     "statuses": [
       {
@@ -25,7 +46,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5416300072?check_suite_focus=true"
       },
       {
@@ -46,7 +67,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5416285687?check_suite_focus=true"
       },
       {
@@ -272,26 +293,5 @@
       }
     ],
     "messageHeadline": "hot fix (#10464)"
-  },
-  {
-    "oid": "0c836b73ffd9669bcc416515dce6436cbd7d7ebe",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5403839655?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5403839811?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2649/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU][5] Convert Proposals to te.Schedules (#10062)"
   }
 ]
