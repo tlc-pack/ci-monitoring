@@ -1,5 +1,26 @@
 [
   {
+    "oid": "9679e686acdec25ab3d43558f756c81c9d123f00",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5417194063?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5417194119?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2665/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Keep Task / Trial / Iter / Postproc Number Consistent \u2026"
+  },
+  {
     "oid": "33b9b5c1a916f04d6058e8cfa000642d073a3396",
     "statuses": [
       {
@@ -272,26 +293,5 @@
       }
     ],
     "messageHeadline": "[ci] Add workflow to cc teams (#10322)"
-  },
-  {
-    "oid": "8f46d12cb4a02f34543912afab1f0bba58e8fec1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5409702863?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5409703143?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2650/display/redirect"
-      }
-    ],
-    "messageHeadline": "hot fix (#10464)"
   }
 ]
