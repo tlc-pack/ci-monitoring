@@ -1,5 +1,26 @@
 [
   {
+    "oid": "6ad7638be249fef0b2ce3f1112dd857e850949f1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5418532419?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5418532475?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2669/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] update misc parts (#10444)"
+  },
+  {
     "oid": "865f34ea5f3eb10ad174d48aee271468c4527efb",
     "statuses": [
       {
@@ -272,26 +293,5 @@
       }
     ],
     "messageHeadline": "[Relay] Fix output dtype for conv2d wgrad when the original one is vo\u2026"
-  },
-  {
-    "oid": "3001d3dcdbd7edc7d0e94615bf3ac258b271a722",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5412026032?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5412025887?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2654/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Runtime][ThreadPool] Handle the default value of affinity mode. (#10\u2026"
   }
 ]
