@@ -1,5 +1,26 @@
 [
   {
+    "oid": "8fe75fd42c114b6e864862b1745ab388bc8eb734",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5426989467?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5426989379?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2674/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Skip CI based on globs (#10456)"
+  },
+  {
     "oid": "86ba517b84bd5a993c7015fe308a2afb929f81e6",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[ci] Fix slow test script permissions (#10457)"
-  },
-  {
-    "oid": "ede5601d8921ffb494c169e0a746a58125db30ff",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5415191432?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5415191242?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2659/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Use available CPUs in builds (#10359)"
   }
 ]
