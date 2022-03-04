@@ -1,15 +1,57 @@
 [
   {
-    "oid": "64bf0ef28daa0f1c8fd3be462e45e17c42f477ed",
+    "oid": "b7922f3abc2fad348e07f34dfdab471f722f4cda",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/5415240477?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/5416300072?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5416300182?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2662/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microTVM] Zephyr: add B-U585I-IOT02A board support (#10416)"
+  },
+  {
+    "oid": "83f8e54ccd6cdcd58d209affa29e4e93986b3b1d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5416285687?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5416285762?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2661/display/redirect"
+      }
+    ],
+    "messageHeadline": "[runtime][Hexagon] AOTExecutor implementation for C Codegen (#10311)"
+  },
+  {
+    "oid": "64bf0ef28daa0f1c8fd3be462e45e17c42f477ed",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5415240477?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5415240560?check_suite_focus=true"
       },
       {
@@ -25,12 +67,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5415191432?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5415191242?check_suite_focus=true"
       },
       {
@@ -251,47 +293,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Allow execution on target or simulator from HexagonLauncher\u2026"
-  },
-  {
-    "oid": "74a08b98329687eba42ff5e5f52e61abdbde5f1b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5401645174?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5401645112?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2647/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip-ci][COMMUNITY] leandron to PMC (#10448)"
-  },
-  {
-    "oid": "a5cb76a35fd2c0176144f5f526a05486cfe9f6dc",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5396775827?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5396775962?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2646/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay] Fix shape func for strided slice (#10418)"
   }
 ]
