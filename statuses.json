@@ -1,5 +1,68 @@
 [
   {
+    "oid": "837d5d4e5273ffb73dcae21c64762143a7b560c1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5429464070?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5429464011?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2678/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Disable flaky ethosu tests (#10488)"
+  },
+  {
+    "oid": "fd92947d1b38c464e8f7944f4a6862b7ec239bf1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5429461874?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5429461832?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2677/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Disable flaky tuning test (#10490)"
+  },
+  {
+    "oid": "db8cf2f611f2ce2deb758ceed6b2644a76c58fd8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5429455211?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5429455302?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2676/display/redirect"
+      }
+    ],
+    "messageHeadline": "don't rely on cudnn for compilation (#10495)"
+  },
+  {
     "oid": "3f96f3d3ac6c033110d8d08257c3375a6522e871",
     "statuses": [
       {
@@ -240,68 +303,5 @@
       }
     ],
     "messageHeadline": "[Hotfix] Black format (#10482)"
-  },
-  {
-    "oid": "1271e6cc34eda7be8ce7502c206b1dcef11ab4f1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5416827328?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5416827268?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2663/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Fix Cyclic Dependency in PyClass Family (#10368)"
-  },
-  {
-    "oid": "b7922f3abc2fad348e07f34dfdab471f722f4cda",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5416300072?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5416300182?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2662/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microTVM] Zephyr: add B-U585I-IOT02A board support (#10416)"
-  },
-  {
-    "oid": "83f8e54ccd6cdcd58d209affa29e4e93986b3b1d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5416285687?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5416285762?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2661/display/redirect"
-      }
-    ],
-    "messageHeadline": "[runtime][Hexagon] AOTExecutor implementation for C Codegen (#10311)"
   }
 ]
