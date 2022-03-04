@@ -1,5 +1,26 @@
 [
   {
+    "oid": "865f34ea5f3eb10ad174d48aee271468c4527efb",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5418527635?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5418527695?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2668/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Enable AutoTVM-style template-based search space (#10461)"
+  },
+  {
     "oid": "bf8e7e00f846e1c43eb8741860509160a7339fa1",
     "statuses": [
       {
@@ -272,26 +293,5 @@
       }
     ],
     "messageHeadline": "[Runtime][ThreadPool] Handle the default value of affinity mode. (#10\u2026"
-  },
-  {
-    "oid": "d721d320bd2f66d342d24b71600fe1f5e222e952",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5411386058?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5411386174?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2653/display/redirect"
-      }
-    ],
-    "messageHeadline": "[runtime] AOTExecutor implementation and c target code-generator (#10\u2026"
   }
 ]
