@@ -1,5 +1,47 @@
 [
   {
+    "oid": "bf8e7e00f846e1c43eb8741860509160a7339fa1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5418368210?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5418368162?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2667/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Remove unused code from testing infra (#10462)"
+  },
+  {
+    "oid": "646d8cd79ed1f46195f7a733e55aaf59cbc19bd2",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5418364905?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5418364971?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2666/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Torch] fix torch version check (#10481)"
+  },
+  {
     "oid": "9679e686acdec25ab3d43558f756c81c9d123f00",
     "statuses": [
       {
@@ -14,7 +56,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2665/display/redirect"
       }
     ],
@@ -251,47 +293,5 @@
       }
     ],
     "messageHeadline": "[runtime] AOTExecutor implementation and c target code-generator (#10\u2026"
-  },
-  {
-    "oid": "db14b7e3a22ef5bc7a20fdc399a87262f37d881c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5410496448?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5410496293?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2652/display/redirect"
-      }
-    ],
-    "messageHeadline": "just a typo fixed (#10442)"
-  },
-  {
-    "oid": "70ad1d51d25f5e47ba47db9d40a189ab11301f40",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5410246747?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5410247076?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2651/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Add workflow to cc teams (#10322)"
   }
 ]
