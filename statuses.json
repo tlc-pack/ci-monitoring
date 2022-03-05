@@ -1,5 +1,26 @@
 [
   {
+    "oid": "70f223ba08a1cb161d202ff9d668d00d325526e0",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5430630760?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5430630786?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2679/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CodeGen][CUDA] use hrint for cuda half rounding (#10460)"
+  },
+  {
     "oid": "837d5d4e5273ffb73dcae21c64762143a7b560c1",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Keep Task / Trial / Iter / Postproc Number Consistent \u2026"
-  },
-  {
-    "oid": "33b9b5c1a916f04d6058e8cfa000642d073a3396",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5416970349?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5416970299?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2664/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hotfix] Black format (#10482)"
   }
 ]
