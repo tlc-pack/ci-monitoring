@@ -1,5 +1,26 @@
 [
   {
+    "oid": "9415bea80a3cad013f7edc8c8864d80f468b8500",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5432542756?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5432542717?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2680/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Implement tanh operator (#10486)"
+  },
+  {
     "oid": "70f223ba08a1cb161d202ff9d668d00d325526e0",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[Torch] fix torch version check (#10481)"
-  },
-  {
-    "oid": "9679e686acdec25ab3d43558f756c81c9d123f00",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5417194063?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5417194119?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2665/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Keep Task / Trial / Iter / Postproc Number Consistent \u2026"
   }
 ]
