@@ -1,5 +1,26 @@
 [
   {
+    "oid": "0c0245ae2230fa07d3e4b8be490fc9c88965730c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5433228164?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5433228183?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2681/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Fix scripts to enable automated testing on hardware (#10491)"
+  },
+  {
     "oid": "9415bea80a3cad013f7edc8c8864d80f468b8500",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[microNPU] Remove unused code from testing infra (#10462)"
-  },
-  {
-    "oid": "646d8cd79ed1f46195f7a733e55aaf59cbc19bd2",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5418364905?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5418364971?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2666/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Torch] fix torch version check (#10481)"
   }
 ]
