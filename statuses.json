@@ -1,5 +1,26 @@
 [
   {
+    "oid": "ff3a48e9c0af1ef5c9395075858755ea5e3c93f5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5434140888?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5434140838?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2682/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Fix Tensorization IR-Comparator for Annotations (#10498)"
+  },
+  {
     "oid": "0c0245ae2230fa07d3e4b8be490fc9c88965730c",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Enable AutoTVM-style template-based search space (#10461)"
-  },
-  {
-    "oid": "bf8e7e00f846e1c43eb8741860509160a7339fa1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5418368210?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5418368162?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2667/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Remove unused code from testing infra (#10462)"
   }
 ]
