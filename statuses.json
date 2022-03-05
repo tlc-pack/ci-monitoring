@@ -1,5 +1,26 @@
 [
   {
+    "oid": "7cfaa88e6c18edc0a41e1a984d3cb9d8659a1c2c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5435007155?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5435007119?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2683/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Enable running CI tests via simulator (#10473)"
+  },
+  {
     "oid": "ff3a48e9c0af1ef5c9395075858755ea5e3c93f5",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] update misc parts (#10444)"
-  },
-  {
-    "oid": "865f34ea5f3eb10ad174d48aee271468c4527efb",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5418527635?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5418527695?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2668/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Enable AutoTVM-style template-based search space (#10461)"
   }
 ]
