@@ -1,5 +1,26 @@
 [
   {
+    "oid": "96069c118fd9f1c1a30028e20e43a7346d0b10eb",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5436962298?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5436962289?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2685/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Remove `llvm -device=arm_cpu` and `cuda -libs=cudnn` from the de\u2026"
+  },
+  {
     "oid": "085d36ca7f86fec31af78a2d7ec924266bf7b147",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "Correctly enable architecture extensions in CMSIS-NN Zephyr Demo (#10\u2026"
-  },
-  {
-    "oid": "0f2392cc9b87e66715d9bf2a193c2d2476a42a9b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5418987485?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5418987562?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2670/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Arith] Handle mod/floormod in modular set analysis (#10453)"
   }
 ]
