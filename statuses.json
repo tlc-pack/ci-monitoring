@@ -1,5 +1,26 @@
 [
   {
+    "oid": "8729f6b67a1e1d286b536162481014a3bca7633e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5437355853?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5437355814?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2686/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Update scripts for subgraph tuning (#10501)"
+  },
+  {
     "oid": "96069c118fd9f1c1a30028e20e43a7346d0b10eb",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[Minor][Build] Fix compiler warnings hidden overloaded virtual functi\u2026"
-  },
-  {
-    "oid": "d1046f517245d41a3d587bee2bef73f0d05f9951",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5420407713?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5420407811?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2671/display/redirect"
-      }
-    ],
-    "messageHeadline": "Correctly enable architecture extensions in CMSIS-NN Zephyr Demo (#10\u2026"
   }
 ]
