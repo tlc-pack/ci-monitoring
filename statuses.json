@@ -1,5 +1,21 @@
 [
   {
+    "oid": "12f213a7f7839b3593f18428cc71bb8f8e24a67d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5443540108?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5443540174?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[BYOC-DNNL] Support DNNL optimal layout (#10421)"
+  },
+  {
     "oid": "174d09ee2cef1ea2caab4c84e0bd58d90c09178f",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[ci] Disable flaky tuning test (#10490)"
-  },
-  {
-    "oid": "db8cf2f611f2ce2deb758ceed6b2644a76c58fd8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5429455211?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5429455302?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2676/display/redirect"
-      }
-    ],
-    "messageHeadline": "don't rely on cudnn for compilation (#10495)"
   }
 ]
