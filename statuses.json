@@ -1,5 +1,26 @@
 [
   {
+    "oid": "174d09ee2cef1ea2caab4c84e0bd58d90c09178f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5442420448?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5442420661?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2690/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TE][TIR] Implement layout transformations, non-flat memory buffers (\u2026"
+  },
+  {
     "oid": "19702235d4a178d4bc221f6b3cbdbf2031ef3c21",
     "statuses": [
       {
@@ -14,7 +35,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2689/display/redirect"
       }
     ],
@@ -35,7 +56,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2688/display/redirect"
       }
     ],
@@ -292,16 +313,5 @@
       }
     ],
     "messageHeadline": "don't rely on cudnn for compilation (#10495)"
-  },
-  {
-    "oid": "3f96f3d3ac6c033110d8d08257c3375a6522e871",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2675/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci][ci] hotfix Jenkinsfile (#10492)"
   }
 ]
