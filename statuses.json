@@ -1,5 +1,26 @@
 [
   {
+    "oid": "5e81389532bad16bbeba2f0dea946ca8b124db04",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5467705034?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5467705185?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2699/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Introduce a pass to remove redundant identity operations (\u2026"
+  },
+  {
     "oid": "acf8be70f738d2bae0ca30ade1ea11af0f9c790f",
     "statuses": [
       {
@@ -287,26 +308,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Update scripts for subgraph tuning (#10501)"
-  },
-  {
-    "oid": "96069c118fd9f1c1a30028e20e43a7346d0b10eb",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5436962298?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5436962289?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2685/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Remove `llvm -device=arm_cpu` and `cuda -libs=cudnn` from the de\u2026"
   }
 ]
