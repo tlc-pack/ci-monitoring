@@ -1,5 +1,21 @@
 [
   {
+    "oid": "acf8be70f738d2bae0ca30ade1ea11af0f9c790f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5466828839?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5466828733?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[microNPU] modify the demo to use USMP (#10511)"
+  },
+  {
     "oid": "f4b74ba1698758fa7365265dfa62d810b46e3b8c",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[CI] Remove `llvm -device=arm_cpu` and `cuda -libs=cudnn` from the de\u2026"
-  },
-  {
-    "oid": "085d36ca7f86fec31af78a2d7ec924266bf7b147",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5436087303?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5436087337?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2684/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Refactor testing workloads (#10497)"
   }
 ]
