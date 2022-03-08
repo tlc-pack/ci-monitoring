@@ -1,5 +1,26 @@
 [
   {
+    "oid": "71d6f4670f0aef3442a06ffe3fe7867f3fcfecf7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5459193015?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5459193090?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2694/display/redirect"
+      }
+    ],
+    "messageHeadline": "fix: select narrow dtype (#10519)"
+  },
+  {
     "oid": "57556fe9faaf7f4f8225ad68958ed82a22bd555c",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[ETHOSN] Implement tanh operator (#10486)"
-  },
-  {
-    "oid": "70f223ba08a1cb161d202ff9d668d00d325526e0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5430630760?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5430630786?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2679/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CodeGen][CUDA] use hrint for cuda half rounding (#10460)"
   }
 ]
