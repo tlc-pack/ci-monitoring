@@ -1,5 +1,26 @@
 [
   {
+    "oid": "704ac8b6604ccaa7ce9f6fa330e37987b39a2f35",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5460001234?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5460001160?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2697/display/redirect"
+      }
+    ],
+    "messageHeadline": "[FIX] Only allow autoscheduler layout rewritting in conv2d_nhwc (#10522)"
+  },
+  {
     "oid": "6ac684bca73e52a1ba99954082392db09e09a5fa",
     "statuses": [
       {
@@ -25,12 +46,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5459414855?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5459414900?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Enable running CI tests via simulator (#10473)"
-  },
-  {
-    "oid": "ff3a48e9c0af1ef5c9395075858755ea5e3c93f5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5434140888?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5434140838?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2682/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Fix Tensorization IR-Comparator for Annotations (#10498)"
   }
 ]
