@@ -1,5 +1,26 @@
 [
   {
+    "oid": "6ac684bca73e52a1ba99954082392db09e09a5fa",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5459836797?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5459836836?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2696/display/redirect"
+      }
+    ],
+    "messageHeadline": "Automatically close open files to prevent ResourceWarning (#10526)"
+  },
+  {
     "oid": "5c0ea3032e32f6dccc7a6322e4df7e657dadde5a",
     "statuses": [
       {
@@ -25,12 +46,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5459193015?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5459193090?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[TIR] Fix Tensorization IR-Comparator for Annotations (#10498)"
-  },
-  {
-    "oid": "0c0245ae2230fa07d3e4b8be490fc9c88965730c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5433228164?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5433228183?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2681/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Fix scripts to enable automated testing on hardware (#10491)"
   }
 ]
