@@ -1,5 +1,26 @@
 [
   {
+    "oid": "f4b74ba1698758fa7365265dfa62d810b46e3b8c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5460297515?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5460297426?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2698/display/redirect"
+      }
+    ],
+    "messageHeadline": "Add Check about negative uint constant (#10484)"
+  },
+  {
     "oid": "704ac8b6604ccaa7ce9f6fa330e37987b39a2f35",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Refactor testing workloads (#10497)"
-  },
-  {
-    "oid": "7cfaa88e6c18edc0a41e1a984d3cb9d8659a1c2c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5435007155?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5435007119?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2683/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Enable running CI tests via simulator (#10473)"
   }
 ]
