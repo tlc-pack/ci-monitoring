@@ -1,5 +1,26 @@
 [
   {
+    "oid": "5804d20c6231da25b8cf5d4d6df20792df022a85",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5467882046?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5467882150?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2700/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Fix stride bug in strided slice legalization (#10286)"
+  },
+  {
     "oid": "5e81389532bad16bbeba2f0dea946ca8b124db04",
     "statuses": [
       {
@@ -30,7 +51,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5466828733?check_suite_focus=true"
       }
     ],
@@ -287,26 +308,5 @@
       }
     ],
     "messageHeadline": "[AOT] Rerun FVP test incase of first attempt failure (#10408)"
-  },
-  {
-    "oid": "8729f6b67a1e1d286b536162481014a3bca7633e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5437355853?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5437355814?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2686/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Update scripts for subgraph tuning (#10501)"
   }
 ]
