@@ -1,5 +1,26 @@
 [
   {
+    "oid": "5c0ea3032e32f6dccc7a6322e4df7e657dadde5a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5459414855?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5459414900?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2695/display/redirect"
+      }
+    ],
+    "messageHeadline": "[vulkan] Add integer dot product (4xint8, 4xuint8) tensorization for \u2026"
+  },
+  {
     "oid": "71d6f4670f0aef3442a06ffe3fe7867f3fcfecf7",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Fix scripts to enable automated testing on hardware (#10491)"
-  },
-  {
-    "oid": "9415bea80a3cad013f7edc8c8864d80f468b8500",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5432542756?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5432542717?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2680/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ETHOSN] Implement tanh operator (#10486)"
   }
 ]
