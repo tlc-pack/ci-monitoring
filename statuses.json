@@ -1,5 +1,26 @@
 [
   {
+    "oid": "f9d39185e597190ed26e362931fd108c4f355f1c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5486415140?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5486415229?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2706/display/redirect"
+      }
+    ],
+    "messageHeadline": "[LLVM][TIR] Propagate variable names to parameters. (#10514)"
+  },
+  {
     "oid": "fe33ed6d90a06c814e87c4ee45676264c93d50ec",
     "statuses": [
       {
@@ -277,26 +298,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Add default constructor to struct Optional in session.cc (#\u2026"
-  },
-  {
-    "oid": "22abfc401315c143aba0aa27bd1b15f8228a8523",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5453940676?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5453940742?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2692/display/redirect"
-      }
-    ],
-    "messageHeadline": "support returned function in relay.build (#10502)"
   }
 ]
