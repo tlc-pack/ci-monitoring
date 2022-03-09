@@ -1,5 +1,26 @@
 [
   {
+    "oid": "ffd5f70370642c909222f9a4cae8400023dacbdc",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5478287968?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5478287876?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2704/display/redirect"
+      }
+    ],
+    "messageHeadline": "Revert \"[TE][Fix] Comparison of the output tensor (#9829)\" (#10540)"
+  },
+  {
     "oid": "a8a25749e759ff43d264f3e2f3936c8ce9e40c25",
     "statuses": [
       {
@@ -277,26 +298,5 @@
       }
     ],
     "messageHeadline": "[BYOC-DNNL] Support DNNL optimal layout (#10421)"
-  },
-  {
-    "oid": "174d09ee2cef1ea2caab4c84e0bd58d90c09178f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5442420448?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5442420661?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2690/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TE][TIR] Implement layout transformations, non-flat memory buffers (\u2026"
   }
 ]
