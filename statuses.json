@@ -1,5 +1,26 @@
 [
   {
+    "oid": "fe33ed6d90a06c814e87c4ee45676264c93d50ec",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5485722532?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5485722414?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2705/display/redirect"
+      }
+    ],
+    "messageHeadline": "RFC: initial stab at TorchScript fallback (#7401)"
+  },
+  {
     "oid": "ffd5f70370642c909222f9a4cae8400023dacbdc",
     "statuses": [
       {
@@ -277,26 +298,5 @@
       }
     ],
     "messageHeadline": "support returned function in relay.build (#10502)"
-  },
-  {
-    "oid": "12f213a7f7839b3593f18428cc71bb8f8e24a67d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5443540108?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5443540174?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2691/display/redirect"
-      }
-    ],
-    "messageHeadline": "[BYOC-DNNL] Support DNNL optimal layout (#10421)"
   }
 ]
