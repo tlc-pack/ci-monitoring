@@ -1,10 +1,52 @@
 [
   {
-    "oid": "3894991bedabed31b6cd9e2b3b817bf298b7bf0f",
+    "oid": "7e49f53fab8dbacfa9154f05732911e66d3930e4",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5501819566?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5501819715?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2723/display/redirect"
+      }
+    ],
+    "messageHeadline": "[AUTO_SCHEDULER] Add feature extraction directly from PrimFunc (#10455)"
+  },
+  {
+    "oid": "e2211a2c208082791031522babe0f9387f10354d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5501670618?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5501670727?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2722/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Upgrade Python dependencies as part of Docker image build"
+  },
+  {
+    "oid": "3894991bedabed31b6cd9e2b3b817bf298b7bf0f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5500611916?check_suite_focus=true"
       },
       {
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Resolve breakage in test_hexagon/test_cache_read_write (#10\u2026"
-  },
-  {
-    "oid": "0fa35408d66324dfb98bd0f6f885a1d5fdc7c394",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5489265727?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5489265756?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2708/display/redirect"
-      }
-    ],
-    "messageHeadline": "[QNN] Add nn.adaptive_avg_pool1d to FQ2I (#10541)"
-  },
-  {
-    "oid": "060d9d217f7c74d383a48034ad150ea26b821480",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5487755761?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5487755632?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2707/display/redirect"
-      }
-    ],
-    "messageHeadline": "[AOT] Introduce checks for return values from operators (#10424)"
   }
 ]
