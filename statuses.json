@@ -1,15 +1,36 @@
 [
   {
-    "oid": "45ef5336628e6e620f2db61d9fab604b563edf65",
+    "oid": "3894991bedabed31b6cd9e2b3b817bf298b7bf0f",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/5499411988?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/5500611916?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5500612002?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2721/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Remove commit check on ci skipping logic (#10537)"
+  },
+  {
+    "oid": "45ef5336628e6e620f2db61d9fab604b563edf65",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5499411988?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5499412095?check_suite_focus=true"
       },
       {
@@ -25,12 +46,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5499401073?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5499400925?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[AOT] Introduce checks for return values from operators (#10424)"
-  },
-  {
-    "oid": "f9d39185e597190ed26e362931fd108c4f355f1c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5486415140?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5486415229?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2706/display/redirect"
-      }
-    ],
-    "messageHeadline": "[LLVM][TIR] Propagate variable names to parameters. (#10514)"
   }
 ]
