@@ -1,5 +1,47 @@
 [
   {
+    "oid": "ac6607282e080dc15cce7d9cf565f5d390ba0f16",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5497323118?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5497323278?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2716/display/redirect"
+      }
+    ],
+    "messageHeadline": "Interpreter call in FoldConstant now always uses graph executor with \u2026"
+  },
+  {
+    "oid": "c02a8b70971d7507159365a93d45521b8c45a4db",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5497305339?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5497305573?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2715/display/redirect"
+      }
+    ],
+    "messageHeadline": "[FIX,HEXAGON] Gitignore generated Hexagon files (#10552)"
+  },
+  {
     "oid": "201a58448fe8a4f8160afd03b86ff5ff7c1360e4",
     "statuses": [
       {
@@ -261,47 +303,5 @@
       }
     ],
     "messageHeadline": "[TE COMPILER] Propagate structural hash from relay function to TIR fu\u2026"
-  },
-  {
-    "oid": "7688db7ac5c4e1a043bf0dddeed75780ec49e70a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5470062001?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5470062122?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2701/display/redirect"
-      }
-    ],
-    "messageHeadline": "[PTX] Support mma.sp to use Sparse Tensor Cores and refactor mma code\u2026"
-  },
-  {
-    "oid": "5804d20c6231da25b8cf5d4d6df20792df022a85",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5467882046?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5467882150?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2700/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Fix stride bug in strided slice legalization (#10286)"
   }
 ]
