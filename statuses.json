@@ -1,5 +1,21 @@
 [
   {
+    "oid": "39bf923312e10cb3c665b792960e0878e60854e8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5491690591?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5491690528?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[AOT] Use python temporary directory for AOT tests (#10518)"
+  },
+  {
     "oid": "48793f3c7cdd814d28ad6addcdeee22d3380ef26",
     "statuses": [
       {
@@ -277,26 +293,5 @@
       }
     ],
     "messageHeadline": "Add Check about negative uint constant (#10484)"
-  },
-  {
-    "oid": "704ac8b6604ccaa7ce9f6fa330e37987b39a2f35",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5460001234?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5460001160?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2697/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FIX] Only allow autoscheduler layout rewritting in conv2d_nhwc (#10522)"
   }
 ]
