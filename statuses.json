@@ -1,5 +1,26 @@
 [
   {
+    "oid": "a1fb44dcc539f3877d7841e7fc51f4be745f8c1b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5491747215?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5491747133?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2712/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Add support for TFLite FULLY_CONNECTED (#10345)"
+  },
+  {
     "oid": "39bf923312e10cb3c665b792960e0878e60854e8",
     "statuses": [
       {
@@ -11,6 +32,11 @@
         "name": "CI / Windows",
         "status": "PENDING",
         "url": "https://github.com/apache/tvm/runs/5491690528?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2711/display/redirect"
       }
     ],
     "messageHeadline": "[AOT] Use python temporary directory for AOT tests (#10518)"
@@ -272,26 +298,5 @@
       }
     ],
     "messageHeadline": "[microNPU] modify the demo to use USMP (#10511)"
-  },
-  {
-    "oid": "f4b74ba1698758fa7365265dfa62d810b46e3b8c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5460297515?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5460297426?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2698/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add Check about negative uint constant (#10484)"
   }
 ]
