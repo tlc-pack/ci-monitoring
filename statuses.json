@@ -1,5 +1,42 @@
 [
   {
+    "oid": "201a58448fe8a4f8160afd03b86ff5ff7c1360e4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5492930839?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5492930911?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Bug Fix for Relay Integration (#10534)"
+  },
+  {
+    "oid": "15dc4aab601516c3453759351102cbcfa426944c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5492808593?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5492808504?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2713/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Runtime][ThreadPool] Remove a cout log output. (#10560)"
+  },
+  {
     "oid": "a1fb44dcc539f3877d7841e7fc51f4be745f8c1b",
     "statuses": [
       {
@@ -261,42 +298,5 @@
       }
     ],
     "messageHeadline": "[microNPU] Fix stride bug in strided slice legalization (#10286)"
-  },
-  {
-    "oid": "5e81389532bad16bbeba2f0dea946ca8b124db04",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5467705034?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5467705185?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2699/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Introduce a pass to remove redundant identity operations (\u2026"
-  },
-  {
-    "oid": "acf8be70f738d2bae0ca30ade1ea11af0f9c790f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5466828839?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5466828733?check_suite_focus=true"
-      }
-    ],
-    "messageHeadline": "[microNPU] modify the demo to use USMP (#10511)"
   }
 ]
