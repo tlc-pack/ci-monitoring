@@ -1,5 +1,68 @@
 [
   {
+    "oid": "48793f3c7cdd814d28ad6addcdeee22d3380ef26",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5489578041?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5489577987?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2710/display/redirect"
+      }
+    ],
+    "messageHeadline": "Add ONNX LinearRegressor operator support (#10477)"
+  },
+  {
+    "oid": "1f60529d371434ba874e32bd973eb43ed1910bb7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5489314066?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5489314136?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2709/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Resolve breakage in test_hexagon/test_cache_read_write (#10\u2026"
+  },
+  {
+    "oid": "0fa35408d66324dfb98bd0f6f885a1d5fdc7c394",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5489265727?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5489265756?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2708/display/redirect"
+      }
+    ],
+    "messageHeadline": "[QNN] Add nn.adaptive_avg_pool1d to FQ2I (#10541)"
+  },
+  {
     "oid": "060d9d217f7c74d383a48034ad150ea26b821480",
     "statuses": [
       {
@@ -14,7 +77,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2707/display/redirect"
       }
     ],
@@ -235,68 +298,5 @@
       }
     ],
     "messageHeadline": "[FIX] Only allow autoscheduler layout rewritting in conv2d_nhwc (#10522)"
-  },
-  {
-    "oid": "6ac684bca73e52a1ba99954082392db09e09a5fa",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5459836797?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5459836836?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2696/display/redirect"
-      }
-    ],
-    "messageHeadline": "Automatically close open files to prevent ResourceWarning (#10526)"
-  },
-  {
-    "oid": "5c0ea3032e32f6dccc7a6322e4df7e657dadde5a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5459414855?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5459414900?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2695/display/redirect"
-      }
-    ],
-    "messageHeadline": "[vulkan] Add integer dot product (4xint8, 4xuint8) tensorization for \u2026"
-  },
-  {
-    "oid": "71d6f4670f0aef3442a06ffe3fe7867f3fcfecf7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5459193015?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5459193090?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2694/display/redirect"
-      }
-    ],
-    "messageHeadline": "fix: select narrow dtype (#10519)"
   }
 ]
