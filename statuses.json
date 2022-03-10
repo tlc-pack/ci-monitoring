@@ -1,5 +1,47 @@
 [
   {
+    "oid": "45ef5336628e6e620f2db61d9fab604b563edf65",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5499411988?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5499412095?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2720/display/redirect"
+      }
+    ],
+    "messageHeadline": "[PyTorch][BugFix] PyTorch-TVM Bridge Build Scripts (#10527)"
+  },
+  {
+    "oid": "0825e93557e6722dcefff40b2e2acb77797969db",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5499401073?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5499400925?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2719/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMScript] Add intrinsic to look up llvm intrinsic id (#10551)"
+  },
+  {
     "oid": "a57397e9a282a3faedf843b67a9b119a5d7ce975",
     "statuses": [
       {
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "[LLVM][TIR] Propagate variable names to parameters. (#10514)"
-  },
-  {
-    "oid": "fe33ed6d90a06c814e87c4ee45676264c93d50ec",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5485722532?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5485722414?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2705/display/redirect"
-      }
-    ],
-    "messageHeadline": "RFC: initial stab at TorchScript fallback (#7401)"
-  },
-  {
-    "oid": "ffd5f70370642c909222f9a4cae8400023dacbdc",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5478287968?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5478287876?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2704/display/redirect"
-      }
-    ],
-    "messageHeadline": "Revert \"[TE][Fix] Comparison of the output tensor (#9829)\" (#10540)"
   }
 ]
