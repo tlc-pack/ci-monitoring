@@ -1,5 +1,47 @@
 [
   {
+    "oid": "a57397e9a282a3faedf843b67a9b119a5d7ce975",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5498701811?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5498701996?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2718/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Bugfix] Simultaneous layout transform and axis separators. (#10553)"
+  },
+  {
+    "oid": "de945e086ffdff93a3384c42c6510e4c48475d8e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5498608249?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5498608439?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2717/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Enable TOPI tests in ci_arm (#10564)"
+  },
+  {
     "oid": "ac6607282e080dc15cce7d9cf565f5d390ba0f16",
     "statuses": [
       {
@@ -9,7 +51,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5497323278?check_suite_focus=true"
       },
       {
@@ -25,12 +67,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5497305339?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5497305573?check_suite_focus=true"
       },
       {
@@ -271,37 +313,5 @@
       }
     ],
     "messageHeadline": "Revert \"[TE][Fix] Comparison of the output tensor (#9829)\" (#10540)"
-  },
-  {
-    "oid": "a8a25749e759ff43d264f3e2f3936c8ce9e40c25",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2703/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci][Bugfix] Allow constant folding of 0U - 0U (#10535)"
-  },
-  {
-    "oid": "35d2e8bd0b579c5e4da07d789b4ffe679cabb27f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5472263142?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5472263204?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2702/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TE COMPILER] Propagate structural hash from relay function to TIR fu\u2026"
   }
 ]
