@@ -1,5 +1,26 @@
 [
   {
+    "oid": "076fa33fceabda4f000bdd6e675578ae9f5033a8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5506660549?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5506660585?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2728/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TECompiler] Decouple TE compute and schedule lowering in ScheduleBui\u2026"
+  },
+  {
     "oid": "51ae845a7d3fa3f9f055d2126c92fec2e58a3b01",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Bug Fix for Relay Integration (#10534)"
-  },
-  {
-    "oid": "15dc4aab601516c3453759351102cbcfa426944c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5492808593?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5492808504?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2713/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Runtime][ThreadPool] Remove a cout log output. (#10560)"
   }
 ]
