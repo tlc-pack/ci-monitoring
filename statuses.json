@@ -1,5 +1,47 @@
 [
   {
+    "oid": "4e4f607bafa200346f31c62dc18e9077d5a5c0ca",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5509091507?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5509091685?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2730/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BYOC][TENSOORT] Add support for FP16 on TensorRT BYOC flow  (#10388)"
+  },
+  {
+    "oid": "05cda498effde3c19aaa1891589fedce54f29889",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5509057105?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5509056939?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2729/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CMSIS-NN] Include clip in the qnn binary op patterns (#10548)"
+  },
+  {
     "oid": "076fa33fceabda4f000bdd6e675578ae9f5033a8",
     "statuses": [
       {
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "Interpreter call in FoldConstant now always uses graph executor with \u2026"
-  },
-  {
-    "oid": "c02a8b70971d7507159365a93d45521b8c45a4db",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5497305339?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5497305573?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2715/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FIX,HEXAGON] Gitignore generated Hexagon files (#10552)"
-  },
-  {
-    "oid": "201a58448fe8a4f8160afd03b86ff5ff7c1360e4",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5492930839?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5492930911?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2714/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Bug Fix for Relay Integration (#10534)"
   }
 ]
