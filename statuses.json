@@ -1,5 +1,26 @@
 [
   {
+    "oid": "51ae845a7d3fa3f9f055d2126c92fec2e58a3b01",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5505441871?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5505441796?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2727/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Minor][MetaSchedule] Remove Unused Imports (#10577)"
+  },
+  {
     "oid": "0b37bd2b8da55f95d06af9af307608f858c860fd",
     "statuses": [
       {
@@ -25,12 +46,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5504802995?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5504803046?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Runtime][ThreadPool] Remove a cout log output. (#10560)"
-  },
-  {
-    "oid": "a1fb44dcc539f3877d7841e7fc51f4be745f8c1b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5491747215?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5491747133?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2712/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Add support for TFLite FULLY_CONNECTED (#10345)"
   }
 ]
