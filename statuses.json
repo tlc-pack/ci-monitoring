@@ -1,5 +1,47 @@
 [
   {
+    "oid": "0b37bd2b8da55f95d06af9af307608f858c860fd",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5505226629?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5505226592?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2726/display/redirect"
+      }
+    ],
+    "messageHeadline": "Remove CODEOWNERS (#10192)"
+  },
+  {
+    "oid": "3a9e77b7d3d72f9c3446596173d17b3a2c169628",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5504802995?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5504803046?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2725/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix TorchScript fallback build (#10556)"
+  },
+  {
     "oid": "5b767684968996eb3394e1906eab6bd35970aae1",
     "statuses": [
       {
@@ -14,7 +56,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2724/display/redirect"
       }
     ],
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "[microNPU] Add support for TFLite FULLY_CONNECTED (#10345)"
-  },
-  {
-    "oid": "39bf923312e10cb3c665b792960e0878e60854e8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5491690591?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5491690528?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2711/display/redirect"
-      }
-    ],
-    "messageHeadline": "[AOT] Use python temporary directory for AOT tests (#10518)"
-  },
-  {
-    "oid": "48793f3c7cdd814d28ad6addcdeee22d3380ef26",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5489578041?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5489577987?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2710/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add ONNX LinearRegressor operator support (#10477)"
   }
 ]
