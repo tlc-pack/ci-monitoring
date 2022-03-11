@@ -1,5 +1,21 @@
 [
   {
+    "oid": "6f3158b5c3b50f623ac5c8aeba7e9ea2ea02e550",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5516609521?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5516609607?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[CMAKE] Add option to enable custom logging (#10531)"
+  },
+  {
     "oid": "e34985b5b89e13cbbb7ebddee1ec5c1470a952f6",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[PyTorch][BugFix] PyTorch-TVM Bridge Build Scripts (#10527)"
-  },
-  {
-    "oid": "0825e93557e6722dcefff40b2e2acb77797969db",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5499401073?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5499400925?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2719/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] Add intrinsic to look up llvm intrinsic id (#10551)"
   }
 ]
