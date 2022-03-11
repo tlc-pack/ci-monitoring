@@ -1,5 +1,26 @@
 [
   {
+    "oid": "e34985b5b89e13cbbb7ebddee1ec5c1470a952f6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5511793684?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5511793775?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2733/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Add doc on TVM - Hexagon RPC flow (#10507)"
+  },
+  {
     "oid": "a4a481f589bb77f89b6ab14aa6cf940936525ffc",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[TVMScript] Add intrinsic to look up llvm intrinsic id (#10551)"
-  },
-  {
-    "oid": "a57397e9a282a3faedf843b67a9b119a5d7ce975",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5498701811?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5498701996?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2718/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Bugfix] Simultaneous layout transform and axis separators. (#10553)"
   }
 ]
