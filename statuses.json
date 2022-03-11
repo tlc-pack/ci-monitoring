@@ -1,5 +1,26 @@
 [
   {
+    "oid": "678e76b3efd57b171940f0017bee89451e381785",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5517063873?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5517063943?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2735/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Restrict Buffer indices, only last index can be multi-lane (#10\u2026"
+  },
+  {
     "oid": "6f3158b5c3b50f623ac5c8aeba7e9ea2ea02e550",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[ci] Remove commit check on ci skipping logic (#10537)"
-  },
-  {
-    "oid": "45ef5336628e6e620f2db61d9fab604b563edf65",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5499411988?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5499412095?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2720/display/redirect"
-      }
-    ],
-    "messageHeadline": "[PyTorch][BugFix] PyTorch-TVM Bridge Build Scripts (#10527)"
   }
 ]
