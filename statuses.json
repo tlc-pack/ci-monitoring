@@ -1,5 +1,26 @@
 [
   {
+    "oid": "975086ebf8babe8b651e5a8b044c72bff8a0350b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5519638952?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5519638981?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2740/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Arith] Support dtype promotion in TIR comparison expr creation (#10584)"
+  },
+  {
     "oid": "4cdbf5cbfec3db5b5ef5177a7611efecaf56d8c7",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Remove CODEOWNERS (#10192)"
-  },
-  {
-    "oid": "3a9e77b7d3d72f9c3446596173d17b3a2c169628",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5504802995?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5504803046?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2725/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix TorchScript fallback build (#10556)"
   }
 ]
