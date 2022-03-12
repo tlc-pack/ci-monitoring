@@ -1,5 +1,21 @@
 [
   {
+    "oid": "aa47018c2d05751f996266f966a052bddbf0d2c0",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5523832742?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5523832778?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[QNN] unary op for quantized resize2d and test (#10589)"
+  },
+  {
     "oid": "975086ebf8babe8b651e5a8b044c72bff8a0350b",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[Minor][MetaSchedule] Remove Unused Imports (#10577)"
-  },
-  {
-    "oid": "0b37bd2b8da55f95d06af9af307608f858c860fd",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5505226629?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5505226592?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2726/display/redirect"
-      }
-    ],
-    "messageHeadline": "Remove CODEOWNERS (#10192)"
   }
 ]
