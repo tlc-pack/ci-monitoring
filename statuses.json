@@ -1,5 +1,89 @@
 [
   {
+    "oid": "4cdbf5cbfec3db5b5ef5177a7611efecaf56d8c7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5519002720?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5519002759?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2739/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TE] Promote substituted variable to iter_var's dtype (#10571)"
+  },
+  {
+    "oid": "5dc40158e91fba255b791f4f381e1e68821225b9",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5518969157?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5518969105?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2738/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CMAKE,HEXAGON] Only enable Hexagon custom logging when building for \u2026"
+  },
+  {
+    "oid": "409ddef10b94668af397f32d47372347485fda7d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5518765665?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5518765616?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2737/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Delay pytest errors until all invocations have run (#10521)"
+  },
+  {
+    "oid": "39487d89d46b0aff644317b5315a17c5173b9d8b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5518675911?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5518675976?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2736/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Build GPU libraries on CPU nodes (#10539)"
+  },
+  {
     "oid": "678e76b3efd57b171940f0017bee89451e381785",
     "statuses": [
       {
@@ -229,89 +313,5 @@
       }
     ],
     "messageHeadline": "Fix TorchScript fallback build (#10556)"
-  },
-  {
-    "oid": "5b767684968996eb3394e1906eab6bd35970aae1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5503789008?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5503789114?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2724/display/redirect"
-      }
-    ],
-    "messageHeadline": "Unit test for DFPatternRewriter on deeply nested sub-graph with attri\u2026"
-  },
-  {
-    "oid": "7e49f53fab8dbacfa9154f05732911e66d3930e4",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5501819566?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5501819715?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2723/display/redirect"
-      }
-    ],
-    "messageHeadline": "[AUTO_SCHEDULER] Add feature extraction directly from PrimFunc (#10455)"
-  },
-  {
-    "oid": "e2211a2c208082791031522babe0f9387f10354d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "NEUTRAL",
-        "url": "https://github.com/apache/tvm/runs/5501670618?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5501670727?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2722/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Upgrade Python dependencies as part of Docker image build"
-  },
-  {
-    "oid": "3894991bedabed31b6cd9e2b3b817bf298b7bf0f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5500611916?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5500612002?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2721/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Remove commit check on ci skipping logic (#10537)"
   }
 ]
