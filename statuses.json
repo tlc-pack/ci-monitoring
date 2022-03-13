@@ -1,5 +1,26 @@
 [
   {
+    "oid": "ce2f81a00922576f270fb2944aab27ec9b8f90bf",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5526183066?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5526183094?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2742/display/redirect"
+      }
+    ],
+    "messageHeadline": "Upgrade Windows build to use windows-2019 runner (#10585)"
+  },
+  {
     "oid": "aa47018c2d05751f996266f966a052bddbf0d2c0",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[TECompiler] Decouple TE compute and schedule lowering in ScheduleBui\u2026"
-  },
-  {
-    "oid": "51ae845a7d3fa3f9f055d2126c92fec2e58a3b01",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5505441871?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5505441796?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2727/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Minor][MetaSchedule] Remove Unused Imports (#10577)"
   }
 ]
