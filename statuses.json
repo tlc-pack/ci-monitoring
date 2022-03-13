@@ -1,5 +1,21 @@
 [
   {
+    "oid": "5775f64f24a72506a548190da31aea1dfde3a9b9",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5529590786?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5529590840?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[Fix] Refactor the roundtrip test. (#10592)"
+  },
+  {
     "oid": "ce2f81a00922576f270fb2944aab27ec9b8f90bf",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[CMSIS-NN] Include clip in the qnn binary op patterns (#10548)"
-  },
-  {
-    "oid": "076fa33fceabda4f000bdd6e675578ae9f5033a8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5506660549?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5506660585?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2728/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TECompiler] Decouple TE compute and schedule lowering in ScheduleBui\u2026"
   }
 ]
