@@ -1,5 +1,26 @@
 [
   {
+    "oid": "3187753d728503c3637b359b47c126100d3aca5e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5533497443?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5533497499?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2744/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Minor] fix redundant compute (#10580)"
+  },
+  {
     "oid": "5775f64f24a72506a548190da31aea1dfde3a9b9",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[BYOC][TENSOORT] Add support for FP16 on TensorRT BYOC flow  (#10388)"
-  },
-  {
-    "oid": "05cda498effde3c19aaa1891589fedce54f29889",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5509057105?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5509056939?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2729/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CMSIS-NN] Include clip in the qnn binary op patterns (#10548)"
   }
 ]
