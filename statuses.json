@@ -1,5 +1,47 @@
 [
   {
+    "oid": "2b7013e344cf15561acd2649f6c9cadf2f2032be",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5545123526?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5545123426?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2756/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Arith] Improve floordiv / floormod rewrite simplifing rules (#10591)"
+  },
+  {
+    "oid": "8bbb2066860670e67389496f91b81d3d1f9e3170",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5545115554?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5545115608?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2755/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMScript] fix print target's host (#10598)"
+  },
+  {
     "oid": "50c632e1f20dbbe71fcfcc18b292af96f628ea45",
     "statuses": [
       {
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "Upgrade Windows build to use windows-2019 runner (#10585)"
-  },
-  {
-    "oid": "aa47018c2d05751f996266f966a052bddbf0d2c0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5523832742?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5523832778?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2741/display/redirect"
-      }
-    ],
-    "messageHeadline": "[QNN] unary op for quantized resize2d and test (#10589)"
-  },
-  {
-    "oid": "975086ebf8babe8b651e5a8b044c72bff8a0350b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5519638952?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5519638981?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2740/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Arith] Support dtype promotion in TIR comparison expr creation (#10584)"
   }
 ]
