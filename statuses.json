@@ -1,5 +1,42 @@
 [
   {
+    "oid": "8418026ff6ffc7c047b0b57a5c7cf0db571ea406",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5542547895?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5542547759?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[FQ2I] Add leaky relu to FQ21 (#10378)"
+  },
+  {
+    "oid": "7d5ef84b84c09ea82ccf2ab0ff005d6ead102bdc",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5542392114?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5542392260?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2748/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CUDA] Various int8 fix (cublas, cutlass, etc) (#10596)"
+  },
+  {
     "oid": "4d88a45523216cbf42da256db2bc0e8300b12889",
     "statuses": [
       {
@@ -271,47 +308,5 @@
       }
     ],
     "messageHeadline": "[TIR] Restrict Buffer indices, only last index can be multi-lane (#10\u2026"
-  },
-  {
-    "oid": "6f3158b5c3b50f623ac5c8aeba7e9ea2ea02e550",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5516609521?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5516609607?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2734/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CMAKE] Add option to enable custom logging (#10531)"
-  },
-  {
-    "oid": "e34985b5b89e13cbbb7ebddee1ec5c1470a952f6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5511793684?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5511793775?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2733/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Add doc on TVM - Hexagon RPC flow (#10507)"
   }
 ]
