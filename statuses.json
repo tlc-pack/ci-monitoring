@@ -1,5 +1,26 @@
 [
   {
+    "oid": "ff5401114b59ca80f76465a07185d77d79ade586",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5545780220?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5545780285?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2757/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Bugfix][MetaSchedule] Fix over-simplification of Select (#10605)"
+  },
+  {
     "oid": "2b7013e344cf15561acd2649f6c9cadf2f2032be",
     "statuses": [
       {
@@ -46,7 +67,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5544867837?check_suite_focus=true"
       },
       {
@@ -67,12 +88,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5544851201?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5544851277?check_suite_focus=true"
       },
       {
@@ -88,7 +109,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5544744333?check_suite_focus=true"
       },
       {
@@ -114,7 +135,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5544622030?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Fix] Refactor the roundtrip test. (#10592)"
-  },
-  {
-    "oid": "ce2f81a00922576f270fb2944aab27ec9b8f90bf",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5526183066?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5526183094?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2742/display/redirect"
-      }
-    ],
-    "messageHeadline": "Upgrade Windows build to use windows-2019 runner (#10585)"
   }
 ]
