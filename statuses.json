@@ -1,5 +1,21 @@
 [
   {
+    "oid": "4d88a45523216cbf42da256db2bc0e8300b12889",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5538732408?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5538732644?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[microNPU] Improve cycles estimates for memory transfers (#10508)"
+  },
+  {
     "oid": "8bddaabe17b820ede0bf84db035e22c050af07ad",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Add doc on TVM - Hexagon RPC flow (#10507)"
-  },
-  {
-    "oid": "a4a481f589bb77f89b6ab14aa6cf940936525ffc",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5509373983?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5509374087?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2732/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Refactor] Reduced repetition in CodeGenLLVM's buffer access (#10567)"
   }
 ]
