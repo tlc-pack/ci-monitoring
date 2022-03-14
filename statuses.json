@@ -1,5 +1,47 @@
 [
   {
+    "oid": "8bddaabe17b820ede0bf84db035e22c050af07ad",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5534917294?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5534917389?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2746/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TFLite] Quantized unary elemwise ops (#10566)"
+  },
+  {
+    "oid": "5eb93df7ba24f4c78e0c14f6f9741275ddd7127f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5534877635?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5534877741?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2745/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CMSIS-NN] Scalar to tensor constant pass to support only qnn.add and\u2026"
+  },
+  {
     "oid": "3187753d728503c3637b359b47c126100d3aca5e",
     "statuses": [
       {
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "[Refactor] Reduced repetition in CodeGenLLVM's buffer access (#10567)"
-  },
-  {
-    "oid": "3f9cdee0fd76154548a5a0d349b52532b3771165",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5509355074?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5509354944?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2731/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMSCRIPT] Add type definition for preflattened_buffer (#10550)"
-  },
-  {
-    "oid": "4e4f607bafa200346f31c62dc18e9077d5a5c0ca",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5509091507?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5509091685?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2730/display/redirect"
-      }
-    ],
-    "messageHeadline": "[BYOC][TENSOORT] Add support for FP16 on TensorRT BYOC flow  (#10388)"
   }
 ]
