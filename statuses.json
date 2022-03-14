@@ -1,5 +1,26 @@
 [
   {
+    "oid": "47cd410c6c1b36281a88855670946775aa72d39a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5542839844?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5542839757?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2750/display/redirect"
+      }
+    ],
+    "messageHeadline": "Deploy docs to tvm-site/asf-site on main (#10494)"
+  },
+  {
     "oid": "8418026ff6ffc7c047b0b57a5c7cf0db571ea406",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[ci] Build GPU libraries on CPU nodes (#10539)"
-  },
-  {
-    "oid": "678e76b3efd57b171940f0017bee89451e381785",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5517063873?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5517063943?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2735/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Restrict Buffer indices, only last index can be multi-lane (#10\u2026"
   }
 ]
