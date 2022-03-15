@@ -1,15 +1,36 @@
 [
   {
-    "oid": "ff5401114b59ca80f76465a07185d77d79ade586",
+    "oid": "2f7bb58377736bec2a15b45fa730e6f5b73605fb",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/5545780220?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/5546245037?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5546245065?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2758/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Generalize builtin for Nd memory alloc with storage scope a\u2026"
+  },
+  {
+    "oid": "ff5401114b59ca80f76465a07185d77d79ade586",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5545780220?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5545780285?check_suite_focus=true"
       },
       {
@@ -77,7 +98,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2754/display/redirect"
       }
     ],
@@ -98,7 +119,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2753/display/redirect"
       }
     ],
@@ -119,7 +140,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2752/display/redirect"
       }
     ],
@@ -140,7 +161,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2751/display/redirect"
       }
     ],
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Minor] fix redundant compute (#10580)"
-  },
-  {
-    "oid": "5775f64f24a72506a548190da31aea1dfde3a9b9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5529590786?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5529590840?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2743/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Fix] Refactor the roundtrip test. (#10592)"
   }
 ]
