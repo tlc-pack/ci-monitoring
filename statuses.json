@@ -1,5 +1,21 @@
 [
   {
+    "oid": "0ea07a7a8320de8c75e538c97fe0f37642b7e856",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5554350393?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5554350259?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[CI] Pin numpy version in image build (#10611)"
+  },
+  {
     "oid": "0b6125637058dd080371399e913314bc5f132af3",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[TFLite] Quantized unary elemwise ops (#10566)"
-  },
-  {
-    "oid": "5eb93df7ba24f4c78e0c14f6f9741275ddd7127f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5534877635?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5534877741?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2745/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CMSIS-NN] Scalar to tensor constant pass to support only qnn.add and\u2026"
   }
 ]
