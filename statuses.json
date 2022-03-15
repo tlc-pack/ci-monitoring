@@ -1,5 +1,26 @@
 [
   {
+    "oid": "8a636a9433f1650991c7c4b9b9a588bc29e794a1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5556052814?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5556052993?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2762/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Codegen for 2d Load/Store (#10586)"
+  },
+  {
     "oid": "47978509929d0fd04a234137e4be1b8ec6a38fa3",
     "statuses": [
       {
@@ -9,7 +30,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5554513860?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[CUDA] Various int8 fix (cublas, cutlass, etc) (#10596)"
-  },
-  {
-    "oid": "4d88a45523216cbf42da256db2bc0e8300b12889",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5538732408?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5538732644?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2747/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Improve cycles estimates for memory transfers (#10508)"
   }
 ]
