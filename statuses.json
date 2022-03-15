@@ -1,5 +1,26 @@
 [
   {
+    "oid": "0d068f4509ff2b2f3034230de9c7dd376dcae31a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5561585846?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5561585906?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2766/display/redirect"
+      }
+    ],
+    "messageHeadline": "Add remaining targets to ci.py (#10425)"
+  },
+  {
     "oid": "4806b80f0f687c4d5928c8e3dab18cf02ae342fb",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[TIR] Updated python docstring and parameter names for AllocateConst \u2026"
-  },
-  {
-    "oid": "c3168d106694331b93db2ec4d8a90d4cc9f297cf",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5544622152?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5544622030?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2751/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microTVM][RVM] Improve base-box-tool 'build' command (#8738)"
   }
 ]
