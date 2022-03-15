@@ -1,5 +1,21 @@
 [
   {
+    "oid": "47978509929d0fd04a234137e4be1b8ec6a38fa3",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5554513704?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5554513860?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[microTVM] Zephyr: add mps3_an547 board support (#10479)"
+  },
+  {
     "oid": "0ea07a7a8320de8c75e538c97fe0f37642b7e856",
     "statuses": [
       {
@@ -287,26 +303,5 @@
       }
     ],
     "messageHeadline": "[microNPU] Improve cycles estimates for memory transfers (#10508)"
-  },
-  {
-    "oid": "8bddaabe17b820ede0bf84db035e22c050af07ad",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5534917294?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5534917389?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2746/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TFLite] Quantized unary elemwise ops (#10566)"
   }
 ]
