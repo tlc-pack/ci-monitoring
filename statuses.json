@@ -1,5 +1,26 @@
 [
   {
+    "oid": "0b6125637058dd080371399e913314bc5f132af3",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5547359895?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5547359758?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2759/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix bug check trt (#10600)"
+  },
+  {
     "oid": "2f7bb58377736bec2a15b45fa730e6f5b73605fb",
     "statuses": [
       {
@@ -14,7 +35,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2758/display/redirect"
       }
     ],
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[CMSIS-NN] Scalar to tensor constant pass to support only qnn.add and\u2026"
-  },
-  {
-    "oid": "3187753d728503c3637b359b47c126100d3aca5e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5533497443?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5533497499?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2744/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Minor] fix redundant compute (#10580)"
   }
 ]
