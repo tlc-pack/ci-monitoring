@@ -1,15 +1,47 @@
 [
   {
-    "oid": "232a84e04ee078266cc075a816a2f20deab051db",
+    "oid": "4806b80f0f687c4d5928c8e3dab18cf02ae342fb",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/5558718926?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/5559984191?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5559984320?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Refactor tvm.contrib.hexagon, NFC (#10616)"
+  },
+  {
+    "oid": "1584da4d55c370bb378a85aa427bd07a4d3bfe70",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5559976887?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5559976767?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Deprecate SDK 3.x, rewrite HexagonSDK.cmake (#10612)"
+  },
+  {
+    "oid": "232a84e04ee078266cc075a816a2f20deab051db",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5558718926?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5558719139?check_suite_focus=true"
       },
       {
@@ -271,47 +303,5 @@
       }
     ],
     "messageHeadline": "[microTVM][RVM] Improve base-box-tool 'build' command (#8738)"
-  },
-  {
-    "oid": "47cd410c6c1b36281a88855670946775aa72d39a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5542839844?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5542839757?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2750/display/redirect"
-      }
-    ],
-    "messageHeadline": "Deploy docs to tvm-site/asf-site on main (#10494)"
-  },
-  {
-    "oid": "8418026ff6ffc7c047b0b57a5c7cf0db571ea406",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5542547895?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5542547759?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2749/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FQ2I] Add leaky relu to FQ21 (#10378)"
   }
 ]
