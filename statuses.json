@@ -1,15 +1,57 @@
 [
   {
-    "oid": "6991396aa159aff54e187271dc8f536df5314395",
+    "oid": "3e30a5f64486b23e0c9659b3d3432ab983f2b572",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/5563299041?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/5564063076?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5564063151?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2772/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Bugfix] Handled TransformNode in PassUpBitMaskOr/PassDownBitMaskOr (\u2026"
+  },
+  {
+    "oid": "ab074d2141296f450478a5515a819fe8823924cd",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5564050478?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5564050540?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2771/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Remove mps3_an547 from the CI (#10621)"
+  },
+  {
+    "oid": "6991396aa159aff54e187271dc8f536df5314395",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5563299041?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5563299106?check_suite_focus=true"
       },
       {
@@ -67,7 +109,7 @@
     "statuses": [
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2767/display/redirect"
       }
     ],
@@ -261,47 +303,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Generalize builtin for Nd memory alloc with storage scope a\u2026"
-  },
-  {
-    "oid": "ff5401114b59ca80f76465a07185d77d79ade586",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5545780220?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5545780285?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2757/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Bugfix][MetaSchedule] Fix over-simplification of Select (#10605)"
-  },
-  {
-    "oid": "2b7013e344cf15561acd2649f6c9cadf2f2032be",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5545123526?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5545123426?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2756/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Arith] Improve floordiv / floormod rewrite simplifing rules (#10591)"
   }
 ]
