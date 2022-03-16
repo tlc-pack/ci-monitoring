@@ -1,5 +1,21 @@
 [
   {
+    "oid": "8ddda1faabad78e4f8a83697008798952e1968a7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5568559055?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5568559183?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[Runtime][PipelineExecutor] Setting CPU affinity for the Runtime of p\u2026"
+  },
+  {
     "oid": "08038fa3f7aec59f9c6018984165061fd3df1701",
     "statuses": [
       {
@@ -282,26 +298,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Refactor tvm.contrib.hexagon, NFC (#10616)"
-  },
-  {
-    "oid": "1584da4d55c370bb378a85aa427bd07a4d3bfe70",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5559976887?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5559976767?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2764/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Deprecate SDK 3.x, rewrite HexagonSDK.cmake (#10612)"
   }
 ]
