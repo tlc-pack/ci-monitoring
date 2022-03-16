@@ -1,5 +1,26 @@
 [
   {
+    "oid": "ed6e7c07a5bd995c6e169a891c4af34561e01033",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5577265089?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5577265186?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2785/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microTVM] Enable micro tvmc tutorial testing in CI (#10555)"
+  },
+  {
     "oid": "167c08d999b0f35bbc054dfbc149ff97cdbcc2a5",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[CI] Remove mps3_an547 from the CI (#10621)"
-  },
-  {
-    "oid": "6991396aa159aff54e187271dc8f536df5314395",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5563299041?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5563299106?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2770/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Arith] Fix floormod rewrite simplify rule (#10626)"
   }
 ]
