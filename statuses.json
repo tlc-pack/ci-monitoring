@@ -1,5 +1,26 @@
 [
   {
+    "oid": "02d1539053418625bed93164fdc3891b28a54aed",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5574644770?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5574644680?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2781/display/redirect"
+      }
+    ],
+    "messageHeadline": "query rpc tracker - sort servers by key name (#10641)"
+  },
+  {
     "oid": "d4739eb80662a71781c46095dc2f3e1903b94f8c",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[skip ci][ci] Add missing guard to skip CI check (#10625)"
-  },
-  {
-    "oid": "0d068f4509ff2b2f3034230de9c7dd376dcae31a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5561585846?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5561585906?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2766/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add remaining targets to ci.py (#10425)"
   }
 ]
