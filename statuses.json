@@ -1,5 +1,21 @@
 [
   {
+    "oid": "7775550684c199da7d09f4f649a9e2471f4a9d30",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5577584585?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5577584687?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Add flags to control floating point support in HVX (#10644)"
+  },
+  {
     "oid": "ed6e7c07a5bd995c6e169a891c4af34561e01033",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[Bugfix] Handled TransformNode in PassUpBitMaskOr/PassDownBitMaskOr (\u2026"
-  },
-  {
-    "oid": "ab074d2141296f450478a5515a819fe8823924cd",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5564050478?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5564050540?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2771/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Remove mps3_an547 from the CI (#10621)"
   }
 ]
