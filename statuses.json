@@ -1,5 +1,26 @@
 [
   {
+    "oid": "167c08d999b0f35bbc054dfbc149ff97cdbcc2a5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5576897680?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5576897952?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2784/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Lint] Ignore Hexagon generated files in CPP lint (#10609)"
+  },
+  {
     "oid": "f700e724ad25a65828dabd99ce8feb6d80569c89",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Arith] Fix floormod rewrite simplify rule (#10626)"
-  },
-  {
-    "oid": "1cd98143a57cf6e09ace6b3ae796fe2a4b087d31",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5562918506?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5562918458?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2769/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Remove double \".hexagon.hexagon.\" from registered names, NF\u2026"
   }
 ]
