@@ -1,15 +1,36 @@
 [
   {
-    "oid": "1cd98143a57cf6e09ace6b3ae796fe2a4b087d31",
+    "oid": "6991396aa159aff54e187271dc8f536df5314395",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/5562918506?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/5563299041?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5563299106?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2770/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Arith] Fix floormod rewrite simplify rule (#10626)"
+  },
+  {
+    "oid": "1cd98143a57cf6e09ace6b3ae796fe2a4b087d31",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5562918506?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5562918458?check_suite_focus=true"
       },
       {
@@ -25,12 +46,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5562742913?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5562742967?check_suite_focus=true"
       },
       {
@@ -67,7 +88,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2766/display/redirect"
       }
     ],
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[Arith] Improve floordiv / floormod rewrite simplifing rules (#10591)"
-  },
-  {
-    "oid": "8bbb2066860670e67389496f91b81d3d1f9e3170",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5545115554?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5545115608?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2755/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] fix print target's host (#10598)"
   }
 ]
