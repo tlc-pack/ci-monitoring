@@ -1,5 +1,21 @@
 [
   {
+    "oid": "d4739eb80662a71781c46095dc2f3e1903b94f8c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5573416497?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5573416698?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[USMP] bugfix workspace calculation (#10617)"
+  },
+  {
     "oid": "8ddda1faabad78e4f8a83697008798952e1968a7",
     "statuses": [
       {
@@ -282,26 +298,5 @@
       }
     ],
     "messageHeadline": "Add remaining targets to ci.py (#10425)"
-  },
-  {
-    "oid": "4806b80f0f687c4d5928c8e3dab18cf02ae342fb",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5559984191?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5559984320?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2765/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Refactor tvm.contrib.hexagon, NFC (#10616)"
   }
 ]
