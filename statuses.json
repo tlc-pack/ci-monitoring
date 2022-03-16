@@ -1,5 +1,42 @@
 [
   {
+    "oid": "08038fa3f7aec59f9c6018984165061fd3df1701",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5567985004?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5567985376?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[microNPU] re-enable network tests (#10565)"
+  },
+  {
+    "oid": "1fd1b794fe3b50075ce45418546ee6999a36bc73",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5567904872?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5567904999?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2777/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Move pip dependencies to docker images, add ninja / shellcheck (\u2026"
+  },
+  {
     "oid": "6d5d3e20382a7d56e7f87c74cecc7bbd4ac9f67f",
     "statuses": [
       {
@@ -261,47 +298,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Deprecate SDK 3.x, rewrite HexagonSDK.cmake (#10612)"
-  },
-  {
-    "oid": "232a84e04ee078266cc075a816a2f20deab051db",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5558718926?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5558719139?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2763/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FQ2I] Add mean op to FQ2I (#10607)"
-  },
-  {
-    "oid": "8a636a9433f1650991c7c4b9b9a588bc29e794a1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5556052814?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5556052993?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2762/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Codegen for 2d Load/Store (#10586)"
   }
 ]
