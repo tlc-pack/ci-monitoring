@@ -1,5 +1,47 @@
 [
   {
+    "oid": "f700e724ad25a65828dabd99ce8feb6d80569c89",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5575497496?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5575497284?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2783/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay][ONNX][Fix] Flatten in OnnxConverter (#10593)"
+  },
+  {
+    "oid": "b3af0efffe6abeb6ee2738c2a4a26b8733bd078e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5575493506?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5575493366?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2782/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay] Fixed VNNI batch matmul op strategy for meta schedule compati\u2026"
+  },
+  {
     "oid": "02d1539053418625bed93164fdc3891b28a54aed",
     "statuses": [
       {
@@ -271,37 +313,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Remove double \".hexagon.hexagon.\" from registered names, NF\u2026"
-  },
-  {
-    "oid": "ce335c3a74185df6cc1152e53c60695d8a418d8e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5562742913?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5562742967?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2768/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Metaschedule] New relay backend for meta schedule task extraction (#\u2026"
-  },
-  {
-    "oid": "ab4289d1af0deff5c680173a0ac49b74a2e69cbb",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2767/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci][ci] Add missing guard to skip CI check (#10625)"
   }
 ]
