@@ -1,5 +1,21 @@
 [
   {
+    "oid": "fe7b5d329a82f720a721356c40abd721cf1d780d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5583608629?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5583608735?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[microNPU] Setting a random seed for the codegen tests (#10640)"
+  },
+  {
     "oid": "e8c84090f4896eb2a72cb66b9c66dce43df3ebb0",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Add support for Hexagon v69, deprecate v60 and v62 (#10623)"
-  },
-  {
-    "oid": "690581c0cb47ad290ec5d94bcd57ed84f897d0e4",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5565366236?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5565366159?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2774/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Pytorch] Add `aten::fmod` and `aten::remainder` (#10613)"
   }
 ]
