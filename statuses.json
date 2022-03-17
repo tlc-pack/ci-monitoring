@@ -1,5 +1,26 @@
 [
   {
+    "oid": "6eaa5e6f29420b2c85ec6e3c5f83566d60c7d641",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5578564489?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5578564536?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2787/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Fix doc deploy folder (#10634)"
+  },
+  {
     "oid": "7775550684c199da7d09f4f649a9e2471f4a9d30",
     "statuses": [
       {
@@ -35,7 +56,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2785/display/redirect"
       }
     ],
@@ -56,7 +77,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2784/display/redirect"
       }
     ],
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Testing] Add model loader for int8 BERT (#10622)"
-  },
-  {
-    "oid": "3e30a5f64486b23e0c9659b3d3432ab983f2b572",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5564063076?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5564063151?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2772/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Bugfix] Handled TransformNode in PassUpBitMaskOr/PassDownBitMaskOr (\u2026"
   }
 ]
