@@ -1,5 +1,42 @@
 [
   {
+    "oid": "e4e1abc7504bd554a6c590f8423be14871de7a94",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5590696934?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5590697107?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[C Codegen] Remove global packed variables when interface_api=\"packed\u2026"
+  },
+  {
+    "oid": "0770ac3d8226b490c124da4e6fb65bd19f6b199e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5590638016?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5590638105?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2794/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Meta Schedule] Refactor meta schedule testing utils (#10648)"
+  },
+  {
     "oid": "129021337e535c797d495dfbaa15710004ec15c2",
     "statuses": [
       {
@@ -271,47 +308,5 @@
       }
     ],
     "messageHeadline": "query rpc tracker - sort servers by key name (#10641)"
-  },
-  {
-    "oid": "d4739eb80662a71781c46095dc2f3e1903b94f8c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5573416497?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5573416698?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2780/display/redirect"
-      }
-    ],
-    "messageHeadline": "[USMP] bugfix workspace calculation (#10617)"
-  },
-  {
-    "oid": "8ddda1faabad78e4f8a83697008798952e1968a7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5568559055?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5568559183?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2779/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Runtime][PipelineExecutor] Setting CPU affinity for the Runtime of p\u2026"
   }
 ]
