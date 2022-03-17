@@ -1,5 +1,47 @@
 [
   {
+    "oid": "77c03d13ee903fe64c9940a89030f04b4903bd27",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5588943328?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5588943486?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2792/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Bump Python version from 3.6 to 3.7 in VitisAI.cmake (#10656)"
+  },
+  {
+    "oid": "d0024e394180189b33659caf5b5c3c76a32f7bba",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5588935251?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5588935044?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2791/display/redirect"
+      }
+    ],
+    "messageHeadline": "Bump all Docker image versions to update Python to 3.7 and Tensorflow\u2026"
+  },
+  {
     "oid": "d4c055c1375175858f261591e6f1b49d1e8b01b1",
     "statuses": [
       {
@@ -14,7 +56,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2790/display/redirect"
       }
     ],
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "[microNPU] re-enable network tests (#10565)"
-  },
-  {
-    "oid": "1fd1b794fe3b50075ce45418546ee6999a36bc73",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5567904872?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5567904999?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2777/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Move pip dependencies to docker images, add ninja / shellcheck (\u2026"
-  },
-  {
-    "oid": "6d5d3e20382a7d56e7f87c74cecc7bbd4ac9f67f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5565371548?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5565371620?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2776/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Docker] Move psutil installation to ubuntu_install_python_package (#\u2026"
   }
 ]
