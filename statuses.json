@@ -1,5 +1,26 @@
 [
   {
+    "oid": "8020ecb0746d83631c4fd34926953928fe1e380f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5592679754?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5592679865?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2797/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Set default value for CI_NUM_EXECUTORS (#10642)"
+  },
+  {
     "oid": "46ac3d52456615d084d7713309bd005828e27314",
     "statuses": [
       {
@@ -14,7 +35,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2796/display/redirect"
       }
     ],
@@ -35,7 +56,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2795/display/redirect"
       }
     ],
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Relay][ONNX][Fix] Flatten in OnnxConverter (#10593)"
-  },
-  {
-    "oid": "b3af0efffe6abeb6ee2738c2a4a26b8733bd078e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5575493506?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5575493366?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2782/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay] Fixed VNNI batch matmul op strategy for meta schedule compati\u2026"
   }
 ]
