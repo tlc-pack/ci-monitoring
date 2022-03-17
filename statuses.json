@@ -1,5 +1,21 @@
 [
   {
+    "oid": "d4c055c1375175858f261591e6f1b49d1e8b01b1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5586851178?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5586850873?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "Remove unnecessary wasmtime from ci_lint (#10653)"
+  },
+  {
     "oid": "fe7b5d329a82f720a721356c40abd721cf1d780d",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[Docker] Move psutil installation to ubuntu_install_python_package (#\u2026"
-  },
-  {
-    "oid": "69bb71c05a387daf8a911614ec50d216b5f0b052",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5565368751?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5565368815?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2775/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Add support for Hexagon v69, deprecate v60 and v62 (#10623)"
   }
 ]
