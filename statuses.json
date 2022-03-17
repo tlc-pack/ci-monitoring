@@ -1,5 +1,26 @@
 [
   {
+    "oid": "46ac3d52456615d084d7713309bd005828e27314",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5590789385?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5590789508?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2796/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Bugfix in StorageFlatten, index flattening in PrefetchNode (#10\u2026"
+  },
+  {
     "oid": "e4e1abc7504bd554a6c590f8423be14871de7a94",
     "statuses": [
       {
@@ -11,6 +32,11 @@
         "name": "CI / Windows",
         "status": "PENDING",
         "url": "https://github.com/apache/tvm/runs/5590697107?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2795/display/redirect"
       }
     ],
     "messageHeadline": "[C Codegen] Remove global packed variables when interface_api=\"packed\u2026"
@@ -287,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Relay] Fixed VNNI batch matmul op strategy for meta schedule compati\u2026"
-  },
-  {
-    "oid": "02d1539053418625bed93164fdc3891b28a54aed",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5574644770?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5574644680?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2781/display/redirect"
-      }
-    ],
-    "messageHeadline": "query rpc tracker - sort servers by key name (#10641)"
   }
 ]
