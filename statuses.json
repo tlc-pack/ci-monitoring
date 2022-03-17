@@ -1,5 +1,21 @@
 [
   {
+    "oid": "e8c84090f4896eb2a72cb66b9c66dce43df3ebb0",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5580122914?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5580122823?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "Add support for aten::__lshift__, aten::__rshift__, aten::__ior__ (#1\u2026"
+  },
+  {
     "oid": "6eaa5e6f29420b2c85ec6e3c5f83566d60c7d641",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[Pytorch] Add `aten::fmod` and `aten::remainder` (#10613)"
-  },
-  {
-    "oid": "794e1e36ec57f59cdc7431845f21cba01296b1e0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5565154927?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5565154856?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2773/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Testing] Add model loader for int8 BERT (#10622)"
   }
 ]
