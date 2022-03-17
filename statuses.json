@@ -1,5 +1,26 @@
 [
   {
+    "oid": "129021337e535c797d495dfbaa15710004ec15c2",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5589231882?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5589231673?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2793/display/redirect"
+      }
+    ],
+    "messageHeadline": "Upgrade tensorflow to version to 2.6.x (#10084)"
+  },
+  {
     "oid": "77c03d13ee903fe64c9940a89030f04b4903bd27",
     "statuses": [
       {
@@ -35,7 +56,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2791/display/redirect"
       }
     ],
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Runtime][PipelineExecutor] Setting CPU affinity for the Runtime of p\u2026"
-  },
-  {
-    "oid": "08038fa3f7aec59f9c6018984165061fd3df1701",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5567985004?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5567985376?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2778/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] re-enable network tests (#10565)"
   }
 ]
