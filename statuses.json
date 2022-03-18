@@ -1,5 +1,47 @@
 [
   {
+    "oid": "bd0f52aa187a9ebdc3a49c1838502f1e66aa53d7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5594816630?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5594816582?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2799/display/redirect"
+      }
+    ],
+    "messageHeadline": "Optimize the implmentation of swish operator (#10655)"
+  },
+  {
+    "oid": "498b02d56c8ca4fb122e34c877685ed20abdb721",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5594158660?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5594158714?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2798/display/redirect"
+      }
+    ],
+    "messageHeadline": "rebase (#10525)"
+  },
+  {
     "oid": "8020ecb0746d83631c4fd34926953928fe1e380f",
     "statuses": [
       {
@@ -14,7 +56,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2797/display/redirect"
       }
     ],
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "[microTVM] Enable micro tvmc tutorial testing in CI (#10555)"
-  },
-  {
-    "oid": "167c08d999b0f35bbc054dfbc149ff97cdbcc2a5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5576897680?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5576897952?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2784/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Lint] Ignore Hexagon generated files in CPP lint (#10609)"
-  },
-  {
-    "oid": "f700e724ad25a65828dabd99ce8feb6d80569c89",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5575497496?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5575497284?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2783/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay][ONNX][Fix] Flatten in OnnxConverter (#10593)"
   }
 ]
