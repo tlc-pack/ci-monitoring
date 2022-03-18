@@ -1,5 +1,21 @@
 [
   {
+    "oid": "c756f89ec59fcda33a79bec1f5ce9e524625ae20",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5602749409?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5602749518?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[ci] Disable failing hexagon conv2d test (#10666)"
+  },
+  {
     "oid": "b01e3fc4d21bba898a5ea17d526013c52ea720eb",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[ci] Fix doc deploy folder (#10634)"
-  },
-  {
-    "oid": "7775550684c199da7d09f4f649a9e2471f4a9d30",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5577584585?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5577584687?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2786/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Add flags to control floating point support in HVX (#10644)"
   }
 ]
