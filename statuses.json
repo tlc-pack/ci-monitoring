@@ -1,10 +1,31 @@
 [
   {
-    "oid": "c756f89ec59fcda33a79bec1f5ce9e524625ae20",
+    "oid": "ee1944d830a6606de43a8fdd87fd4b69291d180f",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5604059130?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5604059007?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2802/display/redirect"
+      }
+    ],
+    "messageHeadline": "Add order to functions in C Codegen (#10590)"
+  },
+  {
+    "oid": "c756f89ec59fcda33a79bec1f5ce9e524625ae20",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5602749409?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Add support for aten::__lshift__, aten::__rshift__, aten::__ior__ (#1\u2026"
-  },
-  {
-    "oid": "6eaa5e6f29420b2c85ec6e3c5f83566d60c7d641",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5578564489?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5578564536?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2787/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Fix doc deploy folder (#10634)"
   }
 ]
