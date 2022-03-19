@@ -4,13 +4,18 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5609417389?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5609417425?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2805/display/redirect"
       }
     ],
     "messageHeadline": "Mark x86 specific test (#10672)"
