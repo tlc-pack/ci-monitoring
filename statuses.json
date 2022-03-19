@@ -1,5 +1,21 @@
 [
   {
+    "oid": "2fc7d16e99cf1d1df148e8db03296409916bd134",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5611582725?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5611582767?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "Add AArch64 frontend dependencies to Dockerfile (#10676)"
+  },
+  {
     "oid": "e1af22888f352b71dbe55209f74fdf6996db1511",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[CI] Bump Python version from 3.6 to 3.7 in VitisAI.cmake (#10656)"
-  },
-  {
-    "oid": "d0024e394180189b33659caf5b5c3c76a32f7bba",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5588935251?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5588935044?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2791/display/redirect"
-      }
-    ],
-    "messageHeadline": "Bump all Docker image versions to update Python to 3.7 and Tensorflow\u2026"
   }
 ]
