@@ -1,5 +1,21 @@
 [
   {
+    "oid": "e1af22888f352b71dbe55209f74fdf6996db1511",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5609417389?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5609417425?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "Mark x86 specific test (#10672)"
+  },
+  {
     "oid": "3ceae5fb336842e789c4eccb66b8fb814864a702",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "Bump all Docker image versions to update Python to 3.7 and Tensorflow\u2026"
-  },
-  {
-    "oid": "d4c055c1375175858f261591e6f1b49d1e8b01b1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5586851178?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5586850873?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2790/display/redirect"
-      }
-    ],
-    "messageHeadline": "Remove unnecessary wasmtime from ci_lint (#10653)"
   }
 ]
