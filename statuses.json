@@ -1,5 +1,26 @@
 [
   {
+    "oid": "9d0a7a1f9ef03aa7aa0ba673f8ff70323a066561",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5625402563?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5625402455?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2808/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix some tiny spell error (#10693)"
+  },
+  {
     "oid": "bd684deb5ca5f5ac590476f8e279f5971b27f5a5",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[Meta Schedule] Refactor meta schedule testing utils (#10648)"
-  },
-  {
-    "oid": "129021337e535c797d495dfbaa15710004ec15c2",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5589231882?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5589231673?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2793/display/redirect"
-      }
-    ],
-    "messageHeadline": "Upgrade tensorflow to version to 2.6.x (#10084)"
   }
 ]
