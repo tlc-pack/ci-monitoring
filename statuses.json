@@ -1,5 +1,37 @@
 [
   {
+    "oid": "951efbfeeadf83aec7d1f516b548908da3165805",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5631645506?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5631645640?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[microNPU] Remove xfail from test_clz (#10670)"
+  },
+  {
+    "oid": "290395a87be1c4be0b426928841af4cbbca069cf",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5631628396?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5631628601?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[microNPU] Refactor Relay to TIR hook (#10599)"
+  },
+  {
     "oid": "9d0a7a1f9ef03aa7aa0ba673f8ff70323a066561",
     "statuses": [
       {
@@ -261,47 +293,5 @@
       }
     ],
     "messageHeadline": "[TIR] Bugfix in StorageFlatten, index flattening in PrefetchNode (#10\u2026"
-  },
-  {
-    "oid": "e4e1abc7504bd554a6c590f8423be14871de7a94",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5590696934?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5590697107?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2795/display/redirect"
-      }
-    ],
-    "messageHeadline": "[C Codegen] Remove global packed variables when interface_api=\"packed\u2026"
-  },
-  {
-    "oid": "0770ac3d8226b490c124da4e6fb65bd19f6b199e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5590638016?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5590638105?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2794/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Meta Schedule] Refactor meta schedule testing utils (#10648)"
   }
 ]
