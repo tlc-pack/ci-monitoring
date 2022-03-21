@@ -1,5 +1,16 @@
 [
   {
+    "oid": "bd684deb5ca5f5ac590476f8e279f5971b27f5a5",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2807/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI FIX] (Really) Skip test_conv2d in Hexagon (i386) (#10687)"
+  },
+  {
     "oid": "2fc7d16e99cf1d1df148e8db03296409916bd134",
     "statuses": [
       {
@@ -292,26 +303,5 @@
       }
     ],
     "messageHeadline": "Upgrade tensorflow to version to 2.6.x (#10084)"
-  },
-  {
-    "oid": "77c03d13ee903fe64c9940a89030f04b4903bd27",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5588943328?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5588943486?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2792/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Bump Python version from 3.6 to 3.7 in VitisAI.cmake (#10656)"
   }
 ]
