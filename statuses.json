@@ -1,15 +1,31 @@
 [
   {
-    "oid": "471d1993e79f23671706f9fab32500f8c89aaf7a",
+    "oid": "6e1c6be4520ef6536cc72ad7ad7f9755d86d7bea",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/5647605831?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/5649176435?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5649176224?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[Driver] Remove duplicate PreProcessModuleForBuild (#10530)"
+  },
+  {
+    "oid": "471d1993e79f23671706f9fab32500f8c89aaf7a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5647605831?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5647605894?check_suite_focus=true"
       }
     ],
@@ -272,26 +288,5 @@
       }
     ],
     "messageHeadline": "[microNPU] Refactor Relay to TIR hook (#10599)"
-  },
-  {
-    "oid": "9d0a7a1f9ef03aa7aa0ba673f8ff70323a066561",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5625402563?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5625402455?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2808/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix some tiny spell error (#10693)"
   }
 ]
