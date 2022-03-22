@@ -1,10 +1,31 @@
 [
   {
-    "oid": "cced5bcbc9455bdcc8e15a4044da8ea7f4ca8804",
+    "oid": "c5800379a2232c8bd56403e62583966cf4ace78c",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5637851354?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5637851409?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2814/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] compact buffer region (#10557)"
+  },
+  {
+    "oid": "cced5bcbc9455bdcc8e15a4044da8ea7f4ca8804",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5636948531?check_suite_focus=true"
       },
       {
@@ -272,26 +293,5 @@
       }
     ],
     "messageHeadline": "[TIR] CSE-TIR Pass - More deterministic behavior (#10663)"
-  },
-  {
-    "oid": "bd0f52aa187a9ebdc3a49c1838502f1e66aa53d7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5594816630?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5594816582?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2799/display/redirect"
-      }
-    ],
-    "messageHeadline": "Optimize the implmentation of swish operator (#10655)"
   }
 ]
