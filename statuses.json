@@ -1,5 +1,26 @@
 [
   {
+    "oid": "8bfc1ca1152a295485e26bf67aa3eccea1d0b786",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5638111352?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5638111414?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2815/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ARM,TOPI] Allow auto scheduler layout rewritting in dense (#10699)"
+  },
+  {
     "oid": "c5800379a2232c8bd56403e62583966cf4ace78c",
     "statuses": [
       {
@@ -272,26 +293,5 @@
       }
     ],
     "messageHeadline": "[ci] Disable failing hexagon conv2d test (#10666)"
-  },
-  {
-    "oid": "b01e3fc4d21bba898a5ea17d526013c52ea720eb",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5594897817?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5594897868?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2800/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] CSE-TIR Pass - More deterministic behavior (#10663)"
   }
 ]
