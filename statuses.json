@@ -1,5 +1,26 @@
 [
   {
+    "oid": "5b5bf75a089a243b2f947f4d7d05e7c1e879b7e0",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5640024375?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5640024504?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2818/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hotfix] A line is accidentally removed in `Verify-GPU-Code`"
+  },
+  {
     "oid": "283b81432f22a2ab474b5b7623a1d9e5ae9e37af",
     "statuses": [
       {
@@ -9,7 +30,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5639218805?check_suite_focus=true"
       },
       {
@@ -272,26 +293,5 @@
       }
     ],
     "messageHeadline": "[CMSIS-NN] Fallback to native schedules for unsupported partiti ned f\u2026"
-  },
-  {
-    "oid": "7233c29b3c59741e6d35ed50b2f8f1e2271b2517",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5604558286?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5604558187?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2803/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] changing region 'tvmbaw*' to 'dynamic*' (#10338)"
   }
 ]
