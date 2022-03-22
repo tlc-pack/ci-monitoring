@@ -1,15 +1,47 @@
 [
   {
-    "oid": "2bd177f3b214eec6b3c72e8699517b1c5da806c7",
+    "oid": "471d1993e79f23671706f9fab32500f8c89aaf7a",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/5646421920?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/5647605831?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5647605894?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[Community] Krzysztof Parzyszek -> PMC (#10703)"
+  },
+  {
+    "oid": "e8a966e7f1a817cc7ed7cbbb7a71bc88c3d3632d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5646885935?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5646886135?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[microNPU] Determine block configs using the cascader (#10695)"
+  },
+  {
+    "oid": "2bd177f3b214eec6b3c72e8699517b1c5da806c7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5646421920?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5646422174?check_suite_focus=true"
       },
       {
@@ -261,37 +293,5 @@
       }
     ],
     "messageHeadline": "Fix some tiny spell error (#10693)"
-  },
-  {
-    "oid": "bd684deb5ca5f5ac590476f8e279f5971b27f5a5",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2807/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI FIX] (Really) Skip test_conv2d in Hexagon (i386) (#10687)"
-  },
-  {
-    "oid": "2fc7d16e99cf1d1df148e8db03296409916bd134",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5611582725?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5611582767?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2806/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add AArch64 frontend dependencies to Dockerfile (#10676)"
   }
 ]
