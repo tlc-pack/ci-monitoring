@@ -1,5 +1,26 @@
 [
   {
+    "oid": "283b81432f22a2ab474b5b7623a1d9e5ae9e37af",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5639218930?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5639218805?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2817/display/redirect"
+      }
+    ],
+    "messageHeadline": "[COMMUNITY] siyuan to PMC (#10688)"
+  },
+  {
     "oid": "c90ae2dfa3ac394245d59c81b7b54d0806e184df",
     "statuses": [
       {
@@ -272,26 +293,5 @@
       }
     ],
     "messageHeadline": "[microNPU] changing region 'tvmbaw*' to 'dynamic*' (#10338)"
-  },
-  {
-    "oid": "ee1944d830a6606de43a8fdd87fd4b69291d180f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5604059130?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5604059007?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2802/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add order to functions in C Codegen (#10590)"
   }
 ]
