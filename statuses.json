@@ -1,20 +1,52 @@
 [
   {
-    "oid": "3dd1d82efc89730993d54919ce4a61b440474fd5",
+    "oid": "cced5bcbc9455bdcc8e15a4044da8ea7f4ca8804",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/5635708845?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/5636948531?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/5635708994?check_suite_focus=true"
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5636948605?check_suite_focus=true"
       },
       {
         "name": "tvm-ci/branch",
         "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2813/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Upstream the leftover changes (#10689)"
+  },
+  {
+    "oid": "2458ecacee765a093c3b788f9c9c918b4271aaba",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2812/display/redirect"
+      }
+    ],
+    "messageHeadline": "[skip ci] Add generated docs file to .gitignore (#10701)"
+  },
+  {
+    "oid": "3dd1d82efc89730993d54919ce4a61b440474fd5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5635708845?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5635708994?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2811/display/redirect"
       }
     ],
@@ -261,47 +293,5 @@
       }
     ],
     "messageHeadline": "Optimize the implmentation of swish operator (#10655)"
-  },
-  {
-    "oid": "498b02d56c8ca4fb122e34c877685ed20abdb721",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5594158660?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5594158714?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2798/display/redirect"
-      }
-    ],
-    "messageHeadline": "rebase (#10525)"
-  },
-  {
-    "oid": "8020ecb0746d83631c4fd34926953928fe1e380f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5592679754?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5592679865?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2797/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Set default value for CI_NUM_EXECUTORS (#10642)"
   }
 ]
