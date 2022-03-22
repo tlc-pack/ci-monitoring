@@ -1,10 +1,31 @@
 [
   {
-    "oid": "8bfc1ca1152a295485e26bf67aa3eccea1d0b786",
+    "oid": "c90ae2dfa3ac394245d59c81b7b54d0806e184df",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5638754266?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5638754222?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2816/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Fix condition for skipping tests in i386 (#10698)"
+  },
+  {
+    "oid": "8bfc1ca1152a295485e26bf67aa3eccea1d0b786",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5638111352?check_suite_focus=true"
       },
       {
@@ -272,26 +293,5 @@
       }
     ],
     "messageHeadline": "Add order to functions in C Codegen (#10590)"
-  },
-  {
-    "oid": "c756f89ec59fcda33a79bec1f5ce9e524625ae20",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5602749409?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5602749518?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2801/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Disable failing hexagon conv2d test (#10666)"
   }
 ]
