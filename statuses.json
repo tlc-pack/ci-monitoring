@@ -1,5 +1,26 @@
 [
   {
+    "oid": "7ffc0fc83d773cfc66252e821b8d750720c4ca8d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5668486785?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5668486686?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2840/display/redirect"
+      }
+    ],
+    "messageHeadline": "[AOT] Get input name from module/prim func (#10731)"
+  },
+  {
     "oid": "31413f41a0165d78c1f464e42434451fdd89ae1a",
     "statuses": [
       {
@@ -51,7 +72,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5667725866?check_suite_focus=true"
       },
       {
@@ -292,16 +313,5 @@
       }
     ],
     "messageHeadline": "Update docs to clarify minimum Visual Studio version. (#10715)"
-  },
-  {
-    "oid": "cb18d7a54e188ea5604276e3343d164a745759a4",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2825/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci][ci] Skip flaky test_auto_scheduler_layout_rewrite_networks \u2026"
   }
 ]
