@@ -1,5 +1,26 @@
 [
   {
+    "oid": "9f58089ca9125a99b542abfe77263824e5587328",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5653196795?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5653196849?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2826/display/redirect"
+      }
+    ],
+    "messageHeadline": "Update docs to clarify minimum Visual Studio version. (#10715)"
+  },
+  {
     "oid": "cb18d7a54e188ea5604276e3343d164a745759a4",
     "statuses": [
       {
@@ -277,16 +298,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Upstream the leftover changes (#10689)"
-  },
-  {
-    "oid": "2458ecacee765a093c3b788f9c9c918b4271aaba",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2812/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci] Add generated docs file to .gitignore (#10701)"
   }
 ]
