@@ -1,5 +1,26 @@
 [
   {
+    "oid": "375566b6e2d3c4a01844efbc7e6bff35bf28822c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5668893870?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5668893939?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2841/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix default pytorch divide behaviour (#10727)"
+  },
+  {
     "oid": "7ffc0fc83d773cfc66252e821b8d750720c4ca8d",
     "statuses": [
       {
@@ -30,7 +51,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5668166756?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Relay] Remove DynamicToStatic pass from graph runtime build (#10691)"
-  },
-  {
-    "oid": "9f58089ca9125a99b542abfe77263824e5587328",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5653196795?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5653196849?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2826/display/redirect"
-      }
-    ],
-    "messageHeadline": "Update docs to clarify minimum Visual Studio version. (#10715)"
   }
 ]
