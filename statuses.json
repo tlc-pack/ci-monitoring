@@ -1,5 +1,26 @@
 [
   {
+    "oid": "d37c1d244a7d3a82fb601b80f898e896238332b7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5654966323?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5654966372?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2831/display/redirect"
+      }
+    ],
+    "messageHeadline": "[UnitTest] Fuzz based on seed rather than random value. (#10515)"
+  },
+  {
     "oid": "02184825bc466bbbb7ac3b845ccaa2e39e64b585",
     "statuses": [
       {
@@ -56,7 +77,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2828/display/redirect"
       }
     ],
@@ -277,26 +298,5 @@
       }
     ],
     "messageHeadline": "[Hotfix] A line is accidentally removed in `Verify-GPU-Code`"
-  },
-  {
-    "oid": "283b81432f22a2ab474b5b7623a1d9e5ae9e37af",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5639218930?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5639218805?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2817/display/redirect"
-      }
-    ],
-    "messageHeadline": "[COMMUNITY] siyuan to PMC (#10688)"
   }
 ]
