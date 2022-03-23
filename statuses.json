@@ -1,5 +1,26 @@
 [
   {
+    "oid": "0ddaaa6a7d1009ea7ca8313a51eb19abb8ae7699",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5655215585?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5655215630?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2832/display/redirect"
+      }
+    ],
+    "messageHeadline": "Use local complete block and local reduction block to identify compac\u2026"
+  },
+  {
     "oid": "d37c1d244a7d3a82fb601b80f898e896238332b7",
     "statuses": [
       {
@@ -25,12 +46,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5654588672?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5654588729?check_suite_focus=true"
       },
       {
@@ -51,7 +72,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5654584014?check_suite_focus=true"
       },
       {
@@ -277,26 +298,5 @@
       }
     ],
     "messageHeadline": "[TIR] Tuple Reduction Support in CreatePrimFunc (#10671)"
-  },
-  {
-    "oid": "5b5bf75a089a243b2f947f4d7d05e7c1e879b7e0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5640024375?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5640024504?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2818/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hotfix] A line is accidentally removed in `Verify-GPU-Code`"
   }
 ]
