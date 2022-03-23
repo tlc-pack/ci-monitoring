@@ -1,5 +1,26 @@
 [
   {
+    "oid": "31413f41a0165d78c1f464e42434451fdd89ae1a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5668166916?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5668166756?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2839/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon][Codegen] Implement CodeGenHexagon::CreatePrintf (#10710)"
+  },
+  {
     "oid": "b1e07d67d666cd7dc018c564c083a8b3e144f039",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[skip ci][ci] Skip flaky test_auto_scheduler_layout_rewrite_networks \u2026"
-  },
-  {
-    "oid": "cf831ac820335b961254cd334f32c0c521786dbc",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5650621681?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5650621838?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2824/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Fix diff condition for docker builds (#10684)"
   }
 ]
