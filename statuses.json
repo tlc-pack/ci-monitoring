@@ -1,5 +1,26 @@
 [
   {
+    "oid": "b1e07d67d666cd7dc018c564c083a8b3e144f039",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5668044374?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5668044491?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2838/display/redirect"
+      }
+    ],
+    "messageHeadline": "[git] Ignore auto-generated micro_tvmc.py example. (#10729)"
+  },
+  {
     "oid": "4c6b0770b555b22fc2eab8c3d1c89c6833e84945",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[ci] Fix diff condition for docker builds (#10684)"
-  },
-  {
-    "oid": "f0b6d1058197e9f129ff250be5300dd45aa74a42",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5649307917?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5649307768?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2823/display/redirect"
-      }
-    ],
-    "messageHeadline": "[build] Use mold or lld if detected (#10683)"
   }
 ]
