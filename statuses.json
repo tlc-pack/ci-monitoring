@@ -1,15 +1,57 @@
 [
   {
-    "oid": "9f58089ca9125a99b542abfe77263824e5587328",
+    "oid": "fe86f083f53b01192af191ebb267f6d69e149418",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/5653196795?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/5653832717?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5653832764?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2828/display/redirect"
+      }
+    ],
+    "messageHeadline": "[AUTO_SCHEDULER] Only run rewrite layout tests on CPU (#10717)"
+  },
+  {
+    "oid": "4c608be12a80594cefc4c81a0dc62d7069be1971",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5653374474?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5653374367?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2827/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay] Remove DynamicToStatic pass from graph runtime build (#10691)"
+  },
+  {
+    "oid": "9f58089ca9125a99b542abfe77263824e5587328",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5653196795?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5653196849?check_suite_focus=true"
       },
       {
@@ -256,47 +298,5 @@
       }
     ],
     "messageHeadline": "[ARM,TOPI] Allow auto scheduler layout rewritting in dense (#10699)"
-  },
-  {
-    "oid": "c5800379a2232c8bd56403e62583966cf4ace78c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5637851354?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5637851409?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2814/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] compact buffer region (#10557)"
-  },
-  {
-    "oid": "cced5bcbc9455bdcc8e15a4044da8ea7f4ca8804",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5636948531?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5636948605?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2813/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Upstream the leftover changes (#10689)"
   }
 ]
