@@ -1,5 +1,26 @@
 [
   {
+    "oid": "044086c84245657abd162f307288f8bdb80121b1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5656889160?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5656889230?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2833/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix shape func for Reshape (#10721)"
+  },
+  {
     "oid": "0ddaaa6a7d1009ea7ca8313a51eb19abb8ae7699",
     "statuses": [
       {
@@ -277,26 +298,5 @@
       }
     ],
     "messageHeadline": "[microTVM] Zephyr: Fix gdbserver_port option (#10678)"
-  },
-  {
-    "oid": "ae61603c705f45896c613fa11cc8d5d2868d8cc1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5643019082?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5643019256?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2819/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Tuple Reduction Support in CreatePrimFunc (#10671)"
   }
 ]
