@@ -1,10 +1,52 @@
 [
   {
-    "oid": "fe86f083f53b01192af191ebb267f6d69e149418",
+    "oid": "02184825bc466bbbb7ac3b845ccaa2e39e64b585",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5654588672?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5654588729?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2830/display/redirect"
+      }
+    ],
+    "messageHeadline": "[fix] relax QnnConv2DTransposeRel constraint (#10716)"
+  },
+  {
+    "oid": "dbbbe4fb12840d3b1d2f791cde7d2fd993d800cc",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5654583957?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5654584014?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2829/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Add Hexagon-specifc timer to enable using `time_evaluator` \u2026"
+  },
+  {
+    "oid": "fe86f083f53b01192af191ebb267f6d69e149418",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5653832717?check_suite_focus=true"
       },
       {
@@ -35,7 +77,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2827/display/redirect"
       }
     ],
@@ -56,7 +98,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2826/display/redirect"
       }
     ],
@@ -256,47 +298,5 @@
       }
     ],
     "messageHeadline": "[COMMUNITY] siyuan to PMC (#10688)"
-  },
-  {
-    "oid": "c90ae2dfa3ac394245d59c81b7b54d0806e184df",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5638754266?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5638754222?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2816/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Fix condition for skipping tests in i386 (#10698)"
-  },
-  {
-    "oid": "8bfc1ca1152a295485e26bf67aa3eccea1d0b786",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5638111352?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5638111414?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2815/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ARM,TOPI] Allow auto scheduler layout rewritting in dense (#10699)"
   }
 ]
