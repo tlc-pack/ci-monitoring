@@ -1,5 +1,26 @@
 [
   {
+    "oid": "7a6281e600e9796ec41e89b59f3736d455ee8255",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5673583538?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5673583362?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2848/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BugFix] Generate unique names for reduction blocks (#10726)"
+  },
+  {
     "oid": "3bd52e63a3150db0e67b855a808685e596657d2b",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[Hexagon][CMake] Propagate build type to external cmake calls (#10711)"
-  },
-  {
-    "oid": "044086c84245657abd162f307288f8bdb80121b1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5656889160?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5656889230?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2833/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix shape func for Reshape (#10721)"
   }
 ]
