@@ -1,5 +1,21 @@
 [
   {
+    "oid": "f07fd8bab6ffd6eb159806ab71cb9658e7567601",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5683428665?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5683428872?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[TIR] Simplify final indices from transform_layout (#10761)"
+  },
+  {
     "oid": "4974b51b0b8281d9c16c98495de806c0eb3d18d8",
     "statuses": [
       {
@@ -11,6 +27,11 @@
         "name": "CI / Windows",
         "status": "PENDING",
         "url": "https://github.com/apache/tvm/runs/5683150727?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2859/display/redirect"
       }
     ],
     "messageHeadline": "Onnx squeeze enabled with auto axis handling. (#10742)"
@@ -104,7 +125,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5682477443?check_suite_focus=true"
       },
       {
@@ -167,7 +188,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5682329583?check_suite_focus=true"
       },
       {
@@ -277,26 +298,5 @@
       }
     ],
     "messageHeadline": "[ONNX] Make `freeze_param = True` and run `DynamicToStatic` by defaul\u2026"
-  },
-  {
-    "oid": "93969dbebc1b528f890e4ab23c7cef8e10a1e620",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5671021535?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5671021587?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2845/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FIX,AUTOTVM] Fix printing of measure results (#10647)"
   }
 ]
