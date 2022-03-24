@@ -1,5 +1,16 @@
 [
   {
+    "oid": "312f4f54b3b50390335435950d7e3a7a315d4735",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2843/display/redirect"
+      }
+    ],
+    "messageHeadline": "[skip ci][ci] Skip flaky test_cudnn test (#10747)"
+  },
+  {
     "oid": "4a85dcd7063223fd92a1518e5c2b82770b1ceadb",
     "statuses": [
       {
@@ -14,7 +25,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2842/display/redirect"
       }
     ],
@@ -292,26 +303,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Add Hexagon-specifc timer to enable using `time_evaluator` \u2026"
-  },
-  {
-    "oid": "fe86f083f53b01192af191ebb267f6d69e149418",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5653832717?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5653832764?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2828/display/redirect"
-      }
-    ],
-    "messageHeadline": "[AUTO_SCHEDULER] Only run rewrite layout tests on CPU (#10717)"
   }
 ]
