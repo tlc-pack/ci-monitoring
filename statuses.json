@@ -1,5 +1,53 @@
 [
   {
+    "oid": "3918717aa14d7dc537b9cf66141452b8e3f72f68",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5683501582?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5683501754?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Guard UserDMA code with architecture check (#10770)"
+  },
+  {
+    "oid": "4bff490d1ac90092a828d7ee7b001bed121cf049",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5683498314?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5683498400?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Set target architecture when compiling for Hexagon (#10771)"
+  },
+  {
+    "oid": "73ec86047c0551b49d4c8716de7a694f164042a6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5683445596?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5683445718?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[PyTorch] Add `aten::square` operator (#10766)"
+  },
+  {
     "oid": "f07fd8bab6ffd6eb159806ab71cb9658e7567601",
     "statuses": [
       {
@@ -235,68 +283,5 @@
       }
     ],
     "messageHeadline": "[git] Remove duplicate .gitignore entry (#10760)"
-  },
-  {
-    "oid": "7a6281e600e9796ec41e89b59f3736d455ee8255",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5673583538?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5673583362?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2848/display/redirect"
-      }
-    ],
-    "messageHeadline": "[BugFix] Generate unique names for reduction blocks (#10726)"
-  },
-  {
-    "oid": "3bd52e63a3150db0e67b855a808685e596657d2b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5672970520?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5672970632?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2847/display/redirect"
-      }
-    ],
-    "messageHeadline": "[docs] Disable numpy intersphinx (#10752)"
-  },
-  {
-    "oid": "f36829563870b00a97a7da81c2f403623ad2fd59",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5671814704?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5671814666?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2846/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ONNX] Make `freeze_param = True` and run `DynamicToStatic` by defaul\u2026"
   }
 ]
