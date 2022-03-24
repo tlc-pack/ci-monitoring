@@ -1,5 +1,16 @@
 [
   {
+    "oid": "685302bb0f4e1de5b32ccf2d0e3fa515d4c74f56",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2849/display/redirect"
+      }
+    ],
+    "messageHeadline": "[git] Remove duplicate .gitignore entry (#10760)"
+  },
+  {
     "oid": "7a6281e600e9796ec41e89b59f3736d455ee8255",
     "statuses": [
       {
@@ -282,26 +293,5 @@
       }
     ],
     "messageHeadline": "[TIR] Change the behavior of read/write region analysis for reduction\u2026"
-  },
-  {
-    "oid": "17aa97fcc4d239cdacdcd2b6488977253dc5d847",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5662253351?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5662253613?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2834/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon][CMake] Propagate build type to external cmake calls (#10711)"
   }
 ]
