@@ -1,5 +1,26 @@
 [
   {
+    "oid": "177d529f0edb2c30cc9e32c48b73e2ce942c4dc9",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5670903322?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5670903364?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2844/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMScript] Enable assignment statement without type annotation  (#10\u2026"
+  },
+  {
     "oid": "312f4f54b3b50390335435950d7e3a7a315d4735",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[fix] relax QnnConv2DTransposeRel constraint (#10716)"
-  },
-  {
-    "oid": "dbbbe4fb12840d3b1d2f791cde7d2fd993d800cc",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5654583957?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5654584014?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2829/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Add Hexagon-specifc timer to enable using `time_evaluator` \u2026"
   }
 ]
