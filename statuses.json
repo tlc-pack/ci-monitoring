@@ -1,5 +1,47 @@
 [
   {
+    "oid": "c20c9860f3096767f8e8c4a583b0e657a98e6f50",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5682732531?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5682732627?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2856/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Upload built Docker images to ECR (#10662)"
+  },
+  {
+    "oid": "82b6ea9fc4e9f513a55b70e31b46ce529e339cb6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5682625792?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5682625882?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2855/display/redirect"
+      }
+    ],
+    "messageHeadline": "Add missing Slice layout fallback check of `stride=1`. (#10690)"
+  },
+  {
     "oid": "ef35acbb96a82ed262db867dd9624d7606d2f050",
     "statuses": [
       {
@@ -11,6 +53,11 @@
         "name": "CI / Windows",
         "status": "PENDING",
         "url": "https://github.com/apache/tvm/runs/5682477541?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2854/display/redirect"
       }
     ],
     "messageHeadline": "[NDArray] Update runtime.TVMArrayAllocWithScope to use ShapeTuple (#1\u2026"
@@ -93,7 +140,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2850/display/redirect"
       }
     ],
@@ -246,47 +293,5 @@
       }
     ],
     "messageHeadline": "[Runtime][PipelineExecutor] Getting the asynchronous output (#10723)"
-  },
-  {
-    "oid": "375566b6e2d3c4a01844efbc7e6bff35bf28822c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5668893870?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5668893939?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2841/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix default pytorch divide behaviour (#10727)"
-  },
-  {
-    "oid": "7ffc0fc83d773cfc66252e821b8d750720c4ca8d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5668486785?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5668486686?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2840/display/redirect"
-      }
-    ],
-    "messageHeadline": "[AOT] Get input name from module/prim func (#10731)"
   }
 ]
