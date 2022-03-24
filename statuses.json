@@ -1,5 +1,26 @@
 [
   {
+    "oid": "3bd52e63a3150db0e67b855a808685e596657d2b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5672970520?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5672970632?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2847/display/redirect"
+      }
+    ],
+    "messageHeadline": "[docs] Disable numpy intersphinx (#10752)"
+  },
+  {
     "oid": "f36829563870b00a97a7da81c2f403623ad2fd59",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "Fix shape func for Reshape (#10721)"
-  },
-  {
-    "oid": "0ddaaa6a7d1009ea7ca8313a51eb19abb8ae7699",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5655215585?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5655215630?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2832/display/redirect"
-      }
-    ],
-    "messageHeadline": "Use local complete block and local reduction block to identify compac\u2026"
   }
 ]
