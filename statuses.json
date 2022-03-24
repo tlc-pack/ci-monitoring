@@ -1,5 +1,26 @@
 [
   {
+    "oid": "f36829563870b00a97a7da81c2f403623ad2fd59",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5671814704?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5671814666?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2846/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ONNX] Make `freeze_param = True` and run `DynamicToStatic` by defaul\u2026"
+  },
+  {
     "oid": "93969dbebc1b528f890e4ab23c7cef8e10a1e620",
     "statuses": [
       {
@@ -46,7 +67,7 @@
     "statuses": [
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2843/display/redirect"
       }
     ],
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "Use local complete block and local reduction block to identify compac\u2026"
-  },
-  {
-    "oid": "d37c1d244a7d3a82fb601b80f898e896238332b7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5654966323?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5654966372?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2831/display/redirect"
-      }
-    ],
-    "messageHeadline": "[UnitTest] Fuzz based on seed rather than random value. (#10515)"
   }
 ]
