@@ -1,5 +1,26 @@
 [
   {
+    "oid": "69201a2e6109a0cc3dc63d87bbb84f0764b0f4ff",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5680443640?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5680443808?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2850/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix link formatting. (#10730)"
+  },
+  {
     "oid": "685302bb0f4e1de5b32ccf2d0e3fa515d4c74f56",
     "statuses": [
       {
@@ -272,26 +293,5 @@
       }
     ],
     "messageHeadline": "[TIR][Schedule] Transform layout (#10538)"
-  },
-  {
-    "oid": "9849b89a905db9bd06eb215c673c31bbaf5fd642",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5662985387?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5662985173?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2835/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Change the behavior of read/write region analysis for reduction\u2026"
   }
 ]
