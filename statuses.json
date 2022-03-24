@@ -1,5 +1,21 @@
 [
   {
+    "oid": "4974b51b0b8281d9c16c98495de806c0eb3d18d8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5683150503?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5683150727?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "Onnx squeeze enabled with auto axis handling. (#10742)"
+  },
+  {
     "oid": "e265baf3cb5cb1e7d7dd630db1e84901f8a95f47",
     "statuses": [
       {
@@ -156,7 +172,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5682329686?check_suite_focus=true"
       },
       {
@@ -282,26 +298,5 @@
       }
     ],
     "messageHeadline": "[FIX,AUTOTVM] Fix printing of measure results (#10647)"
-  },
-  {
-    "oid": "177d529f0edb2c30cc9e32c48b73e2ce942c4dc9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5670903322?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5670903364?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2844/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] Enable assignment statement without type annotation  (#10\u2026"
   }
 ]
