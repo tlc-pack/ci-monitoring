@@ -1,5 +1,26 @@
 [
   {
+    "oid": "93969dbebc1b528f890e4ab23c7cef8e10a1e620",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5671021535?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5671021587?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2845/display/redirect"
+      }
+    ],
+    "messageHeadline": "[FIX,AUTOTVM] Fix printing of measure results (#10647)"
+  },
+  {
     "oid": "177d529f0edb2c30cc9e32c48b73e2ce942c4dc9",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[UnitTest] Fuzz based on seed rather than random value. (#10515)"
-  },
-  {
-    "oid": "02184825bc466bbbb7ac3b845ccaa2e39e64b585",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5654588672?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5654588729?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2830/display/redirect"
-      }
-    ],
-    "messageHeadline": "[fix] relax QnnConv2DTransposeRel constraint (#10716)"
   }
 ]
