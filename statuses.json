@@ -1,5 +1,26 @@
 [
   {
+    "oid": "8ebdf6ee21370802c3a3f2e5953e78049693a42b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5686131979?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5686132059?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2864/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Misc update for e2e workloads (#10776)"
+  },
+  {
     "oid": "3918717aa14d7dc537b9cf66141452b8e3f72f68",
     "statuses": [
       {
@@ -287,16 +308,5 @@
       }
     ],
     "messageHeadline": "Fix link formatting. (#10730)"
-  },
-  {
-    "oid": "685302bb0f4e1de5b32ccf2d0e3fa515d4c74f56",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2849/display/redirect"
-      }
-    ],
-    "messageHeadline": "[git] Remove duplicate .gitignore entry (#10760)"
   }
 ]
