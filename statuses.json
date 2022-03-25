@@ -1,5 +1,26 @@
 [
   {
+    "oid": "f16286e399d8047d093223397e8e33829ed69a82",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5694993817?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5694993706?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2876/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Improved ergonomics of HexagonLauncher in unit tests. (#10581)"
+  },
+  {
     "oid": "14084f4c341aae5633b34d11748d3c590237824e",
     "statuses": [
       {
@@ -9,7 +30,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5693543624?check_suite_focus=true"
       },
       {
@@ -77,7 +98,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2872/display/redirect"
       }
     ],
@@ -287,26 +308,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Set target architecture when compiling for Hexagon (#10771)"
-  },
-  {
-    "oid": "73ec86047c0551b49d4c8716de7a694f164042a6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5683445596?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5683445718?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2861/display/redirect"
-      }
-    ],
-    "messageHeadline": "[PyTorch] Add `aten::square` operator (#10766)"
   }
 ]
