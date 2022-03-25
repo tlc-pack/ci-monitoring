@@ -1,5 +1,26 @@
 [
   {
+    "oid": "9de36f76e24b53b9fbcfccc2929967ebf8557055",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5687192198?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5687192239?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2870/display/redirect"
+      }
+    ],
+    "messageHeadline": "Remove depreceated mointergration tests with mxnet zoo importers (#10\u2026"
+  },
+  {
     "oid": "b56f9e57963e6edffbc627a32959fe2b03abea1d",
     "statuses": [
       {
@@ -287,26 +308,5 @@
       }
     ],
     "messageHeadline": "[ci] Upload built Docker images to ECR (#10662)"
-  },
-  {
-    "oid": "82b6ea9fc4e9f513a55b70e31b46ce529e339cb6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5682625792?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5682625882?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2855/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add missing Slice layout fallback check of `stride=1`. (#10690)"
   }
 ]
