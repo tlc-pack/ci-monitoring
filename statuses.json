@@ -1,5 +1,37 @@
 [
   {
+    "oid": "a3a155cb8566582b03e160bd52d70924c9d7e384",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2882/display/redirect"
+      }
+    ],
+    "messageHeadline": "[skip ci][ci] Fix bad merge after moving to templated Jenkinsfile (#1\u2026"
+  },
+  {
+    "oid": "31a4267a1960754a91e2a5189a516598029b26b8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5697488632?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5697488490?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2881/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ONNX] fix reduce crash on scalar inputs (#10780)"
+  },
+  {
     "oid": "1b654e928b888ab3088de45219b826c665980e54",
     "statuses": [
       {
@@ -271,47 +303,5 @@
       }
     ],
     "messageHeadline": "Eliminate some compiler warnings for microNPU demo app (#10549)"
-  },
-  {
-    "oid": "e9091d6c68d5d70c28881e5c75bfe72e385c1f4d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5686916570?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5686916629?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2867/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ARM] Support NCHWc alter layout in the fallback mode (#10724)"
-  },
-  {
-    "oid": "63461c0c97c307e581271708c3490f5275675a1a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5686913960?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5686913916?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2866/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix clang llvm 12.0.1 warnings (#10744)"
   }
 ]
