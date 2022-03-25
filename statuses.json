@@ -1,5 +1,26 @@
 [
   {
+    "oid": "1b654e928b888ab3088de45219b826c665980e54",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5696980084?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5696979984?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2880/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Generate Jenkinsfile from a template (#10740)"
+  },
+  {
     "oid": "079eb4e992868da6f0b5b345e7ac80e60273f6ba",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Fix clang llvm 12.0.1 warnings (#10744)"
-  },
-  {
-    "oid": "0b2f5b7130d6d333febd2cb09e96e51f9b03c3c4",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5686908792?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5686908714?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2865/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Skip flaky CMSISNN test (#10749)"
   }
 ]
