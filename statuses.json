@@ -1,5 +1,26 @@
 [
   {
+    "oid": "774c28576bea984d1ee1add4e3ea908345a7e97c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5692884421?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5692884302?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2872/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR][MetaSchedule] Estimate TIR FLOPs (#10782)"
+  },
+  {
     "oid": "2cb769560bfb1a67cc37c18895023b76af61d68e",
     "statuses": [
       {
@@ -287,26 +308,5 @@
       }
     ],
     "messageHeadline": "[ci][docker] Add Jinja2 to images (#10741)"
-  },
-  {
-    "oid": "9705b146fa5e1bb44c7868eea7c7a9918210d2e3",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5682749356?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5682749483?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2857/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Check existing reviews and requested reviews before cc-ing (#10734)"
   }
 ]
