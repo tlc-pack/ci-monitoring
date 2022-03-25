@@ -1,5 +1,47 @@
 [
   {
+    "oid": "079eb4e992868da6f0b5b345e7ac80e60273f6ba",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5696462043?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5696462158?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2879/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Add a pass to move allocate nodes to the outer scope (#10725)"
+  },
+  {
+    "oid": "937a14f07f981b8bd71eda480890315123abe67c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5696417064?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5696417174?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2878/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR][Analysis] Add SuggestIndexMap for layout rewriting (#10732)"
+  },
+  {
     "oid": "67da1119d88c36777a45f7709c2588abd028a873",
     "statuses": [
       {
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "[ci] Skip flaky CMSISNN test (#10749)"
-  },
-  {
-    "oid": "8ebdf6ee21370802c3a3f2e5953e78049693a42b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5686131979?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5686132059?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2864/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Misc update for e2e workloads (#10776)"
-  },
-  {
-    "oid": "3918717aa14d7dc537b9cf66141452b8e3f72f68",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5683501582?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5683501754?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2863/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Guard UserDMA code with architecture check (#10770)"
   }
 ]
