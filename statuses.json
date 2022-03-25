@@ -1,15 +1,36 @@
 [
   {
-    "oid": "e956eb3375b768dbdd274f6562039bb31c842088",
+    "oid": "8813d0a2bd25e3fde7a97336ca1070fedae4e8a3",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/5698157645?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/5698911633?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5698911561?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2885/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMScript] Parser `int64` support (#10789)"
+  },
+  {
+    "oid": "e956eb3375b768dbdd274f6562039bb31c842088",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5698157645?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5698157691?check_suite_focus=true"
       },
       {
@@ -25,12 +46,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5698150075?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5698150145?check_suite_focus=true"
       },
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[microNPU] Remove identity operations between non-compute operations \u2026"
-  },
-  {
-    "oid": "9de36f76e24b53b9fbcfccc2929967ebf8557055",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5687192198?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5687192239?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2870/display/redirect"
-      }
-    ],
-    "messageHeadline": "Remove depreceated mointergration tests with mxnet zoo importers (#10\u2026"
   }
 ]
