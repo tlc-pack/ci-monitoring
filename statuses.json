@@ -1,5 +1,47 @@
 [
   {
+    "oid": "e956eb3375b768dbdd274f6562039bb31c842088",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5698157645?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5698157691?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2884/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMC] Fix wrong terminology in tvmc source (#10320)"
+  },
+  {
+    "oid": "802be0dc966cecad5a9597690d943de92b8ae0d5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5698150075?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5698150145?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2883/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Correct use of wrong cmake variable (#10769)"
+  },
+  {
     "oid": "a3a155cb8566582b03e160bd52d70924c9d7e384",
     "statuses": [
       {
@@ -88,7 +130,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2878/display/redirect"
       }
     ],
@@ -261,47 +303,5 @@
       }
     ],
     "messageHeadline": "Remove depreceated mointergration tests with mxnet zoo importers (#10\u2026"
-  },
-  {
-    "oid": "b56f9e57963e6edffbc627a32959fe2b03abea1d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5686925720?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5686925616?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2869/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMC] compile: Check if FILE exists (#10608)"
-  },
-  {
-    "oid": "d7f179957e349bf652a91fb33d1c79e5c9921ab0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5686922295?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5686922374?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2868/display/redirect"
-      }
-    ],
-    "messageHeadline": "Eliminate some compiler warnings for microNPU demo app (#10549)"
   }
 ]
