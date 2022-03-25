@@ -1,5 +1,47 @@
 [
   {
+    "oid": "532b2b4a622b1fae0bd7aac66a2fb8ada8c49d7f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5693094065?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5693094222?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2874/display/redirect"
+      }
+    ],
+    "messageHeadline": "Check for toolchain when marking reference system tests (#10659)"
+  },
+  {
+    "oid": "ca82fa050bfc9c1ada7d3d851dbc83dbaa6d5914",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5693070494?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5693070622?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2873/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TESTING] Mark CMSIS-NN test in TVMC tests (#10674)"
+  },
+  {
     "oid": "774c28576bea984d1ee1add4e3ea908345a7e97c",
     "statuses": [
       {
@@ -266,47 +308,5 @@
       }
     ],
     "messageHeadline": "[TIR] Simplify final indices from transform_layout (#10761)"
-  },
-  {
-    "oid": "4974b51b0b8281d9c16c98495de806c0eb3d18d8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5683150503?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5683150727?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2859/display/redirect"
-      }
-    ],
-    "messageHeadline": "Onnx squeeze enabled with auto axis handling. (#10742)"
-  },
-  {
-    "oid": "e265baf3cb5cb1e7d7dd630db1e84901f8a95f47",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5682782013?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5682782141?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2858/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][docker] Add Jinja2 to images (#10741)"
   }
 ]
