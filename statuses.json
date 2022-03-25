@@ -1,5 +1,26 @@
 [
   {
+    "oid": "2cb769560bfb1a67cc37c18895023b76af61d68e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5688188129?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5688188224?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2871/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Remove identity operations between non-compute operations \u2026"
+  },
+  {
     "oid": "9de36f76e24b53b9fbcfccc2929967ebf8557055",
     "statuses": [
       {
@@ -35,7 +56,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2869/display/redirect"
       }
     ],
@@ -56,7 +77,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2868/display/redirect"
       }
     ],
@@ -77,7 +98,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2867/display/redirect"
       }
     ],
@@ -98,7 +119,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2866/display/redirect"
       }
     ],
@@ -119,7 +140,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2865/display/redirect"
       }
     ],
@@ -287,26 +308,5 @@
       }
     ],
     "messageHeadline": "[ci] Check existing reviews and requested reviews before cc-ing (#10734)"
-  },
-  {
-    "oid": "c20c9860f3096767f8e8c4a583b0e657a98e6f50",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5682732531?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5682732627?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2856/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Upload built Docker images to ECR (#10662)"
   }
 ]
