@@ -1,5 +1,47 @@
 [
   {
+    "oid": "efb37a60ec0e3a21976c6d11c10686eb6bab9a25",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5700879393?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5700879428?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2887/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Runtime][PipelineExecutor] Fix CPU affinity setting issue. (#10781)"
+  },
+  {
+    "oid": "6babb89cbb9fc5ab718f8b996c7ce60bf5ebbefd",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5700876891?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5700876867?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2886/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] 2-d allocation cleanup (#10786)"
+  },
+  {
     "oid": "8813d0a2bd25e3fde7a97336ca1070fedae4e8a3",
     "statuses": [
       {
@@ -261,47 +303,5 @@
       }
     ],
     "messageHeadline": "[TESTING] Mark CMSIS-NN test in TVMC tests (#10674)"
-  },
-  {
-    "oid": "774c28576bea984d1ee1add4e3ea908345a7e97c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5692884421?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5692884302?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2872/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][MetaSchedule] Estimate TIR FLOPs (#10782)"
-  },
-  {
-    "oid": "2cb769560bfb1a67cc37c18895023b76af61d68e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5688188129?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5688188224?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2871/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Remove identity operations between non-compute operations \u2026"
   }
 ]
