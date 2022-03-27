@@ -4,13 +4,18 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5712016823?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
         "url": "https://github.com/apache/tvm/runs/5712016859?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2889/display/redirect"
       }
     ],
     "messageHeadline": "added surpport for arg type of numeric float16 and testcase, fixed th\u2026"
