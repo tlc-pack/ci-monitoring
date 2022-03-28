@@ -1,5 +1,47 @@
 [
   {
+    "oid": "7896108fc41663a1fecbb52345194a93278e9e28",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5724874014?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5724874127?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2895/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ARM] Fix NCHWc int8 dot product schedule lowering (#10773)"
+  },
+  {
+    "oid": "4bd64b8db04d9bcee0dcb9ed1adbb21767011a6a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5724771805?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5724771927?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2894/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Use TF reference kernels for codegen tests where possible \u2026"
+  },
+  {
     "oid": "76c76779c9c3fcfc4bc55ec63b2b3becb2ab75c8",
     "statuses": [
       {
@@ -261,47 +303,5 @@
       }
     ],
     "messageHeadline": "[ONNX] fix reduce crash on scalar inputs (#10780)"
-  },
-  {
-    "oid": "1b654e928b888ab3088de45219b826c665980e54",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5696980084?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5696979984?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2880/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Generate Jenkinsfile from a template (#10740)"
-  },
-  {
-    "oid": "079eb4e992868da6f0b5b345e7ac80e60273f6ba",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5696462043?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5696462158?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2879/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Add a pass to move allocate nodes to the outer scope (#10725)"
   }
 ]
