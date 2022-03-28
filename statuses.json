@@ -1,5 +1,21 @@
 [
   {
+    "oid": "f88e43f18a74c38d352047a668bfeb260cfe50b7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5715005678?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5715005719?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[PyTorch] Fix neg indexing issue for `aten::flatten` (#10796)"
+  },
+  {
     "oid": "2cc0451c282e7de9e529c635dfa774f63329e359",
     "statuses": [
       {
@@ -282,26 +298,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Improved ergonomics of HexagonLauncher in unit tests. (#10581)"
-  },
-  {
-    "oid": "14084f4c341aae5633b34d11748d3c590237824e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5693543492?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5693543624?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2875/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CMSIS-NN] Stop test generating 1x1 and 1xn Conv2d (#10784)"
   }
 ]
