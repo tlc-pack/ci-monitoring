@@ -1,5 +1,26 @@
 [
   {
+    "oid": "fbede4c2e2c85ba6902a86f7b92301948cfb1894",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5715263105?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5715263202?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2891/display/redirect"
+      }
+    ],
+    "messageHeadline": "use python3.7 install script in ci-qemu (#10799)"
+  },
+  {
     "oid": "f88e43f18a74c38d352047a668bfeb260cfe50b7",
     "statuses": [
       {
@@ -11,6 +32,11 @@
         "name": "CI / Windows",
         "status": "PENDING",
         "url": "https://github.com/apache/tvm/runs/5715005719?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2890/display/redirect"
       }
     ],
     "messageHeadline": "[PyTorch] Fix neg indexing issue for `aten::flatten` (#10796)"
@@ -277,26 +303,5 @@
       }
     ],
     "messageHeadline": "[CI] Enable integration tests on AArch64 (#10677)"
-  },
-  {
-    "oid": "f16286e399d8047d093223397e8e33829ed69a82",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5694993817?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5694993706?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2876/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Improved ergonomics of HexagonLauncher in unit tests. (#10581)"
   }
 ]
