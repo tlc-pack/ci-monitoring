@@ -1,5 +1,21 @@
 [
   {
+    "oid": "7579f555b1eafe98a865fdba9022ba33df4a7db6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5727579177?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5727579410?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "Also strip prefix from TVM_LOG_DEBUG specs. (#10755)"
+  },
+  {
     "oid": "62873573f1a8b38bc20859b99935dda2f7f665d7",
     "statuses": [
       {
@@ -292,16 +308,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Correct use of wrong cmake variable (#10769)"
-  },
-  {
-    "oid": "a3a155cb8566582b03e160bd52d70924c9d7e384",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2882/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci][ci] Fix bad merge after moving to templated Jenkinsfile (#1\u2026"
   }
 ]
