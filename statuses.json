@@ -1,5 +1,26 @@
 [
   {
+    "oid": "76c76779c9c3fcfc4bc55ec63b2b3becb2ab75c8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5717629458?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5717629615?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2893/display/redirect"
+      }
+    ],
+    "messageHeadline": "[LIBXSMM] Add libxsmm to tvm ci (#10179)"
+  },
+  {
     "oid": "4dc6d7dbb947e6add27b2b58da12359d3fa05c2b",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[microNPU] Add a pass to move allocate nodes to the outer scope (#10725)"
-  },
-  {
-    "oid": "937a14f07f981b8bd71eda480890315123abe67c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5696417064?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5696417174?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2878/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][Analysis] Add SuggestIndexMap for layout rewriting (#10732)"
   }
 ]
