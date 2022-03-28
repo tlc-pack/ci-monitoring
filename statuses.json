@@ -1,5 +1,26 @@
 [
   {
+    "oid": "4dc6d7dbb947e6add27b2b58da12359d3fa05c2b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5716668020?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5716668215?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2892/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Remove unused import and command stream printing (#10764)"
+  },
+  {
     "oid": "fbede4c2e2c85ba6902a86f7b92301948cfb1894",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[TIR][Analysis] Add SuggestIndexMap for layout rewriting (#10732)"
-  },
-  {
-    "oid": "67da1119d88c36777a45f7709c2588abd028a873",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5695943906?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5695943793?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2877/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Enable integration tests on AArch64 (#10677)"
   }
 ]
