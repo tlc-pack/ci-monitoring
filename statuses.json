@@ -1,5 +1,26 @@
 [
   {
+    "oid": "62873573f1a8b38bc20859b99935dda2f7f665d7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5725777786?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5725777614?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2896/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Arith] Remove diagnostic ctx argument from DetectIterMap (#10798)"
+  },
+  {
     "oid": "7896108fc41663a1fecbb52345194a93278e9e28",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[skip ci][ci] Fix bad merge after moving to templated Jenkinsfile (#1\u2026"
-  },
-  {
-    "oid": "31a4267a1960754a91e2a5189a516598029b26b8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5697488632?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5697488490?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2881/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ONNX] fix reduce crash on scalar inputs (#10780)"
   }
 ]
