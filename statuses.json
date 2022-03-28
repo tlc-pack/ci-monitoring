@@ -1,5 +1,26 @@
 [
   {
+    "oid": "ab8e7c805f1f73fbe2b547804c60033d67496c4f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5727982436?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5727982564?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2899/display/redirect"
+      }
+    ],
+    "messageHeadline": "[AutoScheduler] Supported CSE (variable definitions) in feature extra\u2026"
+  },
+  {
     "oid": "7579f555b1eafe98a865fdba9022ba33df4a7db6",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[TVMC] Fix wrong terminology in tvmc source (#10320)"
-  },
-  {
-    "oid": "802be0dc966cecad5a9597690d943de92b8ae0d5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5698150075?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5698150145?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2883/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Correct use of wrong cmake variable (#10769)"
   }
 ]
