@@ -1,5 +1,26 @@
 [
   {
+    "oid": "21eb583664824ce8e2c3c3b0e250c6f81ff83b9f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5745391738?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5745391819?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2911/display/redirect"
+      }
+    ],
+    "messageHeadline": "[dyn.nn.pad] cast pad value to input dtype (#10818)"
+  },
+  {
     "oid": "b5e04795c2931872ec4b3723ebbb1725ff4b7ba1",
     "statuses": [
       {
@@ -30,7 +51,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5744545513?check_suite_focus=true"
       },
       {
@@ -287,26 +308,5 @@
       }
     ],
     "messageHeadline": "Also strip prefix from TVM_LOG_DEBUG specs. (#10755)"
-  },
-  {
-    "oid": "62873573f1a8b38bc20859b99935dda2f7f665d7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5725777786?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5725777614?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2897/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Arith] Remove diagnostic ctx argument from DetectIterMap (#10798)"
   }
 ]
