@@ -1,5 +1,26 @@
 [
   {
+    "oid": "af97dc51f51c40286e582e0d97386a1e0206689e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5745578470?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5745578550?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2912/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Update `ci-qemu` to use python 3.7 (#10815)"
+  },
+  {
     "oid": "21eb583664824ce8e2c3c3b0e250c6f81ff83b9f",
     "statuses": [
       {
@@ -46,7 +67,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5744545609?check_suite_focus=true"
       },
       {
@@ -287,26 +308,5 @@
       }
     ],
     "messageHeadline": "[AutoScheduler] Supported CSE (variable definitions) in feature extra\u2026"
-  },
-  {
-    "oid": "7579f555b1eafe98a865fdba9022ba33df4a7db6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5727579177?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5727579410?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2898/display/redirect"
-      }
-    ],
-    "messageHeadline": "Also strip prefix from TVM_LOG_DEBUG specs. (#10755)"
   }
 ]
