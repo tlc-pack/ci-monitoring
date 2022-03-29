@@ -1,5 +1,26 @@
 [
   {
+    "oid": "6b1594c852154882d41b15d7ceba2c3a7a6322c7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5730997126?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5730997170?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2902/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BugFix] Fix NeedsMultiLevelTiling by skipping trivial block iterator\u2026"
+  },
+  {
     "oid": "9b5bbf87bf108bdcb8624a64a51e66d4f431ad14",
     "statuses": [
       {
@@ -287,26 +308,5 @@
       }
     ],
     "messageHeadline": "[BugFix][TIR] Fix construction of new IterVars in CacheRead/Write for\u2026"
-  },
-  {
-    "oid": "efb37a60ec0e3a21976c6d11c10686eb6bab9a25",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5700879393?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5700879428?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2887/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Runtime][PipelineExecutor] Fix CPU affinity setting issue. (#10781)"
   }
 ]
