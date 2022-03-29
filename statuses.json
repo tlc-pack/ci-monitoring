@@ -1,5 +1,26 @@
 [
   {
+    "oid": "c2488ac863a8d17ab6b95d67ff19227ed4b2fcbe",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5735074819?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5735074697?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2904/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Extract task weights during task extraction (#10810)"
+  },
+  {
     "oid": "5306ffa2257a14de62e720c45fe5456c2ab6b48b",
     "statuses": [
       {
@@ -14,7 +35,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2903/display/redirect"
       }
     ],
@@ -287,26 +308,5 @@
       }
     ],
     "messageHeadline": "[PyTorch] Fix neg indexing issue for `aten::flatten` (#10796)"
-  },
-  {
-    "oid": "2cc0451c282e7de9e529c635dfa774f63329e359",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5712016823?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5712016859?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2889/display/redirect"
-      }
-    ],
-    "messageHeadline": "added surpport for arg type of numeric float16 and testcase, fixed th\u2026"
   }
 ]
