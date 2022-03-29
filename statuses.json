@@ -1,5 +1,26 @@
 [
   {
+    "oid": "b5e04795c2931872ec4b3723ebbb1725ff4b7ba1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5744925153?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5744925287?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2910/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Pass][Bugfix] StorageFlatten, buffer var definitions in LetStmt (#10\u2026"
+  },
+  {
     "oid": "dfa9bc57050467d0a81b9950cf280f235de1bde1",
     "statuses": [
       {
@@ -35,7 +56,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2908/display/redirect"
       }
     ],
@@ -287,26 +308,5 @@
       }
     ],
     "messageHeadline": "[Arith] Remove diagnostic ctx argument from DetectIterMap (#10798)"
-  },
-  {
-    "oid": "7896108fc41663a1fecbb52345194a93278e9e28",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5724874014?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5724874127?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2895/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ARM] Fix NCHWc int8 dot product schedule lowering (#10773)"
   }
 ]
