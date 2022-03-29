@@ -1,5 +1,26 @@
 [
   {
+    "oid": "ba8698f0a683dcfcdf57519cb08be661e172297e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5742727127?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5742727032?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2908/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Fix Vitis-AI tests when USE_VITIS_AI flag set to OFF  (#10802)"
+  },
+  {
     "oid": "f6256df2d63bb22017daff8423c3cc998729e52e",
     "statuses": [
       {
@@ -287,26 +308,5 @@
       }
     ],
     "messageHeadline": "[microNPU] Use TF reference kernels for codegen tests where possible \u2026"
-  },
-  {
-    "oid": "76c76779c9c3fcfc4bc55ec63b2b3becb2ab75c8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5717629458?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5717629615?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2893/display/redirect"
-      }
-    ],
-    "messageHeadline": "[LIBXSMM] Add libxsmm to tvm ci (#10179)"
   }
 ]
