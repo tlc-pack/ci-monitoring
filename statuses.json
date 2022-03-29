@@ -1,5 +1,47 @@
 [
   {
+    "oid": "47ab54538fb83dc836f6516ed63870495df56253",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5735962770?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5735962658?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2906/display/redirect"
+      }
+    ],
+    "messageHeadline": "[COMMUNITY] David Riazati -> Reviewer (#10812)"
+  },
+  {
+    "oid": "ce28068da8852d42b6bddb915931ed372b76d085",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5735814149?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5735814297?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2905/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Support grouping in the cost model (#10811)"
+  },
+  {
     "oid": "c2488ac863a8d17ab6b95d67ff19227ed4b2fcbe",
     "statuses": [
       {
@@ -9,7 +51,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5735074697?check_suite_focus=true"
       },
       {
@@ -266,47 +308,5 @@
       }
     ],
     "messageHeadline": "[microNPU] Remove unused import and command stream printing (#10764)"
-  },
-  {
-    "oid": "fbede4c2e2c85ba6902a86f7b92301948cfb1894",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5715263105?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5715263202?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2891/display/redirect"
-      }
-    ],
-    "messageHeadline": "use python3.7 install script in ci-qemu (#10799)"
-  },
-  {
-    "oid": "f88e43f18a74c38d352047a668bfeb260cfe50b7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5715005678?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5715005719?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2890/display/redirect"
-      }
-    ],
-    "messageHeadline": "[PyTorch] Fix neg indexing issue for `aten::flatten` (#10796)"
   }
 ]
