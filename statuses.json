@@ -1,5 +1,26 @@
 [
   {
+    "oid": "8dc6b927be9164d30fca354f72352710debef186",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5745933008?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5745933114?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2913/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Manually merge code after checkout (#10778)"
+  },
+  {
     "oid": "af97dc51f51c40286e582e0d97386a1e0206689e",
     "statuses": [
       {
@@ -46,7 +67,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5744925153?check_suite_focus=true"
       },
       {
@@ -287,26 +308,5 @@
       }
     ],
     "messageHeadline": "[TIR] Properly initialize PRNG seed when copying schedule (#10806)"
-  },
-  {
-    "oid": "ab8e7c805f1f73fbe2b547804c60033d67496c4f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5727982436?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5727982564?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2899/display/redirect"
-      }
-    ],
-    "messageHeadline": "[AutoScheduler] Supported CSE (variable definitions) in feature extra\u2026"
   }
 ]
