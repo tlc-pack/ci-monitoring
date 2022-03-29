@@ -1,5 +1,63 @@
 [
   {
+    "oid": "9b5bbf87bf108bdcb8624a64a51e66d4f431ad14",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5730679939?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5730679999?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2901/display/redirect"
+      }
+    ],
+    "messageHeadline": "tir printing (#10805)"
+  },
+  {
+    "oid": "786a9da41ba5ba06b815bd37ef2096bd705962bc",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5730679003?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5730678929?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[ci][docs] Disable matplotlib intersphinx (#10808)"
+  },
+  {
+    "oid": "62e3d9d27e69988c21493d650fba9fda5002d1a7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5730566045?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5730566120?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2900/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Properly initialize PRNG seed when copying schedule (#10806)"
+  },
+  {
     "oid": "ab8e7c805f1f73fbe2b547804c60033d67496c4f",
     "statuses": [
       {
@@ -250,68 +308,5 @@
       }
     ],
     "messageHeadline": "[Runtime][PipelineExecutor] Fix CPU affinity setting issue. (#10781)"
-  },
-  {
-    "oid": "6babb89cbb9fc5ab718f8b996c7ce60bf5ebbefd",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5700876891?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5700876867?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2886/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] 2-d allocation cleanup (#10786)"
-  },
-  {
-    "oid": "8813d0a2bd25e3fde7a97336ca1070fedae4e8a3",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5698911633?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5698911561?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2885/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] Parser `int64` support (#10789)"
-  },
-  {
-    "oid": "e956eb3375b768dbdd274f6562039bb31c842088",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5698157645?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5698157691?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2884/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMC] Fix wrong terminology in tvmc source (#10320)"
   }
 ]
