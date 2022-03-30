@@ -1,5 +1,26 @@
 [
   {
+    "oid": "10f037f03376b9ee14384329de63b3e1b0ad36a7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5761619079?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5761619257?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2926/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci][docker] Remove nvidia ml repository before updating (#10828)"
+  },
+  {
     "oid": "642fc57c5e8bf59bfe102357f1ceb2926ea3fa57",
     "statuses": [
       {
@@ -25,7 +46,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5760497027?check_suite_focus=true"
       },
       {
@@ -46,7 +67,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5760449529?check_suite_focus=true"
       },
       {
@@ -109,7 +130,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2920/display/redirect"
       }
     ],
@@ -272,26 +293,5 @@
       }
     ],
     "messageHeadline": "[CI] Update `ci-qemu` to use python 3.7 (#10815)"
-  },
-  {
-    "oid": "21eb583664824ce8e2c3c3b0e250c6f81ff83b9f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5745391738?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5745391819?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2911/display/redirect"
-      }
-    ],
-    "messageHeadline": "[dyn.nn.pad] cast pad value to input dtype (#10818)"
   }
 ]
