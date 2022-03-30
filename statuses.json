@@ -1,5 +1,26 @@
 [
   {
+    "oid": "62e04702b078825245f9f050f64446f9e23c4f98",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5747209022?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5747209097?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2916/display/redirect"
+      }
+    ],
+    "messageHeadline": "[DOCS] Add background context for stack allocation in builtin lowerin\u2026"
+  },
+  {
     "oid": "84e46579cc499b1dc528b5eb5d3acb53a3a3ed0f",
     "statuses": [
       {
@@ -15,12 +36,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5746282905?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5746283041?check_suite_focus=true"
       },
       {
@@ -36,12 +57,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5745933008?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5745933114?check_suite_focus=true"
       },
       {
@@ -67,7 +88,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2912/display/redirect"
       }
     ],
@@ -88,7 +109,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2911/display/redirect"
       }
     ],
@@ -109,7 +130,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2910/display/redirect"
       }
     ],
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[BugFix] Fix NeedsMultiLevelTiling by skipping trivial block iterator\u2026"
-  },
-  {
-    "oid": "9b5bbf87bf108bdcb8624a64a51e66d4f431ad14",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5730679939?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5730679999?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2901/display/redirect"
-      }
-    ],
-    "messageHeadline": "tir printing (#10805)"
   }
 ]
