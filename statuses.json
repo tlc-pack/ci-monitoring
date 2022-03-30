@@ -1,5 +1,26 @@
 [
   {
+    "oid": "8fddcc108201778cb70cc2293109e542de9d6f32",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5753424129?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5753424249?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2918/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] int8 support for tanh operator (#10813)"
+  },
+  {
     "oid": "d0c7c78c56e2a3cb3e718bf660024e587ad80f06",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Extract task weights during task extraction (#10810)"
-  },
-  {
-    "oid": "5306ffa2257a14de62e720c45fe5456c2ab6b48b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5732804140?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5732804283?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2903/display/redirect"
-      }
-    ],
-    "messageHeadline": "upd (#10809)"
   }
 ]
