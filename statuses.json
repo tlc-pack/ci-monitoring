@@ -1,5 +1,26 @@
 [
   {
+    "oid": "b2a0e1d274b7fa11a234c9633c501a5fc33db0ba",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5759403048?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5759403172?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2920/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CUBLAS] Add cuBLAS as a Relay partitioning target (BYOC) (#10820)"
+  },
+  {
     "oid": "fb49a997e301f2761cd1a09c77f9816106368cf2",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[COMMUNITY] David Riazati -> Reviewer (#10812)"
-  },
-  {
-    "oid": "ce28068da8852d42b6bddb915931ed372b76d085",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5735814149?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5735814297?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2905/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Support grouping in the cost model (#10811)"
   }
 ]
