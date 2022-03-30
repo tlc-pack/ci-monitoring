@@ -1,10 +1,31 @@
 [
   {
-    "oid": "8fddcc108201778cb70cc2293109e542de9d6f32",
+    "oid": "fb49a997e301f2761cd1a09c77f9816106368cf2",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5754402431?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5754403014?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2919/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] int8 support for the mean operator (#10463)"
+  },
+  {
+    "oid": "8fddcc108201778cb70cc2293109e542de9d6f32",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5753424129?check_suite_focus=true"
       },
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Support grouping in the cost model (#10811)"
-  },
-  {
-    "oid": "c2488ac863a8d17ab6b95d67ff19227ed4b2fcbe",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5735074819?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5735074697?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2904/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Extract task weights during task extraction (#10810)"
   }
 ]
