@@ -1,5 +1,37 @@
 [
   {
+    "oid": "b5cad84f795a63ee8cec9fa28a6678d55495f283",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5760449529?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5760449625?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2923/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TE] Correctly generate buffer binds with axis separators (#10819)"
+  },
+  {
+    "oid": "de93d81ddf1e6927f5c436a87121b486614ab114",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2922/display/redirect"
+      }
+    ],
+    "messageHeadline": "[skip ci][hotfix] Fix broken lint (#10827)"
+  },
+  {
     "oid": "6d42264face0a94cdd787a82084c176de65707ea",
     "statuses": [
       {
@@ -30,7 +62,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5759403172?check_suite_focus=true"
       },
       {
@@ -261,47 +293,5 @@
       }
     ],
     "messageHeadline": "[ci] Clarify message in ping-reviewers bot (#10807)"
-  },
-  {
-    "oid": "ba8698f0a683dcfcdf57519cb08be661e172297e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5742727127?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5742727032?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2908/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Fix Vitis-AI tests when USE_VITIS_AI flag set to OFF  (#10802)"
-  },
-  {
-    "oid": "f6256df2d63bb22017daff8423c3cc998729e52e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5740512389?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5740512631?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2907/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix compile error when AddRewrite gets additional args (#10669)"
   }
 ]
