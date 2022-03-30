@@ -1,5 +1,26 @@
 [
   {
+    "oid": "642fc57c5e8bf59bfe102357f1ceb2926ea3fa57",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5761034656?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5761034728?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2925/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Metaschedule] Add demonstration of selectively tuning relay ops with\u2026"
+  },
+  {
     "oid": "897019df6a86720f0157a345e62b538975f11ae8",
     "statuses": [
       {
@@ -57,12 +78,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5760022260?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5760022208?check_suite_focus=true"
       },
       {
@@ -272,26 +293,5 @@
       }
     ],
     "messageHeadline": "[dyn.nn.pad] cast pad value to input dtype (#10818)"
-  },
-  {
-    "oid": "b5e04795c2931872ec4b3723ebbb1725ff4b7ba1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5744925153?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5744925287?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2910/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Pass][Bugfix] StorageFlatten, buffer var definitions in LetStmt (#10\u2026"
   }
 ]
