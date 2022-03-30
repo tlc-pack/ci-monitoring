@@ -1,5 +1,26 @@
 [
   {
+    "oid": "897019df6a86720f0157a345e62b538975f11ae8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5760497027?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5760497152?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2924/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Pass][Bugfix] Disable re-use of non-flat buffers in StorageRewrite. \u2026"
+  },
+  {
     "oid": "b5cad84f795a63ee8cec9fa28a6678d55495f283",
     "statuses": [
       {
@@ -57,7 +78,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5759403048?check_suite_focus=true"
       },
       {
@@ -272,26 +293,5 @@
       }
     ],
     "messageHeadline": "[Pass][Bugfix] StorageFlatten, buffer var definitions in LetStmt (#10\u2026"
-  },
-  {
-    "oid": "dfa9bc57050467d0a81b9950cf280f235de1bde1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5744545609?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5744545513?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2909/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Clarify message in ping-reviewers bot (#10807)"
   }
 ]
