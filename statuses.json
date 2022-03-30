@@ -1,5 +1,37 @@
 [
   {
+    "oid": "84e46579cc499b1dc528b5eb5d3acb53a3a3ed0f",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2915/display/redirect"
+      }
+    ],
+    "messageHeadline": "[skip ci][ci] Fix outdated Jenkinsfile (#10822)"
+  },
+  {
+    "oid": "f5c71c5b3d0df57129cdbfa121413925e04c9182",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5746282905?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5746283041?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2914/display/redirect"
+      }
+    ],
+    "messageHeadline": "[REFACTOR] Remove legacy nnvm folder (#10821)"
+  },
+  {
     "oid": "8dc6b927be9164d30fca354f72352710debef186",
     "statuses": [
       {
@@ -25,12 +57,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5745578470?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5745578550?check_suite_focus=true"
       },
       {
@@ -46,12 +78,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5745391738?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5745391819?check_suite_focus=true"
       },
       {
@@ -98,7 +130,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2909/display/redirect"
       }
     ],
@@ -271,42 +303,5 @@
       }
     ],
     "messageHeadline": "tir printing (#10805)"
-  },
-  {
-    "oid": "786a9da41ba5ba06b815bd37ef2096bd705962bc",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5730679003?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5730678929?check_suite_focus=true"
-      }
-    ],
-    "messageHeadline": "[ci][docs] Disable matplotlib intersphinx (#10808)"
-  },
-  {
-    "oid": "62e3d9d27e69988c21493d650fba9fda5002d1a7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5730566045?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5730566120?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2900/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Properly initialize PRNG seed when copying schedule (#10806)"
   }
 ]
