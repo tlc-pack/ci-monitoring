@@ -1,5 +1,26 @@
 [
   {
+    "oid": "6d42264face0a94cdd787a82084c176de65707ea",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5760022260?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5760022208?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2921/display/redirect"
+      }
+    ],
+    "messageHeadline": "bump PyTorch version to 1.11 (#10794)"
+  },
+  {
     "oid": "b2a0e1d274b7fa11a234c9633c501a5fc33db0ba",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "Fix compile error when AddRewrite gets additional args (#10669)"
-  },
-  {
-    "oid": "47ab54538fb83dc836f6516ed63870495df56253",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5735962770?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5735962658?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2906/display/redirect"
-      }
-    ],
-    "messageHeadline": "[COMMUNITY] David Riazati -> Reviewer (#10812)"
   }
 ]
