@@ -1,5 +1,26 @@
 [
   {
+    "oid": "5814fdd7d674bd9baa0af3a020b4aac3ee079b21",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5766440149?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5766440224?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2932/display/redirect"
+      }
+    ],
+    "messageHeadline": "prune dnnl subgraph, and add related test case. (#10835)"
+  },
+  {
     "oid": "5cacecc0c026fcd4c4c0064a8ef740374b86a699",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[microNPU] Tweak a layout transform matrix (#10763)"
-  },
-  {
-    "oid": "62e04702b078825245f9f050f64446f9e23c4f98",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5747209022?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5747209097?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2916/display/redirect"
-      }
-    ],
-    "messageHeadline": "[DOCS] Add background context for stack allocation in builtin lowerin\u2026"
   }
 ]
