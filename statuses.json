@@ -1,5 +1,26 @@
 [
   {
+    "oid": "8775a805d17d9e46b1cdcadd00f22d3471270ef1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5774782284?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5774782396?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2935/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMC] Support compiling and running with VM  (#10722)"
+  },
+  {
     "oid": "8226bd0af01aa35d6f9ca07a862ebe98b32fd337",
     "statuses": [
       {
@@ -25,7 +46,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5773294711?check_suite_focus=true"
       },
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[CUBLAS] Add cuBLAS as a Relay partitioning target (BYOC) (#10820)"
-  },
-  {
-    "oid": "fb49a997e301f2761cd1a09c77f9816106368cf2",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5754402431?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5754403014?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2919/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ETHOSN] int8 support for the mean operator (#10463)"
   }
 ]
