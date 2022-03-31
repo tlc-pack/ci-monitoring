@@ -1,5 +1,26 @@
 [
   {
+    "oid": "8226bd0af01aa35d6f9ca07a862ebe98b32fd337",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5774281210?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5774281339?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2934/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Some housekeeping in the test_ethosu folder (#10824)"
+  },
+  {
     "oid": "5629f8a69ef1fb7e532c6722206a70f3da4537b1",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[ETHOSN] int8 support for the mean operator (#10463)"
-  },
-  {
-    "oid": "8fddcc108201778cb70cc2293109e542de9d6f32",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5753424129?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5753424249?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2918/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ETHOSN] int8 support for tanh operator (#10813)"
   }
 ]
