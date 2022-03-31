@@ -1,5 +1,26 @@
 [
   {
+    "oid": "63bb3b9855a392268819ea76413ee6bbc66d6058",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5779085155?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5779083564?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2937/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Provide empty weak definitions of two missing functions (#1\u2026"
+  },
+  {
     "oid": "4322ebc38797d8d76838db8be5918459ac3d0958",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[skip ci][hotfix] Fix broken lint (#10827)"
-  },
-  {
-    "oid": "6d42264face0a94cdd787a82084c176de65707ea",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5760022260?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5760022208?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2921/display/redirect"
-      }
-    ],
-    "messageHeadline": "bump PyTorch version to 1.11 (#10794)"
   }
 ]
