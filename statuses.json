@@ -1,5 +1,26 @@
 [
   {
+    "oid": "5629f8a69ef1fb7e532c6722206a70f3da4537b1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5773294711?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5773294911?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2933/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Add Gradient Based Task Scheduler (#10366)"
+  },
+  {
     "oid": "5814fdd7d674bd9baa0af3a020b4aac3ee079b21",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[ETHOSN] int8 support for tanh operator (#10813)"
-  },
-  {
-    "oid": "d0c7c78c56e2a3cb3e718bf660024e587ad80f06",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5750034051?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5750033893?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2917/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Tweak a layout transform matrix (#10763)"
   }
 ]
