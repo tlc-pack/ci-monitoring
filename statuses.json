@@ -1,5 +1,26 @@
 [
   {
+    "oid": "4322ebc38797d8d76838db8be5918459ac3d0958",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5777490578?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5777490650?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2936/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BYOC-DNNL] Enhance GetRootCall function (#10836)"
+  },
+  {
     "oid": "8775a805d17d9e46b1cdcadd00f22d3471270ef1",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "bump PyTorch version to 1.11 (#10794)"
-  },
-  {
-    "oid": "b2a0e1d274b7fa11a234c9633c501a5fc33db0ba",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5759403048?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5759403172?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2920/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CUBLAS] Add cuBLAS as a Relay partitioning target (BYOC) (#10820)"
   }
 ]
