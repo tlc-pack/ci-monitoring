@@ -1,5 +1,26 @@
 [
   {
+    "oid": "72c761c807beae48948bd78bb7e6478dae829e0b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5763267722?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5763267834?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2927/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Fine-Grained Rewrite Unbound Block (#10823)"
+  },
+  {
     "oid": "10f037f03376b9ee14384329de63b3e1b0ad36a7",
     "statuses": [
       {
@@ -14,7 +35,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2926/display/redirect"
       }
     ],
@@ -272,26 +293,5 @@
       }
     ],
     "messageHeadline": "[ci] Manually merge code after checkout (#10778)"
-  },
-  {
-    "oid": "af97dc51f51c40286e582e0d97386a1e0206689e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5745578470?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5745578550?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2912/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Update `ci-qemu` to use python 3.7 (#10815)"
   }
 ]
