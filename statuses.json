@@ -1,5 +1,26 @@
 [
   {
+    "oid": "4a135431b8a1cb12bae5019d11542fbe4c92447a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5792229124?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5792229221?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2946/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Pass] Fix printer formatting for PassInfo (#10844)"
+  },
+  {
     "oid": "f745f06f041c333fbe55c8d999611a82ebf2717f",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "prune dnnl subgraph, and add related test case. (#10835)"
-  },
-  {
-    "oid": "5cacecc0c026fcd4c4c0064a8ef740374b86a699",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5765461878?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5765461912?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2931/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CUBLAS] Add support for nn.dense and nn.batch_matmul (#10826)"
   }
 ]
