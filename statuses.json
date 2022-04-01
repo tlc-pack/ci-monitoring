@@ -1,5 +1,89 @@
 [
   {
+    "oid": "f745f06f041c333fbe55c8d999611a82ebf2717f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5791427425?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5791427324?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2945/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMC] tune: Use proper caps for AutoTVM and AutoScheduler (#10864)"
+  },
+  {
+    "oid": "9a34ca81f472b5bdc33de64c08ddfc7602f5299d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5791417021?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5791417105?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2944/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix typo in comment about kill() (#10863)"
+  },
+  {
+    "oid": "21ce29f739689be52659a120d9f0fa290ed14f0e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5791395261?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5791395370?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2943/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Support both 1-d and 2-d VTCM allocations (#10846)"
+  },
+  {
+    "oid": "93b255cb63514dc6e59560b44fb0a9a979bd8aac",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5791305145?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5791305219?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2942/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Metaschedule] Add test case for multi-anchor subgraph (#10856)"
+  },
+  {
     "oid": "621f777b7309bb11fde09de49f5135ce756a1bee",
     "statuses": [
       {
@@ -229,89 +313,5 @@
       }
     ],
     "messageHeadline": "[CUBLAS] Add support for nn.dense and nn.batch_matmul (#10826)"
-  },
-  {
-    "oid": "42985c372681bc1915a6be1be917aa45f8f94a55",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5765457524?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5765457475?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2929/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Handle v69 in RPC launcher on simulator (#10829)"
-  },
-  {
-    "oid": "6af3f36184a7dfdc48e3e0804b4fa480e0bc9ea5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5765453930?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5765453964?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2928/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Pass extra parameters to link_params via Map (#10830)"
-  },
-  {
-    "oid": "72c761c807beae48948bd78bb7e6478dae829e0b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5763267722?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5763267834?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2927/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Fine-Grained Rewrite Unbound Block (#10823)"
-  },
-  {
-    "oid": "10f037f03376b9ee14384329de63b3e1b0ad36a7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5761619079?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5761619257?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2926/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][docker] Remove nvidia ml repository before updating (#10828)"
   }
 ]
