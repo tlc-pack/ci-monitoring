@@ -1,5 +1,47 @@
 [
   {
+    "oid": "adcf1992941bb320aae37ed9a1b0ac1b4ae85612",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5780279900?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5780279820?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2939/display/redirect"
+      }
+    ],
+    "messageHeadline": "[PROFILING] Various fixes for profile_function (#10850)"
+  },
+  {
+    "oid": "912993ff3984ddb47ec98888d645a8f157daa3fc",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5780261654?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5780261515?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2938/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ARM] Fix int8 NCHWc compute and alter layout (#10839)"
+  },
+  {
     "oid": "63bb3b9855a392268819ea76413ee6bbc66d6058",
     "statuses": [
       {
@@ -271,37 +313,5 @@
       }
     ],
     "messageHeadline": "[Pass][Bugfix] Disable re-use of non-flat buffers in StorageRewrite. \u2026"
-  },
-  {
-    "oid": "b5cad84f795a63ee8cec9fa28a6678d55495f283",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5760449529?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5760449625?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2923/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TE] Correctly generate buffer binds with axis separators (#10819)"
-  },
-  {
-    "oid": "de93d81ddf1e6927f5c436a87121b486614ab114",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2922/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci][hotfix] Fix broken lint (#10827)"
   }
 ]
