@@ -1,5 +1,26 @@
 [
   {
+    "oid": "95df0eb1461718d9d1453d2ba4beb9441c5cab3c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5782924945?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5782925004?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2940/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Don't use alternative linker for non-x86 API binaries (#10854)"
+  },
+  {
     "oid": "adcf1992941bb320aae37ed9a1b0ac1b4ae85612",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Metaschedule] Add demonstration of selectively tuning relay ops with\u2026"
-  },
-  {
-    "oid": "897019df6a86720f0157a345e62b538975f11ae8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5760497027?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5760497152?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2924/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Pass][Bugfix] Disable re-use of non-flat buffers in StorageRewrite. \u2026"
   }
 ]
