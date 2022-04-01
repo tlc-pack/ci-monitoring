@@ -1,5 +1,21 @@
 [
   {
+    "oid": "d2a40fd4a985f25b480c6efdd660dc8bd64d0389",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5793252880?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5793252733?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[AOT] Re-enable AOT output name test on AArch64 (#10868)"
+  },
+  {
     "oid": "4a135431b8a1cb12bae5019d11542fbe4c92447a",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Add Gradient Based Task Scheduler (#10366)"
-  },
-  {
-    "oid": "5814fdd7d674bd9baa0af3a020b4aac3ee079b21",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "NEUTRAL",
-        "url": "https://github.com/apache/tvm/runs/5766440149?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5766440224?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2932/display/redirect"
-      }
-    ],
-    "messageHeadline": "prune dnnl subgraph, and add related test case. (#10835)"
   }
 ]
