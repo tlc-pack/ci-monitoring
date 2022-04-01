@@ -1,5 +1,42 @@
 [
   {
+    "oid": "56e376093f1a3b8d1ba7dc81d45cab84e31c7465",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5794664704?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5794664788?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "Don't use alternative linker for static libraries (#10870)"
+  },
+  {
+    "oid": "c663aba730b9f04072ed330958d7e8e4621250e5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5794563856?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5794563813?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2949/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Remove timeout on HAP_compute_res_acquire (#10713)"
+  },
+  {
     "oid": "fac161eb63db3f761e909868119932541d4e6140",
     "statuses": [
       {
@@ -271,47 +308,5 @@
       }
     ],
     "messageHeadline": "[BYOC-DNNL] Enhance GetRootCall function (#10836)"
-  },
-  {
-    "oid": "8775a805d17d9e46b1cdcadd00f22d3471270ef1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5774782284?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5774782396?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2935/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMC] Support compiling and running with VM  (#10722)"
-  },
-  {
-    "oid": "8226bd0af01aa35d6f9ca07a862ebe98b32fd337",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5774281210?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5774281339?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2934/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Some housekeeping in the test_ethosu folder (#10824)"
   }
 ]
