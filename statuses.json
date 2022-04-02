@@ -1,5 +1,26 @@
 [
   {
+    "oid": "daa068979a464bd96f6f48e244a8917c4b353503",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5801587033?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5801587002?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2954/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix a small timer bug. (#10875)"
+  },
+  {
     "oid": "264ee08aef985eddebc633bae356f3931060b6d9",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Don't use alternative linker for non-x86 API binaries (#10854)"
-  },
-  {
-    "oid": "adcf1992941bb320aae37ed9a1b0ac1b4ae85612",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5780279900?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5780279820?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2939/display/redirect"
-      }
-    ],
-    "messageHeadline": "[PROFILING] Various fixes for profile_function (#10850)"
   }
 ]
