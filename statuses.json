@@ -1,5 +1,47 @@
 [
   {
+    "oid": "6f0017a9bfe11a1bc630b2b5e0aec816314565e7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5800021586?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5800021661?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2952/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule][BugFix] Fix broken integration tests (#10885)"
+  },
+  {
+    "oid": "be90825fd2017ac8cc4d6e5bce9f85252aebdb06",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5800015427?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5800015448?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2951/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Updated incomplete docstring (#10879)"
+  },
+  {
     "oid": "56e376093f1a3b8d1ba7dc81d45cab84e31c7465",
     "statuses": [
       {
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "[ARM] Fix int8 NCHWc compute and alter layout (#10839)"
-  },
-  {
-    "oid": "63bb3b9855a392268819ea76413ee6bbc66d6058",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5779085155?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5779083564?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2937/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Provide empty weak definitions of two missing functions (#1\u2026"
-  },
-  {
-    "oid": "4322ebc38797d8d76838db8be5918459ac3d0958",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5777490578?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5777490650?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2936/display/redirect"
-      }
-    ],
-    "messageHeadline": "[BYOC-DNNL] Enhance GetRootCall function (#10836)"
   }
 ]
