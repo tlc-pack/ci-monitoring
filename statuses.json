@@ -1,5 +1,26 @@
 [
   {
+    "oid": "264ee08aef985eddebc633bae356f3931060b6d9",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5800936974?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5800937018?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2953/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BugFix][MetaSchedule] Fuse only serial loops in rewrite-unbound-bloc\u2026"
+  },
+  {
     "oid": "6f0017a9bfe11a1bc630b2b5e0aec816314565e7",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[PROFILING] Various fixes for profile_function (#10850)"
-  },
-  {
-    "oid": "912993ff3984ddb47ec98888d645a8f157daa3fc",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5780261654?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5780261515?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2938/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ARM] Fix int8 NCHWc compute and alter layout (#10839)"
   }
 ]
