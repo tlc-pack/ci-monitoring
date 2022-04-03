@@ -1,5 +1,21 @@
 [
   {
+    "oid": "afe6793fb0027c906ab36f58c686e617f9ce427f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5806257825?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5806257807?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "Bump pyxir version tp v0.3.5 to avoid bad cleanup error with pyxir an\u2026"
+  },
+  {
     "oid": "daa068979a464bd96f6f48e244a8917c4b353503",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[CI] Update GPU image for PyTorch 1.11 (#10849)"
-  },
-  {
-    "oid": "95df0eb1461718d9d1453d2ba4beb9441c5cab3c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5782924945?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5782925004?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2940/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Don't use alternative linker for non-x86 API binaries (#10854)"
   }
 ]
