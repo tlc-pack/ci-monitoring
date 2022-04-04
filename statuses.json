@@ -1,5 +1,26 @@
 [
   {
+    "oid": "98580a2a0bb0de3d7f3e5b8df2c8cadc4eb05c82",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5825604982?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5825605053?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2964/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BYOC][TRT] Add DFPattern support for TRT backend (#10759)"
+  },
+  {
     "oid": "2844654d0835328123a5d50822640ffc0f522e7d",
     "statuses": [
       {
@@ -25,7 +46,7 @@
     "statuses": [
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2962/display/redirect"
       }
     ],
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Remove timeout on HAP_compute_res_acquire (#10713)"
-  },
-  {
-    "oid": "fac161eb63db3f761e909868119932541d4e6140",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5794235381?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5794235446?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2948/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Pattern] add optional pattern to C++ syntatic sugar (#10872)"
   }
 ]
