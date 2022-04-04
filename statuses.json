@@ -1,5 +1,26 @@
 [
   {
+    "oid": "c2744704bec3cc914fa96dc4f4c9b0ccfaa8ace4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5821329405?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5821329319?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2961/display/redirect"
+      }
+    ],
+    "messageHeadline": "Update Docker image with tag 20220404-055909-fcdf4636d (#10889)"
+  },
+  {
     "oid": "fcdf4636d866fefbf3e2a55daa614565ce97203a",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Pass] Fix printer formatting for PassInfo (#10844)"
-  },
-  {
-    "oid": "f745f06f041c333fbe55c8d999611a82ebf2717f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5791427425?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5791427324?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2945/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMC] tune: Use proper caps for AutoTVM and AutoScheduler (#10864)"
   }
 ]
