@@ -1,5 +1,26 @@
 [
   {
+    "oid": "2844654d0835328123a5d50822640ffc0f522e7d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5823252378?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5823252225?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2963/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Select qaic executable based on Ubuntu version (#10891)"
+  },
+  {
     "oid": "7803fe6e79e8f8c388f2a37b143e200f0dee07da",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[Pattern] add optional pattern to C++ syntatic sugar (#10872)"
-  },
-  {
-    "oid": "d2a40fd4a985f25b480c6efdd660dc8bd64d0389",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5793252880?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5793252733?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2947/display/redirect"
-      }
-    ],
-    "messageHeadline": "[AOT] Re-enable AOT output name test on AArch64 (#10868)"
   }
 ]
