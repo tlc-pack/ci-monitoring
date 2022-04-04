@@ -1,5 +1,68 @@
 [
   {
+    "oid": "fcdf4636d866fefbf3e2a55daa614565ce97203a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5809455701?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5809455739?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2960/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix Arduino workspace alignment (#10886)"
+  },
+  {
+    "oid": "d91fdbb0abd6cf6776303bbb1f1de41fe530ab15",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5809445804?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5809445851?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2959/display/redirect"
+      }
+    ],
+    "messageHeadline": "[runtime-hexagon-rpc] more Hexagon/Android logging (#10767)"
+  },
+  {
+    "oid": "6d8cb6072b79801f8547474236323e05dbd3aed9",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5809122485?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5809122533?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2958/display/redirect"
+      }
+    ],
+    "messageHeadline": "Optimize the implmentation of scale (#10884)"
+  },
+  {
     "oid": "966d018da8c553e1870433f4cdedfbc03bfaa39b",
     "statuses": [
       {
@@ -14,7 +77,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2957/display/redirect"
       }
     ],
@@ -250,68 +313,5 @@
       }
     ],
     "messageHeadline": "[TVMC] tune: Use proper caps for AutoTVM and AutoScheduler (#10864)"
-  },
-  {
-    "oid": "9a34ca81f472b5bdc33de64c08ddfc7602f5299d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5791417021?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5791417105?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2944/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix typo in comment about kill() (#10863)"
-  },
-  {
-    "oid": "21ce29f739689be52659a120d9f0fa290ed14f0e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5791395261?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5791395370?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2943/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Support both 1-d and 2-d VTCM allocations (#10846)"
-  },
-  {
-    "oid": "93b255cb63514dc6e59560b44fb0a9a979bd8aac",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5791305145?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5791305219?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2942/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Metaschedule] Add test case for multi-anchor subgraph (#10856)"
   }
 ]
