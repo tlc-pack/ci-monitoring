@@ -1,5 +1,26 @@
 [
   {
+    "oid": "64dd05b0c0a73b8b395602821641a02af9d92e2b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5836599541?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5836599704?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2971/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Flatten after allocates have been removed in HoistAllocate\u2026"
+  },
+  {
     "oid": "e9b3ea5983af6f3a81ca8e81fe97795a7bc7ae24",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[PTX] `ldmatrix` builtin to accelerate copying data from shared memor\u2026"
-  },
-  {
-    "oid": "afe6793fb0027c906ab36f58c686e617f9ce427f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5806257825?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5806257807?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2955/display/redirect"
-      }
-    ],
-    "messageHeadline": "Bump pyxir version tp v0.3.5 to avoid bad cleanup error with pyxir an\u2026"
   }
 ]
