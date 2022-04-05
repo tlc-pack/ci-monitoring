@@ -1,15 +1,57 @@
 [
   {
-    "oid": "98580a2a0bb0de3d7f3e5b8df2c8cadc4eb05c82",
+    "oid": "7f52cc4c0ede856109ea835032b55876164ddcea",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/5825604982?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/5826744392?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5826744419?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2966/display/redirect"
+      }
+    ],
+    "messageHeadline": "Handle uint8 in ConstantNode visitor in LowerToTECompute (#10894)"
+  },
+  {
+    "oid": "4b3b86c2c33c3c56c49afec4452a05ffbbfdc9da",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5826632072?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5826632124?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2965/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix submodule URLs. (#10888)"
+  },
+  {
+    "oid": "98580a2a0bb0de3d7f3e5b8df2c8cadc4eb05c82",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5825604982?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5825605053?check_suite_focus=true"
       },
       {
@@ -261,47 +303,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Updated incomplete docstring (#10879)"
-  },
-  {
-    "oid": "56e376093f1a3b8d1ba7dc81d45cab84e31c7465",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5794664704?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5794664788?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2950/display/redirect"
-      }
-    ],
-    "messageHeadline": "Don't use alternative linker for static libraries (#10870)"
-  },
-  {
-    "oid": "c663aba730b9f04072ed330958d7e8e4621250e5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5794563856?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5794563813?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2949/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Remove timeout on HAP_compute_res_acquire (#10713)"
   }
 ]
