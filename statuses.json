@@ -1,5 +1,26 @@
 [
   {
+    "oid": "a6e620937b269f68c410695c0688243a10dc5812",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5826892296?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5826892259?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2967/display/redirect"
+      }
+    ],
+    "messageHeadline": "[RUNTIME] Api to get number of runtime threads (#10896)"
+  },
+  {
     "oid": "7f52cc4c0ede856109ea835032b55876164ddcea",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule][BugFix] Fix broken integration tests (#10885)"
-  },
-  {
-    "oid": "be90825fd2017ac8cc4d6e5bce9f85252aebdb06",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5800015427?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5800015448?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2951/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Updated incomplete docstring (#10879)"
   }
 ]
