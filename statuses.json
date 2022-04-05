@@ -1,5 +1,21 @@
 [
   {
+    "oid": "41cfd3d92d1ccd397b76ac45075ccddcf7da6628",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5828554864?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5828554766?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[TIR] Fix int32 vs int64 mismatch in For construct. (#10595)"
+  },
+  {
     "oid": "ceed33160698db3abdbefd3e4132c5c27a77e99b",
     "statuses": [
       {
@@ -56,7 +72,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2966/display/redirect"
       }
     ],
@@ -282,26 +298,5 @@
       }
     ],
     "messageHeadline": "Fix a small timer bug. (#10875)"
-  },
-  {
-    "oid": "264ee08aef985eddebc633bae356f3931060b6d9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5800936974?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5800937018?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2953/display/redirect"
-      }
-    ],
-    "messageHeadline": "[BugFix][MetaSchedule] Fuse only serial loops in rewrite-unbound-bloc\u2026"
   }
 ]
