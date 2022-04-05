@@ -1,5 +1,26 @@
 [
   {
+    "oid": "138fafffdb9e136d74dc0068102e22f27169d4eb",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5840986306?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5840986205?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2976/display/redirect"
+      }
+    ],
+    "messageHeadline": "Handle float16 in ConstantNode visitor in LowerToTECompute (#10902)"
+  },
+  {
     "oid": "6dada8025bcb641a44acf2899c08b1ca0100c10c",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[skip ci][ci] Fix black version (#10893)"
-  },
-  {
-    "oid": "c2744704bec3cc914fa96dc4f4c9b0ccfaa8ace4",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5821329405?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5821329319?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2961/display/redirect"
-      }
-    ],
-    "messageHeadline": "Update Docker image with tag 20220404-055909-fcdf4636d (#10889)"
   }
 ]
