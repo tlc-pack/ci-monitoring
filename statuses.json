@@ -1,5 +1,26 @@
 [
   {
+    "oid": "8f664f50fce151d5dbd1f6361f1b73812cf6f922",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5841927260?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5841927190?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2978/display/redirect"
+      }
+    ],
+    "messageHeadline": "[QNN] Fix qnn.dequantize scale and zp shape (#10880)"
+  },
+  {
     "oid": "c91e356a5deaf3388a751d9b9d9fbaf863d18279",
     "statuses": [
       {
@@ -30,7 +51,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5840986205?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[BYOC][TRT] Add DFPattern support for TRT backend (#10759)"
-  },
-  {
-    "oid": "2844654d0835328123a5d50822640ffc0f522e7d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5823252378?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5823252225?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2963/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Select qaic executable based on Ubuntu version (#10891)"
   }
 ]
