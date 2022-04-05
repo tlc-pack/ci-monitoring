@@ -1,10 +1,31 @@
 [
   {
-    "oid": "64dd05b0c0a73b8b395602821641a02af9d92e2b",
+    "oid": "5ec061f9766d40c9ef27662b48485b80075142a3",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5837732590?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5837732727?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2972/display/redirect"
+      }
+    ],
+    "messageHeadline": "[QNN] Add per-channel quantization to add/subtract/multiply (#10718)"
+  },
+  {
+    "oid": "64dd05b0c0a73b8b395602821641a02af9d92e2b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5836599541?check_suite_focus=true"
       },
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "Optimize the implmentation of scale (#10884)"
-  },
-  {
-    "oid": "966d018da8c553e1870433f4cdedfbc03bfaa39b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5807036576?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5807036626?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2957/display/redirect"
-      }
-    ],
-    "messageHeadline": "[PTX] `ldmatrix` builtin to accelerate copying data from shared memor\u2026"
   }
 ]
