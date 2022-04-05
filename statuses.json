@@ -1,5 +1,26 @@
 [
   {
+    "oid": "6dada8025bcb641a44acf2899c08b1ca0100c10c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5840651745?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5840651623?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2975/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Generalized HexagonBuffer::CopyTo/CopyFrom (#10878)"
+  },
+  {
     "oid": "05caa7a186eb165a12c64db5f6d0e1968fd69862",
     "statuses": [
       {
@@ -25,12 +46,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5839477793?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5839477658?check_suite_focus=true"
       },
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "Update Docker image with tag 20220404-055909-fcdf4636d (#10889)"
-  },
-  {
-    "oid": "fcdf4636d866fefbf3e2a55daa614565ce97203a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5809455701?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5809455739?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2960/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix Arduino workspace alignment (#10886)"
   }
 ]
