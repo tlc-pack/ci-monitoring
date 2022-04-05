@@ -1,5 +1,21 @@
 [
   {
+    "oid": "ceed33160698db3abdbefd3e4132c5c27a77e99b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5827522430?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5827522468?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[LLVM] Support CodeGenBlob for large >2GB models on x86 (#10882)"
+  },
+  {
     "oid": "a6e620937b269f68c410695c0688243a10dc5812",
     "statuses": [
       {
@@ -9,7 +25,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5826892259?check_suite_focus=true"
       },
       {
@@ -77,7 +93,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2964/display/redirect"
       }
     ],
@@ -282,26 +298,5 @@
       }
     ],
     "messageHeadline": "[BugFix][MetaSchedule] Fuse only serial loops in rewrite-unbound-bloc\u2026"
-  },
-  {
-    "oid": "6f0017a9bfe11a1bc630b2b5e0aec816314565e7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5800021586?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5800021661?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2952/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule][BugFix] Fix broken integration tests (#10885)"
   }
 ]
