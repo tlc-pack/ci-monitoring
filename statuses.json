@@ -1,5 +1,26 @@
 [
   {
+    "oid": "c91e356a5deaf3388a751d9b9d9fbaf863d18279",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5841172450?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5841172604?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2977/display/redirect"
+      }
+    ],
+    "messageHeadline": "Add python installation script for Ubuntu 20.04 (#10841)"
+  },
+  {
     "oid": "138fafffdb9e136d74dc0068102e22f27169d4eb",
     "statuses": [
       {
@@ -292,16 +313,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Select qaic executable based on Ubuntu version (#10891)"
-  },
-  {
-    "oid": "7803fe6e79e8f8c388f2a37b143e200f0dee07da",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2962/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci][ci] Fix black version (#10893)"
   }
 ]
