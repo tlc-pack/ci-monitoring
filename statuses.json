@@ -1,5 +1,26 @@
 [
   {
+    "oid": "3266ab1b4aec91c67bc158657134a7cefa528a1e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5842015350?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5842015499?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2979/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Add utility API to ease using manual schedules  (#10876)"
+  },
+  {
     "oid": "8f664f50fce151d5dbd1f6361f1b73812cf6f922",
     "statuses": [
       {
@@ -46,7 +67,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5840986306?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Fix submodule URLs. (#10888)"
-  },
-  {
-    "oid": "98580a2a0bb0de3d7f3e5b8df2c8cadc4eb05c82",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5825604982?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5825605053?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2964/display/redirect"
-      }
-    ],
-    "messageHeadline": "[BYOC][TRT] Add DFPattern support for TRT backend (#10759)"
   }
 ]
