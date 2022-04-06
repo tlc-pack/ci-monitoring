@@ -1,5 +1,26 @@
 [
   {
+    "oid": "fc736ed6dcc1108b411af16e6dfae68b2ef7f96a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5851653026?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5851653223?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2986/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Improved handling of 5d reshapes (#10860)"
+  },
+  {
     "oid": "d7d8fdbc9c8be5a7b94850b6227e3c164a6cb12d",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[QNN] Add per-channel quantization to add/subtract/multiply (#10718)"
-  },
-  {
-    "oid": "64dd05b0c0a73b8b395602821641a02af9d92e2b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5836599541?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5836599704?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2971/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Flatten after allocates have been removed in HoistAllocate\u2026"
   }
 ]
