@@ -1,5 +1,16 @@
 [
   {
+    "oid": "de4d35c2291b2b1e696cd14989991c720847c22a",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2992/display/redirect"
+      }
+    ],
+    "messageHeadline": "[skip ci][ci] Remove inplace flag from black script (#10918)"
+  },
+  {
     "oid": "e09e9398e7e6c964326c298681afd9e1cfc39e82",
     "statuses": [
       {
@@ -9,7 +20,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5856004817?check_suite_focus=true"
       },
       {
@@ -46,7 +57,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5855882105?check_suite_focus=true"
       },
       {
@@ -292,26 +303,5 @@
       }
     ],
     "messageHeadline": "[QNN] Fix qnn.dequantize scale and zp shape (#10880)"
-  },
-  {
-    "oid": "c91e356a5deaf3388a751d9b9d9fbaf863d18279",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5841172450?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5841172604?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2977/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add python installation script for Ubuntu 20.04 (#10841)"
   }
 ]
