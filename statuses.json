@@ -1,5 +1,26 @@
 [
   {
+    "oid": "60c766f96a9e7a04a039661a22a87f502d737127",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5848791448?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5848791307?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2984/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Look for any tags in issues before adding new tags (#10685)"
+  },
+  {
     "oid": "96f701fd668baa58e2bc09b60c7fa376578c8dac",
     "statuses": [
       {
@@ -9,7 +30,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5847438325?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[TIR] Fix check for multiple axis separators (#10845)"
-  },
-  {
-    "oid": "41cfd3d92d1ccd397b76ac45075ccddcf7da6628",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5828554864?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5828554766?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2969/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Fix int32 vs int64 mismatch in For construct. (#10595)"
   }
 ]
