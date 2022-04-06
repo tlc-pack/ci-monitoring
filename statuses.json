@@ -1,5 +1,26 @@
 [
   {
+    "oid": "bad24dd16a5abee57a5f9b4af321f232abb8d5f9",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5857567212?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5857567294?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2993/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon][LLVM][CodeGen] Make CodeGenHexagon a subclass of CodeGenCPU\u2026"
+  },
+  {
     "oid": "de4d35c2291b2b1e696cd14989991c720847c22a",
     "statuses": [
       {
@@ -109,7 +130,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2987/display/redirect"
       }
     ],
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Add utility API to ease using manual schedules  (#10876)"
-  },
-  {
-    "oid": "8f664f50fce151d5dbd1f6361f1b73812cf6f922",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5841927260?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5841927190?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2978/display/redirect"
-      }
-    ],
-    "messageHeadline": "[QNN] Fix qnn.dequantize scale and zp shape (#10880)"
   }
 ]
