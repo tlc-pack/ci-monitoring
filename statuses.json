@@ -1,5 +1,68 @@
 [
   {
+    "oid": "e09e9398e7e6c964326c298681afd9e1cfc39e82",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5856004609?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5856004817?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2991/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Add a tag to generated Jenkinsfile (#10825)"
+  },
+  {
+    "oid": "6cbb0f67181f233dbf06ff4f1b25c0cf9ae4c679",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5855977837?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5855977968?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2990/display/redirect"
+      }
+    ],
+    "messageHeadline": "[build] Update libinfo and add lint rule (#10774)"
+  },
+  {
+    "oid": "8e438683a4a815ae2d5b528360ae0f111501b607",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5855882105?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5855882344?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2989/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Roll out teams-tagging to everyone (#10739)"
+  },
+  {
     "oid": "9bd19bb9ac5df7eb046afa9ecd3b6b263c5b0a23",
     "statuses": [
       {
@@ -30,7 +93,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5854222370?check_suite_focus=true"
       },
       {
@@ -250,68 +313,5 @@
       }
     ],
     "messageHeadline": "Add python installation script for Ubuntu 20.04 (#10841)"
-  },
-  {
-    "oid": "138fafffdb9e136d74dc0068102e22f27169d4eb",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5840986306?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5840986205?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2976/display/redirect"
-      }
-    ],
-    "messageHeadline": "Handle float16 in ConstantNode visitor in LowerToTECompute (#10902)"
-  },
-  {
-    "oid": "6dada8025bcb641a44acf2899c08b1ca0100c10c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5840651745?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5840651623?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2975/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Generalized HexagonBuffer::CopyTo/CopyFrom (#10878)"
-  },
-  {
-    "oid": "05caa7a186eb165a12c64db5f6d0e1968fd69862",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5840223274?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5840223187?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2974/display/redirect"
-      }
-    ],
-    "messageHeadline": "Update rpc_module.cc (#10881)"
   }
 ]
