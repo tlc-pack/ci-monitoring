@@ -1,5 +1,16 @@
 [
   {
+    "oid": "5ca528c84764653d7288e146e8e2b09309167fd8",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2994/display/redirect"
+      }
+    ],
+    "messageHeadline": "[skip ci][ci] Fix stale test in teams tagging (#10920)"
+  },
+  {
     "oid": "bad24dd16a5abee57a5f9b4af321f232abb8d5f9",
     "statuses": [
       {
@@ -88,7 +99,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2989/display/redirect"
       }
     ],
@@ -109,7 +120,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2988/display/redirect"
       }
     ],
@@ -282,26 +293,5 @@
       }
     ],
     "messageHeadline": "Install gdb by default, sort packages (#10913)"
-  },
-  {
-    "oid": "3266ab1b4aec91c67bc158657134a7cefa528a1e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5842015350?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5842015499?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2979/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Add utility API to ease using manual schedules  (#10876)"
   }
 ]
