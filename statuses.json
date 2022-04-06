@@ -1,5 +1,26 @@
 [
   {
+    "oid": "27c59109c4bc83b9e1e883e7ee510d6d9b95d816",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5859727753?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5859727826?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2995/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Refactor to keep HexagonBuffer private to the device api (#\u2026"
+  },
+  {
     "oid": "5ca528c84764653d7288e146e8e2b09309167fd8",
     "statuses": [
       {
@@ -25,7 +46,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2993/display/redirect"
       }
     ],
@@ -272,26 +293,5 @@
       }
     ],
     "messageHeadline": "[COMMUNITY] new committer -- gromero (#10911)"
-  },
-  {
-    "oid": "62bcecc039e1a80405282cb5e1678583e83f9b47",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5844345399?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5844345355?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2980/display/redirect"
-      }
-    ],
-    "messageHeadline": "Install gdb by default, sort packages (#10913)"
   }
 ]
