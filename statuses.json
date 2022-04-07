@@ -1,5 +1,26 @@
 [
   {
+    "oid": "5f1f8f34212b462610881c030bacb0e6ba5802ec",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5876099893?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5876099968?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3004/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule][Refactor] Clarify Integration Logic (#10927)"
+  },
+  {
     "oid": "05bb482526a1d534ce7d7910412736bbb62a36f2",
     "statuses": [
       {
@@ -11,6 +32,11 @@
         "name": "CI / Windows",
         "status": "PENDING",
         "url": "https://github.com/apache/tvm/runs/5875948555?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3003/display/redirect"
       }
     ],
     "messageHeadline": "[microNPU] Set output tolerance of codegen and network tests to 0 (#1\u2026"
@@ -267,26 +293,5 @@
       }
     ],
     "messageHeadline": "[build] Update libinfo and add lint rule (#10774)"
-  },
-  {
-    "oid": "8e438683a4a815ae2d5b528360ae0f111501b607",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5855882105?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5855882344?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2989/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Roll out teams-tagging to everyone (#10739)"
   }
 ]
