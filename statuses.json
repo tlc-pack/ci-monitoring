@@ -1,5 +1,26 @@
 [
   {
+    "oid": "46675996e5c008921562d2278c0c3ec6504a28bb",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5877371821?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5877371864?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3006/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Register basic strategies and schedules for common operator\u2026"
+  },
+  {
     "oid": "c092700d27d6999afa16af8c1493050b72ba3b6f",
     "statuses": [
       {
@@ -272,26 +293,5 @@
       }
     ],
     "messageHeadline": "[skip ci][ci] Remove inplace flag from black script (#10918)"
-  },
-  {
-    "oid": "e09e9398e7e6c964326c298681afd9e1cfc39e82",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5856004609?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5856004817?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2991/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Add a tag to generated Jenkinsfile (#10825)"
   }
 ]
