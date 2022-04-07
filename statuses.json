@@ -1,5 +1,26 @@
 [
   {
+    "oid": "aff4e96f88c5191bd774d3222b65b3c9592e3fe1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5871018137?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5871017975?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2999/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CMSIS-NN] Re-enabled skipped tests (#10928)"
+  },
+  {
     "oid": "6b4d351e9b3b2a4f814de35415071faf3d19715e",
     "statuses": [
       {
@@ -272,26 +293,5 @@
       }
     ],
     "messageHeadline": "[CMSIS-NN] Aligned scale computation with TFLM to fix numerical misma\u2026"
-  },
-  {
-    "oid": "60c766f96a9e7a04a039661a22a87f502d737127",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5848791448?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5848791307?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2984/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Look for any tags in issues before adding new tags (#10685)"
   }
 ]
