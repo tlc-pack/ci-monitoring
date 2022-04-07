@@ -1,5 +1,26 @@
 [
   {
+    "oid": "af8569c9137b379c14592a5a32035a815b38dbf9",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5864006447?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5864006356?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2997/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Updated argument parsing of optional arguments in ci.py (#10906)"
+  },
+  {
     "oid": "534205baba2a3e71bc0613824e62cb625677f3e0",
     "statuses": [
       {
@@ -272,26 +293,5 @@
       }
     ],
     "messageHeadline": "[ci] Don't diff Python files when checking formatting (#10895)"
-  },
-  {
-    "oid": "bf9308a8d658357ba0307ed81c1fb10b3c5268d1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5844367463?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5844367411?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2982/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ONNX] Add imports for Gelu, BiasGelu (#10898)"
   }
 ]
