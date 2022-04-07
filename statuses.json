@@ -1,5 +1,26 @@
 [
   {
+    "oid": "00c830ece0feb9455fe0045b85ed01d6d363a495",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5874358806?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5874358930?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3001/display/redirect"
+      }
+    ],
+    "messageHeadline": "relax reorder primitive's  affineness check (#10887)"
+  },
+  {
     "oid": "c7c76d1940a4688f76307958e7ed9f4418e2d593",
     "statuses": [
       {
@@ -272,26 +293,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Use single allocation to back 2-d arrays (#10903)"
-  },
-  {
-    "oid": "fc736ed6dcc1108b411af16e6dfae68b2ef7f96a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5851653026?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5851653223?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2986/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ETHOSN] Improved handling of 5d reshapes (#10860)"
   }
 ]
