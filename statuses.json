@@ -1,5 +1,26 @@
 [
   {
+    "oid": "c092700d27d6999afa16af8c1493050b72ba3b6f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5876908764?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5876908843?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3005/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Add unit tests executing 2-d VTCM usage (#10904)"
+  },
+  {
     "oid": "5f1f8f34212b462610881c030bacb0e6ba5802ec",
     "statuses": [
       {
@@ -25,7 +46,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5875948432?check_suite_focus=true"
       },
       {
@@ -46,12 +67,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5875853874?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5875854005?check_suite_focus=true"
       },
       {
@@ -272,26 +293,5 @@
       }
     ],
     "messageHeadline": "[ci] Add a tag to generated Jenkinsfile (#10825)"
-  },
-  {
-    "oid": "6cbb0f67181f233dbf06ff4f1b25c0cf9ae4c679",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5855977837?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5855977968?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2990/display/redirect"
-      }
-    ],
-    "messageHeadline": "[build] Update libinfo and add lint rule (#10774)"
   }
 ]
