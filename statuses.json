@@ -1,5 +1,26 @@
 [
   {
+    "oid": "534205baba2a3e71bc0613824e62cb625677f3e0",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5861536586?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5861536638?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2996/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Check dynamic shared memory in VerifyGPUCode (#10923)"
+  },
+  {
     "oid": "27c59109c4bc83b9e1e883e7ee510d6d9b95d816",
     "statuses": [
       {
@@ -14,7 +35,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/2995/display/redirect"
       }
     ],
@@ -272,26 +293,5 @@
       }
     ],
     "messageHeadline": "[ONNX] Add imports for Gelu, BiasGelu (#10898)"
-  },
-  {
-    "oid": "b714f17f27eaf7255116e846a8173f96cefb9849",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5844348782?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5844348871?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2981/display/redirect"
-      }
-    ],
-    "messageHeadline": "[COMMUNITY] new committer -- gromero (#10911)"
   }
 ]
