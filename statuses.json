@@ -1,5 +1,21 @@
 [
   {
+    "oid": "81d72e3d631710ef318c70e93c76b742154f5d3f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5890591557?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5890591476?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[CUDNN] Add cuDNN as a Relay partitioning target (BYOC) (#10871)"
+  },
+  {
     "oid": "0c17f07aa7dcfb54abffade0212400f56f913f55",
     "statuses": [
       {
@@ -287,26 +303,5 @@
       }
     ],
     "messageHeadline": "[ci] Add sccache to remaining Docker images (#10751)"
-  },
-  {
-    "oid": "aff4e96f88c5191bd774d3222b65b3c9592e3fe1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5871018137?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5871017975?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2999/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CMSIS-NN] Re-enabled skipped tests (#10928)"
   }
 ]
