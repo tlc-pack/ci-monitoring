@@ -1,5 +1,26 @@
 [
   {
+    "oid": "bf7a27b9bfada8cfebee0981fed39baf99c1c3a4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5891068909?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5891069027?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3014/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Cleanup, remove obsolete comment (#10931)"
+  },
+  {
     "oid": "81d72e3d631710ef318c70e93c76b742154f5d3f",
     "statuses": [
       {
@@ -287,26 +308,5 @@
       }
     ],
     "messageHeadline": "relax reorder primitive's  affineness check (#10887)"
-  },
-  {
-    "oid": "c7c76d1940a4688f76307958e7ed9f4418e2d593",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5871755786?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5871756008?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3000/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Add sccache to remaining Docker images (#10751)"
   }
 ]
