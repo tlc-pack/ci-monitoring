@@ -1,5 +1,26 @@
 [
   {
+    "oid": "1ae2a2784236024625c7567b4e17037451c51f17",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5882531783?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5882531894?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3010/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Run frontend tests for aarch64 in CI (#10869)"
+  },
+  {
     "oid": "24e2586da262978e1f9317d2f813f67abfa4ed06",
     "statuses": [
       {
@@ -287,26 +308,5 @@
       }
     ],
     "messageHeadline": "[CI] Updated argument parsing of optional arguments in ci.py (#10906)"
-  },
-  {
-    "oid": "534205baba2a3e71bc0613824e62cb625677f3e0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5861536586?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5861536638?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2996/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Check dynamic shared memory in VerifyGPUCode (#10923)"
   }
 ]
