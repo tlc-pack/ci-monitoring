@@ -1,5 +1,42 @@
 [
   {
+    "oid": "24e2586da262978e1f9317d2f813f67abfa4ed06",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5879993825?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5879993887?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3009/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule][Minor] Fix Integer Overflow in Tuning Statistics (#10935)"
+  },
+  {
+    "oid": "8ca9b896f7eb8ad485a0ef2388bf35d1eedaea89",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5879992561?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5879992513?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[QNN] Fix per-channel broadcast with invalid axes (#10936)"
+  },
+  {
     "oid": "fc0473885f34d817715f3a271e5439bf7cfc6cc2",
     "statuses": [
       {
@@ -271,37 +308,5 @@
       }
     ],
     "messageHeadline": "[TIR] Check dynamic shared memory in VerifyGPUCode (#10923)"
-  },
-  {
-    "oid": "27c59109c4bc83b9e1e883e7ee510d6d9b95d816",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5859727753?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5859727826?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2995/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Refactor to keep HexagonBuffer private to the device api (#\u2026"
-  },
-  {
-    "oid": "5ca528c84764653d7288e146e8e2b09309167fd8",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2994/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci][ci] Fix stale test in teams tagging (#10920)"
   }
 ]
