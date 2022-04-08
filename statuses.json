@@ -1,15 +1,36 @@
 [
   {
-    "oid": "19784c8c835a3ecefe8101299e8e33b56f0f09fe",
+    "oid": "fc0473885f34d817715f3a271e5439bf7cfc6cc2",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/5877635331?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/5878474271?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5878474212?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3008/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] VNNI and ARM dot product intrinsic for tensorization (#10925)"
+  },
+  {
+    "oid": "19784c8c835a3ecefe8101299e8e33b56f0f09fe",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5877635331?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5877635369?check_suite_focus=true"
       },
       {
@@ -25,12 +46,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5877371821?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5877371864?check_suite_focus=true"
       },
       {
@@ -77,7 +98,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3004/display/redirect"
       }
     ],
@@ -98,7 +119,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3003/display/redirect"
       }
     ],
@@ -119,7 +140,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3002/display/redirect"
       }
     ],
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[skip ci][ci] Fix stale test in teams tagging (#10920)"
-  },
-  {
-    "oid": "bad24dd16a5abee57a5f9b4af321f232abb8d5f9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5857567212?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5857567294?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/2993/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon][LLVM][CodeGen] Make CodeGenHexagon a subclass of CodeGenCPU\u2026"
   }
 ]
