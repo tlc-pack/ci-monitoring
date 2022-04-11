@@ -1,15 +1,99 @@
 [
   {
-    "oid": "872773fee23e4cfabe1aa5345ecd8530b613b338",
+    "oid": "927357a027c0cff09706a2f05b17f25fe2a0b0c1",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/5975755075?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/5977007725?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5977007623?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3021/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Install GNU parallel on lint image (#10951)"
+  },
+  {
+    "oid": "396a8c6a3a0fed25e925f358afafb2f03cd52808",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5977000092?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5976999994?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3020/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Don't diff when running clang-format  (#10933)"
+  },
+  {
+    "oid": "89061fafa5eff215156f11fccfa258a617466724",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5976947685?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5976947863?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3019/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Bump black version to 22.3.0 (#10960)"
+  },
+  {
+    "oid": "76ac68de73f5521f412fb5d279ef05fba4f3f0b9",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5976839984?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5976840126?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3018/display/redirect"
+      }
+    ],
+    "messageHeadline": "escape tvmscript's string literal (#10954)"
+  },
+  {
+    "oid": "872773fee23e4cfabe1aa5345ecd8530b613b338",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/5975755075?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/5975755284?check_suite_focus=true"
       },
       {
@@ -224,89 +308,5 @@
       }
     ],
     "messageHeadline": "[TIR] VNNI and ARM dot product intrinsic for tensorization (#10925)"
-  },
-  {
-    "oid": "19784c8c835a3ecefe8101299e8e33b56f0f09fe",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5877635331?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5877635369?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3007/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] Fixing T.buffer with typed positional arguments other tha\u2026"
-  },
-  {
-    "oid": "46675996e5c008921562d2278c0c3ec6504a28bb",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5877371821?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5877371864?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3006/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Register basic strategies and schedules for common operator\u2026"
-  },
-  {
-    "oid": "c092700d27d6999afa16af8c1493050b72ba3b6f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5876908764?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5876908843?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3005/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Add unit tests executing 2-d VTCM usage (#10904)"
-  },
-  {
-    "oid": "5f1f8f34212b462610881c030bacb0e6ba5802ec",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5876099893?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5876099968?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3004/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule][Refactor] Clarify Integration Logic (#10927)"
   }
 ]
