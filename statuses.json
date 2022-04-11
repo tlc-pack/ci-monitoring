@@ -1,5 +1,26 @@
 [
   {
+    "oid": "e65bbe2b78c0637cf896a5961fd8391c96620a16",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5977339503?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5977339334?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3022/display/redirect"
+      }
+    ],
+    "messageHeadline": "use ubuntu18 in docker android demo  (#10222)"
+  },
+  {
     "oid": "927357a027c0cff09706a2f05b17f25fe2a0b0c1",
     "statuses": [
       {
@@ -287,26 +308,5 @@
       }
     ],
     "messageHeadline": "[QNN] Fix per-channel broadcast with invalid axes (#10936)"
-  },
-  {
-    "oid": "fc0473885f34d817715f3a271e5439bf7cfc6cc2",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5878474271?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5878474212?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3008/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] VNNI and ARM dot product intrinsic for tensorization (#10925)"
   }
 ]
