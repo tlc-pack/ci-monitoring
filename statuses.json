@@ -1,5 +1,21 @@
 [
   {
+    "oid": "aa56286924d0c24dab3c1c65750c41392c58aeb3",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5981645318?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5981645410?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[Hot Fix][Jenkinsfile]Fix Hexagon Parameter (#10966)"
+  },
+  {
     "oid": "7e5db1b35f4f29a757db7667747460a7e06a19d8",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[CI][Docker]Update Hexagon docker image to Ubuntu 20.04 (#10932)"
-  },
-  {
-    "oid": "1ae2a2784236024625c7567b4e17037451c51f17",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5882531783?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5882531894?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3010/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Run frontend tests for aarch64 in CI (#10869)"
   }
 ]
