@@ -1,5 +1,26 @@
 [
   {
+    "oid": "45f3d4a521ec476cd9960e3d2de4f66bde61bf23",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5965563684?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5965563729?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3016/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BYOC-DNNL] enable conv3d->bn folding (#10837)"
+  },
+  {
     "oid": "c5bd181c3d84de88e390bbce1cbcd6cc77cff310",
     "statuses": [
       {
@@ -287,26 +308,5 @@
       }
     ],
     "messageHeadline": "[microNPU] Set output tolerance of codegen and network tests to 0 (#1\u2026"
-  },
-  {
-    "oid": "e97a3ebfc40271a70bff7547c6fea64446b47769",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5875853874?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5875854005?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3002/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Fix bug in microNPU demo app (#10930)"
   }
 ]
