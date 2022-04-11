@@ -1,5 +1,26 @@
 [
   {
+    "oid": "f841b63026e6f5736326fe1fda84afb46eb69d53",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5977738819?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5977738622?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3023/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ONNX] Update onnx shape op with slice index support (#10947)"
+  },
+  {
     "oid": "e65bbe2b78c0637cf896a5961fd8391c96620a16",
     "statuses": [
       {
@@ -119,7 +140,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3017/display/redirect"
       }
     ],
@@ -292,21 +313,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule][Minor] Fix Integer Overflow in Tuning Statistics (#10935)"
-  },
-  {
-    "oid": "8ca9b896f7eb8ad485a0ef2388bf35d1eedaea89",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5879992561?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5879992513?check_suite_focus=true"
-      }
-    ],
-    "messageHeadline": "[QNN] Fix per-channel broadcast with invalid axes (#10936)"
   }
 ]
