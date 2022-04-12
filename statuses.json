@@ -1,5 +1,47 @@
 [
   {
+    "oid": "cd6aa7b2a48618454961c3c521f04eae161f726f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5991374597?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5991374425?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3030/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Move aot/graph_executor interactions into launcher (#10907)"
+  },
+  {
+    "oid": "03bbf145116f0a3805ded0ddb873f8517220871a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5991359089?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5991359420?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3029/display/redirect"
+      }
+    ],
+    "messageHeadline": "[HEXAGON] Split huge 1D DMA Transfers into smaller transfers with leg\u2026"
+  },
+  {
     "oid": "cbe602df112001bfb1a3d131e85c1829212567ac",
     "statuses": [
       {
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "[BYOC-DNNL] enable conv3d->bn folding (#10837)"
-  },
-  {
-    "oid": "c5bd181c3d84de88e390bbce1cbcd6cc77cff310",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5951922948?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5951922983?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3015/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FQ2I] Add abs to FQ2I (#10922)"
-  },
-  {
-    "oid": "bf7a27b9bfada8cfebee0981fed39baf99c1c3a4",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5891068909?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5891069027?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3014/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Cleanup, remove obsolete comment (#10931)"
   }
 ]
