@@ -1,5 +1,21 @@
 [
   {
+    "oid": "cbe602df112001bfb1a3d131e85c1829212567ac",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5991059986?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5991060198?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[CI][DOCKER] Add pytest-lazy-fixture to images (#10970)"
+  },
+  {
     "oid": "a508cba77fae76d980683d71ab698c088f5ea2b1",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Cleanup, remove obsolete comment (#10931)"
-  },
-  {
-    "oid": "81d72e3d631710ef318c70e93c76b742154f5d3f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5890591557?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5890591476?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3013/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CUDNN] Add cuDNN as a Relay partitioning target (BYOC) (#10871)"
   }
 ]
