@@ -1,5 +1,21 @@
 [
   {
+    "oid": "856b5c649ab98c9d296b5a76126cc2ce25c5ae46",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5996564125?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5996564040?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "remove exception handling of autotvm xgboost extract functions (#10948)"
+  },
+  {
     "oid": "98fc6495bbf9f6d1ae68ed2a495e87c4b469fd67",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[CI] Bump black version to 22.3.0 (#10960)"
-  },
-  {
-    "oid": "76ac68de73f5521f412fb5d279ef05fba4f3f0b9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5976839984?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5976840126?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3018/display/redirect"
-      }
-    ],
-    "messageHeadline": "escape tvmscript's string literal (#10954)"
   }
 ]
