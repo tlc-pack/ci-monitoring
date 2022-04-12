@@ -1,5 +1,26 @@
 [
   {
+    "oid": "7ae791049b6bdaa4152df3b3d9850887a535f745",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5987498092?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5987498211?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3026/display/redirect"
+      }
+    ],
+    "messageHeadline": "Update CONTRIBUTORS.md (#10972)"
+  },
+  {
     "oid": "aa56286924d0c24dab3c1c65750c41392c58aeb3",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[ci] Remove hardcoded test shards (#10743)"
-  },
-  {
-    "oid": "4c171efbc83afcddaaa9376d42b0129505b76942",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5885865849?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5885865733?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3011/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI][Docker]Update Hexagon docker image to Ubuntu 20.04 (#10932)"
   }
 ]
