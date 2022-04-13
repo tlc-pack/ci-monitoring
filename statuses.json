@@ -1,5 +1,47 @@
 [
   {
+    "oid": "ef163a5791fb510a1b9b8aa74015d6e8110f129c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6009062236?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6009062476?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3042/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Remove HexagonBuffer external constructor and support (#10978)"
+  },
+  {
+    "oid": "01e0e2d0e1169c1844f21cd49d5568015a4002f4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6009018354?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6009018556?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3041/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Update GPU image (#10992)"
+  },
+  {
     "oid": "b542724873140bb051492530d97a78b9b7b7983d",
     "statuses": [
       {
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "[CI][DOCKER] Add pytest-lazy-fixture to images (#10970)"
-  },
-  {
-    "oid": "a508cba77fae76d980683d71ab698c088f5ea2b1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5988579987?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5988580238?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3027/display/redirect"
-      }
-    ],
-    "messageHeadline": "Switch to CPU PyTorch (#10914)"
-  },
-  {
-    "oid": "7ae791049b6bdaa4152df3b3d9850887a535f745",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5987498092?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5987498211?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3026/display/redirect"
-      }
-    ],
-    "messageHeadline": "Update CONTRIBUTORS.md (#10972)"
   }
 ]
