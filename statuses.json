@@ -1,5 +1,26 @@
 [
   {
+    "oid": "ce8f83e3c5c5bb7a021d675283e84ac319f19162",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6014376422?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6014376533?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3047/display/redirect"
+      }
+    ],
+    "messageHeadline": "[hexagon] 'add_hvx' test to explore HVX usage. (#10604)"
+  },
+  {
     "oid": "1bfb9cac93b9a1e42f59d76aa2eaa69235104590",
     "statuses": [
       {
@@ -14,7 +35,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3046/display/redirect"
       }
     ],
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "remove exception handling of autotvm xgboost extract functions (#10948)"
-  },
-  {
-    "oid": "98fc6495bbf9f6d1ae68ed2a495e87c4b469fd67",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5996316698?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5996316607?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3032/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CUDNN] Add partitioning support for conv2d and log_softmax (#10961)"
   }
 ]
