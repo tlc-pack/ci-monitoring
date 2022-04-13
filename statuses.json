@@ -1,5 +1,47 @@
 [
   {
+    "oid": "1bfb9cac93b9a1e42f59d76aa2eaa69235104590",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6012835417?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6012835535?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3046/display/redirect"
+      }
+    ],
+    "messageHeadline": "[COMMUNITY] @yzh119 -> Reviewer (#10993)"
+  },
+  {
+    "oid": "dbfab5c10d6d105253c0be17a236978c7dacb744",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6012643700?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6012643585?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3045/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Metaschedule] Make custom schedule_rule registration optional (#10975)"
+  },
+  {
     "oid": "11b8cd3ca167efeea6d96b34a988d874b038f1c9",
     "statuses": [
       {
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "[CUDNN] Add partitioning support for conv2d and log_softmax (#10961)"
-  },
-  {
-    "oid": "11d22bdc1bd45d952eb140684e64f01438b7f516",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5992918832?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5992918568?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3031/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon][LLVM] Enable/test tensorized Hexagon DMA on 2d transformed \u2026"
-  },
-  {
-    "oid": "cd6aa7b2a48618454961c3c521f04eae161f726f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5991374597?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5991374425?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3030/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Move aot/graph_executor interactions into launcher (#10907)"
   }
 ]
