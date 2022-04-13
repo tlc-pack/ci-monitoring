@@ -1,5 +1,26 @@
 [
   {
+    "oid": "e370ed459739f5312e45a2fb3a446b120f8ec5d1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6015688714?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6015688796?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3048/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Less aggressive adb state clean up (#10909)"
+  },
+  {
     "oid": "ce8f83e3c5c5bb7a021d675283e84ac319f19162",
     "statuses": [
       {
@@ -14,7 +35,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3047/display/redirect"
       }
     ],
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "change Hexagon docker version (#10981)"
-  },
-  {
-    "oid": "856b5c649ab98c9d296b5a76126cc2ce25c5ae46",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5996564125?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5996564040?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3033/display/redirect"
-      }
-    ],
-    "messageHeadline": "remove exception handling of autotvm xgboost extract functions (#10948)"
   }
 ]
