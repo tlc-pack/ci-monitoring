@@ -1,5 +1,26 @@
 [
   {
+    "oid": "61a9269d85c2966d122e1216c5c91e2d9764dc84",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6005208362?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6005208548?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3039/display/redirect"
+      }
+    ],
+    "messageHeadline": "[FIX] resolve int64/32 for AttrStmtNode (#10983)"
+  },
+  {
     "oid": "5cfb4bc3d0e39ac59b9beec22852456489974969",
     "statuses": [
       {
@@ -14,7 +35,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3038/display/redirect"
       }
     ],
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Hot Fix][Jenkinsfile]Fix Hexagon Parameter (#10966)"
-  },
-  {
-    "oid": "7e5db1b35f4f29a757db7667747460a7e06a19d8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5980794835?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5980794714?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3024/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Break out test steps for Hexagon / microTVM (#10946)"
   }
 ]
