@@ -1,5 +1,26 @@
 [
   {
+    "oid": "b542724873140bb051492530d97a78b9b7b7983d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6005448798?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6005448987?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3040/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Runtime][Vulkan] Add RGP support to TVM for vulkan device (#10953)"
+  },
+  {
     "oid": "61a9269d85c2966d122e1216c5c91e2d9764dc84",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Update CONTRIBUTORS.md (#10972)"
-  },
-  {
-    "oid": "aa56286924d0c24dab3c1c65750c41392c58aeb3",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5981645318?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5981645410?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3025/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hot Fix][Jenkinsfile]Fix Hexagon Parameter (#10966)"
   }
 ]
