@@ -1,5 +1,47 @@
 [
   {
+    "oid": "c7cca3913a79724e61d02be7cc8d0e3111936350",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5999629953?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5999629865?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3035/display/redirect"
+      }
+    ],
+    "messageHeadline": "Support `qnn.conv2d` in FoldExplicitPading (#10982)"
+  },
+  {
+    "oid": "a2d973d35067780324e958cd9001e3564d7dfbf8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5999626722?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/5999626598?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3034/display/redirect"
+      }
+    ],
+    "messageHeadline": "change Hexagon docker version (#10981)"
+  },
+  {
     "oid": "856b5c649ab98c9d296b5a76126cc2ce25c5ae46",
     "statuses": [
       {
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "[ci] Install GNU parallel on lint image (#10951)"
-  },
-  {
-    "oid": "396a8c6a3a0fed25e925f358afafb2f03cd52808",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5977000092?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5976999994?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3020/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Don't diff when running clang-format  (#10933)"
-  },
-  {
-    "oid": "89061fafa5eff215156f11fccfa258a617466724",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5976947685?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5976947863?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3019/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Bump black version to 22.3.0 (#10960)"
   }
 ]
