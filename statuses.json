@@ -1,5 +1,26 @@
 [
   {
+    "oid": "3d63b2d944d43cea42ce068def0ffd4cffa67218",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6026927251?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6026927152?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3056/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Update CI Images to include `pytest-lazy-fixture` (#10999)"
+  },
+  {
     "oid": "529da9bd5603121d0bce15e5b14ba8663c5c763b",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Remove HexagonBuffer external constructor and support (#10978)"
-  },
-  {
-    "oid": "01e0e2d0e1169c1844f21cd49d5568015a4002f4",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6009018354?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6009018556?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3041/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Update GPU image (#10992)"
   }
 ]
