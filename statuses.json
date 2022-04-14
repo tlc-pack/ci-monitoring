@@ -1,5 +1,26 @@
 [
   {
+    "oid": "324bf4cac51139b4d90ea0c9388bf51fc26b9b0f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6022932739?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6022932842?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3053/display/redirect"
+      }
+    ],
+    "messageHeadline": "Add driazati to triagers. (#11004)"
+  },
+  {
     "oid": "1cf0c0a5bfa6b0c61ce253142b66f6235d694e07",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[FIX] resolve int64/32 for AttrStmtNode (#10983)"
-  },
-  {
-    "oid": "5cfb4bc3d0e39ac59b9beec22852456489974969",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6003499384?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6003499489?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3038/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMC] Allow output module name to be passed as a command line argume\u2026"
   }
 ]
