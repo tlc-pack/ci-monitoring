@@ -1,5 +1,21 @@
 [
   {
+    "oid": "a34731b7fcdd41f381e94b53f2279b97b75f7bbd",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6028004720?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6028004815?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[ROCM] DP4A intrinsic support for TE/TIR (#11009)"
+  },
+  {
     "oid": "3d63b2d944d43cea42ce068def0ffd4cffa67218",
     "statuses": [
       {
@@ -25,12 +41,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6026669837?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6026669969?check_suite_focus=true"
       },
       {
@@ -46,12 +62,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6026657598?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6026657784?check_suite_focus=true"
       },
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "sort axes (#10985)"
-  },
-  {
-    "oid": "ef163a5791fb510a1b9b8aa74015d6e8110f129c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6009062236?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6009062476?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3042/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Remove HexagonBuffer external constructor and support (#10978)"
   }
 ]
