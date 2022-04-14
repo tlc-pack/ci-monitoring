@@ -1,5 +1,42 @@
 [
   {
+    "oid": "1cf0c0a5bfa6b0c61ce253142b66f6235d694e07",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6021138896?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6021138812?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[CUDNN] Add partitioning support for fused conv2d+bias+act (#10997)"
+  },
+  {
+    "oid": "96616b7af8d955d07c03edf56019c5150909d69c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6021102958?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6021103072?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3051/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Add top-level CMakeLists.txt for apps/hexagon_launcher (#11\u2026"
+  },
+  {
     "oid": "52f52c83dedd40bfb0438026cc538d18fa122ac4",
     "statuses": [
       {
@@ -271,47 +308,5 @@
       }
     ],
     "messageHeadline": "[TVMC] Allow output module name to be passed as a command line argume\u2026"
-  },
-  {
-    "oid": "597000c74e6f9692ccb5bc1cf9dd612393a5d4fb",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6001553769?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6001553795?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3037/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ONNX] Add MatMulInteger importer (#10450)"
-  },
-  {
-    "oid": "6d9a1118b12e53d9b6b51e144bcc4a7efb09df67",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5999887795?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5999887846?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3036/display/redirect"
-      }
-    ],
-    "messageHeadline": "[COMMUNITY] @guberti -> Reviewer (#10976)"
   }
 ]
