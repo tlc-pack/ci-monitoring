@@ -1,5 +1,26 @@
 [
   {
+    "oid": "985fc933f4ae8b074ffe2daedd77d08b95925a56",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6017752562?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6017752318?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3049/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Handle TCP server binding to unknown port (#10945)"
+  },
+  {
     "oid": "e370ed459739f5312e45a2fb3a446b120f8ec5d1",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Support `qnn.conv2d` in FoldExplicitPading (#10982)"
-  },
-  {
-    "oid": "a2d973d35067780324e958cd9001e3564d7dfbf8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5999626722?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5999626598?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3034/display/redirect"
-      }
-    ],
-    "messageHeadline": "change Hexagon docker version (#10981)"
   }
 ]
