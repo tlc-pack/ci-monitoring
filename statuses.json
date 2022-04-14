@@ -1,5 +1,47 @@
 [
   {
+    "oid": "529da9bd5603121d0bce15e5b14ba8663c5c763b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6026669837?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6026669969?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3055/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TensorRT][BYOC] Minor refactoring to handle constants in pattern-bas\u2026"
+  },
+  {
+    "oid": "e84b3590dcba9e6cb7a8827711c0c60e8c7bb993",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6026657598?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6026657784?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3054/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay] Refactor inline composites transformation (#10995)"
+  },
+  {
     "oid": "324bf4cac51139b4d90ea0c9388bf51fc26b9b0f",
     "statuses": [
       {
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "[CI] Update GPU image (#10992)"
-  },
-  {
-    "oid": "b542724873140bb051492530d97a78b9b7b7983d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6005448798?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6005448987?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3040/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Runtime][Vulkan] Add RGP support to TVM for vulkan device (#10953)"
-  },
-  {
-    "oid": "61a9269d85c2966d122e1216c5c91e2d9764dc84",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6005208362?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6005208548?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3039/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FIX] resolve int64/32 for AttrStmtNode (#10983)"
   }
 ]
