@@ -1,5 +1,26 @@
 [
   {
+    "oid": "b94119692eaa7307201fbad3e3434f8721c50ede",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6030350813?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6030350676?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3058/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Ignore Allocate/AllocateConst in BufferAllocationLocator (#10998)"
+  },
+  {
     "oid": "a34731b7fcdd41f381e94b53f2279b97b75f7bbd",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[ONNX] Add imports for BERT contrib operators (#10949)"
-  },
-  {
-    "oid": "814e856851fcd142c43f57a9bd2f93a7594d1bf2",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6011990091?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6011990195?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3043/display/redirect"
-      }
-    ],
-    "messageHeadline": "sort axes (#10985)"
   }
 ]
