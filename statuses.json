@@ -1,5 +1,26 @@
 [
   {
+    "oid": "52f52c83dedd40bfb0438026cc538d18fa122ac4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6018496009?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6018495914?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3050/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BYOC][ACL] Fix list is not supported as an input node (#10801)"
+  },
+  {
     "oid": "985fc933f4ae8b074ffe2daedd77d08b95925a56",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[COMMUNITY] @guberti -> Reviewer (#10976)"
-  },
-  {
-    "oid": "c7cca3913a79724e61d02be7cc8d0e3111936350",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5999629953?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/5999629865?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3035/display/redirect"
-      }
-    ],
-    "messageHeadline": "Support `qnn.conv2d` in FoldExplicitPading (#10982)"
   }
 ]
