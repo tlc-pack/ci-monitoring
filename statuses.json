@@ -1,5 +1,21 @@
 [
   {
+    "oid": "f238900e6b64db1c881cbfd8f56f77ed55e061e0",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6040385477?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6040385566?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "Add Havisha to triagers and alphabetize. (#11005)"
+  },
+  {
     "oid": "b99a096825b62ba38c89f8549ee8dda13bc04106",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[BYOC][ACL] Fix list is not supported as an input node (#10801)"
-  },
-  {
-    "oid": "985fc933f4ae8b074ffe2daedd77d08b95925a56",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6017752562?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6017752318?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3049/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Handle TCP server binding to unknown port (#10945)"
   }
 ]
