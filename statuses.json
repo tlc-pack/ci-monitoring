@@ -1,5 +1,26 @@
 [
   {
+    "oid": "fafabc96c1ba1a5f987c2402fcc2ce4d1bad5cc8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6043575227?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6043575296?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3070/display/redirect"
+      }
+    ],
+    "messageHeadline": "[VirtualMachine] Zero copy in set_input when input is DLTensor (#11003)"
+  },
+  {
     "oid": "351f31b51cd85648b66f2b344b96a7460052760b",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[CI] Update CI Images to include `pytest-lazy-fixture` (#10999)"
-  },
-  {
-    "oid": "529da9bd5603121d0bce15e5b14ba8663c5c763b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6026669837?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6026669969?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3055/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TensorRT][BYOC] Minor refactoring to handle constants in pattern-bas\u2026"
   }
 ]
