@@ -1,5 +1,26 @@
 [
   {
+    "oid": "37db213a84c6ebb2e967198d2a45bd812caefb66",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6040813230?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6040813329?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3066/display/redirect"
+      }
+    ],
+    "messageHeadline": "[QNNParam] Refactor the implmentation of QNNParam (#11011)"
+  },
+  {
     "oid": "8bfe3bbb3cc221a8e5d1063f72c1c193c6af5bd9",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[CUDNN] Add partitioning support for fused conv2d+bias+act (#10997)"
-  },
-  {
-    "oid": "96616b7af8d955d07c03edf56019c5150909d69c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6021102958?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6021103072?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3051/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Add top-level CMakeLists.txt for apps/hexagon_launcher (#11\u2026"
   }
 ]
