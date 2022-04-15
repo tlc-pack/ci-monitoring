@@ -1,5 +1,42 @@
 [
   {
+    "oid": "351f31b51cd85648b66f2b344b96a7460052760b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6043365075?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6043365198?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[Runtime][PipelineExecutor]Add forwarding queue logic for set input. \u2026"
+  },
+  {
+    "oid": "8aafe5b1095b8c1024e826f6a8c2114606288182",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6043355246?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6043355358?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3068/display/redirect"
+      }
+    ],
+    "messageHeadline": "[OpenCL] Fix type casting error (#11021)"
+  },
+  {
     "oid": "365fcc832d1d5916947e50643f388b34194d44b7",
     "statuses": [
       {
@@ -271,47 +308,5 @@
       }
     ],
     "messageHeadline": "[TensorRT][BYOC] Minor refactoring to handle constants in pattern-bas\u2026"
-  },
-  {
-    "oid": "e84b3590dcba9e6cb7a8827711c0c60e8c7bb993",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6026657598?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6026657784?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3054/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay] Refactor inline composites transformation (#10995)"
-  },
-  {
-    "oid": "324bf4cac51139b4d90ea0c9388bf51fc26b9b0f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6022932739?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6022932842?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3053/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add driazati to triagers. (#11004)"
   }
 ]
