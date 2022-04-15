@@ -1,10 +1,31 @@
 [
   {
-    "oid": "a9d86e61b650733128bbef9f2f3ddae01211dafb",
+    "oid": "715f24d2381d6dd9ce016f7214fe994a574fb358",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6035562498?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6035562573?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3062/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Metaschedule] Enable continuing tuning after schedule application fa\u2026"
+  },
+  {
+    "oid": "a9d86e61b650733128bbef9f2f3ddae01211dafb",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6034953751?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Less aggressive adb state clean up (#10909)"
-  },
-  {
-    "oid": "ce8f83e3c5c5bb7a021d675283e84ac319f19162",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6014376422?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6014376533?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3047/display/redirect"
-      }
-    ],
-    "messageHeadline": "[hexagon] 'add_hvx' test to explore HVX usage. (#10604)"
   }
 ]
