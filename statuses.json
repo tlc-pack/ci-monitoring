@@ -1,5 +1,21 @@
 [
   {
+    "oid": "f92d351e11984edf3cfec122756e34b5d1f04704",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6049318312?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6049318354?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[COMMUNITY] @wrongtest -> Committer (#11028)"
+  },
+  {
     "oid": "fafabc96c1ba1a5f987c2402fcc2ce4d1bad5cc8",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[ROCM] DP4A intrinsic support for TE/TIR (#11009)"
-  },
-  {
-    "oid": "3d63b2d944d43cea42ce068def0ffd4cffa67218",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6026927251?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6026927152?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3056/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Update CI Images to include `pytest-lazy-fixture` (#10999)"
   }
 ]
