@@ -1,5 +1,26 @@
 [
   {
+    "oid": "7d9b7bbd503dc4365f803541f56edf1e34020925",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6051438214?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6051438178?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3072/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Always assume num executors == 1 (#11014)"
+  },
+  {
     "oid": "f92d351e11984edf3cfec122756e34b5d1f04704",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[TIR] Ignore Allocate/AllocateConst in BufferAllocationLocator (#10998)"
-  },
-  {
-    "oid": "a34731b7fcdd41f381e94b53f2279b97b75f7bbd",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6028004720?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6028004815?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3057/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ROCM] DP4A intrinsic support for TE/TIR (#11009)"
   }
 ]
