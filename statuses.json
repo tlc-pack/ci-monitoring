@@ -1,5 +1,42 @@
 [
   {
+    "oid": "8d868f6bf3802dcf61cea2697ee81ffeae08b6b0",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6052033078?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6052033093?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3074/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BugFix][TIR] Fix rfactor when RF block becomes spatial (#11031)"
+  },
+  {
+    "oid": "69ba7ed6408d37367e7829cff6fa897bf0553cb5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6052032486?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6052032477?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[BugFix][TIR] Fix narrower dtype of loop vars in CreatePrimFunc (#11030)"
+  },
+  {
     "oid": "7d9b7bbd503dc4365f803541f56edf1e34020925",
     "statuses": [
       {
@@ -271,47 +308,5 @@
       }
     ],
     "messageHeadline": "[RELAY][FRONTEND] Initial OneFlow frontend support.  (#8790)"
-  },
-  {
-    "oid": "0e1a2a2ff8bfd048470ae222f02a94ad4e5da5b0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6030624938?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6030625015?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3059/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix broken CI when git-merge needs to create a commit. (#11007)"
-  },
-  {
-    "oid": "b94119692eaa7307201fbad3e3434f8721c50ede",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6030350813?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6030350676?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3058/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Ignore Allocate/AllocateConst in BufferAllocationLocator (#10998)"
   }
 ]
