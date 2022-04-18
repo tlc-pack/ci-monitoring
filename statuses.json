@@ -1,5 +1,21 @@
 [
   {
+    "oid": "240fac437cea40cf3aa5634b561f0f54ef837941",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6063002917?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6063002996?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "Fix typo in tutorial doc (#10974)"
+  },
+  {
     "oid": "0b9bcf0e7ab5c898d80ff8057dca022979e5e797",
     "statuses": [
       {
@@ -287,26 +303,5 @@
       }
     ],
     "messageHeadline": "Add Havisha to triagers and alphabetize. (#11005)"
-  },
-  {
-    "oid": "b99a096825b62ba38c89f8549ee8dda13bc04106",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6037245788?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6037245708?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3063/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Metaschedule, Refactor] Move MultiLevelTilingNode decl to a header (\u2026"
   }
 ]
