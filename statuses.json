@@ -1,5 +1,26 @@
 [
   {
+    "oid": "0b9bcf0e7ab5c898d80ff8057dca022979e5e797",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6060007818?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6060007753?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3077/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule][Refactor] Introduce TuneConfig (#10986)"
+  },
+  {
     "oid": "9f3da1cbae9ce16d14fbcd7b7804eeb9a16428e1",
     "statuses": [
       {
@@ -287,26 +308,5 @@
       }
     ],
     "messageHeadline": "[Metaschedule, Refactor] Move MultiLevelTilingNode decl to a header (\u2026"
-  },
-  {
-    "oid": "715f24d2381d6dd9ce016f7214fe994a574fb358",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6035562498?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6035562573?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3062/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Metaschedule] Enable continuing tuning after schedule application fa\u2026"
   }
 ]
