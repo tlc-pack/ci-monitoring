@@ -1,5 +1,47 @@
 [
   {
+    "oid": "1542286826be64d4394685a795336c8705f986cd",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6066438773?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6066438856?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3081/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Add branch protections to .asf.yaml (#10964)"
+  },
+  {
+    "oid": "1e524d0670af320a09af5ae0d632336defcb8410",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6066384436?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6066384552?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3080/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Migrate all test steps to macros (#10968)"
+  },
+  {
     "oid": "28aac0e48ffa7084c9f0cfa5306a6c592c7f269d",
     "statuses": [
       {
@@ -14,7 +56,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3079/display/redirect"
       }
     ],
@@ -266,47 +308,5 @@
       }
     ],
     "messageHeadline": "Use TVM log instead of hexagon_print (#11024)"
-  },
-  {
-    "oid": "37db213a84c6ebb2e967198d2a45bd812caefb66",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6040813230?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6040813329?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3066/display/redirect"
-      }
-    ],
-    "messageHeadline": "[QNNParam] Refactor the implmentation of QNNParam (#11011)"
-  },
-  {
-    "oid": "8bfe3bbb3cc221a8e5d1063f72c1c193c6af5bd9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6040708646?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6040708711?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3065/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Arith] Updated arith::DetectIterMap to keep extent=1 components (#10\u2026"
   }
 ]
