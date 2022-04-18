@@ -1,5 +1,26 @@
 [
   {
+    "oid": "28aac0e48ffa7084c9f0cfa5306a6c592c7f269d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6065186174?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6065186307?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3079/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Deprecate USE_HEXAGON_DEVICE, introduce USE_HEXAGON (#11025)"
+  },
+  {
     "oid": "240fac437cea40cf3aa5634b561f0f54ef837941",
     "statuses": [
       {
@@ -287,26 +308,5 @@
       }
     ],
     "messageHeadline": "[Arith] Updated arith::DetectIterMap to keep extent=1 components (#10\u2026"
-  },
-  {
-    "oid": "f238900e6b64db1c881cbfd8f56f77ed55e061e0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6040385477?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6040385566?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3064/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add Havisha to triagers and alphabetize. (#11005)"
   }
 ]
