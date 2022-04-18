@@ -1,5 +1,26 @@
 [
   {
+    "oid": "9f3da1cbae9ce16d14fbcd7b7804eeb9a16428e1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6058732331?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6058732367?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3076/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Frontend][Paddle] Fix pool2d op (#11029)"
+  },
+  {
     "oid": "9c2df393761867813fb64f7cf99c590198b0ea82",
     "statuses": [
       {
@@ -287,26 +308,5 @@
       }
     ],
     "messageHeadline": "[Metaschedule] Enable continuing tuning after schedule application fa\u2026"
-  },
-  {
-    "oid": "a9d86e61b650733128bbef9f2f3ddae01211dafb",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6034953751?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6034953791?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3061/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Metaschedule] Support tuning on rocm and vulkan target (#11017)"
   }
 ]
