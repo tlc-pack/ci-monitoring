@@ -1,5 +1,26 @@
 [
   {
+    "oid": "0bf7f3313ae597596d75cc7f699d21653c4b19f7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6084235596?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6084235755?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3099/display/redirect"
+      }
+    ],
+    "messageHeadline": "[OpenCL] Fix type casting (#11038)"
+  },
+  {
     "oid": "1efd7df370ffe942dbe321ffe7b353396580da43",
     "statuses": [
       {
@@ -51,7 +72,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6083280212?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Register PackedFuncObj with type registry. (#11039)"
-  },
-  {
-    "oid": "f6171914a7f0f9e9f25a2990b77a7b2d3f394a39",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6070517492?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6070517545?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3083/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Adjust RPC read buffer size from python  (#11022)"
   }
 ]
