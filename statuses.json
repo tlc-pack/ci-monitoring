@@ -1,5 +1,26 @@
 [
   {
+    "oid": "a94558686834c4ff7e4d90e4bc1fde5451ce445d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6081079910?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6081080079?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3094/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Refactor test scripts (#11026)"
+  },
+  {
     "oid": "24d5539c436d4d89a8018ce2e99b837badd69174",
     "statuses": [
       {
@@ -297,26 +318,5 @@
       }
     ],
     "messageHeadline": "[ci] Migrate all test steps to macros (#10968)"
-  },
-  {
-    "oid": "28aac0e48ffa7084c9f0cfa5306a6c592c7f269d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6065186174?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6065186307?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3079/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Deprecate USE_HEXAGON_DEVICE, introduce USE_HEXAGON (#11025)"
   }
 ]
