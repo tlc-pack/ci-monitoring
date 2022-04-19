@@ -1,10 +1,68 @@
 [
   {
-    "oid": "94f28b29c535aff69d009d2babd3422d815f39d7",
+    "oid": "557fc6c10798a093195fdca3bebc332510d0c208",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6077923846?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6077923434?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "Hotfix CI (black check not caught by PR CI) (#11056)"
+  },
+  {
+    "oid": "312b552b11d4830a9c12193068471b3fe6ab325a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6077723296?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6077723168?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3091/display/redirect"
+      }
+    ],
+    "messageHeadline": "Add FlattenAtrousConv transformation (#10996)"
+  },
+  {
+    "oid": "81073962ef061cb00654c155b530458b9e8dc087",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6077704993?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6077705119?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3090/display/redirect"
+      }
+    ],
+    "messageHeadline": "Revert \"[OpenCL] Fix type casting error (#11021)\" (#11035)"
+  },
+  {
+    "oid": "94f28b29c535aff69d009d2babd3422d815f39d7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6076534141?check_suite_focus=true"
       },
       {
@@ -255,68 +313,5 @@
       }
     ],
     "messageHeadline": "Fix typo in tutorial doc (#10974)"
-  },
-  {
-    "oid": "0b9bcf0e7ab5c898d80ff8057dca022979e5e797",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6060007818?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6060007753?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3077/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule][Refactor] Introduce TuneConfig (#10986)"
-  },
-  {
-    "oid": "9f3da1cbae9ce16d14fbcd7b7804eeb9a16428e1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6058732331?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6058732367?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3076/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Frontend][Paddle] Fix pool2d op (#11029)"
-  },
-  {
-    "oid": "9c2df393761867813fb64f7cf99c590198b0ea82",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6052600399?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6052600417?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3075/display/redirect"
-      }
-    ],
-    "messageHeadline": "[BugFix][TIR] Error check: Inline Block with Init Stmt (#11033)"
   }
 ]
