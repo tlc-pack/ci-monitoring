@@ -1,5 +1,47 @@
 [
   {
+    "oid": "f6171914a7f0f9e9f25a2990b77a7b2d3f394a39",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6070517492?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6070517545?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3083/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Adjust RPC read buffer size from python  (#11022)"
+  },
+  {
+    "oid": "c2eb51311c3ebb70dd952df9311c92cd10801e4b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6070499046?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6070498972?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3082/display/redirect"
+      }
+    ],
+    "messageHeadline": "[COMMUNITY] New Committer -- lhutton1 (#11049)"
+  },
+  {
     "oid": "1542286826be64d4394685a795336c8705f986cd",
     "statuses": [
       {
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "[Runtime][PipelineExecutor]Add forwarding queue logic for set input. \u2026"
-  },
-  {
-    "oid": "8aafe5b1095b8c1024e826f6a8c2114606288182",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6043355246?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6043355358?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3068/display/redirect"
-      }
-    ],
-    "messageHeadline": "[OpenCL] Fix type casting error (#11021)"
-  },
-  {
-    "oid": "365fcc832d1d5916947e50643f388b34194d44b7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6043222552?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6043222609?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3067/display/redirect"
-      }
-    ],
-    "messageHeadline": "Use TVM log instead of hexagon_print (#11024)"
   }
 ]
