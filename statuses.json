@@ -1,5 +1,26 @@
 [
   {
+    "oid": "94f28b29c535aff69d009d2babd3422d815f39d7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6076534141?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6076534046?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3089/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMC] Add `--config` argument for config files (#11012)"
+  },
+  {
     "oid": "e2dd0f8251d627f95469eeb647af1245e6757549",
     "statuses": [
       {
@@ -9,7 +30,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6075667779?check_suite_focus=true"
       },
       {
@@ -30,7 +51,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6075659050?check_suite_focus=true"
       },
       {
@@ -297,26 +318,5 @@
       }
     ],
     "messageHeadline": "[BugFix][TIR] Error check: Inline Block with Init Stmt (#11033)"
-  },
-  {
-    "oid": "8d868f6bf3802dcf61cea2697ee81ffeae08b6b0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6052033078?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6052033093?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3073/display/redirect"
-      }
-    ],
-    "messageHeadline": "[BugFix][TIR] Fix rfactor when RF block becomes spatial (#11031)"
   }
 ]
