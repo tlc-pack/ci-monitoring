@@ -1,5 +1,37 @@
 [
   {
+    "oid": "1efd7df370ffe942dbe321ffe7b353396580da43",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6083912859?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6083912978?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[ci] Remove TensorCore node name (#11048)"
+  },
+  {
+    "oid": "3b5189563c5759b045b20e7205eef8a6e723e18a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6083888541?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6083888664?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "Add ekalda to reviewers. (#11061)"
+  },
+  {
     "oid": "5987982faeb40849385b4ea99b3a92866f180e76",
     "statuses": [
       {
@@ -271,52 +303,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Adjust RPC read buffer size from python  (#11022)"
-  },
-  {
-    "oid": "c2eb51311c3ebb70dd952df9311c92cd10801e4b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6070499046?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6070498972?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3082/display/redirect"
-      }
-    ],
-    "messageHeadline": "[COMMUNITY] New Committer -- lhutton1 (#11049)"
-  },
-  {
-    "oid": "1542286826be64d4394685a795336c8705f986cd",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6066438773?check_suite_focus=true"
-      },
-      {
-        "name": "PR / cc-reviewers",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6069088031?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6066438856?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3081/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Add branch protections to .asf.yaml (#10964)"
   }
 ]
