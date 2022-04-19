@@ -1,5 +1,26 @@
 [
   {
+    "oid": "24d5539c436d4d89a8018ce2e99b837badd69174",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6080485954?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6080485649?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3093/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Pass stack size to simulator (#11046)"
+  },
+  {
     "oid": "557fc6c10798a093195fdca3bebc332510d0c208",
     "statuses": [
       {
@@ -297,26 +318,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Deprecate USE_HEXAGON_DEVICE, introduce USE_HEXAGON (#11025)"
-  },
-  {
-    "oid": "240fac437cea40cf3aa5634b561f0f54ef837941",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6063002917?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6063002996?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3078/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix typo in tutorial doc (#10974)"
   }
 ]
