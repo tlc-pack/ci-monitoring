@@ -1,5 +1,47 @@
 [
   {
+    "oid": "2025e368c4c52fd986e112a307fa418ee4faf064",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6087034807?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6087034918?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3105/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CMSIS-NN] Add Arm(R) Cortex(R)-M55 CPU and CMSIS-NN demo (#11013)"
+  },
+  {
+    "oid": "b78e44e42dc98f804872e968ca7e949420ab074c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6086991886?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6086991940?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3104/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TOPI] Fix nn.lrn result dtype on fp16 (#11032)"
+  },
+  {
     "oid": "0bf7f3313ae597596d75cc7f699d21653c4b19f7",
     "statuses": [
       {
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "[TE][TIR] Enable CreatePrimFunc to properly handle 'layout_free_place\u2026"
-  },
-  {
-    "oid": "4178617fcf19d209ea545a2708f8bfcdbfa02056",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6071040170?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6071040218?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3085/display/redirect"
-      }
-    ],
-    "messageHeadline": "[AOT] Support LLVM backend with C++ runtime (#10753)"
-  },
-  {
-    "oid": "0cd4fa688c29c3ed9d219ec2d32a59066d74ff8e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6070548984?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6070549034?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3084/display/redirect"
-      }
-    ],
-    "messageHeadline": "Register PackedFuncObj with type registry. (#11039)"
   }
 ]
