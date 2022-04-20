@@ -1,10 +1,31 @@
 [
   {
-    "oid": "970f8682721a44d27ff34cff9cbf66e96e23952e",
+    "oid": "5b586605da10d5c7d148ca4b37aa1c1abb3de966",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6097514714?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6097514427?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3110/display/redirect"
+      }
+    ],
+    "messageHeadline": "Better version handling for Arduino (#11043)"
+  },
+  {
+    "oid": "970f8682721a44d27ff34cff9cbf66e96e23952e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6095701505?check_suite_focus=true"
       },
       {
@@ -14,7 +35,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3109/display/redirect"
       }
     ],
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Add FlattenAtrousConv transformation (#10996)"
-  },
-  {
-    "oid": "81073962ef061cb00654c155b530458b9e8dc087",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6077704993?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6077705119?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3090/display/redirect"
-      }
-    ],
-    "messageHeadline": "Revert \"[OpenCL] Fix type casting error (#11021)\" (#11035)"
   }
 ]
