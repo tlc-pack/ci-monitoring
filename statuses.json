@@ -1,5 +1,26 @@
 [
   {
+    "oid": "68beae90eade731d9cbb9a02ff4405a1ef160a23",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6101881130?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6101881225?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3114/display/redirect"
+      }
+    ],
+    "messageHeadline": "Add two possible missing visit of let stmt in lowering (#11079)"
+  },
+  {
     "oid": "8846f31312bae4ae9c49dce3913ddb19ba8cf738",
     "statuses": [
       {
@@ -11,6 +32,11 @@
         "name": "CI / Windows",
         "status": "PENDING",
         "url": "https://github.com/apache/tvm/runs/6101768144?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3113/display/redirect"
       }
     ],
     "messageHeadline": "Add FlattenAtrousConv pass into the default optimize pipeline. (#11077)"
@@ -30,7 +56,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3112/display/redirect"
       }
     ],
@@ -287,26 +313,5 @@
       }
     ],
     "messageHeadline": "Attempt to prevent concurrent update in Map (#9842)"
-  },
-  {
-    "oid": "a94558686834c4ff7e4d90e4bc1fde5451ce445d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6081079910?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6081080079?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3094/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Refactor test scripts (#11026)"
   }
 ]
