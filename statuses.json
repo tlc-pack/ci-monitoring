@@ -1,15 +1,31 @@
 [
   {
-    "oid": "7612b22cf587207339e1658b41d7091688ea9cde",
+    "oid": "8846f31312bae4ae9c49dce3913ddb19ba8cf738",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/6100339782?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/6101768007?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6101768144?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "Add FlattenAtrousConv pass into the default optimize pipeline. (#11077)"
+  },
+  {
+    "oid": "7612b22cf587207339e1658b41d7091688ea9cde",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/6100339782?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6100339963?check_suite_focus=true"
       },
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Refactor test scripts (#11026)"
-  },
-  {
-    "oid": "24d5539c436d4d89a8018ce2e99b837badd69174",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6080485954?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6080485649?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3093/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Pass stack size to simulator (#11046)"
   }
 ]
