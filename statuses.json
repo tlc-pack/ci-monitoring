@@ -1,15 +1,36 @@
 [
   {
-    "oid": "5b586605da10d5c7d148ca4b37aa1c1abb3de966",
+    "oid": "58b7a5a268435c34eca36f6c0394d9548b850f98",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/6097514714?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/6099071030?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6099070929?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3111/display/redirect"
+      }
+    ],
+    "messageHeadline": "[QNN] Support input scale and zp of 1-element vector in qnn.conv2d_tr\u2026"
+  },
+  {
+    "oid": "5b586605da10d5c7d148ca4b37aa1c1abb3de966",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/6097514714?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6097514427?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Hotfix CI (black check not caught by PR CI) (#11056)"
-  },
-  {
-    "oid": "312b552b11d4830a9c12193068471b3fe6ab325a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6077723296?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6077723168?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3091/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add FlattenAtrousConv transformation (#10996)"
   }
 ]
