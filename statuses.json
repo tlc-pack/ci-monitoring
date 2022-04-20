@@ -1,5 +1,21 @@
 [
   {
+    "oid": "8cf0c3e9927cdbf4e9bcf538ffe6c798e0a7bc25",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6090141452?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6090141345?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "Fix While Node StructuralEqual and StructuralHash issue (#11073)"
+  },
+  {
     "oid": "3823b39b8a197e9e01ebb93dffaa1e710118c148",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "Let remote RPCModule get function recursively (#11053)"
-  },
-  {
-    "oid": "fe948da88e3e05129971024fde72ed52568a4747",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6075658911?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6075659050?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3087/display/redirect"
-      }
-    ],
-    "messageHeadline": "Upgrad oneflow version (#11052)"
   }
 ]
