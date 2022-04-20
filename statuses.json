@@ -1,5 +1,26 @@
 [
   {
+    "oid": "970f8682721a44d27ff34cff9cbf66e96e23952e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6095701505?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6095701277?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3109/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMC] Add configuration json files to the Python package (#11063)"
+  },
+  {
     "oid": "0b957802b00aa3536abe609a7542dcf9dd3d3544",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Revert \"[OpenCL] Fix type casting error (#11021)\" (#11035)"
-  },
-  {
-    "oid": "94f28b29c535aff69d009d2babd3422d815f39d7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6076534141?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6076534046?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3089/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMC] Add `--config` argument for config files (#11012)"
   }
 ]
