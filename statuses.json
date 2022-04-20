@@ -1,5 +1,26 @@
 [
   {
+    "oid": "3823b39b8a197e9e01ebb93dffaa1e710118c148",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6088476342?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6088476419?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3106/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Utility function to decide loop mapping for auto tensorization \u2026"
+  },
+  {
     "oid": "2025e368c4c52fd986e112a307fa418ee4faf064",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Upgrad oneflow version (#11052)"
-  },
-  {
-    "oid": "71067799ef0178c894c1b327791b847b8b6a1f72",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6073431182?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6073431319?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3086/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TE][TIR] Enable CreatePrimFunc to properly handle 'layout_free_place\u2026"
   }
 ]
