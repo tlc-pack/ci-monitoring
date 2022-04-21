@@ -1,5 +1,26 @@
 [
   {
+    "oid": "a6ef5af1587c71dc69d710058b95f8baa9c6cc4d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "FAILURE",
+        "url": "https://github.com/apache/tvm/runs/6112061900?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6112061776?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3118/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Update GPU image for oneflow v0.7 (#11085)"
+  },
+  {
     "oid": "b952425b2d46076ccbc0a55953e31afbfac0da33",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[TOPI] Fix nn.lrn result dtype on fp16 (#11032)"
-  },
-  {
-    "oid": "0bf7f3313ae597596d75cc7f699d21653c4b19f7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6084235596?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6084235755?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3103/display/redirect"
-      }
-    ],
-    "messageHeadline": "[OpenCL] Fix type casting (#11038)"
   }
 ]
