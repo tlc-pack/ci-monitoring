@@ -1,5 +1,26 @@
 [
   {
+    "oid": "a52b5752594edb62468bcddd713156bec2fa21dd",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6114894710?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6114894861?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3119/display/redirect"
+      }
+    ],
+    "messageHeadline": "[OpenCL Textures] Fix memory management in texture pool (#10938)"
+  },
+  {
     "oid": "a6ef5af1587c71dc69d710058b95f8baa9c6cc4d",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[CMSIS-NN] Add Arm(R) Cortex(R)-M55 CPU and CMSIS-NN demo (#11013)"
-  },
-  {
-    "oid": "b78e44e42dc98f804872e968ca7e949420ab074c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6086991886?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6086991940?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3104/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TOPI] Fix nn.lrn result dtype on fp16 (#11032)"
   }
 ]
