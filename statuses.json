@@ -1,5 +1,37 @@
 [
   {
+    "oid": "b952425b2d46076ccbc0a55953e31afbfac0da33",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6109919457?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6109919598?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "Restart popen pool. (#11074)"
+  },
+  {
+    "oid": "3527241048b6e3883ea258fca429513a6e82cbf0",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "FAILURE",
+        "url": "https://github.com/apache/tvm/runs/6109913807?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6109913681?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[RPC] Don't use existence of USE_HEXAGON_SDK as enablement check (#11\u2026"
+  },
+  {
     "oid": "0070b6cc0557cce64c13e3b64f58d1f3d85a4687",
     "statuses": [
       {
@@ -271,47 +303,5 @@
       }
     ],
     "messageHeadline": "[OpenCL] Fix type casting (#11038)"
-  },
-  {
-    "oid": "1efd7df370ffe942dbe321ffe7b353396580da43",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6083912859?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6083912978?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3098/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Remove TensorCore node name (#11048)"
-  },
-  {
-    "oid": "3b5189563c5759b045b20e7205eef8a6e723e18a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6083888541?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6083888664?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3096/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add ekalda to reviewers. (#11061)"
   }
 ]
