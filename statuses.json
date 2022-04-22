@@ -1,5 +1,21 @@
 [
   {
+    "oid": "8691cbed0bf32070b931a4341bded7fa0f639826",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6135849124?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6135849203?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[CONTRIB] Add PopenWorker process recycling (#11094)"
+  },
+  {
     "oid": "83672c65c77554a4c0b26691ea3364bed2cf08af",
     "statuses": [
       {
@@ -30,7 +46,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6134973504?check_suite_focus=true"
       },
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "Restart popen pool. (#11074)"
-  },
-  {
-    "oid": "3527241048b6e3883ea258fca429513a6e82cbf0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/runs/6109913807?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6109913681?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3116/display/redirect"
-      }
-    ],
-    "messageHeadline": "[RPC] Don't use existence of USE_HEXAGON_SDK as enablement check (#11\u2026"
   }
 ]
