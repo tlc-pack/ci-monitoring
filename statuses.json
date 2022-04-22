@@ -1,5 +1,26 @@
 [
   {
+    "oid": "b93cc9f69e568a054b53d8ec181d480d68d7e6b8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6134973399?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6134973504?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3129/display/redirect"
+      }
+    ],
+    "messageHeadline": "Prevent IRSbustitute to create new buffer when buffer var is unchange\u2026"
+  },
+  {
     "oid": "86fec26ab280c808c1beb4cdc0f196f7a5828d45",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[TIR] Add TileWithTensorIntrin (#11075)"
-  },
-  {
-    "oid": "68beae90eade731d9cbb9a02ff4405a1ef160a23",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6101881130?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6101881225?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3114/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add two possible missing visit of let stmt in lowering (#11079)"
   }
 ]
