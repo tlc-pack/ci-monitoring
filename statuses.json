@@ -1,5 +1,26 @@
 [
   {
+    "oid": "14246cd9bc654d3ebacf7bcf505123a42fb1f615",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6133641894?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6133641996?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3127/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Remove `Prepare` step (#11082)"
+  },
+  {
     "oid": "e0e788b765e8e0ccb868a035fabdc1dea846abfd",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Add FlattenAtrousConv pass into the default optimize pipeline. (#11077)"
-  },
-  {
-    "oid": "7612b22cf587207339e1658b41d7091688ea9cde",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6100339782?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6100339963?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3112/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Frontend][ONNX]support  Pool2D layout is CHW (#11034)"
   }
 ]
