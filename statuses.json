@@ -1,5 +1,21 @@
 [
   {
+    "oid": "822d863770f17d0aa2e37fb128438eb4b483d1f1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6140815500?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6140815439?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Add mobilenet test (#11104)"
+  },
+  {
     "oid": "bce57586bd3e41ea3c38a157c126f1fea40a8313",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[FQ2I] Add log op to FQ2I (#10924)"
-  },
-  {
-    "oid": "a52b5752594edb62468bcddd713156bec2fa21dd",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6114894710?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6114894861?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3119/display/redirect"
-      }
-    ],
-    "messageHeadline": "[OpenCL Textures] Fix memory management in texture pool (#10938)"
   }
 ]
