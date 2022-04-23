@@ -1,5 +1,26 @@
 [
   {
+    "oid": "60e43e16a0cfd7a215f94dadde03f197b12af3f4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6136903991?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6136903946?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3132/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Auto Scheduler]add task name during printing table info (#11098)"
+  },
+  {
     "oid": "8691cbed0bf32070b931a4341bded7fa0f639826",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[CI] Update GPU image for oneflow v0.7 (#11085)"
-  },
-  {
-    "oid": "b952425b2d46076ccbc0a55953e31afbfac0da33",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6109919457?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6109919598?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3117/display/redirect"
-      }
-    ],
-    "messageHeadline": "Restart popen pool. (#11074)"
   }
 ]
