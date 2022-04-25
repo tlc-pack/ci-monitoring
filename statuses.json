@@ -1,5 +1,26 @@
 [
   {
+    "oid": "1aee5e17287f34b46776c4117ee7e8a796eaaac4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6164697566?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6164697699?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3141/display/redirect"
+      }
+    ],
+    "messageHeadline": "Complete pytorch grid_sample (#10504)"
+  },
+  {
     "oid": "6f27281220ac79f39abc63372ed48020d1caf2e8",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[ci] Remove `Prepare` step (#11082)"
-  },
-  {
-    "oid": "e0e788b765e8e0ccb868a035fabdc1dea846abfd",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6130970955?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6130970740?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3126/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Delete offload runtime, move files to right places (#11090)"
   }
 ]
