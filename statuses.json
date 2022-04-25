@@ -1,5 +1,26 @@
 [
   {
+    "oid": "6f27281220ac79f39abc63372ed48020d1caf2e8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6164216933?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6164217117?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3140/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Add local test re-run info (#11051)"
+  },
+  {
     "oid": "d89234b47abdbb090f9f32e68dcff6fd6cd3d4a1",
     "statuses": [
       {
@@ -14,7 +35,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3139/display/redirect"
       }
     ],
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Delete offload runtime, move files to right places (#11090)"
-  },
-  {
-    "oid": "effc23df7cb4c392f6957c94157da33293793eb7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6120532374?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6120532453?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3125/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] AoT with LLVM Codegen on Hexagon (#11065)"
   }
 ]
