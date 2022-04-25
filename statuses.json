@@ -1,5 +1,21 @@
 [
   {
+    "oid": "101f9e4b11045f0ef8713ad8f727c924a06f41d3",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6160297550?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6160297772?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Roll CI forward to Ethos(TM)-N release 21.11 (#11099)"
+  },
+  {
     "oid": "24e5498021cecca2fe7d44149ce90efe28b6d930",
     "statuses": [
       {
@@ -287,26 +303,5 @@
       }
     ],
     "messageHeadline": "[microNPU] Integrate rolling buffers in Arm(R) Ethos(TM)-U (#10344)"
-  },
-  {
-    "oid": "876e2532278052d27c55adf982c9848ef3a76d4b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6117034030?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6117034159?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3122/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] StmtFunctor RenewDefs (#10843)"
   }
 ]
