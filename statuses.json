@@ -1,5 +1,26 @@
 [
   {
+    "oid": "4015916a06a333ddf99836cc09cf7d74b8df8e63",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6166241273?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6166241053?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3142/display/redirect"
+      }
+    ],
+    "messageHeadline": "convert full-width characters to half-width characters (#11112)"
+  },
+  {
     "oid": "1aee5e17287f34b46776c4117ee7e8a796eaaac4",
     "statuses": [
       {
@@ -9,7 +30,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6164697699?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[COMMUNITY] ashutosh-arm -> Reviewer (#11101)"
-  },
-  {
-    "oid": "14246cd9bc654d3ebacf7bcf505123a42fb1f615",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6133641894?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6133641996?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3127/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Remove `Prepare` step (#11082)"
   }
 ]
