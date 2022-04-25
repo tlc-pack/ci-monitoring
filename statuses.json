@@ -1,5 +1,26 @@
 [
   {
+    "oid": "d2db9cb0d839e32778f461b77e59f6418282a511",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6154654767?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6154654931?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3135/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Integrate the cascader (#10862)"
+  },
+  {
     "oid": "822d863770f17d0aa2e37fb128438eb4b483d1f1",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[TVMScript] Allow `val = buf[index]` without type annotation (#11060)"
-  },
-  {
-    "oid": "97ae25cf830d9fa8e04112f4f3deee6c0ef9d4e8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6116263658?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6116263817?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3120/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FQ2I] Add log op to FQ2I (#10924)"
   }
 ]
