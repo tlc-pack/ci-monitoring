@@ -1,5 +1,21 @@
 [
   {
+    "oid": "4dc47df369f3116f7674e474ea655b4c9e2e25ab",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6170949915?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6170949803?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "allow constant value let binding in script (#11115)"
+  },
+  {
     "oid": "4330c21888ce45947fdba8407b0d3188f911e43f",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Add mobilenet test (#11104)"
-  },
-  {
-    "oid": "bce57586bd3e41ea3c38a157c126f1fea40a8313",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6137768588?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6137768563?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3133/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add oneflow fronted tutorials (#11036)"
   }
 ]
