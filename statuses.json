@@ -1,5 +1,26 @@
 [
   {
+    "oid": "68464841ea617f9c859c1f7c546b29b611428186",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6180357633?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6180357505?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3149/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Metaschedule] Auto tensorization for CPU / GPU dot product (#11088)"
+  },
+  {
     "oid": "4dc47df369f3116f7674e474ea655b4c9e2e25ab",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[microNPU] Integrate the cascader (#10862)"
-  },
-  {
-    "oid": "822d863770f17d0aa2e37fb128438eb4b483d1f1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6140815500?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6140815439?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3134/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Add mobilenet test (#11104)"
   }
 ]
