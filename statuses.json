@@ -1,5 +1,26 @@
 [
   {
+    "oid": "7bc90ef6f327bbfb12d09a2d7b7b11ec0ec233a5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6183102176?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6183102360?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3151/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Switch to requiring `pr-head` for merges (#11081)"
+  },
+  {
     "oid": "6f0e0f31d26da93ac03308bab9915dc32aefcabb",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[ETHOSN] Roll CI forward to Ethos(TM)-N release 21.11 (#11099)"
-  },
-  {
-    "oid": "24e5498021cecca2fe7d44149ce90efe28b6d930",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6159729920?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6159730139?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3136/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMC] compile/tune: Check if FILE exists (#10865)"
   }
 ]
