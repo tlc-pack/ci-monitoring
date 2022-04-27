@@ -1,5 +1,26 @@
 [
   {
+    "oid": "1147d74ce7687ccf5ea1f5c0579b7f18b37f8412",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6195603031?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6195603297?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3156/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI][DOCKER] Install blocklint for identifying non-inclusive language\u2026"
+  },
+  {
     "oid": "c09a24dcdce3bc71133712c003c2135842b64be1",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "Complete pytorch grid_sample (#10504)"
-  },
-  {
-    "oid": "6f27281220ac79f39abc63372ed48020d1caf2e8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6164216933?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6164217117?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3140/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Add local test re-run info (#11051)"
   }
 ]
