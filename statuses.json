@@ -1,10 +1,31 @@
 [
   {
+    "oid": "c2803f6a06868ba4bd662c515e3927da5f99c047",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6187314451?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6187314525?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3154/display/redirect"
+      }
+    ],
+    "messageHeadline": "[docs] Update publication list (#11137)"
+  },
+  {
     "oid": "f88e3d6daae03643dbc970219b3770e690663e71",
     "statuses": [
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3153/display/redirect"
       }
     ],
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[microTVM] Bump versions in reference vm (#11067)"
-  },
-  {
-    "oid": "57d57afb5c3b47cfb38500be772d9f75cb0c5210",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6161403955?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6161404192?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3138/display/redirect"
-      }
-    ],
-    "messageHeadline": "update for using new functions (#11100)"
   }
 ]
