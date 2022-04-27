@@ -1,5 +1,26 @@
 [
   {
+    "oid": "3afb433eb86d92b057163c5b7bb2160498ea4f98",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6198947286?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6198947493?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3158/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Split hexagon into 2 steps (#11132)"
+  },
+  {
     "oid": "141c8b8c4bd354c875db0d7269f8643cf88caa85",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[TIR] Enhance software pipeline validation and fix predicate of epilo\u2026"
-  },
-  {
-    "oid": "4015916a06a333ddf99836cc09cf7d74b8df8e63",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6166241273?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6166241053?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3142/display/redirect"
-      }
-    ],
-    "messageHeadline": "convert full-width characters to half-width characters (#11112)"
   }
 ]
