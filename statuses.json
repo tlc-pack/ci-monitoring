@@ -1,5 +1,26 @@
 [
   {
+    "oid": "72e11baabb0e3a7e311c4b3490b729641c489555",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6208182403?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6208182546?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3161/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CMSIS-NN] Moved TFLite model making to common area (#10939)"
+  },
+  {
     "oid": "9fd279b40aa77677e9ba698ca34c8062b55cb3e8",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[USMP] Adding support for U4 usecase (#10785)"
-  },
-  {
-    "oid": "871d4ef679df49538d8a24baab333024d3593ee0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/runs/6167475638?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6167475726?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3145/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Clean up Hexagon device APIs (#11119)"
   }
 ]
