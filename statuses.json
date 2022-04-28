@@ -1,5 +1,26 @@
 [
   {
+    "oid": "cedb0ba35ab4b96dfe5fc331e308f02e58670096",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6216036810?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6216036972?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3166/display/redirect"
+      }
+    ],
+    "messageHeadline": "[hexagon][benchmark] Add workload with [1,?] shape (#11163)"
+  },
+  {
     "oid": "70a41377fd6bbc35c2d897b5a30e28b3204c1524",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[ci] Switch to requiring `pr-head` for merges (#11081)"
-  },
-  {
-    "oid": "6f0e0f31d26da93ac03308bab9915dc32aefcabb",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/runs/6182556168?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6182556265?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3150/display/redirect"
-      }
-    ],
-    "messageHeadline": "[onnx] Relax tolerance for qlinearleakyrelu test (#11042)"
   }
 ]
