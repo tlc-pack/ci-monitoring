@@ -1,5 +1,26 @@
 [
   {
+    "oid": "70a41377fd6bbc35c2d897b5a30e28b3204c1524",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6215901703?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6215901789?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3165/display/redirect"
+      }
+    ],
+    "messageHeadline": "fix apt install command text in check_arm_qemu() (#11153)"
+  },
+  {
     "oid": "efbd721618c70c4ad9304a9c69be5407b02b013e",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[onnx] Relax tolerance for qlinearleakyrelu test (#11042)"
-  },
-  {
-    "oid": "68464841ea617f9c859c1f7c546b29b611428186",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/runs/6180357633?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6180357505?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3149/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Metaschedule] Auto tensorization for CPU / GPU dot product (#11088)"
   }
 ]
