@@ -1,5 +1,26 @@
 [
   {
+    "oid": "9fd279b40aa77677e9ba698ca34c8062b55cb3e8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/6203508126?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/6203508191?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3160/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Graph Debugger] Expose way to benchmark individual nodes. (#11000)"
+  },
+  {
     "oid": "94269a8952bcaea8566bd66661128c5608acf442",
     "statuses": [
       {
@@ -14,7 +35,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3159/display/redirect"
       }
     ],
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Clean up Hexagon device APIs (#11119)"
-  },
-  {
-    "oid": "dca94ec9d1a2ea553d0f7c2ee09e9487b73d4d35",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/runs/6167457520?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6167457435?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3144/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Add test for registered schedules (#11016)"
   }
 ]
