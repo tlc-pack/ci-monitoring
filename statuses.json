@@ -1,15 +1,78 @@
 [
   {
-    "oid": "e23a1b8d57a296020945d43ef123aad3c16ab4a4",
+    "oid": "b772d272735df025cf1ca0959a678f543c94ece5",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/6235461618?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/6236291723?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6236291766?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3177/display/redirect"
+      }
+    ],
+    "messageHeadline": "Enable USE_CUSTOM_LOGGING for Hexagon Launcher (#11185)"
+  },
+  {
+    "oid": "f14070e8f9410cda073d156c640f9e5ab40fa06d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6236289854?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6236289817?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3176/display/redirect"
+      }
+    ],
+    "messageHeadline": "[AOT] Return module list from AotExecutorFactory (#11191)"
+  },
+  {
+    "oid": "9ea4fa24506de8ae1f2a8ad82edcb25320ba5b41",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6236257840?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6236257925?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3175/display/redirect"
+      }
+    ],
+    "messageHeadline": "[fix] vec * mat in matmul in onnx converter (#11174)"
+  },
+  {
+    "oid": "e23a1b8d57a296020945d43ef123aad3c16ab4a4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/6235461618?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6235461534?check_suite_focus=true"
       },
       {
@@ -250,68 +313,5 @@
       }
     ],
     "messageHeadline": "Bump cmake version for GPU build (#11156)"
-  },
-  {
-    "oid": "7710dfd557752e2a980b90d1b19a66d8dcefb929",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6211361864?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6211362071?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3162/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Get read/write access precisely for opaque access. (#11110)"
-  },
-  {
-    "oid": "72e11baabb0e3a7e311c4b3490b729641c489555",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6208182403?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6208182546?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3161/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CMSIS-NN] Moved TFLite model making to common area (#10939)"
-  },
-  {
-    "oid": "9fd279b40aa77677e9ba698ca34c8062b55cb3e8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6203508126?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6203508191?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3160/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Graph Debugger] Expose way to benchmark individual nodes. (#11000)"
   }
 ]
