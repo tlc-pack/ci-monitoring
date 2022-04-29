@@ -1,5 +1,26 @@
 [
   {
+    "oid": "d393cdfbe964c4e84011a6197cfe7d852025f94a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6231138021?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6231138179?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3170/display/redirect"
+      }
+    ],
+    "messageHeadline": "Update CUDA key to fix #11168. (#11170)"
+  },
+  {
     "oid": "ef79f6122b5dd9d282dec990eb8f48332e58ecc9",
     "statuses": [
       {
@@ -14,7 +35,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3169/display/redirect"
       }
     ],
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[CI][DOCKER] Install blocklint for identifying non-inclusive language\u2026"
-  },
-  {
-    "oid": "c09a24dcdce3bc71133712c003c2135842b64be1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6190186200?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6190185957?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3155/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] Support TVMScript template meta-programming over variable\u2026"
   }
 ]
