@@ -1,5 +1,26 @@
 [
   {
+    "oid": "6b45f8dc4ad0cfecf07dbd031b1e55fe4c9b02c5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6231638636?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6231638751?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3171/display/redirect"
+      }
+    ],
+    "messageHeadline": "Remove micro_dev (#11169)"
+  },
+  {
     "oid": "d393cdfbe964c4e84011a6197cfe7d852025f94a",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Frontend][ONNX] Update softmax calculation method when dimension > 2\u2026"
-  },
-  {
-    "oid": "1147d74ce7687ccf5ea1f5c0579b7f18b37f8412",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6195603031?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6195603297?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3156/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI][DOCKER] Install blocklint for identifying non-inclusive language\u2026"
   }
 ]
