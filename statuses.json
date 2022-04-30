@@ -1,5 +1,26 @@
 [
   {
+    "oid": "5ad70b7a8ed0bcb9fba839f27afab9b3816f4180",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6242093978?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6242094099?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3181/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Update GPU image to use newer CMake (#11194)"
+  },
+  {
     "oid": "17b687e400e39d82f9ff92dadd66076cf429f91f",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Include BUILD_NUMBER in rebuilt docker image. (#11165)"
-  },
-  {
-    "oid": "cedb0ba35ab4b96dfe5fc331e308f02e58670096",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6216036810?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6216036972?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3166/display/redirect"
-      }
-    ],
-    "messageHeadline": "[hexagon][benchmark] Add workload with [1,?] shape (#11163)"
   }
 ]
