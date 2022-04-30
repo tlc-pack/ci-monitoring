@@ -1,5 +1,26 @@
 [
   {
+    "oid": "552f06ed450d59816eb3a85f7e810d9726dcce26",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6236663485?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6236663547?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3178/display/redirect"
+      }
+    ],
+    "messageHeadline": "support round-trip for T.Ptr in tvmscript (#11179)"
+  },
+  {
     "oid": "b772d272735df025cf1ca0959a678f543c94ece5",
     "statuses": [
       {
@@ -46,7 +67,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6236257840?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Add test for depthwise conv2d schedule (#11138)"
-  },
-  {
-    "oid": "d8fa70b233e87d937e7df7e689f0bb3728f1400f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6212787958?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6212788197?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3163/display/redirect"
-      }
-    ],
-    "messageHeadline": "Bump cmake version for GPU build (#11156)"
   }
 ]
