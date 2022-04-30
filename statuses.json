@@ -1,20 +1,41 @@
 [
   {
-    "oid": "552f06ed450d59816eb3a85f7e810d9726dcce26",
+    "oid": "26cefab5df8f24af7dc43a3239dbfd0e858fd1a2",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/6236663485?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/6237054265?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/6236663547?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/6237054280?check_suite_focus=true"
       },
       {
         "name": "tvm-ci/branch",
         "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3179/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Bind iter domain in analyzer in CreatePrimFunc (#11187)"
+  },
+  {
+    "oid": "552f06ed450d59816eb3a85f7e810d9726dcce26",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/6236663485?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/6236663547?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3178/display/redirect"
       }
     ],
@@ -25,17 +46,17 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6236291723?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6236291766?check_suite_focus=true"
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3177/display/redirect"
       }
     ],
@@ -46,17 +67,17 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6236289854?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6236289817?check_suite_focus=true"
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3176/display/redirect"
       }
     ],
@@ -72,12 +93,12 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6236257925?check_suite_focus=true"
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3175/display/redirect"
       }
     ],
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "fix apt install command text in check_arm_qemu() (#11153)"
-  },
-  {
-    "oid": "efbd721618c70c4ad9304a9c69be5407b02b013e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6213594155?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6213594365?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3164/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Add test for depthwise conv2d schedule (#11138)"
   }
 ]
