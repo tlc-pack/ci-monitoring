@@ -1,5 +1,26 @@
 [
   {
+    "oid": "8eae317d28622238c0a6c0f22c0d4a8f9e62f883",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6259935513?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6259935623?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3183/display/redirect"
+      }
+    ],
+    "messageHeadline": "Remove support for run-time linked-params from codegen (#11144)"
+  },
+  {
     "oid": "b6b0bafdef15bb5491c38770668ddf73ddd02af2",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Analysis] Readability/Deduplication in Analyzer CanProve/Simplify (#\u2026"
-  },
-  {
-    "oid": "bc29367b044c552bfcf53aae69ae123652fdc4fb",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6221730998?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6221730965?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3168/display/redirect"
-      }
-    ],
-    "messageHeadline": "Move WrapTimeEvaluator from RPC to profiling, NFC (#11172)"
   }
 ]
