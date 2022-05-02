@@ -1,5 +1,26 @@
 [
   {
+    "oid": "b878dcf316d92a0930df8f293ef9c9a7ee40b2e5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6263695296?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6263695465?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3188/display/redirect"
+      }
+    ],
+    "messageHeadline": "Run cpplint in quiet mode. (#10292)"
+  },
+  {
     "oid": "6e23e22b17315c15f204e6ef7f7cdd70c65fce3b",
     "statuses": [
       {
@@ -9,7 +30,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6262149595?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Make microtvm_template_projects available in tutorials. (#11164)"
-  },
-  {
-    "oid": "3414b3fae062b34b3d51fe8fb855fe7ae017c7d1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6234298674?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6234298770?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3173/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Allow optional params to be None (#11188)"
   }
 ]
