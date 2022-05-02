@@ -1,5 +1,26 @@
 [
   {
+    "oid": "6e23e22b17315c15f204e6ef7f7cdd70c65fce3b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6262149407?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6262149595?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3187/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TRT] Add check to use setBindingDimensions in TRT 6.0.1+ (#11178)"
+  },
+  {
     "oid": "169f824d69442ac9c19f320e2ddb9baec32af68e",
     "statuses": [
       {
@@ -25,7 +46,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6261110495?check_suite_focus=true"
       },
       {
@@ -46,7 +67,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6260794527?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Allow optional params to be None (#11188)"
-  },
-  {
-    "oid": "c6578834bc34a8721844197df03e0cef83440adf",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6232598020?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6232598251?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3172/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Arith] Simplify the output of InverseAffineIterMap (#11167)"
   }
 ]
