@@ -1,5 +1,26 @@
 [
   {
+    "oid": "169f824d69442ac9c19f320e2ddb9baec32af68e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6261781384?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6261781472?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3186/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Reduced duplication in op.h (#11129)"
+  },
+  {
     "oid": "9284d32e3af41f33f2798e862ff3ab5e374c141d",
     "statuses": [
       {
@@ -30,7 +51,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6260794377?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Arith] Simplify the output of InverseAffineIterMap (#11167)"
-  },
-  {
-    "oid": "6b45f8dc4ad0cfecf07dbd031b1e55fe4c9b02c5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6231638636?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6231638751?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3171/display/redirect"
-      }
-    ],
-    "messageHeadline": "Remove micro_dev (#11169)"
   }
 ]
