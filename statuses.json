@@ -1,5 +1,26 @@
 [
   {
+    "oid": "be90c656e81d1c91672a157c986974166ca64e50",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6260794527?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6260794377?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3184/display/redirect"
+      }
+    ],
+    "messageHeadline": "[FIX] Avoid stack overflow in TargetHookVisitor with large modules (#\u2026"
+  },
+  {
     "oid": "8eae317d28622238c0a6c0f22c0d4a8f9e62f883",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Update CUDA key to fix #11168. (#11170)"
-  },
-  {
-    "oid": "ef79f6122b5dd9d282dec990eb8f48332e58ecc9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6229243825?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6229243687?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3169/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Analysis] Readability/Deduplication in Analyzer CanProve/Simplify (#\u2026"
   }
 ]
