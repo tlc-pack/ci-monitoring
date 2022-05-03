@@ -1,5 +1,47 @@
 [
   {
+    "oid": "0fb155c3c955a9ca388802d46328dfa907b18fe1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6278051037?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6278051196?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3193/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Add support for on-device unit testing using gtest (#11145)"
+  },
+  {
+    "oid": "58a85b80ed0387c1964e6a76e7db3f79d1d11034",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6278047436?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6278047550?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3192/display/redirect"
+      }
+    ],
+    "messageHeadline": "[docker][RVM][microtvm] Refactor CMSIS installation to add to RVM (#1\u2026"
+  },
+  {
     "oid": "5733d9754a9904fb5d5c2a6084dd2efe23c01096",
     "statuses": [
       {
@@ -35,7 +77,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3190/display/redirect"
       }
     ],
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "[TIR] Bind iter domain in analyzer in CreatePrimFunc (#11187)"
-  },
-  {
-    "oid": "552f06ed450d59816eb3a85f7e810d9726dcce26",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6236663485?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6236663547?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3178/display/redirect"
-      }
-    ],
-    "messageHeadline": "support round-trip for T.Ptr in tvmscript (#11179)"
-  },
-  {
-    "oid": "b772d272735df025cf1ca0959a678f543c94ece5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6236291723?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6236291766?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3177/display/redirect"
-      }
-    ],
-    "messageHeadline": "Enable USE_CUSTOM_LOGGING for Hexagon Launcher (#11185)"
   }
 ]
