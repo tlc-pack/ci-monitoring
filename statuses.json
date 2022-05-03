@@ -1,10 +1,31 @@
 [
   {
-    "oid": "91d351c1f7972eeb906d85b7f0a5747a918c54fc",
+    "oid": "5733d9754a9904fb5d5c2a6084dd2efe23c01096",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6277170763?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6277170882?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3191/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Match requantize in min/max with activation pattern (#11010)"
+  },
+  {
+    "oid": "91d351c1f7972eeb906d85b7f0a5747a918c54fc",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6276190735?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Enable USE_CUSTOM_LOGGING for Hexagon Launcher (#11185)"
-  },
-  {
-    "oid": "f14070e8f9410cda073d156c640f9e5ab40fa06d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6236289854?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6236289817?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3176/display/redirect"
-      }
-    ],
-    "messageHeadline": "[AOT] Return module list from AotExecutorFactory (#11191)"
   }
 ]
