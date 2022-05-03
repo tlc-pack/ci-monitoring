@@ -1,5 +1,26 @@
 [
   {
+    "oid": "184b3a94740fd35b94704f444706feb5f39bbb0c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6281627367?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6281627439?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3199/display/redirect"
+      }
+    ],
+    "messageHeadline": "[FIX,AUTO_SCHEDULER] Handle manually unrolled loops in auto scheduler\u2026"
+  },
+  {
     "oid": "90084ab8db4a4afdb305a7cfbbc1aca17a2df811",
     "statuses": [
       {
@@ -25,7 +46,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6280593986?check_suite_focus=true"
       },
       {
@@ -72,7 +93,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6280359809?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[TRT] Add check to support split op with TRT 5.1.5+ (#11154)"
-  },
-  {
-    "oid": "be90c656e81d1c91672a157c986974166ca64e50",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6260794527?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6260794377?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3184/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FIX] Avoid stack overflow in TargetHookVisitor with large modules (#\u2026"
   }
 ]
