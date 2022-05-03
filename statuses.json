@@ -1,5 +1,26 @@
 [
   {
+    "oid": "633fb546147c3da5a805d317a44eb4d67e5b8fa8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6279532776?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6279532871?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3194/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Runtime][PipelineExecutor] Refactor PipelineExecutor.py and Add cros\u2026"
+  },
+  {
     "oid": "0fb155c3c955a9ca388802d46328dfa907b18fe1",
     "statuses": [
       {
@@ -9,12 +30,12 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6278051196?check_suite_focus=true"
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3193/display/redirect"
       }
     ],
@@ -35,7 +56,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3192/display/redirect"
       }
     ],
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[ONNX] Reshape op (#11047)"
-  },
-  {
-    "oid": "26cefab5df8f24af7dc43a3239dbfd0e858fd1a2",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6237054265?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6237054280?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3179/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Bind iter domain in analyzer in CreatePrimFunc (#11187)"
   }
 ]
