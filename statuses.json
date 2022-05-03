@@ -1,5 +1,26 @@
 [
   {
+    "oid": "90084ab8db4a4afdb305a7cfbbc1aca17a2df811",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6281084998?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6281085090?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3198/display/redirect"
+      }
+    ],
+    "messageHeadline": "[PROFILER] Theoretical roofline models (#11066)"
+  },
+  {
     "oid": "eb3ce911d04c2d7915d1b2d5f29f333595785b2b",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[FIX] Avoid stack overflow in TargetHookVisitor with large modules (#\u2026"
-  },
-  {
-    "oid": "8eae317d28622238c0a6c0f22c0d4a8f9e62f883",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6259935513?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6259935623?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3183/display/redirect"
-      }
-    ],
-    "messageHeadline": "Remove support for run-time linked-params from codegen (#11144)"
   }
 ]
