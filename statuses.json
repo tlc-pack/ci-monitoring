@@ -1,5 +1,26 @@
 [
   {
+    "oid": "eb3ce911d04c2d7915d1b2d5f29f333595785b2b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6280593986?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6280594096?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3197/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Add schedule and test for conv2d_transpose_nchw (#11175)"
+  },
+  {
     "oid": "5c204c6246c605ef335057bbd042bec0e48d552d",
     "statuses": [
       {
@@ -51,7 +72,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6279532871?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Remove support for run-time linked-params from codegen (#11144)"
-  },
-  {
-    "oid": "b6b0bafdef15bb5491c38770668ddf73ddd02af2",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6243676573?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6243676609?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3182/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay] Create header file for realize.cc (#11093)"
   }
 ]
