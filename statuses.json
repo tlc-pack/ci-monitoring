@@ -1,5 +1,26 @@
 [
   {
+    "oid": "01e160616f71ad7089a91ff7cbe03b8189d2f8cf",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6285086186?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6285086253?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3201/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Logging Interface Unification (#11157)"
+  },
+  {
     "oid": "e1917f4943a23d8a3f32e13855e7fae12478a175",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[TRT] Add check to use setBindingDimensions in TRT 6.0.1+ (#11178)"
-  },
-  {
-    "oid": "169f824d69442ac9c19f320e2ddb9baec32af68e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6261781384?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6261781472?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3186/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Reduced duplication in op.h (#11129)"
   }
 ]
