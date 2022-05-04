@@ -1,5 +1,47 @@
 [
   {
+    "oid": "521b80af217a60bf4be3febd5a1e081eb4f76b93",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6297099578?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6297099658?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3206/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay] Support 'external codegen targets'. (#11173)"
+  },
+  {
+    "oid": "8de64cfba1c694571b0768af19bd5aaab8e07e1e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6297083206?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6297083121?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3205/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Update launcher cmake flags for Android (#11213)"
+  },
+  {
     "oid": "3d0fc36ae4967a5ee24a75cff311828447003235",
     "statuses": [
       {
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "[docker][RVM][microtvm] Refactor CMSIS installation to add to RVM (#1\u2026"
-  },
-  {
-    "oid": "5733d9754a9904fb5d5c2a6084dd2efe23c01096",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6277170763?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6277170882?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3191/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Match requantize in min/max with activation pattern (#11010)"
-  },
-  {
-    "oid": "91d351c1f7972eeb906d85b7f0a5747a918c54fc",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6276190735?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6276190883?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3190/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Update GoogleTest (#11162)"
   }
 ]
