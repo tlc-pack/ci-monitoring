@@ -1,5 +1,26 @@
 [
   {
+    "oid": "bafa3e9c2247eabea1aaa3864dbde1334415d8b8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6298497990?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6298498061?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3208/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Add AoT capability to Hexagon launcher (#11214)"
+  },
+  {
     "oid": "e1acd4b872e02a9bc188dd6e5ff8d0a6a71b285f",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Runtime][PipelineExecutor] Refactor PipelineExecutor.py and Add cros\u2026"
-  },
-  {
-    "oid": "0fb155c3c955a9ca388802d46328dfa907b18fe1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6278051037?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6278051196?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3193/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Add support for on-device unit testing using gtest (#11145)"
   }
 ]
