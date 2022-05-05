@@ -1,15 +1,36 @@
 [
   {
-    "oid": "bafa3e9c2247eabea1aaa3864dbde1334415d8b8",
+    "oid": "aa3bcd9d3374878c5e958b842f51bfd82f0ebd9e",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/6298497990?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/6299025370?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6299025273?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3209/display/redirect"
+      }
+    ],
+    "messageHeadline": "Implemented rpc logging (#10967)"
+  },
+  {
+    "oid": "bafa3e9c2247eabea1aaa3864dbde1334415d8b8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/6298497990?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6298498061?check_suite_focus=true"
       },
       {
@@ -35,7 +56,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3207/display/redirect"
       }
     ],
@@ -77,7 +98,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3205/display/redirect"
       }
     ],
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Hexagon][Runtime] Add QuRT thread pool backend (#11018)"
-  },
-  {
-    "oid": "633fb546147c3da5a805d317a44eb4d67e5b8fa8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6279532776?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6279532871?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3194/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Runtime][PipelineExecutor] Refactor PipelineExecutor.py and Add cros\u2026"
   }
 ]
