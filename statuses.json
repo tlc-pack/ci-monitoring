@@ -1,5 +1,21 @@
 [
   {
+    "oid": "5007033086fbd7be66259740e330cd750358f351",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6300907445?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6300907408?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[TIR] Fix printing enum in TransformLayout::AsPython (#11211)"
+  },
+  {
     "oid": "aa3bcd9d3374878c5e958b842f51bfd82f0ebd9e",
     "statuses": [
       {
@@ -292,26 +308,5 @@
       }
     ],
     "messageHeadline": "Remove device type dependency (#11198)"
-  },
-  {
-    "oid": "530091acceece726a89d88d38375d09764c46786",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6280359716?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6280359809?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3195/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon][Runtime] Add QuRT thread pool backend (#11018)"
   }
 ]
