@@ -1,5 +1,26 @@
 [
   {
+    "oid": "31be30062badf658bc71cb3a906411291a7db12a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6330002634?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6330002707?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3217/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Add schedule primitive SetAxisSeparator (#11225)"
+  },
+  {
     "oid": "4622dfefd6e576241d7275a8696a26f27225b2a3",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[COMMUNITY] Xiyou Zhou -> Committer (#11206)"
-  },
-  {
-    "oid": "a0c61038b6fd25f0a1cf8673a76b9ff6d8fa5052",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6285228637?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6285228582?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3202/display/redirect"
-      }
-    ],
-    "messageHeadline": "[COMMUNITY] Altan Haan -> Reviewers (#11205)"
   }
 ]
