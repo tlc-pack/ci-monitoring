@@ -1,5 +1,26 @@
 [
   {
+    "oid": "fb32997369ddebad7aa8104c4bbba8f4a29d1c23",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6325162031?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6325162209?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3214/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Update all Docker Images to 20220505-060045-500703308 (#11219)"
+  },
+  {
     "oid": "f9d9221739d84ad11b52ee6c08763afa58c16432",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[TIR] Fix an index out of bound issue of compact buffer region (#11201)"
-  },
-  {
-    "oid": "184b3a94740fd35b94704f444706feb5f39bbb0c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6281627367?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6281627439?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3199/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FIX,AUTO_SCHEDULER] Handle manually unrolled loops in auto scheduler\u2026"
   }
 ]
