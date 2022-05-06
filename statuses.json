@@ -1,5 +1,26 @@
 [
   {
+    "oid": "f9d9221739d84ad11b52ee6c08763afa58c16432",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6324981949?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6324981749?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3213/display/redirect"
+      }
+    ],
+    "messageHeadline": "[COMMUNITY] Nicola Lancellotti -> Reviewers (#11226)"
+  },
+  {
     "oid": "ff7efe767a25ca140dc70ed723c37e6a1cd11c77",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[FIX,AUTO_SCHEDULER] Handle manually unrolled loops in auto scheduler\u2026"
-  },
-  {
-    "oid": "90084ab8db4a4afdb305a7cfbbc1aca17a2df811",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6281084998?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6281085090?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3198/display/redirect"
-      }
-    ],
-    "messageHeadline": "[PROFILER] Theoretical roofline models (#11066)"
   }
 ]
