@@ -1,5 +1,26 @@
 [
   {
+    "oid": "bc7f45e76553bf3aeb037de7f967d2acbf2b3891",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6332750525?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6332750567?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3219/display/redirect"
+      }
+    ],
+    "messageHeadline": "[AOT] Enable A-Normal Form in the AOT executor (#11091)"
+  },
+  {
     "oid": "5393f6dc2d9402b3649eb0ead2be5aec3d1a9df9",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Update launcher cmake flags for Android (#11213)"
-  },
-  {
-    "oid": "3d0fc36ae4967a5ee24a75cff311828447003235",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6290601628?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6290601839?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3204/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Update GoogleTest in ci_wasm (#11207)"
   }
 ]
