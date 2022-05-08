@@ -1,5 +1,26 @@
 [
   {
+    "oid": "c75eea775e709653d700443e9436a94e63d0b433",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6338476359?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6338476369?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3222/display/redirect"
+      }
+    ],
+    "messageHeadline": "fix two check typo in codegen (#11240)"
+  },
+  {
     "oid": "62d3a674d822d4ce5265ee30b7ecfe3dd1513e53",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Add AoT capability to Hexagon launcher (#11214)"
-  },
-  {
-    "oid": "e1acd4b872e02a9bc188dd6e5ff8d0a6a71b285f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6297507445?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6297507529?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3207/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Removes directory after stopping the server (#11212)"
   }
 ]
