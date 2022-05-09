@@ -1,5 +1,26 @@
 [
   {
+    "oid": "588679ee83c1e0f0f3d4d33266597f098d5020be",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6354437877?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6354437608?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3227/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Add support for conv2d running on two cores on U65 (#10251)"
+  },
+  {
     "oid": "5ecb8c384a66933fec8c7f033cba03337eb1a726",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[COMMUNITY] Nicola Lancellotti -> Reviewers (#11226)"
-  },
-  {
-    "oid": "ff7efe767a25ca140dc70ed723c37e6a1cd11c77",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6321796433?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6321796571?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3212/display/redirect"
-      }
-    ],
-    "messageHeadline": "Revert \"Implemented rpc logging (#10967)\" (#11227)"
   }
 ]
