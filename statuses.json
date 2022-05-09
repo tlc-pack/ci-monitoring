@@ -1,5 +1,26 @@
 [
   {
+    "oid": "5ecb8c384a66933fec8c7f033cba03337eb1a726",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6350370716?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6350370614?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3226/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Minor corner case fixes (#11218)"
+  },
+  {
     "oid": "731af42d1b851258746919d590d8ade0a1077e63",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Revert \"Implemented rpc logging (#10967)\" (#11227)"
-  },
-  {
-    "oid": "eae836cdf66f54f1e81e78e48bfa051431e8556f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6309150308?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/runs/6309150431?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3211/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix mixed precision output type to original type (#11142)"
   }
 ]
