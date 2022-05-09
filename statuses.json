@@ -1,5 +1,26 @@
 [
   {
+    "oid": "731af42d1b851258746919d590d8ade0a1077e63",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6348278492?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6348278370?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3225/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CMSIS-NN] Increase partitioning accuracy for pooling (#11229)"
+  },
+  {
     "oid": "e854c0a4d6d7f26e882f90bc05eb9c09a318d74c",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Fix mixed precision output type to original type (#11142)"
-  },
-  {
-    "oid": "5007033086fbd7be66259740e330cd750358f351",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6300907445?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/runs/6300907408?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3210/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Fix printing enum in TransformLayout::AsPython (#11211)"
   }
 ]
