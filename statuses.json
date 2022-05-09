@@ -1,5 +1,68 @@
 [
   {
+    "oid": "9e404f09574c8ea82f15d5e6582530a7f7d95b8d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6358946923?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6358947223?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3233/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CMSIS-NN] Fix memory alignment bug in CMSIS-NN demo (#11221)"
+  },
+  {
+    "oid": "3911b85ed7b95a9fc4352e4b16d58fd9cfce497a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6358925337?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6358925208?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3232/display/redirect"
+      }
+    ],
+    "messageHeadline": "[USMP] Change internal workspace section (#11246)"
+  },
+  {
+    "oid": "fb6eb38f311e820ec374113496294268f4160cdb",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6358912279?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6358912164?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3231/display/redirect"
+      }
+    ],
+    "messageHeadline": " [microNPU] Remove spurious prints and improve documentation (#11247)"
+  },
+  {
     "oid": "29c6d93290a0558bc47ec5563f83cb3cf17dfa78",
     "statuses": [
       {
@@ -30,7 +93,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6357527821?check_suite_focus=true"
       },
       {
@@ -250,68 +313,5 @@
       }
     ],
     "messageHeadline": "[AOT] Enable A-Normal Form in the AOT executor (#11091)"
-  },
-  {
-    "oid": "5393f6dc2d9402b3649eb0ead2be5aec3d1a9df9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6330073696?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6330073752?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3218/display/redirect"
-      }
-    ],
-    "messageHeadline": "Update debugger.rst (#11231)"
-  },
-  {
-    "oid": "31be30062badf658bc71cb3a906411291a7db12a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6330002634?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6330002707?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3217/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Add schedule primitive SetAxisSeparator (#11225)"
-  },
-  {
-    "oid": "4622dfefd6e576241d7275a8696a26f27225b2a3",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6329798888?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6329798931?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3216/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] fix docker group exists with different GID (#11184)"
   }
 ]
