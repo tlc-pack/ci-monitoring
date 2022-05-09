@@ -1,5 +1,26 @@
 [
   {
+    "oid": "29c6d93290a0558bc47ec5563f83cb3cf17dfa78",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6357609377?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6357609448?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3230/display/redirect"
+      }
+    ],
+    "messageHeadline": "[tir] remove unused member variable (#11248)"
+  },
+  {
     "oid": "0d6403baa28bcbc4a6858ec61ab103468075e6b3",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[CI] fix docker group exists with different GID (#11184)"
-  },
-  {
-    "oid": "98aa41e329c20a5b8b34a34387fcc9067db5f22a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6328135611?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6328135694?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3215/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay] Flexible shape dispatch transformation (#11199)"
   }
 ]
