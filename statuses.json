@@ -1,5 +1,26 @@
 [
   {
+    "oid": "082807673231d786bd3f2d4ca3526a56d324030b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6378520994?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6378521081?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3239/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci][docker] Add Jinja2 to image (#11265)"
+  },
+  {
     "oid": "0f6abea1cafc664af0cb97f348906ae5715a5f51",
     "statuses": [
       {
@@ -9,7 +30,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6377155538?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[CMSIS-NN] Increase partitioning accuracy for pooling (#11229)"
-  },
-  {
-    "oid": "e854c0a4d6d7f26e882f90bc05eb9c09a318d74c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6347963470?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/runs/6347963635?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3224/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Identify non-inclusive language in commits (#11230)"
   }
 ]
