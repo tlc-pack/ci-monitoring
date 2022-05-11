@@ -1,5 +1,47 @@
 [
   {
+    "oid": "391b4d99ab6d9e0799e5b060ea42893240876be7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6384773826?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6384773940?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3241/display/redirect"
+      }
+    ],
+    "messageHeadline": "[USMP] Fix assert condition for TVMBackendAllocWorkspace (#11270)"
+  },
+  {
+    "oid": "025c3a3f69bce7abbf332cd53452c0abc48468f4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6384688711?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6384688549?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3240/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Use r5.large nodes for builds and lint (#11258)"
+  },
+  {
     "oid": "082807673231d786bd3f2d4ca3526a56d324030b",
     "statuses": [
       {
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "[microNPU] Add support for conv2d running on two cores on U65 (#10251)"
-  },
-  {
-    "oid": "5ecb8c384a66933fec8c7f033cba03337eb1a726",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6350370716?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6350370614?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3226/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ETHOSN] Minor corner case fixes (#11218)"
-  },
-  {
-    "oid": "731af42d1b851258746919d590d8ade0a1077e63",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6348278492?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6348278370?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3225/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CMSIS-NN] Increase partitioning accuracy for pooling (#11229)"
   }
 ]
