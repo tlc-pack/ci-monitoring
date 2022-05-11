@@ -1,10 +1,31 @@
 [
   {
-    "oid": "63b6b49f030c93dd55dee8b3fd5760638b35782b",
+    "oid": "4eb6497adba48f72a59837fe42ae3f56cba3fe35",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6396860295?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6396860368?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3249/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ARM][Strategy] Fix is_int8_hw_support check function (#11193)"
+  },
+  {
+    "oid": "63b6b49f030c93dd55dee8b3fd5760638b35782b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6395564930?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[LLVM] Make sure all functions have target-related attributes set (#1\u2026"
-  },
-  {
-    "oid": "d2a7f93bebcaa08bc06c6e1e20681b31735383f4",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6360166757?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6360166677?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3234/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ROOFLINE] Calculate roofline from existing TIR PrimFunc (#11238)"
   }
 ]
