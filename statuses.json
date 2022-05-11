@@ -1,5 +1,26 @@
 [
   {
+    "oid": "1a8c64bb915e9bcdeefc1933592ceaa08210abff",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6397395308?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6397395247?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3251/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] capture gtest output and return over FFI (#11239)"
+  },
+  {
     "oid": "775457ceff59ccb5dd250e65fd748bcb7be628ec",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[TENSORRT] Improvements and fixes for TensorRT (#11203)"
-  },
-  {
-    "oid": "8d4f4dd73ff2d762ade38aa0f9e8e9fba5f933da",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6364100591?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6364100682?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3236/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microTVM] Add support for host-driven AoT Executor (#11044)"
   }
 ]
