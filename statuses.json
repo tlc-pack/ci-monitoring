@@ -1,5 +1,26 @@
 [
   {
+    "oid": "02047e60f173da12a04e1154cb1ca60015ef422b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6394553609?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6394553481?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3246/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Bump i386 shards (#11271)"
+  },
+  {
     "oid": "f5d2d667f9df573dcfc9e9e6213d9bf7fcf08b53",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[USMP] Change internal workspace section (#11246)"
-  },
-  {
-    "oid": "fb6eb38f311e820ec374113496294268f4160cdb",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6358912279?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6358912164?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3231/display/redirect"
-      }
-    ],
-    "messageHeadline": " [microNPU] Remove spurious prints and improve documentation (#11247)"
   }
 ]
