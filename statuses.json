@@ -1,5 +1,26 @@
 [
   {
+    "oid": "cfb5674c25021f0552ce4162e256ac67005d94d6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6384875516?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6384875638?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3242/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Remove remaining support for the N77 variant (#11262)"
+  },
+  {
     "oid": "391b4d99ab6d9e0799e5b060ea42893240876be7",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Add mobilenet test with AOT (#11204)"
-  },
-  {
-    "oid": "588679ee83c1e0f0f3d4d33266597f098d5020be",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6354437877?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6354437608?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3227/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Add support for conv2d running on two cores on U65 (#10251)"
   }
 ]
