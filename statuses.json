@@ -1,5 +1,26 @@
 [
   {
+    "oid": "775457ceff59ccb5dd250e65fd748bcb7be628ec",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6396942322?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6396942239?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3250/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci][docker] Use sccache everywhere by default (#11267)"
+  },
+  {
     "oid": "4eb6497adba48f72a59837fe42ae3f56cba3fe35",
     "statuses": [
       {
@@ -56,7 +77,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3247/display/redirect"
       }
     ],
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[microTVM] Add support for host-driven AoT Executor (#11044)"
-  },
-  {
-    "oid": "24d6c3f3f0effd303519df14ba35c17118861e70",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6360557497?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6360557572?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3235/display/redirect"
-      }
-    ],
-    "messageHeadline": "[LLVM] Make sure all functions have target-related attributes set (#1\u2026"
   }
 ]
