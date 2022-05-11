@@ -1,5 +1,26 @@
 [
   {
+    "oid": "3be5622c7eb1d3f6fe76da23b02dcb59786abdcf",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6387088690?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6387088547?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3243/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Adding support for Leaky ReLU (#11261)"
+  },
+  {
     "oid": "cfb5674c25021f0552ce4162e256ac67005d94d6",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Hexagon]Disable hexagon gtest (#11236)"
-  },
-  {
-    "oid": "66cc14f69b359f1c28ebfa0ccac420ee948aaeb5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6357505441?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6357505143?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3228/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Add mobilenet test with AOT (#11204)"
   }
 ]
