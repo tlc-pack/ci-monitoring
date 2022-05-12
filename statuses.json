@@ -1,5 +1,26 @@
 [
   {
+    "oid": "53fe5966823eee4e011d7228bceab3c82c1d9caa",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6411859384?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6411859554?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3256/display/redirect"
+      }
+    ],
+    "messageHeadline": "[rpc] Implemented rpc logging (#11232)"
+  },
+  {
     "oid": "1b3990808ec11c0255609a62a2dfc37df9152172",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[ETHOSN] Remove remaining support for the N77 variant (#11262)"
-  },
-  {
-    "oid": "391b4d99ab6d9e0799e5b060ea42893240876be7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6384773826?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6384773940?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3241/display/redirect"
-      }
-    ],
-    "messageHeadline": "[USMP] Fix assert condition for TVMBackendAllocWorkspace (#11270)"
   }
 ]
