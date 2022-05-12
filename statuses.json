@@ -1,5 +1,26 @@
 [
   {
+    "oid": "497f5f62230935a15c1af6d528890f9b76317445",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6401466576?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6401466440?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3253/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix a case of linking to wrong OpenCL library (#11215)"
+  },
+  {
     "oid": "116ccef0244ae8cbdd592887a23407d275de5e83",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[ci][docker] Add Jinja2 to image (#11265)"
-  },
-  {
-    "oid": "0f6abea1cafc664af0cb97f348906ae5715a5f51",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6377155364?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6377155538?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3238/display/redirect"
-      }
-    ],
-    "messageHeadline": "[OpenCL] Change of OpenCL profiling logic (#11180)"
   }
 ]
