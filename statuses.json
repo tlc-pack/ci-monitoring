@@ -1,5 +1,26 @@
 [
   {
+    "oid": "116ccef0244ae8cbdd592887a23407d275de5e83",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6399948002?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6399948065?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3252/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Frontend] [Paddle] fix testing problem (#11259)"
+  },
+  {
     "oid": "1a8c64bb915e9bcdeefc1933592ceaa08210abff",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[OpenCL] Change of OpenCL profiling logic (#11180)"
-  },
-  {
-    "oid": "be2ae9433ebe19738529bb9008251b883a3f5e89",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6376686466?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6376686552?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3237/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TENSORRT] Improvements and fixes for TensorRT (#11203)"
   }
 ]
