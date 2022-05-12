@@ -1,5 +1,26 @@
 [
   {
+    "oid": "366a566977a3a310355e6cf12b6a6ac60af704b4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6404188849?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6404188699?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3254/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Adding a option to enable striping (#11263)"
+  },
+  {
     "oid": "497f5f62230935a15c1af6d528890f9b76317445",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[ci] Use r5.large nodes for builds and lint (#11258)"
-  },
-  {
-    "oid": "082807673231d786bd3f2d4ca3526a56d324030b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6378520994?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6378521081?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3239/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][docker] Add Jinja2 to image (#11265)"
   }
 ]
