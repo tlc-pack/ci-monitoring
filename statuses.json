@@ -1,5 +1,26 @@
 [
   {
+    "oid": "1b3990808ec11c0255609a62a2dfc37df9152172",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6409595526?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6409595648?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3255/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Update existing microNPU tutorial for CMSIS-NN (#11285)"
+  },
+  {
     "oid": "366a566977a3a310355e6cf12b6a6ac60af704b4",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[USMP] Fix assert condition for TVMBackendAllocWorkspace (#11270)"
-  },
-  {
-    "oid": "025c3a3f69bce7abbf332cd53452c0abc48468f4",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6384688711?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6384688549?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3240/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Use r5.large nodes for builds and lint (#11258)"
   }
 ]
