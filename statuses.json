@@ -1,5 +1,26 @@
 [
   {
+    "oid": "aa67a6a01cdc241e63816dd0621474531d3725f5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6430597836?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6430597744?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3278/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Add USMP tests (#11279)"
+  },
+  {
     "oid": "2023a2033904a93c02c668ffe7d68c41a4176f3d",
     "statuses": [
       {
@@ -25,7 +46,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6429773445?check_suite_focus=true"
       },
       {
@@ -98,7 +119,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3273/display/redirect"
       }
     ],
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[microNPU] Add various options to the cascader  (#10509)"
-  },
-  {
-    "oid": "fa834f67ebbe524bd240c31068314d919dcaa302",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6416341010?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6416340928?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3263/display/redirect"
-      }
-    ],
-    "messageHeadline": "Prevent simplifing unit IterVar in CreatePrimFunc (#11292)"
   }
 ]
