@@ -1,5 +1,26 @@
 [
   {
+    "oid": "325f6fed5678a818541d5b3d1df2b887c57e1378",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6437272819?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6437272863?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3282/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Allow Easy Logging Level Setting (#11305)"
+  },
+  {
     "oid": "87366b56ed25456c2d1984183e9fa28e6958f93e",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Remove sim_options from tvm.target.hexagon() (#11293)"
-  },
-  {
-    "oid": "80d827018a940943e3640fd7508c6785d2a0e848",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6426696852?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6426696703?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3267/display/redirect"
-      }
-    ],
-    "messageHeadline": "[logging] LOG(FATAL) calls [[noreturn]] functions (#11310)"
   }
 ]
