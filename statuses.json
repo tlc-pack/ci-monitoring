@@ -1,5 +1,26 @@
 [
   {
+    "oid": "9ab3a1121af47150a46db48cb480ce055f9279c2",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6444530068?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6444530115?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3283/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMScript] Represent ramp as index slice (#11308)"
+  },
+  {
     "oid": "325f6fed5678a818541d5b3d1df2b887c57e1378",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[TIR][Arith] Implemented padded inverses in IndexMap (#11235)"
-  },
-  {
-    "oid": "6c339eaa8ffcde34f183654e3cebae523da5d489",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6426952642?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6426952779?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3268/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Remove sim_options from tvm.target.hexagon() (#11293)"
   }
 ]
