@@ -1,5 +1,26 @@
 [
   {
+    "oid": "672ce336571d1a4cd914c3eff27597e9c7a52527",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6456952679?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6456952551?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3289/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Propagate storage scope of undefined vars in SplitHostDevice. (\u2026"
+  },
+  {
     "oid": "0ed0f1d65126dd24cf35566128fe1a097335b5a4",
     "statuses": [
       {
@@ -46,12 +67,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6455662332?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6455662459?check_suite_focus=true"
       },
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Hexagon][Docker]Add HEXAGON_SDK_ROOT ENV variable (#11291)"
-  },
-  {
-    "oid": "19ce0681498dbf409ebb12906acf5712bf8c7ea7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6429252327?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6429252433?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3274/display/redirect"
-      }
-    ],
-    "messageHeadline": "Avoid use of MemoryInfo when undefined in StorageRewrite (#11254)"
   }
 ]
