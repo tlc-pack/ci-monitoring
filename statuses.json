@@ -1,5 +1,26 @@
 [
   {
+    "oid": "55b6be598a17f3ffc6845db834a1182d447c4c3c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6461071030?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6461071139?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3292/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Support affine expressions as indices in reverse compute inline\u2026"
+  },
+  {
     "oid": "ebf360706792a3022c38086d3e2f1379d9abe457",
     "statuses": [
       {
@@ -9,12 +30,12 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6459702289?check_suite_focus=true"
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3291/display/redirect"
       }
     ],
@@ -35,7 +56,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3290/display/redirect"
       }
     ],
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Add USMP tests (#11279)"
-  },
-  {
-    "oid": "2023a2033904a93c02c668ffe7d68c41a4176f3d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6430156982?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6430156893?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3277/display/redirect"
-      }
-    ],
-    "messageHeadline": "[build][hexagon] Respect x86 C/C++ compiler choice (#11312)"
   }
 ]
