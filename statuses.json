@@ -1,5 +1,26 @@
 [
   {
+    "oid": "02d57bbc062cf9bd47c03d4355ccd660ed68091a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6447009765?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6447009681?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3285/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BugFix][Topi] Fix 'duplicated iterator names in the compute definiti\u2026"
+  },
+  {
     "oid": "eed21eeff2e1bb746b0ae1e7bb5831903e147e77",
     "statuses": [
       {
@@ -14,7 +35,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3284/display/redirect"
       }
     ],
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[QNN] Enable constant folding for QNN operations. (#11228)"
-  },
-  {
-    "oid": "2eb742d6da8246465dff170696c9a9c41d47bb17",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6428128820?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6428128895?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3270/display/redirect"
-      }
-    ],
-    "messageHeadline": "[profiler] Skip i386 skip condition (#11280)"
   }
 ]
