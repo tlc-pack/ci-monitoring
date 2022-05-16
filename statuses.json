@@ -1,5 +1,26 @@
 [
   {
+    "oid": "df51d979d3f2b27b2ece255bf4cbbae4ffe1b1ed",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6455662332?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6455662459?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3286/display/redirect"
+      }
+    ],
+    "messageHeadline": "adding ramana to reviewers list (#11311)"
+  },
+  {
     "oid": "02d57bbc062cf9bd47c03d4355ccd660ed68091a",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[Relay] Fix a corner case of fused identity (#11217)"
-  },
-  {
-    "oid": "d871bbd96f625cfa2a1927473c846a097d486ec3",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6428664720?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6428664601?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3271/display/redirect"
-      }
-    ],
-    "messageHeadline": "[QNN] Enable constant folding for QNN operations. (#11228)"
   }
 ]
