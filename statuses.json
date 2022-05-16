@@ -1,5 +1,26 @@
 [
   {
+    "oid": "ebf360706792a3022c38086d3e2f1379d9abe457",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6459702413?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6459702289?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3291/display/redirect"
+      }
+    ],
+    "messageHeadline": "[build][hexagon] fix several compiler warnings (#11245)"
+  },
+  {
     "oid": "b4c4215d7f7399a999248182ff047e802f2574e7",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[build][hexagon] Respect x86 C/C++ compiler choice (#11312)"
-  },
-  {
-    "oid": "be65732b2a5b4d9a95ea9c401faea76e61def52e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6429773445?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6429773503?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3276/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ROOFLINE] Roofline analysis over RPC (#11252)"
   }
 ]
