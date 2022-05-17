@@ -1,5 +1,26 @@
 [
   {
+    "oid": "1bde845814dd751d11659c3ba6781a6ffc4ede45",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "FAILURE",
+        "url": "https://github.com/apache/tvm/runs/6478323571?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6478323708?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3301/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Use r5.large nodes for hexagon build and some tests (#11120)"
+  },
+  {
     "oid": "9b66f66f63a264b6a7a1f50ace29bf1f9e53d43e",
     "statuses": [
       {
@@ -77,7 +98,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3297/display/redirect"
       }
     ],
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[frontend][ONNX]support ConvTranspose explicitly specified output_sha\u2026"
-  },
-  {
-    "oid": "df51d979d3f2b27b2ece255bf4cbbae4ffe1b1ed",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6455662332?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6455662459?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3286/display/redirect"
-      }
-    ],
-    "messageHeadline": "adding ramana to reviewers list (#11311)"
   }
 ]
