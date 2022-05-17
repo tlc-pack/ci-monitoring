@@ -1,5 +1,26 @@
 [
   {
+    "oid": "9b66f66f63a264b6a7a1f50ace29bf1f9e53d43e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6478139465?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6478139597?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3300/display/redirect"
+      }
+    ],
+    "messageHeadline": "[build] Fix/simplify `ccache` logic (#11189)"
+  },
+  {
     "oid": "2f7d732972f3605bd094609ab9ce5b7d5d80eac9",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "adding ramana to reviewers list (#11311)"
-  },
-  {
-    "oid": "02d57bbc062cf9bd47c03d4355ccd660ed68091a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6447009765?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6447009681?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3285/display/redirect"
-      }
-    ],
-    "messageHeadline": "[BugFix][Topi] Fix 'duplicated iterator names in the compute definiti\u2026"
   }
 ]
