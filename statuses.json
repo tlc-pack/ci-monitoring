@@ -1,5 +1,26 @@
 [
   {
+    "oid": "0705bd765037088eca803b7ac80c8e9d83c06ab2",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6478530311?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6478530378?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3302/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon][Docker] Update image version (#11332)"
+  },
+  {
     "oid": "1bde845814dd751d11659c3ba6781a6ffc4ede45",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Missed out_layout field of conv1d attrs (#11325)"
-  },
-  {
-    "oid": "0e27bf5ee9fed303c8ec21687b1705b806fcd02f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6456297678?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6456298013?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3287/display/redirect"
-      }
-    ],
-    "messageHeadline": "[frontend][ONNX]support ConvTranspose explicitly specified output_sha\u2026"
   }
 ]
