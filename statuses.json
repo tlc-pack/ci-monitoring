@@ -1,5 +1,26 @@
 [
   {
+    "oid": "de21c8f2ef507587fdcc99b851404de5aeeb5a16",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6467410204?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6467410043?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3294/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CMSIS-NN] Align CMSIS-NN in TVM to TFLu SHA (#11273)"
+  },
+  {
     "oid": "a3a4155943cd1a8ced35060902907cde2ba44cd8",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[PYTORCH] [FRONTEND] torch.bool support for data type conversion (#11\u2026"
-  },
-  {
-    "oid": "67a72d27d71d4a44646f84b5e02240e69e1804be",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6431256736?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6431256857?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3279/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][docker] Update images to include sccache changes (#11314)"
   }
 ]
