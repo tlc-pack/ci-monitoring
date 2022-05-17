@@ -1,5 +1,26 @@
 [
   {
+    "oid": "b03f11dfde4566ffeed2b473c3d6e8bd8aea557f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6475086923?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6475087087?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3296/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon]Use requires_hexagon instead of requires_hexagon_toolchain i\u2026"
+  },
+  {
     "oid": "0e2e61912d612f59e867a4d705df86ec96659b07",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Allow Easy Logging Level Setting (#11305)"
-  },
-  {
-    "oid": "87366b56ed25456c2d1984183e9fa28e6958f93e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6436629344?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6436629373?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3281/display/redirect"
-      }
-    ],
-    "messageHeadline": "Oneflow fronted support more model and fix bug (#11321)"
   }
 ]
