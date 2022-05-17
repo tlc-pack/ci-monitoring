@@ -1,5 +1,37 @@
 [
   {
+    "oid": "f755c97492c7e851277b9fc52854afeb18e14952",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3305/display/redirect"
+      }
+    ],
+    "messageHeadline": "[skip ci][ci][docker] Pin Pillow version (#11348)"
+  },
+  {
+    "oid": "75c31cae75fe31af9e0901210ba7fa597e6f153a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6480142203?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6480142278?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3304/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay] Bug fix when applying history using an iterator or records. (\u2026"
+  },
+  {
     "oid": "0e2f869eeadbb349f849ed2add86a622e97053cd",
     "statuses": [
       {
@@ -271,47 +303,5 @@
       }
     ],
     "messageHeadline": "[build][hexagon] fix several compiler warnings (#11245)"
-  },
-  {
-    "oid": "b4c4215d7f7399a999248182ff047e802f2574e7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6459608152?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6459608325?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3290/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add vlogging for type-table registration. (#11041)"
-  },
-  {
-    "oid": "672ce336571d1a4cd914c3eff27597e9c7a52527",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6456952679?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6456952551?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3289/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Propagate storage scope of undefined vars in SplitHostDevice. (\u2026"
   }
 ]
