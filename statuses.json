@@ -1,5 +1,47 @@
 [
   {
+    "oid": "2f7d732972f3605bd094609ab9ce5b7d5d80eac9",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6477690386?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6477690213?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3299/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BYOC] Threadsafe initialization of JSONRuntime module (#11339)"
+  },
+  {
+    "oid": "1c63c3db86e2c67948189579b71c35af1566edd3",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6477684596?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6477684401?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3298/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Runtime][ThreadPool] Enhance CPU Affinity configuration for OpenMP c\u2026"
+  },
+  {
     "oid": "82086ed6bf347f61b58bac7e6bf93586c85fe9a6",
     "statuses": [
       {
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "[BugFix][Topi] Fix 'duplicated iterator names in the compute definiti\u2026"
-  },
-  {
-    "oid": "eed21eeff2e1bb746b0ae1e7bb5831903e147e77",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6446214058?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6446214136?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3284/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ONNX] Fix cast op to/from bfloat16 (#11171)"
-  },
-  {
-    "oid": "9ab3a1121af47150a46db48cb480ce055f9279c2",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6444530068?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6444530115?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3283/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] Represent ramp as index slice (#11308)"
   }
 ]
