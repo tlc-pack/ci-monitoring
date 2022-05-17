@@ -1,5 +1,26 @@
 [
   {
+    "oid": "a3a4155943cd1a8ced35060902907cde2ba44cd8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/6462724985?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/6462724918?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3293/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Simplify indices in layout transform (#11330)"
+  },
+  {
     "oid": "55b6be598a17f3ffc6845db834a1182d447c4c3c",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[ci][docker] Update images to include sccache changes (#11314)"
-  },
-  {
-    "oid": "aa67a6a01cdc241e63816dd0621474531d3725f5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6430597836?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6430597744?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3278/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Add USMP tests (#11279)"
   }
 ]
