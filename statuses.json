@@ -1,5 +1,26 @@
 [
   {
+    "oid": "0e2e61912d612f59e867a4d705df86ec96659b07",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6471201290?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6471201445?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3295/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Update Docker images for new CMSIS-NN (#11336)"
+  },
+  {
     "oid": "de21c8f2ef507587fdcc99b851404de5aeeb5a16",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "Oneflow fronted support more model and fix bug (#11321)"
-  },
-  {
-    "oid": "f59c70226b7df10d059507e02c2dc0f46000405c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6433869100?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6433869127?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3280/display/redirect"
-      }
-    ],
-    "messageHeadline": "[PYTORCH] [FRONTEND] torch.bool support for data type conversion (#11\u2026"
   }
 ]
