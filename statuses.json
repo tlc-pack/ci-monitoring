@@ -1,5 +1,26 @@
 [
   {
+    "oid": "a4be2ed9046a97fa826da9beba64c791e2c36ccf",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6486060611?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6486060444?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3308/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMScript] Support inlined function call as a sugar (#11324)"
+  },
+  {
     "oid": "b5e1fdd3ddb47b097be36c44a8c8de2b305ecd2b",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[CMSIS-NN] Align CMSIS-NN in TVM to TFLu SHA (#11273)"
-  },
-  {
-    "oid": "a3a4155943cd1a8ced35060902907cde2ba44cd8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6462724985?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6462724918?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3293/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Simplify indices in layout transform (#11330)"
   }
 ]
