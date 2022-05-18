@@ -1,5 +1,47 @@
 [
   {
+    "oid": "7f1c54f96ae4099c178f45402f3c156a565dedce",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6487878730?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6487878471?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3310/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix eltwise alter op layout for broadcast axis (#11337)"
+  },
+  {
+    "oid": "dd986fd989cf002ba7c2665867b4212cbebf26dc",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6487832830?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6487832948?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3309/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Runtime]Considering DLTensor's byte_offset in ZeroCopy function (#11\u2026"
+  },
+  {
     "oid": "a4be2ed9046a97fa826da9beba64c791e2c36ccf",
     "statuses": [
       {
@@ -14,7 +56,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3308/display/redirect"
       }
     ],
@@ -261,47 +303,5 @@
       }
     ],
     "messageHeadline": "[Hexagon]Use requires_hexagon instead of requires_hexagon_toolchain i\u2026"
-  },
-  {
-    "oid": "0e2e61912d612f59e867a4d705df86ec96659b07",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6471201290?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6471201445?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3295/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Update Docker images for new CMSIS-NN (#11336)"
-  },
-  {
-    "oid": "de21c8f2ef507587fdcc99b851404de5aeeb5a16",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6467410204?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6467410043?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3294/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CMSIS-NN] Align CMSIS-NN in TVM to TFLu SHA (#11273)"
   }
 ]
