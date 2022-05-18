@@ -1,5 +1,37 @@
 [
   {
+    "oid": "9aaf96ef13ec2f13fe677c023a10c5b81d1f5d8a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6497112129?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6497111858?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[ci][actions] Add more HTTP retries for conda (#11360)"
+  },
+  {
+    "oid": "ab8dfa151dfc965672bb4af6b752ddb50c9176ff",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6497096078?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6497096337?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "use libtorch c++ distribution with c++11 strings in gpu image (#11346)"
+  },
+  {
     "oid": "9273ea5e49ca05404293cb651ced6d0bc0c0f206",
     "statuses": [
       {
@@ -46,7 +78,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6495732360?check_suite_focus=true"
       },
       {
@@ -67,7 +99,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6495676825?check_suite_focus=true"
       },
       {
@@ -88,12 +120,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6495649186?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6495649353?check_suite_focus=true"
       },
       {
@@ -114,12 +146,12 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6495379622?check_suite_focus=true"
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3317/display/redirect"
       }
     ],
@@ -271,47 +303,5 @@
       }
     ],
     "messageHeadline": "Fix eltwise alter op layout for broadcast axis (#11337)"
-  },
-  {
-    "oid": "dd986fd989cf002ba7c2665867b4212cbebf26dc",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6487832830?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6487832948?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3309/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Runtime]Considering DLTensor's byte_offset in ZeroCopy function (#11\u2026"
-  },
-  {
-    "oid": "a4be2ed9046a97fa826da9beba64c791e2c36ccf",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6486060611?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6486060444?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3308/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] Support inlined function call as a sugar (#11324)"
   }
 ]
