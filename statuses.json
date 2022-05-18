@@ -1,5 +1,37 @@
 [
   {
+    "oid": "9273ea5e49ca05404293cb651ced6d0bc0c0f206",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6496298153?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6496298370?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[Hexagon]Refactor Hexagon_SDK_PATH (#11282)"
+  },
+  {
+    "oid": "89a439ed4c8c392f0f144bef325aed64889e91a4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6496287233?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6496287042?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Add unit tests for Hexagon Device API (#11319)"
+  },
+  {
     "oid": "fb0938a5410ad91594cb4b56fdb5a84845197cb0",
     "statuses": [
       {
@@ -271,47 +303,5 @@
       }
     ],
     "messageHeadline": "[TVMScript] Support inlined function call as a sugar (#11324)"
-  },
-  {
-    "oid": "b5e1fdd3ddb47b097be36c44a8c8de2b305ecd2b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6485471275?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6485471103?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3307/display/redirect"
-      }
-    ],
-    "messageHeadline": "Improve error messages with TVM_LOG_DEBUG and add docs (#11344)"
-  },
-  {
-    "oid": "9c27ff5e58bb5ceccbc8a5855689da0cb59dac79",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6484016372?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6484016502?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3306/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Bump job timeout to 3 hours (#11350)"
   }
 ]
