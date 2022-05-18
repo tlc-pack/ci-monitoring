@@ -1,10 +1,21 @@
 [
   {
+    "oid": "c32224f314cf6128ddc2801a120232d9ffa80a54",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3325/display/redirect"
+      }
+    ],
+    "messageHeadline": "[skip ci] Revert \"Fix function number datatype from char to uint16_t \u2026"
+  },
+  {
     "oid": "9aaf96ef13ec2f13fe677c023a10c5b81d1f5d8a",
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6497112129?check_suite_focus=true"
       },
       {
@@ -25,7 +36,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6497096078?check_suite_focus=true"
       },
       {
@@ -292,26 +303,5 @@
       }
     ],
     "messageHeadline": "[TVMC][ETHOSN] Improve target string to avoid duplication (#11272)"
-  },
-  {
-    "oid": "7f1c54f96ae4099c178f45402f3c156a565dedce",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6487878730?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/runs/6487878471?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3310/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix eltwise alter op layout for broadcast axis (#11337)"
   }
 ]
