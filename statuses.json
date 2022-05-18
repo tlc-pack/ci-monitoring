@@ -1,5 +1,26 @@
 [
   {
+    "oid": "95509eed2650d58463c7b1d89c969bd17770864f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6493882211?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6493882478?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3316/display/redirect"
+      }
+    ],
+    "messageHeadline": "fix matmul broadcast (#11242)"
+  },
+  {
     "oid": "fe1090e8aa6b6307f150f46ab968451765a6a079",
     "statuses": [
       {
@@ -25,12 +46,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6492437440?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6492437251?check_suite_focus=true"
       },
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[Hexagon][Docker] Update image version (#11332)"
-  },
-  {
-    "oid": "1bde845814dd751d11659c3ba6781a6ffc4ede45",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/runs/6478323571?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6478323708?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3301/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Use r5.large nodes for hexagon build and some tests (#11120)"
   }
 ]
