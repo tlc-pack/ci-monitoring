@@ -1,5 +1,26 @@
 [
   {
+    "oid": "9c27ff5e58bb5ceccbc8a5855689da0cb59dac79",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6484016372?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6484016502?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3306/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Bump job timeout to 3 hours (#11350)"
+  },
+  {
     "oid": "f755c97492c7e851277b9fc52854afeb18e14952",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[TIR] Support affine expressions as indices in reverse compute inline\u2026"
-  },
-  {
-    "oid": "ebf360706792a3022c38086d3e2f1379d9abe457",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6459702413?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6459702289?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3291/display/redirect"
-      }
-    ],
-    "messageHeadline": "[build][hexagon] fix several compiler warnings (#11245)"
   }
 ]
