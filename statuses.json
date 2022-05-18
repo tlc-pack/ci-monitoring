@@ -1,5 +1,63 @@
 [
   {
+    "oid": "fb0938a5410ad91594cb4b56fdb5a84845197cb0",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6495732360?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6495732448?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[CI] update oneDNN to v2.6 (#11140)"
+  },
+  {
+    "oid": "3fbd9b66b745eb59021c265a9708b6ac08f700d0",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6495676825?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6495676694?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3319/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Added message if test is running on another shard (#11331)"
+  },
+  {
+    "oid": "dd3262fa0438182944794f87ee7dbe8768c89269",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6495649186?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6495649353?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3318/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci][docker] Conditionally link sccache to clang (#11316)"
+  },
+  {
     "oid": "f34bd22ddc4e7064eabe9fac42c4c04f54ede399",
     "statuses": [
       {
@@ -250,58 +308,5 @@
       }
     ],
     "messageHeadline": "[ci] Bump job timeout to 3 hours (#11350)"
-  },
-  {
-    "oid": "f755c97492c7e851277b9fc52854afeb18e14952",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3305/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci][ci][docker] Pin Pillow version (#11348)"
-  },
-  {
-    "oid": "75c31cae75fe31af9e0901210ba7fa597e6f153a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6480142203?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6480142278?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3304/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay] Bug fix when applying history using an iterator or records. (\u2026"
-  },
-  {
-    "oid": "0e2f869eeadbb349f849ed2add86a622e97053cd",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6478735397?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6478735204?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3303/display/redirect"
-      }
-    ],
-    "messageHeadline": "logsoftmax reusing the softmax function (#11141)"
   }
 ]
