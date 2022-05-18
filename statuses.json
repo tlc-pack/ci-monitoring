@@ -1,5 +1,26 @@
 [
   {
+    "oid": "b5e1fdd3ddb47b097be36c44a8c8de2b305ecd2b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6485471275?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6485471103?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3307/display/redirect"
+      }
+    ],
+    "messageHeadline": "Improve error messages with TVM_LOG_DEBUG and add docs (#11344)"
+  },
+  {
     "oid": "9c27ff5e58bb5ceccbc8a5855689da0cb59dac79",
     "statuses": [
       {
@@ -14,7 +35,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3306/display/redirect"
       }
     ],
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[TIR] Simplify indices in layout transform (#11330)"
-  },
-  {
-    "oid": "55b6be598a17f3ffc6845db834a1182d447c4c3c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6461071030?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6461071139?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3292/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Support affine expressions as indices in reverse compute inline\u2026"
   }
 ]
