@@ -1,5 +1,26 @@
 [
   {
+    "oid": "f34bd22ddc4e7064eabe9fac42c4c04f54ede399",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6495379510?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6495379622?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3317/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix function number datatype from char to uint16_t (#10014)"
+  },
+  {
     "oid": "95509eed2650d58463c7b1d89c969bd17770864f",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "logsoftmax reusing the softmax function (#11141)"
-  },
-  {
-    "oid": "0705bd765037088eca803b7ac80c8e9d83c06ab2",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6478530311?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6478530378?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3302/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon][Docker] Update image version (#11332)"
   }
 ]
