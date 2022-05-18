@@ -1,5 +1,26 @@
 [
   {
+    "oid": "fe1090e8aa6b6307f150f46ab968451765a6a079",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6493437756?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6493437616?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3315/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] IndexMap Simplification Constraints (#11342)"
+  },
+  {
     "oid": "2b1e5ce8dc2a23810f47b2b89e36a61c497f5c7f",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[ci] Use r5.large nodes for hexagon build and some tests (#11120)"
-  },
-  {
-    "oid": "9b66f66f63a264b6a7a1f50ace29bf1f9e53d43e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6478139465?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6478139597?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3300/display/redirect"
-      }
-    ],
-    "messageHeadline": "[build] Fix/simplify `ccache` logic (#11189)"
   }
 ]
