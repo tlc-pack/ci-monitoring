@@ -1,5 +1,26 @@
 [
   {
+    "oid": "ddfa1da691bacbb0018b53fca8409c5cfd6dbf3a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6498427847?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6498427793?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3326/display/redirect"
+      }
+    ],
+    "messageHeadline": "[bug fix] skip \"__nop\" functions in graph_executor_debug (#11353)"
+  },
+  {
     "oid": "c32224f314cf6128ddc2801a120232d9ffa80a54",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[microNPU] Add a pass to reorder copy and compute nodes (#10959)"
-  },
-  {
-    "oid": "99caa6533fde8e7264e6659575c03e5ecf54cd6b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6488129904?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6488129794?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3311/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMC][ETHOSN] Improve target string to avoid duplication (#11272)"
   }
 ]
