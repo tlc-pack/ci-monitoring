@@ -1,15 +1,57 @@
 [
   {
-    "oid": "99caa6533fde8e7264e6659575c03e5ecf54cd6b",
+    "oid": "f88a10fb00419c51a116a63f931a98d8286b23de",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/6488129904?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/6489714981?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6489714818?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3313/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TFLite] Add support to int16 data type in TFLite frontend (#10915)"
+  },
+  {
+    "oid": "1b32245f0bb4a76ff10b34c37e01413bda6a4021",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6489067293?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6489067154?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3312/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Add a pass to reorder copy and compute nodes (#10959)"
+  },
+  {
+    "oid": "99caa6533fde8e7264e6659575c03e5ecf54cd6b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/6488129904?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6488129794?check_suite_focus=true"
       },
       {
@@ -25,7 +67,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6487878730?check_suite_focus=true"
       },
       {
@@ -35,7 +77,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3310/display/redirect"
       }
     ],
@@ -46,17 +88,17 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6487832830?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6487832948?check_suite_focus=true"
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3309/display/redirect"
       }
     ],
@@ -261,47 +303,5 @@
       }
     ],
     "messageHeadline": "[BYOC] Threadsafe initialization of JSONRuntime module (#11339)"
-  },
-  {
-    "oid": "1c63c3db86e2c67948189579b71c35af1566edd3",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6477684596?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6477684401?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3298/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Runtime][ThreadPool] Enhance CPU Affinity configuration for OpenMP c\u2026"
-  },
-  {
-    "oid": "82086ed6bf347f61b58bac7e6bf93586c85fe9a6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6475740054?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6475739917?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3297/display/redirect"
-      }
-    ],
-    "messageHeadline": "[docs][microtvm] fix command path in microTVM Reference Virtual Machi\u2026"
   }
 ]
