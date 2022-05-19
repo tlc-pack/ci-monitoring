@@ -1,5 +1,26 @@
 [
   {
+    "oid": "534c38bef3c98f8094bce6780cabdeedb017645b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6506410691?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6506410850?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3328/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay] Support i16, f16 scalars in Relay text (#11224)"
+  },
+  {
     "oid": "ffc0443913d837c6b7a6ec55375ea29cf3d1fa7c",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[microNPU] Fix bug in channels extraction in the matcher (#11335)"
-  },
-  {
-    "oid": "f88a10fb00419c51a116a63f931a98d8286b23de",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6489714981?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6489714818?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3313/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TFLite] Add support to int16 data type in TFLite frontend (#10915)"
   }
 ]
