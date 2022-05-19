@@ -1,5 +1,26 @@
 [
   {
+    "oid": "ffc0443913d837c6b7a6ec55375ea29cf3d1fa7c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6503985488?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6503985633?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3327/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Frontend] [PaddlePaddle] Add split operator (#11354)"
+  },
+  {
     "oid": "ddfa1da691bacbb0018b53fca8409c5cfd6dbf3a",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[TFLite] Add support to int16 data type in TFLite frontend (#10915)"
-  },
-  {
-    "oid": "1b32245f0bb4a76ff10b34c37e01413bda6a4021",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6489067293?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6489067154?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3312/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Add a pass to reorder copy and compute nodes (#10959)"
   }
 ]
