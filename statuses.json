@@ -1,5 +1,26 @@
 [
   {
+    "oid": "a6a34046c432b3766e7c32bbd85c098812a12a68",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6519149305?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6519149391?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3334/display/redirect"
+      }
+    ],
+    "messageHeadline": "fix vec*mat in PyTorch converter (#11347)"
+  },
+  {
     "oid": "e02bf824d11019413ed1f8eb78da2b3427b0f026",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[CI] update oneDNN to v2.6 (#11140)"
-  },
-  {
-    "oid": "3fbd9b66b745eb59021c265a9708b6ac08f700d0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6495676825?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6495676694?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3319/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Added message if test is running on another shard (#11331)"
   }
 ]
