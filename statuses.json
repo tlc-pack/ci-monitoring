@@ -1,10 +1,31 @@
 [
   {
-    "oid": "5e29dddd02193a440c18a1d98fef9023cb008788",
+    "oid": "e02bf824d11019413ed1f8eb78da2b3427b0f026",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6516745899?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6516745933?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3333/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Runtime][PipelineExecutor] Add graph manually splitting logic into t\u2026"
+  },
+  {
+    "oid": "5e29dddd02193a440c18a1d98fef9023cb008788",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6516383254?check_suite_focus=true"
       },
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[CI] Added message if test is running on another shard (#11331)"
-  },
-  {
-    "oid": "dd3262fa0438182944794f87ee7dbe8768c89269",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6495649186?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6495649353?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3318/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][docker] Conditionally link sccache to clang (#11316)"
   }
 ]
