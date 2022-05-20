@@ -1,5 +1,26 @@
 [
   {
+    "oid": "72a5219aad7c9b807169f74f8954580a36c1d85e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6529028727?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6529028866?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3343/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Schedule] Allowed typing.Tuple in tir.schedule._type_checker (#11289)"
+  },
+  {
     "oid": "01b472f4d05584a669dfe2d7378fdaeeb76be378",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "nn.batch_flatten is a reshape op (#11367)"
-  },
-  {
-    "oid": "534c38bef3c98f8094bce6780cabdeedb017645b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6506410691?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6506410850?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3328/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay] Support i16, f16 scalars in Relay text (#11224)"
   }
 ]
