@@ -1,5 +1,21 @@
 [
   {
+    "oid": "7e99d30d63a0c20eedc247c723e2318686b815cf",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6521790914?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6521791025?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[PTX] Intrinsics for async copy from global to shared (SM80) (#11368)"
+  },
+  {
     "oid": "a6a34046c432b3766e7c32bbd85c098812a12a68",
     "statuses": [
       {
@@ -282,26 +298,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Add unit tests for Hexagon Device API (#11319)"
-  },
-  {
-    "oid": "fb0938a5410ad91594cb4b56fdb5a84845197cb0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6495732360?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6495732448?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3320/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] update oneDNN to v2.6 (#11140)"
   }
 ]
