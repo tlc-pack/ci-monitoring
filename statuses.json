@@ -1,5 +1,68 @@
 [
   {
+    "oid": "3248793dd8043e8fd68a4d2d104d61f1f0e71f61",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6521976821?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6521977023?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3338/display/redirect"
+      }
+    ],
+    "messageHeadline": "Add Conv3D bindings (#11381)"
+  },
+  {
+    "oid": "909851c2f5d66337a2897b6a9fb2b2f786bfa917",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6521872794?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6521872917?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3337/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci][easy] Fix parameters for macros (#11377)"
+  },
+  {
+    "oid": "13272a19ef30b32c457a48b04dca72ed05aef784",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6521866164?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6521866341?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3336/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Disable flaky onnx tests (#11376)"
+  },
+  {
     "oid": "7e99d30d63a0c20eedc247c723e2318686b815cf",
     "statuses": [
       {
@@ -11,6 +74,11 @@
         "name": "CI / Windows",
         "status": "PENDING",
         "url": "https://github.com/apache/tvm/runs/6521791025?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3335/display/redirect"
       }
     ],
     "messageHeadline": "[PTX] Intrinsics for async copy from global to shared (SM80) (#11368)"
@@ -235,68 +303,5 @@
       }
     ],
     "messageHeadline": "[ci][actions] Add more HTTP retries for conda (#11360)"
-  },
-  {
-    "oid": "ab8dfa151dfc965672bb4af6b752ddb50c9176ff",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6497096078?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6497096337?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3323/display/redirect"
-      }
-    ],
-    "messageHeadline": "use libtorch c++ distribution with c++11 strings in gpu image (#11346)"
-  },
-  {
-    "oid": "9273ea5e49ca05404293cb651ced6d0bc0c0f206",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6496298153?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6496298370?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3322/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon]Refactor Hexagon_SDK_PATH (#11282)"
-  },
-  {
-    "oid": "89a439ed4c8c392f0f144bef325aed64889e91a4",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6496287233?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6496287042?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3321/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Add unit tests for Hexagon Device API (#11319)"
   }
 ]
