@@ -1,5 +1,47 @@
 [
   {
+    "oid": "0274d8e1f124cecc159abf3234251bf010784581",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6529970326?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6529970442?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3345/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Support tensorization using ldmatrix + MMA (#11355)"
+  },
+  {
+    "oid": "febae407edc0dbc0add23474fb36c29b618f3b4e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6529801305?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6529801176?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3344/display/redirect"
+      }
+    ],
+    "messageHeadline": "[docs] Add lightweight docs image (#11045)"
+  },
+  {
     "oid": "72a5219aad7c9b807169f74f8954580a36c1d85e",
     "statuses": [
       {
@@ -30,12 +72,12 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6528328985?check_suite_focus=true"
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3342/display/redirect"
       }
     ],
@@ -271,47 +313,5 @@
       }
     ],
     "messageHeadline": "[ci] Use S3 for artifacts (#11349)"
-  },
-  {
-    "oid": "8d0da24f12bdccd8b7d0d953c1280142c8600b4d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6511376440?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6511376555?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3330/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] moves conftest.py to tvm.contrib.hexagon so outside repos c\u2026"
-  },
-  {
-    "oid": "16c4faf86c584b22dbeaf304108cee5103ac23c2",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6511023595?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6511023434?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3329/display/redirect"
-      }
-    ],
-    "messageHeadline": "nn.batch_flatten is a reshape op (#11367)"
   }
 ]
