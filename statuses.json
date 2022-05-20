@@ -1,10 +1,21 @@
 [
   {
+    "oid": "85e42b6af38ea3bd0c99c8208d7baed5086a8959",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3346/display/redirect"
+      }
+    ],
+    "messageHeadline": "[skip ci] Fix scipy intersphinx link (#11399)"
+  },
+  {
     "oid": "0274d8e1f124cecc159abf3234251bf010784581",
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6529970326?check_suite_focus=true"
       },
       {
@@ -35,7 +46,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3344/display/redirect"
       }
     ],
@@ -292,26 +303,5 @@
       }
     ],
     "messageHeadline": "[microTVM][ARM] Add Relay tests for conv2d registered schedules (#11250)"
-  },
-  {
-    "oid": "cd269101b7c508f5432ad4aee3c1ff8d07a89142",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6514851263?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6514851428?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3331/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Use S3 for artifacts (#11349)"
   }
 ]
