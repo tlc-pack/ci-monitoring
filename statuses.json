@@ -1,5 +1,68 @@
 [
   {
+    "oid": "c216cbec5bb795a8b13bdb1e177b523e4f7e4ca8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6522140056?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6522139925?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3341/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Bugfix] Fix qnn.quantize type func with incomplete type (#11124)"
+  },
+  {
+    "oid": "c8d22837055d97b2a06b585f0ae2ac5e8269a11d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6522128233?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6522128349?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3340/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix array pointers releasing with `delete` operator (#11328)"
+  },
+  {
+    "oid": "07d91fa04182e77887b379c9644778c2a1a92999",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6522118483?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6522118622?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3339/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix function number datatype from char to uint16_t (#11365)"
+  },
+  {
     "oid": "3248793dd8043e8fd68a4d2d104d61f1f0e71f61",
     "statuses": [
       {
@@ -250,58 +313,5 @@
       }
     ],
     "messageHeadline": "[Frontend] [PaddlePaddle] Add split operator (#11354)"
-  },
-  {
-    "oid": "ddfa1da691bacbb0018b53fca8409c5cfd6dbf3a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6498427847?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6498427793?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3326/display/redirect"
-      }
-    ],
-    "messageHeadline": "[bug fix] skip \"__nop\" functions in graph_executor_debug (#11353)"
-  },
-  {
-    "oid": "c32224f314cf6128ddc2801a120232d9ffa80a54",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3325/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci] Revert \"Fix function number datatype from char to uint16_t \u2026"
-  },
-  {
-    "oid": "9aaf96ef13ec2f13fe677c023a10c5b81d1f5d8a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6497112129?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6497111858?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3324/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][actions] Add more HTTP retries for conda (#11360)"
   }
 ]
