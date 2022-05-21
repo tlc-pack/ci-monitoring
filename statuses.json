@@ -1,5 +1,26 @@
 [
   {
+    "oid": "bbc6ba362f4ff223a6954f79cd237de25209ffbd",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6533961568?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6533961625?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3348/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Meta Schedule] Add Auto-Thread Binding Rule (#11177)"
+  },
+  {
     "oid": "50997035befc0383dcba21808ab739d9ed8df08c",
     "statuses": [
       {
@@ -9,12 +30,12 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6532871296?check_suite_focus=true"
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3347/display/redirect"
       }
     ],
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "fix vec*mat in PyTorch converter (#11347)"
-  },
-  {
-    "oid": "e02bf824d11019413ed1f8eb78da2b3427b0f026",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6516745899?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6516745933?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3333/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Runtime][PipelineExecutor] Add graph manually splitting logic into t\u2026"
   }
 ]
