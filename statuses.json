@@ -1,5 +1,26 @@
 [
   {
+    "oid": "fa5460242e31cea3df7db8efe42da57196eba25e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6537483559?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6537483524?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3350/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Enhance CPU auto vectorization (#11404)"
+  },
+  {
     "oid": "d0999bbd3b40b9466cc3b5c01f2b4b7fb09b478d",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[ci] Disable flaky onnx tests (#11376)"
-  },
-  {
-    "oid": "7e99d30d63a0c20eedc247c723e2318686b815cf",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6521790914?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6521791025?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3335/display/redirect"
-      }
-    ],
-    "messageHeadline": "[PTX] Intrinsics for async copy from global to shared (SM80) (#11368)"
   }
 ]
