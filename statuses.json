@@ -1,5 +1,26 @@
 [
   {
+    "oid": "553eb1acd0c115adea0c7d04ce36e26332339769",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6561224756?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6561224901?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3357/display/redirect"
+      }
+    ],
+    "messageHeadline": "[tests] add utility to replace direct call to pytest.main (#11393)"
+  },
+  {
     "oid": "7bab8f73b5d7ca8a45040b773d9507132fbf0d79",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[Schedule] Allowed typing.Tuple in tir.schedule._type_checker (#11289)"
-  },
-  {
-    "oid": "01b472f4d05584a669dfe2d7378fdaeeb76be378",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6528329090?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6528328985?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3342/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Update CPU and GPU image (#11369)"
   }
 ]
