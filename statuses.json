@@ -1,5 +1,26 @@
 [
   {
+    "oid": "4626a61fe2c9213e156316df300de5a3228b2d11",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6557811662?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6557811328?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3354/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMScript] fix typo for block syntax (#11407)"
+  },
+  {
     "oid": "6247bf48aaa59be9549dd8c342702c6005f16c5f",
     "statuses": [
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "Fix array pointers releasing with `delete` operator (#11328)"
-  },
-  {
-    "oid": "07d91fa04182e77887b379c9644778c2a1a92999",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6522118483?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6522118622?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3339/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix function number datatype from char to uint16_t (#11365)"
   }
 ]
