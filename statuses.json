@@ -1,5 +1,26 @@
 [
   {
+    "oid": "7bab8f73b5d7ca8a45040b773d9507132fbf0d79",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6560953503?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6560953631?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3356/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Revert #10181 / #11399, use non-versioned scipy intersphinx link\u2026"
+  },
+  {
     "oid": "d1467777c66d20f32008c9cbf55d64f0cd8e401a",
     "statuses": [
       {
@@ -14,7 +35,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3355/display/redirect"
       }
     ],
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[CI] Update CPU and GPU image (#11369)"
-  },
-  {
-    "oid": "c216cbec5bb795a8b13bdb1e177b523e4f7e4ca8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6522140056?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6522139925?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3341/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Bugfix] Fix qnn.quantize type func with incomplete type (#11124)"
   }
 ]
