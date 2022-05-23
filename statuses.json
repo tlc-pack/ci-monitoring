@@ -1,15 +1,36 @@
 [
   {
-    "oid": "553eb1acd0c115adea0c7d04ce36e26332339769",
+    "oid": "5655fa853c6527b8ae2a6eb95feccd2162470e34",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/6561224756?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/6562487318?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6562487435?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3358/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Bugfix][TIR] Removed passing of IterMapExpr into PrettyPrint (#11412)"
+  },
+  {
+    "oid": "553eb1acd0c115adea0c7d04ce36e26332339769",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/6561224756?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6561224901?check_suite_focus=true"
       },
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[docs] Add lightweight docs image (#11045)"
-  },
-  {
-    "oid": "72a5219aad7c9b807169f74f8954580a36c1d85e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6529028727?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6529028866?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3343/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Schedule] Allowed typing.Tuple in tir.schedule._type_checker (#11289)"
   }
 ]
