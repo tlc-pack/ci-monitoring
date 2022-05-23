@@ -1,15 +1,36 @@
 [
   {
-    "oid": "4626a61fe2c9213e156316df300de5a3228b2d11",
+    "oid": "d1467777c66d20f32008c9cbf55d64f0cd8e401a",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/6557811662?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/6559039359?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6559039472?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3355/display/redirect"
+      }
+    ],
+    "messageHeadline": "Finish support for list-of-targets (#11382)"
+  },
+  {
+    "oid": "4626a61fe2c9213e156316df300de5a3228b2d11",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/6557811662?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6557811328?check_suite_focus=true"
       },
       {
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[Bugfix] Fix qnn.quantize type func with incomplete type (#11124)"
-  },
-  {
-    "oid": "c8d22837055d97b2a06b585f0ae2ac5e8269a11d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6522128233?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6522128349?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3340/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix array pointers releasing with `delete` operator (#11328)"
   }
 ]
