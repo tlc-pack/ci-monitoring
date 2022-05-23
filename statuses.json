@@ -1,5 +1,47 @@
 [
   {
+    "oid": "df632baa78a4f550759d62fbc252039bfd9a64c3",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6553223577?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6553223350?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3352/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Tests] Replace the Relay interpreter with the VM in the op tests (#1\u2026"
+  },
+  {
+    "oid": "83c9ee1a26ff66b9300615a50b4b400ff83cb06d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6553205705?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6553205442?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3351/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix int8 cuda kernels on older SM versions (#11389)"
+  },
+  {
     "oid": "fa5460242e31cea3df7db8efe42da57196eba25e",
     "statuses": [
       {
@@ -261,47 +303,5 @@
       }
     ],
     "messageHeadline": "Add Conv3D bindings (#11381)"
-  },
-  {
-    "oid": "909851c2f5d66337a2897b6a9fb2b2f786bfa917",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6521872794?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6521872917?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3337/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][easy] Fix parameters for macros (#11377)"
-  },
-  {
-    "oid": "13272a19ef30b32c457a48b04dca72ed05aef784",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6521866164?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6521866341?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3336/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Disable flaky onnx tests (#11376)"
   }
 ]
