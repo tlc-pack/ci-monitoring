@@ -1,5 +1,26 @@
 [
   {
+    "oid": "f3d8ba48511106a5904abea18d5a1f596871ac3d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/6565349679?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/6565349737?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3360/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Regression test for PrettyPrint/IterMapExpr bugfix (#11418)"
+  },
+  {
     "oid": "51c44ff1d65ec80367bb7e80a85a514a501bccd4",
     "statuses": [
       {
@@ -14,7 +35,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3359/display/redirect"
       }
     ],
@@ -282,26 +303,5 @@
       }
     ],
     "messageHeadline": "[skip ci] Fix scipy intersphinx link (#11399)"
-  },
-  {
-    "oid": "0274d8e1f124cecc159abf3234251bf010784581",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6529970326?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/runs/6529970442?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3345/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Support tensorization using ldmatrix + MMA (#11355)"
   }
 ]
