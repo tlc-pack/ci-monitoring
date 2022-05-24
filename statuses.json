@@ -1,5 +1,47 @@
 [
   {
+    "oid": "7d1b82d89d068d122ede1e9d1f2065b0b9e46d91",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6568453040?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6568453298?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3362/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Use HEXAGON_SDK_ROOT in gtest path (#11421)"
+  },
+  {
+    "oid": "c1fc68715a4a0b7465b357833e21273ae52cab14",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6568447966?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6568447845?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3361/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix typo in typing of space generator (#11424)"
+  },
+  {
     "oid": "f3d8ba48511106a5904abea18d5a1f596871ac3d",
     "statuses": [
       {
@@ -271,37 +313,5 @@
       }
     ],
     "messageHeadline": "[Meta Schedule] Add Auto-Thread Binding Rule (#11177)"
-  },
-  {
-    "oid": "50997035befc0383dcba21808ab739d9ed8df08c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6532871205?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6532871296?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3347/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Restructure Jenkinsfile (#11380)"
-  },
-  {
-    "oid": "85e42b6af38ea3bd0c99c8208d7baed5086a8959",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3346/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci] Fix scipy intersphinx link (#11399)"
   }
 ]
