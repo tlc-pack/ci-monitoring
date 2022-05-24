@@ -1,5 +1,26 @@
 [
   {
+    "oid": "603a7b582be72439aa500399bfbfd97e43a6a294",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6568696982?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6568696806?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3363/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Arith] Allow unused trivial iterators in bijective check (#11425)"
+  },
+  {
     "oid": "7d1b82d89d068d122ede1e9d1f2065b0b9e46d91",
     "statuses": [
       {
@@ -292,26 +313,5 @@
       }
     ],
     "messageHeadline": "[FFI] Renamed __VisitAttrs__ and __fvisit__ to non-reserved names (#1\u2026"
-  },
-  {
-    "oid": "bbc6ba362f4ff223a6954f79cd237de25209ffbd",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6533961568?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6533961625?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3348/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Meta Schedule] Add Auto-Thread Binding Rule (#11177)"
   }
 ]
