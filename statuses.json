@@ -1,5 +1,21 @@
 [
   {
+    "oid": "7e83c4a5458db35cdbb1068512b51ca62d3055e1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6586022570?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6586022654?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "unify ssize_t definition (#11384)"
+  },
+  {
     "oid": "7ba8a614b808832a1c1dc7e00d92745bef0ac773",
     "statuses": [
       {
@@ -272,26 +288,5 @@
       }
     ],
     "messageHeadline": "[CI] Revert #10181 / #11399, use non-versioned scipy intersphinx link\u2026"
-  },
-  {
-    "oid": "d1467777c66d20f32008c9cbf55d64f0cd8e401a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6559039359?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6559039472?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3355/display/redirect"
-      }
-    ],
-    "messageHeadline": "Finish support for list-of-targets (#11382)"
   }
 ]
