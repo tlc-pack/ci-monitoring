@@ -1,16 +1,32 @@
 [
   {
+    "oid": "3f53e7a24d5ed00351ec953a59bc235c538cc59c",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3372/display/redirect"
+      }
+    ],
+    "messageHeadline": "[skip ci][ci][paddle] Disable flaky test_forward_group_norm (#11436)"
+  },
+  {
     "oid": "7e83c4a5458db35cdbb1068512b51ca62d3055e1",
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6586022570?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6586022654?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3371/display/redirect"
       }
     ],
     "messageHeadline": "unify ssize_t definition (#11384)"
@@ -267,26 +283,5 @@
       }
     ],
     "messageHeadline": "[tests] add utility to replace direct call to pytest.main (#11393)"
-  },
-  {
-    "oid": "7bab8f73b5d7ca8a45040b773d9507132fbf0d79",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/runs/6560953503?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6560953631?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3356/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Revert #10181 / #11399, use non-versioned scipy intersphinx link\u2026"
   }
 ]
