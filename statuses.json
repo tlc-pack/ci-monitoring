@@ -1,5 +1,31 @@
 [
   {
+    "oid": "bbdb6567113804ce8f93275156e9fd7271293c22",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6596798557?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6596798674?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6596798371?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3376/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Rewrite AllocateNodes with global.vtcm scope after FlattenB\u2026"
+  },
+  {
     "oid": "6c6dfbc90e36370176c192452c1865cd89323f3f",
     "statuses": [
       {
@@ -15,7 +41,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6595584062?check_suite_focus=true"
       },
       {
@@ -25,7 +51,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6595583600?check_suite_focus=true"
       },
       {
@@ -262,26 +288,5 @@
       }
     ],
     "messageHeadline": "Fix typo in typing of space generator (#11424)"
-  },
-  {
-    "oid": "f3d8ba48511106a5904abea18d5a1f596871ac3d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6565349679?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6565349737?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3360/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Regression test for PrettyPrint/IterMapExpr bugfix (#11418)"
   }
 ]
