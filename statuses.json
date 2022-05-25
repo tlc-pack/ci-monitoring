@@ -1,5 +1,31 @@
 [
   {
+    "oid": "c24729564895806de1add10b1bd5d241c57fcac3",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6595584062?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6595583749?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6595583600?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3374/display/redirect"
+      }
+    ],
+    "messageHeadline": "avoid loop dependent allocation in buffer compaction (#11428)"
+  },
+  {
     "oid": "014208e62ad9c0b22dfe9251eee2e47dbe72f999",
     "statuses": [
       {
@@ -267,26 +293,5 @@
       }
     ],
     "messageHeadline": "[Topi][Relay] Support for FP16 ERF on CPU. (#11413)"
-  },
-  {
-    "oid": "5655fa853c6527b8ae2a6eb95feccd2162470e34",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6562487318?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6562487435?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3358/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Bugfix][TIR] Removed passing of IterMapExpr into PrettyPrint (#11412)"
   }
 ]
