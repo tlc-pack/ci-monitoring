@@ -1,5 +1,31 @@
 [
   {
+    "oid": "014208e62ad9c0b22dfe9251eee2e47dbe72f999",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6588361872?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6588362019?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6588361714?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3373/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Android] Update gradle version and other changes in android apps, CI\u2026"
+  },
+  {
     "oid": "3f53e7a24d5ed00351ec953a59bc235c538cc59c",
     "statuses": [
       {
@@ -25,7 +51,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3371/display/redirect"
       }
     ],
@@ -262,26 +288,5 @@
       }
     ],
     "messageHeadline": "[Bugfix][TIR] Removed passing of IterMapExpr into PrettyPrint (#11412)"
-  },
-  {
-    "oid": "553eb1acd0c115adea0c7d04ce36e26332339769",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6561224756?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6561224901?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3357/display/redirect"
-      }
-    ],
-    "messageHeadline": "[tests] add utility to replace direct call to pytest.main (#11393)"
   }
 ]
