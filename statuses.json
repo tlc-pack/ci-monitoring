@@ -1,5 +1,16 @@
 [
   {
+    "oid": "7ba8a614b808832a1c1dc7e00d92745bef0ac773",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3370/display/redirect"
+      }
+    ],
+    "messageHeadline": "[skip ci][ci][AutoScheduler] Disable flaky test_mutate_parallel test \u2026"
+  },
+  {
     "oid": "8a93eaffd193c824ee320e71e8a8049d2c0d2ef0",
     "statuses": [
       {
@@ -14,7 +25,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3369/display/redirect"
       }
     ],
@@ -282,26 +293,5 @@
       }
     ],
     "messageHeadline": "Finish support for list-of-targets (#11382)"
-  },
-  {
-    "oid": "4626a61fe2c9213e156316df300de5a3228b2d11",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6557811662?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6557811328?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3354/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] fix typo for block syntax (#11407)"
   }
 ]
