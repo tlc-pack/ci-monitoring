@@ -1,5 +1,26 @@
 [
   {
+    "oid": "92cc5b075949c5aae30294585594dcdd487cd272",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6599095615?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6599095831?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6599095722?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[ci] Use smaller ARM nodes for build/test (#11445)"
+  },
+  {
     "oid": "bbdb6567113804ce8f93275156e9fd7271293c22",
     "statuses": [
       {
@@ -19,7 +40,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3376/display/redirect"
       }
     ],
@@ -267,26 +288,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Use HEXAGON_SDK_ROOT in gtest path (#11421)"
-  },
-  {
-    "oid": "c1fc68715a4a0b7465b357833e21273ae52cab14",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6568447966?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6568447845?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3361/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix typo in typing of space generator (#11424)"
   }
 ]
