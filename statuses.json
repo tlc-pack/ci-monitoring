@@ -1,5 +1,31 @@
 [
   {
+    "oid": "a9ece3d48b40b4ecc496eaf5b2f831a0e2817620",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6612529238?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6612529360?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6612529604?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3382/display/redirect"
+      }
+    ],
+    "messageHeadline": "[hexagon][testing] refactor benchmark-table code (#11400)"
+  },
+  {
     "oid": "f6ddd52dc00831059966a89dbd67e2fe6c683759",
     "statuses": [
       {
@@ -292,26 +318,5 @@
       }
     ],
     "messageHeadline": "[ci] Add -x to all CI scripts"
-  },
-  {
-    "oid": "cac0445f5e65ac0357ab7db141006d1004750ac4",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6579551818?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6579551970?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3366/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Arith][BoundDeducer] Forbid non-supported expr type in bound deducer\u2026"
   }
 ]
