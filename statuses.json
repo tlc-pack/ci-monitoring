@@ -1,5 +1,31 @@
 [
   {
+    "oid": "2f2169863da120b6fe5ce6ee466393d486009a3c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6614716510?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6614716609?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6614716393?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3386/display/redirect"
+      }
+    ],
+    "messageHeadline": "Minimal example of tuning on hexagon. Fails in fast rpcs currently. (\u2026"
+  },
+  {
     "oid": "b535e46f1663378659cda6ceec22d95ca48536d9",
     "statuses": [
       {
@@ -332,26 +358,5 @@
       }
     ],
     "messageHeadline": "[skip ci][ci][paddle] Disable flaky test_forward_group_norm (#11436)"
-  },
-  {
-    "oid": "7e83c4a5458db35cdbb1068512b51ca62d3055e1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6586022570?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6586022654?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3371/display/redirect"
-      }
-    ],
-    "messageHeadline": "unify ssize_t definition (#11384)"
   }
 ]
