@@ -1,5 +1,57 @@
 [
   {
+    "oid": "52df2e84141b34cda2b1e723c22d38b22796d6a7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6612882359?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6612882731?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6612882513?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3384/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Additional Stmt/Expr simplication rules (#11373)"
+  },
+  {
+    "oid": "db5f4fe65cb01ff50dfd05d2b2d59a66b78079c7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6612876794?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6612876677?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6612876553?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3383/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Runtime] Add 'static_library' runtime::Module (#11442)"
+  },
+  {
     "oid": "a9ece3d48b40b4ecc496eaf5b2f831a0e2817620",
     "statuses": [
       {
@@ -286,37 +338,5 @@
       }
     ],
     "messageHeadline": "[skip ci][ci][AutoScheduler] Disable flaky test_mutate_parallel test \u2026"
-  },
-  {
-    "oid": "8a93eaffd193c824ee320e71e8a8049d2c0d2ef0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6582026716?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6582026575?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3369/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix type checking annotation for Union type (#11430)"
-  },
-  {
-    "oid": "b141cacaf378fe18e0e5318ddb79ea9ff7e35069",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3367/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Add -x to all CI scripts"
   }
 ]
