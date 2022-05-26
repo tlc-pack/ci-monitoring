@@ -1,5 +1,47 @@
 [
   {
+    "oid": "8135860527fa28853660f8f4747795b594b3f53f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6605911907?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6605911736?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6605911578?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[BYOC] Enable bfloat16 in DNNL BYOC (#11111)"
+  },
+  {
+    "oid": "d519b03c53a27f6492840c9b30315c37c9b29aa5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6605882489?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6605882586?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6605882370?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[rust][ci] Disable rust nn tests (#11420)"
+  },
+  {
     "oid": "814f5501bf7d65f759135d214572388b0ddadefc",
     "statuses": [
       {
@@ -256,47 +298,5 @@
       }
     ],
     "messageHeadline": "[ci] Add more shards (#11402)"
-  },
-  {
-    "oid": "59d4c02a2401e6f9ca7599f91dbc1fb080094829",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6569985162?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6569985434?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3364/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Add GitHub Actions bot to merge PRs on demand (#10833)"
-  },
-  {
-    "oid": "603a7b582be72439aa500399bfbfd97e43a6a294",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6568696982?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6568696806?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3363/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Arith] Allow unused trivial iterators in bijective check (#11425)"
   }
 ]
