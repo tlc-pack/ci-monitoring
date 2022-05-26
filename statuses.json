@@ -1,5 +1,31 @@
 [
   {
+    "oid": "814f5501bf7d65f759135d214572388b0ddadefc",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6602267998?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6602268128?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6602268252?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3378/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR][Schedule] Transform layout quality of life (#11269)"
+  },
+  {
     "oid": "92cc5b075949c5aae30294585594dcdd487cd272",
     "statuses": [
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3377/display/redirect"
       }
     ],
@@ -272,26 +298,5 @@
       }
     ],
     "messageHeadline": "[Arith] Allow unused trivial iterators in bijective check (#11425)"
-  },
-  {
-    "oid": "7d1b82d89d068d122ede1e9d1f2065b0b9e46d91",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6568453040?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6568453298?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3362/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Use HEXAGON_SDK_ROOT in gtest path (#11421)"
   }
 ]
