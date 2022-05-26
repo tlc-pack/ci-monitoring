@@ -1,5 +1,26 @@
 [
   {
+    "oid": "4a769c1da3fef695bb865a1ade91236bbd28f37a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6616632471?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6616632654?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6616632342?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "correct doc (#11439)"
+  },
+  {
     "oid": "cfcca59097589a1a35b3a0a9b27b8c5920f49f76",
     "statuses": [
       {
@@ -45,7 +66,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3386/display/redirect"
       }
     ],
@@ -71,7 +92,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3385/display/redirect"
       }
     ],
@@ -347,31 +368,5 @@
       }
     ],
     "messageHeadline": "avoid loop dependent allocation in buffer compaction (#11428)"
-  },
-  {
-    "oid": "014208e62ad9c0b22dfe9251eee2e47dbe72f999",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6588361872?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6588362019?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6588361714?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3373/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Android] Update gradle version and other changes in android apps, CI\u2026"
   }
 ]
