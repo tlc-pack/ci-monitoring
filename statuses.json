@@ -1,15 +1,41 @@
 [
   {
-    "oid": "52df2e84141b34cda2b1e723c22d38b22796d6a7",
+    "oid": "b535e46f1663378659cda6ceec22d95ca48536d9",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/6612882359?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/6614090319?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6614090440?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6614090208?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3385/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ONNX] Add MeanVarianceNormalization op (#11444)"
+  },
+  {
+    "oid": "52df2e84141b34cda2b1e723c22d38b22796d6a7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/6612882359?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6612882731?check_suite_focus=true"
       },
       {
@@ -30,17 +56,17 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6612876794?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6612876677?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6612876553?check_suite_focus=true"
       },
       {
@@ -327,16 +353,5 @@
       }
     ],
     "messageHeadline": "unify ssize_t definition (#11384)"
-  },
-  {
-    "oid": "7ba8a614b808832a1c1dc7e00d92745bef0ac773",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3370/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci][ci][AutoScheduler] Disable flaky test_mutate_parallel test \u2026"
   }
 ]
