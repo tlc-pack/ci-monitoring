@@ -1,10 +1,36 @@
 [
   {
-    "oid": "2f2169863da120b6fe5ce6ee466393d486009a3c",
+    "oid": "cfcca59097589a1a35b3a0a9b27b8c5920f49f76",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6615742766?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6615743088?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6615742514?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3387/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Clean up mergebot commit messages (#11437)"
+  },
+  {
+    "oid": "2f2169863da120b6fe5ce6ee466393d486009a3c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6614716510?check_suite_focus=true"
       },
       {
@@ -14,7 +40,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6614716393?check_suite_focus=true"
       },
       {
@@ -347,16 +373,5 @@
       }
     ],
     "messageHeadline": "[Android] Update gradle version and other changes in android apps, CI\u2026"
-  },
-  {
-    "oid": "3f53e7a24d5ed00351ec953a59bc235c538cc59c",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3372/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci][ci][paddle] Disable flaky test_forward_group_norm (#11436)"
   }
 ]
