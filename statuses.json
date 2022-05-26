@@ -1,5 +1,26 @@
 [
   {
+    "oid": "f6ddd52dc00831059966a89dbd67e2fe6c683759",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6608574886?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6608574776?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6608574668?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[microNPU] Expose compute cycle annotations to TIR lowering (#11288)"
+  },
+  {
     "oid": "8135860527fa28853660f8f4747795b594b3f53f",
     "statuses": [
       {
@@ -277,26 +298,5 @@
       }
     ],
     "messageHeadline": "[Arith][BoundDeducer] Forbid non-supported expr type in bound deducer\u2026"
-  },
-  {
-    "oid": "f327a20dc42c78c8b100f14653cb79cfbcfe2c46",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6578958022?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6578958162?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3365/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Add more shards (#11402)"
   }
 ]
