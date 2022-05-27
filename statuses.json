@@ -1,5 +1,16 @@
 [
   {
+    "oid": "c25305354199dd9b7e29d6a92a2301638559d811",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3397/display/redirect"
+      }
+    ],
+    "messageHeadline": "[skip ci][ci][docker] Prune all non-relevant images (#11491)"
+  },
+  {
     "oid": "2e1666d3864153231104954b88e63cb7a93e940e",
     "statuses": [
       {
@@ -66,7 +77,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6629584675?check_suite_focus=true"
       },
       {
@@ -347,31 +358,5 @@
       }
     ],
     "messageHeadline": "[Runtime] Add 'static_library' runtime::Module (#11442)"
-  },
-  {
-    "oid": "a9ece3d48b40b4ecc496eaf5b2f831a0e2817620",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6612529238?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6612529360?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6612529604?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3382/display/redirect"
-      }
-    ],
-    "messageHeadline": "[hexagon][testing] refactor benchmark-table code (#11400)"
   }
 ]
