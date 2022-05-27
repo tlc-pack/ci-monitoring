@@ -1,5 +1,31 @@
 [
   {
+    "oid": "80d9549190b60a9d36ef93e6d842de26515d6718",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6633152600?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6633152679?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6633152640?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3400/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Meta Schedule] Fix testing issues for models with more than one inpu\u2026"
+  },
+  {
     "oid": "903f785d7dda2b64acca71566ddcbb83f5cd412c",
     "statuses": [
       {
@@ -9,12 +35,12 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6632555480?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6632555559?check_suite_focus=true"
       },
       {
@@ -317,31 +343,5 @@
       }
     ],
     "messageHeadline": "Minimal example of tuning on hexagon. Fails in fast rpcs currently. (\u2026"
-  },
-  {
-    "oid": "b535e46f1663378659cda6ceec22d95ca48536d9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6614090319?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6614090440?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6614090208?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3385/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ONNX] Add MeanVarianceNormalization op (#11444)"
   }
 ]
