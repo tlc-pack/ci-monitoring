@@ -1,5 +1,26 @@
 [
   {
+    "oid": "68950873a30638dd1623e15f325770fe87178cce",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6621113627?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6621113807?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6621113728?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[RUST] Add conv3d transpose Rust bindings (#11471)"
+  },
+  {
     "oid": "4a769c1da3fef695bb865a1ade91236bbd28f37a",
     "statuses": [
       {
@@ -347,31 +368,5 @@
       }
     ],
     "messageHeadline": "[skip ci][ci] Fix broken test skips (#11456)"
-  },
-  {
-    "oid": "c24729564895806de1add10b1bd5d241c57fcac3",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6595584062?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6595583749?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6595583600?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3374/display/redirect"
-      }
-    ],
-    "messageHeadline": "avoid loop dependent allocation in buffer compaction (#11428)"
   }
 ]
