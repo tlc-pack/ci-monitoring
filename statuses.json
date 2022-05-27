@@ -1,5 +1,26 @@
 [
   {
+    "oid": "2a2d91077f3cc307b6029e49c574d2c6ab1b87b0",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6628398070?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6628398248?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6628397896?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[VM] Memory alignment check for `set_input` in Virtual Machine (#11391)"
+  },
+  {
     "oid": "aaee8aa441ba9be3934dbfa358767d54f2b2e159",
     "statuses": [
       {
@@ -347,31 +368,5 @@
       }
     ],
     "messageHeadline": "[ci] Use smaller ARM nodes for build/test (#11445)"
-  },
-  {
-    "oid": "bbdb6567113804ce8f93275156e9fd7271293c22",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6596798557?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6596798674?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6596798371?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3376/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Rewrite AllocateNodes with global.vtcm scope after FlattenB\u2026"
   }
 ]
