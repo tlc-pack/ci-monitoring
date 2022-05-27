@@ -1,5 +1,31 @@
 [
   {
+    "oid": "2e1666d3864153231104954b88e63cb7a93e940e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6629998489?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6629998406?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6629998280?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3396/display/redirect"
+      }
+    ],
+    "messageHeadline": "[FFI][CYTHON] Release GIL when calling into long running functions (#\u2026"
+  },
+  {
     "oid": "01ee1bca2cb2ddd9af3de4bb2c3a33ac175a6254",
     "statuses": [
       {
@@ -87,7 +113,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6628641758?check_suite_focus=true"
       },
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[hexagon][testing] refactor benchmark-table code (#11400)"
-  },
-  {
-    "oid": "f6ddd52dc00831059966a89dbd67e2fe6c683759",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6608574886?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6608574776?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6608574668?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3381/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Expose compute cycle annotations to TIR lowering (#11288)"
   }
 ]
