@@ -1,5 +1,31 @@
 [
   {
+    "oid": "6f3c8bda06183a43db4ab155d7e75dd5eac5db3c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6629585777?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6629585880?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6629584675?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3394/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CUDA] Allow dynamic shmem of size > 48K in runtime (#11478)"
+  },
+  {
     "oid": "bc492acd7677dd7875b14f9ee46beef658955441",
     "statuses": [
       {
@@ -30,7 +56,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6628641398?check_suite_focus=true"
       },
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[BYOC] Enable bfloat16 in DNNL BYOC (#11111)"
-  },
-  {
-    "oid": "d519b03c53a27f6492840c9b30315c37c9b29aa5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6605882489?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6605882586?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6605882370?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3379/display/redirect"
-      }
-    ],
-    "messageHeadline": "[rust][ci] Disable rust nn tests (#11420)"
   }
 ]
