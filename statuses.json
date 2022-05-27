@@ -1,10 +1,36 @@
 [
   {
+    "oid": "903f785d7dda2b64acca71566ddcbb83f5cd412c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6632555375?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6632555480?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6632555559?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3399/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Use smaller ARM nodes for build/test (#11445) (#11457)"
+  },
+  {
     "oid": "5419ffed08db437ffee6f57dfe307fc49478d285",
     "statuses": [
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3398/display/redirect"
       }
     ],
@@ -317,31 +343,5 @@
       }
     ],
     "messageHeadline": "[ONNX] Add MeanVarianceNormalization op (#11444)"
-  },
-  {
-    "oid": "52df2e84141b34cda2b1e723c22d38b22796d6a7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6612882359?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6612882731?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6612882513?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3384/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Additional Stmt/Expr simplication rules (#11373)"
   }
 ]
