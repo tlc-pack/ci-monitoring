@@ -1,5 +1,31 @@
 [
   {
+    "oid": "afb67e64a1891e1d1aab03c4614fca11473e7b27",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6633346993?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6633346947?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6633346902?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3401/display/redirect"
+      }
+    ],
+    "messageHeadline": "Silence unnecessary 'host' deprecation warnings (#11499)"
+  },
+  {
     "oid": "80d9549190b60a9d36ef93e6d842de26515d6718",
     "statuses": [
       {
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3399/display/redirect"
       }
     ],
@@ -317,31 +343,5 @@
       }
     ],
     "messageHeadline": "[ci] Clean up mergebot commit messages (#11437)"
-  },
-  {
-    "oid": "2f2169863da120b6fe5ce6ee466393d486009a3c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6614716510?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6614716609?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6614716393?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3386/display/redirect"
-      }
-    ],
-    "messageHeadline": "Minimal example of tuning on hexagon. Fails in fast rpcs currently. (\u2026"
   }
 ]
