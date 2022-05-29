@@ -1,5 +1,31 @@
 [
   {
+    "oid": "d4a396825bead4c617a4867a10dd6eff7797add4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6644441322?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6644441384?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6644441351?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3406/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Add schedule primitive TransformBlockLayout (#11485)"
+  },
+  {
     "oid": "dd2897cb69d56b36a2d15daf9a43cc22f116b4c7",
     "statuses": [
       {
@@ -332,31 +358,5 @@
       }
     ],
     "messageHeadline": "Add unidirectional sequence lstm (#11183)"
-  },
-  {
-    "oid": "2a2d91077f3cc307b6029e49c574d2c6ab1b87b0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6628398070?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6628398248?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6628397896?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3391/display/redirect"
-      }
-    ],
-    "messageHeadline": "[VM] Memory alignment check for `set_input` in Virtual Machine (#11391)"
   }
 ]
