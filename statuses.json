@@ -1,5 +1,31 @@
 [
   {
+    "oid": "c6415d14928d1e09f4bd3105c7a5ddf87f92166b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6654235850?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6654236051?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6654235727?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3409/display/redirect"
+      }
+    ],
+    "messageHeadline": "Canonicalize type annotation during construction of Var and SizeVar (\u2026"
+  },
+  {
     "oid": "559f0c76a0a8ee9c1620ee29ecd8ce1ced07093e",
     "statuses": [
       {
@@ -337,31 +363,5 @@
       }
     ],
     "messageHeadline": "Fix structural error reporting on root block (#11477)"
-  },
-  {
-    "oid": "6f3c8bda06183a43db4ab155d7e75dd5eac5db3c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6629585777?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6629585880?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6629584675?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3394/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CUDA] Allow dynamic shmem of size > 48K in runtime (#11478)"
   }
 ]
