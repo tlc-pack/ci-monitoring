@@ -1,5 +1,31 @@
 [
   {
+    "oid": "ac5d7813dff34566645787c9f3f2e6576dd723da",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6676951185?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6676951475?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6676950943?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3415/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Fix flaky compute cycle annotation test (#11510)"
+  },
+  {
     "oid": "c1b22eefb5dc5c00d945a4cae6c91ce078afcc7d",
     "statuses": [
       {
@@ -352,31 +378,5 @@
       }
     ],
     "messageHeadline": "Silence unnecessary 'host' deprecation warnings (#11499)"
-  },
-  {
-    "oid": "80d9549190b60a9d36ef93e6d842de26515d6718",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6633152600?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6633152679?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6633152640?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3400/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Meta Schedule] Fix testing issues for models with more than one inpu\u2026"
   }
 ]
