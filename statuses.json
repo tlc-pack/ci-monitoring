@@ -1,10 +1,36 @@
 [
   {
-    "oid": "ac5d7813dff34566645787c9f3f2e6576dd723da",
+    "oid": "2252f958f75c6e33b946d23f1ebb803d41f0b63d",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6678105447?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6678105583?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6678105329?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3416/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microTVM][ARM][Zephyr] Add CMSIS dependencies in Zephyr project buil\u2026"
+  },
+  {
+    "oid": "ac5d7813dff34566645787c9f3f2e6576dd723da",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6676951185?check_suite_focus=true"
       },
       {
@@ -14,7 +40,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6676950943?check_suite_focus=true"
       },
       {
@@ -30,12 +56,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6676766897?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6676767109?check_suite_focus=true"
       },
       {
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3414/display/redirect"
       }
     ],
@@ -352,31 +378,5 @@
       }
     ],
     "messageHeadline": "[Software pipeline] Fix hardcoded index in `access_ptr` rewriting, ad\u2026"
-  },
-  {
-    "oid": "afb67e64a1891e1d1aab03c4614fca11473e7b27",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6633346993?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6633346947?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6633346902?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3401/display/redirect"
-      }
-    ],
-    "messageHeadline": "Silence unnecessary 'host' deprecation warnings (#11499)"
   }
 ]
