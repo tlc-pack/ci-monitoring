@@ -1,5 +1,31 @@
 [
   {
+    "oid": "bc14f26aca1963a3ab858afa92a799729f6bd145",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6662384714?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6662384740?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6662384685?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3411/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Frontend][PyTorch][Bugfix] Ignore Cuda in PyTorch version number whe\u2026"
+  },
+  {
     "oid": "119afda6344785aee5cf1729eec30624ac068f33",
     "statuses": [
       {
@@ -337,31 +363,5 @@
       }
     ],
     "messageHeadline": "[skip ci][ci][docker] Prune all non-relevant images (#11491)"
-  },
-  {
-    "oid": "2e1666d3864153231104954b88e63cb7a93e940e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6629998489?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6629998406?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6629998280?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3396/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FFI][CYTHON] Release GIL when calling into long running functions (#\u2026"
   }
 ]
