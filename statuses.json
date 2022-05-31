@@ -1,5 +1,31 @@
 [
   {
+    "oid": "c1b22eefb5dc5c00d945a4cae6c91ce078afcc7d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6676766897?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6676767109?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6676767009?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3414/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Arith] Merge surjective/non-surjective iter mapping detections (#11287)"
+  },
+  {
     "oid": "3e7916d30ad2b453dc6879275551b5c6a36f14cc",
     "statuses": [
       {
@@ -352,31 +378,5 @@
       }
     ],
     "messageHeadline": "[Meta Schedule] Fix testing issues for models with more than one inpu\u2026"
-  },
-  {
-    "oid": "903f785d7dda2b64acca71566ddcbb83f5cd412c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6632555375?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6632555480?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6632555559?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3399/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Use smaller ARM nodes for build/test (#11445) (#11457)"
   }
 ]
