@@ -1,5 +1,31 @@
 [
   {
+    "oid": "efec735626cb2932df7771bdff60c2e9ff1b14da",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6665923803?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6665924095?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6665923967?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3412/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Frontend] [PaddlePaddle] group_norm adjusts test accuracy (#11450)"
+  },
+  {
     "oid": "bc14f26aca1963a3ab858afa92a799729f6bd145",
     "statuses": [
       {
@@ -352,16 +378,5 @@
       }
     ],
     "messageHeadline": "[skip ci] Revert \"[skip ci][ci][docker] Prune all non-relevant images\u2026"
-  },
-  {
-    "oid": "c25305354199dd9b7e29d6a92a2301638559d811",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3397/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci][ci][docker] Prune all non-relevant images (#11491)"
   }
 ]
