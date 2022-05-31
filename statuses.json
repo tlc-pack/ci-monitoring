@@ -1,5 +1,31 @@
 [
   {
+    "oid": "a71536a130685a50582eea8c993030872cddb145",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6679886161?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6679886039?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6679886243?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3417/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Enable Task Filtering (#11512)"
+  },
+  {
     "oid": "2252f958f75c6e33b946d23f1ebb803d41f0b63d",
     "statuses": [
       {
@@ -352,31 +378,5 @@
       }
     ],
     "messageHeadline": "[FIX] Add braces to if-else statements (#11493)"
-  },
-  {
-    "oid": "2389f1f0d82bfc78e5fb4464423326478b685aed",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6633579702?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6633579764?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6633579667?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3402/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Software pipeline] Fix hardcoded index in `access_ptr` rewriting, ad\u2026"
   }
 ]
