@@ -1,5 +1,31 @@
 [
   {
+    "oid": "0cd4dd2f2d6cab265844de0cb8745e0de8d22571",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6689712436?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6689712594?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6689712736?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3418/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BugFix] Add lock for ModuleNode::GetFuncFromEnv (#11467)"
+  },
+  {
     "oid": "a71536a130685a50582eea8c993030872cddb145",
     "statuses": [
       {
@@ -352,31 +378,5 @@
       }
     ],
     "messageHeadline": "[Pass] Add MaxPool, AvgPool to FoldExplicitPadding (#11494)"
-  },
-  {
-    "oid": "2b0e082f39b408f750a9c6f6181a75e8a2e7a0e2",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6633585075?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6633585037?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6633585000?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3403/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FIX] Add braces to if-else statements (#11493)"
   }
 ]
