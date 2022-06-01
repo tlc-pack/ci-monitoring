@@ -1,5 +1,53 @@
 [
   {
+    "oid": "a1d95ec1ea30ac70e544a3cf10c839e228d407bf",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3424/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Add conditionals for non-Python tests (#11438)"
+  },
+  {
+    "oid": "b9890dbbebeff95202a7dc65cbce3e808869cd33",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3423/display/redirect"
+      }
+    ],
+    "messageHeadline": "[skip ci][ci][docs] Add CI infra docs (#11403)"
+  },
+  {
+    "oid": "24b93f56fdbb723cc0f631ce4da0e27d7fb212b1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6696894940?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6696895108?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6696895328?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3422/display/redirect"
+      }
+    ],
+    "messageHeadline": "[VM] check DLManagedTensor for conditions to construct NDArray (#11504)"
+  },
+  {
     "oid": "89c02358a13f2e744580c4615bfeb06962d71965",
     "statuses": [
       {
@@ -14,7 +62,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6695881337?check_suite_focus=true"
       },
       {
@@ -295,88 +343,5 @@
       }
     ],
     "messageHeadline": "[microNPU] add E2E tests with cascader wo striping (#11410)"
-  },
-  {
-    "oid": "c6415d14928d1e09f4bd3105c7a5ddf87f92166b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6654235850?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6654236051?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6654235727?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3409/display/redirect"
-      }
-    ],
-    "messageHeadline": "Canonicalize type annotation during construction of Var and SizeVar (\u2026"
-  },
-  {
-    "oid": "559f0c76a0a8ee9c1620ee29ecd8ce1ced07093e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6650215659?check_suite_focus=true"
-      },
-      {
-        "name": "PR / cc-reviewers",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6653157069?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6650215779?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6650215488?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3408/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Pass] Add utility that asserts that IRModule is not mutated in a pas\u2026"
-  },
-  {
-    "oid": "d0b3ec93f9b2ba86a6736da17bace814eef6695a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6650152273?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6650152384?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6650152537?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3407/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] Allow T.Buffer[] arg annotation to use int as shape (#11454)"
   }
 ]
