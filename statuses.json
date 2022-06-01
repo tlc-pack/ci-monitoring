@@ -1,5 +1,57 @@
 [
   {
+    "oid": "a329df40289eeca45163454bc1998a998d151d26",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6697289343?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6697289512?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6697289160?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3426/display/redirect"
+      }
+    ],
+    "messageHeadline": "[COMMUNITY] driazati -> Committer (#11525)"
+  },
+  {
+    "oid": "e84f163f573c07bb9f41209b8f722c76a92ae65d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6697119759?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6697119889?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6697119648?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3425/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TE] Optimized version of concatenation layer (#11341)"
+  },
+  {
     "oid": "a1d95ec1ea30ac70e544a3cf10c839e228d407bf",
     "statuses": [
       {
@@ -52,12 +104,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6695881025?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6695881177?check_suite_focus=true"
       },
       {
@@ -67,7 +119,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3421/display/redirect"
       }
     ],
@@ -291,57 +343,5 @@
       }
     ],
     "messageHeadline": "[Frontend] [PaddlePaddle] group_norm adjusts test accuracy (#11450)"
-  },
-  {
-    "oid": "bc14f26aca1963a3ab858afa92a799729f6bd145",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6662384714?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6662384740?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6662384685?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3411/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Frontend][PyTorch][Bugfix] Ignore Cuda in PyTorch version number whe\u2026"
-  },
-  {
-    "oid": "119afda6344785aee5cf1729eec30624ac068f33",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6657725270?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6657725438?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6657725117?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3410/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] add E2E tests with cascader wo striping (#11410)"
   }
 ]
