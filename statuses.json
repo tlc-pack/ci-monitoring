@@ -1,5 +1,31 @@
 [
   {
+    "oid": "c78539cc59b60b77794276699f9430cd5e838106",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6715375883?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6715375741?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6715376060?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3438/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR][Arith] Additional Simplifications Inside Conditionals (#11524)"
+  },
+  {
     "oid": "03eefe0b41587fecb910f3543b0ddc1adeb4fcff",
     "statuses": [
       {
@@ -56,7 +82,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6713890352?check_suite_focus=true"
       },
       {
@@ -71,7 +97,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3435/display/redirect"
       }
     ],
@@ -347,16 +373,5 @@
       }
     ],
     "messageHeadline": "[ci] Add conditionals for non-Python tests (#11438)"
-  },
-  {
-    "oid": "b9890dbbebeff95202a7dc65cbce3e808869cd33",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3423/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci][ci][docs] Add CI infra docs (#11403)"
   }
 ]
