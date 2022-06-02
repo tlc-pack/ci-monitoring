@@ -1,5 +1,31 @@
 [
   {
+    "oid": "4c513b9de3ebfdf4a1356f0daf7350e74ca74005",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6705137583?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6705137671?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6705137431?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3430/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Bugfix][TIR] Handle bool tensor in FlattenBuffer (#11532)"
+  },
+  {
     "oid": "e60849c89934caa5709d4c42c5b7eda3f26c5e76",
     "statuses": [
       {
@@ -332,31 +358,5 @@
       }
     ],
     "messageHeadline": "[microTVM][ARM][Zephyr] Add CMSIS dependencies in Zephyr project buil\u2026"
-  },
-  {
-    "oid": "ac5d7813dff34566645787c9f3f2e6576dd723da",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6676951185?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6676951475?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6676950943?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3415/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Fix flaky compute cycle annotation test (#11510)"
   }
 ]
