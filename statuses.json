@@ -1,5 +1,26 @@
 [
   {
+    "oid": "12a0f3edcf8295288f4aa9ec3dbb6771c3a1a301",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6716545860?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6716545965?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6716546077?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[TIR] Add schedule primitive ReIndex (#11515)"
+  },
+  {
     "oid": "c78539cc59b60b77794276699f9430cd5e838106",
     "statuses": [
       {
@@ -35,7 +56,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6715026999?check_suite_focus=true"
       },
       {
@@ -362,16 +383,5 @@
       }
     ],
     "messageHeadline": "[TE] Optimized version of concatenation layer (#11341)"
-  },
-  {
-    "oid": "a1d95ec1ea30ac70e544a3cf10c839e228d407bf",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3424/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Add conditionals for non-Python tests (#11438)"
   }
 ]
