@@ -1,5 +1,31 @@
 [
   {
+    "oid": "03eefe0b41587fecb910f3543b0ddc1adeb4fcff",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6715026647?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6715026999?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6715026856?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3437/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Add @tvm-bot rerun (#11480)"
+  },
+  {
     "oid": "a2f89c53cc761a9ef8fa918105486b81a539a02b",
     "statuses": [
       {
@@ -40,7 +66,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6713890201?check_suite_focus=true"
       },
       {
@@ -61,7 +87,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6713394348?check_suite_focus=true"
       },
       {
@@ -332,31 +358,5 @@
       }
     ],
     "messageHeadline": "[skip ci][ci][docs] Add CI infra docs (#11403)"
-  },
-  {
-    "oid": "24b93f56fdbb723cc0f631ce4da0e27d7fb212b1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6696894940?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6696895108?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6696895328?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3422/display/redirect"
-      }
-    ],
-    "messageHeadline": "[VM] check DLManagedTensor for conditions to construct NDArray (#11504)"
   }
 ]
