@@ -1,5 +1,31 @@
 [
   {
+    "oid": "c6d7ecd0b5e71796c79b001f439322ae1d0ddbe0",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6703671588?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6703671702?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6703671489?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3428/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TE] Fix `te.CreatePrimFunc` for 0-dim computation (#11518)"
+  },
+  {
     "oid": "ce60bfa0ff014752e879ea5eae7ad87a9d32bc2c",
     "statuses": [
       {
@@ -332,16 +358,5 @@
       }
     ],
     "messageHeadline": "[Arith] Merge surjective/non-surjective iter mapping detections (#11287)"
-  },
-  {
-    "oid": "3e7916d30ad2b453dc6879275551b5c6a36f14cc",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3413/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][docker] Prune all non-relevant images (#11497)"
   }
 ]
