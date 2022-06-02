@@ -1,5 +1,57 @@
 [
   {
+    "oid": "017d410bd18fd3e272ea49ea9e11955c3128bb72",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6716583954?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6716583787?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6716583878?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3441/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix docker/lint.sh after #10933. (#11541)"
+  },
+  {
+    "oid": "aff1312e365142bcb77d6ae847753702a4e3a0c6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6716578921?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6716579029?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6716578759?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3440/display/redirect"
+      }
+    ],
+    "messageHeadline": "[PROFILER] Fix percent compute bound calculation (#11542)"
+  },
+  {
     "oid": "12a0f3edcf8295288f4aa9ec3dbb6771c3a1a301",
     "statuses": [
       {
@@ -16,6 +68,11 @@
         "name": "CI / Android",
         "status": "PENDING",
         "url": "https://github.com/apache/tvm/runs/6716546077?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3439/display/redirect"
       }
     ],
     "messageHeadline": "[TIR] Add schedule primitive ReIndex (#11515)"
@@ -40,7 +97,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3438/display/redirect"
       }
     ],
@@ -331,57 +388,5 @@
       }
     ],
     "messageHeadline": "[ci] Add filter to teams (#11455)"
-  },
-  {
-    "oid": "a329df40289eeca45163454bc1998a998d151d26",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6697289343?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6697289512?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6697289160?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3426/display/redirect"
-      }
-    ],
-    "messageHeadline": "[COMMUNITY] driazati -> Committer (#11525)"
-  },
-  {
-    "oid": "e84f163f573c07bb9f41209b8f722c76a92ae65d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6697119759?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6697119889?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6697119648?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3425/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TE] Optimized version of concatenation layer (#11341)"
   }
 ]
