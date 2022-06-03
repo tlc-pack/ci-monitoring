@@ -1,5 +1,31 @@
 [
   {
+    "oid": "b086005f8f9d439ff8397dcc6b048fd8dda5a995",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6730359016?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6730358915?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6730358781?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3445/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Fix action expressions for tvm-bot workflow (#11556)"
+  },
+  {
     "oid": "2ae20882d3e34cc6e5acef992c23c17a585c25aa",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[DNNL] Add TensorRequisite concept (#11345)"
-  },
-  {
-    "oid": "4c513b9de3ebfdf4a1356f0daf7350e74ca74005",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6705137583?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6705137671?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6705137431?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3430/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Bugfix][TIR] Handle bool tensor in FlattenBuffer (#11532)"
   }
 ]
