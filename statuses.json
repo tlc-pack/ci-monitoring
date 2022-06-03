@@ -1,5 +1,31 @@
 [
   {
+    "oid": "b885362c36eff6d08363d53e5816f696a99ac822",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6732672129?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6732672263?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6732671978?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3449/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Refactor of tvm.testing.requires_* annotations (#11313)"
+  },
+  {
     "oid": "cee74c9f8f5563b1bed1956acccd6027d530d45e",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[ci][wip] Upload docs with folder structure to S3 (#11528)"
-  },
-  {
-    "oid": "84eb78cbc4663d6f25ee5a7ead6a930eba02776b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6713394254?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6713394348?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6713394040?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3434/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] No explicit for spatial PrimFunc (#11534)"
   }
 ]
