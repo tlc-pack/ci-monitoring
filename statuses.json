@@ -1,5 +1,31 @@
 [
   {
+    "oid": "cee74c9f8f5563b1bed1956acccd6027d530d45e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6732318596?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6732318805?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6732318962?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3448/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Update to LLVM 14.0.0 for ci_hexagon (#11539)"
+  },
+  {
     "oid": "4811d702f3cadf5b06d7c1947846b10b90b19e79",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] No explicit for spatial PrimFunc (#11534)"
-  },
-  {
-    "oid": "480fa744eb66a2c6013d43ee46778d02b905ca19",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6712940461?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6712940599?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6712940330?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3433/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Onnx] Round operator (#11446)"
   }
 ]
