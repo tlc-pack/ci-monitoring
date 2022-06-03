@@ -1,5 +1,57 @@
 [
   {
+    "oid": "274d8fa964489e03ad97e684902063d935bf192b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6718040338?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6718040395?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6718040266?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3443/display/redirect"
+      }
+    ],
+    "messageHeadline": "Unbreak CI image build (tensorflow 2.6.5, ci_gpu bugfix) (#11546)"
+  },
+  {
+    "oid": "f31477f9c3c5ad618750ad6d43b6d6020f6b44d6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6717959254?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6717959317?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6717959166?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3442/display/redirect"
+      }
+    ],
+    "messageHeadline": "[FIX] Pad feature vectors to the same size in xgboost cost model (#11\u2026"
+  },
+  {
     "oid": "017d410bd18fd3e272ea49ea9e11955c3128bb72",
     "statuses": [
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "Add ceil shape registration (#11533)"
-  },
-  {
-    "oid": "c6d7ecd0b5e71796c79b001f439322ae1d0ddbe0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6703671588?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6703671702?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6703671489?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3428/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TE] Fix `te.CreatePrimFunc` for 0-dim computation (#11518)"
-  },
-  {
-    "oid": "ce60bfa0ff014752e879ea5eae7ad87a9d32bc2c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6698876319?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6698876065?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6698876170?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3427/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Add filter to teams (#11455)"
   }
 ]
