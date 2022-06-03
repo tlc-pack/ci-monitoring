@@ -1,5 +1,31 @@
 [
   {
+    "oid": "2ae20882d3e34cc6e5acef992c23c17a585c25aa",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6728784480?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6728784591?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6728784320?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3444/display/redirect"
+      }
+    ],
+    "messageHeadline": "[hexagon][testing] add TIRScript elemwise-add (#11490)"
+  },
+  {
     "oid": "274d8fa964489e03ad97e684902063d935bf192b",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Bugfix][TIR] Handle bool tensor in FlattenBuffer (#11532)"
-  },
-  {
-    "oid": "e60849c89934caa5709d4c42c5b7eda3f26c5e76",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6704408466?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6704408672?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6704408586?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3429/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add ceil shape registration (#11533)"
   }
 ]
