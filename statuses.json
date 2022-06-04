@@ -1,5 +1,31 @@
 [
   {
+    "oid": "fe24fa9840500b9217f5773e65a764a16e998a66",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6737133184?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6737133140?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6737133107?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3453/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Bugfix][MetaSchedule] Auto-bind when there are no spatial loops (#11\u2026"
+  },
+  {
     "oid": "f05ebde8e84e4bce620b0fdf839b89eb60c1008c",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TIR] Add schedule primitive ReIndex (#11515)"
-  },
-  {
-    "oid": "c78539cc59b60b77794276699f9430cd5e838106",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6715375883?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6715375741?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6715376060?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3438/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][Arith] Additional Simplifications Inside Conditionals (#11524)"
   }
 ]
