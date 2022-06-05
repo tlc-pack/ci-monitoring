@@ -1,5 +1,31 @@
 [
   {
+    "oid": "9d2c9a7f6457fb98156a722625c95bf3383dec42",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/6741762061?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6741762027?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/6741762003?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3454/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Schedule Primitive: Add-Unit-Loop (#11575)"
+  },
+  {
     "oid": "fe24fa9840500b9217f5773e65a764a16e998a66",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[PROFILER] Fix percent compute bound calculation (#11542)"
-  },
-  {
-    "oid": "12a0f3edcf8295288f4aa9ec3dbb6771c3a1a301",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6716545860?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6716545965?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6716546077?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3439/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Add schedule primitive ReIndex (#11515)"
   }
 ]
