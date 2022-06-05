@@ -1,5 +1,31 @@
 [
   {
+    "oid": "c732828d48c872ff358191da2e2087d38278bb81",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6746536378?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6746536292?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6746536241?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3456/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Prevent loop binding over-simplification (#11578)"
+  },
+  {
     "oid": "ba60788118e7c65c26cb6cf1097a012dd7b647f2",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[FIX] Pad feature vectors to the same size in xgboost cost model (#11\u2026"
-  },
-  {
-    "oid": "017d410bd18fd3e272ea49ea9e11955c3128bb72",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6716583954?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6716583787?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6716583878?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3441/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix docker/lint.sh after #10933. (#11541)"
   }
 ]
