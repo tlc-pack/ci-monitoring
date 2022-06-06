@@ -1,5 +1,31 @@
 [
   {
+    "oid": "609d6af17605d657909549e908876f4335206bd6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6755356417?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6755356577?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6755356492?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3463/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Fix output mismatch in Leaky ReLU (#11397)"
+  },
+  {
     "oid": "b555bf5481d3eb261427850cea286c162aa3d2e3",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[CI] Refactor of tvm.testing.requires_* annotations (#11313)"
-  },
-  {
-    "oid": "cee74c9f8f5563b1bed1956acccd6027d530d45e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6732318596?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6732318805?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6732318962?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3448/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Update to LLVM 14.0.0 for ci_hexagon (#11539)"
   }
 ]
