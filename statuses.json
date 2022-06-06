@@ -1,5 +1,31 @@
 [
   {
+    "oid": "06c443e9959452c6da3a911fe0c11e08c5554477",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6748178249?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6748178271?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6748178289?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3457/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Bugfix][TIR] compute-at/fuse/split dtype mismatch (#11582)"
+  },
+  {
     "oid": "c732828d48c872ff358191da2e2087d38278bb81",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Unbreak CI image build (tensorflow 2.6.5, ci_gpu bugfix) (#11546)"
-  },
-  {
-    "oid": "f31477f9c3c5ad618750ad6d43b6d6020f6b44d6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6717959254?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6717959317?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6717959166?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3442/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FIX] Pad feature vectors to the same size in xgboost cost model (#11\u2026"
   }
 ]
