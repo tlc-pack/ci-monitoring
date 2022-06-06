@@ -1,5 +1,16 @@
 [
   {
+    "oid": "1aac4d6826192383a755369ab5ccfe4876e8902b",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3464/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Optimize separate padding operation for conv2d (#11468)"
+  },
+  {
     "oid": "609d6af17605d657909549e908876f4335206bd6",
     "statuses": [
       {
@@ -19,7 +30,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3463/display/redirect"
       }
     ],
@@ -362,31 +373,5 @@
       }
     ],
     "messageHeadline": "[TIR] Expose tir.call_cpacked in python (#11563)"
-  },
-  {
-    "oid": "b885362c36eff6d08363d53e5816f696a99ac822",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6732672129?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6732672263?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6732671978?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3449/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Refactor of tvm.testing.requires_* annotations (#11313)"
   }
 ]
