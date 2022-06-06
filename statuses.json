@@ -1,5 +1,31 @@
 [
   {
+    "oid": "b555bf5481d3eb261427850cea286c162aa3d2e3",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6752701761?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6752701840?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6752701662?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3462/display/redirect"
+      }
+    ],
+    "messageHeadline": "fix bmm quantization realize (#11586)"
+  },
+  {
     "oid": "bf4b8f5c766be8320df8d792a8c063b7b42c69f5",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[CI] Update to LLVM 14.0.0 for ci_hexagon (#11539)"
-  },
-  {
-    "oid": "4811d702f3cadf5b06d7c1947846b10b90b19e79",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6732213859?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6732214067?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6732213961?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3447/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Register strategy for concatenate (#11562)"
   }
 ]
