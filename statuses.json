@@ -1,5 +1,57 @@
 [
   {
+    "oid": "70884e957aa5c8de9c02c25a14d30563d7300cb9",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6769804884?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6769805232?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6769805046?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3468/display/redirect"
+      }
+    ],
+    "messageHeadline": "fix uint case (#11597)"
+  },
+  {
+    "oid": "a2ef144ea3aa8ae763c59cc596e73d6a89b3f046",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6769801442?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6769801319?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6769801175?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3467/display/redirect"
+      }
+    ],
+    "messageHeadline": "Refactor RewriteTensorize to prevent concurrent map updates (#11596)"
+  },
+  {
     "oid": "68dcecc926f890429a8f2cba9ce55eab6a18fa6e",
     "statuses": [
       {
@@ -321,57 +373,5 @@
       }
     ],
     "messageHeadline": "[TIR] Schedule Primitive: Add-Unit-Loop (#11575)"
-  },
-  {
-    "oid": "fe24fa9840500b9217f5773e65a764a16e998a66",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6737133184?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6737133140?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6737133107?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3453/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Bugfix][MetaSchedule] Auto-bind when there are no spatial loops (#11\u2026"
-  },
-  {
-    "oid": "f05ebde8e84e4bce620b0fdf839b89eb60c1008c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6733544955?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6733545047?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6733544887?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3452/display/redirect"
-      }
-    ],
-    "messageHeadline": "[docs] microTVM model training tutorial with Colab support (#10921)"
   }
 ]
