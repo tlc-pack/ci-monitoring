@@ -1,5 +1,26 @@
 [
   {
+    "oid": "12440895e4baad1de494f0a3876edee3e1df06ee",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6780008922?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6780009274?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6780008740?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Add Testing Script with ONNX Support (#11587)"
+  },
+  {
     "oid": "32a86f8304928f16286cd9ffe6d47abc6c4a5bb6",
     "statuses": [
       {
@@ -347,31 +368,5 @@
       }
     ],
     "messageHeadline": "[TIR] Prevent loop binding over-simplification (#11578)"
-  },
-  {
-    "oid": "ba60788118e7c65c26cb6cf1097a012dd7b647f2",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6742787864?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6742787892?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6742787853?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3455/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Use Add-Unit-Loop in Auto-Bind (#11581)"
   }
 ]
