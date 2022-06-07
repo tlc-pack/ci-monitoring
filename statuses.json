@@ -1,5 +1,52 @@
 [
   {
+    "oid": "d490620085792f802d606209008698e65fb12c0e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6783622373?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6783622508?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6783622143?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3474/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon][CI] Re-enable Hexagon tests in CI (#11613)"
+  },
+  {
+    "oid": "774ee969fcb19e9d16e74de77c64848fd30e9a52",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6783620043?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6783620117?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6783619977?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[relay] add missing virtual d'tor (#11601)"
+  },
+  {
     "oid": "d8f57ed7ff6daf585ca56bc2cf9326eca9e73fca",
     "statuses": [
       {
@@ -321,57 +368,5 @@
       }
     ],
     "messageHeadline": "[CI][DOC] Fix incorrect commands in docs/readme.md (#11583)"
-  },
-  {
-    "oid": "8038987411471bbdd03edba75271a1c00d571f23",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6749264129?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6749264170?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6749264078?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3459/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Fix Summary Format for Invalid Runs (#11584)"
-  },
-  {
-    "oid": "8a568bc823fa7c8c3d37ff15deb4a8faef6d0bbb",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6749261488?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6749261444?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6749261397?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3458/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] exposed method: TuneContextNodeInitialize (#11576)"
   }
 ]
