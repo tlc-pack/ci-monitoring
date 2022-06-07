@@ -1,5 +1,31 @@
 [
   {
+    "oid": "32a86f8304928f16286cd9ffe6d47abc6c4a5bb6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6779465357?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6779465565?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6779465197?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3469/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TOPI] TE implementation of LSTM using scan (#11531)"
+  },
+  {
     "oid": "70884e957aa5c8de9c02c25a14d30563d7300cb9",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Use Add-Unit-Loop in Auto-Bind (#11581)"
-  },
-  {
-    "oid": "9d2c9a7f6457fb98156a722625c95bf3383dec42",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6741762061?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6741762027?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6741762003?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3454/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Schedule Primitive: Add-Unit-Loop (#11575)"
   }
 ]
