@@ -1,5 +1,31 @@
 [
   {
+    "oid": "68dcecc926f890429a8f2cba9ce55eab6a18fa6e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6766760606?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6766760670?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6766760720?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3466/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Evo Independence from TaskScheduler (#11590)"
+  },
+  {
     "oid": "9d6599c928ec4de1aede59927fcc5f651096e358",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[docs] microTVM model training tutorial with Colab support (#10921)"
-  },
-  {
-    "oid": "6dbdf2e20116ecc6f5379f5cb430ed023ff0d62b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6732893632?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6732893738?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6732893574?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3451/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix Hexagon build using ci.py (#11304)"
   }
 ]
