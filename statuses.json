@@ -1,5 +1,31 @@
 [
   {
+    "oid": "df4f4c0b4bccd775af25967fdf057392c1a2826e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6801975681?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6801975558?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6801975429?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3486/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ONNX] Add ReduceSum opset13 support (non-dynamic) (#11606)"
+  },
+  {
     "oid": "97e681dc3477570b268bd84aae539219e5a0b29c",
     "statuses": [
       {
@@ -35,7 +61,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6800700684?check_suite_focus=true"
       },
       {
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3484/display/redirect"
       }
     ],
@@ -357,31 +383,5 @@
       }
     ],
     "messageHeadline": "[Relay] IndexedGraph improvements in preparation for Collage (#11481)"
-  },
-  {
-    "oid": "81702192b49ddb37ce3e179eec3e88f3726acec1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6780456332?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6780456465?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6780456199?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3471/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Resolve dependencies between header files (#11604)"
   }
 ]
