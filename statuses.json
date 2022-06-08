@@ -1,5 +1,31 @@
 [
   {
+    "oid": "a95a820cfaa0fa5d83e2f6a7c304c61e0de782c1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6787648215?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6787648130?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6787648062?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3477/display/redirect"
+      }
+    ],
+    "messageHeadline": "[DNNL] Fix end of line in test_dnnl UT file (#11560)"
+  },
+  {
     "oid": "f5f9600614c4aa933c863001459d92b13d9b72fc",
     "statuses": [
       {
@@ -342,31 +368,5 @@
       }
     ],
     "messageHeadline": "[microNPU] Fix output mismatch in Leaky ReLU (#11397)"
-  },
-  {
-    "oid": "b555bf5481d3eb261427850cea286c162aa3d2e3",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6752701761?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6752701840?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6752701662?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3462/display/redirect"
-      }
-    ],
-    "messageHeadline": "fix bmm quantization realize (#11586)"
   }
 ]
