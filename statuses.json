@@ -1,5 +1,31 @@
 [
   {
+    "oid": "6dc0c624cdd8fb9d7fdd2194a755b0dffbe2de93",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6791239385?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6791239577?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6791239186?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3479/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay] Restore dominator check (#11616)"
+  },
+  {
     "oid": "8ba43003a00c2ca92017df2ec24ccaef6ddcf636",
     "statuses": [
       {
@@ -357,16 +383,5 @@
       }
     ],
     "messageHeadline": "[PROFILER] Add configuration information to profiler (#11530)"
-  },
-  {
-    "oid": "1aac4d6826192383a755369ab5ccfe4876e8902b",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3464/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Optimize separate padding operation for conv2d (#11468)"
   }
 ]
