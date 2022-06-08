@@ -1,5 +1,31 @@
 [
   {
+    "oid": "e19cf20054a9fe5049c71b02753c155110b0a6ba",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6794346479?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6794346691?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6794346239?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3481/display/redirect"
+      }
+    ],
+    "messageHeadline": "TVMC: Allow to overwrite TVM_CONFIGS_JSON_DIR via environment variabl\u2026"
+  },
+  {
     "oid": "b00b1229c881fa6f2f9fe9e44819c9dc3de09f74",
     "statuses": [
       {
@@ -357,31 +383,5 @@
       }
     ],
     "messageHeadline": "Refactor RewriteTensorize to prevent concurrent map updates (#11596)"
-  },
-  {
-    "oid": "68dcecc926f890429a8f2cba9ce55eab6a18fa6e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6766760606?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6766760670?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6766760720?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3466/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Evo Independence from TaskScheduler (#11590)"
   }
 ]
