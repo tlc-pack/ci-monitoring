@@ -1,5 +1,31 @@
 [
   {
+    "oid": "96a513cd97be4b42acb51d1c9b73288820e90185",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6799835398?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6799835519?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6799835263?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3482/display/redirect"
+      }
+    ],
+    "messageHeadline": "Patch replay trace. (#11621)"
+  },
+  {
     "oid": "e19cf20054a9fe5049c71b02753c155110b0a6ba",
     "statuses": [
       {
@@ -357,31 +383,5 @@
       }
     ],
     "messageHeadline": "fix uint case (#11597)"
-  },
-  {
-    "oid": "a2ef144ea3aa8ae763c59cc596e73d6a89b3f046",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6769801442?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6769801319?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6769801175?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3467/display/redirect"
-      }
-    ],
-    "messageHeadline": "Refactor RewriteTensorize to prevent concurrent map updates (#11596)"
   }
 ]
