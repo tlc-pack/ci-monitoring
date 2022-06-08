@@ -1,5 +1,31 @@
 [
   {
+    "oid": "9817338508f3f8cd5a444133b4de99ce577c031b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6800325169?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6800325334?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6800325054?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3483/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BYOC][DNNL] Enable layer normalization in DNNL byoc. (#11508)"
+  },
+  {
     "oid": "96a513cd97be4b42acb51d1c9b73288820e90185",
     "statuses": [
       {
@@ -357,31 +383,5 @@
       }
     ],
     "messageHeadline": "[TOPI] TE implementation of LSTM using scan (#11531)"
-  },
-  {
-    "oid": "70884e957aa5c8de9c02c25a14d30563d7300cb9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6769804884?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6769805232?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6769805046?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3468/display/redirect"
-      }
-    ],
-    "messageHeadline": "fix uint case (#11597)"
   }
 ]
