@@ -1,5 +1,31 @@
 [
   {
+    "oid": "b00b1229c881fa6f2f9fe9e44819c9dc3de09f74",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6793386661?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6793386824?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6793386462?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3480/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Make local symbols visible to loaded modules in RPC server \u2026"
+  },
+  {
     "oid": "6dc0c624cdd8fb9d7fdd2194a755b0dffbe2de93",
     "statuses": [
       {
@@ -357,31 +383,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Evo Independence from TaskScheduler (#11590)"
-  },
-  {
-    "oid": "9d6599c928ec4de1aede59927fcc5f651096e358",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6758474139?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6758474558?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6758474366?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3465/display/redirect"
-      }
-    ],
-    "messageHeadline": "[PROFILER] Add configuration information to profiler (#11530)"
   }
 ]
