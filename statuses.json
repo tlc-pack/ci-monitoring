@@ -1,5 +1,31 @@
 [
   {
+    "oid": "99c113a237cfd3f21d78fbb405160ed8b9b5af0b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6800700812?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6800700684?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6800700569?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3484/display/redirect"
+      }
+    ],
+    "messageHeadline": "[COMMUNITY] @tkonolige -> Committer (#11626)"
+  },
+  {
     "oid": "9817338508f3f8cd5a444133b4de99ce577c031b",
     "statuses": [
       {
@@ -357,31 +383,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Add Testing Script with ONNX Support (#11587)"
-  },
-  {
-    "oid": "32a86f8304928f16286cd9ffe6d47abc6c4a5bb6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6779465357?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6779465565?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6779465197?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3469/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TOPI] TE implementation of LSTM using scan (#11531)"
   }
 ]
