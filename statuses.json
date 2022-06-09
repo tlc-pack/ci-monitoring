@@ -1,5 +1,57 @@
 [
   {
+    "oid": "ebc9b6d41cbb6720654dd1fd54488a88b4a8898d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6817073000?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6817073167?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6817072835?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3490/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Add guards to pytest_wrapper (#11553)"
+  },
+  {
+    "oid": "d8678a6a9aa7962b658efb603e27d83ea7737a02",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6816945121?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6816944901?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6816944722?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3489/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] CSE pass : Restrict the equivalence to be decided by a normal f\u2026"
+  },
+  {
     "oid": "236eea0f49b4ca9a30e99d54f2ceb7ee3ef836f7",
     "statuses": [
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[docs] Various content corrections (#11517)"
-  },
-  {
-    "oid": "52d90da1d3bc6b12611b1d30a38c02837fbf8d76",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6785294010?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6785294160?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6785294094?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3475/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] TuningRecord Optional Arguments (#11598)"
-  },
-  {
-    "oid": "d490620085792f802d606209008698e65fb12c0e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6783622373?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6783622508?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6783622143?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3473/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon][CI] Re-enable Hexagon tests in CI (#11613)"
   }
 ]
