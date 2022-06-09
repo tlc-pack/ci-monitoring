@@ -1,5 +1,31 @@
 [
   {
+    "oid": "2f9d9b4e5c7dcb3c9879fb2496f1f50e85b9c55a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6806074724?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6806074802?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6806074765?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3487/display/redirect"
+      }
+    ],
+    "messageHeadline": "[OpenCL] Implement conv2d_winograd algorithm for Adreno (#11543)"
+  },
+  {
     "oid": "df4f4c0b4bccd775af25967fdf057392c1a2826e",
     "statuses": [
       {
@@ -357,31 +383,5 @@
       }
     ],
     "messageHeadline": "[relay] add missing virtual d'tor (#11601)"
-  },
-  {
-    "oid": "d8f57ed7ff6daf585ca56bc2cf9326eca9e73fca",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6780708524?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6780708371?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6780707615?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3472/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay] IndexedGraph improvements in preparation for Collage (#11481)"
   }
 ]
