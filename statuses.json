@@ -1,5 +1,31 @@
 [
   {
+    "oid": "81b42e67460f11955794f7fc48465b15f16ae57b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6818299623?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6818300118?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6818299944?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3494/display/redirect"
+      }
+    ],
+    "messageHeadline": "Making CMSIS-NN tests pylint compliant (#11625)"
+  },
+  {
     "oid": "f528a9a1cd5a0145e07b0bebcc43ab9020767cc9",
     "statuses": [
       {
@@ -92,7 +118,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6817072835?check_suite_focus=true"
       },
       {
@@ -108,12 +134,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6816945121?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6816944901?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Make local symbols visible to loaded modules in RPC server \u2026"
-  },
-  {
-    "oid": "6dc0c624cdd8fb9d7fdd2194a755b0dffbe2de93",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6791239385?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6791239577?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6791239186?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3479/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay] Restore dominator check (#11616)"
   }
 ]
