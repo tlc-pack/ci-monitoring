@@ -1,5 +1,31 @@
 [
   {
+    "oid": "f528a9a1cd5a0145e07b0bebcc43ab9020767cc9",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6817872830?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6817872981?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6817872732?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3493/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Frontend][TFLite] Improve support for half_pixel_centers in resize (\u2026"
+  },
+  {
     "oid": "7f1b819cdbc70fabaabe9374932e98a3c4bc4660",
     "statuses": [
       {
@@ -92,7 +118,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6816944722?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Relay] Restore dominator check (#11616)"
-  },
-  {
-    "oid": "8ba43003a00c2ca92017df2ec24ccaef6ddcf636",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6787926560?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6787926655?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6787926751?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3478/display/redirect"
-      }
-    ],
-    "messageHeadline": "minor fix after loading trt engine from disk (#11614)"
   }
 ]
