@@ -1,5 +1,31 @@
 [
   {
+    "oid": "af0128158c45683d03d3cd0a8aea5afd620794c7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6820485813?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6820485962?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6820486098?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3495/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR][Schedule] Allow named block and buffer arguments in Schedule (#\u2026"
+  },
+  {
     "oid": "81b42e67460f11955794f7fc48465b15f16ae57b",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "TVMC: Allow to overwrite TVM_CONFIGS_JSON_DIR via environment variabl\u2026"
-  },
-  {
-    "oid": "b00b1229c881fa6f2f9fe9e44819c9dc3de09f74",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6793386661?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6793386824?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6793386462?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3480/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Make local symbols visible to loaded modules in RPC server \u2026"
   }
 ]
