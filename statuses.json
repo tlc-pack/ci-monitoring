@@ -1,15 +1,41 @@
 [
   {
-    "oid": "af0128158c45683d03d3cd0a8aea5afd620794c7",
+    "oid": "6d557ffae2db64fcea127b5e34089d9bc8e74fb0",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/6820485813?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/6821640371?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6821642094?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6821637954?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3496/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Rebuild Docker images if necessary (#11329)"
+  },
+  {
+    "oid": "af0128158c45683d03d3cd0a8aea5afd620794c7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/6820485813?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6820485962?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Patch replay trace. (#11621)"
-  },
-  {
-    "oid": "e19cf20054a9fe5049c71b02753c155110b0a6ba",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6794346479?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6794346691?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6794346239?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3481/display/redirect"
-      }
-    ],
-    "messageHeadline": "TVMC: Allow to overwrite TVM_CONFIGS_JSON_DIR via environment variabl\u2026"
   }
 ]
