@@ -1,5 +1,31 @@
 [
   {
+    "oid": "d03633f36639179318613eda30df3bd3b2bade57",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6822232834?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6822232901?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6822232782?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3498/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microTVM] Update pyproject to python3.7 (#11634)"
+  },
+  {
     "oid": "3a0b7c26b13cbcd105ed1ed4b447d8c91bcea799",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[COMMUNITY] @tkonolige -> Committer (#11626)"
-  },
-  {
-    "oid": "9817338508f3f8cd5a444133b4de99ce577c031b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6800325169?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6800325334?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6800325054?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3483/display/redirect"
-      }
-    ],
-    "messageHeadline": "[BYOC][DNNL] Enable layer normalization in DNNL byoc. (#11508)"
   }
 ]
