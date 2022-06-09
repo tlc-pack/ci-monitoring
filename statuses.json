@@ -1,5 +1,31 @@
 [
   {
+    "oid": "3a0b7c26b13cbcd105ed1ed4b447d8c91bcea799",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6821989407?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6821989590?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6821989503?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3497/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Fix gtest flag in apps/hexagon_api/CMakeLists.txt (#11652)"
+  },
+  {
     "oid": "6d557ffae2db64fcea127b5e34089d9bc8e74fb0",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[BYOC][DNNL] Enable layer normalization in DNNL byoc. (#11508)"
-  },
-  {
-    "oid": "96a513cd97be4b42acb51d1c9b73288820e90185",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6799835398?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6799835519?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6799835263?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3482/display/redirect"
-      }
-    ],
-    "messageHeadline": "Patch replay trace. (#11621)"
   }
 ]
