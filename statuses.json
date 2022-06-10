@@ -1,10 +1,83 @@
 [
   {
-    "oid": "d03633f36639179318613eda30df3bd3b2bade57",
+    "oid": "60e7eb5e52f2494919ad32c374a6b0ce92e50769",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6822752484?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6822752625?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6822752532?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3501/display/redirect"
+      }
+    ],
+    "messageHeadline": "[COMMUNITY] Alexander Peskov -> Reviewers (#11648)"
+  },
+  {
+    "oid": "fc8fdae61245c7a16a96cf031e36eaa58e3c0e49",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6822751030?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6822750984?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6822750916?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3499/display/redirect"
+      }
+    ],
+    "messageHeadline": "adding vvchernov to contributors file (#11649)"
+  },
+  {
+    "oid": "762bed0d0d533bc564caefcbef5cc9e579a128c1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6822749083?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6822749121?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6822749010?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[microTVM] Add support for Arduino Portenta H7 (#11636)"
+  },
+  {
+    "oid": "d03633f36639179318613eda30df3bd3b2bade57",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6822232834?check_suite_focus=true"
       },
       {
@@ -14,12 +87,12 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6822232782?check_suite_focus=true"
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3498/display/redirect"
       }
     ],
@@ -30,12 +103,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6821989407?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6821989590?check_suite_focus=true"
       },
       {
@@ -45,7 +118,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3497/display/redirect"
       }
     ],
@@ -310,83 +383,5 @@
       }
     ],
     "messageHeadline": "[OpenCL] Implement conv2d_winograd algorithm for Adreno (#11543)"
-  },
-  {
-    "oid": "df4f4c0b4bccd775af25967fdf057392c1a2826e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6801975681?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6801975558?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6801975429?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3486/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ONNX] Add ReduceSum opset13 support (non-dynamic) (#11606)"
-  },
-  {
-    "oid": "97e681dc3477570b268bd84aae539219e5a0b29c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6801340105?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6801340214?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6801339909?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3485/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Add random string to workspace name (#11593)"
-  },
-  {
-    "oid": "99c113a237cfd3f21d78fbb405160ed8b9b5af0b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6800700812?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6800700684?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6800700569?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3484/display/redirect"
-      }
-    ],
-    "messageHeadline": "[COMMUNITY] @tkonolige -> Committer (#11626)"
   }
 ]
