@@ -1,5 +1,31 @@
 [
   {
+    "oid": "04579155dfef3e935ddcaf6cc25cd5759933f913",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6838232890?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6838232984?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6838233073?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3513/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci][docs] Don't delete old versions when checking out docs (#11612)"
+  },
+  {
     "oid": "6f79165f24c1a2f10209e0213c182745c2212329",
     "statuses": [
       {
@@ -357,31 +383,5 @@
       }
     ],
     "messageHeadline": "[microTVM] Add support for Arduino Portenta H7 (#11636)"
-  },
-  {
-    "oid": "d03633f36639179318613eda30df3bd3b2bade57",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6822232834?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6822232901?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6822232782?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3498/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microTVM] Update pyproject to python3.7 (#11634)"
   }
 ]
