@@ -1,5 +1,26 @@
 [
   {
+    "oid": "dc522a6ff65b68532cd1bba43827cd981114df2c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6838325878?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6838325989?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6838325930?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Run single RPC server on Android in each testing session  (\u2026"
+  },
+  {
     "oid": "04579155dfef3e935ddcaf6cc25cd5759933f913",
     "statuses": [
       {
@@ -40,7 +61,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6837552049?check_suite_focus=true"
       },
       {
@@ -362,26 +383,5 @@
       }
     ],
     "messageHeadline": "adding vvchernov to contributors file (#11649)"
-  },
-  {
-    "oid": "762bed0d0d533bc564caefcbef5cc9e579a128c1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6822749083?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6822749121?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6822749010?check_suite_focus=true"
-      }
-    ],
-    "messageHeadline": "[microTVM] Add support for Arduino Portenta H7 (#11636)"
   }
 ]
