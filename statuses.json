@@ -1,5 +1,31 @@
 [
   {
+    "oid": "ec24ae60a028f5aae0fa2f1d8a668eb6bf366414",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6824932148?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6824932182?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6824932112?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3506/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BYOC] RelayToTIR custom codegen passes can still depend on dynamic s\u2026"
+  },
+  {
     "oid": "53d163c96850c8476d479803c59344c6977ef9e8",
     "statuses": [
       {
@@ -357,31 +383,5 @@
       }
     ],
     "messageHeadline": "[microTVM] Remove microTVM RVM version suffix (#11629)"
-  },
-  {
-    "oid": "87502ddd9002cdfe1035a2bc1c7063e33098ced1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6817590547?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6817590696?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6817590357?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3491/display/redirect"
-      }
-    ],
-    "messageHeadline": "[PASS] Refactor a couple of TIR passes - BindTarget, AnnotateEntryFun\u2026"
   }
 ]
