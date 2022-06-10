@@ -1,5 +1,31 @@
 [
   {
+    "oid": "e8712a91985b764f3e9e0d435256fdbf29796ee5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6839424382?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6839424447?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6839424310?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3515/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BYOC][DNNL] Improve performance of DNNL BYOC dense operator (#11513)"
+  },
+  {
     "oid": "dc522a6ff65b68532cd1bba43827cd981114df2c",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[COMMUNITY] Alexander Peskov -> Reviewers (#11648)"
-  },
-  {
-    "oid": "fc8fdae61245c7a16a96cf031e36eaa58e3c0e49",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6822751030?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6822750984?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6822750916?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3499/display/redirect"
-      }
-    ],
-    "messageHeadline": "adding vvchernov to contributors file (#11649)"
   }
 ]
