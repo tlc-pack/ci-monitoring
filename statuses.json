@@ -1,10 +1,36 @@
 [
   {
-    "oid": "e7f793d0ad5f141444fff41d308be17231ec6b86",
+    "oid": "dccc1c7d89ecb2281ff1d20f95a9d1b563bbc86e",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6835815836?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6835816028?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6835816207?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3511/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] fix ci_gpu dockerfile (#11644)"
+  },
+  {
+    "oid": "e7f793d0ad5f141444fff41d308be17231ec6b86",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6834594102?check_suite_focus=true"
       },
       {
@@ -357,31 +383,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Fix gtest flag in apps/hexagon_api/CMakeLists.txt (#11652)"
-  },
-  {
-    "oid": "6d557ffae2db64fcea127b5e34089d9bc8e74fb0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6821640371?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6821642094?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6821637954?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3496/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Rebuild Docker images if necessary (#11329)"
   }
 ]
