@@ -1,5 +1,31 @@
 [
   {
+    "oid": "f117244ac4e7b1aa86c8c75061682abd4407359e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6830416743?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6830417061?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6830416915?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3509/display/redirect"
+      }
+    ],
+    "messageHeadline": "[DNNL][Relay extern-schedule] DNNL Conv2D Kernel enable by assigning \u2026"
+  },
+  {
     "oid": "8a2f43eb0dd1eeaecaa1275a75aa35d4051386d5",
     "statuses": [
       {
@@ -14,7 +40,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6829585700?check_suite_focus=true"
       },
       {
@@ -357,31 +383,5 @@
       }
     ],
     "messageHeadline": "[TIR][Schedule] Allow named block and buffer arguments in Schedule (#\u2026"
-  },
-  {
-    "oid": "81b42e67460f11955794f7fc48465b15f16ae57b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6818299623?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6818300118?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6818299944?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3494/display/redirect"
-      }
-    ],
-    "messageHeadline": "Making CMSIS-NN tests pylint compliant (#11625)"
   }
 ]
