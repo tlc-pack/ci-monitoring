@@ -1,5 +1,31 @@
 [
   {
+    "oid": "6fca5c657a2fadc16fd7ff44de8a6a9656d50c1b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6825304786?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6825304871?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6825304689?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3507/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Developer Ergonomics Enhancement (#11622)"
+  },
+  {
     "oid": "ec24ae60a028f5aae0fa2f1d8a668eb6bf366414",
     "statuses": [
       {
@@ -357,31 +383,5 @@
       }
     ],
     "messageHeadline": "[Frontend][TFLite] Improve support for half_pixel_centers in resize (\u2026"
-  },
-  {
-    "oid": "7f1b819cdbc70fabaabe9374932e98a3c4bc4660",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6817624798?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6817624934?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6817624656?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3492/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microTVM] Remove microTVM RVM version suffix (#11629)"
   }
 ]
