@@ -1,5 +1,31 @@
 [
   {
+    "oid": "8a2f43eb0dd1eeaecaa1275a75aa35d4051386d5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6829585796?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6829585897?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6829585700?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3508/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Bugfix] GetReduceAxes accept empty axis (#11643)"
+  },
+  {
     "oid": "6fca5c657a2fadc16fd7ff44de8a6a9656d50c1b",
     "statuses": [
       {
@@ -357,31 +383,5 @@
       }
     ],
     "messageHeadline": "Making CMSIS-NN tests pylint compliant (#11625)"
-  },
-  {
-    "oid": "f528a9a1cd5a0145e07b0bebcc43ab9020767cc9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6817872830?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6817872981?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6817872732?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3493/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Frontend][TFLite] Improve support for half_pixel_centers in resize (\u2026"
   }
 ]
