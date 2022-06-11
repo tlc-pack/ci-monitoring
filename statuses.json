@@ -1,10 +1,36 @@
 [
   {
-    "oid": "dfc8e95604afc8475970b8371d2a93d76b0bddf6",
+    "oid": "a8d60392baf1ee9ebc53f18e67f24fb552d393cd",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6840910478?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6840910505?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6840910442?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3520/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Register CUDA WMMA tensor intrinsics (#11677)"
+  },
+  {
+    "oid": "dfc8e95604afc8475970b8371d2a93d76b0bddf6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6840465195?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[BYOC] RelayToTIR custom codegen passes can still depend on dynamic s\u2026"
-  },
-  {
-    "oid": "53d163c96850c8476d479803c59344c6977ef9e8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6823851988?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6823851915?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6823852055?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3505/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR, CUDA] Add pass to replace global to shared memory copy with cp.\u2026"
   }
 ]
