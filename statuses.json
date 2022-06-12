@@ -1,5 +1,31 @@
 [
   {
+    "oid": "8341e33d05868b7bb8496c913679b7951836f3b9",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6853131985?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6853132004?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6853131953?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3524/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Bugfix] Shape inference of weight for grouped `nn.conv3d` (#11681)"
+  },
+  {
     "oid": "8f6543e9e6173cd45b678e91b5a637ff7f8e0e02",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Add assert message (#11665)"
-  },
-  {
-    "oid": "f117244ac4e7b1aa86c8c75061682abd4407359e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6830416743?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6830417061?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6830416915?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3509/display/redirect"
-      }
-    ],
-    "messageHeadline": "[DNNL][Relay extern-schedule] DNNL Conv2D Kernel enable by assigning \u2026"
   }
 ]
