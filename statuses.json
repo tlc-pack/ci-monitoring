@@ -1,5 +1,31 @@
 [
   {
+    "oid": "2a5ff18bc5a6c466364270bba33a4462be7570e2",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6861194216?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6861194377?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6861194621?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3528/display/redirect"
+      }
+    ],
+    "messageHeadline": "Added a docstring to missing CMSIS-NN test (#11690)"
+  },
+  {
     "oid": "eb611482e3fb6da463d7458424518792d03fb89e",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Run single RPC server on Android in each testing session  (\u2026"
-  },
-  {
-    "oid": "04579155dfef3e935ddcaf6cc25cd5759933f913",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6838232890?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6838232984?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6838233073?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3513/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][docs] Don't delete old versions when checking out docs (#11612)"
   }
 ]
