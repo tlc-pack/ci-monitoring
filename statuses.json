@@ -1,5 +1,57 @@
 [
   {
+    "oid": "1420df7744001ad6f805913cf060b6a333bd55d0",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6864871873?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6864872126?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6864871622?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3531/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TE] Support schedulable TIR compute definitions in TOPI (#11589)"
+  },
+  {
+    "oid": "e61ad7ab826a73347280468e2da47f215f76e05d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6864725134?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6864725581?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6864725365?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3530/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Add Profiler Support For Tuning Efficiency Optimizatio\u2026"
+  },
+  {
     "oid": "2df4524e04cf48f759175a746632efe6ff0a7ea6",
     "statuses": [
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[FIX,METASCHEDULER] Fix tune_te (#11676)"
-  },
-  {
-    "oid": "705993e485a8c4b8a94a9c4d6e770c170b6fe1bc",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6839439283?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6839439321?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6839439232?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3516/display/redirect"
-      }
-    ],
-    "messageHeadline": "[DNNL][CBLAS][BYOC] Unifles all MKLDNN/DNNL  to DNNL (#11638)"
-  },
-  {
-    "oid": "e8712a91985b764f3e9e0d435256fdbf29796ee5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6839424382?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6839424447?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6839424310?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3515/display/redirect"
-      }
-    ],
-    "messageHeadline": "[BYOC][DNNL] Improve performance of DNNL BYOC dense operator (#11513)"
   }
 ]
