@@ -1,5 +1,31 @@
 [
   {
+    "oid": "81cc0864004bb64c8c70ce0ed1abbc3a8755458c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6870703056?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6870703150?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6870702968?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3536/display/redirect"
+      }
+    ],
+    "messageHeadline": "[WIP] [CI] Bump CI GPU image version (#11637)"
+  },
+  {
     "oid": "b659332a4cf8a25d68af6590b23dcd68294b6b0c",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] JSONDatabase Utilities (#11680)"
-  },
-  {
-    "oid": "d0da0b94dea206400d3bf4e15cb7815713c5b6e7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6841331241?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6841331258?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6841331278?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3521/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix typos in target warn of dnnl (#11678)"
   }
 ]
