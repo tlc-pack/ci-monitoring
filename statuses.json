@@ -1,5 +1,31 @@
 [
   {
+    "oid": "b659332a4cf8a25d68af6590b23dcd68294b6b0c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6870596687?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6870596585?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6870596344?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3535/display/redirect"
+      }
+    ],
+    "messageHeadline": "[AutoTVM][Autoscheduler] Default build funcs inherit PassContext (#11\u2026"
+  },
+  {
     "oid": "76b9ce9b1f7d2b7e64b4b9c9d456a02b8a010473",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Fix typos in target warn of dnnl (#11678)"
-  },
-  {
-    "oid": "a8d60392baf1ee9ebc53f18e67f24fb552d393cd",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6840910478?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6840910505?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6840910442?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3520/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Register CUDA WMMA tensor intrinsics (#11677)"
   }
 ]
