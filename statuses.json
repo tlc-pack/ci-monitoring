@@ -1,5 +1,31 @@
 [
   {
+    "oid": "9d5782f10b8e8db47527e09466d8be0b5a7998b3",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6886856210?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6886856403?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6886855979?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3542/display/redirect"
+      }
+    ],
+    "messageHeadline": "[tests][hexagon] Fix `allocate_hexagon_array` bug. (#11709)"
+  },
+  {
     "oid": "1f6f849db27d82e739540c031658c8f360197cdd",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[docs] Add links to v0.8.0 docs (#11647)"
-  },
-  {
-    "oid": "005f05e26f895c12b522e3e770884cc98d7e54b9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6859131078?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6859131237?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6859131481?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3525/display/redirect"
-      }
-    ],
-    "messageHeadline": "fixed cutlass byoc build break (#11686)"
   }
 ]
