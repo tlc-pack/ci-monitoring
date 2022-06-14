@@ -1,5 +1,31 @@
 [
   {
+    "oid": "1f6f849db27d82e739540c031658c8f360197cdd",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6886419713?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6886419945?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6886420204?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3541/display/redirect"
+      }
+    ],
+    "messageHeadline": "cleanup (#11659)"
+  },
+  {
     "oid": "27b0aad5a55254815a076dbcacb53e9725019f9d",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "fixed cutlass byoc build break (#11686)"
-  },
-  {
-    "oid": "8341e33d05868b7bb8496c913679b7951836f3b9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6853131985?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6853132004?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6853131953?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3524/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Bugfix] Shape inference of weight for grouped `nn.conv3d` (#11681)"
   }
 ]
