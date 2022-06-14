@@ -1,5 +1,31 @@
 [
   {
+    "oid": "9a71092585e48c4f774ae8f433f67e4e183c5ce3",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6887555031?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6887554869?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6887554718?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3543/display/redirect"
+      }
+    ],
+    "messageHeadline": "Move FlattenAtrousConv before AlterOpLayout in the default opt pipeli\u2026"
+  },
+  {
     "oid": "9d5782f10b8e8db47527e09466d8be0b5a7998b3",
     "statuses": [
       {
@@ -35,7 +61,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6886419945?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[UnitTests] Parametrized test_topi_argwhere.py (#11651)"
-  },
-  {
-    "oid": "9ecb5712688ee340cbb72b648a9d0e522cdb2413",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6859148630?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6859148862?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6859149047?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3526/display/redirect"
-      }
-    ],
-    "messageHeadline": "[docs] Add links to v0.8.0 docs (#11647)"
   }
 ]
