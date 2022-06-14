@@ -1,5 +1,31 @@
 [
   {
+    "oid": "a82d2f516e0f484ad3d91fa2dd9997cfc016893f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6875772231?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6875772558?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6875772416?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3539/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hotfix][MetaSchedule] Importing from test foldeer (#11695)"
+  },
+  {
     "oid": "81cc0864004bb64c8c70ce0ed1abbc3a8755458c",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Relay] Finish implementations of WithFields (#11674)"
-  },
-  {
-    "oid": "0df69611b2fb46724a0023dd8d389c9a1ecedcb8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6841768323?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6841768366?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6841768279?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3522/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] JSONDatabase Utilities (#11680)"
   }
 ]
