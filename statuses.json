@@ -1,10 +1,36 @@
 [
   {
-    "oid": "24f49f1aeb4643df97ce82a14a0d2c4f55d637f7",
+    "oid": "3cb4597ed48360e3f3d80161d1c03f833072d28e",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6903368442?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6903368212?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6903368008?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3553/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CMSIS-NN] Fixed error in finding input's dtype in maxpool (#11701)"
+  },
+  {
+    "oid": "24f49f1aeb4643df97ce82a14a0d2c4f55d637f7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6901529627?check_suite_focus=true"
       },
       {
@@ -14,12 +40,12 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6901530060?check_suite_focus=true"
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3552/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Hotfix][MetaSchedule] Importing from test foldeer (#11695)"
-  },
-  {
-    "oid": "81cc0864004bb64c8c70ce0ed1abbc3a8755458c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6870703056?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6870703150?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6870702968?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3538/display/redirect"
-      }
-    ],
-    "messageHeadline": "[WIP] [CI] Bump CI GPU image version (#11637)"
   }
 ]
