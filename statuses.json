@@ -1,5 +1,31 @@
 [
   {
+    "oid": "d0cbde0c9930e2be1c860fab7af4b415ff793022",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6907456520?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6907456319?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6907456692?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3559/display/redirect"
+      }
+    ],
+    "messageHeadline": "rename aot_demo to aot_standalone_demo for clarity vs. host-driven ao\u2026"
+  },
+  {
     "oid": "fdc3c0274bcdff771d8bb1dc96796a80a51cf5fd",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[CI] [Hexagon] Update docker tag in jenkins (#11588)"
-  },
-  {
-    "oid": "02fff50cbb7cdeb333563be70fd5601d49fb08ab",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6887859360?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6887859461?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6887859235?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3544/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] remove #if defined(__hexagon__) where it is no longer neede\u2026"
   }
 ]
