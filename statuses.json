@@ -1,5 +1,57 @@
 [
   {
+    "oid": "a5df28332cbdb88320e591c4fe1fbc7294054a90",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6904638190?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6904638629?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6904638415?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3555/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Include te/tensor.h instead of forward declaring te::T\u2026"
+  },
+  {
+    "oid": "f942d197889ee93fc112ca346ca8366d29933fac",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6904609519?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6904609719?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6904609331?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3554/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMC] Fix error while compile paddle model with tvmc (#11730)"
+  },
+  {
     "oid": "3cb4597ed48360e3f3d80161d1c03f833072d28e",
     "statuses": [
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "cleanup (#11659)"
-  },
-  {
-    "oid": "27b0aad5a55254815a076dbcacb53e9725019f9d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6878510651?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6878510787?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6878510958?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3540/display/redirect"
-      }
-    ],
-    "messageHeadline": "[BYOC-OpenCLML] OpenCLML integration with TVM. (#10243)"
-  },
-  {
-    "oid": "a82d2f516e0f484ad3d91fa2dd9997cfc016893f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6875772231?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6875772558?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/runs/6875772416?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3539/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hotfix][MetaSchedule] Importing from test foldeer (#11695)"
   }
 ]
