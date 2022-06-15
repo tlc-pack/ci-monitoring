@@ -1,15 +1,41 @@
 [
   {
-    "oid": "a64368be0e76cc9ed28dcbaa910739c4700feb00",
+    "oid": "fdc3c0274bcdff771d8bb1dc96796a80a51cf5fd",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/6905740217?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/6907232985?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6907232822?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6907232697?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3558/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Developer Ergonomics Enhancement II (#11727)"
+  },
+  {
+    "oid": "a64368be0e76cc9ed28dcbaa910739c4700feb00",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/6905740217?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6905740426?check_suite_focus=true"
       },
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3557/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] remove #if defined(__hexagon__) where it is no longer neede\u2026"
-  },
-  {
-    "oid": "9a71092585e48c4f774ae8f433f67e4e183c5ce3",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6887555031?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6887554869?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6887554718?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3543/display/redirect"
-      }
-    ],
-    "messageHeadline": "Move FlattenAtrousConv before AlterOpLayout in the default opt pipeli\u2026"
   }
 ]
