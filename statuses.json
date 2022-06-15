@@ -1,15 +1,67 @@
 [
   {
-    "oid": "5b3cef30f963a236205088848d7dc660a1f6c7fc",
+    "oid": "d2e2f71b14ea39d354f20c239dbe44cde59d0a67",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/6889885847?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/6891157371?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6891157582?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6891157237?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3548/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix 1d-softmax schedule. (#11719)"
+  },
+  {
+    "oid": "f667342ca988ec78763c937e6e5e8b70146d0907",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6891154352?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6891154444?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6891154274?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3547/display/redirect"
+      }
+    ],
+    "messageHeadline": "[LLVM] Update uses of AllocaInst::getAlign[ment] (#11718)"
+  },
+  {
+    "oid": "5b3cef30f963a236205088848d7dc660a1f6c7fc",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/6889885847?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6889885985?check_suite_focus=true"
       },
       {
@@ -19,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3546/display/redirect"
       }
     ],
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "Updated install from source docs to include additional instructions f\u2026"
-  },
-  {
-    "oid": "1420df7744001ad6f805913cf060b6a333bd55d0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6864871873?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6864872126?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6864871622?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3531/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TE] Support schedulable TIR compute definitions in TOPI (#11589)"
-  },
-  {
-    "oid": "e61ad7ab826a73347280468e2da47f215f76e05d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6864725134?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6864725581?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6864725365?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3530/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Add Profiler Support For Tuning Efficiency Optimizatio\u2026"
   }
 ]
