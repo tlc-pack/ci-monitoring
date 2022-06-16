@@ -1,5 +1,31 @@
 [
   {
+    "oid": "ada4c46f095f876efd97c4d0a3bf8860d7c5d5e8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6923757697?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6923757565?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6923757855?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3568/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Remove apt cache from the docker images (#11470)"
+  },
+  {
     "oid": "d0650bad66d0ff89a01347537021bc442a98c223",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TVMC] Fix error while compile paddle model with tvmc (#11730)"
-  },
-  {
-    "oid": "3cb4597ed48360e3f3d80161d1c03f833072d28e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6903368442?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6903368212?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6903368008?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3553/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CMSIS-NN] Fixed error in finding input's dtype in maxpool (#11701)"
   }
 ]
