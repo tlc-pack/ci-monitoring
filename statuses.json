@@ -1,5 +1,31 @@
 [
   {
+    "oid": "47ef9466b2751acb8c545ea0c3124c70870ec399",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6911951116?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6911951204?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6911951005?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3563/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Pytorch] Add quantized::leaky_relu (#11729)"
+  },
+  {
     "oid": "ec918644ef01df81354bcf958f686e2b8863dac4",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Apply-History-Best Task Filtering (#11692)"
-  },
-  {
-    "oid": "d2e2f71b14ea39d354f20c239dbe44cde59d0a67",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6891157371?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6891157582?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6891157237?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3548/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix 1d-softmax schedule. (#11719)"
   }
 ]
