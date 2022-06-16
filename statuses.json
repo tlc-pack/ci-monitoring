@@ -1,5 +1,31 @@
 [
   {
+    "oid": "d0650bad66d0ff89a01347537021bc442a98c223",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6917372566?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6917372452?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6917372329?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3567/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Bugfix][MetaSchedule] Filter out dynamic extents (#11747)"
+  },
+  {
     "oid": "6732a9e3b2d64316926693e91d5ca6a54fc75958",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[CMSIS-NN] Fixed error in finding input's dtype in maxpool (#11701)"
-  },
-  {
-    "oid": "24f49f1aeb4643df97ce82a14a0d2c4f55d637f7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6901529627?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6901530376?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6901530060?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3552/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Apply linting rules to AOT tests (#11657)"
   }
 ]
