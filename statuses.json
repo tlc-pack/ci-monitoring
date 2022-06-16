@@ -1,5 +1,31 @@
 [
   {
+    "oid": "b4a77ac7f4ed9c639a28468133b22d9b03c69bf7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6927523621?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6927523562?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6927523480?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3571/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix CI break due to concurrent merge. (#11753)"
+  },
+  {
     "oid": "7bfbc74c65684d1e25e235335da41c94372a561a",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[ci] Skip failing tests in wheel (#11705)"
-  },
-  {
-    "oid": "9d98da27361429cb558930032f074172bc99b7c3",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6905197947?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6905198192?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6905197789?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3556/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Implement avg_pool2d slice op (#11417)"
   }
 ]
