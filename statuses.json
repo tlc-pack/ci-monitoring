@@ -1,5 +1,31 @@
 [
   {
+    "oid": "6732a9e3b2d64316926693e91d5ca6a54fc75958",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6915116373?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6915116628?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6915116857?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3566/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay] Implement `SoftmaxRel` for softmax operators. (#11728)"
+  },
+  {
     "oid": "24010db6c0e90bc555f6d12e23381fa7b00cf25d",
     "statuses": [
       {
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3564/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[CI] Apply linting rules to AOT tests (#11657)"
-  },
-  {
-    "oid": "3eb372e26fc3797150ddc7a0ab96871725af4d1d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6896485375?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6896485082?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6896484745?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3551/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] add GH workflow to comment with link to docs (#11594)"
   }
 ]
