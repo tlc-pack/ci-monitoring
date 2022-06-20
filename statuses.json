@@ -1,5 +1,31 @@
 [
   {
+    "oid": "ccc935dda9d96ba72b2e0ff75aa132bea3968903",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6969960598?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6969960418?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6969960222?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3592/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci][docker] Remove Docker image upload prefix (#11769)"
+  },
+  {
     "oid": "8bf6cd5800daaf42935fd69cbd63180c97bef262",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Enable QNN primitives for DNNL runtime (#11642)"
-  },
-  {
-    "oid": "eb493110a89f75dafd59b4c6caa23eedbf93b32f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6933452489?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6933452584?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6933452325?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3577/display/redirect"
-      }
-    ],
-    "messageHeadline": "Constant name prefix added (#11509)"
   }
 ]
