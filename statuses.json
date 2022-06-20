@@ -1,5 +1,31 @@
 [
   {
+    "oid": "8bf6cd5800daaf42935fd69cbd63180c97bef262",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6967162653?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6967162379?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6967162510?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3591/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMC] Fix tvmc run when using rpc (#11757)"
+  },
+  {
     "oid": "9bba7580b0dcaea4963bd6b35df0bf6bf867b8ff",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Constant name prefix added (#11509)"
-  },
-  {
-    "oid": "1b8f3b54c6da0bf25427a8bd9a049d87318a1e66",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6930843442?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6930843406?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6930843362?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3576/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][docker gpu] Install dnnl in docker GPU. (#11744)"
   }
 ]
