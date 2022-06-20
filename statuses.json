@@ -1,5 +1,31 @@
 [
   {
+    "oid": "2c78daed488ea1c9f75c62587098a0c59519d8f0",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6975271245?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6975271315?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6975271193?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3593/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Enhance parsing in JSONDatabase (#11791)"
+  },
+  {
     "oid": "ccc935dda9d96ba72b2e0ff75aa132bea3968903",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[hexagon][testing] add test-skip logic; fixes (#11737)"
-  },
-  {
-    "oid": "5aabeb741f6952fc8d09934fb85b15666c938280",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6934979726?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6934980001?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6934979838?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3578/display/redirect"
-      }
-    ],
-    "messageHeadline": "Enable QNN primitives for DNNL runtime (#11642)"
   }
 ]
