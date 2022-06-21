@@ -1,5 +1,31 @@
 [
   {
+    "oid": "1e51bfecdb5985bd48dd5a8773b6bf352fc4fcb6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6990325854?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6990325964?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6990325719?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3598/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix apt install (#11781)"
+  },
+  {
     "oid": "d4ae31333e96513cca5bb59684dbe20cabce6faa",
     "statuses": [
       {
@@ -16,6 +42,11 @@
         "name": "CI / Android",
         "status": "PENDING",
         "url": "https://github.com/apache/tvm/runs/6990147226?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3597/display/redirect"
       }
     ],
     "messageHeadline": "[microTVM] [Fix] reboot include for Zephyr version >=2.6.0 (#11790)"
@@ -357,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Runtime][PipelineExecutor] Added Interface to Track Number of Global\u2026"
-  },
-  {
-    "oid": "648154d808f87d17d27754ef710dbcbaf5452d39",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6941753652?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6941753835?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6941753741?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3583/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MLF] Add support for multiple modules in Model Library Format (#11464)"
   }
 ]
