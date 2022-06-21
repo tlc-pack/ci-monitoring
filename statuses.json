@@ -1,5 +1,52 @@
 [
   {
+    "oid": "d4ae31333e96513cca5bb59684dbe20cabce6faa",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6990146957?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6990147103?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6990147226?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[microTVM] [Fix] reboot include for Zephyr version >=2.6.0 (#11790)"
+  },
+  {
+    "oid": "9e58af2abe2cbd1305c6067e02c95f68756e8165",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6989924760?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6989925321?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6989925087?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3596/display/redirect"
+      }
+    ],
+    "messageHeadline": "[docs] Fix incorrect command (#11630)"
+  },
+  {
     "oid": "9ff2a5e796b9cac0bdf05bfd600c50ade9728f1f",
     "statuses": [
       {
@@ -336,57 +383,5 @@
       }
     ],
     "messageHeadline": "[MLF] Add support for multiple modules in Model Library Format (#11464)"
-  },
-  {
-    "oid": "c5465d8037196c7abbf3f599a120dd28e1d029bd",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6941534374?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6941534290?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6941534209?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3582/display/redirect"
-      }
-    ],
-    "messageHeadline": "[hexagon][testing] add max_pool2d benchmark (#11720)"
-  },
-  {
-    "oid": "0fdc0eab5199d1b6549d2b2f94c83d86d5545e81",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6941363037?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6941363115?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/runs/6941363212?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3581/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Distributed Measurement (#11683)"
   }
 ]
