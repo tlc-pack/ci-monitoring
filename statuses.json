@@ -1,5 +1,31 @@
 [
   {
+    "oid": "b63801c4cd79508eec4d0d210cf62764dfacf6e1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6992442900?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6992443170?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6992443031?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3602/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TE Schedule] Fix broken 2D softmax TE schedules when axis=0 (#11803)"
+  },
+  {
     "oid": "6282658e1949f0204be559b058fd9a6f63e673d5",
     "statuses": [
       {
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3600/display/redirect"
       }
     ],
@@ -56,7 +82,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6990533135?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule][Runtime] Enhance Runner RandomFill (#11758)"
-  },
-  {
-    "oid": "4b1574623ce4b123508792415a78e9d1375bc3eb",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6946167589?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6946167638?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6946167546?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3587/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule][Minor] Add Describe Function For Tuning Scripts (#11754)"
   }
 ]
