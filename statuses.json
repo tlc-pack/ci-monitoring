@@ -1,5 +1,31 @@
 [
   {
+    "oid": "a363a04720ee78fa50c569cd96da6a0de1281174",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6992675689?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6992675951?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6992675831?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3603/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Update GPU image to add DNNL (#11786)"
+  },
+  {
     "oid": "b63801c4cd79508eec4d0d210cf62764dfacf6e1",
     "statuses": [
       {
@@ -40,7 +66,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/6991669553?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[COMMUNITY] Denise Kutnick -> Reviewer (#11778)"
-  },
-  {
-    "oid": "f8b320f523b24fd8ddb8cf7026e61bbb4f4ea348",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6947172387?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6947172416?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6947172356?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3588/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule][Runtime] Enhance Runner RandomFill (#11758)"
   }
 ]
