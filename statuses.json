@@ -1,5 +1,31 @@
 [
   {
+    "oid": "f53f70cb93d589beaf55e443d0383f9e495cccd1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7014070400?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7014070671?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7014070181?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3618/display/redirect"
+      }
+    ],
+    "messageHeadline": "Sort functions (#11814)"
+  },
+  {
     "oid": "d5e812cb5b2dd6696c584347e0ec26c2b9b9f58b",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[LLVM] Retrieve entire target string from LLVMModule (#11802)"
-  },
-  {
-    "oid": "a363a04720ee78fa50c569cd96da6a0de1281174",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6992675689?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6992675951?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6992675831?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3603/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Update GPU image to add DNNL (#11786)"
   }
 ]
