@@ -1,5 +1,42 @@
 [
   {
+    "oid": "5056eb751b0b2c85774d4791c5bb7021cb056733",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6996112760?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6996112857?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/6996112943?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3607/display/redirect"
+      }
+    ],
+    "messageHeadline": "Change new concat (#11800)"
+  },
+  {
+    "oid": "32d16eb358c51b1c142c400a973f516d607a21b4",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3606/display/redirect"
+      }
+    ],
+    "messageHeadline": "[skip ci] Use Stanford Cars mirror to fix CI docs build (#11812)"
+  },
+  {
     "oid": "a5366a7d1968e6f00a9fea10719a8deccfb78385",
     "statuses": [
       {
@@ -336,57 +373,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Enhance parsing in JSONDatabase (#11791)"
-  },
-  {
-    "oid": "ccc935dda9d96ba72b2e0ff75aa132bea3968903",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6969960598?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6969960418?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6969960222?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3592/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][docker] Remove Docker image upload prefix (#11769)"
-  },
-  {
-    "oid": "8bf6cd5800daaf42935fd69cbd63180c97bef262",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6967162653?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6967162379?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6967162510?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3591/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMC] Fix tvmc run when using rpc (#11757)"
   }
 ]
