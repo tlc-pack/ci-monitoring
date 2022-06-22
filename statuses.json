@@ -1,5 +1,31 @@
 [
   {
+    "oid": "1e0e9548a6875241267481a4223b4dbf29fa1641",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7001537689?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7001537361?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7001537540?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3610/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CPP-RPC] Fix command line argument capture (#11801)"
+  },
+  {
     "oid": "6ed3ab3e33f8eafa4acaf53b7a671831de7587e9",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[docs] Fix incorrect command (#11630)"
-  },
-  {
-    "oid": "9ff2a5e796b9cac0bdf05bfd600c50ade9728f1f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6976396711?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6976396767?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6976396580?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3595/display/redirect"
-      }
-    ],
-    "messageHeadline": "add layerNormal infer layout (#11784)"
   }
 ]
