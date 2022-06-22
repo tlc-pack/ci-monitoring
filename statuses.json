@@ -1,5 +1,57 @@
 [
   {
+    "oid": "d5e812cb5b2dd6696c584347e0ec26c2b9b9f58b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7011669684?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7011669855?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7011669537?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3617/display/redirect"
+      }
+    ],
+    "messageHeadline": "skip mps2_an521 for host-driven AoT zephyr tests (#11833)"
+  },
+  {
+    "oid": "83bbcd76b76af303b1c55ec1dc81705c5be90d76",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7011514984?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7011514574?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7011514817?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3616/display/redirect"
+      }
+    ],
+    "messageHeadline": "[docs] Fix the error in install/from_source.rst file (#11796)"
+  },
+  {
     "oid": "c334790bf88694db8d748d2299f50f2b04c46486",
     "statuses": [
       {
@@ -92,7 +144,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7010750772?check_suite_focus=true"
       },
       {
@@ -321,57 +373,5 @@
       }
     ],
     "messageHeadline": "[CI] Update GPU image to add DNNL (#11786)"
-  },
-  {
-    "oid": "b63801c4cd79508eec4d0d210cf62764dfacf6e1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6992442900?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6992443170?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6992443031?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3602/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TE Schedule] Fix broken 2D softmax TE schedules when axis=0 (#11803)"
-  },
-  {
-    "oid": "6282658e1949f0204be559b058fd9a6f63e673d5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6991669704?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6991669884?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6991669553?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3601/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI Image] support CSI-NN2 in ci_qemu (#11689)"
   }
 ]
