@@ -1,5 +1,31 @@
 [
   {
+    "oid": "5ac8993da2e0701b0137105b97406f73346ef395",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7010943729?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7010943857?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7010943583?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3613/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TOPI][Relay] New Op: MetaScheduleLayoutRewrite (#11826)"
+  },
+  {
     "oid": "51b0d8c44a80f7f01ae2a0480db107633d7dbc45",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[HEXAGON] Slice ops added - add, subtract, multiply (#11529)"
-  },
-  {
-    "oid": "1e51bfecdb5985bd48dd5a8773b6bf352fc4fcb6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6990325854?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6990325964?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6990325719?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3598/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix apt install (#11781)"
   }
 ]
