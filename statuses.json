@@ -1,5 +1,31 @@
 [
   {
+    "oid": "6ed3ab3e33f8eafa4acaf53b7a671831de7587e9",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7001410409?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7001410620?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7001410218?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3609/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TFLite] Support quantized EQUAL op in TFLite frontend (#11520)"
+  },
+  {
     "oid": "98fb955a5153e3d4f66fa3b9403e515da31c54b6",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "add layerNormal infer layout (#11784)"
-  },
-  {
-    "oid": "25db38105de93705fd67f2b5f3fd7dbd0a428416",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6976072544?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6976072372?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6976072458?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3594/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule][Minor] Update CPU Flush ArgParse Type (#11792)"
   }
 ]
