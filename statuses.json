@@ -1,5 +1,31 @@
 [
   {
+    "oid": "698e7adb4a27ca38d51fc63f8734ab3f4f4c9a3c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7009699504?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7009699708?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7009699365?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3611/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microTVM][RVM] Reuse QEMU installation config and fix bug in RVM tes\u2026"
+  },
+  {
     "oid": "1e0e9548a6875241267481a4223b4dbf29fa1641",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[microTVM] [Fix] reboot include for Zephyr version >=2.6.0 (#11790)"
-  },
-  {
-    "oid": "9e58af2abe2cbd1305c6067e02c95f68756e8165",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6989924760?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6989925321?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/6989925087?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3596/display/redirect"
-      }
-    ],
-    "messageHeadline": "[docs] Fix incorrect command (#11630)"
   }
 ]
