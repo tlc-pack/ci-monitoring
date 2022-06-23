@@ -1,5 +1,31 @@
 [
   {
+    "oid": "25cf489b0410dc8cf4c938e9337a31b9c5ddd3b6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7016540563?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7016540475?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7016540678?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3623/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TOPI] Layout Rewriting in TE (#11844)"
+  },
+  {
     "oid": "03ed04e6a9ec15365c9a59441f503ab7769c4182",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TFLite] Support quantized EQUAL op in TFLite frontend (#11520)"
-  },
-  {
-    "oid": "98fb955a5153e3d4f66fa3b9403e515da31c54b6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7000467050?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7000467314?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7000466837?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3608/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay][Op] MetaSchedule layout in TypeRel (#11819)"
   }
 ]
