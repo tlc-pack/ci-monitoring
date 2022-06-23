@@ -1,10 +1,62 @@
 [
   {
-    "oid": "25cf489b0410dc8cf4c938e9337a31b9c5ddd3b6",
+    "oid": "410e836025d2c0f6f193cbf523dc7c1921093b17",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7017379058?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7017379119?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7017378994?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3625/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Bugfix][Minor] Avoid re-inference for MetaSchedule layout (#11842)"
+  },
+  {
+    "oid": "3c5365dc7b51096f743ece82601f4442796de622",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7017364688?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7017364766?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7017364589?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3624/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Fix dtype mismatch in UnifyThreadBinding (#11843)"
+  },
+  {
+    "oid": "25cf489b0410dc8cf4c938e9337a31b9c5ddd3b6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7016540563?check_suite_focus=true"
       },
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[microTVM][RVM] Reuse QEMU installation config and fix bug in RVM tes\u2026"
-  },
-  {
-    "oid": "1e0e9548a6875241267481a4223b4dbf29fa1641",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7001537689?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7001537361?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7001537540?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3610/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CPP-RPC] Fix command line argument capture (#11801)"
-  },
-  {
-    "oid": "6ed3ab3e33f8eafa4acaf53b7a671831de7587e9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7001410409?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7001410620?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7001410218?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3609/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TFLite] Support quantized EQUAL op in TFLite frontend (#11520)"
   }
 ]
