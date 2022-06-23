@@ -1,5 +1,31 @@
 [
   {
+    "oid": "5e810678186a0cfddcd295869c91a8a3b16995b8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7032748248?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7032748034?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7032748131?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3640/display/redirect"
+      }
+    ],
+    "messageHeadline": "fix flaky test (#11663)"
+  },
+  {
     "oid": "092b54830bd2eb77a100d0d7fed0039288d12a57",
     "statuses": [
       {
@@ -66,7 +92,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7032035860?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Relay][Pass] Meta-Schedule-Layout-Rewrite (#11845)"
-  },
-  {
-    "oid": "410e836025d2c0f6f193cbf523dc7c1921093b17",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7017379058?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7017379119?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7017378994?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3625/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Bugfix][Minor] Avoid re-inference for MetaSchedule layout (#11842)"
   }
 ]
