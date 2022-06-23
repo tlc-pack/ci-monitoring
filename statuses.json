@@ -1,5 +1,31 @@
 [
   {
+    "oid": "c42ef79d1e2cb89434ca5390001c2ac1913af1b2",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7030055984?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7030055800?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7030056200?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3636/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci][docker] Send a PR to bump the Docker images nightly (#11813)"
+  },
+  {
     "oid": "6660e27e71368baaa6608f5cb44c77e76908a1d8",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[CI] Amend docs bot comment (#11836)"
-  },
-  {
-    "oid": "b241bca29279149433b5f8869dd14a180a9f0080",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7014676887?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7014676699?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7014676772?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3621/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microTVM][CMSIS] Add CMSIS libraries/sources to Zephyr CMake file (#\u2026"
   }
 ]
