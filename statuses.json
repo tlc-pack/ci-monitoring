@@ -1,5 +1,31 @@
 [
   {
+    "oid": "b47725627e264aba5679534db4589f540d4bcd7c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7017871691?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7017871975?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7017871848?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3626/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay][Pass] Meta-Schedule-Layout-Rewrite (#11845)"
+  },
+  {
     "oid": "410e836025d2c0f6f193cbf523dc7c1921093b17",
     "statuses": [
       {
@@ -14,7 +40,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7017378994?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[lint] CHange docker lint message (#11767)"
-  },
-  {
-    "oid": "698e7adb4a27ca38d51fc63f8734ab3f4f4c9a3c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7009699504?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7009699708?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7009699365?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3611/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microTVM][RVM] Reuse QEMU installation config and fix bug in RVM tes\u2026"
   }
 ]
