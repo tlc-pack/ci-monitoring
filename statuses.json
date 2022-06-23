@@ -1,15 +1,41 @@
 [
   {
-    "oid": "b47725627e264aba5679534db4589f540d4bcd7c",
+    "oid": "dac23b584d3f189d73eef4e72f3917f6fa4e3317",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7017871691?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7019044633?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7019044940?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7019044771?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3627/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI][arm] Fix tensorflow-aarch64 repository URL (#11829)"
+  },
+  {
+    "oid": "b47725627e264aba5679534db4589f540d4bcd7c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7017871691?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7017871975?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TOPI][Relay] New Op: MetaScheduleLayoutRewrite (#11826)"
-  },
-  {
-    "oid": "51b0d8c44a80f7f01ae2a0480db107633d7dbc45",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7010751116?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7010750937?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7010750772?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3612/display/redirect"
-      }
-    ],
-    "messageHeadline": "[lint] CHange docker lint message (#11767)"
   }
 ]
