@@ -1,5 +1,52 @@
 [
   {
+    "oid": "d439f6c4f18ddabeed487ea8ba253f25dd1e6fb8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7048655090?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7048655217?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7048654977?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "Delete `from __future__ import annotations` since it requires Python \u2026"
+  },
+  {
+    "oid": "b1fed2d17db463e7bfaea169b7cabaad80936059",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7048611096?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7048611013?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7048611222?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3656/display/redirect"
+      }
+    ],
+    "messageHeadline": "[PROFILING] Catch any errors while setting locale for printing (#11860)"
+  },
+  {
     "oid": "bca278a8294fe28e3428a5cd63b9ea361e47070c",
     "statuses": [
       {
@@ -149,7 +196,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3650/display/redirect"
       }
     ],
@@ -336,57 +383,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Introduce ArgInfo::FromEntryFunc (#11866)"
-  },
-  {
-    "oid": "4cb18b43d1aa6402b76ddf18f7273f56fd3de0af",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7035069761?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7035069700?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7035069638?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3642/display/redirect"
-      }
-    ],
-    "messageHeadline": "add glu (#11865)"
-  },
-  {
-    "oid": "b4c0bf7419950c99f8a995042aa547dc30187f4b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7032880257?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7032880348?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7032880190?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3641/display/redirect"
-      }
-    ],
-    "messageHeadline": "[LLVM] Register factory function for CodeGenCPU (#11852)"
   }
 ]
