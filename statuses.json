@@ -1,5 +1,31 @@
 [
   {
+    "oid": "4cb18b43d1aa6402b76ddf18f7273f56fd3de0af",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7035069761?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7035069700?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7035069638?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3642/display/redirect"
+      }
+    ],
+    "messageHeadline": "add glu (#11865)"
+  },
+  {
     "oid": "b4c0bf7419950c99f8a995042aa547dc30187f4b",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[BugFix] IndexMap.Inverse for unit iters (#11841)"
-  },
-  {
-    "oid": "dac23b584d3f189d73eef4e72f3917f6fa4e3317",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7019044633?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7019044940?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7019044771?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3627/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI][arm] Fix tensorflow-aarch64 repository URL (#11829)"
   }
 ]
