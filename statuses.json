@@ -1,10 +1,36 @@
 [
   {
-    "oid": "2c3b56c9d3fa07407eb6dda7f2142f6ba3748ecf",
+    "oid": "fb5e9c9cad7bfa949b1fb71dbfd12b955d1c668e",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7047084280?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7047084394?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7047084086?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3652/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI][Lint] Disable no-else-return check in pylint (#11327)"
+  },
+  {
+    "oid": "2c3b56c9d3fa07407eb6dda7f2142f6ba3748ecf",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7046088492?check_suite_focus=true"
       },
       {
@@ -30,7 +56,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7046020209?check_suite_focus=true"
       },
       {
@@ -71,7 +97,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3649/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "add split infer shape with convert op layout pass (#11825)"
-  },
-  {
-    "oid": "0d14519e14ba538c01eb57a83f0633fd3159e9ca",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7032035994?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7032036306?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7032035860?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3637/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Enable pylint for tests/python/ci (#11666)"
   }
 ]
