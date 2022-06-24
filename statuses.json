@@ -1,5 +1,57 @@
 [
   {
+    "oid": "6097af8aedcbf88b76f13a47a89d880b484261a8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7038770836?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7038771032?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7038770661?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3645/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Target] Add a few AWS C5 instances in target tag system (#11869)"
+  },
+  {
+    "oid": "3e1a888ffe311a69db83bba8f6760a935cd27695",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7038764767?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7038764587?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7038765051?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3644/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Minor][MetaSchedule] Suppress warning for using `None` (#11868)"
+  },
+  {
     "oid": "d2cbdf381b68134951bfd7525c6a3a67838e5bdf",
     "statuses": [
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "Fix `std::locale(\"\")` in profiling.cc (#11846)"
-  },
-  {
-    "oid": "79e64ad8e004884d6332061339194022ced2430d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7027592513?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7027592916?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7027592698?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3630/display/redirect"
-      }
-    ],
-    "messageHeadline": "[LLVM] Remove `using llvm::BasicBlock`, NFC (#11850)"
-  },
-  {
-    "oid": "7ae919292d42f5858d4db04533bca67b4b5bb44f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7023419600?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7023419939?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7023419775?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3629/display/redirect"
-      }
-    ],
-    "messageHeadline": "Revert \"upgrade ci lint docker file (#11734)\" (#11787)"
   }
 ]
