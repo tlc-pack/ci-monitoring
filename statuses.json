@@ -1,5 +1,31 @@
 [
   {
+    "oid": "8c3d922b7ed019cd9c00cb763a5b76fa5a7af664",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7040411285?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7040411164?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7040410972?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3647/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR][Pass] Remove-Weight-Layout-Rewrite-Block (#11870)"
+  },
+  {
     "oid": "b99d93afec217f1dabc8b25e2e95251e50079ae8",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[OpStrategy] Support MetaSchedule Layout (#11848)"
-  },
-  {
-    "oid": "a6cbe0d13eacbdcb6471caade4baa4b02926a490",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7028972666?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7028972807?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7028972553?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3632/display/redirect"
-      }
-    ],
-    "messageHeadline": "[python][docs] fix docstring / comment typos (#11608)"
   }
 ]
