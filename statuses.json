@@ -1,5 +1,31 @@
 [
   {
+    "oid": "b99d93afec217f1dabc8b25e2e95251e50079ae8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7039669471?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7039669711?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7039669147?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3646/display/redirect"
+      }
+    ],
+    "messageHeadline": "[fix] quantize op consistent with python description (#11872)"
+  },
+  {
     "oid": "6097af8aedcbf88b76f13a47a89d880b484261a8",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[python][docs] fix docstring / comment typos (#11608)"
-  },
-  {
-    "oid": "12e8744cd1e6f5e4864f94f8b089f4cb7e2e5b59",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7027912436?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7027912579?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7027912320?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3631/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix `std::locale(\"\")` in profiling.cc (#11846)"
   }
 ]
