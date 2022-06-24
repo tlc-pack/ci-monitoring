@@ -1,5 +1,31 @@
 [
   {
+    "oid": "d2cbdf381b68134951bfd7525c6a3a67838e5bdf",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7036168008?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7036167937?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7036167800?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3643/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Introduce ArgInfo::FromEntryFunc (#11866)"
+  },
+  {
     "oid": "4cb18b43d1aa6402b76ddf18f7273f56fd3de0af",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Revert \"upgrade ci lint docker file (#11734)\" (#11787)"
-  },
-  {
-    "oid": "778db2f34f4c73fd362e6192dbdc1972bdd37999",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7019920575?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7019920394?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7019920206?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3628/display/redirect"
-      }
-    ],
-    "messageHeadline": "[BugFix] IndexMap.Inverse for unit iters (#11841)"
   }
 ]
