@@ -1,5 +1,31 @@
 [
   {
+    "oid": "2c3b56c9d3fa07407eb6dda7f2142f6ba3748ecf",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7046088492?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7046088675?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7046088331?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3651/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Add manual workflow to upload files to CI bucket (#11856)"
+  },
+  {
     "oid": "aa66e9fd84192f321efb1fac90c6086a6f7b5651",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[ci] Enable pylint for tests/python/ci (#11666)"
-  },
-  {
-    "oid": "c42ef79d1e2cb89434ca5390001c2ac1913af1b2",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7030055984?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7030055800?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7030056200?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3636/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][docker] Send a PR to bump the Docker images nightly (#11813)"
   }
 ]
