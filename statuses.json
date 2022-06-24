@@ -1,5 +1,31 @@
 [
   {
+    "oid": "ed3294fb3fca996e4a75151974f0d4784c0d8693",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7042946042?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7042945839?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7042945604?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3648/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Arith] Update BufferDomainTouched to support vector access. (#11722)"
+  },
+  {
     "oid": "8c3d922b7ed019cd9c00cb763a5b76fa5a7af664",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[LLVM] Remove PrintModule (defined in llvm_common.cc) (#11851)"
-  },
-  {
-    "oid": "1bdedfb466a6aa5c0176d92123709733e0d25f97",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7029096701?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7029094435?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7029094556?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3633/display/redirect"
-      }
-    ],
-    "messageHeadline": "[OpStrategy] Support MetaSchedule Layout (#11848)"
   }
 ]
