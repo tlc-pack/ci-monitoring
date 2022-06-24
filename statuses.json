@@ -1,5 +1,57 @@
 [
   {
+    "oid": "503f1a65d48acdd15278b6c804ef3b83d70f54ac",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7047904981?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7047904859?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7047904713?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3654/display/redirect"
+      }
+    ],
+    "messageHeadline": "add instance infer layout (#11871)"
+  },
+  {
+    "oid": "77d73b5b28c1b07f8d40d3339ef17adab5eb0eec",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7047870454?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7047870568?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7047870304?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3653/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay] [Pytorch] Add aten::maximum and aten::minimum (#11864)"
+  },
+  {
     "oid": "fb5e9c9cad7bfa949b1fb71dbfd12b955d1c668e",
     "statuses": [
       {
@@ -14,7 +66,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7047084086?check_suite_focus=true"
       },
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "fix flaky test (#11663)"
-  },
-  {
-    "oid": "092b54830bd2eb77a100d0d7fed0039288d12a57",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7032094409?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7032094542?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7032094679?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3639/display/redirect"
-      }
-    ],
-    "messageHeadline": "add topK FInferCorrectLayout attr (#11849)"
-  },
-  {
-    "oid": "a090009be6fbb0995acdb345da24e921861ef05e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7032054256?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7032054378?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7032054532?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3638/display/redirect"
-      }
-    ],
-    "messageHeadline": "add split infer shape with convert op layout pass (#11825)"
   }
 ]
