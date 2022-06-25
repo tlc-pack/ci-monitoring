@@ -1,25 +1,77 @@
 [
   {
-    "oid": "12dad9a4a184d4717e07f0f669dd6a6f12c37c69",
+    "oid": "98bf40fc0afb0e40efa8b7a6cf2f664e17a89db7",
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7050109033?check_suite_focus=true"
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7050618356?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7050109068?check_suite_focus=true"
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7050618407?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7050108986?check_suite_focus=true"
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7050618315?check_suite_focus=true"
       },
       {
         "name": "tvm-ci/branch",
         "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3663/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay] [PyTorch] Add aten::broadcast_tensors (#11863)"
+  },
+  {
+    "oid": "600a2017a4da6ace588b30360bee35b5a3cd6c73",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7050523457?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7050523542?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7050523648?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3662/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Postproc: Rewrite-Layout (#11884)"
+  },
+  {
+    "oid": "12dad9a4a184d4717e07f0f669dd6a6f12c37c69",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7050109033?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7050109068?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7050108986?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3661/display/redirect"
       }
     ],
@@ -30,12 +82,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7049833858?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7049833949?check_suite_focus=true"
       },
       {
@@ -45,7 +97,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3660/display/redirect"
       }
     ],
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Softmax slice op initial version (#11559)"
-  },
-  {
-    "oid": "ed3294fb3fca996e4a75151974f0d4784c0d8693",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7042946042?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7042945839?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7042945604?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3648/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Arith] Update BufferDomainTouched to support vector access. (#11722)"
-  },
-  {
-    "oid": "8c3d922b7ed019cd9c00cb763a5b76fa5a7af664",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7040411285?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7040411164?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7040410972?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3647/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][Pass] Remove-Weight-Layout-Rewrite-Block (#11870)"
   }
 ]
