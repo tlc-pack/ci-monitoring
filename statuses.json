@@ -1,5 +1,26 @@
 [
   {
+    "oid": "6d6e0705873b0b64576127fd6038720ef6c9c338",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7053719892?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7053719928?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7053719988?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[AOT] Calculate used memory at the callsite of primitive functions (#\u2026"
+  },
+  {
     "oid": "59fb4219ffce7b7cbcabebe6fdd40d850e4b016b",
     "statuses": [
       {
@@ -357,31 +378,5 @@
       }
     ],
     "messageHeadline": "[ci] Add manual workflow to upload files to CI bucket (#11856)"
-  },
-  {
-    "oid": "aa66e9fd84192f321efb1fac90c6086a6f7b5651",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7046020209?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7046020308?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7046020124?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3650/display/redirect"
-      }
-    ],
-    "messageHeadline": "update (#11838)"
   }
 ]
