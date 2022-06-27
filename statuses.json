@@ -1,5 +1,31 @@
 [
   {
+    "oid": "45568c9963fae1ea44a63cfd77b728471503ebff",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7079119718?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7079119989?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7079119468?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3669/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Improved error message if tir.Schedule passed to lower/build (#\u2026"
+  },
+  {
     "oid": "1115fd9bc261619ffa0539746ae0aebc46232dc6",
     "statuses": [
       {
@@ -352,31 +378,5 @@
       }
     ],
     "messageHeadline": "[Relay] [Pytorch] Add aten::maximum and aten::minimum (#11864)"
-  },
-  {
-    "oid": "fb5e9c9cad7bfa949b1fb71dbfd12b955d1c668e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7047084280?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7047084394?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7047084086?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3652/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI][Lint] Disable no-else-return check in pylint (#11327)"
   }
 ]
