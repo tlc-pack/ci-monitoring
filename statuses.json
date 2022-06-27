@@ -1,5 +1,26 @@
 [
   {
+    "oid": "1115fd9bc261619ffa0539746ae0aebc46232dc6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7065302886?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7065302949?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7065302793?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "make injective ops's opt schedule applied to every output tensor (#11\u2026"
+  },
+  {
     "oid": "6d6e0705873b0b64576127fd6038720ef6c9c338",
     "statuses": [
       {
@@ -352,31 +373,5 @@
       }
     ],
     "messageHeadline": "[CI][Lint] Disable no-else-return check in pylint (#11327)"
-  },
-  {
-    "oid": "2c3b56c9d3fa07407eb6dda7f2142f6ba3748ecf",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7046088492?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7046088675?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7046088331?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3651/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Add manual workflow to upload files to CI bucket (#11856)"
   }
 ]
