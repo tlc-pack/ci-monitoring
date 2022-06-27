@@ -1,5 +1,57 @@
 [
   {
+    "oid": "4a790b69252ca6e82faa610b4b4619b1a869e077",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7080320595?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7080320725?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7080320458?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3673/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Misc minor fix (#11904)"
+  },
+  {
+    "oid": "801e51b21128f88a3e405c1022c41f8c25ac4118",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7080314533?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7080314216?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7080314413?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3672/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix curand. (#11901)"
+  },
+  {
     "oid": "7784a421adca6681dd0de8c84eb748c85e8c0a51",
     "statuses": [
       {
@@ -66,7 +118,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7079119468?check_suite_focus=true"
       },
       {
@@ -326,57 +378,5 @@
       }
     ],
     "messageHeadline": "Delete `from __future__ import annotations` since it requires Python \u2026"
-  },
-  {
-    "oid": "b1fed2d17db463e7bfaea169b7cabaad80936059",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7048611096?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7048611013?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7048611222?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3656/display/redirect"
-      }
-    ],
-    "messageHeadline": "[PROFILING] Catch any errors while setting locale for printing (#11860)"
-  },
-  {
-    "oid": "bca278a8294fe28e3428a5cd63b9ea361e47070c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7048283404?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7048283501?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7048283271?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3655/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Arith] Fix DetectIterMap floordiv when IterSum only contains base ex\u2026"
   }
 ]
