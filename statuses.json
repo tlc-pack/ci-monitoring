@@ -1,5 +1,57 @@
 [
   {
+    "oid": "e92db864b5c43e45c014602b75a0cc1722e49b1f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7081507882?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7081508221?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7081507536?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3676/display/redirect"
+      }
+    ],
+    "messageHeadline": "fix unit8 in _convert_dtype_value (#11924)"
+  },
+  {
+    "oid": "cc6a85bb1c594d9228acec15a9ac24faa9040330",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7081453572?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7081453691?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7081453801?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3675/display/redirect"
+      }
+    ],
+    "messageHeadline": "[HEXAGON] Initial clip operator for Hexagon (#11549)"
+  },
+  {
     "oid": "9cf50213859d9e4ea18b6789f8e2d0de72f34d37",
     "statuses": [
       {
@@ -35,12 +87,12 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7080320725?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7080320458?check_suite_focus=true"
       },
       {
@@ -61,7 +113,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7080314216?check_suite_focus=true"
       },
       {
@@ -326,57 +378,5 @@
       }
     ],
     "messageHeadline": "[TIR] HoistExpression, generalization of HoistIfThenElse (#11592)"
-  },
-  {
-    "oid": "2d9de96a5c96c78f4cd82bc61ed31f0e898e1681",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7049545776?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7049545731?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7049545825?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3659/display/redirect"
-      }
-    ],
-    "messageHeadline": "[docs] Update tlcpack-sphinx-addon (#11891)"
-  },
-  {
-    "oid": "ed638ef6db007772cbf84b13c26836a8a53706b3",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7049074324?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7049074097?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7049074220?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3658/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][Arith] Avoid assigning range of possible values to integers (#1\u2026"
   }
 ]
