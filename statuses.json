@@ -1,5 +1,31 @@
 [
   {
+    "oid": "62b21a18a8bf3b34d6a7ee7d91b6a2f957946087",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7082728196?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7082728285?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7082728100?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3677/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BYOC] InlineCompilerFunctions helper pass (#11923)"
+  },
+  {
     "oid": "e92db864b5c43e45c014602b75a0cc1722e49b1f",
     "statuses": [
       {
@@ -9,7 +35,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7081508221?check_suite_focus=true"
       },
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3676/display/redirect"
       }
     ],
@@ -35,7 +61,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7081453691?check_suite_focus=true"
       },
       {
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3675/display/redirect"
       }
     ],
@@ -61,7 +87,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7081298008?check_suite_focus=true"
       },
       {
@@ -352,31 +378,5 @@
       }
     ],
     "messageHeadline": "[Relay][Frontend][Onnx] Add support for onnx sequence operators. (#11\u2026"
-  },
-  {
-    "oid": "9aaae28bbcee65ad5c12f2a90341002b28e5a015",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7049833858?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7049833949?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7049833784?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3660/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] HoistExpression, generalization of HoistIfThenElse (#11592)"
   }
 ]
