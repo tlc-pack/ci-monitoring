@@ -1,5 +1,31 @@
 [
   {
+    "oid": "7784a421adca6681dd0de8c84eb748c85e8c0a51",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7079618520?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7079618685?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7079618326?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3671/display/redirect"
+      }
+    ],
+    "messageHeadline": "[HEXAGON] Add op resize2d for hexagon (#11834)"
+  },
+  {
     "oid": "104883d7dc9de7b59cc1c4619b2d92e2d2537bd4",
     "statuses": [
       {
@@ -16,6 +42,11 @@
         "name": "CI / Android",
         "status": "PENDING",
         "url": "https://github.com/apache/tvm/runs/7079603636?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3670/display/redirect"
       }
     ],
     "messageHeadline": "[HEXAGON] Change arch and do not disable assert (#11858)"
@@ -347,31 +378,5 @@
       }
     ],
     "messageHeadline": "[Arith] Fix DetectIterMap floordiv when IterSum only contains base ex\u2026"
-  },
-  {
-    "oid": "503f1a65d48acdd15278b6c804ef3b83d70f54ac",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7047904981?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7047904859?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7047904713?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3654/display/redirect"
-      }
-    ],
-    "messageHeadline": "add instance infer layout (#11871)"
   }
 ]
