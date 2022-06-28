@@ -1,10 +1,36 @@
 [
   {
-    "oid": "c87ebefcfd756c33c08393b19a081a6fd4b657e7",
+    "oid": "08723d0ce67a194d47b0f7c60b238cee0962769c",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7091151531?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7091151373?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7091151653?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3687/display/redirect"
+      }
+    ],
+    "messageHeadline": "[usmp] U3 use case (#11015)"
+  },
+  {
+    "oid": "c87ebefcfd756c33c08393b19a081a6fd4b657e7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7089607981?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Misc minor fix (#11904)"
-  },
-  {
-    "oid": "801e51b21128f88a3e405c1022c41f8c25ac4118",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7080314533?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7080314216?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7080314413?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3672/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix curand. (#11901)"
   }
 ]
