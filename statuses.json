@@ -1,20 +1,46 @@
 [
   {
-    "oid": "160b1ba4bd70871433daf0af5cc91283960bd949",
+    "oid": "d4be49aec62299275565066b56a0555bafc2ccac",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7086160849?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7086947473?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7086160953?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7086947548?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7086947641?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3683/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR][BugFix] Do not bind non-index type value of lets in CompactBuff\u2026"
+  },
+  {
+    "oid": "160b1ba4bd70871433daf0af5cc91283960bd949",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7086160849?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7086160953?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7086160714?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TIR] Improved error message if tir.Schedule passed to lower/build (#\u2026"
-  },
-  {
-    "oid": "1115fd9bc261619ffa0539746ae0aebc46232dc6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7065302886?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7065302949?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7065302793?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3668/display/redirect"
-      }
-    ],
-    "messageHeadline": "make injective ops's opt schedule applied to every output tensor (#11\u2026"
   }
 ]
