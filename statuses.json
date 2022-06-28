@@ -1,5 +1,31 @@
 [
   {
+    "oid": "6c8a3530998d46182fe0887a24739d21961a056d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7096710023?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7096709838?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7096709659?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3690/display/redirect"
+      }
+    ],
+    "messageHeadline": "Add cooldown interval logic for the profiling functional (#11465)"
+  },
+  {
     "oid": "b733aa3ec87a1c5a6e49350bd805e187db1aca70",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "fix unit8 in _convert_dtype_value (#11924)"
-  },
-  {
-    "oid": "cc6a85bb1c594d9228acec15a9ac24faa9040330",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7081453572?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7081453691?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7081453801?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3675/display/redirect"
-      }
-    ],
-    "messageHeadline": "[HEXAGON] Initial clip operator for Hexagon (#11549)"
   }
 ]
