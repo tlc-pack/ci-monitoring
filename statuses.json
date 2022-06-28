@@ -1,15 +1,41 @@
 [
   {
-    "oid": "ce77d20c4615c655214d0bd38307813e539ba9a2",
+    "oid": "c87ebefcfd756c33c08393b19a081a6fd4b657e7",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7088118626?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7089607981?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7089608157?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7089607662?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3686/display/redirect"
+      }
+    ],
+    "messageHeadline": "Concatenation corner case fix. (#11907)"
+  },
+  {
+    "oid": "ce77d20c4615c655214d0bd38307813e539ba9a2",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7088118626?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7088118739?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Fix curand. (#11901)"
-  },
-  {
-    "oid": "7784a421adca6681dd0de8c84eb748c85e8c0a51",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7079618520?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7079618685?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7079618326?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3671/display/redirect"
-      }
-    ],
-    "messageHeadline": "[HEXAGON] Add op resize2d for hexagon (#11834)"
   }
 ]
