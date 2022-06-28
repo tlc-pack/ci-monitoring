@@ -1,5 +1,31 @@
 [
   {
+    "oid": "bd49b0846a6f435991a55dec11f5a01169b83b36",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7095400053?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7095399456?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7095398704?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3688/display/redirect"
+      }
+    ],
+    "messageHeadline": "[USMP] Improve algorithm extensibility (#11880)"
+  },
+  {
     "oid": "08723d0ce67a194d47b0f7c60b238cee0962769c",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[microTVM][zephyr] Increase stack size for zephyr host-driven AoT tes\u2026"
-  },
-  {
-    "oid": "4a790b69252ca6e82faa610b4b4619b1a869e077",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7080320595?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7080320725?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7080320458?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3673/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Misc minor fix (#11904)"
   }
 ]
