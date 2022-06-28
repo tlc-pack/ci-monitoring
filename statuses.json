@@ -1,5 +1,31 @@
 [
   {
+    "oid": "39ce4d985e498bf869fc6062ca75fb4c1a5b562b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7087326299?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7087326204?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7087326078?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3684/display/redirect"
+      }
+    ],
+    "messageHeadline": "[OpenCL] Change winograd priority and extend split (#11908)"
+  },
+  {
     "oid": "d4be49aec62299275565066b56a0555bafc2ccac",
     "statuses": [
       {
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3682/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[HEXAGON] Change arch and do not disable assert (#11858)"
-  },
-  {
-    "oid": "45568c9963fae1ea44a63cfd77b728471503ebff",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7079119718?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7079119989?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7079119468?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3669/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Improved error message if tir.Schedule passed to lower/build (#\u2026"
   }
 ]
