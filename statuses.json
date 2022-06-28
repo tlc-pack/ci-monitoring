@@ -1,5 +1,31 @@
 [
   {
+    "oid": "97b3076c3532f73a9d9eeba26a3f329f8e0f803d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7097696744?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7097696906?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7097696581?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3692/display/redirect"
+      }
+    ],
+    "messageHeadline": "[QNN] Add hardswish int8 impl using table lookup (#11700)"
+  },
+  {
     "oid": "688b0825e2ea9ffedafaa83d4027701a4a8a67d1",
     "statuses": [
       {
@@ -16,6 +42,11 @@
         "name": "CI / Android",
         "status": "PENDING",
         "url": "https://github.com/apache/tvm/runs/7097362189?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3691/display/redirect"
       }
     ],
     "messageHeadline": "[ci][docker] Regenerate Jenkinsfile on each run (#11886)"
@@ -61,7 +92,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7096294355?check_suite_focus=true"
       },
       {
@@ -82,7 +113,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7095399456?check_suite_focus=true"
       },
       {
@@ -357,31 +388,5 @@
       }
     ],
     "messageHeadline": "Add missing headers to llvm_module.cc/.h, NFC (#11925)"
-  },
-  {
-    "oid": "62b21a18a8bf3b34d6a7ee7d91b6a2f957946087",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7082728196?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7082728285?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7082728100?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3677/display/redirect"
-      }
-    ],
-    "messageHeadline": "[BYOC] InlineCompilerFunctions helper pass (#11923)"
   }
 ]
