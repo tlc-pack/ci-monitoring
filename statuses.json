@@ -1,15 +1,41 @@
 [
   {
-    "oid": "a0634048122b9f600e647a004535393150535325",
+    "oid": "160b1ba4bd70871433daf0af5cc91283960bd949",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7085252535?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7086160849?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7086160953?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7086160714?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3682/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Skip test_avg_pool2d_slice because of segfault on hardware \u2026"
+  },
+  {
+    "oid": "a0634048122b9f600e647a004535393150535325",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7085252535?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7085252438?check_suite_focus=true"
       },
       {
@@ -362,26 +388,5 @@
       }
     ],
     "messageHeadline": "make injective ops's opt schedule applied to every output tensor (#11\u2026"
-  },
-  {
-    "oid": "6d6e0705873b0b64576127fd6038720ef6c9c338",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7053719892?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7053719928?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7053719988?check_suite_focus=true"
-      }
-    ],
-    "messageHeadline": "[AOT] Calculate used memory at the callsite of primitive functions (#\u2026"
   }
 ]
