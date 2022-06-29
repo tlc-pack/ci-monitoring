@@ -1,5 +1,26 @@
 [
   {
+    "oid": "9ea681f618d3f580659f3a7fae54b5691da55384",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7106608648?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7106608540?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7106608450?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Improve Error Message in JSON Database (#11940)"
+  },
+  {
     "oid": "54f8176b4749d53f94edd0812c3f5a1e536fc6f6",
     "statuses": [
       {
@@ -9,7 +30,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7105523637?check_suite_focus=true"
       },
       {
@@ -19,7 +40,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3698/display/redirect"
       }
     ],
@@ -362,31 +383,5 @@
       }
     ],
     "messageHeadline": "[ci] Allow skip tag anywhere in PR title (#11714)"
-  },
-  {
-    "oid": "39ce4d985e498bf869fc6062ca75fb4c1a5b562b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7087326299?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7087326204?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7087326078?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3684/display/redirect"
-      }
-    ],
-    "messageHeadline": "[OpenCL] Change winograd priority and extend split (#11908)"
   }
 ]
