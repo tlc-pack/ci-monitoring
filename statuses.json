@@ -1,5 +1,57 @@
 [
   {
+    "oid": "7ef6811000a3752e843b333fd5743ea9ef6c049e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7121554447?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7121554516?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7121554324?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3706/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay] Handle memory scope during lowering from relay level (#11874)"
+  },
+  {
+    "oid": "da2ad2d44b9c35fad46883de391a6f45c9ca2efc",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7121353111?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7121353280?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7121353402?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3705/display/redirect"
+      }
+    ],
+    "messageHeadline": "[RPC] Add Data & Time For RPC Tracker / Server Logging (#11950)"
+  },
+  {
     "oid": "a84c54efe5edf57f6af8324f3608a2f835a07cc9",
     "statuses": [
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[QNN] Add hardswish int8 impl using table lookup (#11700)"
-  },
-  {
-    "oid": "688b0825e2ea9ffedafaa83d4027701a4a8a67d1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7097362346?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7097362017?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7097362189?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3691/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][docker] Regenerate Jenkinsfile on each run (#11886)"
-  },
-  {
-    "oid": "6c8a3530998d46182fe0887a24739d21961a056d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7096710023?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7096709838?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7096709659?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3690/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add cooldown interval logic for the profiling functional (#11465)"
   }
 ]
