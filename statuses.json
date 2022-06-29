@@ -1,20 +1,46 @@
 [
   {
-    "oid": "ae33f408c4658ad38a959489f3fd5d3b7fc37dfc",
+    "oid": "54f8176b4749d53f94edd0812c3f5a1e536fc6f6",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7104830347?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7105523567?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7104830431?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7105523637?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7105523500?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3698/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Docs bot now edits previous comments (#11909)"
+  },
+  {
+    "oid": "ae33f408c4658ad38a959489f3fd5d3b7fc37dfc",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7104830347?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7104830431?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7104830507?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[OpenCL] Change winograd priority and extend split (#11908)"
-  },
-  {
-    "oid": "d4be49aec62299275565066b56a0555bafc2ccac",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7086947473?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7086947548?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7086947641?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3683/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][BugFix] Do not bind non-index type value of lets in CompactBuff\u2026"
   }
 ]
