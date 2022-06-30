@@ -1,5 +1,16 @@
 [
   {
+    "oid": "6a86c97889a81e856e610a81d2bb20852cda8932",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3720/display/redirect"
+      }
+    ],
+    "messageHeadline": "[skip ci] Disable flaky test `test_empty_like` (#11968)"
+  },
+  {
     "oid": "985680ee1ae77ebe51f373df64063f8372e6cb6e",
     "statuses": [
       {
@@ -14,7 +25,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7136578940?check_suite_focus=true"
       },
       {
@@ -40,7 +51,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7136353717?check_suite_focus=true"
       },
       {
@@ -362,31 +373,5 @@
       }
     ],
     "messageHeadline": "[Relay] Handle memory scope during lowering from relay level (#11874)"
-  },
-  {
-    "oid": "da2ad2d44b9c35fad46883de391a6f45c9ca2efc",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7121353111?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7121353280?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7121353402?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3705/display/redirect"
-      }
-    ],
-    "messageHeadline": "[RPC] Add Data & Time For RPC Tracker / Server Logging (#11950)"
   }
 ]
