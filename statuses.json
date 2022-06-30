@@ -1,25 +1,77 @@
 [
   {
-    "oid": "7ef6811000a3752e843b333fd5743ea9ef6c049e",
+    "oid": "3bd83e0c9f2e4c6cc50fd86d5691449417487a93",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7121554447?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7122582241?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7121554516?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7122582444?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7121554324?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7122582329?check_suite_focus=true"
       },
       {
         "name": "tvm-ci/branch",
         "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3708/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Handle 'warp_execution' implied extend of threadIdx.x \u2026"
+  },
+  {
+    "oid": "41c94b27ef5f10ad70af211dd25c4837dad53f64",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7122485856?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7122485919?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7122485787?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3707/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay][Pytorch] Add aten::new_ones, aten::new_full, aten::fill_, ate\u2026"
+  },
+  {
+    "oid": "7ef6811000a3752e843b333fd5743ea9ef6c049e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7121554447?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7121554516?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7121554324?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3706/display/redirect"
       }
     ],
@@ -35,7 +87,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7121353280?check_suite_focus=true"
       },
       {
@@ -45,7 +97,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3705/display/redirect"
       }
     ],
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[Relay][VirtualDevice] Expose WithFields to Python to do proper copy \u2026"
-  },
-  {
-    "oid": "0e23122846aa3b7a5350102d8c06fa21695d34be",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7098509828?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7098510387?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7098510073?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3693/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Enable Adapative Training For XGBoost Cost Model (#11892)"
-  },
-  {
-    "oid": "97b3076c3532f73a9d9eeba26a3f329f8e0f803d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7097696744?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7097696906?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7097696581?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/v0.9.0/1/display/redirect"
-      }
-    ],
-    "messageHeadline": "[QNN] Add hardswish int8 impl using table lookup (#11700)"
   }
 ]
