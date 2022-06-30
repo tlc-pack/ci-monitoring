@@ -1,5 +1,57 @@
 [
   {
+    "oid": "beea0d2d6add545bd27130309aa12b8e7a38100f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7141241665?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7141241817?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7141241750?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3725/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Fix Task Extraction (#11954)"
+  },
+  {
+    "oid": "26ad70333875c55eec438b840d004a5fb9255572",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7141170549?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7141170490?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7141170402?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3724/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Handle 'warp_execution' in RewriteCooperativeFetch (#1\u2026"
+  },
+  {
     "oid": "6424f1fec174557510bf94edb4882e952f3e9541",
     "statuses": [
       {
@@ -14,7 +66,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7140554210?check_suite_focus=true"
       },
       {
@@ -321,57 +373,5 @@
       }
     ],
     "messageHeadline": "typo fix (#11958)"
-  },
-  {
-    "oid": "558ba99c7cad6fa5f01cfdb2bd6bdd2cec6087db",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7124680912?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7124681039?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7124681106?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3710/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Tuning Script Upgrade (#11797)"
-  },
-  {
-    "oid": "898946fec60898b8fa753d6f0cdf8ebc86c9827a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7122985029?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7122985096?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7122984977?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3709/display/redirect"
-      }
-    ],
-    "messageHeadline": "support any shape and axis for log softmax (#11951)"
   }
 ]
