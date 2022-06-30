@@ -1,5 +1,31 @@
 [
   {
+    "oid": "1aec41aa0c2d88d248cfd437e50bfe9a48e47988",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7134882897?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7134882678?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7134883095?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3716/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN][CPP-RPC] Link NPU runtime in CPP RPC build (#11946)"
+  },
+  {
     "oid": "3425ed846308a456f98404c79f6df1693bed6377",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "export VirtualMachine for Windows (#11947)"
-  },
-  {
-    "oid": "a7b89071c7605afd020f70635beabd78107b483a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7118687066?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7118687245?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7118686912?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3701/display/redirect"
-      }
-    ],
-    "messageHeadline": "[PyTorch][Relay] Add aten::cross_entropy_loss (#11935)"
   }
 ]
