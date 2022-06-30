@@ -1,5 +1,31 @@
 [
   {
+    "oid": "6424f1fec174557510bf94edb4882e952f3e9541",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7140554090?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7140554460?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7140554210?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3723/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Disable broken test on physical device (#11960)"
+  },
+  {
     "oid": "2625878abef4bc78da65918a8a8c1db441638e8b",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "support any shape and axis for log softmax (#11951)"
-  },
-  {
-    "oid": "3bd83e0c9f2e4c6cc50fd86d5691449417487a93",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7122582241?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7122582444?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7122582329?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3708/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Handle 'warp_execution' implied extend of threadIdx.x \u2026"
   }
 ]
