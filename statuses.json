@@ -1,5 +1,31 @@
 [
   {
+    "oid": "558ba99c7cad6fa5f01cfdb2bd6bdd2cec6087db",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7124680912?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7124681039?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7124681106?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3710/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Tuning Script Upgrade (#11797)"
+  },
+  {
     "oid": "898946fec60898b8fa753d6f0cdf8ebc86c9827a",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Move jenkins/ dir into ci/jenkins and spread docs around. (#11927)"
-  },
-  {
-    "oid": "a17bfc05cc127dd8d3922d7b79b7ff4754893d49",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7102620859?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7102620937?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7102620748?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3695/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay] CaptureIndexInSpans debugging pass (#11926)"
   }
 ]
