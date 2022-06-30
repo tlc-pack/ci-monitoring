@@ -1,5 +1,31 @@
 [
   {
+    "oid": "80a0c6c53dc7e3aca2bc52755fabbad76cbac35a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7131541640?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7131541866?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7131542079?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3713/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Fix offloading incompatible average pool (#11469)"
+  },
+  {
     "oid": "e7851ed763cd9e7e64c1e298908297d3f4ba93c7",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Improve Error Message in JSON Database (#11940)"
-  },
-  {
-    "oid": "54f8176b4749d53f94edd0812c3f5a1e536fc6f6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7105523567?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7105523637?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7105523500?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3698/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Docs bot now edits previous comments (#11909)"
   }
 ]
