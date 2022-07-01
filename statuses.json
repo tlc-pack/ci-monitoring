@@ -1,5 +1,57 @@
 [
   {
+    "oid": "55dcd5f195b15401b79f280d4146ddbf75806b7c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7157200522?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7157200622?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7157200684?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3734/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Don't skip index-triggered builds (#11915)"
+  },
+  {
+    "oid": "eeb5fce7a147bd7097b7089c600166ae1bfa7ef7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7157170472?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7157170377?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7157170254?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3733/display/redirect"
+      }
+    ],
+    "messageHeadline": "Couple patches to docker/bash.sh after #11976. (#11988)"
+  },
+  {
     "oid": "50cd4d635cb0947e90d5d8ecdd94baeabf57ab31",
     "statuses": [
       {
@@ -321,57 +373,5 @@
       }
     ],
     "messageHeadline": "[skip ci] Disable flaky test `test_empty_like` (#11968)"
-  },
-  {
-    "oid": "985680ee1ae77ebe51f373df64063f8372e6cb6e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7136579217?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7136579077?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7136578940?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3719/display/redirect"
-      }
-    ],
-    "messageHeadline": "[BYOC] Handle constants in IRModule-at-a-time external codegen (#11770)"
-  },
-  {
-    "oid": "265030eea4cf0447b5744b759d763158373167a2",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7136354088?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7136353903?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7136353717?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3718/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ETHOSN] Use partition_for_ function when running tests (#11945)"
   }
 ]
