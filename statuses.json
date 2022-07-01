@@ -1,5 +1,83 @@
 [
   {
+    "oid": "1787cca3f90237dff001fba01ffdbaf9a510f886",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7157567070?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7157567154?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7157567237?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3737/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay] [PyTorch] Add aten::tril and aten::triu (#11890)"
+  },
+  {
+    "oid": "286a51921d9f7ab376c09a6c2d0882768da14767",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7157507905?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7157507834?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7157507727?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3736/display/redirect"
+      }
+    ],
+    "messageHeadline": "[LLVM] Remove use of deprecated PointerType::getPointerElementType() \u2026"
+  },
+  {
+    "oid": "d2a14a6880ee2e4520f3e9a55accb258e8725e65",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7157415801?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7157415867?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7157415762?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3735/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BYOC] Switch TensorRT BYOC integration to IRModule-at-a-time using R\u2026"
+  },
+  {
     "oid": "55dcd5f195b15401b79f280d4146ddbf75806b7c",
     "statuses": [
       {
@@ -310,68 +388,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Disable broken test on physical device (#11960)"
-  },
-  {
-    "oid": "2625878abef4bc78da65918a8a8c1db441638e8b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7138718647?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7138718920?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7138718795?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3722/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][docker] Nightly Docker image update (#11857)"
-  },
-  {
-    "oid": "288b983b827d12539e23eda4fd9ec1ddd2c8cd1a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7138624747?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7138624559?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7138624660?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3721/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Skip some additional tests that are failing in the wheel (#11969)"
-  },
-  {
-    "oid": "6a86c97889a81e856e610a81d2bb20852cda8932",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3720/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci] Disable flaky test `test_empty_like` (#11968)"
   }
 ]
