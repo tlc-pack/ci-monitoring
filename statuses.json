@@ -1,25 +1,51 @@
 [
   {
-    "oid": "ec39199edb72dfe93747249d6a060c1832a8e38f",
+    "oid": "395e91ff54543864a90240d18c8efd8c277c758b",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7141645325?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7142939203?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7141645424?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7142939417?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7141645179?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7142939309?check_suite_focus=true"
       },
       {
         "name": "tvm-ci/branch",
         "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3727/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Extract workload embedding (#11975)"
+  },
+  {
+    "oid": "ec39199edb72dfe93747249d6a060c1832a8e38f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7141645325?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7141645424?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7141645179?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3726/display/redirect"
       }
     ],
@@ -30,12 +56,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7141241665?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7141241817?check_suite_focus=true"
       },
       {
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3725/display/redirect"
       }
     ],
@@ -56,12 +82,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7141170549?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7141170490?check_suite_focus=true"
       },
       {
@@ -71,7 +97,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3724/display/redirect"
       }
     ],
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[microNPU] Fix offloading incompatible average pool (#11469)"
-  },
-  {
-    "oid": "e7851ed763cd9e7e64c1e298908297d3f4ba93c7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7126554621?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7126554757?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7126554479?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3712/display/redirect"
-      }
-    ],
-    "messageHeadline": "fix print attr of null node (#11959)"
   }
 ]
