@@ -1,5 +1,31 @@
 [
   {
+    "oid": "50cd4d635cb0947e90d5d8ecdd94baeabf57ab31",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7156646675?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7156646581?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7156646522?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3732/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Enable int8 vlut codegen for Relay take (LUT) operator (#11\u2026"
+  },
+  {
     "oid": "c97895e0ffb512e73c89de7cdee9846f052244fc",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[ETHOSN] Use partition_for_ function when running tests (#11945)"
-  },
-  {
-    "oid": "c0f4bf72b6ee30648ef78ce865afc733c95fe98c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7135421589?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7135421762?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7135421403?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3717/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Redirect sphinx-gallery URLs to S3 (#11839)"
   }
 ]
