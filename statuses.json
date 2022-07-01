@@ -1,5 +1,83 @@
 [
   {
+    "oid": "2f8b008730e5fd97eccc14e58a5a259ae30bac38",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7153270018?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7153269748?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7153269877?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3730/display/redirect"
+      }
+    ],
+    "messageHeadline": "[tests] Fix changed var name from 'target_str' to 'target_names', NFC\u2026"
+  },
+  {
+    "oid": "9e14509cabf9e6ba674d819d36b5d29f97f3dc2f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7153207563?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7153208048?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7153207798?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3729/display/redirect"
+      }
+    ],
+    "messageHeadline": "[docker] Fall back to tlcpackstaging in bash.sh (#11976)"
+  },
+  {
+    "oid": "0ae3f5d6ce6f150dd038f59429ab1da4fadea177",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7153190106?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7153190260?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7153189949?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3728/display/redirect"
+      }
+    ],
+    "messageHeadline": "Further clarify CI docs (#11980)"
+  },
+  {
     "oid": "395e91ff54543864a90240d18c8efd8c277c758b",
     "statuses": [
       {
@@ -295,83 +373,5 @@
       }
     ],
     "messageHeadline": "[ETHOSN][CPP-RPC] Link NPU runtime in CPP RPC build (#11946)"
-  },
-  {
-    "oid": "3425ed846308a456f98404c79f6df1693bed6377",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7134000494?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7134000778?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7134001016?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3715/display/redirect"
-      }
-    ],
-    "messageHeadline": "[VM] class Executable does not export symbols to dll (#11963)"
-  },
-  {
-    "oid": "915c23b61b34604b19217759f320c84d3aa60605",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7133676704?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7133677159?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7133676907?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3714/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TOPI] [Hexagon] Batch flatten slice op initial version (#11522)"
-  },
-  {
-    "oid": "80a0c6c53dc7e3aca2bc52755fabbad76cbac35a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7131541640?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7131541866?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7131542079?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3713/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Fix offloading incompatible average pool (#11469)"
   }
 ]
