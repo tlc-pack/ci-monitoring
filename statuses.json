@@ -1,5 +1,31 @@
 [
   {
+    "oid": "6642c6e8b05534d3c08f8fa2969c31d553aa8476",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7164965138?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7164965260?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7164965201?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3740/display/redirect"
+      }
+    ],
+    "messageHeadline": "[COMMUNITY] Hongyi Jin -> Reviewer (#11998)"
+  },
+  {
     "oid": "0e971869575df7e5b12381e4566a1a8fd98a4a77",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[PyTorch] [Relay] Add l1 and mse loss function for pytorch frontend (\u2026"
-  },
-  {
-    "oid": "beea0d2d6add545bd27130309aa12b8e7a38100f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7141241665?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7141241817?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7141241750?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3725/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Fix Task Extraction (#11954)"
   }
 ]
