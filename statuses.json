@@ -1,5 +1,31 @@
 [
   {
+    "oid": "0e971869575df7e5b12381e4566a1a8fd98a4a77",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7161591250?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7161591333?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7161591291?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3739/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Enhance AutoInline for Spatial Task (#11996)"
+  },
+  {
     "oid": "ce8f6d176decf5c5d1c4dba21d4b371529cb7f9f",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Fix Task Extraction (#11954)"
-  },
-  {
-    "oid": "26ad70333875c55eec438b840d004a5fb9255572",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7141170549?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7141170490?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7141170402?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3724/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Handle 'warp_execution' in RewriteCooperativeFetch (#1\u2026"
   }
 ]
