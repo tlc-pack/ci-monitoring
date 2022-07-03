@@ -1,5 +1,31 @@
 [
   {
+    "oid": "f8186d8c7d3e4679a6dfd83d17521f20bfb3ca42",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7171157613?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7171157651?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7171157581?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3741/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Add sugar method `Schedule.work_on` (#11999)"
+  },
+  {
     "oid": "6642c6e8b05534d3c08f8fa2969c31d553aa8476",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Extract workload embedding (#11975)"
-  },
-  {
-    "oid": "ec39199edb72dfe93747249d6a060c1832a8e38f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7141645325?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7141645424?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7141645179?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3726/display/redirect"
-      }
-    ],
-    "messageHeadline": "[PyTorch] [Relay] Add l1 and mse loss function for pytorch frontend (\u2026"
   }
 ]
