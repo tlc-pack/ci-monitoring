@@ -1,5 +1,31 @@
 [
   {
+    "oid": "ef08c36294dc7c90f9d4536948507eca515012bd",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7189853625?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7189853692?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7189853528?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3743/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Adreno] Modify default AutoTVM params for conv2d (#12005)"
+  },
+  {
     "oid": "5efe8b0bfdff4c9939185a7581dc77e23cbcb6d5",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[docker] Fall back to tlcpackstaging in bash.sh (#11976)"
-  },
-  {
-    "oid": "0ae3f5d6ce6f150dd038f59429ab1da4fadea177",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7153190106?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7153190260?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7153189949?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3728/display/redirect"
-      }
-    ],
-    "messageHeadline": "Further clarify CI docs (#11980)"
   }
 ]
