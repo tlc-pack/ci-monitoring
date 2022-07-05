@@ -1,5 +1,31 @@
 [
   {
+    "oid": "3cca6465ba685921a2f5dbe711d10f5b5ee33d33",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7201325549?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7201325732?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7201325640?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3746/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microTVM] Autotuning performance tests (#11782)"
+  },
+  {
     "oid": "b7e299f4a4f9a90b2538d77bc3ae9da9bbff4ef1",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Enable int8 vlut codegen for Relay take (LUT) operator (#11\u2026"
-  },
-  {
-    "oid": "c97895e0ffb512e73c89de7cdee9846f052244fc",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7155405017?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7155404853?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7155405178?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3731/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Fix use of subprocess.run in _check_call_verbose (#11985)"
   }
 ]
