@@ -1,5 +1,31 @@
 [
   {
+    "oid": "b7e299f4a4f9a90b2538d77bc3ae9da9bbff4ef1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7191968917?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7191969179?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7191969380?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3745/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BYOC-DNNL]rewrite downsize blocks for rensetv1 to get better perform\u2026"
+  },
+  {
     "oid": "83b310d5a41b92a857c17d25a0a9b0546441586a",
     "statuses": [
       {
@@ -14,7 +40,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7190966430?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Fix use of subprocess.run in _check_call_verbose (#11985)"
-  },
-  {
-    "oid": "2f8b008730e5fd97eccc14e58a5a259ae30bac38",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7153270018?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7153269748?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7153269877?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3730/display/redirect"
-      }
-    ],
-    "messageHeadline": "[tests] Fix changed var name from 'target_str' to 'target_names', NFC\u2026"
   }
 ]
