@@ -1,5 +1,31 @@
 [
   {
+    "oid": "83b310d5a41b92a857c17d25a0a9b0546441586a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7190966252?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7190966345?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7190966430?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3744/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Frontend][TFLite] Add support for NonMaxSuppressionV5 op (#12003)"
+  },
+  {
     "oid": "ef08c36294dc7c90f9d4536948507eca515012bd",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[tests] Fix changed var name from 'target_str' to 'target_names', NFC\u2026"
-  },
-  {
-    "oid": "9e14509cabf9e6ba674d819d36b5d29f97f3dc2f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7153207563?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7153208048?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/runs/7153207798?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3729/display/redirect"
-      }
-    ],
-    "messageHeadline": "[docker] Fall back to tlcpackstaging in bash.sh (#11976)"
   }
 ]
