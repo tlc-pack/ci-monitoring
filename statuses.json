@@ -1,5 +1,31 @@
 [
   {
+    "oid": "cfe8318990e799215c9baac4ef2c4ecb20a91d9f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7218237957?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7218238077?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7218237810?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3753/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Calculate memory pressure for microNPU external functions \u2026"
+  },
+  {
     "oid": "95f578912f8e6a6f7199188e52ce98966b919f05",
     "statuses": [
       {
@@ -14,7 +40,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7217261094?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Enhance AutoInline for Spatial Task (#11996)"
-  },
-  {
-    "oid": "ce8f6d176decf5c5d1c4dba21d4b371529cb7f9f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7159801392?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7159801545?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7159801478?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3738/display/redirect"
-      }
-    ],
-    "messageHeadline": "add missing narrow down of index within conditions (#11942)"
   }
 ]
