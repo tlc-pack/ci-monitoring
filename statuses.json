@@ -1,5 +1,31 @@
 [
   {
+    "oid": "c98626cbfa1936740dc829bb2e1d800094c10424",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7211142582?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7211142754?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7211142475?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3751/display/redirect"
+      }
+    ],
+    "messageHeadline": "[USMP] HillClimb stability patch (#10547)"
+  },
+  {
     "oid": "c57320bd9d399d72f7c919c17e7876a4bbdc1c12",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Relay] [PyTorch] Add aten::tril and aten::triu (#11890)"
-  },
-  {
-    "oid": "286a51921d9f7ab376c09a6c2d0882768da14767",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7157507905?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7157507834?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7157507727?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3736/display/redirect"
-      }
-    ],
-    "messageHeadline": "[LLVM] Remove use of deprecated PointerType::getPointerElementType() \u2026"
   }
 ]
