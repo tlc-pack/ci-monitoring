@@ -1,25 +1,77 @@
 [
   {
-    "oid": "5bc6684c9d5664b8f3aeac8f8503f894ab2bfee5",
+    "oid": "111169c7df2831ab8ee40d5388ebcfcf551fd86f",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7206166970?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7207037614?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7206166861?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7207037693?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7206167026?check_suite_focus=true"
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7207037551?check_suite_focus=true"
       },
       {
         "name": "tvm-ci/branch",
         "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3749/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix infercorrect layout in Layoutrewrite and improve naming. (#12007)"
+  },
+  {
+    "oid": "ffd8c9377f09c7da3ddb0f673d8819535b409368",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7207033362?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7207033458?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7207033287?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3748/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Make conversion from Integer to int64_t explicit (#12010)"
+  },
+  {
+    "oid": "5bc6684c9d5664b8f3aeac8f8503f894ab2bfee5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7206166970?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7206166861?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7206167026?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3747/display/redirect"
       }
     ],
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[BYOC] Switch TensorRT BYOC integration to IRModule-at-a-time using R\u2026"
-  },
-  {
-    "oid": "55dcd5f195b15401b79f280d4146ddbf75806b7c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7157200522?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7157200622?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7157200684?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3734/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Don't skip index-triggered builds (#11915)"
-  },
-  {
-    "oid": "eeb5fce7a147bd7097b7089c600166ae1bfa7ef7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7157170472?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7157170377?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7157170254?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3733/display/redirect"
-      }
-    ],
-    "messageHeadline": "Couple patches to docker/bash.sh after #11976. (#11988)"
   }
 ]
