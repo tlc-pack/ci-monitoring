@@ -1,5 +1,31 @@
 [
   {
+    "oid": "5bc6684c9d5664b8f3aeac8f8503f894ab2bfee5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7206166970?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7206166861?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7206167026?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3747/display/redirect"
+      }
+    ],
+    "messageHeadline": "add aten::randn (#11994)"
+  },
+  {
     "oid": "3cca6465ba685921a2f5dbe711d10f5b5ee33d33",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Couple patches to docker/bash.sh after #11976. (#11988)"
-  },
-  {
-    "oid": "50cd4d635cb0947e90d5d8ecdd94baeabf57ab31",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7156646675?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7156646581?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7156646522?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3732/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Enable int8 vlut codegen for Relay take (LUT) operator (#11\u2026"
   }
 ]
