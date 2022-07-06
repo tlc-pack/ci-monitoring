@@ -1,5 +1,31 @@
 [
   {
+    "oid": "95f578912f8e6a6f7199188e52ce98966b919f05",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7217261289?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7217261600?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7217261094?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3752/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Topi] [Hexagon] Conv2d slice op initial version (#11489)"
+  },
+  {
     "oid": "c98626cbfa1936740dc829bb2e1d800094c10424",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "add missing narrow down of index within conditions (#11942)"
-  },
-  {
-    "oid": "1787cca3f90237dff001fba01ffdbaf9a510f886",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7157567070?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7157567154?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7157567237?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3737/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay] [PyTorch] Add aten::tril and aten::triu (#11890)"
   }
 ]
