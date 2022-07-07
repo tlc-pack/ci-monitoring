@@ -1,10 +1,36 @@
 [
   {
-    "oid": "9f4bf38b5766609317e9a52bc60d66679ceddf02",
+    "oid": "40d242a3c8f9630223e5775c1f1bf23362c8850e",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7228180147?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7228179922?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7228180046?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3756/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Pytorch] add aten::rnn_tanh, aten::rnn_relu (#12017)"
+  },
+  {
+    "oid": "9f4bf38b5766609317e9a52bc60d66679ceddf02",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7227337607?check_suite_focus=true"
       },
       {
@@ -14,12 +40,12 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7227337687?check_suite_focus=true"
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3755/display/redirect"
       }
     ],
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3754/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Enhancement for fold_scale_axis and dnnl_json_runtime (#11815)"
-  },
-  {
-    "oid": "f8186d8c7d3e4679a6dfd83d17521f20bfb3ca42",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7171157613?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7171157651?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7171157581?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3741/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Add sugar method `Schedule.work_on` (#11999)"
   }
 ]
