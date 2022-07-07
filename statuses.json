@@ -1,5 +1,57 @@
 [
   {
+    "oid": "013d5e8fcbd94fb3a0c5c0cdcaea03af43c464aa",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7240462004?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7240461899?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7240462122?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3761/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule][Minor] Stability Improvements (#12014)"
+  },
+  {
+    "oid": "af4373f2fbb6afa6827f7e3e4964bad644644d39",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7240383398?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7240383508?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7240383702?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3760/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Fix] fix python setup.py file bug (#12000)"
+  },
+  {
     "oid": "c76d8e2bdb0a11cbdc30bdfd631963ba9813662a",
     "statuses": [
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "add aten::randn (#11994)"
-  },
-  {
-    "oid": "3cca6465ba685921a2f5dbe711d10f5b5ee33d33",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7201325549?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7201325732?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7201325640?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3746/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microTVM] Autotuning performance tests (#11782)"
-  },
-  {
-    "oid": "b7e299f4a4f9a90b2538d77bc3ae9da9bbff4ef1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7191968917?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7191969179?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7191969380?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3745/display/redirect"
-      }
-    ],
-    "messageHeadline": "[BYOC-DNNL]rewrite downsize blocks for rensetv1 to get better perform\u2026"
   }
 ]
