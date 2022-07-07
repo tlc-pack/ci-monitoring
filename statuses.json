@@ -1,5 +1,57 @@
 [
   {
+    "oid": "7874bf806eb98ec4b1e7a4265f695af5a12400b3",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7237663477?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7237663576?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7237663347?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3758/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Support ApplyHistoryBest Direct Dispatch (#12016)"
+  },
+  {
+    "oid": "b9aa3564dcde74a4d8aa7b70cd6f09ed476cb67c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7237638018?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7237638239?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7237637784?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3757/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Revert #11428 and move loop dependent alloc extent check after \u2026"
+  },
+  {
     "oid": "40d242a3c8f9630223e5775c1f1bf23362c8850e",
     "statuses": [
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[Frontend][TFLite] Add support for NonMaxSuppressionV5 op (#12003)"
-  },
-  {
-    "oid": "ef08c36294dc7c90f9d4536948507eca515012bd",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7189853625?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7189853692?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7189853528?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3743/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Adreno] Modify default AutoTVM params for conv2d (#12005)"
-  },
-  {
-    "oid": "5efe8b0bfdff4c9939185a7581dc77e23cbcb6d5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7175015995?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7175016112?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7175015849?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3742/display/redirect"
-      }
-    ],
-    "messageHeadline": "Enhancement for fold_scale_axis and dnnl_json_runtime (#11815)"
   }
 ]
