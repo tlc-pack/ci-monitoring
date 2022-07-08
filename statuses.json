@@ -1,5 +1,31 @@
 [
   {
+    "oid": "684a8381608f0978ea91539af7c9d3c2f6e85eaa",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7255779031?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7255779220?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7255779453?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3768/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Avoid unnecessary dtype escalation in loop splitting (#12035)"
+  },
+  {
     "oid": "f769f4e2cc9f00c1d5cbf0b312dae7bfa2404841",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Arith] Allow constant values in InverseAffineIterMap (#12026)"
-  },
-  {
-    "oid": "cfe8318990e799215c9baac4ef2c4ecb20a91d9f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7218237957?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7218238077?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7218237810?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3753/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Calculate memory pressure for microNPU external functions \u2026"
   }
 ]
