@@ -1,5 +1,31 @@
 [
   {
+    "oid": "07672d0b41005b115ea6c8a39eb496e1ad8c38e4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7258830485?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7258830410?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7258830327?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3770/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Texture] Add memory scope entity into graph JSON/runtime (#11875)"
+  },
+  {
     "oid": "a81e69a68fbf29231ea2ca1e5a14780e8a83e839",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Pytorch] add aten::rnn_tanh, aten::rnn_relu (#12017)"
-  },
-  {
-    "oid": "9f4bf38b5766609317e9a52bc60d66679ceddf02",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7227337607?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7227337755?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7227337687?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3755/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] Doc Base Class & DocPrinter Scaffolding (#11971)"
   }
 ]
