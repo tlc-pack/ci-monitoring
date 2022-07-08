@@ -1,5 +1,31 @@
 [
   {
+    "oid": "f769f4e2cc9f00c1d5cbf0b312dae7bfa2404841",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7253515220?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7253515348?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7253515093?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3767/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Test averge pool partitioning (#11965)"
+  },
+  {
     "oid": "c412450f8ebe0a27b13c51c79c355edc95a893aa",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[microNPU] Calculate memory pressure for microNPU external functions \u2026"
-  },
-  {
-    "oid": "95f578912f8e6a6f7199188e52ce98966b919f05",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7217261289?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7217261600?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7217261094?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3752/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Topi] [Hexagon] Conv2d slice op initial version (#11489)"
   }
 ]
