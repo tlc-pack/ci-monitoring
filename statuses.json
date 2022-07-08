@@ -1,5 +1,31 @@
 [
   {
+    "oid": "c412450f8ebe0a27b13c51c79c355edc95a893aa",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7248718763?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7248718849?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7248718656?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3766/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMC] Updates TVMC tutorial with input shape information (#12031)"
+  },
+  {
     "oid": "3c4d8870ca2782e5dfb8c7b10180668e25c08150",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Topi] [Hexagon] Conv2d slice op initial version (#11489)"
-  },
-  {
-    "oid": "c98626cbfa1936740dc829bb2e1d800094c10424",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7211142582?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7211142754?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7211142475?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3751/display/redirect"
-      }
-    ],
-    "messageHeadline": "[USMP] HillClimb stability patch (#10547)"
   }
 ]
