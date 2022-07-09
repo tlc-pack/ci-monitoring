@@ -1,25 +1,51 @@
 [
   {
-    "oid": "6c9356fd18d0be4282acf3d428ce6f72f8e91e52",
+    "oid": "00ce86d68b123f3389b0fca1eca72e81f6054443",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7259973623?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7260673611?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7259973741?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7260673660?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7259973430?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7260673706?check_suite_focus=true"
       },
       {
         "name": "tvm-ci/branch",
         "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3772/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule][Test] Add unittests for CAP (#12047)"
+  },
+  {
+    "oid": "6c9356fd18d0be4282acf3d428ce6f72f8e91e52",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7259973623?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7259973741?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7259973430?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3771/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Support ApplyHistoryBest Direct Dispatch (#12016)"
-  },
-  {
-    "oid": "b9aa3564dcde74a4d8aa7b70cd6f09ed476cb67c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7237638018?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7237638239?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7237637784?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3757/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Revert #11428 and move loop dependent alloc extent check after \u2026"
   }
 ]
