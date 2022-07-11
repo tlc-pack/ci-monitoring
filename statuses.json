@@ -1,5 +1,57 @@
 [
   {
+    "oid": "7baf4be2d473274b14cf5fa0428ba0cc18ec589a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7291226173?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7291226370?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7291225991?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3784/display/redirect"
+      }
+    ],
+    "messageHeadline": "[relay] Changed 'name' field to 'registry_name' for Executor and Runt\u2026"
+  },
+  {
+    "oid": "d27f853ed5f8b99f57d9aa04fa060920e1422429",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7291157665?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7291157863?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7291157520?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3783/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci][docker] fix the path of custom toolchain in ci_qemu for csinn2 (\u2026"
+  },
+  {
     "oid": "ae72e7e65384c392a110f703676ba88b18b47c1a",
     "statuses": [
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[Texture] Add memory scope entity into graph JSON/runtime (#11875)"
-  },
-  {
-    "oid": "a81e69a68fbf29231ea2ca1e5a14780e8a83e839",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7257822187?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7257822306?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7257822058?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3769/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule][Test] Add unittests for C2D (#12043)"
-  },
-  {
-    "oid": "684a8381608f0978ea91539af7c9d3c2f6e85eaa",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7255779031?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7255779220?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7255779453?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3768/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Avoid unnecessary dtype escalation in loop splitting (#12035)"
   }
 ]
