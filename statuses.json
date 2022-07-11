@@ -1,5 +1,57 @@
 [
   {
+    "oid": "cf15375e20cd1fb2e201e47afda169732ef88eea",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7274556564?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7274556725?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7274556649?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3774/display/redirect"
+      }
+    ],
+    "messageHeadline": "Several type mismatch fixes and checks (#12041)"
+  },
+  {
+    "oid": "927620e20fe226578fa0c32b9706d27874791b83",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7274498366?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7274498412?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7274498324?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3773/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BYOC-DNNL] support more post-ops (#12002)"
+  },
+  {
     "oid": "00ce86d68b123f3389b0fca1eca72e81f6054443",
     "statuses": [
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[Fix] fix python setup.py file bug (#12000)"
-  },
-  {
-    "oid": "c76d8e2bdb0a11cbdc30bdfd631963ba9813662a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7239236462?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7239236646?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7239236334?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3759/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TOPI] [Hexagon] Reshape slice op (#11983)"
-  },
-  {
-    "oid": "7874bf806eb98ec4b1e7a4265f695af5a12400b3",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7237663477?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7237663576?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7237663347?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3758/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Support ApplyHistoryBest Direct Dispatch (#12016)"
   }
 ]
