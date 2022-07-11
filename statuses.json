@@ -1,5 +1,31 @@
 [
   {
+    "oid": "fbb7b5d1a0d82acb1f581dd2ec362b4dcad2638e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7279138485?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7279138708?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7279138878?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3775/display/redirect"
+      }
+    ],
+    "messageHeadline": "Add xgboost version restriction (#12050)"
+  },
+  {
     "oid": "cf15375e20cd1fb2e201e47afda169732ef88eea",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule][Minor] Stability Improvements (#12014)"
-  },
-  {
-    "oid": "af4373f2fbb6afa6827f7e3e4964bad644644d39",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7240383398?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7240383508?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7240383702?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3760/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Fix] fix python setup.py file bug (#12000)"
   }
 ]
