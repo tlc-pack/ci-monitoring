@@ -1,5 +1,31 @@
 [
   {
+    "oid": "04db26e8d9491580bbbb353a66b8225198c75209",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7288550367?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7288550492?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7288550214?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3779/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microtvm][RVM] Refactor Arduino/Zephyr into one RVM (#12023)"
+  },
+  {
     "oid": "c4dc41a0dde6ae3118823736c325811f15994615",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule][Testing] Add unittests for C1D search space (#12036)"
-  },
-  {
-    "oid": "2c365b49b821484a988f82e805510b64809c4d1c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7243574564?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7243574497?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7243574414?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3764/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] fix crash when comparing IntImm to None (#12034)"
   }
 ]
