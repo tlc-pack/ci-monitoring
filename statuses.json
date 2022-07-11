@@ -1,10 +1,62 @@
 [
   {
-    "oid": "b4c1cc02eb9c5ef8a680a6fa4f8fb50a321b9539",
+    "oid": "ae72e7e65384c392a110f703676ba88b18b47c1a",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7290749967?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7290749847?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7290749708?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3782/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix node.func to node.funcs on parser.py (#12053)"
+  },
+  {
+    "oid": "5be8e0a3deccc8f68afb8c26230e0caf1b002de9",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7290669709?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7290669796?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7290669588?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3781/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Collage] SubGraphs (#11981)"
+  },
+  {
+    "oid": "b4c1cc02eb9c5ef8a680a6fa4f8fb50a321b9539",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7288872036?check_suite_focus=true"
       },
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[TIR] Avoid unnecessary dtype escalation in loop splitting (#12035)"
-  },
-  {
-    "oid": "f769f4e2cc9f00c1d5cbf0b312dae7bfa2404841",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7253515220?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7253515348?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7253515093?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3767/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Test averge pool partitioning (#11965)"
-  },
-  {
-    "oid": "c412450f8ebe0a27b13c51c79c355edc95a893aa",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7248718763?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7248718849?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7248718656?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3766/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMC] Updates TVMC tutorial with input shape information (#12031)"
   }
 ]
