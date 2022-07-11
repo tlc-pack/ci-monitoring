@@ -1,5 +1,31 @@
 [
   {
+    "oid": "9ee25eb9f45f27d52fdc308dbd8970e5f095fef6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7281378211?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7281378348?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7281378091?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3777/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Added a cost model (#11961)"
+  },
+  {
     "oid": "2d5072858c9749217256913cad3c14fe52be0367",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Pylint] Pylint integration_tests folder (#11672)"
-  },
-  {
-    "oid": "99d42b22382d19cfd2e2e1ec65d92f1fe41e4c10",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7241596091?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7241595904?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7241595741?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3762/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule][Testing] Test search space of conv1d (#12032)"
   }
 ]
