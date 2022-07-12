@@ -1,5 +1,31 @@
 [
   {
+    "oid": "b1a3817602b7b92a9bb333863e4206b99307ce12",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7310071201?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7310071320?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7310071073?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3796/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay] Move TOpPattern registration for nn.* to C++ (#12072)"
+  },
+  {
     "oid": "6536def6f9073c1c03ab61d33ebda9d31867862a",
     "statuses": [
       {
@@ -56,12 +82,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7308480285?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7308480426?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Fix node.func to node.funcs on parser.py (#12053)"
-  },
-  {
-    "oid": "5be8e0a3deccc8f68afb8c26230e0caf1b002de9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7290669709?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7290669796?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7290669588?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3781/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Collage] SubGraphs (#11981)"
   }
 ]
