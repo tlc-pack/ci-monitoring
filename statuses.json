@@ -1,5 +1,57 @@
 [
   {
+    "oid": "6536def6f9073c1c03ab61d33ebda9d31867862a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7309516244?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7309516418?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7309516006?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3795/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Topi][Hexagon] Implement Cast F32ToF16 and F16ToF32 Slice Op (#11561)"
+  },
+  {
+    "oid": "deda4d59686806afcd722c3a179016aebeed42ce",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7309427457?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7309427651?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7309427546?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3794/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule][Test] Add unittests for DEP (#12071)"
+  },
+  {
     "oid": "ad44a0fe153e3394a7c987c640693b3e3c6764d7",
     "statuses": [
       {
@@ -14,7 +66,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7308480616?check_suite_focus=true"
       },
       {
@@ -30,7 +82,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7307818313?check_suite_focus=true"
       },
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[Collage] SubGraphs (#11981)"
-  },
-  {
-    "oid": "b4c1cc02eb9c5ef8a680a6fa4f8fb50a321b9539",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7288872036?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7288872386?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7288872244?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3780/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CMSIS-NN][Perf] Converted Relay Conv2D into CMSIS-NN Depthwise (#12006)"
-  },
-  {
-    "oid": "04db26e8d9491580bbbb353a66b8225198c75209",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7288550367?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7288550492?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7288550214?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3779/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microtvm][RVM] Refactor Arduino/Zephyr into one RVM (#12023)"
   }
 ]
