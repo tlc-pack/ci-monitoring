@@ -1,5 +1,57 @@
 [
   {
+    "oid": "3992d2443acba6a824ec4da58bfc30f9e0e5d5b5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7311092741?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7311092818?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7311092637?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3799/display/redirect"
+      }
+    ],
+    "messageHeadline": "[COMMUNITY] Add driazati key for release (#12076)"
+  },
+  {
+    "oid": "1d5d357d69ab8a0ceae047532ab778359676cda7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7311032077?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7311032292?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7311032483?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3798/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Enable broken tests (#12073)"
+  },
+  {
     "oid": "d07f2fb8056413cc844ce61a883bf4f51fd42848",
     "statuses": [
       {
@@ -35,7 +87,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7310071320?check_suite_focus=true"
       },
       {
@@ -56,7 +108,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7309516244?check_suite_focus=true"
       },
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[LLVM] Fix build errors in CodeGenCPU::AddDebugInformation (#12054)"
-  },
-  {
-    "oid": "7baf4be2d473274b14cf5fa0428ba0cc18ec589a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7291226173?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7291226370?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7291225991?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3784/display/redirect"
-      }
-    ],
-    "messageHeadline": "[relay] Changed 'name' field to 'registry_name' for Executor and Runt\u2026"
-  },
-  {
-    "oid": "d27f853ed5f8b99f57d9aa04fa060920e1422429",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7291157665?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7291157863?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7291157520?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3783/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][docker] fix the path of custom toolchain in ci_qemu for csinn2 (\u2026"
   }
 ]
