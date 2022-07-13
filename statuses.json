@@ -1,5 +1,31 @@
 [
   {
+    "oid": "7d9a07ccc70eef951bcfff0333c2f82cdc6a3b12",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7324738308?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7324738530?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7324738089?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3804/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR][Schedule] Refactor Tensorize (#12070)"
+  },
+  {
     "oid": "6a6093bc180ed762b3e0d19eb37fcf10d97289c1",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[QNN] Replace nn.leaky_relu with qnn.leaky_relu (#11930)"
-  },
-  {
-    "oid": "993a8ea094575f2823aebf2b8eb37e9f4ac44d7d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7306525630?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7306525753?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7306525522?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3789/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Frontend][TFLite] respect out type of Shape op (#11877)"
   }
 ]
