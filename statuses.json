@@ -1,5 +1,31 @@
 [
   {
+    "oid": "c30b420f61295fb60530dd01e84f8988605d72a5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7320555322?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7320555481?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7320555608?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3802/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TOPI, x86] Properly handle fused ops in TE softmax schedule   (#12015)"
+  },
+  {
     "oid": "5ad27ef6506b5e50b82ee97f1a0a6aaa5fe0dbbf",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Collage] PartitionRule (though without CombinePartitionRule) (#11993)"
-  },
-  {
-    "oid": "fbf80bb3869f5f5046e3a1a5bb335e21f2f9deae",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7306019536?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7306019846?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7306019265?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3787/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Add MergeConstants pass (#12029)"
   }
 ]
