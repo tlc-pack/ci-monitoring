@@ -1,5 +1,31 @@
 [
   {
+    "oid": "261de5302f583cdbf09d7d1ef9718875b76db3eb",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7328277816?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7328278227?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7328278040?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3806/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Collage] CombinerRule and CandidatePartition::EstimateCost (#12078)"
+  },
+  {
     "oid": "4b5dd136d764fbef5f552ffce0759232c138e4e2",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[docs][tvmc] Fix ResNet50 model URL (#12040)"
-  },
-  {
-    "oid": "ef5c3ed872c33a1587dd41c6c97dd85350df7269",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7306539958?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7306540129?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7306539830?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3791/display/redirect"
-      }
-    ],
-    "messageHeadline": "[QNN] Use sigmoid Lookup Table method instead of fallback to fp32 (#1\u2026"
   }
 ]
