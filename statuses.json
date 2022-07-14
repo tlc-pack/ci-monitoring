@@ -1,5 +1,31 @@
 [
   {
+    "oid": "f6f90569bc893204c39f8a32a42612972a7d138f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7338782979?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7338782683?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7338782833?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3810/display/redirect"
+      }
+    ],
+    "messageHeadline": "Add tensorflow Einsum op converter (#12064)"
+  },
+  {
     "oid": "3f9f41a10381f2e5349d23f0212273af37da306b",
     "statuses": [
       {
@@ -9,12 +35,12 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7337451602?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7337451347?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Relay] Move TOpPattern registration for nn.* to C++ (#12072)"
-  },
-  {
-    "oid": "6536def6f9073c1c03ab61d33ebda9d31867862a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7309516244?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7309516418?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7309516006?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3795/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Topi][Hexagon] Implement Cast F32ToF16 and F16ToF32 Slice Op (#11561)"
   }
 ]
