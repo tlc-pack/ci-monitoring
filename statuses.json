@@ -1,5 +1,83 @@
 [
   {
+    "oid": "484f6023277c930395c5e0001c4f8821abf7a544",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7346429268?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7346429058?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7346428804?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3815/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Re-run failed tests on failure (#12055)"
+  },
+  {
+    "oid": "811373ddbba6c90d237e28099340bbba41205dee",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7346370687?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7346370439?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7346370578?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3814/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Add a manual retry for conda setup (#12058)"
+  },
+  {
+    "oid": "09b607e354e2f6cdff68fa81ff25e41ef0d147ac",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7346362058?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7346361946?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7346362180?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3813/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Override Request in pytests (#11974)"
+  },
+  {
     "oid": "b9fa576ab35ef67e0a7fbaf669109f010e66e20c",
     "statuses": [
       {
@@ -310,83 +388,5 @@
       }
     ],
     "messageHeadline": "[CMSIS_NN] Align CMSIS-NN in TVM to TFLu SHA (#12030)"
-  },
-  {
-    "oid": "ca88c522fb3f85e2d1c968b984af866ac9d1d7b9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7313131118?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7313131207?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7313131168?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3800/display/redirect"
-      }
-    ],
-    "messageHeadline": "[LLVM] Update creation of llvm::DebugLoc, remove TVM_LLVM_VERSION < 7\u2026"
-  },
-  {
-    "oid": "3992d2443acba6a824ec4da58bfc30f9e0e5d5b5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7311092741?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7311092818?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7311092637?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3799/display/redirect"
-      }
-    ],
-    "messageHeadline": "[COMMUNITY] Add driazati key for release (#12076)"
-  },
-  {
-    "oid": "1d5d357d69ab8a0ceae047532ab778359676cda7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7311032077?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7311032292?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7311032483?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3798/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Enable broken tests (#12073)"
   }
 ]
