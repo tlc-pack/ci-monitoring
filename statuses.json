@@ -1,5 +1,31 @@
 [
   {
+    "oid": "b9fa576ab35ef67e0a7fbaf669109f010e66e20c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7345370584?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7345370742?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7345370439?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3812/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BugFix] Use shape dtype on ArgReduce to determine return type (#12083)"
+  },
+  {
     "oid": "de3c0f4b30b33eb54e851f94d518ca3349423cfa",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Enable broken tests (#12073)"
-  },
-  {
-    "oid": "d07f2fb8056413cc844ce61a883bf4f51fd42848",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7310960665?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7310960751?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7310960593?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3797/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule][Test] Add unittests for DIL (#12077)"
   }
 ]
