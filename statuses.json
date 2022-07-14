@@ -1,5 +1,31 @@
 [
   {
+    "oid": "a571bfbbcab47be5b6573873de9acde353b99d14",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7333207218?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7333207146?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7333207289?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3808/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TOPI] Allow conv definition to have custom kernel layout (#11936)"
+  },
+  {
     "oid": "a9c610f1c0545753b699c7dbd2f5f2ca2568a16c",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule][Test] Add unittests for DEP (#12071)"
-  },
-  {
-    "oid": "ad44a0fe153e3394a7c987c640693b3e3c6764d7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7308480285?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7308480426?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7308480616?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3793/display/redirect"
-      }
-    ],
-    "messageHeadline": "fix some typo in conv2d.py (#12067)"
   }
 ]
