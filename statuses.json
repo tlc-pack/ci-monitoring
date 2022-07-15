@@ -1,5 +1,57 @@
 [
   {
+    "oid": "37f9d3c496bd32387f190ee31e4fa9bb525e7b85",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7350186778?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7350186843?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7350186677?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3821/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMSCRIPT] Make ceildiv available from tvmscript (#12096)"
+  },
+  {
+    "oid": "c0f445095813d7b1ceaf399e697efe02fc7278f3",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7350184488?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7350184645?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7350184262?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3820/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix bug that disabled cuda integer dot product. (#12099)"
+  },
+  {
     "oid": "7661ba89106fbc67ea3d2e7efe3e846c6d149436",
     "statuses": [
       {
@@ -19,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3819/display/redirect"
       }
     ],
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[TVMScript] Add ObjectPath class (#11977)"
-  },
-  {
-    "oid": "261de5302f583cdbf09d7d1ef9718875b76db3eb",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7328277816?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7328278227?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7328278040?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3806/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Collage] CombinerRule and CandidatePartition::EstimateCost (#12078)"
-  },
-  {
-    "oid": "4b5dd136d764fbef5f552ffce0759232c138e4e2",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7325105082?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7325105329?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7325104856?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3805/display/redirect"
-      }
-    ],
-    "messageHeadline": " [Arith] Updated BufferDomainTouched to use IRVisitorWithAnalyzer (#1\u2026"
   }
 ]
