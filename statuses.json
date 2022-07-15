@@ -1,5 +1,57 @@
 [
   {
+    "oid": "e0a0e67e55c036077fd07728ac28ecd7d2c9d72b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7353936525?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7353936734?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7353936631?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3823/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay, Op] Add conv2d generic layout op strategy when meta schedule \u2026"
+  },
+  {
+    "oid": "fa057213d44271c09bf444bf4d6388c414f218c0",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7353932076?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7353932213?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7353931960?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3822/display/redirect"
+      }
+    ],
+    "messageHeadline": "Enable conv family fused with gelu (#12106)"
+  },
+  {
     "oid": "37f9d3c496bd32387f190ee31e4fa9bb525e7b85",
     "statuses": [
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[Relay] Add RecoverVirtualDeviceMap helper (#12085)"
-  },
-  {
-    "oid": "a571bfbbcab47be5b6573873de9acde353b99d14",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7333207218?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7333207146?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7333207289?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3808/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TOPI] Allow conv definition to have custom kernel layout (#11936)"
-  },
-  {
-    "oid": "a9c610f1c0545753b699c7dbd2f5f2ca2568a16c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7330786596?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7330786975?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7330786761?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3807/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] Add ObjectPath class (#11977)"
   }
 ]
