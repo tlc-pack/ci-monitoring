@@ -1,5 +1,31 @@
 [
   {
+    "oid": "8f208adae2b9a99c047c17dd811ef98788467509",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7360621135?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7360621287?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7360620930?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3824/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay] Allow Primitive functions to carry virtual device annotations\u2026"
+  },
+  {
     "oid": "e0a0e67e55c036077fd07728ac28ecd7d2c9d72b",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Add tensorflow Einsum op converter (#12064)"
-  },
-  {
-    "oid": "3f9f41a10381f2e5349d23f0212273af37da306b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7337451461?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7337451602?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7337451347?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3809/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay] Add RecoverVirtualDeviceMap helper (#12085)"
   }
 ]
