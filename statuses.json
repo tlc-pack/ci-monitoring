@@ -1,5 +1,31 @@
 [
   {
+    "oid": "c54eea7d0a9890c25eae15df1a0c47b263b27a07",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7371933755?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7371933793?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7371933849?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3830/display/redirect"
+      }
+    ],
+    "messageHeadline": "fix typo (#12115)"
+  },
+  {
     "oid": "c0e996e2914585fe6b0c11fb2efdaea5c6b9daf9",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Releay] Fix on_device call for explicit virtual_device (#12088)"
-  },
-  {
-    "oid": "484f6023277c930395c5e0001c4f8821abf7a544",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7346429268?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7346429058?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7346428804?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3815/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Re-run failed tests on failure (#12055)"
   }
 ]
