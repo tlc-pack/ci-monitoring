@@ -1,5 +1,31 @@
 [
   {
+    "oid": "b84ed27260d492e954963448e6cc8aee329b4cc6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7373447184?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7373447216?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7373447158?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3831/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR][BugFix] Fix a wrong use of T.exp in test_compute_inline_opaque_\u2026"
+  },
+  {
     "oid": "c54eea7d0a9890c25eae15df1a0c47b263b27a07",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "adding Alexey (#12090)"
-  },
-  {
-    "oid": "2fee86e43ba660af3a5fbd0213a8ea4178fd53b2",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7346667678?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7346667812?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7346667501?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3816/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Releay] Fix on_device call for explicit virtual_device (#12088)"
   }
 ]
