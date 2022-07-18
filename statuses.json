@@ -1,5 +1,57 @@
 [
   {
+    "oid": "c79b8f1aac0d11811257123127402d0ceff9135e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7394014978?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7394015101?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7394015225?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3834/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Re-run flaky tests on failure (#12108)"
+  },
+  {
+    "oid": "d43ffa9099c74f75c18f76cfc673bcffbbcfaacd",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7394007553?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7394007746?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7394007406?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3833/display/redirect"
+      }
+    ],
+    "messageHeadline": "[AUTOSCHEDULER,FIX] Calculate arithmetic intensity without log scale \u2026"
+  },
+  {
     "oid": "9c7aaace4355c67403be563de3059d34fb8e29f5",
     "statuses": [
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "Fix bug that disabled cuda integer dot product. (#12099)"
-  },
-  {
-    "oid": "7661ba89106fbc67ea3d2e7efe3e846c6d149436",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7348437630?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7348437515?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7348437742?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3819/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Collage] CollagePartition pass (#12086)"
-  },
-  {
-    "oid": "e0847918526ee6da7415fa40c557a6f3d86db75f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7347671027?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7347670671?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7347670863?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3818/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Add MultiLevelTilingTensorCore rule for auto-tensoriza\u2026"
   }
 ]
