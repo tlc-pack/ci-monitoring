@@ -1,5 +1,31 @@
 [
   {
+    "oid": "9c7aaace4355c67403be563de3059d34fb8e29f5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7393337243?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7393337403?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7393337662?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3832/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Moved PrimExpr operator overload from op.h to expr.h (#11973)"
+  },
+  {
     "oid": "b84ed27260d492e954963448e6cc8aee329b4cc6",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Add MultiLevelTilingTensorCore rule for auto-tensoriza\u2026"
-  },
-  {
-    "oid": "9a1650344395c010b5fd0fd25251add31a8e3273",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7346672462?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7346672695?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7346672312?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3817/display/redirect"
-      }
-    ],
-    "messageHeadline": "adding Alexey (#12090)"
   }
 ]
