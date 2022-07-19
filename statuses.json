@@ -1,5 +1,31 @@
 [
   {
+    "oid": "a1f27e57f6e936bb9b34817f01dc4d588b02101b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7417149062?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7417149216?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7417149380?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3846/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Slice op relu (#11449)"
+  },
+  {
     "oid": "ae015d9ea24916b016b9412611d692298420e59b",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TIR] Moved PrimExpr operator overload from op.h to expr.h (#11973)"
-  },
-  {
-    "oid": "b84ed27260d492e954963448e6cc8aee329b4cc6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7373447184?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7373447216?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7373447158?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3831/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][BugFix] Fix a wrong use of T.exp in test_compute_inline_opaque_\u2026"
   }
 ]
