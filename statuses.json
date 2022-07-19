@@ -1,5 +1,31 @@
 [
   {
+    "oid": "94d01d35650ff4cb73dfd5360f6f613f5dadc41c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7404422893?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7404423063?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7404422716?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3837/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Add support for hard swish (#12120)"
+  },
+  {
     "oid": "6bad21e9fe711e6994df238e8a3edc89073b894b",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Relay, Op] Add conv2d generic layout op strategy when meta schedule \u2026"
-  },
-  {
-    "oid": "fa057213d44271c09bf444bf4d6388c414f218c0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7353932076?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7353932213?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7353931960?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3822/display/redirect"
-      }
-    ],
-    "messageHeadline": "Enable conv family fused with gelu (#12106)"
   }
 ]
