@@ -1,5 +1,31 @@
 [
   {
+    "oid": "3e7a2ad9568a79fb775c0ca9d09a3fa2f51f792f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7411695445?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7411696023?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7411695729?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3840/display/redirect"
+      }
+    ],
+    "messageHeadline": "support overlapped itersum (#12039)"
+  },
+  {
     "oid": "7bf5fa449c8f342ea686fa2064a3556725ee2aa8",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Collage] PruneCandidates and demo_collage_partition.py (#12105)"
-  },
-  {
-    "oid": "770738c51442579b0f56eb6c6d341ec73fa33e7f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7361828155?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7361828621?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7361828357?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3825/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add member object accessors to With<> (#12100)"
   }
 ]
