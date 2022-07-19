@@ -1,5 +1,31 @@
 [
   {
+    "oid": "eb7cf7051dd239ef86db13875687ef6d5ebb9418",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7419695036?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7419695127?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7419694954?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3849/display/redirect"
+      }
+    ],
+    "messageHeadline": "Revert \"support overlapped itersum (#12039)\" (#12137)"
+  },
+  {
     "oid": "ac1ab3b2985311fb044ebe671433a1ea99b77dd4",
     "statuses": [
       {
@@ -9,7 +35,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7418771703?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Target] Add target_parser to TargetKind (#12119)"
-  },
-  {
-    "oid": "c79b8f1aac0d11811257123127402d0ceff9135e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7394014978?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7394015101?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7394015225?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3834/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Re-run flaky tests on failure (#12108)"
   }
 ]
