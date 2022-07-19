@@ -1,15 +1,41 @@
 [
   {
-    "oid": "342fbea84e1f569a495a500bfeceb764d7aaf110",
+    "oid": "7bf5fa449c8f342ea686fa2064a3556725ee2aa8",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7409273530?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7410742843?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7410743236?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7410742457?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3839/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Target] Add \"features\" property to Target (#12121)"
+  },
+  {
+    "oid": "342fbea84e1f569a495a500bfeceb764d7aaf110",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7409273530?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7409273863?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Add member object accessors to With<> (#12100)"
-  },
-  {
-    "oid": "8f208adae2b9a99c047c17dd811ef98788467509",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7360621135?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7360621287?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7360620930?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3824/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay] Allow Primitive functions to carry virtual device annotations\u2026"
   }
 ]
