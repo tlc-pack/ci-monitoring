@@ -1,5 +1,31 @@
 [
   {
+    "oid": "246aef1cdc7805e948bc1606f5b1a92d664a8649",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7432221452?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7432221850?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7432221635?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3851/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR][Schedule] fix tensorize example (#12146)"
+  },
+  {
     "oid": "7abdce26606551776e55a458622e23182e8ae9d4",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[microNPU] Add support for hard swish (#12120)"
-  },
-  {
-    "oid": "6bad21e9fe711e6994df238e8a3edc89073b894b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7397615061?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7397615195?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7397614913?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3836/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Texture] Add 2d memory support into static memory planner (#11876)"
   }
 ]
