@@ -1,5 +1,31 @@
 [
   {
+    "oid": "7abdce26606551776e55a458622e23182e8ae9d4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7426700518?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7426700858?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7426700677?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3850/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix #12039\u2018s broken cases (#12143)"
+  },
+  {
     "oid": "eb7cf7051dd239ef86db13875687ef6d5ebb9418",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Texture] Add 2d memory support into static memory planner (#11876)"
-  },
-  {
-    "oid": "d4309cf81003c5fdeeb75583ac96cc0926a22b25",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7396698500?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7396698714?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7396698314?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3835/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Target] Add target_parser to TargetKind (#12119)"
   }
 ]
