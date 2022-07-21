@@ -1,5 +1,31 @@
 [
   {
+    "oid": "4fc79b5594b8b50514c6b4be5fec3041a6dd09b2",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7452849615?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7452849401?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7452849177?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3854/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Supply output tensor to issupported checks (#11944)"
+  },
+  {
     "oid": "f00f461b751b970439aa1f67f35da5598514377b",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "support overlapped itersum (#12039)"
-  },
-  {
-    "oid": "7bf5fa449c8f342ea686fa2064a3556725ee2aa8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7410742843?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7410743236?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7410742457?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3839/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Target] Add \"features\" property to Target (#12121)"
   }
 ]
