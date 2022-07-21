@@ -1,5 +1,26 @@
 [
   {
+    "oid": "e54f3243111e4a9a2bb83a18f937e637a55f1594",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7443854301?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7443854157?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7443853992?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[UX][TIR][Schedule] enhance function annotation for tir primitive (#1\u2026"
+  },
+  {
     "oid": "246aef1cdc7805e948bc1606f5b1a92d664a8649",
     "statuses": [
       {
@@ -362,31 +383,5 @@
       }
     ],
     "messageHeadline": "[CMSIS-NN] Fix typo in EmitPool2D (#11702)"
-  },
-  {
-    "oid": "94d01d35650ff4cb73dfd5360f6f613f5dadc41c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7404422893?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7404423063?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7404422716?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3837/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Add support for hard swish (#12120)"
   }
 ]
