@@ -1,5 +1,31 @@
 [
   {
+    "oid": "8dafaf3a4d37ffc17725af70e626f6223f5b2a12",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7464994169?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7464994308?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7464994471?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3857/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Adreno] Fix winograd schedule to support prime shapes > 4 (#12157)"
+  },
+  {
     "oid": "4a94a94dfc9ba6e265e0847228272562989072c7",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Fix] post-fix incre/decre should not return reference (#12128)"
-  },
-  {
-    "oid": "4d95f2c9c5614d55cf0f7cb306164e463c37c7d9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7412414822?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7412415068?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7412414578?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3842/display/redirect"
-      }
-    ],
-    "messageHeadline": "TVMC: Add new text/relay frontend (#10941)"
   }
 ]
