@@ -1,5 +1,31 @@
 [
   {
+    "oid": "a07e18ea4ee063f98bc97412b40c488e13110856",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7472452675?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7472452804?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7472452529?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3858/display/redirect"
+      }
+    ],
+    "messageHeadline": "[HEXAGON] QCOM hexagon library (qhl) (#12149)"
+  },
+  {
     "oid": "8dafaf3a4d37ffc17725af70e626f6223f5b2a12",
     "statuses": [
       {
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule, Testing] Generalize in/out dtype of testing te workloa\u2026"
-  },
-  {
-    "oid": "ff8d2c77dfcd3d4b50d78f0f55a3fc6972ffe3b0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7413298202?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7413298628?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7413298374?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3843/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Fix] post-fix incre/decre should not return reference (#12128)"
   }
 ]
