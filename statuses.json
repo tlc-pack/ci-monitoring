@@ -1,5 +1,31 @@
 [
   {
+    "oid": "832c7674fef385887a2fb99b8530736a40dfc820",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7482209433?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7482209482?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7482209399?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3862/display/redirect"
+      }
+    ],
+    "messageHeadline": "[hexagon][testing] nonrandom tests (#12164)"
+  },
+  {
     "oid": "76155c2f3c327ad7ada9d8fcb1c7f6f447dcc0ec",
     "statuses": [
       {
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "[LLVM] Clarify the status of pointers to llvm::Module in LLVMModule (\u2026"
-  },
-  {
-    "oid": "175f362181243b3568f37b3f71f13047aa99f71a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7418211695?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7418211573?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7418211445?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3847/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microTVM] Arduino retry on flash failure (#12114)"
   }
 ]
