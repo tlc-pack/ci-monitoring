@@ -1,5 +1,31 @@
 [
   {
+    "oid": "4d84620d07630f84c60b9386484ab2d8c102a0fe",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7494765933?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7494766019?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7494766114?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3864/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Well-Formed Verifier (#12166)"
+  },
+  {
     "oid": "dc1324635a52e9cf0a8dbf535c58e60b92fe4736",
     "statuses": [
       {
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "Fix #12039\u2018s broken cases (#12143)"
-  },
-  {
-    "oid": "eb7cf7051dd239ef86db13875687ef6d5ebb9418",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7419695036?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7419695127?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7419694954?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3849/display/redirect"
-      }
-    ],
-    "messageHeadline": "Revert \"support overlapped itersum (#12039)\" (#12137)"
   }
 ]
