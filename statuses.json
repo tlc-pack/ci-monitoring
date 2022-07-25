@@ -1,5 +1,31 @@
 [
   {
+    "oid": "75ec1cffa9f160dd3165fedbf4408731ebfa797a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7497309995?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7497310152?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7497310378?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3866/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMC] Workspace Pools Parameters (#11427)"
+  },
+  {
     "oid": "6eb3a1fc3688bede69efd7f14b313b35497ccf02",
     "statuses": [
       {
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "[UX][TIR][Schedule] enhance function annotation for tir primitive (#1\u2026"
-  },
-  {
-    "oid": "246aef1cdc7805e948bc1606f5b1a92d664a8649",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7432221452?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7432221850?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7432221635?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3851/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][Schedule] fix tensorize example (#12146)"
   }
 ]
