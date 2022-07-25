@@ -1,5 +1,31 @@
 [
   {
+    "oid": "6eb3a1fc3688bede69efd7f14b313b35497ccf02",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7495090643?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7495091062?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7495090944?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3865/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BYOC-DNNL] suppport more dnnl ops (#11823)"
+  },
+  {
     "oid": "4d84620d07630f84c60b9386484ab2d8c102a0fe",
     "statuses": [
       {
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "[TIR][Schedule] fix tensorize example (#12146)"
-  },
-  {
-    "oid": "7abdce26606551776e55a458622e23182e8ae9d4",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7426700518?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7426700858?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7426700677?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3850/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix #12039\u2018s broken cases (#12143)"
   }
 ]
