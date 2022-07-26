@@ -1,25 +1,51 @@
 [
   {
-    "oid": "ca2ec5429b4f9bf0864b1935d9046e6ec9235232",
+    "oid": "9963b59ffa489db61358dedd35a2453a5ca666b9",
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7511417275?check_suite_focus=true"
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7511661902?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7511417340?check_suite_focus=true"
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7511661801?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7511417400?check_suite_focus=true"
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7511661726?check_suite_focus=true"
       },
       {
         "name": "tvm-ci/branch",
         "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3870/display/redirect"
+      }
+    ],
+    "messageHeadline": "fix typo (#12183)"
+  },
+  {
+    "oid": "ca2ec5429b4f9bf0864b1935d9046e6ec9235232",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7511417275?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7511417340?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7511417400?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3869/display/redirect"
       }
     ],
@@ -30,7 +56,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7510424629?check_suite_focus=true"
       },
       {
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3868/display/redirect"
       }
     ],
@@ -56,12 +82,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7510411959?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7510412158?check_suite_focus=true"
       },
       {
@@ -71,7 +97,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3867/display/redirect"
       }
     ],
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "fix T.Ptr[T.void] for packed api roundtrip (#12118)"
-  },
-  {
-    "oid": "8c42a833610dad9993c64eea1664b9a9470f5c07",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7461861518?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7461861592?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7461861651?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3855/display/redirect"
-      }
-    ],
-    "messageHeadline": "[arith][BugFix] Fix simplify input PrimExpr of DetectClipBound (#12150)"
   }
 ]
