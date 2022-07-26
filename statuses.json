@@ -1,5 +1,31 @@
 [
   {
+    "oid": "9bef7de9f0b6611b5a1b6fef3fef722334d8c9f0",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7514325016?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7514325215?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7514325102?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3871/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Doc] Fix link error in pipeline executor tutorial (#12185)"
+  },
+  {
     "oid": "9963b59ffa489db61358dedd35a2453a5ca666b9",
     "statuses": [
       {
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "[Adreno] Fix winograd schedule to support prime shapes > 4 (#12157)"
-  },
-  {
-    "oid": "4a94a94dfc9ba6e265e0847228272562989072c7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7462315935?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7462316013?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7462315865?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3856/display/redirect"
-      }
-    ],
-    "messageHeadline": "fix T.Ptr[T.void] for packed api roundtrip (#12118)"
   }
 ]
