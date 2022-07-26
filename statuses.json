@@ -1,5 +1,31 @@
 [
   {
+    "oid": "ca2ec5429b4f9bf0864b1935d9046e6ec9235232",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7511417275?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7511417340?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7511417400?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3869/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI][docker] Add comment (#11953)"
+  },
+  {
     "oid": "21d54f988056e7e84fdc6504aff683d5c6431266",
     "statuses": [
       {
@@ -9,12 +35,12 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7510424928?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7510424719?check_suite_focus=true"
       },
       {
@@ -40,7 +66,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7510412067?check_suite_focus=true"
       },
       {
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "[arith][BugFix] Fix simplify input PrimExpr of DetectClipBound (#12150)"
-  },
-  {
-    "oid": "4fc79b5594b8b50514c6b4be5fec3041a6dd09b2",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7452849615?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7452849401?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7452849177?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3854/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ETHOSN] Supply output tensor to issupported checks (#11944)"
   }
 ]
