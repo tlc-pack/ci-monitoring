@@ -1,5 +1,31 @@
 [
   {
+    "oid": "ea6ea42757f275573391eb3ff67034b2749948ae",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7515796136?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7515796409?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7515795872?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3872/display/redirect"
+      }
+    ],
+    "messageHeadline": "TVM Vertical Integration with PyTorch (#11911)"
+  },
+  {
     "oid": "9bef7de9f0b6611b5a1b6fef3fef722334d8c9f0",
     "statuses": [
       {
@@ -9,7 +35,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7514325215?check_suite_focus=true"
       },
       {
@@ -362,36 +388,5 @@
       }
     ],
     "messageHeadline": "[HEXAGON] QCOM hexagon library (qhl) (#12149)"
-  },
-  {
-    "oid": "8dafaf3a4d37ffc17725af70e626f6223f5b2a12",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7464994169?check_suite_focus=true"
-      },
-      {
-        "name": "PR / cc-reviewers",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7466401198?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7464994308?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7464994471?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3857/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Adreno] Fix winograd schedule to support prime shapes > 4 (#12157)"
   }
 ]
