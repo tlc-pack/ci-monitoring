@@ -1,5 +1,31 @@
 [
   {
+    "oid": "421f9d756a6ac48b9c3b886f7941a14dae133f5d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7532221412?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7532221369?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7532221295?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3874/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Skip broken android_rpc failures (#12192)"
+  },
+  {
     "oid": "eada707a7027bec47cf003916d349893a9249e4d",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Runtime][PipelineExecutor]  Tutorial of using pipeline executor. (#1\u2026"
-  },
-  {
-    "oid": "9863cf0d5f49e54c21d1a1243d87fd01f7277911",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7474721802?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7474721977?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7474721893?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3859/display/redirect"
-      }
-    ],
-    "messageHeadline": "[hexagon][testing] Better pytest ID strings (#12154)"
   }
 ]
