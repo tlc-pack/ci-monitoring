@@ -1,5 +1,57 @@
 [
   {
+    "oid": "7b6cb60fcb98bbb87581497ea4bcb42061f80153",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7549818616?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7549818490?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7549818347?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3888/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Target] Improve string interpretation in Target creation (#12152)"
+  },
+  {
+    "oid": "465b579e3b9e49e2ac93dea6a5850dfa8b1f4dda",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7549812020?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7549812164?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7549812094?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3887/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci][docker] Use RFC image tags only (#11938)"
+  },
+  {
     "oid": "ae3e2a853752d572e3ee7e3ec061b8609bc246f6",
     "statuses": [
       {
@@ -9,7 +61,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7548808133?check_suite_focus=true"
       },
       {
@@ -45,7 +97,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3885/display/redirect"
       }
     ],
@@ -331,57 +383,5 @@
       }
     ],
     "messageHeadline": "[ci] Skip broken android_rpc failures (#12192)"
-  },
-  {
-    "oid": "eada707a7027bec47cf003916d349893a9249e4d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7519811200?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7519811024?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/runs/7519810828?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3873/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Fix] Fix some errors in unittests (#12170)"
-  },
-  {
-    "oid": "ea6ea42757f275573391eb3ff67034b2749948ae",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7515796136?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7515796409?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7515795872?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3872/display/redirect"
-      }
-    ],
-    "messageHeadline": "TVM Vertical Integration with PyTorch (#11911)"
   }
 ]
