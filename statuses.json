@@ -1,5 +1,31 @@
 [
   {
+    "oid": "85aa597245e6b437c4c1c712154f8d0b9eb73d43",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7547577118?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7547577364?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7547576969?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3885/display/redirect"
+      }
+    ],
+    "messageHeadline": "[JIT] Force finalization of JITed code, expose sf/hf runtime function\u2026"
+  },
+  {
     "oid": "96b151751abcdbe98f4e79be1965158fb251d218",
     "statuses": [
       {
@@ -103,7 +129,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7545773556?check_suite_focus=true"
       },
       {
@@ -129,7 +155,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7545766815?check_suite_focus=true"
       },
       {
@@ -160,7 +186,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7545741710?check_suite_focus=true"
       },
       {
@@ -357,31 +383,5 @@
       }
     ],
     "messageHeadline": "[Doc] Fix link error in pipeline executor tutorial (#12185)"
-  },
-  {
-    "oid": "9963b59ffa489db61358dedd35a2453a5ca666b9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7511661902?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7511661801?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7511661726?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3870/display/redirect"
-      }
-    ],
-    "messageHeadline": "fix typo (#12183)"
   }
 ]
