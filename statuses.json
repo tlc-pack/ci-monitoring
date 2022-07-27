@@ -1,5 +1,26 @@
 [
   {
+    "oid": "98d5feb297e718fa2fdfa0fca3777ffe42630fc8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7546311286?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7546311643?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7546311467?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[docs] Update tlcpack-sphinx-addon (#12188)"
+  },
+  {
     "oid": "69dc7217596211eb4e49102f76cf03e234aecf9f",
     "statuses": [
       {
@@ -20,7 +41,7 @@
       {
         "name": "tvm-ci/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3882/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3881/display/redirect"
       }
     ],
     "messageHeadline": "[hexagon][testing] filesystem-friendly test IDs (#12195)"
@@ -357,31 +378,5 @@
       }
     ],
     "messageHeadline": "[CI][docker] Add comment (#11953)"
-  },
-  {
-    "oid": "21d54f988056e7e84fdc6504aff683d5c6431266",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7510424629?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7510424928?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7510424719?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3868/display/redirect"
-      }
-    ],
-    "messageHeadline": "[PyTorch] Add aten::numpy_T (#12179)"
   }
 ]
