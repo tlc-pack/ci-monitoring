@@ -1,5 +1,31 @@
 [
   {
+    "oid": "97269fa479f4844a20ca680e54d0caaf3401a855",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7539724957?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7539724501?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7539724741?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3876/display/redirect"
+      }
+    ],
+    "messageHeadline": "Update to 0.10.0 (#12190)"
+  },
+  {
     "oid": "5711c35ae01b1dec3527726149efc6fe1a4bc7c6",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[hexagon][testing] nonrandom tests (#12164)"
-  },
-  {
-    "oid": "76155c2f3c327ad7ada9d8fcb1c7f6f447dcc0ec",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7475909770?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7475909890?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7475909679?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3861/display/redirect"
-      }
-    ],
-    "messageHeadline": "[QNN] Support different qnn params between in/out tensor in leaky_rel\u2026"
   }
 ]
