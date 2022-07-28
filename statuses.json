@@ -1,10 +1,36 @@
 [
   {
-    "oid": "10b81c274f5bd72917410fa6843ce95fbf490903",
+    "oid": "fcec5f4a763280dbb42f027654fd47088d0b3c5a",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7550923834?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7550923722?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7550923917?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3890/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMScript] StmtDoc Definitions (#12111)"
+  },
+  {
+    "oid": "10b81c274f5bd72917410fa6843ce95fbf490903",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7550465177?check_suite_focus=true"
       },
       {
@@ -14,7 +40,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7550465337?check_suite_focus=true"
       },
       {
@@ -30,12 +56,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7549818616?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7549818490?check_suite_focus=true"
       },
       {
@@ -56,12 +82,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7549812020?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7549812164?check_suite_focus=true"
       },
       {
@@ -357,31 +383,5 @@
       }
     ],
     "messageHeadline": "Update to 0.10.0 (#12190)"
-  },
-  {
-    "oid": "5711c35ae01b1dec3527726149efc6fe1a4bc7c6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7534591350?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7534591459?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7534591404?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3875/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR Pass] decouple flatten buffer to lower opaque block pass and fla\u2026"
   }
 ]
