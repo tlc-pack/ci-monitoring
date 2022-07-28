@@ -1,5 +1,31 @@
 [
   {
+    "oid": "06748583ebc6d6a159bc1fcd2feef67167deee87",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7565397729?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7565397888?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7565397569?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3896/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Fix docker post-merge builds on main (#12210)"
+  },
+  {
     "oid": "ee319d9d23c80091da9c4fb764b1e6d49d462714",
     "statuses": [
       {
@@ -367,26 +393,5 @@
       }
     ],
     "messageHeadline": "[hexagon][testing] filesystem-friendly test IDs (#12195)"
-  },
-  {
-    "oid": "c94ebf9206baf566a7337fdd5910ee8ecc430e48",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7545871784?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7545871613?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7545871433?check_suite_focus=true"
-      }
-    ],
-    "messageHeadline": "[runtime][hexagon] improved file-copy logic (#12194)"
   }
 ]
