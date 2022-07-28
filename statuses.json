@@ -1,5 +1,31 @@
 [
   {
+    "oid": "ee319d9d23c80091da9c4fb764b1e6d49d462714",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7556683650?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7556683850?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7556684012?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3895/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Integration test for CUDA AutoTensorization (#12142)"
+  },
+  {
     "oid": "1131c922332ab05e985fb2f40d1c4fdb9fe51b05",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[runtime][hexagon] improved file-copy logic (#12194)"
-  },
-  {
-    "oid": "88bbb405408f9d6ae13da7a35341ed83ce8bc9f1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7545773556?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7545773811?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7545773680?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3880/display/redirect"
-      }
-    ],
-    "messageHeadline": "fix pooling documents (#12201)"
   }
 ]
