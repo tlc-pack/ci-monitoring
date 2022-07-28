@@ -1,5 +1,31 @@
 [
   {
+    "oid": "cfefa90a96ca401744e24d3eb72007b60c69e7ec",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7566972182?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7566972416?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7566972663?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3899/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Adreno] Update conv2d_nhwc test to use winograd (#12214)"
+  },
+  {
     "oid": "ebbce649f08dca6a870e7845febc39125b240001",
     "statuses": [
       {
@@ -40,7 +66,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7566073575?check_suite_focus=true"
       },
       {
@@ -56,12 +82,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7565397729?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7565397888?check_suite_focus=true"
       },
       {
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "[JIT] Force finalization of JITed code, expose sf/hf runtime function\u2026"
-  },
-  {
-    "oid": "96b151751abcdbe98f4e79be1965158fb251d218",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7547388383?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7547388057?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7547387893?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3884/display/redirect"
-      }
-    ],
-    "messageHeadline": "[OpenCL] Fix profiling hang for OpenCL device (#12173)"
   }
 ]
