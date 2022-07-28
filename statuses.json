@@ -1,5 +1,31 @@
 [
   {
+    "oid": "195e60b97a315f164b383f5b2d5b608f619ae036",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7567172320?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7567172425?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7567172569?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3900/display/redirect"
+      }
+    ],
+    "messageHeadline": "[FIX,ROOFLINE] Handle mismatched compiled and TIR hash (#12219)"
+  },
+  {
     "oid": "cfefa90a96ca401744e24d3eb72007b60c69e7ec",
     "statuses": [
       {
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "Use std::move to avoid warnings on clang-13 (#12196)"
-  },
-  {
-    "oid": "85aa597245e6b437c4c1c712154f8d0b9eb73d43",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7547577118?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7547577364?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7547576969?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3885/display/redirect"
-      }
-    ],
-    "messageHeadline": "[JIT] Force finalization of JITed code, expose sf/hf runtime function\u2026"
   }
 ]
