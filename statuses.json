@@ -1,5 +1,31 @@
 [
   {
+    "oid": "3c737fbd5baccc60aff355b40105220c148b7d7f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7566073696?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7566073474?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7566073575?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3897/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Asynchronous stage in software pipeline (#12171)"
+  },
+  {
     "oid": "06748583ebc6d6a159bc1fcd2feef67167deee87",
     "statuses": [
       {
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "[docs] Update tlcpack-sphinx-addon (#12188)"
-  },
-  {
-    "oid": "69dc7217596211eb4e49102f76cf03e234aecf9f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7545874499?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7545874324?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7545874132?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3881/display/redirect"
-      }
-    ],
-    "messageHeadline": "[hexagon][testing] filesystem-friendly test IDs (#12195)"
   }
 ]
