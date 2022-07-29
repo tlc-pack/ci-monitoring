@@ -1,5 +1,26 @@
 [
   {
+    "oid": "c6d733a7eba7d5d86fef224d6215b8b14c350cda",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7584597551?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7584597443?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7584597330?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[TOPI][HEXAGON] Implement depthwise conv2d slice op. (#12218)"
+  },
+  {
     "oid": "d19570fb2357d8d13a04024cf5fdb5eb6e3530a6",
     "statuses": [
       {
@@ -357,31 +378,5 @@
       }
     ],
     "messageHeadline": "[Adreno] Fix winograd tests and accuracy (#12202)"
-  },
-  {
-    "oid": "c35c9fd3a5249cfb01093b08b35979db846dfa33",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7553561303?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7553561350?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7553561242?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3891/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay][PyTorch] Add aten::lerp (#12167)"
   }
 ]
