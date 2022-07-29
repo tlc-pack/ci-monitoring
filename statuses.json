@@ -1,5 +1,31 @@
 [
   {
+    "oid": "2b3e1eb3f52b5f5a672849786febdc34187a05d2",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7586487896?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7586488007?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7586487816?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3910/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Reinstall junintparser after zephyr deps (#12226)"
+  },
+  {
     "oid": "e7e29b450bb25da4d19b8bac380e81a393dc0b49",
     "statuses": [
       {
@@ -352,31 +378,5 @@
       }
     ],
     "messageHeadline": "[TVMScript] StmtDoc Printing (#12112)"
-  },
-  {
-    "oid": "724764ae402b8ff51c3a4fcf9f3cd5cc80005ff8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7553782985?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7553783069?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7553782907?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3893/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TFLite] Fix _test_tflite2_quantized_depthwise_convolution is unused \u2026"
   }
 ]
