@@ -1,5 +1,26 @@
 [
   {
+    "oid": "d19570fb2357d8d13a04024cf5fdb5eb6e3530a6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7583630701?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7583630809?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7583630952?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[UX] highlight tvm script (#12197)"
+  },
+  {
     "oid": "d183a4f306a6e3a2e72e7a0d4419e9010e7aa765",
     "statuses": [
       {
@@ -362,31 +383,5 @@
       }
     ],
     "messageHeadline": "[Relay][PyTorch] Add aten::lerp (#12167)"
-  },
-  {
-    "oid": "fcec5f4a763280dbb42f027654fd47088d0b3c5a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7550923834?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7550923722?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7550923917?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3890/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] StmtDoc Definitions (#12111)"
   }
 ]
