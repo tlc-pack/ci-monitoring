@@ -1,5 +1,26 @@
 [
   {
+    "oid": "d183a4f306a6e3a2e72e7a0d4419e9010e7aa765",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7580499918?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7580499712?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7580499515?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[microTVM][Zephyr][projectAPI] Minimize project build commands (#12209)"
+  },
+  {
     "oid": "aeda760e5e29eddd0a7ddb22c7031f9607440770",
     "statuses": [
       {
@@ -367,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TVMScript] StmtDoc Definitions (#12111)"
-  },
-  {
-    "oid": "10b81c274f5bd72917410fa6843ce95fbf490903",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7550465177?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7550465248?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7550465337?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3889/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][lint] Consolidate image lookup logic (#12206)"
   }
 ]
