@@ -1,5 +1,26 @@
 [
   {
+    "oid": "e756980b41c339ad26ea50315eb29073504b3796",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7594257058?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7594256924?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7594256988?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[UX][TVMSciprt] Use HTML formatter in notebook environments (#12240)"
+  },
+  {
     "oid": "c0a3da84bcc801e21d8e4dfc68a68665977d8912",
     "statuses": [
       {
@@ -347,31 +368,5 @@
       }
     ],
     "messageHeadline": "[FIX,ROOFLINE] Handle mismatched compiled and TIR hash (#12219)"
-  },
-  {
-    "oid": "cfefa90a96ca401744e24d3eb72007b60c69e7ec",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7566972182?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7566972416?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7566972663?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3899/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Adreno] Update conv2d_nhwc test to use winograd (#12214)"
   }
 ]
