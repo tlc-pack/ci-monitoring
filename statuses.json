@@ -1,5 +1,31 @@
 [
   {
+    "oid": "12dcfd70ef365a9d5cdccdcc516bf818367e561a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7593041145?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7593041125?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7593041078?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3914/display/redirect"
+      }
+    ],
+    "messageHeadline": "[AutoSchedule] Fix misusage of an already-moved object (#12239)"
+  },
+  {
     "oid": "fb87c21bf8d0fa5edec96a054a57a6d37c11289f",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[microTVM][tutorial] AOT host-driven tutorial with TFLite model (#12182)"
-  },
-  {
-    "oid": "3c737fbd5baccc60aff355b40105220c148b7d7f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7566073696?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7566073474?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7566073575?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3897/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Asynchronous stage in software pipeline (#12171)"
   }
 ]
