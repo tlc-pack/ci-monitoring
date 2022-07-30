@@ -1,5 +1,26 @@
 [
   {
+    "oid": "961a7c70d75c81503c8c1d7c2e0db66bac4a1859",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7594797061?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7594797085?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7594797042?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[ROOFLINE] Add CUDA support to roofline analysis (#12205)"
+  },
+  {
     "oid": "e756980b41c339ad26ea50315eb29073504b3796",
     "statuses": [
       {
@@ -347,31 +368,5 @@
       }
     ],
     "messageHeadline": "Removing header arm_math.h which has disappeared after CMSIS upgrade \u2026"
-  },
-  {
-    "oid": "195e60b97a315f164b383f5b2d5b608f619ae036",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7567172320?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7567172425?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7567172569?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3900/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FIX,ROOFLINE] Handle mismatched compiled and TIR hash (#12219)"
   }
 ]
