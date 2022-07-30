@@ -1,5 +1,31 @@
 [
   {
+    "oid": "dff5c975a082e6f15b556914a029541b63ff1280",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7589987433?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7589987318?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7589987362?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3912/display/redirect"
+      }
+    ],
+    "messageHeadline": "Deploy the Pretrained Model on Jetson Nano  (#11037)"
+  },
+  {
     "oid": "db4380cf41757e19c56c62ae3bf3a441c44de521",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[ci] Fix docker post-merge builds on main (#12210)"
-  },
-  {
-    "oid": "ee319d9d23c80091da9c4fb764b1e6d49d462714",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7556683650?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7556683850?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7556684012?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3895/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Integration test for CUDA AutoTensorization (#12142)"
   }
 ]
