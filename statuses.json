@@ -1,25 +1,77 @@
 [
   {
-    "oid": "961a7c70d75c81503c8c1d7c2e0db66bac4a1859",
+    "oid": "1d39f2c974e09e5a767b67e127a5132f0b36c102",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7594797061?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7595707485?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7594797085?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7595707543?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7594797042?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7595707423?check_suite_focus=true"
       },
       {
         "name": "tvm-ci/branch",
         "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3919/display/redirect"
+      }
+    ],
+    "messageHeadline": "[FQ2I] fix unary op output affine type in fq2i (#12224)"
+  },
+  {
+    "oid": "9f16b607c8a5fd84b807da665210c9aad31be961",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7595695061?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7595695101?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7595695041?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3918/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMScript] Doc Definition (#12244)"
+  },
+  {
+    "oid": "961a7c70d75c81503c8c1d7c2e0db66bac4a1859",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7594797061?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7594797085?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7594797042?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3917/display/redirect"
       }
     ],
@@ -321,57 +373,5 @@
       }
     ],
     "messageHeadline": "[TIR] Disallow unused rhs vars in GetAutoTensorizeMapping (#12225)"
-  },
-  {
-    "oid": "578ef035b201d7fa9756d51ac2e89e4a90663990",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7574936506?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7574936624?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7574936421?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3902/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix comments. (#12220)"
-  },
-  {
-    "oid": "9a4d80c5fe7d756baa83708fd9679c7ae0fac195",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7574139668?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7574139836?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7574139748?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3901/display/redirect"
-      }
-    ],
-    "messageHeadline": "Removing header arm_math.h which has disappeared after CMSIS upgrade \u2026"
   }
 ]
