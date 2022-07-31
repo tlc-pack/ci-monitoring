@@ -1,5 +1,31 @@
 [
   {
+    "oid": "ea0e29f425e10add9d12c362c738452fbe890ba6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7597759415?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7597759329?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7597759246?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3923/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule][Test] Add unittests for GRP (#12246)"
+  },
+  {
     "oid": "a231a1d724283545c16221fc1316dd77cfa840b6",
     "statuses": [
       {
@@ -362,26 +388,5 @@
       }
     ],
     "messageHeadline": "[ci] Fix build android rpc failure (#12216)"
-  },
-  {
-    "oid": "c6d733a7eba7d5d86fef224d6215b8b14c350cda",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7584597551?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7584597443?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7584597330?check_suite_focus=true"
-      }
-    ],
-    "messageHeadline": "[TOPI][HEXAGON] Implement depthwise conv2d slice op. (#12218)"
   }
 ]
