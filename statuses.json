@@ -1,10 +1,36 @@
 [
   {
-    "oid": "1d39f2c974e09e5a767b67e127a5132f0b36c102",
+    "oid": "42dd6afa970e8948584d5474691673c32e2c3457",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7596109270?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7596109301?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7596109225?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3920/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule][Test] Add unittests for GMM (#12243)"
+  },
+  {
+    "oid": "1d39f2c974e09e5a767b67e127a5132f0b36c102",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7595707485?check_suite_focus=true"
       },
       {
@@ -14,7 +40,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7595707423?check_suite_focus=true"
       },
       {
@@ -40,7 +66,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7595695041?check_suite_focus=true"
       },
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[microTVM][Zephyr][projectAPI] Minimize project build commands (#12209)"
-  },
-  {
-    "oid": "aeda760e5e29eddd0a7ddb22c7031f9607440770",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7575028523?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7575028683?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7575028355?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3903/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Disallow unused rhs vars in GetAutoTensorizeMapping (#12225)"
   }
 ]
