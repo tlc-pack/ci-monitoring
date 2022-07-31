@@ -1,5 +1,31 @@
 [
   {
+    "oid": "1d1fc083678bc99f72394898a2da9543ceaaed7a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7600494550?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7600494652?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7600494596?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3924/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Fix] Minor modification in unittests (#12247)"
+  },
+  {
     "oid": "ea0e29f425e10add9d12c362c738452fbe890ba6",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[ci] Reinstall junintparser after zephyr deps (#12226)"
-  },
-  {
-    "oid": "e7e29b450bb25da4d19b8bac380e81a393dc0b49",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7585454755?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7585454637?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7585454515?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3909/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Fix build android rpc failure (#12216)"
   }
 ]
