@@ -1,5 +1,31 @@
 [
   {
+    "oid": "a231a1d724283545c16221fc1316dd77cfa840b6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7597523070?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7597523114?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7597523018?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3922/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Fix] Fix some errors in unittests (#12245)"
+  },
+  {
     "oid": "66a1b9f392d2814b9b2b68996b7a36623c833e3d",
     "statuses": [
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3921/display/redirect"
       }
     ],
@@ -357,26 +383,5 @@
       }
     ],
     "messageHeadline": "[TOPI][HEXAGON] Implement depthwise conv2d slice op. (#12218)"
-  },
-  {
-    "oid": "d19570fb2357d8d13a04024cf5fdb5eb6e3530a6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7583630701?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7583630809?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7583630952?check_suite_focus=true"
-      }
-    ],
-    "messageHeadline": "[UX] highlight tvm script (#12197)"
   }
 ]
