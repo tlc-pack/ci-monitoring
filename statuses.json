@@ -1,5 +1,31 @@
 [
   {
+    "oid": "12502cc835157ed93e2ccba855a2b3cdfd6d1331",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7606720305?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7606720428?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7606720599?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3929/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule][Test] Add unittests for SFM (#12251)"
+  },
+  {
     "oid": "834e998618addb141e5a8b69f918ce5594e752cd",
     "statuses": [
       {
@@ -14,7 +40,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7605835890?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Relay][VM] Fix an ICHECK which never fails in ctor of VMFunction (#1\u2026"
-  },
-  {
-    "oid": "12dcfd70ef365a9d5cdccdcc516bf818367e561a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7593041145?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7593041125?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7593041078?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3914/display/redirect"
-      }
-    ],
-    "messageHeadline": "[AutoSchedule] Fix misusage of an already-moved object (#12239)"
   }
 ]
