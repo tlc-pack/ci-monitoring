@@ -1,5 +1,31 @@
 [
   {
+    "oid": "834e998618addb141e5a8b69f918ce5594e752cd",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7605835770?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7605835997?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7605835890?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3928/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMScript] Python Expression Precedence (#12148)"
+  },
+  {
     "oid": "d332eb3749a5aecc69ad50edfc3a1177e215285b",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[AutoSchedule] Fix misusage of an already-moved object (#12239)"
-  },
-  {
-    "oid": "fb87c21bf8d0fa5edec96a054a57a6d37c11289f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7590331979?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7590331897?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7590331935?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3913/display/redirect"
-      }
-    ],
-    "messageHeadline": "remove duplicated cast op when lowering qnn.requantize op in float mo\u2026"
   }
 ]
