@@ -1,5 +1,57 @@
 [
   {
+    "oid": "4ec8683fb65ce741279891b2fb5c0437680fd685",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7611345080?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7611345278?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7611345503?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3932/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule][Test] Add unittests for CBR (#12252)"
+  },
+  {
+    "oid": "a5d7dfa5833075492009014079e23f6ce1a1c64d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7611327137?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7611327282?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7611326822?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3931/display/redirect"
+      }
+    ],
+    "messageHeadline": "[FIX,TIR] Handle LetStmt in EstimateTIRFLops (#12138)"
+  },
+  {
     "oid": "a49273e05092480bde8593c6a137bb251b5dee6c",
     "statuses": [
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[TVMScript] Doc Definition (#12244)"
-  },
-  {
-    "oid": "961a7c70d75c81503c8c1d7c2e0db66bac4a1859",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7594797061?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7594797085?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7594797042?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3917/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ROOFLINE] Add CUDA support to roofline analysis (#12205)"
-  },
-  {
-    "oid": "e756980b41c339ad26ea50315eb29073504b3796",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7594257058?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7594256924?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7594256988?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3916/display/redirect"
-      }
-    ],
-    "messageHeadline": "[UX][TVMSciprt] Use HTML formatter in notebook environments (#12240)"
   }
 ]
