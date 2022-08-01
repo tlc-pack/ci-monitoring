@@ -1,25 +1,51 @@
 [
   {
-    "oid": "a842449d23a63d100ce53bcc96989ec86c83b03b",
+    "oid": "c07d77f99c024b9e2c162b574482dbbbd71d4680",
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7602225288?check_suite_focus=true"
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7602943915?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7602225303?check_suite_focus=true"
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7602943982?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7602225339?check_suite_focus=true"
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7602943843?check_suite_focus=true"
       },
       {
         "name": "tvm-ci/branch",
         "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3926/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BYOC-DNNL] add post_sum pattern (#12151)"
+  },
+  {
+    "oid": "a842449d23a63d100ce53bcc96989ec86c83b03b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7602225288?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7602225303?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7602225339?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3925/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Deploy the Pretrained Model on Jetson Nano  (#11037)"
-  },
-  {
-    "oid": "db4380cf41757e19c56c62ae3bf3a441c44de521",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7587810269?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7587809933?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7587810041?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3911/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][docker] create Dockerfile.ci_riscv (#12230)"
   }
 ]
