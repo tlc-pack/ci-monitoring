@@ -1,5 +1,31 @@
 [
   {
+    "oid": "f0650986ad59efdda18a53b976e63c2f5055d4b5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7640681425?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7640681572?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7640681328?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3955/display/redirect"
+      }
+    ],
+    "messageHeadline": "Revert \"[CI] Fix build android rpc failure in CI\" (#12277)"
+  },
+  {
     "oid": "b8893b557a6c213dfe06f4069fad3cf5ad70051e",
     "statuses": [
       {
@@ -9,7 +35,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7639233442?check_suite_focus=true"
       },
       {
@@ -30,7 +56,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7638850243?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Arith] Handle bitwise_and with power of 2 in modular set (#12272)"
-  },
-  {
-    "oid": "7b72c4e0a52f68f2608ab92a4d19f7d5e7eae0f7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7623206602?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7623206686?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7623206511?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3940/display/redirect"
-      }
-    ],
-    "messageHeadline": "Hide registration errors in `test_myfloat` (#12268)"
   }
 ]
