@@ -1,5 +1,31 @@
 [
   {
+    "oid": "ab1d95b984f8bd366d513a09b9cfecf66c865dfa",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7626804065?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7626804260?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7626804404?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3945/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TensorFlow] Disable failing tests on AArch64 (#12257)"
+  },
+  {
     "oid": "d3d1038e156339c0a5920accef7ba4e0e7d61681",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[FIX,TIR] Handle LetStmt in EstimateTIRFLops (#12138)"
-  },
-  {
-    "oid": "a49273e05092480bde8593c6a137bb251b5dee6c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7607812667?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7607812508?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7607812374?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3930/display/redirect"
-      }
-    ],
-    "messageHeadline": "Enable conv family fused with mish (#12228)"
   }
 ]
