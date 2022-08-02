@@ -1,5 +1,31 @@
 [
   {
+    "oid": "a5ff7c05deb822dee4cd7f9b70da7dd4882bc40e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7638542599?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7638542783?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7638542441?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3952/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Shard Qemu python tests (#12258)"
+  },
+  {
     "oid": "2bfd52f8855eccb0515bb517cfdbc242029b4001",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[docs] Update installation instructions (#12269)"
-  },
-  {
-    "oid": "c2ec95616ed52e8377c42c5f3e15621841924059",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7621434727?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7621434850?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7621434585?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3937/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Fq2i][ fix output type on fq2i binary ops with constant inputs (#12236)"
   }
 ]
