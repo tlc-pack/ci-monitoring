@@ -1,5 +1,57 @@
 [
   {
+    "oid": "19644bce3bcce7bd7ab951fb0f2fbc4f3e68a914",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7626850931?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7626851079?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7626850751?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3947/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Pytorch] Disable failing tests on AArch64 (#12255)"
+  },
+  {
+    "oid": "d10a7d186efb63fd6d2172bc64232d9ab9c8aa07",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7626816845?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7626816997?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7626816668?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3946/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ONNX] Disable failing tests on AArch64 (#12256)"
+  },
+  {
     "oid": "ab1d95b984f8bd366d513a09b9cfecf66c865dfa",
     "statuses": [
       {
@@ -40,7 +92,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7625961070?check_suite_focus=true"
       },
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[CPP-RPC] Fix GetPath to use relative file path (#12242)"
-  },
-  {
-    "oid": "4ec8683fb65ce741279891b2fb5c0437680fd685",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7611345080?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7611345278?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7611345503?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3932/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule][Test] Add unittests for CBR (#12252)"
-  },
-  {
-    "oid": "a5d7dfa5833075492009014079e23f6ce1a1c64d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7611327137?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7611327282?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7611326822?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3931/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FIX,TIR] Handle LetStmt in EstimateTIRFLops (#12138)"
   }
 ]
