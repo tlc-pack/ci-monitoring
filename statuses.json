@@ -1,5 +1,31 @@
 [
   {
+    "oid": "a9df8015431147237868a7f72a933e1057050d41",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7627568089?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7627567890?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7627567736?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3948/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Upgrade NPU driver stack to v22.05 (#11759)"
+  },
+  {
     "oid": "19644bce3bcce7bd7ab951fb0f2fbc4f3e68a914",
     "statuses": [
       {
@@ -82,12 +108,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7625961308?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7625961202?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[CI] Add setup-pytest-env.sh call to task_demo_microtvm.sh (#12260)"
-  },
-  {
-    "oid": "d2d3010dc6e1236e9b37ff91fcc591c7396498f1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7616460565?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7616460724?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7616460459?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3933/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CPP-RPC] Fix GetPath to use relative file path (#12242)"
   }
 ]
