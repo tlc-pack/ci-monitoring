@@ -1,5 +1,31 @@
 [
   {
+    "oid": "85624ff6677c435d2d92533fbfcffcb4da5b040e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7644763871?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7644763949?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7644764048?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3959/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci][docker] Fix deploy to tlcpackstaging on Docker Hub (#12282)"
+  },
+  {
     "oid": "fefc27f26143e58120124aff30b8d2d4bf9a2e77",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TensorFlow] Disable failing tests on AArch64 (#12257)"
-  },
-  {
-    "oid": "d3d1038e156339c0a5920accef7ba4e0e7d61681",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7625961308?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7625961202?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7625961070?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3944/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][docker] Update GPU image (#12265)"
   }
 ]
