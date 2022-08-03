@@ -1,5 +1,31 @@
 [
   {
+    "oid": "39ffe0a5ce14c2105b7d48ee420e82e194787d8f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7647892917?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7647892796?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7647892638?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3960/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMScript] Add object path tracing to StructuralEqual (#12101)"
+  },
+  {
     "oid": "85624ff6677c435d2d92533fbfcffcb4da5b040e",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[ONNX] Disable failing tests on AArch64 (#12256)"
-  },
-  {
-    "oid": "ab1d95b984f8bd366d513a09b9cfecf66c865dfa",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7626804065?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7626804260?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7626804404?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3945/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TensorFlow] Disable failing tests on AArch64 (#12257)"
   }
 ]
