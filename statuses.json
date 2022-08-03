@@ -1,5 +1,31 @@
 [
   {
+    "oid": "49587cfcea0bae142ba5cca4e81996856400818e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7654187225?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7654187426?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7654187028?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3961/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Add retries to S3 uploads/downloads (#12221)"
+  },
+  {
     "oid": "39ffe0a5ce14c2105b7d48ee420e82e194787d8f",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Pytorch] Disable failing tests on AArch64 (#12255)"
-  },
-  {
-    "oid": "d10a7d186efb63fd6d2172bc64232d9ab9c8aa07",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7626816845?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7626816997?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7626816668?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3946/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ONNX] Disable failing tests on AArch64 (#12256)"
   }
 ]
