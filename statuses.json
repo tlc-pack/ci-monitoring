@@ -1,5 +1,31 @@
 [
   {
+    "oid": "78b3fc26a0211cd7956ed727d0fabbe5404d5c8c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7677599816?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7677599701?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7677599579?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3970/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci][tvmbot] Enable re-run for GitHub Actions (#12295)"
+  },
+  {
     "oid": "3731a8ca45e01865be78e4b98cc541af76d88d62",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[release] Add script to gather PRs for a release (#11987)"
-  },
-  {
-    "oid": "f0650986ad59efdda18a53b976e63c2f5055d4b5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7640681425?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7640681572?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7640681328?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3955/display/redirect"
-      }
-    ],
-    "messageHeadline": "Revert \"[CI] Fix build android rpc failure in CI\" (#12277)"
   }
 ]
