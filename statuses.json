@@ -1,5 +1,31 @@
 [
   {
+    "oid": "3731a8ca45e01865be78e4b98cc541af76d88d62",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7673261119?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7673261295?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7673260865?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3969/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Get buffer sizes from the compiled network (#12160)"
+  },
+  {
     "oid": "9f360a04036a84cf1527762d381def171007f15f",
     "statuses": [
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3968/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Revert \"[CI] Fix build android rpc failure in CI\" (#12277)"
-  },
-  {
-    "oid": "b8893b557a6c213dfe06f4069fad3cf5ad70051e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7639233299?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7639233442?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7639233126?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3954/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay][Op] Trilu operator implementation (#12124)"
   }
 ]
