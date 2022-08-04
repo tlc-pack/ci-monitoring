@@ -1,5 +1,31 @@
 [
   {
+    "oid": "485bfaf1ea9d7afaf7fa6cb3e03415364ffc4412",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7681947259?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7681947498?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7681947383?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3976/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci][docker] Add retries for docker pull (#12306)"
+  },
+  {
     "oid": "5d0367a13786b00aced9287bc7900a799c346067",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[microTVM] Refactor pytest fixtures (#12207)"
-  },
-  {
-    "oid": "49587cfcea0bae142ba5cca4e81996856400818e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7654187225?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7654187426?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7654187028?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3961/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Add retries to S3 uploads/downloads (#12221)"
   }
 ]
