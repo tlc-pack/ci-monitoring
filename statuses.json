@@ -1,5 +1,31 @@
 [
   {
+    "oid": "9f360a04036a84cf1527762d381def171007f15f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7670339679?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7670339461?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7670339270?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3968/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Only use mock inference when whole graph is offloaded (#12296)"
+  },
+  {
     "oid": "3f304c8bc58910a7ef19c9c0b00a7df9ae23e614",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Relay][Op] Trilu operator implementation (#12124)"
-  },
-  {
-    "oid": "1da66d7df26f36a5daab951d841e66f2e82e40d0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7638850243?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7638850637?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7638850449?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3953/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Check auto tensorization applicability in MultiLevelTi\u2026"
   }
 ]
