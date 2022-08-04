@@ -1,15 +1,93 @@
 [
   {
-    "oid": "cfa55251b2163b77e98726e73c4c3298b1903899",
+    "oid": "5d0367a13786b00aced9287bc7900a799c346067",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7678360254?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7680013921?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7680014105?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7680013674?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3975/display/redirect"
+      }
+    ],
+    "messageHeadline": "[QNN] Add qnn op for abs to fix wrong scale on quantize (#12287)"
+  },
+  {
+    "oid": "2866f315f9899a49917e1a9adda21fc15841ee55",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7680001215?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7680001357?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7680001511?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3974/display/redirect"
+      }
+    ],
+    "messageHeadline": "[FQ2I] Add attrs to adaptive_avg_pool1d (#12290)"
+  },
+  {
+    "oid": "4158738574b7187eb6c9d4f8c473e3c707e268a2",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7679973820?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7679974084?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7679973952?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3973/display/redirect"
+      }
+    ],
+    "messageHeadline": "initial commit (#12301)"
+  },
+  {
+    "oid": "cfa55251b2163b77e98726e73c4c3298b1903899",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7678360254?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7678360451?check_suite_focus=true"
       },
       {
@@ -30,7 +108,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7678141070?check_suite_focus=true"
       },
       {
@@ -310,83 +388,5 @@
       }
     ],
     "messageHeadline": "[ci] Add retries to S3 uploads/downloads (#12221)"
-  },
-  {
-    "oid": "39ffe0a5ce14c2105b7d48ee420e82e194787d8f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7647892917?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7647892796?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7647892638?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3960/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] Add object path tracing to StructuralEqual (#12101)"
-  },
-  {
-    "oid": "85624ff6677c435d2d92533fbfcffcb4da5b040e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7644763871?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7644763949?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7644764048?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3959/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][docker] Fix deploy to tlcpackstaging on Docker Hub (#12282)"
-  },
-  {
-    "oid": "fefc27f26143e58120124aff30b8d2d4bf9a2e77",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7642035226?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7642035300?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7642035164?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3958/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Specify permissions for tvm bot (#11937)"
   }
 ]
