@@ -1,5 +1,31 @@
 [
   {
+    "oid": "8a0911c429c9987710d8d79c81b1433b33615989",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7694547046?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7694547193?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7694546843?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3979/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Add tir::builtin::assume (#12267)"
+  },
+  {
     "oid": "ca46f21f5168f937cf9b1d205118c770c46aa8c5",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[LLVM] Create LLVM scope object for use with LLVM libraries (#12140)"
-  },
-  {
-    "oid": "46a8498ba91b256d5cc4d00faf3142fde2c6ad40",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7661462467?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7661462569?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7661462349?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3964/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Enhance Conv2d NCHW Winograd Schedule Rules (#12127)"
   }
 ]
