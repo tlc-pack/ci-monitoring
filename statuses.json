@@ -1,5 +1,31 @@
 [
   {
+    "oid": "ca46f21f5168f937cf9b1d205118c770c46aa8c5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7692200759?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7692200620?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7692200423?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3978/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Increase CPU Intergration tests shards to speedup runtime (#12316)"
+  },
+  {
     "oid": "4231ebb7154a3c44b26199e93a8b6f22a7a90426",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Enhance Conv2d NCHW Winograd Schedule Rules (#12127)"
-  },
-  {
-    "oid": "df29e826290a3eba606a93b59f640e025b5cbd4d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7658106940?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7658107180?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7658106655?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3963/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][CUDA] Fix sub-warp reduction using \"max\" (#12275)"
   }
 ]
