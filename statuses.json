@@ -1,5 +1,31 @@
 [
   {
+    "oid": "5821c1240e18a137dfb0afe8810e97e50fd869ca",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7699496171?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7699496388?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7699496292?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3982/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Add DeclBuffer IR node and functors (#12300)"
+  },
+  {
     "oid": "2249256cefecf2f2872af874b25c30c431acf2e6",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[ETHOSN] Only use mock inference when whole graph is offloaded (#12296)"
-  },
-  {
-    "oid": "3f304c8bc58910a7ef19c9c0b00a7df9ae23e614",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7664352230?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7664352153?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7664352097?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3967/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microTVM] Arduino: Fix f-strings on flash warning/error messages (#1\u2026"
   }
 ]
