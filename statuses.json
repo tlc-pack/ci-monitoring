@@ -1,5 +1,31 @@
 [
   {
+    "oid": "2249256cefecf2f2872af874b25c30c431acf2e6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7699007739?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7699008024?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7699007916?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3981/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microTVM][CI] Rename ci_qemu to ci_cortexm (#12281)"
+  },
+  {
     "oid": "09732488588f331bb1a46e1e2138567035797126",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[microTVM] Arduino: Fix f-strings on flash warning/error messages (#1\u2026"
-  },
-  {
-    "oid": "c515241026465983bebc2c9ec565898e1e47e10b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7662775075?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7662775160?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7662775242?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3966/display/redirect"
-      }
-    ],
-    "messageHeadline": "fix type bug about topi test unitest (#12285)"
   }
 ]
