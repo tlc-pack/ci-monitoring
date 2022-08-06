@@ -1,5 +1,57 @@
 [
   {
+    "oid": "c4aab62c6d588ed06f60b0db9691271f5883dc66",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7700927812?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7700927862?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7700927837?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3985/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Add tir::builtin::undef (#12266)"
+  },
+  {
+    "oid": "2a7af612f71bb9177e73c0e1df72db22fa039bd3",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7700917255?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7700917303?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7700917404?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3984/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR][Schedule] Support annotate dict typed value (#12288)"
+  },
+  {
     "oid": "1f97f1fbd55ff223dc73dbe62ae1c9b7aa16337a",
     "statuses": [
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[TVMScript] Make classes derived from ObjectPath non-nullable (#12304)"
-  },
-  {
-    "oid": "78b3fc26a0211cd7956ed727d0fabbe5404d5c8c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7677599816?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7677599701?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7677599579?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3970/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][tvmbot] Enable re-run for GitHub Actions (#12295)"
-  },
-  {
-    "oid": "3731a8ca45e01865be78e4b98cc541af76d88d62",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7673261119?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7673261295?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7673260865?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3969/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ETHOSN] Get buffer sizes from the compiled network (#12160)"
   }
 ]
