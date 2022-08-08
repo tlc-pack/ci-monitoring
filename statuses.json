@@ -1,5 +1,31 @@
 [
   {
+    "oid": "6ebb0fd1ad35948c155b56d857392146cb168319",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7729682034?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7729682233?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7729681859?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3990/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Fix output tensor ordering (#12317)"
+  },
+  {
     "oid": "8e133b1990eefda82c86b4f5e30191d720effcc4",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[ci][docker] Add retries for docker pull (#12306)"
-  },
-  {
-    "oid": "5d0367a13786b00aced9287bc7900a799c346067",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7680013921?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7680014105?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7680013674?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3975/display/redirect"
-      }
-    ],
-    "messageHeadline": "[QNN] Add qnn op for abs to fix wrong scale on quantize (#12287)"
   }
 ]
