@@ -1,5 +1,31 @@
 [
   {
+    "oid": "8e133b1990eefda82c86b4f5e30191d720effcc4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7728838115?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7728837478?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7728837819?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3989/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI][Docker] Removes Dockerfile.ci_qemu as it was moved to Dockerfile\u2026"
+  },
+  {
     "oid": "b4e36c61fcf07e3e75649e72bd97a35603edc2b6",
     "statuses": [
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3988/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[QNN] Add qnn op for abs to fix wrong scale on quantize (#12287)"
-  },
-  {
-    "oid": "2866f315f9899a49917e1a9adda21fc15841ee55",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7680001215?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7680001357?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7680001511?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3974/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FQ2I] Add attrs to adaptive_avg_pool1d (#12290)"
   }
 ]
