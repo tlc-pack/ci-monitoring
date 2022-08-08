@@ -1,5 +1,31 @@
 [
   {
+    "oid": "7f800e41de097c333ff5790feb1a8c42575b0fe1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7732192011?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7732191837?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7732191647?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3992/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Deduplicate and clean XML test reports (#12332)"
+  },
+  {
     "oid": "b79f9501fdba5cf286f015277aeae867081b77df",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[CI] Increase CPU Intergration tests shards to speedup runtime (#12316)"
-  },
-  {
-    "oid": "4231ebb7154a3c44b26199e93a8b6f22a7a90426",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7685106211?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7685106277?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7685106348?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3977/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] TracedObject class that simplifies tracing ObjectPaths (#\u2026"
   }
 ]
