@@ -1,5 +1,31 @@
 [
   {
+    "oid": "fc411dc6fad14909ed17ce8c39d621d4587441bc",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7722414221?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7722414495?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7722414393?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3986/display/redirect"
+      }
+    ],
+    "messageHeadline": "Pass that removes reshapes post LowerTE (#12215)"
+  },
+  {
     "oid": "c4aab62c6d588ed06f60b0db9691271f5883dc66",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Relay][Frontend][Onnx] Add RNN operation for ONNX frontend (#12213)"
-  },
-  {
-    "oid": "359a642e927ba9275f6b8cf52d48ff82c566948d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7678141070?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7678140670?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7678140887?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3971/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] Make classes derived from ObjectPath non-nullable (#12304)"
   }
 ]
