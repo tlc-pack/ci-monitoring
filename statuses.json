@@ -1,5 +1,57 @@
 [
   {
+    "oid": "d4dff5dfd69087f12799a8138c639ea6a3e6a35e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7750321864?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7750321602?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7750321357?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4000/display/redirect"
+      }
+    ],
+    "messageHeadline": "[COMMUNITY] Yuanjing Shi -> Reviewer (#12345)"
+  },
+  {
+    "oid": "6d878288065f1e7a30be7d288a6f7731d87f4e20",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7750200917?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7750201483?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7750200489?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3999/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Simplify indices in InjectVirtualThread (#12259)"
+  },
+  {
     "oid": "5fe756a9656bdbf1f6a864ad147bc48636c97442",
     "statuses": [
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "Pass that removes reshapes post LowerTE (#12215)"
-  },
-  {
-    "oid": "c4aab62c6d588ed06f60b0db9691271f5883dc66",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7700927812?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7700927862?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7700927837?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3985/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Add tir::builtin::undef (#12266)"
-  },
-  {
-    "oid": "2a7af612f71bb9177e73c0e1df72db22fa039bd3",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7700917255?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7700917303?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7700917404?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3984/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][Schedule] Support annotate dict typed value (#12288)"
   }
 ]
