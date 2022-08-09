@@ -1,5 +1,83 @@
 [
   {
+    "oid": "151d6ab8acc5aeecd25cc4f18d7b533892e374f3",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7740234896?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7740235052?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7740234786?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3997/display/redirect"
+      }
+    ],
+    "messageHeadline": "[FIX,ROOFLINE] Only save tir functions for roofline (#12339)"
+  },
+  {
+    "oid": "bd763d3c2357a4cec4d058d68111b37c638c96f6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7740231537?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7740231992?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7740231754?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3996/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Topi] add x86 schedule for batch_norm (#12321)"
+  },
+  {
+    "oid": "d6be6940bd68b0af34684e931adf8bbe01199b1d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7740205511?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7740205594?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7740205400?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3995/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BYOC-DNNL] Bug Fix (#12314)"
+  },
+  {
     "oid": "ef39e46a1d05a155cf890672fe0fe09b78dce85f",
     "statuses": [
       {
@@ -19,7 +97,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/3994/display/redirect"
       }
     ],
@@ -310,83 +388,5 @@
       }
     ],
     "messageHeadline": "[microTVM][ARM] Keep microtvm testing only in QEMU Image (#11809)"
-  },
-  {
-    "oid": "5821c1240e18a137dfb0afe8810e97e50fd869ca",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7699496171?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7699496388?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7699496292?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3982/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Add DeclBuffer IR node and functors (#12300)"
-  },
-  {
-    "oid": "2249256cefecf2f2872af874b25c30c431acf2e6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7699007739?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7699008024?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7699007916?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3981/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microTVM][CI] Rename ci_qemu to ci_cortexm (#12281)"
-  },
-  {
-    "oid": "09732488588f331bb1a46e1e2138567035797126",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7698523297?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7698522959?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7698523191?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3980/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] Add source_paths to Doc (#12324)"
   }
 ]
