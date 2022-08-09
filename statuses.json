@@ -1,5 +1,31 @@
 [
   {
+    "oid": "aea82c64178cbdb458dcc031bc7a88a10d9f742a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7755681533?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7755681648?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7755681373?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4006/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Extend tune_tir to support tuning of specific blocks. \u2026"
+  },
+  {
     "oid": "0aab92b40b8b89ae130107699e172da514bcefd8",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[CI] Deduplicate and clean XML test reports (#12332)"
-  },
-  {
-    "oid": "b79f9501fdba5cf286f015277aeae867081b77df",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7731391222?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7731391411?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7731391033?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3991/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay][Op] Multinomial (#12284)"
   }
 ]
