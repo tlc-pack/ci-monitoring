@@ -1,5 +1,31 @@
 [
   {
+    "oid": "fae79bbc3e499f3b9f26c9a13743896f948b723d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7760360965?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7760361290?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7760361183?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4011/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMScript] Printer Registry (#12237)"
+  },
+  {
     "oid": "1a98ea2e4faf791eb8ec239209904ff96c016052",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[FIX,ROOFLINE] Only save tir functions for roofline (#12339)"
-  },
-  {
-    "oid": "bd763d3c2357a4cec4d058d68111b37c638c96f6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7740231537?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7740231992?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7740231754?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3996/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Topi] add x86 schedule for batch_norm (#12321)"
   }
 ]
