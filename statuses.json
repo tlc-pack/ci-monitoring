@@ -1,5 +1,31 @@
 [
   {
+    "oid": "22ba659438a317ca59c8201430c662f86e2550fd",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7765449194?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7765448797?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7765449009?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4016/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BYOC-DNNL] add partition test on sum pattern (#12357)"
+  },
+  {
     "oid": "4280d673f193301816a201189c619370b1dd0f75",
     "statuses": [
       {
@@ -20,7 +46,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7763961093?check_suite_focus=true"
       },
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[UMA] UMA v1.0 (#12087)"
-  },
-  {
-    "oid": "0c3c08372a8b6332483913775b30fce894aee7ab",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7750676204?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7750675803?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7750676030?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4001/display/redirect"
-      }
-    ],
-    "messageHeadline": "[hexagon][topi] add sliced max_pool2 (#12169)"
   }
 ]
