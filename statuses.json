@@ -1,5 +1,31 @@
 [
   {
+    "oid": "1a98ea2e4faf791eb8ec239209904ff96c016052",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7760195346?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7760195141?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7760195278?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4010/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Minor fix to tensor intrin description (#12356)"
+  },
+  {
     "oid": "a6c3b1f6c3a9b399022273f495f5190ebb025226",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Topi] add x86 schedule for batch_norm (#12321)"
-  },
-  {
-    "oid": "d6be6940bd68b0af34684e931adf8bbe01199b1d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7740205511?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7740205594?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7740205400?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3995/display/redirect"
-      }
-    ],
-    "messageHeadline": "[BYOC-DNNL] Bug Fix (#12314)"
   }
 ]
