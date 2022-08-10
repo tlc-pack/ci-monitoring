@@ -1,5 +1,57 @@
 [
   {
+    "oid": "0c281b7064a8dba4ab1943cf1282b381ac8208ae",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7757554297?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7757554419?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7757554185?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4008/display/redirect"
+      }
+    ],
+    "messageHeadline": "[FIX,STORAGE REWRITE] Rewrite buffers in let statements (#12349)"
+  },
+  {
+    "oid": "811584992c9f86b8a46596baf6bde247446b8c8a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7757367600?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7757367502?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7757367289?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4007/display/redirect"
+      }
+    ],
+    "messageHeadline": "Infer the value of shape expr to avoid dynamic (#12313)"
+  },
+  {
     "oid": "aea82c64178cbdb458dcc031bc7a88a10d9f742a",
     "statuses": [
       {
@@ -19,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4006/display/redirect"
       }
     ],
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[microTVM][Zephyr] Fix missing BOARD in CMakeCache file (#12338)"
-  },
-  {
-    "oid": "6026a5e1851298ab4ff91e5bd3d21101187c92b9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7733719122?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7733719295?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7733718994?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3993/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Fix aws s3 cp command in the Jenkinsfile (#12341)"
-  },
-  {
-    "oid": "7f800e41de097c333ff5790feb1a8c42575b0fe1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "CANCELLED",
-        "url": "https://github.com/apache/tvm/runs/7732192011?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7732191837?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7732191647?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3992/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Deduplicate and clean XML test reports (#12332)"
   }
 ]
