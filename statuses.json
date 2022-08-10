@@ -1,5 +1,16 @@
 [
   {
+    "oid": "4280d673f193301816a201189c619370b1dd0f75",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4015/display/redirect"
+      }
+    ],
+    "messageHeadline": "[skip ci] [CI] Re-generate Jenkinsfile (#12360)"
+  },
+  {
     "oid": "7f100158a551ae94db5d401f71479ba341adc7d5",
     "statuses": [
       {
@@ -40,7 +51,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7763182925?check_suite_focus=true"
       },
       {
@@ -61,12 +72,12 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7763152230?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7763151908?check_suite_focus=true"
       },
       {
@@ -362,31 +373,5 @@
       }
     ],
     "messageHeadline": "[hexagon][topi] add sliced max_pool2 (#12169)"
-  },
-  {
-    "oid": "d4dff5dfd69087f12799a8138c639ea6a3e6a35e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7750321864?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7750321602?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7750321357?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4000/display/redirect"
-      }
-    ],
-    "messageHeadline": "[COMMUNITY] Yuanjing Shi -> Reviewer (#12345)"
   }
 ]
