@@ -1,5 +1,57 @@
 [
   {
+    "oid": "5d72bc1a20461925e3e4f7f47907ae9173bb183b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7763182698?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7763182366?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7763182925?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4013/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci][tvmbot] Ignore irrelevant Actions jobs (#12351)"
+  },
+  {
+    "oid": "22102063dccf42c29f9d43ee5684026ba67a3386",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7763152390?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7763152230?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7763151908?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4012/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] De-duplicate retry functions (#12325)"
+  },
+  {
     "oid": "fae79bbc3e499f3b9f26c9a13743896f948b723d",
     "statuses": [
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[TIR] Simplify indices in InjectVirtualThread (#12259)"
-  },
-  {
-    "oid": "5fe756a9656bdbf1f6a864ad147bc48636c97442",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7741344215?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7741344371?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7741344036?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3998/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule][Bugfix] Feature: Strides of buffer access (#12331)"
-  },
-  {
-    "oid": "151d6ab8acc5aeecd25cc4f18d7b533892e374f3",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7740234896?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7740235052?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7740234786?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3997/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FIX,ROOFLINE] Only save tir functions for roofline (#12339)"
   }
 ]
