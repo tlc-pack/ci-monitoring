@@ -1,5 +1,31 @@
 [
   {
+    "oid": "06ac5cde84ef3cdaa6107816a3d2f39d2bb42217",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7776365906?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7776366087?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7776366345?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4018/display/redirect"
+      }
+    ],
+    "messageHeadline": "[testing] Remove wrapper from @slow (#11566)"
+  },
+  {
     "oid": "cd6d19f481051a9f7ae322a1a471f1ac193cca37",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Minor changes/fixes in codegen_hexagon.cc (#12308)"
-  },
-  {
-    "oid": "52d6b59a39f503fe382b4d7cbac4b02f9e44aae0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/runs/7751823895?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7751824113?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7751823674?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4003/display/redirect"
-      }
-    ],
-    "messageHeadline": "[AutoTVM][Fix] Fix wrong axis names of data_vec (#12303)"
   }
 ]
