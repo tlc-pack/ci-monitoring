@@ -1,5 +1,31 @@
 [
   {
+    "oid": "7f100158a551ae94db5d401f71479ba341adc7d5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7763960723?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7763961093?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7763960900?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4014/display/redirect"
+      }
+    ],
+    "messageHeadline": "[DOCS] Fix tvm.build API doc layout"
+  },
+  {
     "oid": "5d72bc1a20461925e3e4f7f47907ae9173bb183b",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[COMMUNITY] Yuanjing Shi -> Reviewer (#12345)"
-  },
-  {
-    "oid": "6d878288065f1e7a30be7d288a6f7731d87f4e20",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7750200917?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7750201483?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7750200489?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/3999/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Simplify indices in InjectVirtualThread (#12259)"
   }
 ]
