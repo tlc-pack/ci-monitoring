@@ -1,5 +1,16 @@
 [
   {
+    "oid": "7e1444111ed3a1523cace81aaa299c8917475edb",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4025/display/redirect"
+      }
+    ],
+    "messageHeadline": "[skip ci][ci] Fix Jenkinsfile (#12387)"
+  },
+  {
     "oid": "48354ded387b553b994caedade63ebb08b3ebd30",
     "statuses": [
       {
@@ -40,7 +51,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7793363355?check_suite_focus=true"
       },
       {
@@ -347,31 +358,5 @@
       }
     ],
     "messageHeadline": "[TIR] Minor fix to tensor intrin description (#12356)"
-  },
-  {
-    "oid": "a6c3b1f6c3a9b399022273f495f5190ebb025226",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7758782520?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7758782398?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7758782451?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4009/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Add int8 CUDA tensor core intrinsics (#12354)"
   }
 ]
