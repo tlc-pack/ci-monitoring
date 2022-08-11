@@ -1,5 +1,31 @@
 [
   {
+    "oid": "de124862714e747764aa8b7f41a90bcb25f3c6a8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7797162046?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7797162133?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7797161971?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4027/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci][docker] Tag tlcpackstaging images to tlcpack (#11832)"
+  },
+  {
     "oid": "99f5e921a51691529c48037dd20a44cf0edec147",
     "statuses": [
       {
@@ -30,7 +56,7 @@
     "statuses": [
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4025/display/redirect"
       }
     ],
@@ -332,31 +358,5 @@
       }
     ],
     "messageHeadline": "[ci] De-duplicate retry functions (#12325)"
-  },
-  {
-    "oid": "fae79bbc3e499f3b9f26c9a13743896f948b723d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7760360965?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7760361290?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7760361183?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4011/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] Printer Registry (#12237)"
   }
 ]
