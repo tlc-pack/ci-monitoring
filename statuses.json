@@ -1,5 +1,31 @@
 [
   {
+    "oid": "48354ded387b553b994caedade63ebb08b3ebd30",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7794263315?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7794263486?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7794263106?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4024/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Add skip option for RPC server initialization (#12368)"
+  },
+  {
     "oid": "52152e0be641c80c0dbb1e36ab3654efbd27661f",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[TIR] Add int8 CUDA tensor core intrinsics (#12354)"
-  },
-  {
-    "oid": "0c281b7064a8dba4ab1943cf1282b381ac8208ae",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7757554297?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7757554419?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7757554185?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4008/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FIX,STORAGE REWRITE] Rewrite buffers in let statements (#12349)"
   }
 ]
