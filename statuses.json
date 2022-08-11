@@ -1,5 +1,31 @@
 [
   {
+    "oid": "1a3d36a28da13f0b37ff63f5863f3d2b365de370",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7778725885?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7778725927?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7778725796?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4019/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Test pytest-forked boxing (#12312)"
+  },
+  {
     "oid": "06ac5cde84ef3cdaa6107816a3d2f39d2bb42217",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[Node] fix typos in include/tvm/node/functor.h"
-  },
-  {
-    "oid": "23b203ed3de95189dcc571a31aa01de6b364f2da",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7753037463?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7753037309?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7753037157?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4004/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Minor changes/fixes in codegen_hexagon.cc (#12308)"
   }
 ]
