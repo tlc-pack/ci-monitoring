@@ -1,5 +1,31 @@
 [
   {
+    "oid": "52152e0be641c80c0dbb1e36ab3654efbd27661f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7793363482?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7793363607?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7793363355?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4023/display/redirect"
+      }
+    ],
+    "messageHeadline": "Build and test TVM under minimal configuration (#12178)"
+  },
+  {
     "oid": "ecfd9692a0e1763af0e34cd6203c0d5ee947e993",
     "statuses": [
       {
@@ -9,7 +35,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7791280861?check_suite_focus=true"
       },
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[FIX,STORAGE REWRITE] Rewrite buffers in let statements (#12349)"
-  },
-  {
-    "oid": "811584992c9f86b8a46596baf6bde247446b8c8a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7757367600?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7757367502?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7757367289?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4007/display/redirect"
-      }
-    ],
-    "messageHeadline": "Infer the value of shape expr to avoid dynamic (#12313)"
   }
 ]
