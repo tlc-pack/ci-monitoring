@@ -1,5 +1,31 @@
 [
   {
+    "oid": "99f5e921a51691529c48037dd20a44cf0edec147",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7796813669?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7796813556?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7796813484?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4026/display/redirect"
+      }
+    ],
+    "messageHeadline": "Update C++ standard to C++17 (#12337)"
+  },
+  {
     "oid": "7e1444111ed3a1523cace81aaa299c8917475edb",
     "statuses": [
       {
@@ -332,31 +358,5 @@
       }
     ],
     "messageHeadline": "[TVMScript] Printer Registry (#12237)"
-  },
-  {
-    "oid": "1a98ea2e4faf791eb8ec239209904ff96c016052",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7760195346?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7760195141?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7760195278?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4010/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Minor fix to tensor intrin description (#12356)"
   }
 ]
