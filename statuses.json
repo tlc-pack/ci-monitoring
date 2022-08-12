@@ -1,5 +1,31 @@
 [
   {
+    "oid": "db1ed779f89206359954c0a187c5de7bb608debc",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7811278156?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7811278254?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7811278028?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4041/display/redirect"
+      }
+    ],
+    "messageHeadline": "[docs] Update minimum compiler requirements for building from source \u2026"
+  },
+  {
     "oid": "c3c7c4ccc3e3ebb7cc4dbb55e8dde579ac52c949",
     "statuses": [
       {
@@ -9,7 +35,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7810015172?check_suite_focus=true"
       },
       {
@@ -30,12 +56,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7809698790?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7809699184?check_suite_focus=true"
       },
       {
@@ -362,16 +388,5 @@
       }
     ],
     "messageHeadline": "Update C++ standard to C++17 (#12337)"
-  },
-  {
-    "oid": "7e1444111ed3a1523cace81aaa299c8917475edb",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4025/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci][ci] Fix Jenkinsfile (#12387)"
   }
 ]
