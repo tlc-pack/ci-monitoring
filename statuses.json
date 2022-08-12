@@ -1,5 +1,31 @@
 [
   {
+    "oid": "a1c371f46cf77dcdffa6f0ab55f5036bff1c5624",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7803288808?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7803288655?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7803288487?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4035/display/redirect"
+      }
+    ],
+    "messageHeadline": "[PyTorch] Fix all_any_common with no default input (#12395)"
+  },
+  {
     "oid": "22dcf4490dacc7813f5ef3d700ab0b64171c7662",
     "statuses": [
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4034/display/redirect"
       }
     ],
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[ci] Test pytest-forked boxing (#12312)"
-  },
-  {
-    "oid": "06ac5cde84ef3cdaa6107816a3d2f39d2bb42217",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7776365906?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7776366087?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7776366345?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4018/display/redirect"
-      }
-    ],
-    "messageHeadline": "[testing] Remove wrapper from @slow (#11566)"
   }
 ]
