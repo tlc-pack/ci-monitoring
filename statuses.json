@@ -1,5 +1,31 @@
 [
   {
+    "oid": "369e8b283083a3440c59431a9438ca17afb73e4e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7809698790?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7809699184?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7809699011?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4039/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Default to n=2 for test parallelism (#12376)"
+  },
+  {
     "oid": "1de32b587b1f18c957f2ba99a24f36a86a0769c5",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Add skip option for RPC server initialization (#12368)"
-  },
-  {
-    "oid": "52152e0be641c80c0dbb1e36ab3654efbd27661f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7793363482?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7793363607?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7793363355?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4023/display/redirect"
-      }
-    ],
-    "messageHeadline": "Build and test TVM under minimal configuration (#12178)"
   }
 ]
