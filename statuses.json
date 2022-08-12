@@ -1,10 +1,36 @@
 [
   {
-    "oid": "de124862714e747764aa8b7f41a90bcb25f3c6a8",
+    "oid": "e8de88e4f52882bb94d137461084dad3afcf2306",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7799283098?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7799283210?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7799283043?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4029/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BYOC] [DNNL] enable in-place post-op sum in dnnl json runtime (#12371)"
+  },
+  {
+    "oid": "de124862714e747764aa8b7f41a90bcb25f3c6a8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7797162046?check_suite_focus=true"
       },
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4027/display/redirect"
       }
     ],
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4026/display/redirect"
       }
     ],
@@ -332,31 +358,5 @@
       }
     ],
     "messageHeadline": "[ci][tvmbot] Ignore irrelevant Actions jobs (#12351)"
-  },
-  {
-    "oid": "22102063dccf42c29f9d43ee5684026ba67a3386",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7763152390?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7763152230?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7763151908?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4012/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] De-duplicate retry functions (#12325)"
   }
 ]
