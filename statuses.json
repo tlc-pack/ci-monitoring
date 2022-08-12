@@ -1,5 +1,57 @@
 [
   {
+    "oid": "1de32b587b1f18c957f2ba99a24f36a86a0769c5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7809177496?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7809177673?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7809177368?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4038/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Target] Add Target Parser for Arm(R) Cortex(R) M-Profile CPUs (#12319)"
+  },
+  {
+    "oid": "d874a8ed5241d5c90207ee54c9bb3003b8244d63",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7808993563?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7808993797?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7808993352?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4037/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Reorder copies and computes based on the cycle count (#11591)"
+  },
+  {
     "oid": "f4120e87ef6f4eefd03857a5aa34e6508d04e43c",
     "statuses": [
       {
@@ -321,57 +373,5 @@
       }
     ],
     "messageHeadline": "Build and test TVM under minimal configuration (#12178)"
-  },
-  {
-    "oid": "ecfd9692a0e1763af0e34cd6203c0d5ee947e993",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7791280608?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7791280861?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7791281041?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4022/display/redirect"
-      }
-    ],
-    "messageHeadline": "Unify name mangling in TVM (#12066)"
-  },
-  {
-    "oid": "f5f5a75ae929535ccb59698c1ab83115d16d8bcc",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7781047279?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7781047223?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7781047361?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4020/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] Text underlining in DocPrinter based on Doc's source_path\u2026"
   }
 ]
