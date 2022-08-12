@@ -1,5 +1,68 @@
 [
   {
+    "oid": "478b672f2b7bb37f529fa6477b3c4ac353217b7a",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4045/display/redirect"
+      }
+    ],
+    "messageHeadline": "[skip ci] Revert \"[ci] Default to n=2 for test parallelism (#12376)\" \u2026"
+  },
+  {
+    "oid": "57a02f7e26f1f8e0f53081851a17cf501367036f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7813153069?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7813153225?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7813152877?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4044/display/redirect"
+      }
+    ],
+    "messageHeadline": "Update hexagon max_concurrency to be at most equal to the number of H\u2026"
+  },
+  {
+    "oid": "3eb673478bc444daf24ee8d6308a42a71c81b74f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7813141992?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7813142271?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7813142154?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4043/display/redirect"
+      }
+    ],
+    "messageHeadline": "[LowerVTCMAlloc] Move LowerVtcmAlloc to after StorageRewrite (#12364)"
+  },
+  {
     "oid": "779a7ada4f263f4d1faf0eec651fdab5cf9eaaa4",
     "statuses": [
       {
@@ -19,7 +82,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4042/display/redirect"
       }
     ],
@@ -45,7 +108,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4041/display/redirect"
       }
     ],
@@ -310,83 +373,5 @@
       }
     ],
     "messageHeadline": "[TVMScript] Printer Frame (#12366)"
-  },
-  {
-    "oid": "5deb95a9472002c9fa36a150f9e348f4276d63c5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7799314200?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7799314260?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7799314347?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4030/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Adreno][OpenCL] Get rid of extra memory copy (#12286)"
-  },
-  {
-    "oid": "e8de88e4f52882bb94d137461084dad3afcf2306",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7799283098?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7799283210?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7799283043?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4029/display/redirect"
-      }
-    ],
-    "messageHeadline": "[BYOC] [DNNL] enable in-place post-op sum in dnnl json runtime (#12371)"
-  },
-  {
-    "oid": "de124862714e747764aa8b7f41a90bcb25f3c6a8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7797162046?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7797162133?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7797161971?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4027/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][docker] Tag tlcpackstaging images to tlcpack (#11832)"
   }
 ]
