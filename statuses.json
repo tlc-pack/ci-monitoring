@@ -1,5 +1,31 @@
 [
   {
+    "oid": "f4120e87ef6f4eefd03857a5aa34e6508d04e43c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7805985398?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7805985522?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7805985610?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4036/display/redirect"
+      }
+    ],
+    "messageHeadline": "Add needs-triage label to CI Problem template (#12386)"
+  },
+  {
     "oid": "a1c371f46cf77dcdffa6f0ab55f5036bff1c5624",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[TVMScript] Text underlining in DocPrinter based on Doc's source_path\u2026"
-  },
-  {
-    "oid": "1a3d36a28da13f0b37ff63f5863f3d2b365de370",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7778725885?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7778725927?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7778725796?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4019/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Test pytest-forked boxing (#12312)"
   }
 ]
