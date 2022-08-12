@@ -1,5 +1,31 @@
 [
   {
+    "oid": "c3c7c4ccc3e3ebb7cc4dbb55e8dde579ac52c949",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7810015350?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7810015172?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7810015467?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4040/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Profiler] Fix graph_executor_debug hang (#12382)"
+  },
+  {
     "oid": "369e8b283083a3440c59431a9438ca17afb73e4e",
     "statuses": [
       {
@@ -40,7 +66,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7809177368?check_suite_focus=true"
       },
       {
@@ -66,7 +92,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7808993352?check_suite_focus=true"
       },
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[skip ci][ci] Fix Jenkinsfile (#12387)"
-  },
-  {
-    "oid": "48354ded387b553b994caedade63ebb08b3ebd30",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7794263315?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7794263486?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7794263106?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4024/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Add skip option for RPC server initialization (#12368)"
   }
 ]
