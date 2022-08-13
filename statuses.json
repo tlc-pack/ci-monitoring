@@ -1,5 +1,57 @@
 [
   {
+    "oid": "036aa722aefd7126c17063cddb260b9347f17598",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7817952822?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7817952912?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7817952721?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4048/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Add pass ManifestSharedMemoryLocalStage (#12355)"
+  },
+  {
+    "oid": "96cac7501dbce42af6c5bb6f75b51a4b70c4077a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7817948971?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7817948898?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7817948840?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4047/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Filter vector_load_lens based on buffer dtype (#12408)"
+  },
+  {
     "oid": "1737308397e0f105c387d9ee6c466584aded1d7d",
     "statuses": [
       {
@@ -321,57 +373,5 @@
       }
     ],
     "messageHeadline": "[PyTorch] Fix pad_common for float pad_value (#12134)"
-  },
-  {
-    "oid": "702cb43f0be11b8339e848b95e49a39764e8e811",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7799672200?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7799672249?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7799672151?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4033/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Target] Fix C5 Target Tag to Include CascadeLake Archs (#12385)"
-  },
-  {
-    "oid": "e3e65ce581d1765b8aa752b11d4ea28dfa5ef05e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7799660498?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7799660441?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7799660364?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4032/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add Python function to get type index by class (#12393)"
   }
 ]
