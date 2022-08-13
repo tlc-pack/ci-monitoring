@@ -1,5 +1,31 @@
 [
   {
+    "oid": "d33a332283e7349088ba7aa57e56534518bb088b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7821585058?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7821585090?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7821585018?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4049/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMScript] Printer VarTable (#12336)"
+  },
+  {
     "oid": "036aa722aefd7126c17063cddb260b9347f17598",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[PyTorch] Fix all_any_common with no default input (#12395)"
-  },
-  {
-    "oid": "22dcf4490dacc7813f5ef3d700ab0b64171c7662",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7801522928?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7801523056?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7801522818?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4034/display/redirect"
-      }
-    ],
-    "messageHeadline": "[PyTorch] Fix pad_common for float pad_value (#12134)"
   }
 ]
