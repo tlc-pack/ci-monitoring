@@ -1,5 +1,109 @@
 [
   {
+    "oid": "e111984117dff8bf7deda8f0626903c8b62f134c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7827207780?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7827207832?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7827207741?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4059/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Allow `tir.Buffer` converted to `BufferLoad/BufferRegion` with \u2026"
+  },
+  {
+    "oid": "e3d030588133e743729efa7731069e7e97c50768",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7827206094?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7827206162?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7827206030?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4058/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Avoid `import *` in TIR tensor intrinsic registration (#12424)"
+  },
+  {
+    "oid": "57a3b26343c2ced51542f41e1c7436a23473be55",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7827204257?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7827204285?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7827204315?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4057/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Fix] Fix `dtype` in Cache-Read/Write (#12421)"
+  },
+  {
+    "oid": "9d4df8983398c951899aea6e1b7e4dee1db3e8e9",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7827201989?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7827202079?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7827202032?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4056/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Allow converting `BufferRegion` to vectorized `BufferLoad` (#12\u2026"
+  },
+  {
     "oid": "8ec7a0a46066a9145173d6f1ee19a7d3cab0306b",
     "statuses": [
       {
@@ -269,109 +373,5 @@
       }
     ],
     "messageHeadline": "[skip ci] Revert \"[ci] Default to n=2 for test parallelism (#12376)\" \u2026"
-  },
-  {
-    "oid": "57a02f7e26f1f8e0f53081851a17cf501367036f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7813153069?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7813153225?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7813152877?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4044/display/redirect"
-      }
-    ],
-    "messageHeadline": "Update hexagon max_concurrency to be at most equal to the number of H\u2026"
-  },
-  {
-    "oid": "3eb673478bc444daf24ee8d6308a42a71c81b74f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7813141992?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7813142271?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7813142154?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4043/display/redirect"
-      }
-    ],
-    "messageHeadline": "[LowerVTCMAlloc] Move LowerVtcmAlloc to after StorageRewrite (#12364)"
-  },
-  {
-    "oid": "779a7ada4f263f4d1faf0eec651fdab5cf9eaaa4",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7811553430?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7811553539?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7811553304?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4042/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add sort_by_time flag to debug_executor.run method (#12402)"
-  },
-  {
-    "oid": "db1ed779f89206359954c0a187c5de7bb608debc",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7811278156?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7811278254?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7811278028?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4041/display/redirect"
-      }
-    ],
-    "messageHeadline": "[docs] Update minimum compiler requirements for building from source \u2026"
   }
 ]
