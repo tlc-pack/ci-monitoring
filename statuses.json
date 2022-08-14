@@ -1,5 +1,31 @@
 [
   {
+    "oid": "8ec7a0a46066a9145173d6f1ee19a7d3cab0306b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7824476927?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7824476985?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7824476878?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4055/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Fix assert for tensorcore int8 intrinsics (#12365)"
+  },
+  {
     "oid": "24d9d398bb8da468aa6a7b4db755ce9eedf5c20a",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[docs] Update minimum compiler requirements for building from source \u2026"
-  },
-  {
-    "oid": "c3c7c4ccc3e3ebb7cc4dbb55e8dde579ac52c949",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7810015350?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7810015172?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7810015467?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4040/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Profiler] Fix graph_executor_debug hang (#12382)"
   }
 ]
