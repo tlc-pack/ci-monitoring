@@ -1,5 +1,57 @@
 [
   {
+    "oid": "0ac5dd7f645298e0ebf1e3be643842814efdc514",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7823562916?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7823562837?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7823562806?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4053/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Fix] Fix errors in error checking and reporting (#12423)"
+  },
+  {
+    "oid": "33bf70875513a6bb97a2e038b0b387f9ed0f9d9d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7823556566?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7823556586?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7823556534?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4052/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Fix] Fix precision issue in FFI converting `int/float` to `PrimExpr`\u2026"
+  },
+  {
     "oid": "d8846ec9757fae6b9db7778dccc1dd8f7619ebe2",
     "statuses": [
       {
@@ -40,7 +92,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "FAILURE",
         "url": "https://github.com/apache/tvm/runs/7823358114?check_suite_focus=true"
       },
       {
@@ -321,57 +373,5 @@
       }
     ],
     "messageHeadline": "[ci] Default to n=2 for test parallelism (#12376)"
-  },
-  {
-    "oid": "1de32b587b1f18c957f2ba99a24f36a86a0769c5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7809177496?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7809177673?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7809177368?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4038/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Target] Add Target Parser for Arm(R) Cortex(R) M-Profile CPUs (#12319)"
-  },
-  {
-    "oid": "d874a8ed5241d5c90207ee54c9bb3003b8244d63",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7808993563?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7808993797?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7808993352?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4037/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Reorder copies and computes based on the cycle count (#11591)"
   }
 ]
