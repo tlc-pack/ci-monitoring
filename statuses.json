@@ -1,5 +1,31 @@
 [
   {
+    "oid": "71d772fcf67472e6e68c70f44eb291b570798c79",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7847704334?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7847704186?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7847704570?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4068/display/redirect"
+      }
+    ],
+    "messageHeadline": "Zephyr: Add support for FVP (#12125)"
+  },
+  {
     "oid": "55f1d7e2c48354dc664894cd58a705d612c092cf",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TOPI][OP]change float multiplication of resize op to integer divisio\u2026"
-  },
-  {
-    "oid": "8dd621e56485fb1926ad2e83c3f17981a9fdaac8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7829211581?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7829211514?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7829211635?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4050/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Expose ScriptComplete in header (#12419)"
   }
 ]
