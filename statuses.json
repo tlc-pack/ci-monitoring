@@ -1,5 +1,57 @@
 [
   {
+    "oid": "bb513866ad70fa20eb0c37ca339d330d6a76c747",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7832406338?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7832406404?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7832406276?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4063/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Expose Stack-related TVM builtins in Python (#12429)"
+  },
+  {
+    "oid": "d805ae3bd99a71255dc7f7d1d5aa0746ab2ed21e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7832387089?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7832387141?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7832387057?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4062/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Expose: `call_packed_lowered`, `call_cpacked_lowered` (#12425)"
+  },
+  {
     "oid": "e111984117dff8bf7deda8f0626903c8b62f134c",
     "statuses": [
       {
@@ -336,42 +388,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Filter vector_load_lens based on buffer dtype (#12408)"
-  },
-  {
-    "oid": "1737308397e0f105c387d9ee6c466584aded1d7d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7814894943?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7814894753?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7814894623?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4046/display/redirect"
-      }
-    ],
-    "messageHeadline": "[WIP][Pylint] Making frontend tests pylint compliant (#12028)"
-  },
-  {
-    "oid": "478b672f2b7bb37f529fa6477b3c4ac353217b7a",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4045/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci] Revert \"[ci] Default to n=2 for test parallelism (#12376)\" \u2026"
   }
 ]
