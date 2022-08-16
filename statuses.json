@@ -1,20 +1,46 @@
 [
   {
-    "oid": "1ba17fe48b254a287458834041bd4aaf7d9f49b5",
+    "oid": "9e42166fe7b1a6d31bde5b439598f7ba66b933ef",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7861890206?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7863333128?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7861890641?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7863332882?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7863332566?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4074/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Arith] Parse > and >= bounds in ConstIntBoundAnalyzer (#12457)"
+  },
+  {
+    "oid": "1ba17fe48b254a287458834041bd4aaf7d9f49b5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7861890206?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7861890641?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7861890461?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Fix] Fix `dtype` in Cache-Read/Write (#12421)"
-  },
-  {
-    "oid": "9d4df8983398c951899aea6e1b7e4dee1db3e8e9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7827201989?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7827202079?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7827202032?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4061/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Allow converting `BufferRegion` to vectorized `BufferLoad` (#12\u2026"
   }
 ]
