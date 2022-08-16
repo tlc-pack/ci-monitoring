@@ -1,5 +1,31 @@
 [
   {
+    "oid": "a1ddfb592fd8c369e6b7331f4819adabcd26648b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7868699376?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7868699507?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7868699220?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4079/display/redirect"
+      }
+    ],
+    "messageHeadline": "Remove uses of std::iterator, NFC (#12461)"
+  },
+  {
     "oid": "247c54b97dffaa8afbe5681310f73306551b53e8",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[CI][AArch64] Enable ONNX installation in ci_arm image (#12438)"
-  },
-  {
-    "oid": "bb513866ad70fa20eb0c37ca339d330d6a76c747",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7832406338?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7832406404?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7832406276?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4063/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Expose Stack-related TVM builtins in Python (#12429)"
   }
 ]
