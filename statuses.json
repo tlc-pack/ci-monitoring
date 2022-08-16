@@ -1,5 +1,31 @@
 [
   {
+    "oid": "29ce66eeb46eae3c73079177609e2319be0366dd",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7866630941?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7866631286?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7866631157?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4076/display/redirect"
+      }
+    ],
+    "messageHeadline": "Change tir::GetPointerType to return std::optional<DataType> (#12458)"
+  },
+  {
     "oid": "b831b06f3616e890f7b962e559c260c071524421",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TIR] Allow `tir.Buffer` converted to `BufferLoad/BufferRegion` with \u2026"
-  },
-  {
-    "oid": "e3d030588133e743729efa7731069e7e97c50768",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7827206094?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7827206162?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7827206030?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4058/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Avoid `import *` in TIR tensor intrinsic registration (#12424)"
   }
 ]
