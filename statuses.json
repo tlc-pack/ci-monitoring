@@ -1,10 +1,36 @@
 [
   {
-    "oid": "c477c763c37adf29b34528ca52d231d622719b3e",
+    "oid": "09a4ac48ed2922636b63b54fb48906025f0c205d",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7854634362?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7854634811?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7854634596?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4071/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Add support for Requantize (#12384)"
+  },
+  {
+    "oid": "c477c763c37adf29b34528ca52d231d622719b3e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7852921313?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Add `operator()` to `support::With` (#12418)"
-  },
-  {
-    "oid": "0ac5dd7f645298e0ebf1e3be643842814efdc514",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7823562916?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7823562837?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7823562806?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4053/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Fix] Fix errors in error checking and reporting (#12423)"
   }
 ]
