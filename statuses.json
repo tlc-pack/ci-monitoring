@@ -1,5 +1,57 @@
 [
   {
+    "oid": "1ba17fe48b254a287458834041bd4aaf7d9f49b5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7861890206?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7861890641?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7861890461?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4073/display/redirect"
+      }
+    ],
+    "messageHeadline": "[HotFix] Op is not bound to any variables (#12401)"
+  },
+  {
+    "oid": "bd562313250ce6a1bcc90eb7e94f64bc10563104",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7861803682?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7861803926?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7861803481?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4072/display/redirect"
+      }
+    ],
+    "messageHeadline": "Use std::optional instead of dmlc::optional, NFC (#12443)"
+  },
+  {
     "oid": "09a4ac48ed2922636b63b54fb48906025f0c205d",
     "statuses": [
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[TIR] Allow converting `BufferRegion` to vectorized `BufferLoad` (#12\u2026"
-  },
-  {
-    "oid": "8ec7a0a46066a9145173d6f1ee19a7d3cab0306b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7824476927?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7824476985?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7824476878?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4055/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Fix assert for tensorcore int8 intrinsics (#12365)"
-  },
-  {
-    "oid": "24d9d398bb8da468aa6a7b4db755ce9eedf5c20a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7823916098?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7823916038?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7823916159?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4054/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add `operator()` to `support::With` (#12418)"
   }
 ]
