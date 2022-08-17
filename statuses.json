@@ -1,5 +1,31 @@
 [
   {
+    "oid": "d2f9f254d275df256dbcbc5a9f8b3a07cee1d81f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7871712429?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7871712500?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7871712369?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4080/display/redirect"
+      }
+    ],
+    "messageHeadline": "Use std::string_view, remove experimental or pre-14 variants, NFC (#1\u2026"
+  },
+  {
     "oid": "a1ddfb592fd8c369e6b7331f4819adabcd26648b",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Add ci_riscv image, update all to 20220810-060142-fae79bbc3. (#12369)"
-  },
-  {
-    "oid": "849b2f97099aa3af6210a4c681742789606f7408",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7841187230?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7841187436?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7841187032?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4064/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI][AArch64] Enable ONNX installation in ci_arm image (#12438)"
   }
 ]
