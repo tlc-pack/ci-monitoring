@@ -1,5 +1,42 @@
 [
   {
+    "oid": "c9a350c800809d9431c8b2b427e8f5af10a3ee89",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7887674571?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7887674705?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7887674447?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4085/display/redirect"
+      }
+    ],
+    "messageHeadline": "[docs] Add instructions for uploading CI resources to S3 (#12476)"
+  },
+  {
+    "oid": "c8b5a909509483e55065f6c85aeb37beb27c2e0b",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4084/display/redirect"
+      }
+    ],
+    "messageHeadline": "[skip ci][microTVM] Add pytest-xdist to pyproject.toml (#12478)"
+  },
+  {
     "oid": "b0b9bd976ba14cfc8b224396ab065ff03a34f46a",
     "statuses": [
       {
@@ -9,7 +46,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7885848594?check_suite_focus=true"
       },
       {
@@ -336,57 +373,5 @@
       }
     ],
     "messageHeadline": "[ETHOSN] Add support for Requantize (#12384)"
-  },
-  {
-    "oid": "c477c763c37adf29b34528ca52d231d622719b3e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7852921313?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7852921490?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7852921167?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4070/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Expose Misc TIR operations to python (#12435)"
-  },
-  {
-    "oid": "ecbe4ca0edadeca8fee4d0c2c9f7a9093043b5ee",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7849277952?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7849278039?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7849277864?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4069/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Add logging of usage of tensor intrinsics (#12445)"
   }
 ]
