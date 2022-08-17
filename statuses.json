@@ -1,5 +1,31 @@
 [
   {
+    "oid": "bcc7cde95c1e84b85f18c07110489350865b8cfe",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7875574562?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7875574725?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7875574374?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4082/display/redirect"
+      }
+    ],
+    "messageHeadline": "Expose Missing TIR Builtins to Python (#12466)"
+  },
+  {
     "oid": "073304dadb91ce70b3198cab8b3ae98ee4061b26",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Zephyr: Add support for FVP (#12125)"
-  },
-  {
-    "oid": "55f1d7e2c48354dc664894cd58a705d612c092cf",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7842385689?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7842385796?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7842385975?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4066/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][UX] allow override when register TensorIntrin (#12439)"
   }
 ]
