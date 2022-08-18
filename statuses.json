@@ -1,5 +1,57 @@
 [
   {
+    "oid": "a96bda446c01dfd2f79f5d31d8341b73e6b50f34",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7900553594?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7900553317?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7900553785?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4093/display/redirect"
+      }
+    ],
+    "messageHeadline": "Add RISC-V build/test pipeline to Jenkins. (#12441)"
+  },
+  {
+    "oid": "da7675c54606fc2708320c51ceffe161a46f7e52",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7900527599?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7900527826?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7900527405?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4092/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix memset of memory pool in PageMemoryManagerCreate (#12437)"
+  },
+  {
     "oid": "250b68e2028bd84d7386ffaf8a7c91feef8d45ec",
     "statuses": [
       {
@@ -9,12 +61,12 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7898941195?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7898941013?check_suite_focus=true"
       },
       {
@@ -321,57 +373,5 @@
       }
     ],
     "messageHeadline": "Remove uses of std::iterator, NFC (#12461)"
-  },
-  {
-    "oid": "247c54b97dffaa8afbe5681310f73306551b53e8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7867139604?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7867139260?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7867139434?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4078/display/redirect"
-      }
-    ],
-    "messageHeadline": "Use std::make_unique instead of std::unique_ptr(new ...), NFC (#12459)"
-  },
-  {
-    "oid": "1a9faeb77e37324b1504aa9e70b5a9d299705262",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7867134610?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7867134439?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7867134228?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4077/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] Printer IRDocsifier (#12396)"
   }
 ]
