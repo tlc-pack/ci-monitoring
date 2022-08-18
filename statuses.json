@@ -1,5 +1,83 @@
 [
   {
+    "oid": "aa97f4afb5c68e63cc19fa0279bbfa326799a6a4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7895201743?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7895201990?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7895201534?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4090/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Disallow vectorization with strides in VerifyGPUCode (#12477)"
+  },
+  {
+    "oid": "e140a274958b5eb258b7f0b51df2a66bd966e438",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7895193479?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7895193652?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7895193321?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4089/display/redirect"
+      }
+    ],
+    "messageHeadline": "[COMMUNITY] Adam Straw -> Reviewer (#12480)"
+  },
+  {
+    "oid": "436c17f88527406fa1b014b2431609aa217dee48",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7895180197?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7895180402?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7895180031?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4088/display/redirect"
+      }
+    ],
+    "messageHeadline": "[HEXAGON][TOPI] This PR adjusts schedules so >64 length vector loads/\u2026"
+  },
+  {
     "oid": "fb073510b663645a89818364865d71de522d91f5",
     "statuses": [
       {
@@ -295,83 +373,5 @@
       }
     ],
     "messageHeadline": "Change tir::GetPointerType to return std::optional<DataType> (#12458)"
-  },
-  {
-    "oid": "b831b06f3616e890f7b962e559c260c071524421",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7865120603?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7865120807?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7865121038?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4075/display/redirect"
-      }
-    ],
-    "messageHeadline": "Expose `Struct/Tuple`-related TVM Builtins (#12452)"
-  },
-  {
-    "oid": "9e42166fe7b1a6d31bde5b439598f7ba66b933ef",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7863333128?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7863332882?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7863332566?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4074/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Arith] Parse > and >= bounds in ConstIntBoundAnalyzer (#12457)"
-  },
-  {
-    "oid": "1ba17fe48b254a287458834041bd4aaf7d9f49b5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7861890206?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7861890641?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7861890461?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4073/display/redirect"
-      }
-    ],
-    "messageHeadline": "[HotFix] Op is not bound to any variables (#12401)"
   }
 ]
