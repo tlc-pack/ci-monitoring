@@ -1,5 +1,31 @@
 [
   {
+    "oid": "fb073510b663645a89818364865d71de522d91f5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7891685019?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7891685184?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7891684862?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4087/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Handle deserializing empty string RVs in trace (#12481)"
+  },
+  {
     "oid": "f64a3bda253f4220d66eeb3348f93f486392cb8e",
     "statuses": [
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4086/display/redirect"
       }
     ],
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[HotFix] Op is not bound to any variables (#12401)"
-  },
-  {
-    "oid": "bd562313250ce6a1bcc90eb7e94f64bc10563104",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7861803682?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7861803926?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7861803481?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4072/display/redirect"
-      }
-    ],
-    "messageHeadline": "Use std::optional instead of dmlc::optional, NFC (#12443)"
   }
 ]
