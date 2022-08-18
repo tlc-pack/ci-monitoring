@@ -1,5 +1,57 @@
 [
   {
+    "oid": "efd7c45462a4f666919fccb82189a0818e2d722f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7904173820?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7904174016?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7904173629?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4095/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] [bfloat16] add bfloat16 promotion for CallNode (#12370)"
+  },
+  {
+    "oid": "88928a40f15d080046dfe26200835670a9d8a925",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7904107771?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7904107940?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7904107519?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4094/display/redirect"
+      }
+    ],
+    "messageHeadline": "[HEXAGON] Auto-vectorization (fp16) for v68 (#12397)"
+  },
+  {
     "oid": "a96bda446c01dfd2f79f5d31d8341b73e6b50f34",
     "statuses": [
       {
@@ -321,57 +373,5 @@
       }
     ],
     "messageHeadline": "[TVM PyTorch Integration] libstdc++ CXX11 ABI Compatibility & boolean\u2026"
-  },
-  {
-    "oid": "d2f9f254d275df256dbcbc5a9f8b3a07cee1d81f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7871712429?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7871712500?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7871712369?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4080/display/redirect"
-      }
-    ],
-    "messageHeadline": "Use std::string_view, remove experimental or pre-14 variants, NFC (#1\u2026"
-  },
-  {
-    "oid": "a1ddfb592fd8c369e6b7331f4819adabcd26648b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7868699376?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7868699507?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7868699220?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4079/display/redirect"
-      }
-    ],
-    "messageHeadline": "Remove uses of std::iterator, NFC (#12461)"
   }
 ]
