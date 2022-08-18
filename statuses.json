@@ -1,5 +1,31 @@
 [
   {
+    "oid": "d1e6f3949c43b2692d8144e6dfb4ae32dc553be5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7908305173?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7908304821?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7908304957?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4096/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CMSIS-NN] Re-use CPU Target Parser (#12320)"
+  },
+  {
     "oid": "efd7c45462a4f666919fccb82189a0818e2d722f",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "Expose Missing TIR Builtins to Python (#12466)"
-  },
-  {
-    "oid": "073304dadb91ce70b3198cab8b3ae98ee4061b26",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7874646373?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7874646814?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7874646643?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4081/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVM PyTorch Integration] libstdc++ CXX11 ABI Compatibility & boolean\u2026"
   }
 ]
