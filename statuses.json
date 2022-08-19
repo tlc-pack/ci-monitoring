@@ -1,5 +1,31 @@
 [
   {
+    "oid": "5d17e2409b6c774c0581e511a82cefe4a319682d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7924113149?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7924113328?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7924113022?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4099/display/redirect"
+      }
+    ],
+    "messageHeadline": "[COMMUNITY] MichaelJKlaiber -> reviewer (#12501)"
+  },
+  {
     "oid": "72b0f5ee34be6acfadf7afc61264eef42b78c789",
     "statuses": [
       {
@@ -362,16 +388,5 @@
       }
     ],
     "messageHeadline": "[docs] Add instructions for uploading CI resources to S3 (#12476)"
-  },
-  {
-    "oid": "c8b5a909509483e55065f6c85aeb37beb27c2e0b",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4084/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci][microTVM] Add pytest-xdist to pyproject.toml (#12478)"
   }
 ]
