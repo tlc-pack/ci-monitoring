@@ -1,5 +1,31 @@
 [
   {
+    "oid": "c0d440d7a45d17db897c84a13d250a5e5699ec42",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7924957113?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7924957217?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7924957023?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4100/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix test_autotune to support schedules with no tuning space (#12484)"
+  },
+  {
     "oid": "5d17e2409b6c774c0581e511a82cefe4a319682d",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Frontend][Pytorch] Add axis N when maxpool3d layout is (C,D,H,W) (#1\u2026"
-  },
-  {
-    "oid": "c9a350c800809d9431c8b2b427e8f5af10a3ee89",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7887674571?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7887674705?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7887674447?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4085/display/redirect"
-      }
-    ],
-    "messageHeadline": "[docs] Add instructions for uploading CI resources to S3 (#12476)"
   }
 ]
