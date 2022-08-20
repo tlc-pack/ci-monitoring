@@ -1,5 +1,31 @@
 [
   {
+    "oid": "92355f2ed53be6e05f83dfb0936d7c6dcb083dc1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7934932088?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7934932148?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7934932110?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4111/display/redirect"
+      }
+    ],
+    "messageHeadline": "[COMMUNITY] An Wang -> Reviewer (#12517)"
+  },
+  {
     "oid": "8ee4b604bcd5bbbcc657081892a88b4b7a039cc3",
     "statuses": [
       {
@@ -61,7 +87,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7934569913?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Target] Only append default keys if target doesn't have any yet (#12\u2026"
-  },
-  {
-    "oid": "d1e6f3949c43b2692d8144e6dfb4ae32dc553be5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7908305173?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7908304821?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7908304957?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4096/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CMSIS-NN] Re-use CPU Target Parser (#12320)"
   }
 ]
