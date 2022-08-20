@@ -1,5 +1,31 @@
 [
   {
+    "oid": "1985c0153b951230a711d210048792dd2aaba94b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7933914267?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7933914289?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7933914241?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4106/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay][Layout] Add FInferCorrectLayout for L2 norm layout transform.\u2026"
+  },
+  {
     "oid": "c83ee08c102f3d1d131aaa9434a890938ee48125",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Fix memset of memory pool in PageMemoryManagerCreate (#12437)"
-  },
-  {
-    "oid": "250b68e2028bd84d7386ffaf8a7c91feef8d45ec",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7898941357?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7898941195?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7898941013?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4091/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] IRBuilder, IRBuilderFrame base class (#12482)"
   }
 ]
