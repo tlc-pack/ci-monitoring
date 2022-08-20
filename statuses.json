@@ -1,5 +1,31 @@
 [
   {
+    "oid": "eb31123b7dc7447262ac1f12c06895d5cd3746b7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7934220078?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7934220043?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7934220060?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4107/display/redirect"
+      }
+    ],
+    "messageHeadline": "fix temp array object reference in manifest_shared_memory_local_stage\u2026"
+  },
+  {
     "oid": "1985c0153b951230a711d210048792dd2aaba94b",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Add RISC-V build/test pipeline to Jenkins. (#12441)"
-  },
-  {
-    "oid": "da7675c54606fc2708320c51ceffe161a46f7e52",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7900527599?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7900527826?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7900527405?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4092/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix memset of memory pool in PageMemoryManagerCreate (#12437)"
   }
 ]
