@@ -1,5 +1,31 @@
 [
   {
+    "oid": "902343a817eb793f25c63763ff15d71fdbdb1567",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7960346715?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7960346513?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7960346940?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4125/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BugFix][UMA] Fix order issue in uma_lower  (#12447)"
+  },
+  {
     "oid": "e5e05feee3ef0fb6d29fe82f80c09e242a5beccf",
     "statuses": [
       {
@@ -40,7 +66,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7959280064?check_suite_focus=true"
       },
       {
@@ -97,7 +123,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4121/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[COMMUNITY] An Wang -> Reviewer (#12517)"
-  },
-  {
-    "oid": "8ee4b604bcd5bbbcc657081892a88b4b7a039cc3",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7934577619?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7934577648?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7934577570?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4110/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Migrate MemoryDatabase to C++ (#12514)"
   }
 ]
