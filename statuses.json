@@ -1,5 +1,57 @@
 [
   {
+    "oid": "e5e05feee3ef0fb6d29fe82f80c09e242a5beccf",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7959528852?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7959528728?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7959528999?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4124/display/redirect"
+      }
+    ],
+    "messageHeadline": "[LLVM] Add \"cl-opt\" attribute to target_kind \"llvm\" (#12440)"
+  },
+  {
+    "oid": "66a31e97a7ed5525098a369020ceef8c4ff0ac2e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7959280289?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7959280438?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7959280064?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4123/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Add alexnet and googlenet caffe model to request hook (#12510)"
+  },
+  {
     "oid": "4d7e7a8b574ff24366324beaf2194de6d6dc31c4",
     "statuses": [
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Migrate MemoryDatabase to C++ (#12514)"
-  },
-  {
-    "oid": "125c9caa0270440cc4c0a794bcba19c75fe972f5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7934573880?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7934573948?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7934573917?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4109/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Implement ScheduleFn as a C++ class (#12513)"
-  },
-  {
-    "oid": "3b3443bd12a64f9eddbd8271f68ee68c60519670",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7934569840?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7934569913?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7934569776?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4108/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][Schedule][UX] Beautify TIR Trace Printing (#12507)"
   }
 ]
