@@ -1,5 +1,31 @@
 [
   {
+    "oid": "8146a9bf2c9288103c4af834a5f14f13b50aa3c8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7954870832?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7954871649?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7954871252?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4116/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Support AllocateConst nodes in TensorIR scheduling flow (#12489)"
+  },
+  {
     "oid": "7c318d719663e0df3e618bb1cf413fc6628b72bc",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TOPI]fix scatterND large shape problem (#12200)"
-  },
-  {
-    "oid": "8b3401ce6b369ed2ea18ab1e942878c4073027af",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7926964454?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7926964589?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7926964362?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4101/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microTVM] Add config space to dense_dsp schedule (#12444)"
   }
 ]
