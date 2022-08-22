@@ -1,5 +1,31 @@
 [
   {
+    "oid": "1e399fa451e040e797d1f8b54c1d5faa90039611",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7960707044?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7960707222?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7960706867?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4126/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Add pass to check for out of bounds memory access (#12352)"
+  },
+  {
     "oid": "902343a817eb793f25c63763ff15d71fdbdb1567",
     "statuses": [
       {
@@ -40,7 +66,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7959528999?check_suite_focus=true"
       },
       {
@@ -97,7 +123,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4122/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TVMScript] Printer entry point (#12462)"
-  },
-  {
-    "oid": "92355f2ed53be6e05f83dfb0936d7c6dcb083dc1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7934932088?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7934932148?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7934932110?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4111/display/redirect"
-      }
-    ],
-    "messageHeadline": "[COMMUNITY] An Wang -> Reviewer (#12517)"
   }
 ]
