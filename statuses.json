@@ -1,5 +1,57 @@
 [
   {
+    "oid": "c1bd0227be0f5603692e6a453496c668d16407ca",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7957274940?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7957275277?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7957274797?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4121/display/redirect"
+      }
+    ],
+    "messageHeadline": "[FIX] Fix bug in resize2d unittest func name (#12498)"
+  },
+  {
+    "oid": "3f56851264438dc7b1473ce475eb7c8cc56a8359",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7957186824?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7957187003?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7957186658?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4120/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR][Schedule] Support for specific consumer block targeting in cach\u2026"
+  },
+  {
     "oid": "40fd43e24bc8b34837775ec680c5569a56c4bbcb",
     "statuses": [
       {
@@ -40,7 +92,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7956043589?check_suite_focus=true"
       },
       {
@@ -61,12 +113,12 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7955814642?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7955814123?check_suite_focus=true"
       },
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "fix temp array object reference in manifest_shared_memory_local_stage\u2026"
-  },
-  {
-    "oid": "1985c0153b951230a711d210048792dd2aaba94b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7933914267?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7933914289?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7933914241?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4106/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay][Layout] Add FInferCorrectLayout for L2 norm layout transform.\u2026"
-  },
-  {
-    "oid": "c83ee08c102f3d1d131aaa9434a890938ee48125",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7927437690?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7927437750?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7927437588?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4105/display/redirect"
-      }
-    ],
-    "messageHeadline": "fix pytest (#12483)"
   }
 ]
