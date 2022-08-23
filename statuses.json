@@ -1,5 +1,31 @@
 [
   {
+    "oid": "dd7ae2d3e5a7e169021e75d0c9d0f6a8cc477a9c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7977537463?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7977537277?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7977537628?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4138/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay] Add Rsqrt to SimplifyExpr (#12363)"
+  },
+  {
     "oid": "ff46fa15e063ef499f666e63b9d5ed3faf2e3bfb",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[LLVM] Add \"cl-opt\" attribute to target_kind \"llvm\" (#12440)"
-  },
-  {
-    "oid": "66a31e97a7ed5525098a369020ceef8c4ff0ac2e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7959280289?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7959280438?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7959280064?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4123/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Add alexnet and googlenet caffe model to request hook (#12510)"
   }
 ]
