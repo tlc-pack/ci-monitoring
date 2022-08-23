@@ -1,5 +1,31 @@
 [
   {
+    "oid": "da5836f230525afe8984dcbfea8ee788a6286b5c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7978364872?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7978364696?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7978365028?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4139/display/redirect"
+      }
+    ],
+    "messageHeadline": "[AutoTVM] Add support for text buffers to ApplyHistoryBest (#12521)"
+  },
+  {
     "oid": "dd7ae2d3e5a7e169021e75d0c9d0f6a8cc477a9c",
     "statuses": [
       {
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4137/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[BugFix][UMA] Fix order issue in uma_lower  (#12447)"
-  },
-  {
-    "oid": "e5e05feee3ef0fb6d29fe82f80c09e242a5beccf",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7959528852?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7959528728?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7959528999?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4124/display/redirect"
-      }
-    ],
-    "messageHeadline": "[LLVM] Add \"cl-opt\" attribute to target_kind \"llvm\" (#12440)"
   }
 ]
