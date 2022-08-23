@@ -1,5 +1,16 @@
 [
   {
+    "oid": "1d71c1b4aad72843540f897e27c01aa73256a463",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4140/display/redirect"
+      }
+    ],
+    "messageHeadline": "[skip ci][ci] Mark more ethosu tests with xfail (#12560)"
+  },
+  {
     "oid": "da5836f230525afe8984dcbfea8ee788a6286b5c",
     "statuses": [
       {
@@ -9,12 +20,12 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7978364696?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7978365028?check_suite_focus=true"
       },
       {
@@ -30,7 +41,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7977537463?check_suite_focus=true"
       },
       {
@@ -362,31 +373,5 @@
       }
     ],
     "messageHeadline": "[TIR] Add pass to check for out of bounds memory access (#12352)"
-  },
-  {
-    "oid": "902343a817eb793f25c63763ff15d71fdbdb1567",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7960346715?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7960346513?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7960346940?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4125/display/redirect"
-      }
-    ],
-    "messageHeadline": "[BugFix][UMA] Fix order issue in uma_lower  (#12447)"
   }
 ]
