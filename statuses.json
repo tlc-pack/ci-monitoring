@@ -1,5 +1,31 @@
 [
   {
+    "oid": "d27167838888ca79eb53cd16449ae4483c9b6249",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7973854768?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7973854926?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7973854533?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4136/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI][AArch64] Skip libgomp failures in integration tests (#12554)"
+  },
+  {
     "oid": "52779f1273b05d53d8213e23e70d9b0ac82fd0b9",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[ci] xfail failing ethosu codegen tests (#12508)"
-  },
-  {
-    "oid": "c1bd0227be0f5603692e6a453496c668d16407ca",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7957274940?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7957275277?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7957274797?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4121/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FIX] Fix bug in resize2d unittest func name (#12498)"
   }
 ]
