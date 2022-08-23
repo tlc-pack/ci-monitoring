@@ -1,5 +1,57 @@
 [
   {
+    "oid": "4d104e5ec6b02d0b1d08c93c26bc322f54189cba",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7981842703?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7981842527?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7981842855?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4142/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Add support for special indices of Reshape (#12556)"
+  },
+  {
+    "oid": "99b9b74b12d8687966c8d009a9a0cfca6f36defc",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7981724550?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7981724654?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7981724774?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4141/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Remove Vela from ci_cpu (#12533)"
+  },
+  {
     "oid": "1d71c1b4aad72843540f897e27c01aa73256a463",
     "statuses": [
       {
@@ -321,57 +373,5 @@
       }
     ],
     "messageHeadline": "check for CMSIS_PATH in project generation (#12547)"
-  },
-  {
-    "oid": "8e95bba69787bfc34ad63f60565f8f064b51cb88",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7963538375?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7963538554?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7963538693?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4127/display/redirect"
-      }
-    ],
-    "messageHeadline": "Remove mutable defaults in mlp_model (#12546)"
-  },
-  {
-    "oid": "1e399fa451e040e797d1f8b54c1d5faa90039611",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "NEUTRAL",
-        "url": "https://github.com/apache/tvm/runs/7960707044?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7960707222?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7960706867?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4126/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Add pass to check for out of bounds memory access (#12352)"
   }
 ]
