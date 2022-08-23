@@ -1,5 +1,31 @@
 [
   {
+    "oid": "3983a472c6f3ad4ad9604ceeffdf80cce01d166b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7967234642?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7967234817?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7967234720?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4133/display/redirect"
+      }
+    ],
+    "messageHeadline": "[COMMUNITY] @konturn -> Reviewer (#12543)"
+  },
+  {
     "oid": "d26bf809e4c3c8d6576d4e436475997eb12deb3e",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[MicroTVM] expose project options in autotuning (#12479)"
-  },
-  {
-    "oid": "389675668abcc5e06b9528da5b7e9a0f01410070",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7956043316?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7956043806?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7956043589?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4118/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Set test dependency on \"transformers\" package with pytest.import\u2026"
   }
 ]
