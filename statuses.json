@@ -1,5 +1,31 @@
 [
   {
+    "oid": "8174d082e8168db9ad63826c9d68aee8c76c7090",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7983481746?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7983481856?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7983481668?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4145/display/redirect"
+      }
+    ],
+    "messageHeadline": "Add using directives for otherwise hidden virtual functions, NFC (#12\u2026"
+  },
+  {
     "oid": "13ebbfb37f8cec1da71d88fbcbecdd4ad4d24dcc",
     "statuses": [
       {
@@ -82,7 +108,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7981724550?check_suite_focus=true"
       },
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[docs] Add CI contribution instructions (#12551)"
-  },
-  {
-    "oid": "58f2139ffdd39de61fcea3b090dcfa5f7d0db4be",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7964593044?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7964593187?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7964593117?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4130/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microTVM] Replace static fixtures with parameterization (#12530)"
   }
 ]
