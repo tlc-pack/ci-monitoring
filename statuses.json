@@ -1,5 +1,31 @@
 [
   {
+    "oid": "8c23469e2098659cffcbfebb56b4d32c0df7a6ed",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7982069121?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7982068844?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7982068624?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4143/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MicroTVM] add heap-size to project options (#12390)"
+  },
+  {
     "oid": "4d104e5ec6b02d0b1d08c93c26bc322f54189cba",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[microTVM] Rework evaluate_model_accuracy into a more generic helper \u2026"
-  },
-  {
-    "oid": "3bd168194f25c95904dac8835f8e74abd423a5a3",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7964408029?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7964407949?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7964407856?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4128/display/redirect"
-      }
-    ],
-    "messageHeadline": "check for CMSIS_PATH in project generation (#12547)"
   }
 ]
