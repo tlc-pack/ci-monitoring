@@ -1,25 +1,129 @@
 [
   {
-    "oid": "8e95bba69787bfc34ad63f60565f8f064b51cb88",
+    "oid": "e252d7f3ab6eac631c960cdcb7826862958c6e59",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7963538375?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7965106351?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7963538554?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7965106442?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/7963538693?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/7965106271?check_suite_focus=true"
       },
       {
         "name": "tvm-ci/branch",
         "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4131/display/redirect"
+      }
+    ],
+    "messageHeadline": "[docs] Add CI contribution instructions (#12551)"
+  },
+  {
+    "oid": "58f2139ffdd39de61fcea3b090dcfa5f7d0db4be",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7964593044?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7964593187?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7964593117?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4130/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microTVM] Replace static fixtures with parameterization (#12530)"
+  },
+  {
+    "oid": "5cef6bf559265e74b84504ed2e190f29f5c5bf33",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7964588394?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7964588507?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7964588216?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4129/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microTVM] Rework evaluate_model_accuracy into a more generic helper \u2026"
+  },
+  {
+    "oid": "3bd168194f25c95904dac8835f8e74abd423a5a3",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7964408029?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7964407949?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7964407856?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4128/display/redirect"
+      }
+    ],
+    "messageHeadline": "check for CMSIS_PATH in project generation (#12547)"
+  },
+  {
+    "oid": "8e95bba69787bfc34ad63f60565f8f064b51cb88",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7963538375?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7963538554?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/7963538693?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4127/display/redirect"
       }
     ],
@@ -284,109 +388,5 @@
       }
     ],
     "messageHeadline": "[ONNX] Fix test to disable default ONNX frontend constant folding (#1\u2026"
-  },
-  {
-    "oid": "8146a9bf2c9288103c4af834a5f14f13b50aa3c8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7954870832?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7954871649?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7954871252?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4116/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Support AllocateConst nodes in TensorIR scheduling flow (#12489)"
-  },
-  {
-    "oid": "7c318d719663e0df3e618bb1cf413fc6628b72bc",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7949728965?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7949729071?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7949728724?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4115/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ETHOSN] Remove support for older versions of the driver stack (#12347)"
-  },
-  {
-    "oid": "e9aad35cf37eaef0060d1eff077d2dfb4475674c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7947110334?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7947110514?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7947110095?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4114/display/redirect"
-      }
-    ],
-    "messageHeadline": "fix group conv3d pack kernel shape error (#12523)"
-  },
-  {
-    "oid": "262906516ab33f52816e8f736904c61409f1c461",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7945042738?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7945042587?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7945042660?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4113/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] Printer: add boolean operators to OperationDoc (#12518)"
   }
 ]
