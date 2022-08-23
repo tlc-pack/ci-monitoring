@@ -1,5 +1,31 @@
 [
   {
+    "oid": "8e95bba69787bfc34ad63f60565f8f064b51cb88",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7963538375?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7963538554?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7963538693?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4127/display/redirect"
+      }
+    ],
+    "messageHeadline": "Remove mutable defaults in mlp_model (#12546)"
+  },
+  {
     "oid": "1e399fa451e040e797d1f8b54c1d5faa90039611",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TVMScript] Printer: add boolean operators to OperationDoc (#12518)"
-  },
-  {
-    "oid": "cc769fdc951707b8be991949864817b955a4dbc7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7936100779?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7936100744?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7936100763?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4112/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] Printer entry point (#12462)"
   }
 ]
