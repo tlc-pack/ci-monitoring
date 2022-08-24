@@ -1,5 +1,109 @@
 [
   {
+    "oid": "989e5a11285503716c2033f4e56f1bba6b6d00c7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7989382929?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7989382671?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7989382802?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4150/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Add support for resize (#12535)"
+  },
+  {
+    "oid": "90b2f0d36996be10d71f0c923f588c6dfa0e8546",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7989335570?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7989335871?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7989335728?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4149/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI][CMSIS-NN] Running tests parallel using pytest-xdist (#12557)"
+  },
+  {
+    "oid": "e468dc28eac3c78a3c70c2b1616c6345d4767eab",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7989298973?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7989299134?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7989298810?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4148/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Force compute_cycles_hint to be interpreted as an int64 va\u2026"
+  },
+  {
+    "oid": "577826182ff5c0029348b66b8f977c29e21c4ad4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7989266067?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7989266174?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7989266307?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4147/display/redirect"
+      }
+    ],
+    "messageHeadline": "[PyTorch][Fix] Fix for numerically unstable logsigmoid (#12563)"
+  },
+  {
     "oid": "c15cc5ef6d36288abd58587b7bf4f0440596a54f",
     "statuses": [
       {
@@ -269,109 +373,5 @@
       }
     ],
     "messageHeadline": "[CI][AArch64] Skip libgomp failures in integration tests (#12554)"
-  },
-  {
-    "oid": "52779f1273b05d53d8213e23e70d9b0ac82fd0b9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7969549795?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7969550158?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7969549968?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4135/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CMSIS-NN] Pad fusion with QNN Conv2D (#12353)"
-  },
-  {
-    "oid": "383bd419310fac4d9d78e0c59760cbef3efa5555",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7968108149?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7968108285?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7968107988?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4134/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix TFLite 2.9 tests (#12130)"
-  },
-  {
-    "oid": "3983a472c6f3ad4ad9604ceeffdf80cce01d166b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7967234642?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7967234817?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7967234720?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4133/display/redirect"
-      }
-    ],
-    "messageHeadline": "[COMMUNITY] @konturn -> Reviewer (#12543)"
-  },
-  {
-    "oid": "d26bf809e4c3c8d6576d4e436475997eb12deb3e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7966607703?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7966607792?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7966607598?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4132/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ACL] Adjust mobilenet test for Keras 2.9 (#12541)"
   }
 ]
