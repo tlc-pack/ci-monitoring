@@ -1,5 +1,31 @@
 [
   {
+    "oid": "1afd0593956066635ee49297b731726c9218c91c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8002145272?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8002145102?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8002145494?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4158/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TOPI][Hexagon] Implement quantized avgpool (#12340)"
+  },
+  {
     "oid": "f53ee0cecf96adad71db92d2a0c488ca2dd6bee7",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Replace std::result_of (deprecated in C++17) with std::invoke_result,\u2026"
-  },
-  {
-    "oid": "8c23469e2098659cffcbfebb56b4d32c0df7a6ed",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7982069121?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7982068844?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7982068624?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4143/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MicroTVM] add heap-size to project options (#12390)"
   }
 ]
