@@ -1,5 +1,57 @@
 [
   {
+    "oid": "a0fe74b3c3608929b21faeaea422ac09aa2f75eb",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7995074492?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7995074093?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7995074266?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4154/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Support multiply conversion to depthwise (#12403)"
+  },
+  {
+    "oid": "6e79f64108b26b504089354cfce5e182001a70d1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7995054206?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7995054405?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7995054029?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4153/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Set test python.contrib.test_onnx.test_resize as xfail (#12568)"
+  },
+  {
     "oid": "592148abf6866a41eefa736efca067d42f5aea86",
     "statuses": [
       {
@@ -9,7 +61,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/7992612874?check_suite_focus=true"
       },
       {
@@ -321,57 +373,5 @@
       }
     ],
     "messageHeadline": "[skip ci][ci] Mark more ethosu tests with xfail (#12560)"
-  },
-  {
-    "oid": "da5836f230525afe8984dcbfea8ee788a6286b5c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7978364872?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7978364696?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7978365028?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4139/display/redirect"
-      }
-    ],
-    "messageHeadline": "[AutoTVM] Add support for text buffers to ApplyHistoryBest (#12521)"
-  },
-  {
-    "oid": "dd7ae2d3e5a7e169021e75d0c9d0f6a8cc477a9c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7977537463?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7977537277?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7977537628?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4138/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay] Add Rsqrt to SimplifyExpr (#12363)"
   }
 ]
