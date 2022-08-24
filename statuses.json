@@ -1,5 +1,31 @@
 [
   {
+    "oid": "1ec2c369128c9d57bb09087ab16cb3a2527dd9de",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7991934554?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7991934264?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7991934416?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4151/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR][CompactBufferAllocation] Improve upperbound estimation of buffe\u2026"
+  },
+  {
     "oid": "989e5a11285503716c2033f4e56f1bba6b6d00c7",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[ETHOSN] Fix requantize output conversion (#12540)"
-  },
-  {
-    "oid": "d27167838888ca79eb53cd16449ae4483c9b6249",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7973854768?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7973854926?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7973854533?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4136/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI][AArch64] Skip libgomp failures in integration tests (#12554)"
   }
 ]
