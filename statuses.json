@@ -1,5 +1,31 @@
 [
   {
+    "oid": "c15cc5ef6d36288abd58587b7bf4f0440596a54f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7987282145?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7987282204?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7987282089?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4146/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Target] Remove deprecated parameters from target (#12416)"
+  },
+  {
     "oid": "8174d082e8168db9ad63826c9d68aee8c76c7090",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[ACL] Adjust mobilenet test for Keras 2.9 (#12541)"
-  },
-  {
-    "oid": "e252d7f3ab6eac631c960cdcb7826862958c6e59",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7965106351?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7965106442?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7965106271?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4131/display/redirect"
-      }
-    ],
-    "messageHeadline": "[docs] Add CI contribution instructions (#12551)"
   }
 ]
