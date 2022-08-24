@@ -1,5 +1,31 @@
 [
   {
+    "oid": "bf65b396c15b3cbec18fb1aecfa6862f58a2f307",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7998565470?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7998565131?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/7998565308?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4156/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Add support to run on multiple devices (#12504)"
+  },
+  {
     "oid": "038523e5a21e13ff2802913ec32b73fb47413b35",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[ETHOSN] Add support for special indices of Reshape (#12556)"
-  },
-  {
-    "oid": "99b9b74b12d8687966c8d009a9a0cfca6f36defc",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7981724550?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7981724654?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7981724774?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4141/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Remove Vela from ci_cpu (#12533)"
   }
 ]
