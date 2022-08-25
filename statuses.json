@@ -1,5 +1,26 @@
 [
   {
+    "oid": "fb7cf97fbc2cc19a7eea879a3a1598780f6aa6aa",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8014428613?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8014428302?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8014428478?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[CI] Install xgboost in Hexagon image (#12592)"
+  },
+  {
     "oid": "40bdea8d7ae1109e33ac64265b4819bb8ebef8b3",
     "statuses": [
       {
@@ -362,31 +383,5 @@
       }
     ],
     "messageHeadline": "[TIR][CompactBufferAllocation] Improve upperbound estimation of buffe\u2026"
-  },
-  {
-    "oid": "989e5a11285503716c2033f4e56f1bba6b6d00c7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7989382929?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7989382671?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7989382802?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4150/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ETHOSN] Add support for resize (#12535)"
   }
 ]
