@@ -1,20 +1,46 @@
 [
   {
-    "oid": "b8fbfe26ae3b5e323d2d85ffe02913d78bd0fd20",
+    "oid": "cd8fd9121deb22b078c9fe73cd8a554e6e7a0e15",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/8006817055?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/8007673696?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/8006816911?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/8007673774?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8007673626?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4161/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Expose `shift_left` and `shift_right` to Python (#12584)"
+  },
+  {
+    "oid": "b8fbfe26ae3b5e323d2d85ffe02913d78bd0fd20",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/8006817055?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/8006816911?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8006816965?check_suite_focus=true"
       },
       {
@@ -30,17 +56,17 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8006808983?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8006809183?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8006809109?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[PyTorch][Fix] Fix for numerically unstable logsigmoid (#12563)"
-  },
-  {
-    "oid": "c15cc5ef6d36288abd58587b7bf4f0440596a54f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7987282145?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7987282204?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7987282089?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4146/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Target] Remove deprecated parameters from target (#12416)"
   }
 ]
