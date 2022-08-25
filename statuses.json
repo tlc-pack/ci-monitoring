@@ -1,5 +1,57 @@
 [
   {
+    "oid": "5db38ba8993d30ab0a89c82ff69e582d1bcc1678",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8024381562?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8024381406?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8024381202?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4176/display/redirect"
+      }
+    ],
+    "messageHeadline": "[COMMUNITY] @cconvey -> Reviewer (#12598)"
+  },
+  {
+    "oid": "8d60b3cbbcacc5675383c353a1180be0cbc59cb9",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8024353080?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8024353363?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8024353229?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4175/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Runtime] Change default alignment to 64 bytes. (#12586)"
+  },
+  {
     "oid": "01fcdfcf5fcfda313df4e176ca3d919b076f77fc",
     "statuses": [
       {
@@ -321,57 +373,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Add software pipeline in CUDA tensor core auto tensori\u2026"
-  },
-  {
-    "oid": "cd8fd9121deb22b078c9fe73cd8a554e6e7a0e15",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8007673696?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8007673774?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8007673626?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4161/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Expose `shift_left` and `shift_right` to Python (#12584)"
-  },
-  {
-    "oid": "b8fbfe26ae3b5e323d2d85ffe02913d78bd0fd20",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8006817055?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8006816911?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8006816965?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4160/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MicroTVM] fix compile error when the compiler implements char as uns\u2026"
   }
 ]
