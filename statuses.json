@@ -1,5 +1,31 @@
 [
   {
+    "oid": "bb00a15c265ba12341aede06bbbf216dda585211",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8022050246?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8022050456?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8022050635?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4173/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CUDA][CodeGen] Fix cuda codegen's fp16 inf literal (#12581)"
+  },
+  {
     "oid": "21db1eb586f14b272b36f7e33830acc630823b5f",
     "statuses": [
       {
@@ -14,7 +40,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8020681812?check_suite_focus=true"
       },
       {
@@ -35,7 +61,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8020564871?check_suite_focus=true"
       },
       {
@@ -61,7 +87,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8019983120?check_suite_focus=true"
       },
       {
@@ -87,7 +113,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8019922724?check_suite_focus=true"
       },
       {
@@ -108,7 +134,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8019905501?check_suite_focus=true"
       },
       {
@@ -139,12 +165,12 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8019871894?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8019872298?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[microTVM] Fix `build` directory exists error (#12575)"
-  },
-  {
-    "oid": "1afd0593956066635ee49297b731726c9218c91c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8002145272?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8002145102?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8002145494?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4158/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TOPI][Hexagon] Implement quantized avgpool (#12340)"
   }
 ]
