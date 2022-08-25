@@ -1,5 +1,57 @@
 [
   {
+    "oid": "40bdea8d7ae1109e33ac64265b4819bb8ebef8b3",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8013396215?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8013396600?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8013396432?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4164/display/redirect"
+      }
+    ],
+    "messageHeadline": "[PyTorch] Add aten::new_empty (#12591)"
+  },
+  {
+    "oid": "b38738434b13e138916c994b326b5a128ed14004",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8013384665?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8013384162?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8013384464?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4163/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Expose WMMA-related TensorCore builtins (#12589)"
+  },
+  {
     "oid": "9aac161a46e5aca4c433ccb901c1bb84e6c8bd0c",
     "statuses": [
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[ETHOSN] Add support for resize (#12535)"
-  },
-  {
-    "oid": "90b2f0d36996be10d71f0c923f588c6dfa0e8546",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7989335570?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7989335871?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7989335728?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4149/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI][CMSIS-NN] Running tests parallel using pytest-xdist (#12557)"
-  },
-  {
-    "oid": "e468dc28eac3c78a3c70c2b1616c6345d4767eab",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7989298973?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7989299134?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7989298810?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4148/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Force compute_cycles_hint to be interpreted as an int64 va\u2026"
   }
 ]
