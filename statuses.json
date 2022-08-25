@@ -1,5 +1,31 @@
 [
   {
+    "oid": "9aac161a46e5aca4c433ccb901c1bb84e6c8bd0c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8009911211?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8009911378?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8009911300?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4162/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Add software pipeline in CUDA tensor core auto tensori\u2026"
+  },
+  {
     "oid": "cd8fd9121deb22b078c9fe73cd8a554e6e7a0e15",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[microNPU] Force compute_cycles_hint to be interpreted as an int64 va\u2026"
-  },
-  {
-    "oid": "577826182ff5c0029348b66b8f977c29e21c4ad4",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7989266067?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7989266174?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7989266307?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4147/display/redirect"
-      }
-    ],
-    "messageHeadline": "[PyTorch][Fix] Fix for numerically unstable logsigmoid (#12563)"
   }
 ]
