@@ -1,5 +1,57 @@
 [
   {
+    "oid": "21db1eb586f14b272b36f7e33830acc630823b5f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8020682226?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8020681988?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8020681812?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4172/display/redirect"
+      }
+    ],
+    "messageHeadline": "[F2QI] Fix a rounding error on AvgPool when input and output affine s\u2026"
+  },
+  {
+    "oid": "f7c143608f9bb45dce8e3f93c3a89275a7c104f6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8020565032?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8020564871?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8020564711?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4171/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Support conversion of add to depthwise (#12531)"
+  },
+  {
     "oid": "399f2e9b7006c95a2ebf0b3d35cdbacb340dd68d",
     "statuses": [
       {
@@ -108,7 +160,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8018150689?check_suite_focus=true"
       },
       {
@@ -118,7 +170,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8018150029?check_suite_focus=true"
       },
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[TOPI][Hexagon] Implement quantized avgpool (#12340)"
-  },
-  {
-    "oid": "f53ee0cecf96adad71db92d2a0c488ca2dd6bee7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8001972926?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8001973204?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8001973059?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4157/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Fix missing pytest import (#12565)"
-  },
-  {
-    "oid": "bf65b396c15b3cbec18fb1aecfa6862f58a2f307",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7998565470?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7998565131?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/7998565308?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4156/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Add support to run on multiple devices (#12504)"
   }
 ]
