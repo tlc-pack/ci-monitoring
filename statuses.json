@@ -1,5 +1,31 @@
 [
   {
+    "oid": "e02f2f9fddd8cd38589e3569c41de9f7af39971c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8035653504?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8035653365?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8035653241?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4180/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR][Schedule] enhance compute_at and reverse_compute_at primitive t\u2026"
+  },
+  {
     "oid": "4f431c87c2b8bb5ea0773c44d92658e506251dda",
     "statuses": [
       {
@@ -332,31 +358,5 @@
       }
     ],
     "messageHeadline": "[microTVM][Zephyr] Add recommended heap size for NRF and qemu_x86 (#1\u2026"
-  },
-  {
-    "oid": "fb7cf97fbc2cc19a7eea879a3a1598780f6aa6aa",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8014428613?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8014428302?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8014428478?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4165/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Install xgboost in Hexagon image (#12592)"
   }
 ]
