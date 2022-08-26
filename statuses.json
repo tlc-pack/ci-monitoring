@@ -1,5 +1,31 @@
 [
   {
+    "oid": "d87fa854b8eb0c8f603d8dc459121eaa1a365e12",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8041103643?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8041103783?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8041103523?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4182/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Initial support for meta schedule tuning (#12587)"
+  },
+  {
     "oid": "d171b4af09b89683f8648a9df4a1d5cb5902bd99",
     "statuses": [
       {
@@ -332,31 +358,5 @@
       }
     ],
     "messageHeadline": "[DOC] fix code-block error in debuggging TVM part (#12597)"
-  },
-  {
-    "oid": "56b7c8ae9676ad2184443b60e0c795672e2b6fc9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8019872100?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8019871894?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8019872298?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4167/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Assert some unittests are not skipped in CI (#12436)"
   }
 ]
