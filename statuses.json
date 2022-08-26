@@ -1,5 +1,31 @@
 [
   {
+    "oid": "49b3c72935b290afa9eee1f1c57a4b4c2f10a445",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8041330565?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8041330842?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8041330696?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4183/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] More hygenic TVM_SREF macros (#12607)"
+  },
+  {
     "oid": "d87fa854b8eb0c8f603d8dc459121eaa1a365e12",
     "statuses": [
       {
@@ -332,31 +358,5 @@
       }
     ],
     "messageHeadline": "[CI] github_cc_reviewers: Catch all exceptions so all reviewers can b\u2026"
-  },
-  {
-    "oid": "61c034ae27712d5cab4720b3f259df68cf004ac2",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8019905501?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8019905695?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8019905288?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4168/display/redirect"
-      }
-    ],
-    "messageHeadline": "[DOC] fix code-block error in debuggging TVM part (#12597)"
   }
 ]
