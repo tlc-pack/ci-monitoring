@@ -1,5 +1,31 @@
 [
   {
+    "oid": "2e83e03b2c57f1e65938d7da48a48296c781f7a1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8043393979?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8043393837?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8043391626?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4184/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Update Hexagon image to install boost (#12613)"
+  },
+  {
     "oid": "49b3c72935b290afa9eee1f1c57a4b4c2f10a445",
     "statuses": [
       {
@@ -332,31 +358,5 @@
       }
     ],
     "messageHeadline": "[microNPU] Remove xfail from tests relating to #12511 (#12570)"
-  },
-  {
-    "oid": "b547106fdeb634d2fc692d8a516899c4abe6edbc",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8019922936?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8019922724?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8019923108?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4169/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] github_cc_reviewers: Catch all exceptions so all reviewers can b\u2026"
   }
 ]
