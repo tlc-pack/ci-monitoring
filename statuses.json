@@ -1,5 +1,31 @@
 [
   {
+    "oid": "3224817d0835909c2673184a6c20bac3b7672632",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8030822972?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8030823163?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8030823065?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4178/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TOPI][Bugfix] Make semantics of empty `axis` in `squeeze` consistent\u2026"
+  },
+  {
     "oid": "a9f7c32e42a5f09e641dbe83f81cc4a73869af12",
     "statuses": [
       {
@@ -332,31 +358,5 @@
       }
     ],
     "messageHeadline": "[PyTorch] Add aten::new_empty (#12591)"
-  },
-  {
-    "oid": "b38738434b13e138916c994b326b5a128ed14004",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8013384665?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8013384162?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8013384464?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4163/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Expose WMMA-related TensorCore builtins (#12589)"
   }
 ]
