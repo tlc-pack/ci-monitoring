@@ -1,5 +1,31 @@
 [
   {
+    "oid": "d171b4af09b89683f8648a9df4a1d5cb5902bd99",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8040609310?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8040609175?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8040609048?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4181/display/redirect"
+      }
+    ],
+    "messageHeadline": "[SimplifyExpr] Add simplify for dq->arg funcs (#12580)"
+  },
+  {
     "oid": "e02f2f9fddd8cd38589e3569c41de9f7af39971c",
     "statuses": [
       {
@@ -332,31 +358,5 @@
       }
     ],
     "messageHeadline": "[CI] Assert some unittests are not skipped in CI (#12436)"
-  },
-  {
-    "oid": "cc19cdd711b620582baacff82318d3adf5b15115",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8022255590?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8022255735?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8022255453?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4166/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microTVM][Zephyr] Add recommended heap size for NRF and qemu_x86 (#1\u2026"
   }
 ]
