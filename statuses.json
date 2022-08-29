@@ -1,5 +1,31 @@
 [
   {
+    "oid": "c5c99a4b523c9165adb4d552d284f8666520336f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8068651196?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8068651610?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8068651429?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4192/display/redirect"
+      }
+    ],
+    "messageHeadline": "[QNN] Align output_scale/zero_point of sigmoid to Torch (#12624)"
+  },
+  {
     "oid": "3d41ac3a9ab58ba5f7d3182e6afe915924568f8d",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[skip ci][Community] Wuwei Lin -> PMC (#12605)"
-  },
-  {
-    "oid": "5db38ba8993d30ab0a89c82ff69e582d1bcc1678",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8024381562?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8024381406?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8024381202?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4176/display/redirect"
-      }
-    ],
-    "messageHeadline": "[COMMUNITY] @cconvey -> Reviewer (#12598)"
   }
 ]
