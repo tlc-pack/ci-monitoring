@@ -1,5 +1,31 @@
 [
   {
+    "oid": "0de22196db5f818a6937f026db43785935b9e731",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8075779017?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8075779178?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8075779338?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4193/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microTVM][Zephyr] Disable test_armv7m_intrinsic since it's broken (#\u2026"
+  },
+  {
     "oid": "c5c99a4b523c9165adb4d552d284f8666520336f",
     "statuses": [
       {
@@ -362,16 +388,5 @@
       }
     ],
     "messageHeadline": "[TOPI][Bugfix] Make semantics of empty `axis` in `squeeze` consistent\u2026"
-  },
-  {
-    "oid": "a9f7c32e42a5f09e641dbe83f81cc4a73869af12",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4177/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci][Community] Wuwei Lin -> PMC (#12605)"
   }
 ]
