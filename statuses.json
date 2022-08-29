@@ -1,5 +1,31 @@
 [
   {
+    "oid": "648a29a53a641f1e923220600dce9c9215104879",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8065749343?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8065749102?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8065749222?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4190/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Introduce `ScheduleFnDatabase` (#12626)"
+  },
+  {
     "oid": "534412896e6d39ee4f830d63370d02e8e5f09050",
     "statuses": [
       {
@@ -347,16 +373,5 @@
       }
     ],
     "messageHeadline": "[Runtime] Change default alignment to 64 bytes. (#12586)"
-  },
-  {
-    "oid": "01fcdfcf5fcfda313df4e176ca3d919b076f77fc",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4174/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Default to n=2 for test parallelism (#12414)"
   }
 ]
