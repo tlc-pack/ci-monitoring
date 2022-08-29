@@ -1,5 +1,31 @@
 [
   {
+    "oid": "74988d36bd578b791bbdcea383d343d62029e9cf",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8080365427?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8080365222?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8080365327?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4196/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Utils] Handled Callable in tir.schedule._type_checker (#12633)"
+  },
+  {
     "oid": "c31a762b985894f64d3a80407b75fadb60240862",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TIR][Schedule] enhance compute_at and reverse_compute_at primitive t\u2026"
-  },
-  {
-    "oid": "4f431c87c2b8bb5ea0773c44d92658e506251dda",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8033617830?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8033617630?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8033617429?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4179/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Expose Memory Copy-Related PTX Builtins (#12611)"
   }
 ]
