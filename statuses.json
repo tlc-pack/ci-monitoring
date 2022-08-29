@@ -1,10 +1,36 @@
 [
   {
-    "oid": "648a29a53a641f1e923220600dce9c9215104879",
+    "oid": "3d41ac3a9ab58ba5f7d3182e6afe915924568f8d",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8067649531?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8067649358?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8067649212?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4191/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Refactor] Replace std::tie with structured bindings (#12610)"
+  },
+  {
+    "oid": "648a29a53a641f1e923220600dce9c9215104879",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8065749343?check_suite_focus=true"
       },
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[COMMUNITY] @cconvey -> Reviewer (#12598)"
-  },
-  {
-    "oid": "8d60b3cbbcacc5675383c353a1180be0cbc59cb9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8024353080?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8024353363?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8024353229?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4175/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Runtime] Change default alignment to 64 bytes. (#12586)"
   }
 ]
