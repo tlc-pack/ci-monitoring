@@ -1,5 +1,31 @@
 [
   {
+    "oid": "1c32798a2c21fd0db6b0e8c938abee4666163bbd",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8101512582?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8101512405?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8101512186?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4202/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Expose gtest output through runtime exception (#12502)"
+  },
+  {
     "oid": "d421e32f1a3be11a908f897118deee018e309d97",
     "statuses": [
       {
@@ -82,7 +108,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8099442819?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Asynchronous DMA support (#12411)"
-  },
-  {
-    "oid": "23e794422a66ccfca8d58435e341c2af58f505e2",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8044486529?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8044486655?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8044486393?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4185/display/redirect"
-      }
-    ],
-    "messageHeadline": "Replace '> >' in templates with >>, NFC (#12615)"
   }
 ]
