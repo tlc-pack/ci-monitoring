@@ -1,5 +1,31 @@
 [
   {
+    "oid": "9e88723385f83a2d27a60432cbe50782bed2885f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8082462106?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8082462271?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8082462176?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4197/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Improved error messages for PrimExpr operator overloads (#12638)"
+  },
+  {
     "oid": "74988d36bd578b791bbdcea383d343d62029e9cf",
     "statuses": [
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4196/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[SimplifyExpr] Add simplify for dq->arg funcs (#12580)"
-  },
-  {
-    "oid": "e02f2f9fddd8cd38589e3569c41de9f7af39971c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8035653504?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8035653365?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8035653241?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4180/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][Schedule] enhance compute_at and reverse_compute_at primitive t\u2026"
   }
 ]
