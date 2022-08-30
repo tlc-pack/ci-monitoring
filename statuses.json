@@ -1,5 +1,57 @@
 [
   {
+    "oid": "58ee935a53893bfd47b9cd7ea4738ecec8d7181e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8099455072?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8099454937?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8099454759?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4199/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMScript] support float inf, -inf and nan in TVMScript parser and p\u2026"
+  },
+  {
+    "oid": "5287d8f11e28cf4953ca3b5638880397e7ceb48e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8099442819?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8099443135?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8099442998?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4198/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Move non-task CI scripts into ci/ folder (#12609)"
+  },
+  {
     "oid": "9e88723385f83a2d27a60432cbe50782bed2885f",
     "statuses": [
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[TIR] More hygenic TVM_SREF macros (#12607)"
-  },
-  {
-    "oid": "d87fa854b8eb0c8f603d8dc459121eaa1a365e12",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8041103643?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8041103783?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8041103523?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4182/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Initial support for meta schedule tuning (#12587)"
-  },
-  {
-    "oid": "d171b4af09b89683f8648a9df4a1d5cb5902bd99",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8040609310?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8040609175?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8040609048?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4181/display/redirect"
-      }
-    ],
-    "messageHeadline": "[SimplifyExpr] Add simplify for dq->arg funcs (#12580)"
   }
 ]
