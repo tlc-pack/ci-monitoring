@@ -1,5 +1,57 @@
 [
   {
+    "oid": "caf326fab2963dac8fe03d266ea33d323f4b4470",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8102747933?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8102747770?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8102748064?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4204/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Add mechanism for trust on certain CI scripts (#12604)"
+  },
+  {
+    "oid": "775520c8f3dede1d2b3fb0d34e80ff874b35a99b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8102634836?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8102634541?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8102634675?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4203/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microTVM][Zephyr] Add missing CMSIS-NN source files to cmake file (#\u2026"
+  },
+  {
     "oid": "1c32798a2c21fd0db6b0e8c938abee4666163bbd",
     "statuses": [
       {
@@ -14,7 +66,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8101512186?check_suite_focus=true"
       },
       {
@@ -35,12 +87,12 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8101252604?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8101252768?check_suite_focus=true"
       },
       {
@@ -71,7 +123,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4200/display/redirect"
       }
     ],
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[TIR] Expose MMA-related PTX builtins (#12623)"
-  },
-  {
-    "oid": "370abe69d24519a5453cead846d328a1c378957f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8047509580?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8047509619?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8047509544?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4187/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule][UX] Make `Database` with-able (#12520)"
-  },
-  {
-    "oid": "7f1856d34f03113dc3a7733c010be43446161944",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8044776688?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8044776485?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8044776584?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4186/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Asynchronous DMA support (#12411)"
   }
 ]
