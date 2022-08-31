@@ -1,5 +1,31 @@
 [
   {
+    "oid": "acbbd9f15a9ce79ecc88f16f5be9b0c07122cfc4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8110840536?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8110840191?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8110840356?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4208/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Improve inferring new shape of the Reshape operator (#12594)"
+  },
+  {
     "oid": "c2824a84d51ad3d64be2e72680b33c378f033f99",
     "statuses": [
       {
@@ -9,7 +35,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8109210615?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[microTVM][Zephyr] Disable test_armv7m_intrinsic since it's broken (#\u2026"
-  },
-  {
-    "oid": "c5c99a4b523c9165adb4d552d284f8666520336f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8068651196?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8068651610?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8068651429?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4192/display/redirect"
-      }
-    ],
-    "messageHeadline": "[QNN] Align output_scale/zero_point of sigmoid to Torch (#12624)"
   }
 ]
