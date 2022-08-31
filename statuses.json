@@ -1,5 +1,31 @@
 [
   {
+    "oid": "c2824a84d51ad3d64be2e72680b33c378f033f99",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8109210417?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8109210615?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8109210795?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4207/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Testing] Allow NCHW layout in `relay_workload` (#12656)"
+  },
+  {
     "oid": "f114d55bee538b5420c9c993aa789abff245d897",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[QNN] Align output_scale/zero_point of sigmoid to Torch (#12624)"
-  },
-  {
-    "oid": "3d41ac3a9ab58ba5f7d3182e6afe915924568f8d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8067649531?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8067649358?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8067649212?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4191/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Refactor] Replace std::tie with structured bindings (#12610)"
   }
 ]
