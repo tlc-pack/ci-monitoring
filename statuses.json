@@ -1,5 +1,31 @@
 [
   {
+    "oid": "50dad0d9a3c85f7692025b5330ceb902e264bb92",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8145237698?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8145237592?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8145237813?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4220/display/redirect"
+      }
+    ],
+    "messageHeadline": "[HEXAGON][TOPI]Slice Op Argmax uint8 (#12472)"
+  },
+  {
     "oid": "54786bbff340426109de7785bb2de4c1dfc2a738",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[TIR] Preserve annotations after lower opaque block (#12572)"
-  },
-  {
-    "oid": "f7cc992a9812872396bf5d42cc70461c3bd7e81f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8105744862?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8105744645?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8105744755?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4205/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Complete NCHW Conv2D Winograd Kernel Scheduling (#12648)"
   }
 ]
