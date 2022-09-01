@@ -1,5 +1,31 @@
 [
   {
+    "oid": "54786bbff340426109de7785bb2de4c1dfc2a738",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8144788498?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8144788035?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8144788302?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4219/display/redirect"
+      }
+    ],
+    "messageHeadline": "[hexagon][tests] re-enable maxpool hardware test (#12676)"
+  },
+  {
     "oid": "e814f798edc5bf6977a4f4f74ec8d1d7e363c608",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Complete NCHW Conv2D Winograd Kernel Scheduling (#12648)"
-  },
-  {
-    "oid": "caf326fab2963dac8fe03d266ea33d323f4b4470",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8102747933?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8102747770?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8102748064?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4204/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Add mechanism for trust on certain CI scripts (#12604)"
   }
 ]
