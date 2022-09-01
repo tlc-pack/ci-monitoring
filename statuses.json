@@ -1,10 +1,36 @@
 [
   {
+    "oid": "c6516a534fded605ae24bf56e24ec871b68ca9e2",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8126576668?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8126576741?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8126576590?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4212/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Allow string/buffer arguments to Schedule cache_read/write (#12\u2026"
+  },
+  {
     "oid": "a399e6ce9759cd524fcb8f804749baa426096e4b",
     "statuses": [
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4211/display/redirect"
       }
     ],
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[ci] Move non-task CI scripts into ci/ folder (#12609)"
-  },
-  {
-    "oid": "9e88723385f83a2d27a60432cbe50782bed2885f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8082462106?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8082462271?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8082462176?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4197/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Improved error messages for PrimExpr operator overloads (#12638)"
   }
 ]
