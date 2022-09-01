@@ -1,5 +1,31 @@
 [
   {
+    "oid": "038f15b5e204120709186a8791e5b49986060bb0",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8136405567?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8136405825?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8136406051?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4215/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Implement fixed_point_multiply op through intrinsics. (#12659)"
+  },
+  {
     "oid": "38ba8c0bb69dd76203a96ba6b2a5c067fe0b2ba0",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[microTVM]Fix test util functions (#12641)"
-  },
-  {
-    "oid": "b44f1343a10ccc908de5e65b864012c72d564a7b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8100401038?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8100401169?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8100400923?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4200/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microTVM][ARM-DSP] Fix pool schedule  (#12653)"
   }
 ]
