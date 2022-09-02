@@ -1,5 +1,31 @@
 [
   {
+    "oid": "7c7b0f7a2fb7833a3afe8900f8b38ccf144f96f0",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8160540771?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8160540965?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8160540627?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4228/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci][tvmbot] Trigger GitHub Actions after merging (#12361)"
+  },
+  {
     "oid": "0549a08f4de40a5a0db277cfe1ae00ab22fc9107",
     "statuses": [
       {
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "[Relay] Extract intermediate node by its expression ID (#12646)"
-  },
-  {
-    "oid": "aa6c7123d0a2cdd93256c6a4576ff029008fd375",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8129567294?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8129567189?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8129567413?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4213/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ETHOSN] Fix tests pylint errors (#12649)"
   }
 ]
