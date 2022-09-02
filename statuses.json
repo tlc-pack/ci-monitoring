@@ -1,5 +1,31 @@
 [
   {
+    "oid": "2734d044a24bdfcdab1fb473d07b93f4ed6b64eb",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8164992254?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8164992336?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8164992169?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4231/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Adreno] Define memory_info for global.texture* (#12647)"
+  },
+  {
     "oid": "4ed6564f764eea10af360a3e4bfb904061f5cc32",
     "statuses": [
       {
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "Add methods to get and set late-bound constants. (#12664)"
-  },
-  {
-    "oid": "32f9a5f4d4f03a0875d64ac42df46cafe8ae3cfa",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8137573220?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8137573517?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8137572971?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4216/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Fix autoinline for single const consumer block (#12668)"
   }
 ]
