@@ -1,5 +1,31 @@
 [
   {
+    "oid": "bb56f2a972606b33e5479d1e18d4c4f13751eeed",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8151645270?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8151645384?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8151645560?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4225/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule][UX] Convenient Object Creation (#12643)"
+  },
+  {
     "oid": "b2d660006446f720f0c9488f96d28387cbd0d294",
     "statuses": [
       {
@@ -352,31 +378,5 @@
       }
     ],
     "messageHeadline": "[ci] Add linter for PR title and body (#12367)"
-  },
-  {
-    "oid": "d54c0651ecae088e24fcfd448cfca31c77e8c2cb",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8121753032?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8121753159?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8121752857?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4210/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Torch][AArch64] Skip test_load_model___wrong_language__to_pytorch (#\u2026"
   }
 ]
