@@ -1,5 +1,26 @@
 [
   {
+    "oid": "28cad58fd06f6fd395390f5a33c81acda4c27d12",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8165463897?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8165463943?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8165463837?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[Web][Emscripten] Update EMCC C++ standard to C++17 (#12693)"
+  },
+  {
     "oid": "2734d044a24bdfcdab1fb473d07b93f4ed6b64eb",
     "statuses": [
       {
@@ -30,7 +51,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8164610040?check_suite_focus=true"
       },
       {
@@ -367,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Adreno] Change compute/schedule for ToMixedPrecision pass (#12537)"
-  },
-  {
-    "oid": "effcd2251b4bb04e47f8ec288b056b0756ea4f4f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8139667622?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8139667418?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8139667815?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4217/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add methods to get and set late-bound constants. (#12664)"
   }
 ]
