@@ -1,25 +1,51 @@
 [
   {
-    "oid": "eecb7fd494052ca941f3d123daa2e887f14b7e75",
+    "oid": "8ca8f24d54d65be552448e5368d879710930711b",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/8147074066?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/8148299011?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/8147074256?check_suite_focus=true"
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/8148298939?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/8147074151?check_suite_focus=true"
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/8148299071?check_suite_focus=true"
       },
       {
         "name": "tvm-ci/branch",
         "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4222/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Handle DeclBuffer in ToSSA (#12679)"
+  },
+  {
+    "oid": "eecb7fd494052ca941f3d123daa2e887f14b7e75",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/8147074066?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/8147074256?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/8147074151?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4221/display/redirect"
       }
     ],
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[ETHOSN] Improve inferring new shape of the Reshape operator (#12594)"
-  },
-  {
-    "oid": "c2824a84d51ad3d64be2e72680b33c378f033f99",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8109210417?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8109210615?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8109210795?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4207/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Testing] Allow NCHW layout in `relay_workload` (#12656)"
   }
 ]
