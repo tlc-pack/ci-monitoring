@@ -1,5 +1,31 @@
 [
   {
+    "oid": "445a14f4c637ea88f4a1c39ed238da752fc6cecf",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8151733968?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8151734069?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8151734172?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4226/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Fix some more pylint issues (#12675)"
+  },
+  {
     "oid": "bb56f2a972606b33e5479d1e18d4c4f13751eeed",
     "statuses": [
       {
@@ -76,7 +102,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4223/display/redirect"
       }
     ],
@@ -367,16 +393,5 @@
       }
     ],
     "messageHeadline": "[TIR] Allow string/buffer arguments to Schedule cache_read/write (#12\u2026"
-  },
-  {
-    "oid": "a399e6ce9759cd524fcb8f804749baa426096e4b",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4211/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Add linter for PR title and body (#12367)"
   }
 ]
