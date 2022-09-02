@@ -1,5 +1,31 @@
 [
   {
+    "oid": "b2d660006446f720f0c9488f96d28387cbd0d294",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8151314935?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8151314804?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8151315050?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4224/display/redirect"
+      }
+    ],
+    "messageHeadline": "[PyTorch] Fix aten::arange for pytorch (#12681)"
+  },
+  {
     "oid": "4acddb1d036a5f055f5e62f348b18c5e8562140e",
     "statuses": [
       {
@@ -352,31 +378,5 @@
       }
     ],
     "messageHeadline": "[Torch][AArch64] Skip test_load_model___wrong_language__to_pytorch (#\u2026"
-  },
-  {
-    "oid": "0c374544a3e1dc358b23e99eaff719631a9984d7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8118579133?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8118579255?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8118578965?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4209/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][TVMScript] Update printer / parser to make T.allocate return bu\u2026"
   }
 ]
