@@ -1,5 +1,31 @@
 [
   {
+    "oid": "5dcf62288b1d998df74ac36e48fcfe2424a0def8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8184607267?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8184607408?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8184607553?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4233/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Use pytest parameterization for integration tests (#12688)"
+  },
+  {
     "oid": "28cad58fd06f6fd395390f5a33c81acda4c27d12",
     "statuses": [
       {
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "[hexagon][tests] re-enable maxpool hardware test (#12676)"
-  },
-  {
-    "oid": "e814f798edc5bf6977a4f4f74ec8d1d7e363c608",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8140397604?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8140397744?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8140397911?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4218/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Adreno] Change compute/schedule for ToMixedPrecision pass (#12537)"
   }
 ]
