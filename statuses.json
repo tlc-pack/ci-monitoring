@@ -1,5 +1,31 @@
 [
   {
+    "oid": "da48e13b66fa053578815343c3f247f47364d0bb",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8215459946?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8215459825?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8215459728?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4239/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMC] Run module once by default (#12713)"
+  },
+  {
     "oid": "141b17b23a801799576bab02b0654d062e071380",
     "statuses": [
       {
@@ -71,7 +97,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4236/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule][UX] Convenient Object Creation (#12643)"
-  },
-  {
-    "oid": "b2d660006446f720f0c9488f96d28387cbd0d294",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8151314935?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8151314804?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8151315050?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4224/display/redirect"
-      }
-    ],
-    "messageHeadline": "[PyTorch] Fix aten::arange for pytorch (#12681)"
   }
 ]
