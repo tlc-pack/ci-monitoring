@@ -157,7 +157,7 @@ def message_diff(old, new):
         ]
 
         for m in reversed(to_message):
-            msg = f"`{commit['oid']}`: {commit['messageHeadline']}\nFailed on `{m['name']}`"
+            msg = f"`{commit['oid']}`: {commit['messageHeadline']}\nFailed on `{m['name']}` {m['url']}"
             discord(
                 {
                     "content": msg,
