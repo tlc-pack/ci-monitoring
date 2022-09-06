@@ -1,5 +1,26 @@
 [
   {
+    "oid": "b3edb6e227be0dea73413d5780d15a4cbdc3d83b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8207585653?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8207585881?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8207585434?check_suite_focus=true"
+      }
+    ],
+    "messageHeadline": "[Apps] Pin android_camera TensorFlow/Keras dependency version (#12710)"
+  },
+  {
     "oid": "5dcf62288b1d998df74ac36e48fcfe2424a0def8",
     "statuses": [
       {
@@ -367,31 +388,5 @@
       }
     ],
     "messageHeadline": "[HEXAGON][TOPI]Slice Op Argmax uint8 (#12472)"
-  },
-  {
-    "oid": "54786bbff340426109de7785bb2de4c1dfc2a738",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8144788498?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8144788035?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8144788302?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4219/display/redirect"
-      }
-    ],
-    "messageHeadline": "[hexagon][tests] re-enable maxpool hardware test (#12676)"
   }
 ]
