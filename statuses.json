@@ -1,15 +1,41 @@
 [
   {
-    "oid": "b3edb6e227be0dea73413d5780d15a4cbdc3d83b",
+    "oid": "832cffa1c1729c88c799e81c3340a80fb4a48baa",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/8207585653?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/8210084377?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8210084113?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8210083860?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4235/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon][Runtime] Better support for 2-tier memory (#12574)"
+  },
+  {
+    "oid": "b3edb6e227be0dea73413d5780d15a4cbdc3d83b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/8207585653?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8207585881?check_suite_focus=true"
       },
       {
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Introduce `Union` and `OrderedUnion` in Database (#12628)"
-  },
-  {
-    "oid": "50dad0d9a3c85f7692025b5330ceb902e264bb92",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8145237698?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8145237592?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8145237813?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4220/display/redirect"
-      }
-    ],
-    "messageHeadline": "[HEXAGON][TOPI]Slice Op Argmax uint8 (#12472)"
   }
 ]
