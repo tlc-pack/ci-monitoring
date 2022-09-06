@@ -1,5 +1,31 @@
 [
   {
+    "oid": "141b17b23a801799576bab02b0654d062e071380",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8215073620?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8215073481?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8215073295?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4238/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Add optimized schedule for nn.pad (#12714)"
+  },
+  {
     "oid": "d4201a9d8e56a391231cb71bf80d82ab36a9dfaf",
     "statuses": [
       {
@@ -362,36 +388,5 @@
       }
     ],
     "messageHeadline": "[PyTorch] Fix aten::arange for pytorch (#12681)"
-  },
-  {
-    "oid": "4acddb1d036a5f055f5e62f348b18c5e8562140e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8149887885?check_suite_focus=true"
-      },
-      {
-        "name": "PR / cc-reviewers",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8150692300?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8149887565?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8149887752?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4223/display/redirect"
-      }
-    ],
-    "messageHeadline": "[COMMUNITY] Yaxing Cai -> Reviewer (#12683)"
   }
 ]
