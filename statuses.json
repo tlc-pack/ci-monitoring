@@ -1,5 +1,57 @@
 [
   {
+    "oid": "d4201a9d8e56a391231cb71bf80d82ab36a9dfaf",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8212895363?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8212895619?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8212895489?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4237/display/redirect"
+      }
+    ],
+    "messageHeadline": "[COMMUNITY] ekalda -> Committer (#12715)"
+  },
+  {
+    "oid": "744649e53bd32b53eb53020a111479facff3b88a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8212858416?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8212858286?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8212858150?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4236/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR][StorageRewrite] Allow in-place buffer reuse of non-flat memory \u2026"
+  },
+  {
     "oid": "832cffa1c1729c88c799e81c3340a80fb4a48baa",
     "statuses": [
       {
@@ -19,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4235/display/redirect"
       }
     ],
@@ -341,57 +393,5 @@
       }
     ],
     "messageHeadline": "[COMMUNITY] Yaxing Cai -> Reviewer (#12683)"
-  },
-  {
-    "oid": "8ca8f24d54d65be552448e5368d879710930711b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8148299011?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8148298939?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8148299071?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4222/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Handle DeclBuffer in ToSSA (#12679)"
-  },
-  {
-    "oid": "eecb7fd494052ca941f3d123daa2e887f14b7e75",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8147074066?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8147074256?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8147074151?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4221/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Introduce `Union` and `OrderedUnion` in Database (#12628)"
   }
 ]
