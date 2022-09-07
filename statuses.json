@@ -1,5 +1,31 @@
 [
   {
+    "oid": "b55ffcd18b049ae7a76e02d561535530f384c5d8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8224487328?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8224487105?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8224486902?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4243/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Add support for transpose convolution (#12674)"
+  },
+  {
     "oid": "291dd2f06331342f5c89216d5d211cb61fe3d19f",
     "statuses": [
       {
@@ -14,7 +40,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8222454867?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[AutoTVM][Testing] Add `tune_relay` scripts (#12685)"
-  },
-  {
-    "oid": "7c7b0f7a2fb7833a3afe8900f8b38ccf144f96f0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8160540771?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8160540965?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8160540627?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4228/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][tvmbot] Trigger GitHub Actions after merging (#12361)"
   }
 ]
