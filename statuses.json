@@ -1,5 +1,57 @@
 [
   {
+    "oid": "269d536be0308f6594b22615d33cc0f0539ad39a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8230450180?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8230450481?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8230450938?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4245/display/redirect"
+      }
+    ],
+    "messageHeadline": "[HEXAGON] [TOPI] Dequantize (#12677)"
+  },
+  {
+    "oid": "ff9a5309ecd713214a61e9e848c90289831f70c5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8230366881?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8230366643?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8230367147?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4244/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microTVM][Zephyr] Enable -O2 optimization on build by default (#12718)"
+  },
+  {
     "oid": "b55ffcd18b049ae7a76e02d561535530f384c5d8",
     "statuses": [
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[Adreno] Define memory_info for global.texture* (#12647)"
-  },
-  {
-    "oid": "4ed6564f764eea10af360a3e4bfb904061f5cc32",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8164610040?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8164610117?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/runs/8164610197?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4230/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Add tests for PR linter (#12680)"
-  },
-  {
-    "oid": "0cbf3aa6e22e77a62256e35a9eef4dbe327b6fa0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8164285125?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8164285038?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/runs/8164285215?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4229/display/redirect"
-      }
-    ],
-    "messageHeadline": "[AutoTVM][Testing] Add `tune_relay` scripts (#12685)"
   }
 ]
