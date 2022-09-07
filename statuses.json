@@ -1,5 +1,31 @@
 [
   {
+    "oid": "010c662938245d607fbffd4bd10a9c7fb93e4270",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8235660107?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8235659861?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8235659991?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4247/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMScript] IRBuilder methods for `IRModule` (#12694)"
+  },
+  {
     "oid": "2622ac9e638b259cae017813ad93937c0ff8a2f9",
     "statuses": [
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4246/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[ETHOSN] Use pytest parameterization for integration tests (#12688)"
-  },
-  {
-    "oid": "28cad58fd06f6fd395390f5a33c81acda4c27d12",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8165463897?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8165463943?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/runs/8165463837?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4232/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Web][Emscripten] Update EMCC C++ standard to C++17 (#12693)"
   }
 ]
