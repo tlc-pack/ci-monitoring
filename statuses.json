@@ -1,20 +1,46 @@
 [
   {
-    "oid": "269d536be0308f6594b22615d33cc0f0539ad39a",
+    "oid": "2622ac9e638b259cae017813ad93937c0ff8a2f9",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/8230450180?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/8232620348?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/runs/8230450481?check_suite_focus=true"
+        "url": "https://github.com/apache/tvm/runs/8232620118?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8232620556?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4246/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Build] Update C++ standard to C++17 for AOT, iOS, VTA (#12712)"
+  },
+  {
+    "oid": "269d536be0308f6594b22615d33cc0f0539ad39a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/8230450180?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/8230450481?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8230450938?check_suite_focus=true"
       },
       {
@@ -30,12 +56,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8230366881?check_suite_focus=true"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8230366643?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Web][Emscripten] Update EMCC C++ standard to C++17 (#12693)"
-  },
-  {
-    "oid": "2734d044a24bdfcdab1fb473d07b93f4ed6b64eb",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8164992254?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8164992336?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/runs/8164992169?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4231/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Adreno] Define memory_info for global.texture* (#12647)"
   }
 ]
