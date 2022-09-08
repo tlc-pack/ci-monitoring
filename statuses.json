@@ -1,5 +1,31 @@
 [
   {
+    "oid": "64031d56d634a535c8e3832d9231855b688f0648",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8260012825?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8260012986?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8260013122?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4260/display/redirect"
+      }
+    ],
+    "messageHeadline": "Move static array initialization into a function go avoid link errors\u2026"
+  },
+  {
     "oid": "299ca267e7641b5fa6e78dd131d0574e310f9a13",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Build] Update C++ standard to C++17 for AOT, iOS, VTA (#12712)"
-  },
-  {
-    "oid": "269d536be0308f6594b22615d33cc0f0539ad39a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8230450180?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8230450481?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8230450938?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4245/display/redirect"
-      }
-    ],
-    "messageHeadline": "[HEXAGON] [TOPI] Dequantize (#12677)"
   }
 ]
