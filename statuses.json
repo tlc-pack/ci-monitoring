@@ -1,5 +1,31 @@
 [
   {
+    "oid": "b2bd434ef944315a6f241803ac03c59c9aaa9847",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8252443590?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8252443319?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8252443052?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4258/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Handle axis_separators during FlattenBuffer (#12652)"
+  },
+  {
     "oid": "ed630122c281f47493e2941a7dc471e201904587",
     "statuses": [
       {
@@ -40,7 +66,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8250817547?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[microTVM][Zephyr] Enable -O2 optimization on build by default (#12718)"
-  },
-  {
-    "oid": "b55ffcd18b049ae7a76e02d561535530f384c5d8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8224487328?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8224487105?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8224486902?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4243/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ETHOSN] Add support for transpose convolution (#12674)"
   }
 ]
