@@ -1,5 +1,83 @@
 [
   {
+    "oid": "ed630122c281f47493e2941a7dc471e201904587",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8250825835?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8250825635?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8250825394?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4257/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Test] Add tvm.testing.requires_libtorch (#12737)"
+  },
+  {
+    "oid": "4f4bc26607712adfed539e21916cddc3dc2dd601",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8250817382?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8250817787?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8250817547?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4256/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Mark two tests as xfail (#12733)"
+  },
+  {
+    "oid": "2d36e460079f6920ab97a6b2de31fe678895ce62",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8250810874?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8250811119?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8250810667?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4255/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI][AArch64] Mark tests to be skipped due to torch crash (#12730)"
+  },
+  {
     "oid": "cd99ca64cb2416219215745c1d478b86776378ed",
     "statuses": [
       {
@@ -310,83 +388,5 @@
       }
     ],
     "messageHeadline": "[ETHOSN] Add support for transpose convolution (#12674)"
-  },
-  {
-    "oid": "291dd2f06331342f5c89216d5d211cb61fe3d19f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8222454990?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8222455111?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8222454867?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4242/display/redirect"
-      }
-    ],
-    "messageHeadline": "support false-positive fast math (#12702)"
-  },
-  {
-    "oid": "6cd31e7bf1d9fed7e2e9f5de1b725d1fdc5a4659",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8222418967?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8222418855?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8222419066?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4241/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Fix pragma_loop_partition_hint attrs should check it's value (#\u2026"
-  },
-  {
-    "oid": "85bf80c822ec930939eabba1dd8a774c88d88bdd",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8222373851?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8222373697?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8222373510?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4240/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Docs] Add Commit Message Guideline (#12689)"
   }
 ]
