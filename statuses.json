@@ -1,5 +1,31 @@
 [
   {
+    "oid": "6be04d72c2a2d65b791a43a40167101ce4064ff2",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8242195349?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8242195203?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8242195278?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4252/display/redirect"
+      }
+    ],
+    "messageHeadline": "[OpenCLML] CLML Profiling fixes corresponding to OpenCL Timer recent \u2026"
+  },
+  {
     "oid": "abb2aa062fd240980844faa6e0ebcc2256a5191c",
     "statuses": [
       {
@@ -9,12 +35,12 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8241394119?check_suite_focus=true"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8241393958?check_suite_focus=true"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Add optimized schedule for nn.pad (#12714)"
-  },
-  {
-    "oid": "d4201a9d8e56a391231cb71bf80d82ab36a9dfaf",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8212895363?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8212895619?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8212895489?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4237/display/redirect"
-      }
-    ],
-    "messageHeadline": "[COMMUNITY] ekalda -> Committer (#12715)"
   }
 ]
