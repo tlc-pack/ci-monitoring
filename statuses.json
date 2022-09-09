@@ -1,5 +1,109 @@
 [
   {
+    "oid": "029fa462d22ce3c75bc5ea530eece999a160c05b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8277020357?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8277020244?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8277020102?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4271/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR][Arith] Add more strict checking in imm construction and folding\u2026"
+  },
+  {
+    "oid": "b21bf6638bc9a0b339bdbebeae9630ddb583b5a9",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8276884932?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8276885072?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8276884771?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4270/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Frontend][Paddle] Fix op in paddle did't transmit layout information\u2026"
+  },
+  {
+    "oid": "574794e915ba424db05e1ddcf2218f37b2b65764",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8276878582?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8276878246?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8276878408?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4269/display/redirect"
+      }
+    ],
+    "messageHeadline": "[OpenCL] Enable OpenCL for GPU tests (#12490)"
+  },
+  {
+    "oid": "14999f8add61b1a81a0f733ba12aadf2b8057279",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8276845895?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8276846327?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8276846089?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4268/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMScript][TIR] Clarify scope of BlockNode::iter_vars (#12726)"
+  },
+  {
     "oid": "8bd81e6fbca3b7c8511b3b24601c37a3cff19864",
     "statuses": [
       {
@@ -289,109 +393,5 @@
       }
     ],
     "messageHeadline": "[Test] Add tvm.testing.requires_libtorch (#12737)"
-  },
-  {
-    "oid": "4f4bc26607712adfed539e21916cddc3dc2dd601",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8250817382?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8250817787?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8250817547?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4256/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Mark two tests as xfail (#12733)"
-  },
-  {
-    "oid": "2d36e460079f6920ab97a6b2de31fe678895ce62",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8250810874?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8250811119?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8250810667?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4255/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI][AArch64] Mark tests to be skipped due to torch crash (#12730)"
-  },
-  {
-    "oid": "cd99ca64cb2416219215745c1d478b86776378ed",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8245427354?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8245427566?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8245427152?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4254/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay] Change when int8 operations are converted to int16 on Arm (#1\u2026"
-  },
-  {
-    "oid": "62bdc91b1aee1c88dc128273abb637174d0e2071",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8242373763?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8242374007?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8242373889?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4253/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add Arm DSP implementation of Depthwise Conv2D (#12448)"
   }
 ]
