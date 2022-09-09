@@ -1,5 +1,31 @@
 [
   {
+    "oid": "75969647fdf5e9f9b60635d1409952c97a29f0e4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8273840474?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8273840628?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8273840327?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4265/display/redirect"
+      }
+    ],
+    "messageHeadline": "Aligned CMSIS-NN SHA in TVM to CMSIS top of tree (#12723)"
+  },
+  {
     "oid": "90fb79b74c49b585f39469e1a2eec233fdd592e0",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TIR] Add unroll_loop_with_partition_hint_no_interval attr in LoopPar\u2026"
-  },
-  {
-    "oid": "546a7da2febe8ced256a4e9759413a9542c68d66",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8236576622?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8236576880?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8236576767?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4250/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Re-balance shards (#12473)"
   }
 ]
