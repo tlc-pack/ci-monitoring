@@ -1,5 +1,31 @@
 [
   {
+    "oid": "1c5ffc67ad2497a2d34509e0599b3a787fcd464d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8264960295?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8264960412?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8264960106?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4262/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci][docker] Use CMake 3.20.0 for cortexm (#12744)"
+  },
+  {
     "oid": "89ce171b8697d223032f53b5e14c459332316da8",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TFLite][CI] Update TensorFlow dependency to 2.9.1 (#12131)"
-  },
-  {
-    "oid": "010c662938245d607fbffd4bd10a9c7fb93e4270",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8235660107?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8235659861?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8235659991?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4247/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] IRBuilder methods for `IRModule` (#12694)"
   }
 ]
