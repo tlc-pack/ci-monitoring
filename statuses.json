@@ -1,5 +1,36 @@
 [
   {
+    "oid": "1d32c400f1d2a14cb3c663c2d17b977b94b2db48",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8274473507?check_suite_focus=true"
+      },
+      {
+        "name": "PR / cc-reviewers",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/runs/8274583179?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8274473202?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8274473351?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4266/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microtvm][Zephyr] Add project overlay to overwrite device tree confi\u2026"
+  },
+  {
     "oid": "75969647fdf5e9f9b60635d1409952c97a29f0e4",
     "statuses": [
       {
@@ -40,7 +71,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/runs/8273368824?check_suite_focus=true"
       },
       {
@@ -362,31 +393,5 @@
       }
     ],
     "messageHeadline": "[OpenCLML] CLML Profiling fixes corresponding to OpenCL Timer recent \u2026"
-  },
-  {
-    "oid": "abb2aa062fd240980844faa6e0ebcc2256a5191c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8241394032?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8241394119?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8241393958?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4251/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Add unroll_loop_with_partition_hint_no_interval attr in LoopPar\u2026"
   }
 ]
