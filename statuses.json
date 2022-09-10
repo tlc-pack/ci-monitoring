@@ -1,5 +1,31 @@
 [
   {
+    "oid": "76f91b42b96b7f3274509ed713a118c117ed2f65",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8283809081?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8283809052?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8283809065?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4274/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Update driver stack version to 22.08 (#12650)"
+  },
+  {
     "oid": "2eed6636436901f8a862304603d9b40d83432261",
     "statuses": [
       {
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "Move static array initialization into a function go avoid link errors\u2026"
-  },
-  {
-    "oid": "299ca267e7641b5fa6e78dd131d0574e310f9a13",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8254360400?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8254360207?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8254360014?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4259/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Update region min/extent in ReplaceBufferMutator (#12725)"
   }
 ]
