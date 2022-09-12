@@ -1,5 +1,31 @@
 [
   {
+    "oid": "4d2766409f1b95504aac171649367c2df2813029",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3041172425/jobs/4898025126"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3041172425/jobs/4898025047"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3041172425/jobs/4898024977"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4282/display/redirect"
+      }
+    ],
+    "messageHeadline": "[AutoTVM] Fix `None` feature in AutoTVM tuning (#12760)"
+  },
+  {
     "oid": "9671aee942503815ad2a586406eef11391287ee5",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TVMScript][TIR] Clarify scope of BlockNode::iter_vars (#12726)"
-  },
-  {
-    "oid": "8bd81e6fbca3b7c8511b3b24601c37a3cff19864",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3024668970/jobs/4866323266"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3024668970/jobs/4866323077"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3024668970/jobs/4866323174"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4267/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] Base IRBuilder methods for `PrimFunc` (#12745)"
   }
 ]
