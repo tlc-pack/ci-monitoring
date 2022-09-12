@@ -1,5 +1,57 @@
 [
   {
+    "oid": "a63d03a116e6b8a3a80b96a90519a96ca63e16b9",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8300891847?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8300892016?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8300892245?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4277/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Fix typo of compare between GlobalVar and str (#12704)"
+  },
+  {
+    "oid": "4c863fc115ee463284f20b5ee37c973ac0ed5d9a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8300771822?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8300771985?check_suite_focus=true"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/runs/8300771648?check_suite_focus=true"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4276/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMScript] Base IRBuilder methods for `Block` (#12748)"
+  },
+  {
     "oid": "286fadecb8d536940b89669e699d757399dad755",
     "statuses": [
       {
@@ -341,57 +393,5 @@
       }
     ],
     "messageHeadline": "[TF] Add DenseBincount support (#12728)"
-  },
-  {
-    "oid": "1c5ffc67ad2497a2d34509e0599b3a787fcd464d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8264960295?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8264960412?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8264960106?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4262/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][docker] Use CMake 3.20.0 for cortexm (#12744)"
-  },
-  {
-    "oid": "89ce171b8697d223032f53b5e14c459332316da8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8262021790?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8262021934?check_suite_focus=true"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/runs/8262021865?check_suite_focus=true"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4261/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR, Schedule] Check consumer in-bound and covered in reverse_comput\u2026"
   }
 ]
