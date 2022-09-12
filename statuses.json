@@ -1,5 +1,31 @@
 [
   {
+    "oid": "b22b872da800b0b44feeca67e808319e21b840a2",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3039927238/jobs/4895411890"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3039927238/jobs/4895412023"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3039927238/jobs/4895412152"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4279/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Add Hand written HVX conv2d (#12204)"
+  },
+  {
     "oid": "a047e0228a3f7015e56c6756cdadb13444008623",
     "statuses": [
       {
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "Aligned CMSIS-NN SHA in TVM to CMSIS top of tree (#12723)"
-  },
-  {
-    "oid": "90fb79b74c49b585f39469e1a2eec233fdd592e0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3023519457/jobs/4863868505"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3023519457/jobs/4863868318"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3023519457/jobs/4863868697"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4264/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Update Docker images to bring TF 2.9 and integration tests (#12738)"
   }
 ]
