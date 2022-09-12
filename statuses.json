@@ -1,5 +1,31 @@
 [
   {
+    "oid": "9671aee942503815ad2a586406eef11391287ee5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3040380763/jobs/4896364304"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3040380763/jobs/4896364123"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3040380763/jobs/4896364233"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4281/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Validate 2-d physical shapes for TIR-derived schedules (#12\u2026"
+  },
+  {
     "oid": "12223983422868bbbc5444f66d175aeb9318b71f",
     "statuses": [
       {
@@ -40,7 +66,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3039927238/jobs/4895412152"
       },
       {
@@ -362,36 +388,5 @@
       }
     ],
     "messageHeadline": "[TVMScript] Base IRBuilder methods for `PrimFunc` (#12745)"
-  },
-  {
-    "oid": "1d32c400f1d2a14cb3c663c2d17b977b94b2db48",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3023887621/jobs/4864669151"
-      },
-      {
-        "name": "PR / cc-reviewers",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3023923872/jobs/4864748125"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3023887621/jobs/4864668916"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3023887621/jobs/4864669030"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4266/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microtvm][Zephyr] Add project overlay to overwrite device tree confi\u2026"
   }
 ]
