@@ -1,5 +1,31 @@
 [
   {
+    "oid": "a23b71ce1e3011be6b8e6ca5162b023956358911",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3041330671/jobs/4898338062"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3041330671/jobs/4898337993"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3041330671/jobs/4898338139"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4283/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule][Test] Migrate AddRFactor to SEqual (#12758)"
+  },
+  {
     "oid": "4d2766409f1b95504aac171649367c2df2813029",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[OpenCL] Enable OpenCL for GPU tests (#12490)"
-  },
-  {
-    "oid": "14999f8add61b1a81a0f733ba12aadf2b8057279",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3024696657/jobs/4866381770"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3024696657/jobs/4866382005"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3024696657/jobs/4866381892"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4268/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript][TIR] Clarify scope of BlockNode::iter_vars (#12726)"
   }
 ]
