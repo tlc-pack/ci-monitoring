@@ -1,15 +1,41 @@
 [
   {
-    "oid": "a40849342d250bd585e19434e4a2473fcf978bcb",
+    "oid": "a0cbefbe9568468a35bc3dce7d23a143da3008b8",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/actions/runs/3053591218/jobs/4924409286"
+        "url": "https://github.com/apache/tvm/actions/runs/3054386125/jobs/4926215767"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3054386125/jobs/4926215607"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3054386125/jobs/4926215447"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4292/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Set USE_CMSISNN and USE_ETHOSU off in task_config_build_cpu.sh (\u2026"
+  },
+  {
+    "oid": "a40849342d250bd585e19434e4a2473fcf978bcb",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3053591218/jobs/4924409286"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3053591218/jobs/4924409109"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[CI] Always install into a python venv in ci containers (#12663)"
-  },
-  {
-    "oid": "a63d03a116e6b8a3a80b96a90519a96ca63e16b9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3035631076/jobs/4885994600"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3035631076/jobs/4885994739"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3035631076/jobs/4885994909"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4277/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Fix typo of compare between GlobalVar and str (#12704)"
   }
 ]
