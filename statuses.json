@@ -1,20 +1,46 @@
 [
   {
-    "oid": "3d7439eb0bf3d0a2253e7011b7f115499b7f4f33",
+    "oid": "421ff76e3e02e0d97018623fc1a42f202fe202bc",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/actions/runs/3055555290/jobs/4928737508"
+        "url": "https://github.com/apache/tvm/actions/runs/3056165681/jobs/4930037934"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/actions/runs/3055555290/jobs/4928737400"
+        "url": "https://github.com/apache/tvm/actions/runs/3056165681/jobs/4930037837"
       },
       {
         "name": "CI / Android",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3056165681/jobs/4930038036"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4294/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR][Meta-Schedule] Tuple-reduction scheduling support (#11639)"
+  },
+  {
+    "oid": "3d7439eb0bf3d0a2253e7011b7f115499b7f4f33",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3055555290/jobs/4928737508"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3055555290/jobs/4928737400"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3055555290/jobs/4928737604"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TFLite] Support quantized GREATER op in TFLite frontend (#12754)"
-  },
-  {
-    "oid": "b22b872da800b0b44feeca67e808319e21b840a2",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3039927238/jobs/4895411890"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3039927238/jobs/4895412023"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3039927238/jobs/4895412152"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4279/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Add Hand written HVX conv2d (#12204)"
   }
 ]
