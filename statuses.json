@@ -1,5 +1,31 @@
 [
   {
+    "oid": "ab8fe34c8e0a73ceb886e95616417281019c4d1d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3049298261/jobs/4915224467"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3049298261/jobs/4915224401"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3049298261/jobs/4915224542"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4287/display/redirect"
+      }
+    ],
+    "messageHeadline": "[FQ2I] Quantized constant bias (#12666)"
+  },
+  {
     "oid": "64635b7f372f229f4179806bf65e83f45e9ab856",
     "statuses": [
       {
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4285/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TOPI][Hexagon] Implement quantized elementwise for hexagon (#12606)"
-  },
-  {
-    "oid": "4c05656c65e6ab73f398f3fa982f84d48b16b55d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3025406066/jobs/4867831099"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3025406066/jobs/4867831029"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3025406066/jobs/4867830935"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4272/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TOPI][Hexagon] Add test and schedule for uint8 resize2d (#12559)"
   }
 ]
