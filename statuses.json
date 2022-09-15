@@ -1,5 +1,83 @@
 [
   {
+    "oid": "9a3b3dd1ceac8f9b065636146756baead39b8ab6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3064425098/jobs/4947511945"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3064425098/jobs/4947512058"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3064425098/jobs/4947512008"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4307/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMScript] Fix parse minimal i32 literal for tir script (#12772)"
+  },
+  {
+    "oid": "6a051843a9af11261cc0103837f517db14066fc5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3064421281/jobs/4947504372"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3064421281/jobs/4947504438"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3064421281/jobs/4947504306"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4306/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMScript] IRBuilder methods for `For` (#12786)"
+  },
+  {
+    "oid": "afad20d8d9740baa1d251b7e80e8e56a1c2b7a4d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3064416005/jobs/4947494043"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3064416005/jobs/4947494188"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3064416005/jobs/4947494115"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4305/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix typo in doc of logging (#12798)"
+  },
+  {
     "oid": "5b43c62ee64a7006dccc40811bd94de91d02a136",
     "statuses": [
       {
@@ -35,12 +113,12 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3064123919/jobs/4946934005"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3064123919/jobs/4946933870"
       },
       {
@@ -56,17 +134,17 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3064083748/jobs/4946855155"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3064083748/jobs/4946855076"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3064083748/jobs/4946855217"
       },
       {
@@ -149,7 +227,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4299/display/redirect"
       }
     ],
@@ -175,7 +253,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4298/display/redirect"
       }
     ],
@@ -310,83 +388,5 @@
       }
     ],
     "messageHeadline": "[TVMScript] IRBuilder methods for `PrimFunc` (#12755)"
-  },
-  {
-    "oid": "a0cbefbe9568468a35bc3dce7d23a143da3008b8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3054386125/jobs/4926215767"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3054386125/jobs/4926215607"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3054386125/jobs/4926215447"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4292/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Set USE_CMSISNN and USE_ETHOSU off in task_config_build_cpu.sh (\u2026"
-  },
-  {
-    "oid": "a40849342d250bd585e19434e4a2473fcf978bcb",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3053591218/jobs/4924409286"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3053591218/jobs/4924409109"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3053591218/jobs/4924408950"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4291/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay][TE] Use Relay parameter name to generated TE tensor name (#10\u2026"
-  },
-  {
-    "oid": "2aa0d1fbfcf4a31e343cc6852fdc4abd660c850a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3051800295/jobs/4920452349"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3051800295/jobs/4920452219"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3051800295/jobs/4920452065"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4290/display/redirect"
-      }
-    ],
-    "messageHeadline": "[OpenCLML] More ops and network coverage (#12762)"
   }
 ]
