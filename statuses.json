@@ -1,5 +1,57 @@
 [
   {
+    "oid": "111a88d04ece6a0c6803277d5b7b1d4852b5e46c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3064123919/jobs/4946934148"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3064123919/jobs/4946934005"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3064123919/jobs/4946933870"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4303/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci][docker] Always build cmake from source (#12774)"
+  },
+  {
+    "oid": "c00ce572c299a1cba6aede525be738c617e15325",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3064083748/jobs/4946855155"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3064083748/jobs/4946855076"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3064083748/jobs/4946855217"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4302/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Add retries to docker push (#12773)"
+  },
+  {
     "oid": "c9002509f6a16ea04e711d151973fe4bcce6a365",
     "statuses": [
       {
@@ -9,7 +61,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3063691242/jobs/4946047019"
       },
       {
@@ -35,7 +87,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3063685990/jobs/4946034744"
       },
       {
@@ -56,12 +108,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3063505928/jobs/4945650281"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3063505928/jobs/4945650168"
       },
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[AOT] Add AOTLowerMain pass to lower a Relay main into TIR (#12550)"
-  },
-  {
-    "oid": "91bd9a3fec0dfc419e739d12ee098d0bc39f763d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3050207505/jobs/4917063273"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3050207505/jobs/4917063169"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3050207505/jobs/4917063071"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4288/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hybrid] Fix handling AST subcription for Python3.9 (#12769)"
-  },
-  {
-    "oid": "ab8fe34c8e0a73ceb886e95616417281019c4d1d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3049298261/jobs/4915224467"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3049298261/jobs/4915224401"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3049298261/jobs/4915224542"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4287/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FQ2I] Quantized constant bias (#12666)"
   }
 ]
