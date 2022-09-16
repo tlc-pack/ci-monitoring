@@ -1,5 +1,31 @@
 [
   {
+    "oid": "9b17f344a31a13226458a2d48dcb7b55ce282274",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3065981124/jobs/4950650665"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3065981124/jobs/4950650769"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3065981124/jobs/4950650510"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4313/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci][docker] Fix nightly Docker tests (#12804)"
+  },
+  {
     "oid": "c0d2734056d4d4bfc67a125b4e61194a809f22d5",
     "statuses": [
       {
@@ -56,17 +82,17 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3065511925/jobs/4949686451"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3065511925/jobs/4949686493"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3065511925/jobs/4949686534"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Arith] Simplify nested if_then_else (#12749)"
-  },
-  {
-    "oid": "1f8b5dec29e6e34b4cf5f092acf5b1d197a59d42",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3063415320/jobs/4945467708"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3063415320/jobs/4945467620"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3063415320/jobs/4945467809"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4298/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR, Schedule] Add schedule primitive PadEinsum (#12750)"
   }
 ]
