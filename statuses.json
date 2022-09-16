@@ -1,5 +1,31 @@
 [
   {
+    "oid": "e037ae49928592afdfa8d2c27198fc68592f9528",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3070556635/jobs/4960402666"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3070556635/jobs/4960402835"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3070556635/jobs/4960402743"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4319/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Add bot to post welcome comment (#12695)"
+  },
+  {
     "oid": "5d0a16749cdba494178dee7deefa2938d1f8a88b",
     "statuses": [
       {
@@ -40,7 +66,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3070059794/jobs/4959397829"
       },
       {
@@ -97,7 +123,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4315/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Fix typo in doc of logging (#12798)"
-  },
-  {
-    "oid": "5b43c62ee64a7006dccc40811bd94de91d02a136",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3064184810/jobs/4947053462"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3064184810/jobs/4947053373"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3064184810/jobs/4947053302"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4304/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Remove author check from ping bot (#12788)"
   }
 ]
