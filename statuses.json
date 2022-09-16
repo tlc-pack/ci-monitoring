@@ -1,5 +1,31 @@
 [
   {
+    "oid": "5d0a16749cdba494178dee7deefa2938d1f8a88b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3070379048/jobs/4960040769"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3070379048/jobs/4960040628"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3070379048/jobs/4960040697"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4318/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Fix docs push (#12810)"
+  },
+  {
     "oid": "7c96e255ce7d6d6a22b3665449ebfafb581a9fc8",
     "statuses": [
       {
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4316/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[ci] Remove author check from ping bot (#12788)"
-  },
-  {
-    "oid": "111a88d04ece6a0c6803277d5b7b1d4852b5e46c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3064123919/jobs/4946934148"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3064123919/jobs/4946934005"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3064123919/jobs/4946933870"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4303/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][docker] Always build cmake from source (#12774)"
   }
 ]
