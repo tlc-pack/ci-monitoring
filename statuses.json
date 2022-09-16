@@ -1,5 +1,31 @@
 [
   {
+    "oid": "aded9d43ba1e798031900911cca4613487db84fe",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3070975671/jobs/4961243261"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3070975671/jobs/4961243136"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3070975671/jobs/4961242938"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4320/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Testing] Add decorator tvm.testing.requires_cuda_compute_version (#1\u2026"
+  },
+  {
     "oid": "e037ae49928592afdfa8d2c27198fc68592f9528",
     "statuses": [
       {
@@ -9,12 +35,12 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3070556635/jobs/4960402835"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3070556635/jobs/4960402743"
       },
       {
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4318/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TVMScript] IRBuilder methods for `For` (#12786)"
-  },
-  {
-    "oid": "afad20d8d9740baa1d251b7e80e8e56a1c2b7a4d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3064416005/jobs/4947494043"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3064416005/jobs/4947494188"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3064416005/jobs/4947494115"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4305/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix typo in doc of logging (#12798)"
   }
 ]
