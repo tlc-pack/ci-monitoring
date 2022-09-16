@@ -1,10 +1,36 @@
 [
   {
-    "oid": "8f8b6d8837a989a95ea9716b517644f898ef9b7e",
+    "oid": "43d9a3b93baeeec33fa0f4953f50c7242e8183b5",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3069715821/jobs/4958681052"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3069715821/jobs/4958680961"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3069715821/jobs/4958680871"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4316/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Reduce the number of tests run for VTCM testing in order to\u2026"
+  },
+  {
+    "oid": "8f8b6d8837a989a95ea9716b517644f898ef9b7e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3069095074/jobs/4957340626"
       },
       {
@@ -14,7 +40,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3069095074/jobs/4957340898"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[ci] Add retries to docker push (#12773)"
-  },
-  {
-    "oid": "c9002509f6a16ea04e711d151973fe4bcce6a365",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3063691242/jobs/4946047217"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3063691242/jobs/4946047019"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3063691242/jobs/4946047125"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4301/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Target] Print deprecation warning before canonicalisation in build m\u2026"
   }
 ]
