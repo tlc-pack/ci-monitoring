@@ -1,5 +1,31 @@
 [
   {
+    "oid": "38f53e8c95d6b4387510e38da89b02edb913e886",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3071293702/jobs/4961843020"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3071293702/jobs/4961842959"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3071293702/jobs/4961842899"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4322/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] [runtime] Improve runtime resource management (#12727)"
+  },
+  {
     "oid": "bb80f19ea8493af71c6130301f1b479143d213ee",
     "statuses": [
       {
@@ -35,7 +61,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3070975671/jobs/4961243136"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[community] Fix outdated contributor GitHub usernames (#12799)"
-  },
-  {
-    "oid": "9a3b3dd1ceac8f9b065636146756baead39b8ab6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3064425098/jobs/4947511945"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3064425098/jobs/4947512058"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3064425098/jobs/4947512008"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4307/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] Fix parse minimal i32 literal for tir script (#12772)"
   }
 ]
