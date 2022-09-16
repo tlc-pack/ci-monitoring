@@ -1,5 +1,31 @@
 [
   {
+    "oid": "02c2eae510d6d6c15189427c97819f7ce05f002d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3065511925/jobs/4949686451"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3065511925/jobs/4949686493"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3065511925/jobs/4949686534"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4310/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Enable Clone Function for Task-Level Classes (#12796)"
+  },
+  {
     "oid": "e6525a30e6de3bc3f95564beeead8e9e8b1f9efc",
     "statuses": [
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4309/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[microTVM][Zephyr] Fix PLL freq. in overlay for nucleo_l4r5zi board (\u2026"
-  },
-  {
-    "oid": "296565aaf985adbc33ede565e9b167987138ddfc",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3056371279/jobs/4930464642"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3056371279/jobs/4930464532"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3056371279/jobs/4930464432"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4295/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fixed pylint issues after moving to venv in ci_lint docker (#12775)"
   }
 ]
