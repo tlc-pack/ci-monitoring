@@ -1,5 +1,31 @@
 [
   {
+    "oid": "bb80f19ea8493af71c6130301f1b479143d213ee",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3071066222/jobs/4961423984"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3071066222/jobs/4961424132"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3071066222/jobs/4961424061"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4321/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Add debug option to hexagon pytest (#12795)"
+  },
+  {
     "oid": "aded9d43ba1e798031900911cca4613487db84fe",
     "statuses": [
       {
@@ -30,7 +56,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3070556635/jobs/4960402666"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TVMScript] Fix parse minimal i32 literal for tir script (#12772)"
-  },
-  {
-    "oid": "6a051843a9af11261cc0103837f517db14066fc5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3064421281/jobs/4947504372"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3064421281/jobs/4947504438"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3064421281/jobs/4947504306"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4306/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] IRBuilder methods for `For` (#12786)"
   }
 ]
