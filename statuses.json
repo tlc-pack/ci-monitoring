@@ -1,5 +1,26 @@
 [
   {
+    "oid": "e92f5d43f334752d4928764aa7203f229a07bd9b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3073808698/jobs/4966173224"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3073808698/jobs/4966173293"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3073808698/jobs/4966173256"
+      }
+    ],
+    "messageHeadline": "[BugFix][TIR] Fix Buffer LCA Detector (#12819)"
+  },
+  {
     "oid": "91cce56cfa697a6a2e097bbae1c67ace22ef8af3",
     "statuses": [
       {
@@ -362,31 +383,5 @@
       }
     ],
     "messageHeadline": "[TVMScript] IRBuilder methods for `Axis` (#12808)"
-  },
-  {
-    "oid": "77d0a288df4a1975784def14b316bde576fe3980",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3065830166/jobs/4950331937"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3065830166/jobs/4950331791"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3065830166/jobs/4950331862"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4311/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule][Test] MLT uses SEqual tests (#12805)"
   }
 ]
