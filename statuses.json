@@ -1,5 +1,57 @@
 [
   {
+    "oid": "b2c5addbb4e92aa770f0cd0847eabb43400ac9d2",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3075542843/jobs/4969040695"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3075542843/jobs/4969040716"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3075542843/jobs/4969040746"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4329/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMScript] IRBuilder methods for `Stmt` (#12830)"
+  },
+  {
+    "oid": "d1871a6957b4f469f1b994aa6c89e0d209b64f05",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3075514085/jobs/4968991578"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3075514085/jobs/4968991662"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3075514085/jobs/4968991625"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4328/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Relax conditions of rule Cross-Thread Reduction (#12825)"
+  },
+  {
     "oid": "1ecf084eecaff167967df1a8c998de72e1198c24",
     "statuses": [
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "Fix for import requests and import caffe failures (#12813)"
-  },
-  {
-    "oid": "6b3be496e6ac2e2de22a59d935e5256e04bc8c74",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3068091914/jobs/4955126669"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3068091914/jobs/4955126560"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3068091914/jobs/4955126446"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4314/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule][Minor]Fix Random State Fork in TuneContext Clone Funct\u2026"
-  },
-  {
-    "oid": "9b17f344a31a13226458a2d48dcb7b55ce282274",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3065981124/jobs/4950650665"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3065981124/jobs/4950650769"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3065981124/jobs/4950650510"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4313/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][docker] Fix nightly Docker tests (#12804)"
   }
 ]
