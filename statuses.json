@@ -1,5 +1,31 @@
 [
   {
+    "oid": "79c48f38878788b46d3acd1945469ae97e508d7d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3084569188/jobs/4986868317"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3084569188/jobs/4986868481"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3084569188/jobs/4986868192"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4336/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR][Bugfix] Correct handling of buffer argument when scheduling (#1\u2026"
+  },
+  {
     "oid": "f19046caba1a87fb21a832dff74cd80699703576",
     "statuses": [
       {
@@ -66,7 +92,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3084156761/jobs/4985975458"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] [runtime] Improve runtime resource management (#12727)"
-  },
-  {
-    "oid": "bb80f19ea8493af71c6130301f1b479143d213ee",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3071066222/jobs/4961423984"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3071066222/jobs/4961424132"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3071066222/jobs/4961424061"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4321/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Add debug option to hexagon pytest (#12795)"
   }
 ]
