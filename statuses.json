@@ -1,5 +1,26 @@
 [
   {
+    "oid": "2af9b90ec191424724842795c552d4c15682eb8c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3082729158/jobs/4982784410"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3082729158/jobs/4982784573"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3082729158/jobs/4982784216"
+      }
+    ],
+    "messageHeadline": "[TIR] Implement API for padded layout transformations (#12720)"
+  },
+  {
     "oid": "60cf692a63a22cd2698273c4945f037b4b22474b",
     "statuses": [
       {
@@ -362,31 +383,5 @@
       }
     ],
     "messageHeadline": "[ci] Fix docs push (#12810)"
-  },
-  {
-    "oid": "7c96e255ce7d6d6a22b3665449ebfafb581a9fc8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3070059794/jobs/4959397614"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3070059794/jobs/4959397721"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3070059794/jobs/4959397829"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4317/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] [runtime] Protect access to global HexagonBufferManager map\u2026"
   }
 ]
