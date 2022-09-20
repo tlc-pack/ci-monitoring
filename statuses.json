@@ -1,5 +1,26 @@
 [
   {
+    "oid": "5dfa8da00ec658934f3fc0df8eb9f41a167e1545",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3092935460/jobs/5004751193"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3092935460/jobs/5004751064"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3092935460/jobs/5004750950"
+      }
+    ],
+    "messageHeadline": "[Hexagon] 2-Stage Pipeline; Lower Async TIR primitives to Hexagon Use\u2026"
+  },
+  {
     "oid": "d9f7cf3539bc9e94f7b5b2c343536388e1b7fd26",
     "statuses": [
       {
@@ -362,31 +383,5 @@
       }
     ],
     "messageHeadline": "[TVMScript] IRBuilder methods for `Stmt` (#12830)"
-  },
-  {
-    "oid": "d1871a6957b4f469f1b994aa6c89e0d209b64f05",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3075514085/jobs/4968991578"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3075514085/jobs/4968991662"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3075514085/jobs/4968991625"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4328/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Relax conditions of rule Cross-Thread Reduction (#12825)"
   }
 ]
