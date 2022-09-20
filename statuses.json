@@ -1,5 +1,31 @@
 [
   {
+    "oid": "d9f7cf3539bc9e94f7b5b2c343536388e1b7fd26",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3091916160/jobs/5002582714"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3091916160/jobs/5002582851"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3091916160/jobs/5002582579"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4342/display/redirect"
+      }
+    ],
+    "messageHeadline": "Revert \"[ci] Lint PR title/body for @ tags (#12840)\" (#12848)"
+  },
+  {
     "oid": "ecd003c742da85d4945c7d02e9301e07ad413136",
     "statuses": [
       {
@@ -14,7 +40,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3091272559/jobs/5001138886"
       },
       {
@@ -35,12 +61,12 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3091268570/jobs/5001130273"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3091268570/jobs/5001129921"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Relax conditions of rule Cross-Thread Reduction (#12825)"
-  },
-  {
-    "oid": "1ecf084eecaff167967df1a8c998de72e1198c24",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3074748114/jobs/4967719727"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3074748114/jobs/4967719752"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3074748114/jobs/4967719784"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4327/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] Add more helper functions to the printer infra  (#12829)"
   }
 ]
