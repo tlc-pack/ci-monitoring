@@ -1,5 +1,31 @@
 [
   {
+    "oid": "b051cad9f40671675d7101ac510b6f733cff0bc2",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3095489346/jobs/5009953700"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3095489346/jobs/5009953760"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3095489346/jobs/5009953822"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/v0.10.0/1/display/redirect"
+      }
+    ],
+    "messageHeadline": "[FIX,PROFILING] Fix gpu timer name and lookup (#12849)"
+  },
+  {
     "oid": "d4e3207cca1bae532e6e616eca2e80191e45b437",
     "statuses": [
       {
@@ -305,8 +331,8 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4336/display/redirect"
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/v0.10/1/display/redirect"
       }
     ],
     "messageHeadline": "[TIR][Bugfix] Correct handling of buffer argument when scheduling (#1\u2026"
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Create test examples to show parallelization (#12654)"
-  },
-  {
-    "oid": "e30ac71bdecea3625c150a49591c886e60a48479",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3084156761/jobs/4985975380"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3084156761/jobs/4985975569"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3084156761/jobs/4985975458"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4333/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Arith][TIR] IntSetAnalyzer, delay intersection of IntSet until use (\u2026"
   }
 ]
