@@ -1,5 +1,31 @@
 [
   {
+    "oid": "da0e5e3be2834b214ca7035fb50d9d378ecc5c52",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3099399667/jobs/5018491630"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3099399667/jobs/5018491305"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3099399667/jobs/5018491475"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4350/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Utils] Disable automatic move constructor for tvm::With (#12822)"
+  },
+  {
     "oid": "fdc6894b7dae096d0ec983292aa0a2a475843f56",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TIR][Bugfix] Correct handling of buffer argument when scheduling (#1\u2026"
-  },
-  {
-    "oid": "f19046caba1a87fb21a832dff74cd80699703576",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3084231483/jobs/4986141861"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3084231483/jobs/4986141968"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3084231483/jobs/4986141765"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4335/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Support padding for irregular shapes for CUDA tensor c\u2026"
   }
 ]
