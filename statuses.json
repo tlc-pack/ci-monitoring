@@ -1,5 +1,31 @@
 [
   {
+    "oid": "195ae72b5c6f0df68fac41f7808d125d155a6345",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3107826695/jobs/5036357995"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3107826695/jobs/5036357855"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3107826695/jobs/5036357763"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4356/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TOPI] Fix dtype legalize logic for CPU dot product instruction (#12865)"
+  },
+  {
     "oid": "fe75f00991f60d4483d2d14f7ec23bb6fda956a9",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Revert \"[ci] Lint PR title/body for @ tags (#12840)\" (#12848)"
-  },
-  {
-    "oid": "ecd003c742da85d4945c7d02e9301e07ad413136",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3091272559/jobs/5001139085"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3091272559/jobs/5001139344"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3091272559/jobs/5001138886"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4341/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Lint PR title/body for @ tags (#12840)"
   }
 ]
