@@ -1,5 +1,31 @@
 [
   {
+    "oid": "0b074d8f06dc411bcf779e8b59645626228bf5ce",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3108915049/jobs/5038624754"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3108915049/jobs/5038624838"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3108915049/jobs/5038624927"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4359/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix clang warnings (#12876)"
+  },
+  {
     "oid": "4e783a6087fd236c588cde30e0ac99daa15afe61",
     "statuses": [
       {
@@ -40,7 +66,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3108473993/jobs/5037710886"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Fix caffe, boost install in Python venvs by creating python3.X link (\u2026"
-  },
-  {
-    "oid": "534378b935aa08b77e7529ec183133a24f121ae4",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3093355137/jobs/5005631343"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3093355137/jobs/5005631071"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3093355137/jobs/5005631211"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4344/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Containers] Add Array::Map (#12692)"
   }
 ]
