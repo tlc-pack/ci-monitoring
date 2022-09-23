@@ -1,5 +1,31 @@
 [
   {
+    "oid": "e8aeb4adf3525837db5f24965104640163b38f0e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3114025692/jobs/5049377377"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3114025692/jobs/5049377579"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3114025692/jobs/5049377718"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4363/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Add Zephyr-SDK binaries to PATH env. in ci_cortexm (#12884)"
+  },
+  {
     "oid": "d80ce6b1ba5439dbe0437be6e37121844f87a113",
     "statuses": [
       {
@@ -357,31 +383,5 @@
       }
     ],
     "messageHeadline": "[TVMScript][Fix] Correct round-trip of explicit root block (#12673)"
-  },
-  {
-    "oid": "b051cad9f40671675d7101ac510b6f733cff0bc2",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3095489346/jobs/5009953700"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3095489346/jobs/5009953760"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3095489346/jobs/5009953822"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/v0.10.0/1/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FIX,PROFILING] Fix gpu timer name and lookup (#12849)"
   }
 ]
