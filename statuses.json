@@ -1,5 +1,57 @@
 [
   {
+    "oid": "4d5ed073250aabf1dab50001aa4c85ec505062a7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3131814470/jobs/5083524680"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3131814470/jobs/5083524549"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3131814470/jobs/5083524619"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4382/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Fix GetProducer/Consumer for duplicating dep edges (#12910)"
+  },
+  {
+    "oid": "5ddd35c37724bec8c4e89d911b31d4ecd6e41caa",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3131811952/jobs/5083519117"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3131811952/jobs/5083519184"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3131811952/jobs/5083519031"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4381/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay][TE] Add default param name if needed (#12912)"
+  },
+  {
     "oid": "830ebc4ec8d588bc84c283c45b22dbee1340b95d",
     "statuses": [
       {
@@ -40,7 +92,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3131437909/jobs/5082779286"
       },
       {
@@ -321,57 +373,5 @@
       }
     ],
     "messageHeadline": "[TIR] Fix plan buffer allocation location for loop carried dependenci\u2026"
-  },
-  {
-    "oid": "71f25b3d6c851046e925ef6a2d2626626084913a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3120153643/jobs/5060538331"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3120153643/jobs/5060538284"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3120153643/jobs/5060538377"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4367/display/redirect"
-      }
-    ],
-    "messageHeadline": "[IR] Use TVM_DEFINE_OBJECT_REF_METHODS macro for Op (#12893)"
-  },
-  {
-    "oid": "fbb500e92f4f3104710ae4119871e6c105de4dc4",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3118429955/jobs/5057713154"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3118429955/jobs/5057713122"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3118429955/jobs/5057713136"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4366/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][Schedule] Relax cache read/write's restriction and fix unexpect\u2026"
   }
 ]
