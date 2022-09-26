@@ -1,20 +1,72 @@
 [
   {
-    "oid": "fd268137237d2f6fbff4aa4517449284330c3cd8",
+    "oid": "f25a702a1fb2aef6ded6fbb0384720dadacbd8ef",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/actions/runs/3130277900/jobs/5080345961"
+        "url": "https://github.com/apache/tvm/actions/runs/3130909931/jobs/5081679350"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/actions/runs/3130277900/jobs/5080345833"
+        "url": "https://github.com/apache/tvm/actions/runs/3130909931/jobs/5081679199"
       },
       {
         "name": "CI / Android",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3130909931/jobs/5081679054"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4378/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TOPI][Hexagon] Add schedule and test for maxpool uint8 layout (#12826)"
+  },
+  {
+    "oid": "e1f3f90588aa2d9bb71e0ca8ebc5baab865e054d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3130896679/jobs/5081650724"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3130896679/jobs/5081650573"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3130896679/jobs/5081650851"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4377/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TOPI][Hexagon] Implement quantize op for hexagon (#12820)"
+  },
+  {
+    "oid": "fd268137237d2f6fbff4aa4517449284330c3cd8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3130277900/jobs/5080345961"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3130277900/jobs/5080345833"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3130277900/jobs/5080346067"
       },
       {
@@ -321,57 +373,5 @@
       }
     ],
     "messageHeadline": "[METASCHEDULE] Mark work_dir as not optional in docs (#12888)"
-  },
-  {
-    "oid": "e8aeb4adf3525837db5f24965104640163b38f0e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3114025692/jobs/5049377377"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3114025692/jobs/5049377579"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3114025692/jobs/5049377718"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4363/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Add Zephyr-SDK binaries to PATH env. in ci_cortexm (#12884)"
-  },
-  {
-    "oid": "d80ce6b1ba5439dbe0437be6e37121844f87a113",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3111076307/jobs/5042956339"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3111076307/jobs/5042956260"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3111076307/jobs/5042956179"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4362/display/redirect"
-      }
-    ],
-    "messageHeadline": "[EZ][Release] Update gather PRs Script (#12862)"
   }
 ]
