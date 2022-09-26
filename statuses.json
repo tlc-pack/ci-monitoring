@@ -1,5 +1,52 @@
 [
   {
+    "oid": "87085b0e0dad2a422993472e35431d4f22fd69d8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3126516420/jobs/5072103874"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3126516420/jobs/5072103566"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3126516420/jobs/5072103730"
+      }
+    ],
+    "messageHeadline": "[frontend][pytorch]Support aten::Tensor_split operator (#12871)"
+  },
+  {
+    "oid": "cc6e01edc6390de19c72f9283a6d4fa178672836",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3126509173/jobs/5072088452"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3126509173/jobs/5072088585"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3126509173/jobs/5072088322"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4371/display/redirect"
+      }
+    ],
+    "messageHeadline": "[frontend][pytorch]support aten::zero_ operator (#12872)"
+  },
+  {
     "oid": "46ea2ed42ee41225141c5ed522900d340b08944d",
     "statuses": [
       {
@@ -331,57 +378,5 @@
       }
     ],
     "messageHeadline": "[TOPI] Add layer norm operator (#12864)"
-  },
-  {
-    "oid": "86f9580498e7d4b5c826e7ae55b05f2a4e35a95c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3108473993/jobs/5037711018"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3108473993/jobs/5037711143"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3108473993/jobs/5037710886"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4357/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay] Fix handling of TransfromLayout in TE compiler cache (#12874)"
-  },
-  {
-    "oid": "195ae72b5c6f0df68fac41f7808d125d155a6345",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3107826695/jobs/5036357995"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3107826695/jobs/5036357855"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3107826695/jobs/5036357763"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4356/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TOPI] Fix dtype legalize logic for CPU dot product instruction (#12865)"
   }
 ]
