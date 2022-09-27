@@ -1,5 +1,31 @@
 [
   {
+    "oid": "178f82dc481bf31961206412c22dd5519a245b49",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3139769966/jobs/5100495452"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3139769966/jobs/5100495381"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3139769966/jobs/5100495314"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4395/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TOPI] Implement Einsum with reduction axes (#12913)"
+  },
+  {
     "oid": "c89a8baeeb0e76eb67a38651cc8a5829195f9a6b",
     "statuses": [
       {
@@ -30,17 +56,17 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3139214531/jobs/5099395283"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3139214531/jobs/5099395360"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3139214531/jobs/5099395219"
       },
       {
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "[Relay][TE] Add default param name if needed (#12912)"
-  },
-  {
-    "oid": "830ebc4ec8d588bc84c283c45b22dbee1340b95d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3131528329/jobs/5082958742"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3131528329/jobs/5082958541"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3131528329/jobs/5082958658"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4380/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Refactor IndexMap::Inverse in terms of NonSurjectiveInverse (#1\u2026"
   }
 ]
