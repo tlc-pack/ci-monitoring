@@ -1,5 +1,57 @@
 [
   {
+    "oid": "9a673faa74ed7cd715a4e011716bcce3fd2158b6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3137385440/jobs/5095489051"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3137385440/jobs/5095488798"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3137385440/jobs/5095488921"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4388/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Initialize git during deploys (#12909)"
+  },
+  {
+    "oid": "77d8eef5148da6517e471b52fec61ab40ea2436d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3137371502/jobs/5095458848"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3137371502/jobs/5095458670"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3137371502/jobs/5095459005"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4387/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Runtime][Bugfix] Added type-checking for Array::insert (#12691)"
+  },
+  {
     "oid": "7dbc68d1087e2ade75314f8b0525e30fc5c6b801",
     "statuses": [
       {
@@ -336,42 +388,5 @@
       }
     ],
     "messageHeadline": "[BUILD] Re-enable ccache by default (#12839)"
-  },
-  {
-    "oid": "4ef1465d409655322cbeacbbb1b64e7791b7bf8a",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4373/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci] Temporarily disable comments bot (#12903)"
-  },
-  {
-    "oid": "87085b0e0dad2a422993472e35431d4f22fd69d8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3126516420/jobs/5072103874"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3126516420/jobs/5072103566"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3126516420/jobs/5072103730"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4372/display/redirect"
-      }
-    ],
-    "messageHeadline": "[frontend][pytorch]Support aten::Tensor_split operator (#12871)"
   }
 ]
