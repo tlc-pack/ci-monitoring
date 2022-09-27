@@ -1,5 +1,31 @@
 [
   {
+    "oid": "c89a8baeeb0e76eb67a38651cc8a5829195f9a6b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3139603566/jobs/5100176879"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3139603566/jobs/5100176939"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3139603566/jobs/5100177004"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4394/display/redirect"
+      }
+    ],
+    "messageHeadline": "[usmp] Also remap VarNode to USMP-allocated buffer (#12880)"
+  },
+  {
     "oid": "bec9f16d42fc11ac97e0f01af007551398b025a2",
     "statuses": [
       {
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4392/display/redirect"
       }
     ],
@@ -71,7 +97,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4391/display/redirect"
       }
     ],
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "[TIR] Refactor IndexMap::Inverse in terms of NonSurjectiveInverse (#1\u2026"
-  },
-  {
-    "oid": "d4fb957ae1caf34604f03d9348ee9b3d3acb4709",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3131437909/jobs/5082779097"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3131437909/jobs/5082779188"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3131437909/jobs/5082779286"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4379/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microTVM][ARM] Improve dense DSP micro kernel (#12908)"
   }
 ]
