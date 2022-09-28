@@ -1,5 +1,31 @@
 [
   {
+    "oid": "9d1fe6d8d109062de46842fa049d78cd752b8e1b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3147345673/jobs/5116764258"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3147345673/jobs/5116764386"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3147345673/jobs/5116764320"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4399/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Target] Add Ampere GPUs CUDA tags (#12930)"
+  },
+  {
     "oid": "e3a6cb6a1bc1764e261321713ab275461b36dcc0",
     "statuses": [
       {
@@ -14,7 +40,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3146921147/jobs/5115910105"
       },
       {
@@ -30,7 +56,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3146759614/jobs/5115566529"
       },
       {
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "[TIR][Transform] Remove num_unpacked_args from MakePackedAPI (#12892)"
-  },
-  {
-    "oid": "b61f633e10b02ac3e767ad268562a4dd2c178de5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3133381034/jobs/5086689692"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3133381034/jobs/5086689851"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3133381034/jobs/5086689772"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4384/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVM PyTorch Integration] optimized_torch & as_torch how-to guide (#1\u2026"
   }
 ]
