@@ -1,5 +1,31 @@
 [
   {
+    "oid": "d1c9febeca8d9e2d938f1bedfe4daf1da46373e6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3144899310/jobs/5111502508"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3144899310/jobs/5111502320"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3144899310/jobs/5111502131"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4396/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Remove support for 22.05 version of the driver stack (#12770)"
+  },
+  {
     "oid": "178f82dc481bf31961206412c22dd5519a245b49",
     "statuses": [
       {
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "[TIR] Fix GetProducer/Consumer for duplicating dep edges (#12910)"
-  },
-  {
-    "oid": "5ddd35c37724bec8c4e89d911b31d4ecd6e41caa",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3131811952/jobs/5083519117"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3131811952/jobs/5083519184"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3131811952/jobs/5083519031"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4381/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay][TE] Add default param name if needed (#12912)"
   }
 ]
