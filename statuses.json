@@ -1,5 +1,31 @@
 [
   {
+    "oid": "8c88aab77863e43985318c575a2fa648fc783338",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3149262170/jobs/5120691044"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3149262170/jobs/5120690849"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3149262170/jobs/5120690954"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4402/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Bugfix][CMake] Update the minimum CMake version to 3.18 (#12682)"
+  },
+  {
     "oid": "68f9509b0cece96b57581c3c21a145581b5a0365",
     "statuses": [
       {
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "[ci] Initialize git during deploys (#12909)"
-  },
-  {
-    "oid": "77d8eef5148da6517e471b52fec61ab40ea2436d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3137371502/jobs/5095458848"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3137371502/jobs/5095458670"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3137371502/jobs/5095459005"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4387/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Runtime][Bugfix] Added type-checking for Array::insert (#12691)"
   }
 ]
