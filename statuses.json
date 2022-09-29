@@ -1,5 +1,31 @@
 [
   {
+    "oid": "9a451411650905866822cc79bd3365942d5dd9d1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3151779766/jobs/5126167804"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3151779766/jobs/5126167977"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3151779766/jobs/5126168126"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4406/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Use buffer's dtype when converting pad_value to TIR (#12925)"
+  },
+  {
     "oid": "0d8c9cef7212e62c18814f1632613fb04de6d290",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TIR] add unit-tests for upcoming primfunc-slicing (#12794)"
-  },
-  {
-    "oid": "82e6fc41f8069fdaf98991faee31e21f77e2cf8c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3138903053/jobs/5098748308"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3138903053/jobs/5098748427"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3138903053/jobs/5098748549"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4391/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microTVM] add the option to open a saved micro project for debugging\u2026"
   }
 ]
