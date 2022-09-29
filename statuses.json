@@ -1,5 +1,31 @@
 [
   {
+    "oid": "5f132fd6c125a266764f9d0f37e2e5694bad5a55",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3149847011/jobs/5121942110"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3149847011/jobs/5121941456"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3149847011/jobs/5121941853"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4403/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Support conversion of add/mul to requantize where possible (\u2026"
+  },
+  {
     "oid": "8c88aab77863e43985318c575a2fa648fc783338",
     "statuses": [
       {
@@ -9,12 +35,12 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3149262170/jobs/5120690849"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3149262170/jobs/5120690954"
       },
       {
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] depth_to_space slice op (#12669)"
-  },
-  {
-    "oid": "9a673faa74ed7cd715a4e011716bcce3fd2158b6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3137385440/jobs/5095489051"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3137385440/jobs/5095488798"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3137385440/jobs/5095488921"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4388/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Initialize git during deploys (#12909)"
   }
 ]
