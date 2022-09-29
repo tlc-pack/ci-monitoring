@@ -1,5 +1,31 @@
 [
   {
+    "oid": "5634a1a17a3d337728bdc375183c9aee71c40b29",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3150383620/jobs/5123099399"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3150383620/jobs/5123099588"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3150383620/jobs/5123099745"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4404/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CODEGEN][OPENCL] Compatibility for OpenCL version 3.0 (#12938)"
+  },
+  {
     "oid": "5f132fd6c125a266764f9d0f37e2e5694bad5a55",
     "statuses": [
       {
@@ -9,7 +35,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3149847011/jobs/5121941456"
       },
       {
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] [runtime] Add thread manager to resource management (#12905)"
-  },
-  {
-    "oid": "332b1469b71cf7eb5e40ec385eb9664f3959643a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3137617155/jobs/5095992430"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3137617155/jobs/5095992308"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3137617155/jobs/5095992174"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4389/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] depth_to_space slice op (#12669)"
   }
 ]
