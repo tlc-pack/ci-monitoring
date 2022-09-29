@@ -1,15 +1,67 @@
 [
   {
-    "oid": "9d1fe6d8d109062de46842fa049d78cd752b8e1b",
+    "oid": "68f9509b0cece96b57581c3c21a145581b5a0365",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/actions/runs/3147345673/jobs/5116764258"
+        "url": "https://github.com/apache/tvm/actions/runs/3148180100/jobs/5118443691"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3148180100/jobs/5118443723"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3148180100/jobs/5118443777"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4401/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Fix int64 dtype mismatch in Reindex (#12934)"
+  },
+  {
+    "oid": "8af43d3c11b13108eec0cea784961cf7b855c10f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3147700344/jobs/5117444417"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3147700344/jobs/5117444536"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3147700344/jobs/5117444480"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4400/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] [runtime] Add user DMA to device API resource management (#\u2026"
+  },
+  {
+    "oid": "9d1fe6d8d109062de46842fa049d78cd752b8e1b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3147345673/jobs/5116764258"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3147345673/jobs/5116764386"
       },
       {
@@ -19,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4399/display/redirect"
       }
     ],
@@ -341,57 +393,5 @@
       }
     ],
     "messageHeadline": "[Runtime][Bugfix] Added type-checking for Array::insert (#12691)"
-  },
-  {
-    "oid": "7dbc68d1087e2ade75314f8b0525e30fc5c6b801",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3135988364/jobs/5092337164"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3135988364/jobs/5092337397"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3135988364/jobs/5092336931"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4386/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ONNX] Fix test_roi_align failure (#12906)"
-  },
-  {
-    "oid": "7a4c10c44a9255ac2fa52ce7e3a83f718d60823f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3134262502/jobs/5088592104"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3134262502/jobs/5088591906"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3134262502/jobs/5088592294"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4385/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][Transform] Remove num_unpacked_args from MakePackedAPI (#12892)"
   }
 ]
