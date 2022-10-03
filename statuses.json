@@ -1,5 +1,31 @@
 [
   {
+    "oid": "fa17da22c73fb9e95c27e4c28130835b628caf6b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3174570305/jobs/5171526079"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3174570305/jobs/5171525832"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3174570305/jobs/5171526276"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4419/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Support template-free meta schedule tuning (#12854)"
+  },
+  {
     "oid": "c3357f6820496c0ed5052fc634867ab52082d3d6",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Relay] Extend split for blocked ConvertLayout pass (#12886)"
-  },
-  {
-    "oid": "5634a1a17a3d337728bdc375183c9aee71c40b29",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3150383620/jobs/5123099399"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3150383620/jobs/5123099588"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3150383620/jobs/5123099745"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4404/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CODEGEN][OPENCL] Compatibility for OpenCL version 3.0 (#12938)"
   }
 ]
