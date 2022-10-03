@@ -1,5 +1,31 @@
 [
   {
+    "oid": "f121e5e355059bc78921b107256468abf6a10bf6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3177529370/jobs/5178073955"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3177529370/jobs/5178074062"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3177529370/jobs/5178073860"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4420/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] [runtime] VTCM Allocator (#12947)"
+  },
+  {
     "oid": "fa17da22c73fb9e95c27e4c28130835b628caf6b",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TIR] Use buffer's dtype when converting pad_value to TIR (#12925)"
-  },
-  {
-    "oid": "0d8c9cef7212e62c18814f1632613fb04de6d290",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3151447658/jobs/5125404683"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3151447658/jobs/5125404861"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3151447658/jobs/5125405066"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4405/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay] Extend split for blocked ConvertLayout pass (#12886)"
   }
 ]
