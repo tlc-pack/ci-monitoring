@@ -1,5 +1,31 @@
 [
   {
+    "oid": "2860a50ff97a2791c876bdca2685d4f35f0e2e03",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3192606828/jobs/5210275981"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3192606828/jobs/5210276087"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3192606828/jobs/5210275898"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4433/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Fix RPC session close by adding shutdown PackedFunc (#12960)"
+  },
+  {
     "oid": "2e257f037681766f0bf31f40a62b81691bbcbc8e",
     "statuses": [
       {
@@ -332,31 +358,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Support template-free meta schedule tuning (#12854)"
-  },
-  {
-    "oid": "c3357f6820496c0ed5052fc634867ab52082d3d6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3167634582/jobs/5158270210"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3167634582/jobs/5158270262"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3167634582/jobs/5158270236"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4418/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay][Op] Register some forgotten op in Python side (#12963)"
   }
 ]
