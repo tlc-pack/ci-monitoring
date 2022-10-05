@@ -1,5 +1,26 @@
 [
   {
+    "oid": "a997c23e94bd6e24038be394477b9afa602c5013",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3189187283/jobs/5202710911"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3189187283/jobs/5202711128"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3189187283/jobs/5202711013"
+      }
+    ],
+    "messageHeadline": "[CODEGEN][OPENCL] Sampler definition should be at outermost scope (#1\u2026"
+  },
+  {
     "oid": "af01526ae2214c3dded4514a025eca2771ff6e24",
     "statuses": [
       {
@@ -332,31 +353,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Change NULL to nullptr, NFC (#12944)"
-  },
-  {
-    "oid": "e9eb0bc66005a33786dd6ad2eb6c91c5eb047368",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3156609835/jobs/5136499521"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3156609835/jobs/5136499651"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3156609835/jobs/5136499581"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4414/display/redirect"
-      }
-    ],
-    "messageHeadline": "[LLVM] Change CHECK_NE(x, nullptr) to CHECK(x != nullptr), NFC (#12943)"
   }
 ]
