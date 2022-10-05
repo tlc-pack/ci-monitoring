@@ -1,10 +1,36 @@
 [
   {
-    "oid": "a997c23e94bd6e24038be394477b9afa602c5013",
+    "oid": "9618e6a457ee82830a8fce26d5a46c3444c93120",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3189888501/jobs/5204245224"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3189888501/jobs/5204245091"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3189888501/jobs/5204244946"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4430/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Use IndexMap to transform NDArray (#12949)"
+  },
+  {
+    "oid": "a997c23e94bd6e24038be394477b9afa602c5013",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3189187283/jobs/5202710911"
       },
       {
@@ -14,12 +40,12 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3189187283/jobs/5202711013"
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4429/display/redirect"
       }
     ],
@@ -332,31 +358,5 @@
       }
     ],
     "messageHeadline": "[Target] Add target_device_type attribute to override default device_\u2026"
-  },
-  {
-    "oid": "dedf6393f1575ba7614cea93d1bac89331cb310a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3156611460/jobs/5136503233"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3156611460/jobs/5136503094"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3156611460/jobs/5136503167"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4415/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Change NULL to nullptr, NFC (#12944)"
   }
 ]
