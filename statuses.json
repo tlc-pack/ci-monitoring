@@ -4,7 +4,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3194127650/jobs/5213381715"
       },
       {
@@ -16,6 +16,11 @@
         "name": "CI / Android",
         "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3194127650/jobs/5213381778"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4444/display/redirect"
       }
     ],
     "messageHeadline": "[ci] Disable flaky ethosu + roofline tests (#12956)"
