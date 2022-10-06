@@ -1,15 +1,36 @@
 [
   {
-    "oid": "59b945742d3a5f51a0f1f3e4638cc0ab356bc5ee",
+    "oid": "3d5e440fff581e30b614037997feb81bf587cefe",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/actions/runs/3193533527/jobs/5212173541"
+        "url": "https://github.com/apache/tvm/actions/runs/3194127650/jobs/5213381715"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3194127650/jobs/5213381830"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3194127650/jobs/5213381778"
+      }
+    ],
+    "messageHeadline": "[ci] Disable flaky ethosu + roofline tests (#12956)"
+  },
+  {
+    "oid": "59b945742d3a5f51a0f1f3e4638cc0ab356bc5ee",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3193533527/jobs/5212173541"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3193533527/jobs/5212173634"
       },
       {
@@ -332,31 +353,5 @@
       }
     ],
     "messageHeadline": "[BugFix][Pattern] Fixed a bug in PatternGrouper (#12901)"
-  },
-  {
-    "oid": "f3d3ecebe189af77ba3ac5163882591aaf67d8b3",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3177679349/jobs/5178388026"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3177679349/jobs/5178387923"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3177679349/jobs/5178387849"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4421/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] vrmpy tensorization for e2e compilation of int8 models (#12\u2026"
   }
 ]
