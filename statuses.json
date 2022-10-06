@@ -1,15 +1,41 @@
 [
   {
-    "oid": "d023ef47fcd680e23b9c1d69ae474a48dd132108",
+    "oid": "59b945742d3a5f51a0f1f3e4638cc0ab356bc5ee",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/actions/runs/3193066109/jobs/5211244687"
+        "url": "https://github.com/apache/tvm/actions/runs/3193533527/jobs/5212173541"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3193533527/jobs/5212173634"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3193533527/jobs/5212173456"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4442/display/redirect"
+      }
+    ],
+    "messageHeadline": "[FIX,AUTOSCHEDULER,METASCHEDULE] Handle negative extents in featuriza\u2026"
+  },
+  {
+    "oid": "d023ef47fcd680e23b9c1d69ae474a48dd132108",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3193066109/jobs/5211244687"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3193066109/jobs/5211244629"
       },
       {
@@ -20,7 +46,7 @@
       {
         "name": "tvm-ci/branch",
         "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4436/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4434/display/redirect"
       }
     ],
     "messageHeadline": "[TIR, MetaSchedule] Preserve unit block iters for auto-tensorization \u2026"
@@ -332,31 +358,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] vrmpy tensorization for e2e compilation of int8 models (#12\u2026"
-  },
-  {
-    "oid": "f121e5e355059bc78921b107256468abf6a10bf6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3177529370/jobs/5178073955"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3177529370/jobs/5178074062"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3177529370/jobs/5178073860"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4420/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] [runtime] VTCM Allocator (#12947)"
   }
 ]
