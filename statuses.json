@@ -1,5 +1,31 @@
 [
   {
+    "oid": "5e24aa2b7884c034c2369b937255999ef9f202db",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3199452291/jobs/5225220340"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3199452291/jobs/5225220497"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3199452291/jobs/5225220184"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4449/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] [runtime] Query for total and available VTCM (#12992)"
+  },
+  {
     "oid": "6147c31b366f4d342633884694a22ddf963178e5",
     "statuses": [
       {
@@ -30,7 +56,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3198638202/jobs/5223417461"
       },
       {
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4447/display/redirect"
       }
     ],
@@ -332,31 +358,5 @@
       }
     ],
     "messageHeadline": "[skip ci] Modify issue templates to align with Issue Tracking RFC (#1\u2026"
-  },
-  {
-    "oid": "3a125375a3df820b2d0ade61591b0edbc335046d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3184670836/jobs/5193344766"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3184670836/jobs/5193344483"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3184670836/jobs/5193344631"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4426/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Don't print simulator protocol messages (#12958)"
   }
 ]
