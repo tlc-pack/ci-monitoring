@@ -1,5 +1,31 @@
 [
   {
+    "oid": "bb2cec1941db6f5a67b85550faa9279c4c14e2a3",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3201303538/jobs/5229127767"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3201303538/jobs/5229127710"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3201303538/jobs/5229127825"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4458/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Fix,MetaSchedule] Correct log usage in arithmetic intensity feature \u2026"
+  },
+  {
     "oid": "78df9c1d79c3d2e583bb7b8b472f2eb535b2f2a0",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Fix RPC session close by adding shutdown PackedFunc (#12960)"
-  },
-  {
-    "oid": "2e257f037681766f0bf31f40a62b81691bbcbc8e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3192437536/jobs/5209913108"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3192437536/jobs/5209913255"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3192437536/jobs/5209912993"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4432/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Do not use `target` test fixture in Hexagon tests (#12981)"
   }
 ]
