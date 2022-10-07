@@ -1,5 +1,31 @@
 [
   {
+    "oid": "fc333f90e83c0dd912a3957a1f55749322cb87b9",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3205940538/jobs/5239073171"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3205940538/jobs/5239072904"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3205940538/jobs/5239073036"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4461/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR][Arith] Prove conditionals by transitively applying knowns (#12863)"
+  },
+  {
     "oid": "7804a9886cb8f19f7c680cb96a393e10047240fd",
     "statuses": [
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4460/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[ci] Disable flaky ethosu + roofline tests (#12956)"
-  },
-  {
-    "oid": "59b945742d3a5f51a0f1f3e4638cc0ab356bc5ee",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3193533527/jobs/5212173541"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3193533527/jobs/5212173634"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3193533527/jobs/5212173456"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4451/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FIX,AUTOSCHEDULER,METASCHEDULE] Handle negative extents in featuriza\u2026"
   }
 ]
