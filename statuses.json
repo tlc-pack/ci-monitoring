@@ -1,5 +1,31 @@
 [
   {
+    "oid": "6780c9f87db6620409f8f58c2c2925c7bd7b6681",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3202809867/jobs/5232181673"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3202809867/jobs/5232181578"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3202809867/jobs/5232181743"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4459/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Tuning API cleanup & ergonomics (#12895)"
+  },
+  {
     "oid": "bb2cec1941db6f5a67b85550faa9279c4c14e2a3",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TIR, MetaSchedule] Preserve unit block iters for auto-tensorization \u2026"
-  },
-  {
-    "oid": "2860a50ff97a2791c876bdca2685d4f35f0e2e03",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3192606828/jobs/5210275981"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3192606828/jobs/5210276087"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3192606828/jobs/5210275898"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4433/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Fix RPC session close by adding shutdown PackedFunc (#12960)"
   }
 ]
