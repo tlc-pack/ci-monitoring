@@ -1,5 +1,31 @@
 [
   {
+    "oid": "20aa0cf2f77f89c1f6840bb486f3c7742c6612f7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3207409572/jobs/5242262844"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3207409572/jobs/5242262757"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3207409572/jobs/5242262926"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4463/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Re-enable roofline test (#13007)"
+  },
+  {
     "oid": "d9e01475af1253ca3fb52d7ad91165407ca8e740",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TEST] CPU feature detection for x86 and ARM dot product instructions\u2026"
-  },
-  {
-    "oid": "2d50979606a664f01d73d986be7562c5c2f8cd7c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3195230833/jobs/5215645446"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3195230833/jobs/5215645540"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3195230833/jobs/5215645647"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4445/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] Allow T.bool type annotations (#12975)"
   }
 ]
