@@ -1,5 +1,31 @@
 [
   {
+    "oid": "84c50ef0455d126f071f7bb958f30acc784d825a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3222209667/jobs/5271033528"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3222209667/jobs/5271033412"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3222209667/jobs/5271033635"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4469/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci][docs] Add external network resources to S3 (#12989)"
+  },
+  {
     "oid": "f8666a9469f7c984283596ce796ef05489459b5e",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TIR] Require dtype.is_float() inside FloatImm (#12928)"
-  },
-  {
-    "oid": "e375c311dac3c4ec0636c1bd0e203c3cd70f7f23",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3199683767/jobs/5225717195"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3199683767/jobs/5225717310"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3199683767/jobs/5225717064"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4454/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Arith][IndexMap] Correct MapShape result for small vectorized dims (\u2026"
   }
 ]
