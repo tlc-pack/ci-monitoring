@@ -1,5 +1,31 @@
 [
   {
+    "oid": "cc235f88a4d1624933965d7b6512f21f4b1d48ef",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3230419077/jobs/5288845470"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3230419077/jobs/5288845345"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3230419077/jobs/5288845571"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4478/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Update ir_comparator message to be more clear about what is bei\u2026"
+  },
+  {
     "oid": "4f975c7506f4b8bd3f42d3f3e0f29ed9b3dbb8f4",
     "statuses": [
       {
@@ -35,7 +61,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3229834549/jobs/5287571900"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Support RewriteLayout postproc on AllocateConst  (#12991)"
-  },
-  {
-    "oid": "20aa0cf2f77f89c1f6840bb486f3c7742c6612f7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3207409572/jobs/5242262844"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3207409572/jobs/5242262757"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3207409572/jobs/5242262926"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4463/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Re-enable roofline test (#13007)"
   }
 ]
