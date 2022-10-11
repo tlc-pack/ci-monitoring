@@ -1,5 +1,31 @@
 [
   {
+    "oid": "0b034d77bd611ca7642b7211fa34110a87271f25",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3228417962/jobs/5284485885"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3228417962/jobs/5284485563"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3228417962/jobs/5284485719"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4471/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Doc] Fix the typo in the debugging doc (#13032)"
+  },
+  {
     "oid": "fcbcd156c7dd995b24b363dbddca5a8766648693",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[LOGGING] Optionally print backtrace on segfault (#12959)"
-  },
-  {
-    "oid": "50df4abf3bcc90e002669bfb10dd5a934b2f7246",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3199694760/jobs/5225742886"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3199694760/jobs/5225742764"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3199694760/jobs/5225743026"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4456/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay] optimize dumpir time (#12792)"
   }
 ]
