@@ -1,5 +1,31 @@
 [
   {
+    "oid": "4f975c7506f4b8bd3f42d3f3e0f29ed9b3dbb8f4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3230135728/jobs/5288235180"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3230135728/jobs/5288235331"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3230135728/jobs/5288235458"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4477/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] [runtime] Support VTCM alignments of 128 or 2k (#12999)"
+  },
+  {
     "oid": "05d30f250295b5dead90c16e7858e157abf89eea",
     "statuses": [
       {
@@ -56,7 +82,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3229457693/jobs/5286783775"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[ci] Re-enable roofline test (#13007)"
-  },
-  {
-    "oid": "d9e01475af1253ca3fb52d7ad91165407ca8e740",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3205977933/jobs/5239154009"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3205977933/jobs/5239153749"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3205977933/jobs/5239153882"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4462/display/redirect"
-      }
-    ],
-    "messageHeadline": "[UnitTest][TIR] Support IRModule comparisons in CompareBeforeAfter (#\u2026"
   }
 ]
