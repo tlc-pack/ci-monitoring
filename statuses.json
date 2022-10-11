@@ -1,5 +1,31 @@
 [
   {
+    "oid": "05d30f250295b5dead90c16e7858e157abf89eea",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3229834549/jobs/5287572078"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3229834549/jobs/5287571900"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3229834549/jobs/5287572194"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4476/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Docs] Update Release Process Docs -- Add Ver. Bump Step (#13039)"
+  },
+  {
     "oid": "df0ffc3b50921d938ee27ef6ae3914e37e2c8584",
     "statuses": [
       {
@@ -40,7 +66,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3229457693/jobs/5286783606"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[UnitTest][TIR] Support IRModule comparisons in CompareBeforeAfter (#\u2026"
-  },
-  {
-    "oid": "fc333f90e83c0dd912a3957a1f55749322cb87b9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3205940538/jobs/5239073171"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3205940538/jobs/5239072904"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3205940538/jobs/5239073036"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4461/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][Arith] Prove conditionals by transitively applying knowns (#12863)"
   }
 ]
