@@ -1,5 +1,31 @@
 [
   {
+    "oid": "df0ffc3b50921d938ee27ef6ae3914e37e2c8584",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3229674530/jobs/5287240426"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3229674530/jobs/5287240293"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3229674530/jobs/5287240132"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4475/display/redirect"
+      }
+    ],
+    "messageHeadline": "[FIX,LOWERING] Add attrs from Relay Functions to PrimFuncs in Metasch\u2026"
+  },
+  {
     "oid": "cd077575f365cc2e7fb20b263d7e533b202518e4",
     "statuses": [
       {
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4473/display/redirect"
       }
     ],
@@ -71,7 +97,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4472/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TIR][Arith] Prove conditionals by transitively applying knowns (#12863)"
-  },
-  {
-    "oid": "7804a9886cb8f19f7c680cb96a393e10047240fd",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3205003677/jobs/5236976338"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3205003677/jobs/5236976489"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3205003677/jobs/5236976637"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4460/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] disable cache_write schedule type from sw pipeline test (#1\u2026"
   }
 ]
