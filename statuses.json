@@ -1,5 +1,31 @@
 [
   {
+    "oid": "48829756e1394df7d3a05d312f0caf7dc322d50a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3232703950/jobs/5293637431"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3232703950/jobs/5293637724"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3232703950/jobs/5293637573"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4480/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Fix the stride calculation in InjectRollingBuffer (#13016)"
+  },
+  {
     "oid": "a752b74956db5c9201e503d70ddf36977eafdf40",
     "statuses": [
       {
@@ -14,7 +40,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3232401383/jobs/5292972864"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TIR][Schedule] Add cache_inplace primitive to cache opaque buffer (#\u2026"
-  },
-  {
-    "oid": "d92d47ad7ffcf47c7355cd3f83590b6e241b2420",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3209254213/jobs/5245817803"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3209254213/jobs/5245817875"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3209254213/jobs/5245817838"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4465/display/redirect"
-      }
-    ],
-    "messageHeadline": "[docs] fixed codebase_walkthrough document bug (#13008)"
   }
 ]
