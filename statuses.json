@@ -1,5 +1,31 @@
 [
   {
+    "oid": "b8cfc4ca8257bfb582e8d15ef27c70e53bb2816e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3232985307/jobs/5294253064"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3232985307/jobs/5294252685"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3232985307/jobs/5294252869"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4481/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Update Compute Library to v22.08 (#13035)"
+  },
+  {
     "oid": "48829756e1394df7d3a05d312f0caf7dc322d50a",
     "statuses": [
       {
@@ -30,12 +56,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3232401383/jobs/5292972672"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3232401383/jobs/5292972761"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Node] Expose StructuralEqual/Hash handler implemenation to header (#\u2026"
-  },
-  {
-    "oid": "f21b5ca4aedd1cc814f43076d3a5a4bf2c7b516a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3218277352/jobs/5262252351"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3218277352/jobs/5262252173"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3218277352/jobs/5262252491"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4466/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][Schedule] Add cache_inplace primitive to cache opaque buffer (#\u2026"
   }
 ]
