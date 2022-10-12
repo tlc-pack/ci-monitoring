@@ -1,5 +1,31 @@
 [
   {
+    "oid": "90c666f860f840050a07e05e3abf196d7401cd81",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3237690661/jobs/5305049536"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3237690661/jobs/5305049697"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3237690661/jobs/5305049846"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4484/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay][Pass] ConcretizeCastLikeRewrite for SimplifyExpr (#12923)"
+  },
+  {
     "oid": "b18f6425f951f5e9e039f497898be7d3227ddc93",
     "statuses": [
       {
@@ -9,7 +35,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3237164116/jobs/5303891245"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[microTVM] Add Cortex-M DSP schedules for optimal conv2d layouts (#12\u2026"
-  },
-  {
-    "oid": "84c50ef0455d126f071f7bb958f30acc784d825a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3222209667/jobs/5271033528"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3222209667/jobs/5271033412"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3222209667/jobs/5271033635"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4469/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][docs] Add external network resources to S3 (#12989)"
   }
 ]
