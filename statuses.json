@@ -1,5 +1,31 @@
 [
   {
+    "oid": "29a8f06066cdfb38df63f25d8ceb951107df69bb",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3245356412/jobs/5322788753"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3245356412/jobs/5322788844"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3245356412/jobs/5322788604"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4488/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Arith] Optional rewriting and simplification into AND of ORs (#12972)"
+  },
+  {
     "oid": "f06896f38f0898c7cdd17d62fd05318d10e20979",
     "statuses": [
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4487/display/redirect"
       }
     ],
@@ -30,7 +56,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3244515046/jobs/5320792566"
       },
       {
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4486/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Update to 0.11.dev0 (#13036)"
-  },
-  {
-    "oid": "afeab6e8a320b3a4aedbbe0b25886501146c1942",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3228664916/jobs/5285050260"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3228664916/jobs/5285050151"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3228664916/jobs/5285049990"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4473/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] AST, Source and diagnostics for Parser (#12978)"
   }
 ]
