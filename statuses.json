@@ -1,5 +1,31 @@
 [
   {
+    "oid": "b389d4dac45bb1fd502940d87126d0a89e15188e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3245739710/jobs/5323657017"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3245739710/jobs/5323657121"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3245739710/jobs/5323656921"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4489/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Torch] Fix torch contrib issues (#13061)"
+  },
+  {
     "oid": "29a8f06066cdfb38df63f25d8ceb951107df69bb",
     "statuses": [
       {
@@ -14,7 +40,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3245356412/jobs/5322788604"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[FIX,LOWERING] Add attrs from Relay Functions to PrimFuncs in Metasch\u2026"
-  },
-  {
-    "oid": "cd077575f365cc2e7fb20b263d7e533b202518e4",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3229457693/jobs/5286783775"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3229457693/jobs/5286783894"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3229457693/jobs/5286783606"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4474/display/redirect"
-      }
-    ],
-    "messageHeadline": "Update to 0.11.dev0 (#13036)"
   }
 ]
