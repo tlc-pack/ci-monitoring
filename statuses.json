@@ -1,5 +1,31 @@
 [
   {
+    "oid": "493458e552bd6b0cb29e7e453dc3ee4cd649ad57",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3251993760/jobs/5337697616"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3251993760/jobs/5337697759"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3251993760/jobs/5337697875"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4491/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TE] Raise error for non-bijective transformation (#12926)"
+  },
+  {
     "oid": "f232272e75350a9b41e76155f72da2cc627a8e03",
     "statuses": [
       {
@@ -14,7 +40,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3251496872/jobs/5336563365"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] [runtime] Support VTCM alignments of 128 or 2k (#12999)"
-  },
-  {
-    "oid": "05d30f250295b5dead90c16e7858e157abf89eea",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3229834549/jobs/5287572078"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3229834549/jobs/5287571900"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3229834549/jobs/5287572194"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4476/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Docs] Update Release Process Docs -- Add Ver. Bump Step (#13039)"
   }
 ]
