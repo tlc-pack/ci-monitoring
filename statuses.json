@@ -1,5 +1,31 @@
 [
   {
+    "oid": "605876e638a7303acb63ef8a9dd9ebfefc30ae24",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3252053665/jobs/5337828119"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3252053665/jobs/5337827944"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3252053665/jobs/5337827811"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4492/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TEST] Fix the broken VNNI MetaSchedule test (#13067)"
+  },
+  {
     "oid": "493458e552bd6b0cb29e7e453dc3ee4cd649ad57",
     "statuses": [
       {
@@ -30,12 +56,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3251496872/jobs/5336563488"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3251496872/jobs/5336563597"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TIR] Update ir_comparator message to be more clear about what is bei\u2026"
-  },
-  {
-    "oid": "4f975c7506f4b8bd3f42d3f3e0f29ed9b3dbb8f4",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3230135728/jobs/5288235180"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3230135728/jobs/5288235331"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3230135728/jobs/5288235458"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4477/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] [runtime] Support VTCM alignments of 128 or 2k (#12999)"
   }
 ]
