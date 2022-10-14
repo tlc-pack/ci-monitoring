@@ -1,5 +1,31 @@
 [
   {
+    "oid": "f232272e75350a9b41e76155f72da2cc627a8e03",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3251496872/jobs/5336563488"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3251496872/jobs/5336563597"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3251496872/jobs/5336563365"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4490/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Refactor NarrowDataType into DataTypeLegalizer (#13049)"
+  },
+  {
     "oid": "b389d4dac45bb1fd502940d87126d0a89e15188e",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Docs] Update Release Process Docs -- Add Ver. Bump Step (#13039)"
-  },
-  {
-    "oid": "df0ffc3b50921d938ee27ef6ae3914e37e2c8584",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3229674530/jobs/5287240426"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3229674530/jobs/5287240293"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3229674530/jobs/5287240132"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4475/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FIX,LOWERING] Add attrs from Relay Functions to PrimFuncs in Metasch\u2026"
   }
 ]
