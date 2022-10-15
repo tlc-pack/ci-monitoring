@@ -1,10 +1,36 @@
 [
   {
-    "oid": "5ed94eefad23df17cc998f058fb2dede6ce9f7ae",
+    "oid": "71f32ca4e8e6f33da55cd6c39c5019caadcdc78e",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3254235352/jobs/5342254902"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3254235352/jobs/5342254964"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3254235352/jobs/5342254931"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4497/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule][UX] Support Interactive Performance Table Printing in \u2026"
+  },
+  {
+    "oid": "5ed94eefad23df17cc998f058fb2dede6ce9f7ae",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3253636971/jobs/5341077774"
       },
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4496/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] [runtime] Manage RPC and runtime buffers separately (#13028)"
-  },
-  {
-    "oid": "256075566b72e9c7ab42b3a82c58c0ee1960d731",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3236764389/jobs/5303006983"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3236764389/jobs/5303007117"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3236764389/jobs/5303007231"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4482/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Allow skipping exact NDArray rewrite in RemoveWeightLa\u2026"
   }
 ]
