@@ -1,5 +1,57 @@
 [
   {
+    "oid": "8d2e887dbb3dc693f58dee00ab9c382c85ca21a4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3268872658/jobs/5375782548"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3268872658/jobs/5375782352"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3268872658/jobs/5375782459"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4515/display/redirect"
+      }
+    ],
+    "messageHeadline": "[HotFix] Fix python import (#13099)"
+  },
+  {
+    "oid": "8ccc43445a50df1b8f3c886113c379cc132a90c4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3268843432/jobs/5375720797"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3268843432/jobs/5375720608"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3268843432/jobs/5375720701"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4514/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Async DMA pipelining test suite (#13005)"
+  },
+  {
     "oid": "e3d3a1a62edc5afc974aab0995a9f00f904ea695",
     "statuses": [
       {
@@ -35,12 +87,12 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3268169251/jobs/5374253453"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3268169251/jobs/5374253317"
       },
       {
@@ -77,7 +129,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3268146642/jobs/5374209061"
       },
       {
@@ -103,7 +155,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3268134344/jobs/5374187304"
       },
       {
@@ -316,57 +368,5 @@
       }
     ],
     "messageHeadline": "[TVMScript] Evaluator, core parser, var table (#13088)"
-  },
-  {
-    "oid": "5e862d4e41712d664883c4319464fdd45e10e52c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3254676676/jobs/5343199942"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3254676676/jobs/5343199910"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3254676676/jobs/5343199868"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4499/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Frontend][PyTorch]Fix keywords to canonicalize scale and zero point \u2026"
-  },
-  {
-    "oid": "ec5c692148b77617105c6d18193c099429fcf42b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3254377380/jobs/5342552347"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3254377380/jobs/5342552332"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3254377380/jobs/5342552358"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4498/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add include directory for OpenBLAS on RedHat (#13087)"
   }
 ]
