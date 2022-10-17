@@ -1,5 +1,31 @@
 [
   {
+    "oid": "e8ba1dc4ccd0ba08de9d48a2c5004ecb9f9ba43d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3263362995/jobs/5362061743"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3263362995/jobs/5362061500"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3263362995/jobs/5362061643"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4502/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Update Docker Image tag to 20221013-060115-61c9742ea (#13078)"
+  },
+  {
     "oid": "cbca28da003cf4791a19f0c4f9e0c930ecee522d",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Arith] Optional rewriting and simplification into AND of ORs (#12972)"
-  },
-  {
-    "oid": "f06896f38f0898c7cdd17d62fd05318d10e20979",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3244571809/jobs/5320920040"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3244571809/jobs/5320919737"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3244571809/jobs/5320919897"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4487/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay] Fix simplifying consecutive casts when intermediate type has \u2026"
   }
 ]
