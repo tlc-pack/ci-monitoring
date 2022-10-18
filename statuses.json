@@ -1,5 +1,31 @@
 [
   {
+    "oid": "3d22dbffd094181fa4cb71d776f6ed3f518cd1e2",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3276321709/jobs/5392243068"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3276321709/jobs/5392242781"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3276321709/jobs/5392242942"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4523/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay] fix: add compute tag for trilu (#13120)"
+  },
+  {
     "oid": "010d05c6804dd44fa28da27e5af787cceb74ed60",
     "statuses": [
       {
@@ -342,31 +368,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] [runtime] VTCM bugfix, runtime buffer clarification (#13066)"
-  },
-  {
-    "oid": "69ba30e509a3a9ce755117495eba38f934c716b3",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3267585834/jobs/5372948866"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3267585834/jobs/5372948976"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3267585834/jobs/5372948706"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4508/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][FIX] Fix crash when using 'if' without 'else' in TVMScript (#13\u2026"
   }
 ]
