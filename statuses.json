@@ -1,5 +1,31 @@
 [
   {
+    "oid": "ee55333222c4e12de104322ed4b4c28a17dc6ecb",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3269726223/jobs/5377555481"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3269726223/jobs/5377555416"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3269726223/jobs/5377555557"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4516/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Add feature to copy logcat to --hexagon-debug and add new -\u2026"
+  },
+  {
     "oid": "8d2e887dbb3dc693f58dee00ab9c382c85ca21a4",
     "statuses": [
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4515/display/redirect"
       }
     ],
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4514/display/redirect"
       }
     ],
@@ -342,31 +368,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Consolidate module hashing and equality testing (#13050)"
-  },
-  {
-    "oid": "9299a29fd339b6b728487b32c0526f02a0181e3b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3258000755/jobs/5349715172"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3258000755/jobs/5349715244"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3258000755/jobs/5349715203"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4500/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] Evaluator, core parser, var table (#13088)"
   }
 ]
