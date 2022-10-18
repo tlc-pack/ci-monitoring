@@ -1,5 +1,31 @@
 [
   {
+    "oid": "e3b722b70d5b5ff9564c8da784a9306ce61cf698",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3277321148/jobs/5394452158"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3277321148/jobs/5394451993"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3277321148/jobs/5394452077"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4524/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] [runtime] Use malloc/free for RPC buffers (#13125)"
+  },
+  {
     "oid": "3d22dbffd094181fa4cb71d776f6ed3f518cd1e2",
     "statuses": [
       {
@@ -342,31 +368,5 @@
       }
     ],
     "messageHeadline": "quic-sanirudh -> Reviewer (#13098)"
-  },
-  {
-    "oid": "5dd786b3c903d34faba8e6223eaafbe979e15c11",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3268134344/jobs/5374187304"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3268134344/jobs/5374187096"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3268134344/jobs/5374187207"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4509/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] [runtime] VTCM bugfix, runtime buffer clarification (#13066)"
   }
 ]
