@@ -1,10 +1,36 @@
 [
   {
-    "oid": "39489447454d1803ed2f624a7e5824addd278c51",
+    "oid": "e42e4bba28499f28064ab8dd2ee6776402aeb5da",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3301050947/jobs/5446139903"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3301050947/jobs/5446140018"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3301050947/jobs/5446139958"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4559/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Adjust Hexagon pytest port range (#13172)"
+  },
+  {
+    "oid": "39489447454d1803ed2f624a7e5824addd278c51",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3300614209/jobs/5445292855"
       },
       {
@@ -30,7 +56,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3300544977/jobs/5445151937"
       },
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] [runtime] Clarify compute resources (#13149)"
-  },
-  {
-    "oid": "1dbd1fa4b80b9ee859a25bcdf2ce6f5f9aa50592",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "CANCELLED",
-        "url": "https://github.com/apache/tvm/actions/runs/3291430314/jobs/5425570515"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3291430314/jobs/5425570406"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3291430314/jobs/5425570275"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4544/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Support fetching and building Hexagon runtime with external\u2026"
   }
 ]
