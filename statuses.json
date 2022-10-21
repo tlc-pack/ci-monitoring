@@ -1,5 +1,57 @@
 [
   {
+    "oid": "ad117809a165bc65a8dc1330b0bcd75e65bc4e8d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3300272171/jobs/5444584138"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3300272171/jobs/5444583880"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3300272171/jobs/5444584031"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4556/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Skip HexagonThreadManagerTest.thread_order_signal_wait unit\u2026"
+  },
+  {
+    "oid": "eeb8b7067ea77a4848cb376ba2b6b8fe479a6c93",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3300180139/jobs/5444388327"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3300180139/jobs/5444388132"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3300180139/jobs/5444388258"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4555/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Docker][CI] Remove mounting local download path to docker (#13108)"
+  },
+  {
     "oid": "e7a72af0c1572e22f3f139fe975227fd944e313c",
     "statuses": [
       {
@@ -77,7 +129,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3299865466/jobs/5443718778"
       },
       {
@@ -321,57 +373,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Set c++17 standard for launcher (#13140)"
-  },
-  {
-    "oid": "209e77c18bb9ad89c707572d4296015fe1054b50",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3289099461/jobs/5420228159"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3289099461/jobs/5420227906"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3289099461/jobs/5420228040"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4541/display/redirect"
-      }
-    ],
-    "messageHeadline": "[tvmc] add instruments for PassContext (#13136)"
-  },
-  {
-    "oid": "026c2db544d345a051f9b0ed9726fb4b84ee8bb8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3288816514/jobs/5419608654"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3288816514/jobs/5419608526"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3288816514/jobs/5419608400"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4540/display/redirect"
-      }
-    ],
-    "messageHeadline": "Remove assert to fix onnx frontent unit tests for PyTorch 1.12 (#13155)"
   }
 ]
