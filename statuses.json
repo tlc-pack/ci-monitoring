@@ -1,5 +1,31 @@
 [
   {
+    "oid": "e024b0d2077096e3ef8473c66c6b83b343b2a29c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3300544977/jobs/5445151937"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3300544977/jobs/5445152006"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3300544977/jobs/5445151838"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4557/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Add power manager (#13162)"
+  },
+  {
     "oid": "ad117809a165bc65a8dc1330b0bcd75e65bc4e8d",
     "statuses": [
       {
@@ -66,7 +92,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3300165011/jobs/5444355857"
       },
       {
@@ -82,7 +108,7 @@
     "statuses": [
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4553/display/redirect"
       }
     ],
@@ -134,7 +160,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4551/display/redirect"
       }
     ],
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Add scripts for e2e MetaSchedule tuning demonstration (#13135)"
-  },
-  {
-    "oid": "4fe8e96c77261515e3ef1132256ff4a8d48e60d6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3289643548/jobs/5421430139"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3289643548/jobs/5421430011"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3289643548/jobs/5421429879"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4542/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Set c++17 standard for launcher (#13140)"
   }
 ]
