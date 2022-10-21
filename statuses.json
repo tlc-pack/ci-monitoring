@@ -1,5 +1,31 @@
 [
   {
+    "oid": "1311cac88bc47e834fe0295b4d0701ea7bbc86a6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3294709741/jobs/5432498689"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3294709741/jobs/5432498455"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3294709741/jobs/5432498562"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4549/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix typo in test_pipeline_executor.py (#13134)"
+  },
+  {
     "oid": "9aedb8bddabb5d65c421dae7d7affd8a30362146",
     "statuses": [
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4548/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Remove Exception Catch for Multithread Postproc Applic\u2026"
-  },
-  {
-    "oid": "f3ffc32482884452fdb5ea29b09a16291b60841a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3285211110/jobs/5412058469"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3285211110/jobs/5412058372"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3285211110/jobs/5412058286"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4534/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] [runtime] Remove released buffer check for post-ReleaseReso\u2026"
   }
 ]
