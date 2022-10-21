@@ -1,5 +1,31 @@
 [
   {
+    "oid": "100c050d604d6358d1578ffce31a8668c51e7e9e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3295277763/jobs/5433661458"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3295277763/jobs/5433661564"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3295277763/jobs/5433661366"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4550/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay] fix: trilu check op for i64/i32 (#13123)"
+  },
+  {
     "oid": "1311cac88bc47e834fe0295b4d0701ea7bbc86a6",
     "statuses": [
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4549/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TIR] Allow IndexMap applied to arguments with different dtypes (#13085)"
-  },
-  {
-    "oid": "687ef5b23d1b8309e91290cff415670db939f3f2",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3285239426/jobs/5412116992"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3285239426/jobs/5412117165"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3285239426/jobs/5412117086"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4535/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Remove Exception Catch for Multithread Postproc Applic\u2026"
   }
 ]
