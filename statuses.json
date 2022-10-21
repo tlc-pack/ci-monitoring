@@ -1,5 +1,31 @@
 [
   {
+    "oid": "39489447454d1803ed2f624a7e5824addd278c51",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3300614209/jobs/5445292855"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3300614209/jobs/5445292918"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3300614209/jobs/5445292779"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4558/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Disable flaky Java RPC tests (#13170)"
+  },
+  {
     "oid": "e024b0d2077096e3ef8473c66c6b83b343b2a29c",
     "statuses": [
       {
@@ -40,7 +66,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3300272171/jobs/5444584031"
       },
       {
@@ -56,7 +82,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3300180139/jobs/5444388327"
       },
       {
@@ -134,7 +160,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4552/display/redirect"
       }
     ],
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Support fetching and building Hexagon runtime with external\u2026"
-  },
-  {
-    "oid": "57b998892295deb47e07dbe063cc24fc15a95c22",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3291036885/jobs/5424677877"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3291036885/jobs/5424678257"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3291036885/jobs/5424678092"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4543/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Add scripts for e2e MetaSchedule tuning demonstration (#13135)"
   }
 ]
