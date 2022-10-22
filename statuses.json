@@ -1,5 +1,31 @@
 [
   {
+    "oid": "e5c7c9371e772a6772f5186380fdfcf7133ad397",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3304278603/jobs/5453368221"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3304278603/jobs/5453368184"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3304278603/jobs/5453368270"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4561/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Add the missing nearbyint intrinsic (#13175)"
+  },
+  {
     "oid": "f4fdc136b991ce20a9c751847d82fd9fda07ce51",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[CI] Update PyTorch to v1.12 in GPU image (#13160)"
-  },
-  {
-    "oid": "0e21840553225103f3ad3e93f3e72d20b36a8c2b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3293841490/jobs/5430738896"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3293841490/jobs/5430738996"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3293841490/jobs/5430738820"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4546/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Fix chunk address table generation in chunkify_hwio_16b (#1\u2026"
   }
 ]
