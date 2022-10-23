@@ -1,5 +1,31 @@
 [
   {
+    "oid": "24e89befd6c2f45fe47512de5d1445d8ea809a98",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3308200735/jobs/5460405317"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3308200735/jobs/5460405350"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3308200735/jobs/5460405277"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4562/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMScript] IRModule parser (#13176)"
+  },
+  {
     "oid": "e5c7c9371e772a6772f5186380fdfcf7133ad397",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] refactor HexagonBufferManager class (#13145)"
-  },
-  {
-    "oid": "f28b0ca9c4af169d2ff4574fcfce0bd916541ec1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3293959885/jobs/5430992651"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3293959885/jobs/5430992502"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3293959885/jobs/5430992776"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4547/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Update PyTorch to v1.12 in GPU image (#13160)"
   }
 ]
