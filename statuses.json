@@ -1,5 +1,31 @@
 [
   {
+    "oid": "3131cdc56a75a3730024e0e04967e19f9e99fe58",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3312490513/jobs/5469220243"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3312490513/jobs/5469219962"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3312490513/jobs/5469220119"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4563/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Target] Replace utility functions with target.features (#12455)"
+  },
+  {
     "oid": "24e89befd6c2f45fe47512de5d1445d8ea809a98",
     "statuses": [
       {
@@ -352,31 +378,5 @@
       }
     ],
     "messageHeadline": "Fix typo in test_pipeline_executor.py (#13134)"
-  },
-  {
-    "oid": "9aedb8bddabb5d65c421dae7d7affd8a30362146",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3293962187/jobs/5430997612"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3293962187/jobs/5430997647"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3293962187/jobs/5430997687"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4548/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] refactor HexagonBufferManager class (#13145)"
   }
 ]
