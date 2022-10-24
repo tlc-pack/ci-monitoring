@@ -1,5 +1,31 @@
 [
   {
+    "oid": "3e02ac5d2e46a6d17f56e9b3a452107b0d218060",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3315536644/jobs/5476251255"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3315536644/jobs/5476250875"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3315536644/jobs/5476251063"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4566/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Adreno] Fix mem_scope annotations for prim funcs having several head\u2026"
+  },
+  {
     "oid": "5400b942d2ef5ec7145f4f3e253b24c8abb4265e",
     "statuses": [
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4565/display/redirect"
       }
     ],
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4564/display/redirect"
       }
     ],
@@ -352,31 +378,5 @@
       }
     ],
     "messageHeadline": "[ci] Ignore JUnit upload failures (#13142)"
-  },
-  {
-    "oid": "46aa04f3f1b64558c55244469816ed225c13f6ba",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3299865466/jobs/5443718907"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3299865466/jobs/5443718648"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3299865466/jobs/5443718778"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4551/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Wait longer during retries (#13102)"
   }
 ]
