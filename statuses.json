@@ -1,20 +1,46 @@
 [
   {
-    "oid": "e41d0ed6ebe624b3eb8fea736856b481746403c5",
+    "oid": "23c2909f2917fe9fbccad8e440199e5e4a106ba9",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/actions/runs/3322841431/jobs/5492423065"
+        "url": "https://github.com/apache/tvm/actions/runs/3323563185/jobs/5494064780"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/actions/runs/3322841431/jobs/5492423211"
+        "url": "https://github.com/apache/tvm/actions/runs/3323563185/jobs/5494064662"
       },
       {
         "name": "CI / Android",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3323563185/jobs/5494064893"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4574/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Add support for instrumentation based profiling for Hexagon\u2026"
+  },
+  {
+    "oid": "e41d0ed6ebe624b3eb8fea736856b481746403c5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3322841431/jobs/5492423065"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3322841431/jobs/5492423211"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3322841431/jobs/5492423349"
       },
       {
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Adjust Hexagon pytest port range (#13172)"
-  },
-  {
-    "oid": "39489447454d1803ed2f624a7e5824addd278c51",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3300614209/jobs/5445292855"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3300614209/jobs/5445292918"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3300614209/jobs/5445292779"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4558/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Disable flaky Java RPC tests (#13170)"
   }
 ]
