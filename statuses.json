@@ -1,5 +1,31 @@
 [
   {
+    "oid": "0d4caa54ff76537000c7ac981f44721186312bbe",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3321625997/jobs/5489530171"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3321625997/jobs/5489530442"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3321625997/jobs/5489530609"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4571/display/redirect"
+      }
+    ],
+    "messageHeadline": "[docs] Add 'Edit on GitHub' button (#13183)"
+  },
+  {
     "oid": "7950271ceb16be076208bd2d144eb475f956c982",
     "statuses": [
       {
@@ -14,7 +40,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3321145563/jobs/5488392989"
       },
       {
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Add power manager (#13162)"
-  },
-  {
-    "oid": "ad117809a165bc65a8dc1330b0bcd75e65bc4e8d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3300272171/jobs/5444584138"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3300272171/jobs/5444583880"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3300272171/jobs/5444584031"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4556/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Skip HexagonThreadManagerTest.thread_order_signal_wait unit\u2026"
   }
 ]
