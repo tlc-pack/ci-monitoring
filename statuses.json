@@ -1,5 +1,31 @@
 [
   {
+    "oid": "7983ef2faa8ae98d0d43dfc40b1b9ca95be14302",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3324145639/jobs/5495352763"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3324145639/jobs/5495353071"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3324145639/jobs/5495352938"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4575/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay][ONNX] Resolve proto ingestion issue for non-tensor type and a\u2026"
+  },
+  {
     "oid": "23c2909f2917fe9fbccad8e440199e5e4a106ba9",
     "statuses": [
       {
@@ -14,7 +40,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3323563185/jobs/5494064893"
       },
       {
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] [runtime] Allow creation of thread manager without hardware\u2026"
-  },
-  {
-    "oid": "e42e4bba28499f28064ab8dd2ee6776402aeb5da",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3301050947/jobs/5446139903"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3301050947/jobs/5446140018"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3301050947/jobs/5446139958"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4559/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Adjust Hexagon pytest port range (#13172)"
   }
 ]
