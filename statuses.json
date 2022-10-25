@@ -1,5 +1,31 @@
 [
   {
+    "oid": "e41d0ed6ebe624b3eb8fea736856b481746403c5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3322841431/jobs/5492423065"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3322841431/jobs/5492423211"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3322841431/jobs/5492423349"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4572/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relay] Rewrite division by constant to multiply (#13182)"
+  },
+  {
     "oid": "0d4caa54ff76537000c7ac981f44721186312bbe",
     "statuses": [
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4571/display/redirect"
       }
     ],
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "[ci] Disable flaky Java RPC tests (#13170)"
-  },
-  {
-    "oid": "e024b0d2077096e3ef8473c66c6b83b343b2a29c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3300544977/jobs/5445151937"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3300544977/jobs/5445152006"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3300544977/jobs/5445151838"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4557/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Add power manager (#13162)"
   }
 ]
