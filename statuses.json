@@ -1,5 +1,31 @@
 [
   {
+    "oid": "bb8aad160d4bb59a943a8cf46ae850cdcff779b8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3317188765/jobs/5479781497"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3317188765/jobs/5479781369"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3317188765/jobs/5479781432"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4569/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Temporarily disable MacOS RPC tests (#13186)"
+  },
+  {
     "oid": "c302b3dce35507d1560a59597e7885ba0f63b21f",
     "statuses": [
       {
@@ -367,31 +393,5 @@
       }
     ],
     "messageHeadline": "[Docker][CI] Remove mounting local download path to docker (#13108)"
-  },
-  {
-    "oid": "e7a72af0c1572e22f3f139fe975227fd944e313c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3300165011/jobs/5444355713"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3300165011/jobs/5444355606"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3300165011/jobs/5444355857"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4554/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microTVM] Improve code reuse in Corstone300 conv2d tests (#13051)"
   }
 ]
