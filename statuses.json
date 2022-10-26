@@ -1,5 +1,31 @@
 [
   {
+    "oid": "3836eb9ca921888a2ec1290fc64884ed8e323a7c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3331381450/jobs/5511053531"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3331381450/jobs/5511053690"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3331381450/jobs/5511053857"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4582/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] [runtime] Per-thread hardware resource management (#13181)"
+  },
+  {
     "oid": "9dd0a70a0753bbd300227ade0224431ce78baeff",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Adreno] Adapt reduction schedule for adreno (#13100)"
-  },
-  {
-    "oid": "3e02ac5d2e46a6d17f56e9b3a452107b0d218060",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/actions/runs/3315536644/jobs/5476251255"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3315536644/jobs/5476250875"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3315536644/jobs/5476251063"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4566/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Adreno] Fix mem_scope annotations for prim funcs having several head\u2026"
   }
 ]
