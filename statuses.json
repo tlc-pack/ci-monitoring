@@ -1,5 +1,26 @@
 [
   {
+    "oid": "04afd8311386b6293bda04843738e972df8e93f1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3332507431/jobs/5513459803"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3332507431/jobs/5513459892"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3332507431/jobs/5513460014"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Add a test to show how to use multi input async dma pipelin\u2026"
+  },
+  {
     "oid": "697533e136b091b2833e4f6c16298496257e987f",
     "statuses": [
       {
@@ -40,7 +61,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3332028168/jobs/5512430791"
       },
       {
@@ -71,7 +92,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4582/display/redirect"
       }
     ],
@@ -362,31 +383,5 @@
       }
     ],
     "messageHeadline": "[TVMScript] TIR parser (#13190)"
-  },
-  {
-    "oid": "bb8aad160d4bb59a943a8cf46ae850cdcff779b8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3317188765/jobs/5479781497"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3317188765/jobs/5479781369"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3317188765/jobs/5479781432"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4569/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Temporarily disable MacOS RPC tests (#13186)"
   }
 ]
