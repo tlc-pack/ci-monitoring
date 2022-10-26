@@ -1,10 +1,36 @@
 [
   {
-    "oid": "62789a6423bba035d8e70c392fe44866dd0eff6c",
+    "oid": "2a2dd9ac50313dca09bdf1234f780846f31501da",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3327421327/jobs/5502211194"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3327421327/jobs/5502211356"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3327421327/jobs/5502211479"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4579/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Update Docker images (#13200)"
+  },
+  {
+    "oid": "62789a6423bba035d8e70c392fe44866dd0eff6c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3326926625/jobs/5501144801"
       },
       {
@@ -14,7 +40,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3326926625/jobs/5501144685"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Relay][Frontend][ONNX] Add GridSample operator (#13163)"
-  },
-  {
-    "oid": "3131cdc56a75a3730024e0e04967e19f9e99fe58",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3312490513/jobs/5469220243"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3312490513/jobs/5469219962"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3312490513/jobs/5469220119"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4563/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Target] Replace utility functions with target.features (#12455)"
   }
 ]
