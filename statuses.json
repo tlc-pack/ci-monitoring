@@ -1,5 +1,31 @@
 [
   {
+    "oid": "9dd0a70a0753bbd300227ade0224431ce78baeff",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3330630306/jobs/5509361271"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3330630306/jobs/5509361626"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3330630306/jobs/5509361873"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4581/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Fix correctness error in conv2d hvx (#13165)"
+  },
+  {
     "oid": "7cdb7a71ab7572e61f74212ac4b92ac76e934814",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Adreno] Fix mem_scope annotations for prim funcs having several head\u2026"
-  },
-  {
-    "oid": "5400b942d2ef5ec7145f4f3e253b24c8abb4265e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/actions/runs/3314646719/jobs/5474203188"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3314646719/jobs/5474203301"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3314646719/jobs/5474203532"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4565/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ONNX] Add converter for FastGelu from Microsoft onnxruntime contrib \u2026"
   }
 ]
