@@ -1,5 +1,57 @@
 [
   {
+    "oid": "697533e136b091b2833e4f6c16298496257e987f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3332060414/jobs/5512497953"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3332060414/jobs/5512498069"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3332060414/jobs/5512498182"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4584/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Add utility for anchor block extraction (#13194)"
+  },
+  {
+    "oid": "9b9b7458e92ea3e673c68750e217d68c26458351",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3332028168/jobs/5512430666"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3332028168/jobs/5512430900"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3332028168/jobs/5512430791"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4583/display/redirect"
+      }
+    ],
+    "messageHeadline": "[docs] Fix empty code blocks in tutorials (#13188)"
+  },
+  {
     "oid": "3836eb9ca921888a2ec1290fc64884ed8e323a7c",
     "statuses": [
       {
@@ -9,12 +61,12 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3331381450/jobs/5511053690"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3331381450/jobs/5511053857"
       },
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[ci] Temporarily disable MacOS RPC tests (#13186)"
-  },
-  {
-    "oid": "c302b3dce35507d1560a59597e7885ba0f63b21f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/actions/runs/3315986822/jobs/5477253611"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3315986822/jobs/5477253238"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3315986822/jobs/5477253492"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4568/display/redirect"
-      }
-    ],
-    "messageHeadline": "[AOT] Add CreateFunctionMetadata analysis pass (#13095)"
-  },
-  {
-    "oid": "03d989f4411bf092e2eaf0e20c401900674f3ba1",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/actions/runs/3315982722/jobs/5477245101"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3315982722/jobs/5477244842"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3315982722/jobs/5477244996"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4567/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Adreno] Adapt reduction schedule for adreno (#13100)"
   }
 ]
