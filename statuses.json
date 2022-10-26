@@ -1,5 +1,31 @@
 [
   {
+    "oid": "7cdb7a71ab7572e61f74212ac4b92ac76e934814",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3330501257/jobs/5509071250"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3330501257/jobs/5509071091"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3330501257/jobs/5509071401"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4580/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon]: Add upload function to hexagon session (#13161)"
+  },
+  {
     "oid": "2a2dd9ac50313dca09bdf1234f780846f31501da",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[ONNX] Add converter for FastGelu from Microsoft onnxruntime contrib \u2026"
-  },
-  {
-    "oid": "7827fffe5c98fef213706bc296b97d96bb9f5019",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/actions/runs/3314615063/jobs/5474129728"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3314615063/jobs/5474129869"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3314615063/jobs/5474129582"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4564/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay][Frontend][ONNX] Add GridSample operator (#13163)"
   }
 ]
