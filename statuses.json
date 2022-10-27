@@ -1,5 +1,31 @@
 [
   {
+    "oid": "6d2aa09cd906c02703aaac571be8c6fd613c38ff",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3334212340/jobs/5516938276"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3334212340/jobs/5516938327"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3334212340/jobs/5516938391"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4586/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Fix port range bug and add random.seed (#13207)"
+  },
+  {
     "oid": "04afd8311386b6293bda04843738e972df8e93f1",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[docs] Add 'Edit on GitHub' button (#13183)"
-  },
-  {
-    "oid": "7950271ceb16be076208bd2d144eb475f956c982",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3321145563/jobs/5488393123"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3321145563/jobs/5488392829"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3321145563/jobs/5488392989"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4570/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] TIR parser (#13190)"
   }
 ]
