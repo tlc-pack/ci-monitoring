@@ -1,5 +1,31 @@
 [
   {
+    "oid": "c0f33dfb97d9689640c85d2324505299bf43437d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3347843816/jobs/5546265373"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3347843816/jobs/5546265452"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3347843816/jobs/5546265530"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4601/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Logging][Hexagon] Improve logging on Hexagon (#13072)"
+  },
+  {
     "oid": "602c194f25d52c8159631e6b1220218624433c40",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Relay][Hexagon] Add per-channel FixedPointMultiply operation (#13080)"
-  },
-  {
-    "oid": "6d2aa09cd906c02703aaac571be8c6fd613c38ff",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3334212340/jobs/5516938276"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3334212340/jobs/5516938327"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3334212340/jobs/5516938391"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4586/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Fix port range bug and add random.seed (#13207)"
   }
 ]
