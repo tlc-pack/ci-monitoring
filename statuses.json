@@ -1,5 +1,31 @@
 [
   {
+    "oid": "cf2a8ea42658e1cc5d9d36970ba5c5fc3e57edf0",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3343291860/jobs/5536357259"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3343291860/jobs/5536357351"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3343291860/jobs/5536357167"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4595/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Update tests to use AOT Executor  (#13221)"
+  },
+  {
     "oid": "1c697d7460565f7f744eb244b43de425957b4f89",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Fix correctness error in conv2d hvx (#13165)"
-  },
-  {
-    "oid": "7cdb7a71ab7572e61f74212ac4b92ac76e934814",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3330501257/jobs/5509071250"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3330501257/jobs/5509071091"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3330501257/jobs/5509071401"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4580/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon]: Add upload function to hexagon session (#13161)"
   }
 ]
