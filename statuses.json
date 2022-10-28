@@ -1,5 +1,31 @@
 [
   {
+    "oid": "6cd1bb5e89e155d4809680ab28a3e57f33083eb6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3348116559/jobs/5546829477"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3348116559/jobs/5546829377"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3348116559/jobs/5546829554"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4604/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Update search pattern to find .so address for on device run\u2026"
+  },
+  {
     "oid": "60e865a6fed6eeb5f9840bac005e31870d98e550",
     "statuses": [
       {
@@ -67,12 +93,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3347710118/jobs/5545990080"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3347710118/jobs/5545989838"
       },
       {
@@ -98,7 +124,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3347410532/jobs/5545362094"
       },
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[IR] Remove shadowing in IRSubstituteWithDataTypeLegalization (#13219)"
-  },
-  {
-    "oid": "5acf3f90c63b6760cd23796b442f8ac20e645af0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3340078017/jobs/5529774981"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3340078017/jobs/5529775112"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3340078017/jobs/5529775200"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4589/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Protect release branches (#13208)"
   }
 ]
