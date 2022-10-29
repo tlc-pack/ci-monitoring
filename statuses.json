@@ -1,5 +1,31 @@
 [
   {
+    "oid": "25a0d47d2b55f3404ea711a3ff28bf22f7cc0e17",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3352393133/jobs/5554502830"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3352393133/jobs/5554502783"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3352393133/jobs/5554502888"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4611/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Arith][TIR] Check for constant offsets of known literal constraints \u2026"
+  },
+  {
     "oid": "e971956d760aa92cbae1fa4030f46c1046eaa87a",
     "statuses": [
       {
@@ -332,31 +358,5 @@
       }
     ],
     "messageHeadline": "[BugFix][TIR] Affine-binding check should not simplify trivial iterat\u2026"
-  },
-  {
-    "oid": "187a2570edcbbfb2669af7f257638943604fe2ba",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3343916118/jobs/5537658130"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3343916118/jobs/5537658381"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3343916118/jobs/5537658264"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4596/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][Schedule] Add cache_index to precompute index of buffer load (#\u2026"
   }
 ]
