@@ -1,5 +1,31 @@
 [
   {
+    "oid": "c9b10a80fd9b99baa696f152d3eb7fba2233b9c7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3364049488/jobs/5577949203"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3364049488/jobs/5577949418"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3364049488/jobs/5577949316"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4613/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci][java] Use mavenCentral for dependencies (#13239)"
+  },
+  {
     "oid": "76cd298bd908583b53bc97a383a809101a569cb4",
     "statuses": [
       {
@@ -332,31 +358,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Enable anchor-block tuning (#13206)"
-  },
-  {
-    "oid": "e1ac5658ad3daa774c3c3e1ba16a1dad1e1a6d8c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3346895706/jobs/5544262207"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3346895706/jobs/5544262490"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3346895706/jobs/5544262352"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4598/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon]Pull and build specific LLVM sha for hexagon docker CI (#13199)"
   }
 ]
