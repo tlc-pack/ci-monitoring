@@ -1,10 +1,36 @@
 [
   {
-    "oid": "c9b10a80fd9b99baa696f152d3eb7fba2233b9c7",
+    "oid": "e48dded3b4705d061f2925919790e3a430327d30",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3364657119/jobs/5579255735"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3364657119/jobs/5579255594"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3364657119/jobs/5579255850"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4614/display/redirect"
+      }
+    ],
+    "messageHeadline": "[BugFix][LLVM] Add UseInitArray flag in target_options_ (#13115)"
+  },
+  {
+    "oid": "c9b10a80fd9b99baa696f152d3eb7fba2233b9c7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3364049488/jobs/5577949203"
       },
       {
@@ -332,31 +358,5 @@
       }
     ],
     "messageHeadline": "[TIR][Arith] Implement kApplyConstraintsToBooleanBranches extension (\u2026"
-  },
-  {
-    "oid": "f42826eec49998452cff30a2b6510e7d3c31e3ec",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3347410532/jobs/5545361771"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3347410532/jobs/5545362094"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3347410532/jobs/5545361887"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4599/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Enable anchor-block tuning (#13206)"
   }
 ]
