@@ -1,15 +1,26 @@
 [
   {
+    "oid": "c3bb62e5c405a2b4b1854f3dc9bd7e9bf3110773",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4615/display/redirect"
+      }
+    ],
+    "messageHeadline": "[skip ci][docs] Disable scipy intersphinx linking (#13245)"
+  },
+  {
     "oid": "e48dded3b4705d061f2925919790e3a430327d30",
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3364657119/jobs/5579255735"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3364657119/jobs/5579255594"
       },
       {
@@ -332,31 +343,5 @@
       }
     ],
     "messageHeadline": "[Logging][Hexagon] Improve logging on Hexagon (#13072)"
-  },
-  {
-    "oid": "602c194f25d52c8159631e6b1220218624433c40",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3347710118/jobs/5545990080"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3347710118/jobs/5545989838"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3347710118/jobs/5545989968"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4600/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][Arith] Implement kApplyConstraintsToBooleanBranches extension (\u2026"
   }
 ]
