@@ -1,20 +1,46 @@
 [
   {
-    "oid": "3259580bd536360f19440fe3053c1914cb5ccada",
+    "oid": "9cdc97fe237dd4fc9741b9d83e50b25bdead60cb",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/actions/runs/3366641029/jobs/5583331363"
+        "url": "https://github.com/apache/tvm/actions/runs/3367019504/jobs/5584109806"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/actions/runs/3366641029/jobs/5583331319"
+        "url": "https://github.com/apache/tvm/actions/runs/3367019504/jobs/5584109718"
       },
       {
         "name": "CI / Android",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3367019504/jobs/5584109761"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4620/display/redirect"
+      }
+    ],
+    "messageHeadline": "[DLPack][runtime] Update DLPack to v0.7 (#13177)"
+  },
+  {
+    "oid": "3259580bd536360f19440fe3053c1914cb5ccada",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3366641029/jobs/5583331363"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3366641029/jobs/5583331319"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3366641029/jobs/5583331441"
       },
       {
@@ -35,7 +61,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3366482376/jobs/5583020440"
       },
       {
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4618/display/redirect"
       }
     ],
@@ -71,7 +97,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4617/display/redirect"
       }
     ],
@@ -332,31 +358,5 @@
       }
     ],
     "messageHeadline": "[skip ci] Revert \"[skip ci] Remove naut-thomas from .asf.yaml (#13231\u2026"
-  },
-  {
-    "oid": "b9e5c02d0b8cf148e7e07690397c098a02228cee",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3348375810/jobs/5547367587"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3348375810/jobs/5547367487"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3348375810/jobs/5547367690"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4605/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TOPI][Hexagon] Implement quantized depthwise conv2d (#12499)"
   }
 ]
