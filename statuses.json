@@ -1,5 +1,16 @@
 [
   {
+    "oid": "87f52af48a23e2e94ac13863b1fa378b0d4cc846",
+    "statuses": [
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4625/display/redirect"
+      }
+    ],
+    "messageHeadline": "[skip ci] Revert \"fix GPU other build (#13235)\" (#13261)"
+  },
+  {
     "oid": "6551b715888710f338836fcf4c13c3ea1a34dbec",
     "statuses": [
       {
@@ -347,31 +358,5 @@
       }
     ],
     "messageHeadline": "[Arith][TIR] Check for constant offsets of known literal constraints \u2026"
-  },
-  {
-    "oid": "e971956d760aa92cbae1fa4030f46c1046eaa87a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3350322081/jobs/5551044498"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3350322081/jobs/5551044532"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3350322081/jobs/5551044574"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4610/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay][transform][SimplifyExpr] simplify adjacent muls and adds with\u2026"
   }
 ]
