@@ -1,5 +1,31 @@
 [
   {
+    "oid": "2c1fecd0978d013a552ddb8d5992942acb40e5bc",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3367812925/jobs/5585659332"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3367812925/jobs/5585659018"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3367812925/jobs/5585659188"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4621/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR][Primitive] Support rolling_buffer schedule primitive in TensorI\u2026"
+  },
+  {
     "oid": "9cdc97fe237dd4fc9741b9d83e50b25bdead60cb",
     "statuses": [
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4620/display/redirect"
       }
     ],
@@ -347,16 +373,5 @@
       }
     ],
     "messageHeadline": "[runtime] Fix typo in runtime/registry.h (#13224)"
-  },
-  {
-    "oid": "20082614be85f14a7d6f4e653f2adcd89d0a3717",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4606/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci] Revert \"[skip ci] Remove naut-thomas from .asf.yaml (#13231\u2026"
   }
 ]
