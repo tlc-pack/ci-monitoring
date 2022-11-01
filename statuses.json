@@ -1,5 +1,31 @@
 [
   {
+    "oid": "e9e8c4b263aa33bfd6bd54151a4bc7eb89da8deb",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3371245226/jobs/5593205402"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3371245226/jobs/5593205217"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3371245226/jobs/5593205550"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4622/display/redirect"
+      }
+    ],
+    "messageHeadline": "fix GPU other build (#13235)"
+  },
+  {
     "oid": "2c1fecd0978d013a552ddb8d5992942acb40e5bc",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[TIR] Use Optional<Stmt> for IfThenElseNode::else_case (#13218)"
-  },
-  {
-    "oid": "da76587505267a67f585c17f4b7afcc5d4f8bb92",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3350299771/jobs/5551003269"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3350299771/jobs/5551003285"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3350299771/jobs/5551003254"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4607/display/redirect"
-      }
-    ],
-    "messageHeadline": "[runtime] Fix typo in runtime/registry.h (#13224)"
   }
 ]
