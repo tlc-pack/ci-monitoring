@@ -1,10 +1,36 @@
 [
   {
+    "oid": "7536068e80edab03177b6f3e42f6657b9f37c3d5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3374190777/jobs/5599553037"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3374190777/jobs/5599552973"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3374190777/jobs/5599553093"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4626/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Swap the order of RewriteTensorize and VerifyGPUCode t\u2026"
+  },
+  {
     "oid": "87f52af48a23e2e94ac13863b1fa378b0d4cc846",
     "statuses": [
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4625/display/redirect"
       }
     ],
@@ -332,31 +358,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Add E2E test demonstrating how to apply blocked layout sche\u2026"
-  },
-  {
-    "oid": "25a0d47d2b55f3404ea711a3ff28bf22f7cc0e17",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3352393133/jobs/5554502830"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3352393133/jobs/5554502783"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3352393133/jobs/5554502888"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4611/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Arith][TIR] Check for constant offsets of known literal constraints \u2026"
   }
 ]
