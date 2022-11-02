@@ -1,5 +1,57 @@
 [
   {
+    "oid": "da4bb4a65bdb20c53e2025981c19a58e72dd2028",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3378785267/jobs/5609459671"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3378785267/jobs/5609460102"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3378785267/jobs/5609459918"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4630/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix a typo in rpc/client.py (#12842)"
+  },
+  {
+    "oid": "c3c145423322cc2493157500e832025b95959d27",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3378766397/jobs/5609415924"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3378766397/jobs/5609416099"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3378766397/jobs/5609415746"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4629/display/redirect"
+      }
+    ],
+    "messageHeadline": "Apply group write permissions to Python virtual environment (#13252)"
+  },
+  {
     "oid": "4ecf3036951f153a578fbf4685542a47b0068733",
     "statuses": [
       {
@@ -321,42 +373,5 @@
       }
     ],
     "messageHeadline": "[CI] Make additional_flags parameter optional in tests/scripts/ci.py \u2026"
-  },
-  {
-    "oid": "c3bb62e5c405a2b4b1854f3dc9bd7e9bf3110773",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4615/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci][docs] Disable scipy intersphinx linking (#13245)"
-  },
-  {
-    "oid": "e48dded3b4705d061f2925919790e3a430327d30",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3364657119/jobs/5579255735"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3364657119/jobs/5579255594"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3364657119/jobs/5579255850"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4614/display/redirect"
-      }
-    ],
-    "messageHeadline": "[BugFix][LLVM] Add UseInitArray flag in target_options_ (#13115)"
   }
 ]
