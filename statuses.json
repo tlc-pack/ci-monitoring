@@ -1,5 +1,31 @@
 [
   {
+    "oid": "4ecf3036951f153a578fbf4685542a47b0068733",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3378285416/jobs/5608289667"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3378285416/jobs/5608289229"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3378285416/jobs/5608289454"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4628/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMC] Apply constant folding when converting layout (#13216)"
+  },
+  {
     "oid": "84fadc45d01e5b76472b716a130015a454940147",
     "statuses": [
       {
@@ -9,7 +35,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3377386737/jobs/5606248742"
       },
       {
@@ -332,31 +358,5 @@
       }
     ],
     "messageHeadline": "[BugFix][LLVM] Add UseInitArray flag in target_options_ (#13115)"
-  },
-  {
-    "oid": "c9b10a80fd9b99baa696f152d3eb7fba2233b9c7",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3364049488/jobs/5577949203"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3364049488/jobs/5577949418"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3364049488/jobs/5577949316"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4613/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci][java] Use mavenCentral for dependencies (#13239)"
   }
 ]
