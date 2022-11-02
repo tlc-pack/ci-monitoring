@@ -1,5 +1,31 @@
 [
   {
+    "oid": "84fadc45d01e5b76472b716a130015a454940147",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3377386737/jobs/5606249007"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3377386737/jobs/5606248742"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3377386737/jobs/5606248873"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4627/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Skip failing Caffe tests due to broken URL (#13228)"
+  },
+  {
     "oid": "7536068e80edab03177b6f3e42f6657b9f37c3d5",
     "statuses": [
       {
@@ -332,31 +358,5 @@
       }
     ],
     "messageHeadline": "[ci][java] Use mavenCentral for dependencies (#13239)"
-  },
-  {
-    "oid": "76cd298bd908583b53bc97a383a809101a569cb4",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3362708272/jobs/5574794926"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3362708272/jobs/5574794725"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3362708272/jobs/5574795097"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4612/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Add E2E test demonstrating how to apply blocked layout sche\u2026"
   }
 ]
