@@ -1,5 +1,31 @@
 [
   {
+    "oid": "d261fa883811209144cb3525982086cba8a2c831",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3380853681/jobs/5614105315"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3380853681/jobs/5614105226"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3380853681/jobs/5614105092"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4631/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Add pylint on tests (#13233)"
+  },
+  {
     "oid": "da4bb4a65bdb20c53e2025981c19a58e72dd2028",
     "statuses": [
       {
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4629/display/redirect"
       }
     ],
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Fix thread bindings of MultiLevelTilingTensorCore (#13\u2026"
-  },
-  {
-    "oid": "67fa959f1854229281ebb5174801591ec9f34c37",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3366198051/jobs/5582443116"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3366198051/jobs/5582443199"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3366198051/jobs/5582443269"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4616/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Make additional_flags parameter optional in tests/scripts/ci.py \u2026"
   }
 ]
