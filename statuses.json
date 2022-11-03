@@ -1,5 +1,26 @@
 [
   {
+    "oid": "90ed632280898dafeac40913d006993bc71a8409",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3389160315/jobs/5631948386"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3389160315/jobs/5631948177"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3389160315/jobs/5631948276"
+      }
+    ],
+    "messageHeadline": "[Relay] Add tensor rank check for `nn.instance_norm` (#13280)"
+  },
+  {
     "oid": "b98b9f92daa8dc3694707ed536ef0262767df18b",
     "statuses": [
       {
@@ -14,7 +35,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3388620743/jobs/5630818263"
       },
       {
@@ -66,7 +87,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3388612831/jobs/5630801277"
       },
       {
@@ -347,31 +368,5 @@
       }
     ],
     "messageHeadline": "Fix a typo in rpc/client.py (#12842)"
-  },
-  {
-    "oid": "c3c145423322cc2493157500e832025b95959d27",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3378766397/jobs/5609415924"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3378766397/jobs/5609416099"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3378766397/jobs/5609415746"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4629/display/redirect"
-      }
-    ],
-    "messageHeadline": "Apply group write permissions to Python virtual environment (#13252)"
   }
 ]
