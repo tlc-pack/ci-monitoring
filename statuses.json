@@ -1,5 +1,57 @@
 [
   {
+    "oid": "0d553127e51d7533b93e97b1c0e7876c612b6dc9",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3387495579/jobs/5628304011"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3387495579/jobs/5628304429"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3387495579/jobs/5628304258"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4638/display/redirect"
+      }
+    ],
+    "messageHeadline": "[build][tir] fix clang redundant-move warning (#13268)"
+  },
+  {
+    "oid": "9df3a33ff454024b116467537096271b23947fda",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3387490719/jobs/5628293178"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3387490719/jobs/5628293001"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3387490719/jobs/5628292690"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4637/display/redirect"
+      }
+    ],
+    "messageHeadline": "[build][doc] Fix clang doxygen warnings (#13270)"
+  },
+  {
     "oid": "f15afd225140e2a501b8b6aa2def0fd94d31bc54",
     "statuses": [
       {
@@ -306,57 +358,5 @@
       }
     ],
     "messageHeadline": "[COMMUNITY] Jyotsna Verma -> Reviewer (#13251)"
-  },
-  {
-    "oid": "5d15428994fee408ed14807fad4362ef2d783d25",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3371589161/jobs/5594011229"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3371589161/jobs/5594011563"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3371589161/jobs/5594011374"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4623/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay] Add set_attrs_type registry to broadcast_to op (#13096)"
-  },
-  {
-    "oid": "e9e8c4b263aa33bfd6bd54151a4bc7eb89da8deb",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3371245226/jobs/5593205402"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3371245226/jobs/5593205217"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3371245226/jobs/5593205550"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4622/display/redirect"
-      }
-    ],
-    "messageHeadline": "fix GPU other build (#13235)"
   }
 ]
