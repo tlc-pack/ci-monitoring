@@ -1,5 +1,31 @@
 [
   {
+    "oid": "f15afd225140e2a501b8b6aa2def0fd94d31bc54",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3385445726/jobs/5623592952"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3385445726/jobs/5623592727"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3385445726/jobs/5623592839"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4636/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Docs] Minimal dependencies for Fedora/CentOS (#13248)"
+  },
+  {
     "oid": "e9ba9865a7f89ed36535c43f890e510682db9bcc",
     "statuses": [
       {
@@ -332,31 +358,5 @@
       }
     ],
     "messageHeadline": "fix GPU other build (#13235)"
-  },
-  {
-    "oid": "2c1fecd0978d013a552ddb8d5992942acb40e5bc",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3367812925/jobs/5585659332"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3367812925/jobs/5585659018"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3367812925/jobs/5585659188"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4621/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][Primitive] Support rolling_buffer schedule primitive in TensorI\u2026"
   }
 ]
