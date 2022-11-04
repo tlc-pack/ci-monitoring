@@ -4,17 +4,17 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3395586701/jobs/5645662188"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3395586701/jobs/5645662500"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3395586701/jobs/5645662316"
       },
       {
@@ -45,8 +45,8 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4649/display/redirect"
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/32/display/redirect"
       }
     ],
     "messageHeadline": "[TIR][Arith] Use TryCompare to narrow inequalities if possible (#13024)"
