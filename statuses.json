@@ -1,5 +1,26 @@
 [
   {
+    "oid": "de8a79d9ba500b15b8cda7a89ca60bb65b17c944",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3393238072/jobs/5640341216"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3393238072/jobs/5640341375"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3393238072/jobs/5640341066"
+      }
+    ],
+    "messageHeadline": "[skip-ci][COMMUNITY] New committer Ashutosh Parkhi (#13286)"
+  },
+  {
     "oid": "b1a099b2130fa91b0424c6ac5bec414d96dc288f",
     "statuses": [
       {
@@ -347,31 +368,5 @@
       }
     ],
     "messageHeadline": "[build][relay][te][tir] remove unused vars / args (#13266)"
-  },
-  {
-    "oid": "d261fa883811209144cb3525982086cba8a2c831",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3380853681/jobs/5614105315"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3380853681/jobs/5614105226"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3380853681/jobs/5614105092"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/8/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Add pylint on tests (#13233)"
   }
 ]
