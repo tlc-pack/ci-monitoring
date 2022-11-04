@@ -1,10 +1,36 @@
 [
   {
-    "oid": "6da298b3a07ce33eca390c6e5afd029d8c388f3d",
+    "oid": "dec74cb93d3460d686f1935f933dc24404c5e995",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3397185128/jobs/5649075549"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3397185128/jobs/5649075652"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3397185128/jobs/5649075436"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4652/display/redirect"
+      }
+    ],
+    "messageHeadline": "[build][tir] suppress -Woverloaded-virtual warning (#13267)"
+  },
+  {
+    "oid": "6da298b3a07ce33eca390c6e5afd029d8c388f3d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3396572979/jobs/5647786859"
       },
       {
@@ -362,16 +388,5 @@
       }
     ],
     "messageHeadline": "[Docs] Minimal dependencies for Fedora/CentOS (#13248)"
-  },
-  {
-    "oid": "e9ba9865a7f89ed36535c43f890e510682db9bcc",
-    "statuses": [
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/6/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip ci] Revert \"[ci] Protect release branches (#13208)\" (#13274)"
   }
 ]
