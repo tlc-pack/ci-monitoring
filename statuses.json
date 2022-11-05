@@ -1,5 +1,31 @@
 [
   {
+    "oid": "62fadacd12d5dd8633012bf26890cc5c30327d7e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3398005347/jobs/5650667696"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3398005347/jobs/5650667811"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3398005347/jobs/5650667756"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4654/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Lint tests part 2 (#13271)"
+  },
+  {
     "oid": "be44e9c811c071f01f66002729b8a9cb356a3adf",
     "statuses": [
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4653/display/redirect"
       }
     ],
@@ -46,7 +72,7 @@
       {
         "name": "tvm-ci/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4652/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/36/display/redirect"
       }
     ],
     "messageHeadline": "[build][tir] suppress -Woverloaded-virtual warning (#13267)"
@@ -71,7 +97,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/35/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[build][tir] fix clang redundant-move warning (#13268)"
-  },
-  {
-    "oid": "9df3a33ff454024b116467537096271b23947fda",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3387490719/jobs/5628293178"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3387490719/jobs/5628293001"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3387490719/jobs/5628292690"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/4/display/redirect"
-      }
-    ],
-    "messageHeadline": "[build][doc] Fix clang doxygen warnings (#13270)"
   }
 ]
