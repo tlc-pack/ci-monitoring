@@ -1,5 +1,52 @@
 [
   {
+    "oid": "1e793641d8f6ea15b7207dd3820b3c0657ba27ab",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3398489946/jobs/5651583099"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3398489946/jobs/5651582955"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3398489946/jobs/5651583030"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4656/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Added unit test for dynamic parameter in layout transform (#13298)"
+  },
+  {
+    "oid": "56878fab7c277eedc7fc1ead7c0cfa911305ff49",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3398489350/jobs/5651582154"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3398489350/jobs/5651582009"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3398489350/jobs/5651582085"
+      }
+    ],
+    "messageHeadline": "[TE] Make `elem_offset` of the buffers created by `te.extern` a varia\u2026"
+  },
+  {
     "oid": "62fadacd12d5dd8633012bf26890cc5c30327d7e",
     "statuses": [
       {
@@ -19,7 +66,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4654/display/redirect"
       }
     ],
@@ -45,7 +92,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/37/display/redirect"
       }
     ],
@@ -336,57 +383,5 @@
       }
     ],
     "messageHeadline": "[ETHOSN] Throw error message when inference fails (#13022)"
-  },
-  {
-    "oid": "75921fb55953613f5789a73fbccd985312163bbe",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3387860565/jobs/5629145124"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3387860565/jobs/5629144958"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3387860565/jobs/5629144755"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/2/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ETHOSN] Inline non-compute-intensive partitions (#13092)"
-  },
-  {
-    "oid": "0d553127e51d7533b93e97b1c0e7876c612b6dc9",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3387495579/jobs/5628304011"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3387495579/jobs/5628304429"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3387495579/jobs/5628304258"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/3/display/redirect"
-      }
-    ],
-    "messageHeadline": "[build][tir] fix clang redundant-move warning (#13268)"
   }
 ]
