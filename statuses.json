@@ -1,5 +1,26 @@
 [
   {
+    "oid": "732e34fe3d9facf0d710970aed8c7a86c038b070",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3399223823/jobs/5652831209"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3399223823/jobs/5652831266"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3399223823/jobs/5652831231"
+      }
+    ],
+    "messageHeadline": "[TIR] Preserve loop annotation after loop partitioning (#13292)"
+  },
+  {
     "oid": "1e793641d8f6ea15b7207dd3820b3c0657ba27ab",
     "statuses": [
       {
@@ -357,31 +378,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Fix Task Hanging in EvolutionarySearch (#13246)"
-  },
-  {
-    "oid": "47da418fbfba7c80a4556ee7c5a28595a169d3af",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3387864371/jobs/5629153848"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3387864371/jobs/5629153990"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3387864371/jobs/5629154143"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/1/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ETHOSN] Throw error message when inference fails (#13022)"
   }
 ]
