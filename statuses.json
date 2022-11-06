@@ -1,5 +1,26 @@
 [
   {
+    "oid": "f2a740331f21106787a29566185d8924e5dcb25a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3404719570/jobs/5662163059"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3404719570/jobs/5662163025"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3404719570/jobs/5662162997"
+      }
+    ],
+    "messageHeadline": "[DOCS][TVMC] Use correct argument to reuse tuning records (#13302)"
+  },
+  {
     "oid": "b51c491c0072f323658b8d5803cd3321ac37a7d3",
     "statuses": [
       {
@@ -352,31 +373,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Improve the script for TorchBench model tuning & bench\u2026"
-  },
-  {
-    "oid": "215f0e2fc2b13857d73c3d81e2638388d63207c5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3388615572/jobs/5630807358"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3388615572/jobs/5630807055"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3388615572/jobs/5630807206"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4647/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Bugfix][TIR] Fix version conflict with `typing` for Python 3.9  (#13\u2026"
   }
 ]
