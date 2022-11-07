@@ -1,5 +1,31 @@
 [
   {
+    "oid": "ce777fde18bb4c1ef23a856a998c50606c7947f8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3414614045/jobs/5682802073"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3414614045/jobs/5682802164"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3414614045/jobs/5682802261"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4664/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TOPI] Enhance VNNI dot product (#12588)"
+  },
+  {
     "oid": "e398d16de8e222b766070f48217cbf746996d987",
     "statuses": [
       {
@@ -357,31 +383,5 @@
       }
     ],
     "messageHeadline": "[build][hexagon] remove unused variable (#13291)"
-  },
-  {
-    "oid": "ccb7d07159fdcc52f8a04e28afe3d7caac3cf829",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3395034414/jobs/5644378546"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3395034414/jobs/5644378279"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3395034414/jobs/5644378423"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/32/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][Arith] Use TryCompare to narrow inequalities if possible (#13024)"
   }
 ]
