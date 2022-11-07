@@ -1,5 +1,26 @@
 [
   {
+    "oid": "60e2c98fdb14721d0010d261d5c6b94d94e053d2",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3407657871/jobs/5667513606"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3407657871/jobs/5667513555"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3407657871/jobs/5667513501"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Fix Hexagon external libs check (#13257)"
+  },
+  {
     "oid": "f2a740331f21106787a29566185d8924e5dcb25a",
     "statuses": [
       {
@@ -347,31 +368,5 @@
       }
     ],
     "messageHeadline": "[Relay] Add tensor rank check for `nn.instance_norm` (#13280)"
-  },
-  {
-    "oid": "b98b9f92daa8dc3694707ed536ef0262767df18b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3388620743/jobs/5630818398"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3388620743/jobs/5630818526"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3388620743/jobs/5630818263"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4643/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Improve the script for TorchBench model tuning & bench\u2026"
   }
 ]
