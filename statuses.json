@@ -1,5 +1,31 @@
 [
   {
+    "oid": "6b238c4b6e53ab41a2a359f2190b58633460f42e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3413716242/jobs/5680758023"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3413716242/jobs/5680757756"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3413716242/jobs/5680757899"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4662/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Bugfix][Runtime] Fix sched_setaffinity in Android (#13158)"
+  },
+  {
     "oid": "dd257e478ef88e3e2a2c1df1b36efbfe4347ee5f",
     "statuses": [
       {
@@ -357,31 +383,5 @@
       }
     ],
     "messageHeadline": "[skip-ci][COMMUNITY] New committer Ashutosh Parkhi (#13286)"
-  },
-  {
-    "oid": "b1a099b2130fa91b0424c6ac5bec414d96dc288f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3389935942/jobs/5633544981"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3389935942/jobs/5633545071"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3389935942/jobs/5633545033"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4646/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay] Enhancement for fold_scale_axis and simplify_expr (#13275)"
   }
 ]
