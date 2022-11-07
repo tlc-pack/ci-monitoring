@@ -1,5 +1,31 @@
 [
   {
+    "oid": "e398d16de8e222b766070f48217cbf746996d987",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3414239620/jobs/5681930907"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3414239620/jobs/5681930765"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3414239620/jobs/5681930507"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4663/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Torch] Fix advanced indexing with boolean mask (#13306)"
+  },
+  {
     "oid": "6b238c4b6e53ab41a2a359f2190b58633460f42e",
     "statuses": [
       {
@@ -357,31 +383,5 @@
       }
     ],
     "messageHeadline": "[TIR][Arith] Use TryCompare to narrow inequalities if possible (#13024)"
-  },
-  {
-    "oid": "de8a79d9ba500b15b8cda7a89ca60bb65b17c944",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3393238072/jobs/5640341216"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3393238072/jobs/5640341375"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3393238072/jobs/5640341066"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/30/display/redirect"
-      }
-    ],
-    "messageHeadline": "[skip-ci][COMMUNITY] New committer Ashutosh Parkhi (#13286)"
   }
 ]
