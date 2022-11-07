@@ -1,5 +1,31 @@
 [
   {
+    "oid": "b16a64d6edb9fd1a014fc51995dff7d0e2f4c84e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3414752152/jobs/5683109890"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3414752152/jobs/5683109987"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3414752152/jobs/5683110079"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4665/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Refactor ScheduleRule Attributes (#13195)"
+  },
+  {
     "oid": "ce777fde18bb4c1ef23a856a998c50606c7947f8",
     "statuses": [
       {
@@ -40,7 +66,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "FAILURE",
         "url": "https://github.com/apache/tvm/actions/runs/3414239620/jobs/5681930507"
       },
       {
@@ -71,7 +97,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4662/display/redirect"
       }
     ],
@@ -357,31 +383,5 @@
       }
     ],
     "messageHeadline": "[BugFix][Pattern] Fixed a crash when AltPattern and FunctionPattern a\u2026"
-  },
-  {
-    "oid": "e86088492314be322ff9151f411085455fca1d22",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3395586701/jobs/5645662188"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3395586701/jobs/5645662500"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3395586701/jobs/5645662316"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/34/display/redirect"
-      }
-    ],
-    "messageHeadline": "[build][hexagon] remove unused variable (#13291)"
   }
 ]
