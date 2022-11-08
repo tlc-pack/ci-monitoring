@@ -1,5 +1,31 @@
 [
   {
+    "oid": "16bb1a6c2ee7a8f68f15ab8710588c75880e0dd5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3423347342/jobs/5701835332"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3423347342/jobs/5701834957"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3423347342/jobs/5701835170"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4676/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microTVM][CRT] Add memory size as project option (#13313)"
+  },
+  {
     "oid": "750ba9f742da772e730b9d77075834dd53e37682",
     "statuses": [
       {
@@ -35,7 +61,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3422634762/jobs/5700271790"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Bugfix][Runtime] Fix sched_setaffinity in Android (#13158)"
-  },
-  {
-    "oid": "dd257e478ef88e3e2a2c1df1b36efbfe4347ee5f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3412549626/jobs/5678207256"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3412549626/jobs/5678206873"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3412549626/jobs/5678207068"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4661/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay][Op] Add support for large index fp16 mean and var (#13289)"
   }
 ]
