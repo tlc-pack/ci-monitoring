@@ -1,5 +1,26 @@
 [
   {
+    "oid": "79093a171833d3edeeae976e81e2d57e91a0e9df",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3418476216/jobs/5690818054"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3418476216/jobs/5690819685"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3418476216/jobs/5690817724"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Consolidate target string usage (#13159)"
+  },
+  {
     "oid": "c898dc6b55c5ef26ef2699dd21965e328b92a8cd",
     "statuses": [
       {
@@ -357,31 +378,5 @@
       }
     ],
     "messageHeadline": "[TIR] Preserve loop annotation after loop partitioning (#13292)"
-  },
-  {
-    "oid": "1e793641d8f6ea15b7207dd3820b3c0657ba27ab",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3398489946/jobs/5651583099"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3398489946/jobs/5651582955"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3398489946/jobs/5651583030"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/42/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Added unit test for dynamic parameter in layout transform (#13298)"
   }
 ]
