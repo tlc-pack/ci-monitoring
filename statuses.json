@@ -1,5 +1,31 @@
 [
   {
+    "oid": "b807613c794321bf4fa765df026b1c3b454811b3",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3416239180/jobs/5686178120"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3416239180/jobs/5686178189"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3416239180/jobs/5686178071"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4669/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] [runtime] Move lock/unlock to HexagonHtp temporarily (#13318)"
+  },
+  {
     "oid": "e43841d2efec6eedaace0c9a53cd63c607b93c36",
     "statuses": [
       {
@@ -357,31 +383,5 @@
       }
     ],
     "messageHeadline": "[TE] Make `elem_offset` of the buffers created by `te.extern` a varia\u2026"
-  },
-  {
-    "oid": "62fadacd12d5dd8633012bf26890cc5c30327d7e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3398005347/jobs/5650667696"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3398005347/jobs/5650667811"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3398005347/jobs/5650667756"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/38/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Lint tests part 2 (#13271)"
   }
 ]
