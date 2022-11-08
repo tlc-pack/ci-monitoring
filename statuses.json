@@ -1,5 +1,26 @@
 [
   {
+    "oid": "be30238947305ccbf63655fb11162e726c319804",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3419093147/jobs/5692179435"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3419093147/jobs/5692179322"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3419093147/jobs/5692179543"
+      }
+    ],
+    "messageHeadline": "[Adreno][Textures] Fix static memory planner  (#13253)"
+  },
+  {
     "oid": "79093a171833d3edeeae976e81e2d57e91a0e9df",
     "statuses": [
       {
@@ -352,31 +373,5 @@
       }
     ],
     "messageHeadline": "[FIX] Handle matmul where one inner dimension is unknown (#13287)"
-  },
-  {
-    "oid": "732e34fe3d9facf0d710970aed8c7a86c038b070",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3399223823/jobs/5652831209"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3399223823/jobs/5652831266"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3399223823/jobs/5652831231"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/41/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Preserve loop annotation after loop partitioning (#13292)"
   }
 ]
