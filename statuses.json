@@ -1,5 +1,31 @@
 [
   {
+    "oid": "e43841d2efec6eedaace0c9a53cd63c607b93c36",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3415993227/jobs/5685693703"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3415993227/jobs/5685693602"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3415993227/jobs/5685693505"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4668/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microTVM] Fix RPC session close on runtime side (#13310)"
+  },
+  {
     "oid": "f8691180e044545bbd9582dfbc3d363e454029ad",
     "statuses": [
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4667/display/redirect"
       }
     ],
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4666/display/redirect"
       }
     ],
@@ -357,31 +383,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Lint tests part 2 (#13271)"
-  },
-  {
-    "oid": "be44e9c811c071f01f66002729b8a9cb356a3adf",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3397300145/jobs/5649314731"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3397300145/jobs/5649314816"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3397300145/jobs/5649314651"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/last-successful/39/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Tensorize] Add logs to comparator to make debugging tensorize failur\u2026"
   }
 ]
