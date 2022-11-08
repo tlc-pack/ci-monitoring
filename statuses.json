@@ -1,5 +1,26 @@
 [
   {
+    "oid": "c898dc6b55c5ef26ef2699dd21965e328b92a8cd",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3416977182/jobs/5687643364"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3416977182/jobs/5687643530"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3416977182/jobs/5687643451"
+      }
+    ],
+    "messageHeadline": "[TIR] Add thread sync if access index doesn't depend on thread index \u2026"
+  },
+  {
     "oid": "b807613c794321bf4fa765df026b1c3b454811b3",
     "statuses": [
       {
@@ -362,26 +383,5 @@
       }
     ],
     "messageHeadline": "[TIR] Added unit test for dynamic parameter in layout transform (#13298)"
-  },
-  {
-    "oid": "56878fab7c277eedc7fc1ead7c0cfa911305ff49",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3398489350/jobs/5651582154"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3398489350/jobs/5651582009"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3398489350/jobs/5651582085"
-      }
-    ],
-    "messageHeadline": "[TE] Make `elem_offset` of the buffers created by `te.extern` a varia\u2026"
   }
 ]
