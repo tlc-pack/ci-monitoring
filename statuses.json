@@ -1,5 +1,31 @@
 [
   {
+    "oid": "8453c9c35708554ee889135b2015d79db87cf0e4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3432236342/jobs/5721295655"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3432236342/jobs/5721295464"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3432236342/jobs/5721295820"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4683/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Fix the order of applying `AutoInline` in `ScheduleUsi\u2026"
+  },
+  {
     "oid": "999eee8c1a5e32a2103ef78bbc713eb4be6dc0cf",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] [runtime] Move lock/unlock to HexagonHtp temporarily (#13318)"
-  },
-  {
-    "oid": "e43841d2efec6eedaace0c9a53cd63c607b93c36",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3415993227/jobs/5685693703"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3415993227/jobs/5685693602"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3415993227/jobs/5685693505"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4668/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microTVM] Fix RPC session close on runtime side (#13310)"
   }
 ]
