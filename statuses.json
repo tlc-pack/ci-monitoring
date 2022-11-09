@@ -1,5 +1,47 @@
 [
   {
+    "oid": "244bceb45776fdaf7bf47863ddf067c3928f1e19",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3425503316/jobs/5706360518"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3425503316/jobs/5706360316"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3425503316/jobs/5706360408"
+      }
+    ],
+    "messageHeadline": "[TIR] Allow folding cast with broadcast and ramp (#13317)"
+  },
+  {
+    "oid": "36b1c5c4d952085de48728582abe20673bec7a0f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3425502509/jobs/5706358394"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3425502509/jobs/5706358612"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3425502509/jobs/5706358514"
+      }
+    ],
+    "messageHeadline": "[TIR] Remove redundant add in vnni/arm intrin (#13319)"
+  },
+  {
     "oid": "16bb1a6c2ee7a8f68f15ab8710588c75880e0dd5",
     "statuses": [
       {
@@ -336,57 +378,5 @@
       }
     ],
     "messageHeadline": "[TOPI] Enhance VNNI dot product (#12588)"
-  },
-  {
-    "oid": "e398d16de8e222b766070f48217cbf746996d987",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3414239620/jobs/5681930907"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3414239620/jobs/5681930765"
-      },
-      {
-        "name": "CI / Android",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/actions/runs/3414239620/jobs/5681930507"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4663/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Torch] Fix advanced indexing with boolean mask (#13306)"
-  },
-  {
-    "oid": "6b238c4b6e53ab41a2a359f2190b58633460f42e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3413716242/jobs/5680758023"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3413716242/jobs/5680757756"
-      },
-      {
-        "name": "CI / Android",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/actions/runs/3413716242/jobs/5680757899"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4662/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Bugfix][Runtime] Fix sched_setaffinity in Android (#13158)"
   }
 ]
