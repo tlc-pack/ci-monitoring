@@ -1,20 +1,41 @@
 [
   {
-    "oid": "244bceb45776fdaf7bf47863ddf067c3928f1e19",
+    "oid": "65dbee7f0c3a601779718acb3785451f1089ee79",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/actions/runs/3425503316/jobs/5706360518"
+        "url": "https://github.com/apache/tvm/actions/runs/3425845443/jobs/5707034663"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/actions/runs/3425503316/jobs/5706360316"
+        "url": "https://github.com/apache/tvm/actions/runs/3425845443/jobs/5707034744"
       },
       {
         "name": "CI / Android",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3425845443/jobs/5707034808"
+      }
+    ],
+    "messageHeadline": "[Doc] Add desc of keep_orig_output_dtype for ToMixedPrecision (#13321)"
+  },
+  {
+    "oid": "244bceb45776fdaf7bf47863ddf067c3928f1e19",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3425503316/jobs/5706360518"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3425503316/jobs/5706360316"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3425503316/jobs/5706360408"
       }
     ],
@@ -25,17 +46,17 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3425502509/jobs/5706358394"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3425502509/jobs/5706358612"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3425502509/jobs/5706358514"
       }
     ],
@@ -352,31 +373,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Refactor ScheduleRule Attributes (#13195)"
-  },
-  {
-    "oid": "ce777fde18bb4c1ef23a856a998c50606c7947f8",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3414614045/jobs/5682802073"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3414614045/jobs/5682802164"
-      },
-      {
-        "name": "CI / Android",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/actions/runs/3414614045/jobs/5682802261"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4664/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TOPI] Enhance VNNI dot product (#12588)"
   }
 ]
