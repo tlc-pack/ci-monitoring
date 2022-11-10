@@ -1,5 +1,31 @@
 [
   {
+    "oid": "23ade0c14b29c2c2710f6580035878f130eea52b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3437346148/jobs/5731978515"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3437346148/jobs/5731978665"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3437346148/jobs/5731978329"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4692/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMC] Global pass context for compile and tune (#13309)"
+  },
+  {
     "oid": "54bd5e1f5fa52c498b4a4ff13d795daf52a81bfd",
     "statuses": [
       {
@@ -357,31 +383,5 @@
       }
     ],
     "messageHeadline": "[TIR] Allow folding cast with broadcast and ramp (#13317)"
-  },
-  {
-    "oid": "36b1c5c4d952085de48728582abe20673bec7a0f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3425502509/jobs/5706358394"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3425502509/jobs/5706358612"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3425502509/jobs/5706358514"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4677/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Remove redundant add in vnni/arm intrin (#13319)"
   }
 ]
