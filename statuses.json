@@ -1,5 +1,52 @@
 [
   {
+    "oid": "a16a8904833e9c72aa7571ca336e781d89c128aa",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3433788142/jobs/5724476204"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3433788142/jobs/5724476136"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3433788142/jobs/5724476254"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4686/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TOPI] Fix conv2d transpose for small channel (#13341)"
+  },
+  {
+    "oid": "6d9d2132c1781c4cdc15e2e287cafc33f658bc5e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3433787427/jobs/5724474888"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3433787427/jobs/5724475005"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3433787427/jobs/5724474953"
+      }
+    ],
+    "messageHeadline": "[TIR] Check producer predicate in `ReverseComputeInline` (#13338)"
+  },
+  {
     "oid": "b4b90d76d9517d52c94c1e21acfb85ca3985ce16",
     "statuses": [
       {
@@ -19,7 +66,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4685/display/redirect"
       }
     ],
@@ -336,57 +383,5 @@
       }
     ],
     "messageHeadline": "Fixup libtorch backend build (#13320)"
-  },
-  {
-    "oid": "be30238947305ccbf63655fb11162e726c319804",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3419093147/jobs/5692179435"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3419093147/jobs/5692179322"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3419093147/jobs/5692179543"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4672/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Adreno][Textures] Fix static memory planner  (#13253)"
-  },
-  {
-    "oid": "79093a171833d3edeeae976e81e2d57e91a0e9df",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3418476216/jobs/5690818054"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3418476216/jobs/5690819685"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3418476216/jobs/5690817724"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4671/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ETHOSN] Consolidate target string usage (#13159)"
   }
 ]
