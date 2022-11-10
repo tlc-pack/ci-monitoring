@@ -1,5 +1,31 @@
 [
   {
+    "oid": "c66bb00a48626d4c0b10c38c1069245548df0e99",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3439072204/jobs/5735929904"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3439072204/jobs/5735930229"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3439072204/jobs/5735930062"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4694/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Docker]Refactor timezone script and NRF installation (#13342)"
+  },
+  {
     "oid": "7cd203dc3e8dbcbc9a0400c163e3d696afb9ebb1",
     "statuses": [
       {
@@ -357,31 +383,5 @@
       }
     ],
     "messageHeadline": "[AOT] Add CreateExecutorMetadata analysis pass (#13250)"
-  },
-  {
-    "oid": "65dbee7f0c3a601779718acb3785451f1089ee79",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3425845443/jobs/5707034663"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3425845443/jobs/5707034744"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3425845443/jobs/5707034808"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4679/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Doc] Add desc of keep_orig_output_dtype for ToMixedPrecision (#13321)"
   }
 ]
