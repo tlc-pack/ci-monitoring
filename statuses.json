@@ -1,5 +1,31 @@
 [
   {
+    "oid": "54bd5e1f5fa52c498b4a4ff13d795daf52a81bfd",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3435364551/jobs/5727642659"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3435364551/jobs/5727642507"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3435364551/jobs/5727642293"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4691/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Fixed MergeConstants pass on striped networks (#13281)"
+  },
+  {
     "oid": "3a30df670145371d21a45315e0edc771c11c3d63",
     "statuses": [
       {
@@ -357,31 +383,5 @@
       }
     ],
     "messageHeadline": "[TIR] Remove redundant add in vnni/arm intrin (#13319)"
-  },
-  {
-    "oid": "16bb1a6c2ee7a8f68f15ab8710588c75880e0dd5",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3423347342/jobs/5701835332"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3423347342/jobs/5701834957"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3423347342/jobs/5701835170"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4676/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microTVM][CRT] Add memory size as project option (#13313)"
   }
 ]
