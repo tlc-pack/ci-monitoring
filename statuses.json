@@ -1,5 +1,57 @@
 [
   {
+    "oid": "a0dcab2b24ffbef7f3032683b6eaf0e916ff5f3d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3434493109/jobs/5725853163"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3434493109/jobs/5725853240"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3434493109/jobs/5725853067"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4689/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CPP_RPC][ANDROID] Fix cpp_rpc build failure (#13305)"
+  },
+  {
+    "oid": "1228104726b3cfb63c0c13da7a584ca6d7b5e584",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3434443595/jobs/5725754758"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3434443595/jobs/5725754670"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3434443595/jobs/5725754558"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4688/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Minor][Testing] Consolidate IRs into corresponding functions (#13339)"
+  },
+  {
     "oid": "a16a8904833e9c72aa7571ca336e781d89c128aa",
     "statuses": [
       {
@@ -19,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4687/display/redirect"
       }
     ],
@@ -331,57 +383,5 @@
       }
     ],
     "messageHeadline": "[OpenCL][unit tests] Fix opencl cpp unit tests (#13254)"
-  },
-  {
-    "oid": "15752e4009bdd5528d2085984ab67a60267fa237",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3422634762/jobs/5700271675"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3422634762/jobs/5700271790"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3422634762/jobs/5700271905"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4674/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] Hide trailing return type if None (#13308)"
-  },
-  {
-    "oid": "bf77e793ab2f31320ca09b841ccd96004a457331",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3422632871/jobs/5700267698"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3422632871/jobs/5700267805"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3422632871/jobs/5700267994"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4673/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fixup libtorch backend build (#13320)"
   }
 ]
