@@ -1,5 +1,31 @@
 [
   {
+    "oid": "3a30df670145371d21a45315e0edc771c11c3d63",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3435224597/jobs/5727346216"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3435224597/jobs/5727345874"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3435224597/jobs/5727346104"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4690/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Make allocate_hexagon_array a hexagon contrib API (#13336)"
+  },
+  {
     "oid": "a0dcab2b24ffbef7f3032683b6eaf0e916ff5f3d",
     "statuses": [
       {
@@ -9,7 +35,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3434493109/jobs/5725853240"
       },
       {
@@ -357,31 +383,5 @@
       }
     ],
     "messageHeadline": "[microTVM][CRT] Add memory size as project option (#13313)"
-  },
-  {
-    "oid": "750ba9f742da772e730b9d77075834dd53e37682",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3422764566/jobs/5700557590"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3422764566/jobs/5700557751"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3422764566/jobs/5700557410"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4675/display/redirect"
-      }
-    ],
-    "messageHeadline": "[OpenCL][unit tests] Fix opencl cpp unit tests (#13254)"
   }
 ]
