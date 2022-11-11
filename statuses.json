@@ -1,5 +1,31 @@
 [
   {
+    "oid": "93fdf83e8f40b806ee5a8bd6625e0f4e431b459d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3441412768/jobs/5740918602"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3441412768/jobs/5740918504"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3441412768/jobs/5740918685"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4697/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Improve inlining and `VerifyGPUCode` for quantized mod\u2026"
+  },
+  {
     "oid": "b582cd12ae22595c64a0704b1f4f5ed67a9d02ca",
     "statuses": [
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4696/display/redirect"
       }
     ],
@@ -357,31 +383,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Fix the order of applying `AutoInline` in `ScheduleUsi\u2026"
-  },
-  {
-    "oid": "999eee8c1a5e32a2103ef78bbc713eb4be6dc0cf",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3432128039/jobs/5721058658"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3432128039/jobs/5721058922"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3432128039/jobs/5721058812"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4682/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Update Jenkins readme to match new directory structure (#13333)"
   }
 ]
