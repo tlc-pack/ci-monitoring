@@ -1,5 +1,31 @@
 [
   {
+    "oid": "5ffcfd9327e24129b50ebb3c8c0456961e444999",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3443384475/jobs/5744857665"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3443384475/jobs/5744857731"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3443384475/jobs/5744857818"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4706/display/redirect"
+      }
+    ],
+    "messageHeadline": "[FQ2I] Add cast back to input data type after AvgPool2d (#13332)"
+  },
+  {
     "oid": "ce0e9abea0ae19554b6b735691319a5f9e670058",
     "statuses": [
       {
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4704/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TVMC] Global pass context for compile and tune (#13309)"
-  },
-  {
-    "oid": "54bd5e1f5fa52c498b4a4ff13d795daf52a81bfd",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3435364551/jobs/5727642659"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3435364551/jobs/5727642507"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3435364551/jobs/5727642293"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4691/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Fixed MergeConstants pass on striped networks (#13281)"
   }
 ]
