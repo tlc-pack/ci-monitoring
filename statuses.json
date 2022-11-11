@@ -1,5 +1,31 @@
 [
   {
+    "oid": "88979834842115ef9ea8487d9a631dc3275f7a7d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3446567434/jobs/5751631313"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3446567434/jobs/5751631437"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3446567434/jobs/5751631172"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4707/display/redirect"
+      }
+    ],
+    "messageHeadline": "[IRBuilder][Minor] Add intrinsics like `T.int32x4` (#13361)"
+  },
+  {
     "oid": "5ffcfd9327e24129b50ebb3c8c0456961e444999",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TIR] Update ReductionIterNotIndexOutputBuffer to check BlockRealizeN\u2026"
-  },
-  {
-    "oid": "23ade0c14b29c2c2710f6580035878f130eea52b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3437346148/jobs/5731978515"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3437346148/jobs/5731978665"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3437346148/jobs/5731978329"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4692/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMC] Global pass context for compile and tune (#13309)"
   }
 ]
