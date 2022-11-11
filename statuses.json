@@ -1,5 +1,26 @@
 [
   {
+    "oid": "f9ed60aaef5399b0647aeeef68f86bda87653346",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3442711766/jobs/5743554596"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3442711766/jobs/5743554655"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3442711766/jobs/5743554546"
+      }
+    ],
+    "messageHeadline": "[Relay] Refactor constant folding over expr into a utility function (\u2026"
+  },
+  {
     "oid": "45327127d5d30819752d685d6ef06247a573552e",
     "statuses": [
       {
@@ -40,7 +61,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3442360724/jobs/5742862093"
       },
       {
@@ -362,31 +383,5 @@
       }
     ],
     "messageHeadline": "[Hexagon] Make allocate_hexagon_array a hexagon contrib API (#13336)"
-  },
-  {
-    "oid": "a0dcab2b24ffbef7f3032683b6eaf0e916ff5f3d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3434493109/jobs/5725853163"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3434493109/jobs/5725853240"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3434493109/jobs/5725853067"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4689/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CPP_RPC][ANDROID] Fix cpp_rpc build failure (#13305)"
   }
 ]
