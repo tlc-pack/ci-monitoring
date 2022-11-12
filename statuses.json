@@ -1,5 +1,31 @@
 [
   {
+    "oid": "b20b7c4ad4ad3774a42f47614245f8eeabe875cb",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3449872503/jobs/5758101632"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3449872503/jobs/5758101572"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3449872503/jobs/5758101686"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4709/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMScript] Reorganize the folder structure (#12496)"
+  },
+  {
     "oid": "38771170ccf199ab37e6a2b9c89362f04544d43b",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TIR][Arith] Fix divisor checking in `TryConstFold` (#13348)"
-  },
-  {
-    "oid": "c66bb00a48626d4c0b10c38c1069245548df0e99",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3439072204/jobs/5735929904"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3439072204/jobs/5735930229"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3439072204/jobs/5735930062"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4694/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Docker]Refactor timezone script and NRF installation (#13342)"
   }
 ]
