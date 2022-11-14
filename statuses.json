@@ -1,5 +1,31 @@
 [
   {
+    "oid": "5a767d053ddca688bb0e2e463106ae4c5d289b46",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3463761777/jobs/5784443894"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3463761777/jobs/5784443581"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3463761777/jobs/5784443762"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4711/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Separate the ci scripts into Github and Jenkins scripts (#13368)"
+  },
+  {
     "oid": "b8384d105bec858e9adeb1e25662250502e8058e",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Improve inlining and `VerifyGPUCode` for quantized mod\u2026"
-  },
-  {
-    "oid": "b582cd12ae22595c64a0704b1f4f5ed67a9d02ca",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3440515361/jobs/5739068693"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3440515361/jobs/5739068590"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3440515361/jobs/5739068806"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4696/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule][Minor] Fix Typo in ApplyCustomRule Schedule Rule (#13353)"
   }
 ]
