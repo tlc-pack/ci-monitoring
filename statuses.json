@@ -1,5 +1,57 @@
 [
   {
+    "oid": "8c30bda738eb0b07c0457b6ee651f3f32857903b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3473893265/jobs/5806436574"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3473893265/jobs/5806436472"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3473893265/jobs/5806436370"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4722/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Support schedules with cache read in RewriteLayout (#1\u2026"
+  },
+  {
+    "oid": "72c60ad78a4cd9ca055f567ffd762462a2b85428",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3473861130/jobs/5806370432"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3473861130/jobs/5806370339"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3473861130/jobs/5806370539"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4721/display/redirect"
+      }
+    ],
+    "messageHeadline": "[AOT][FIX] Handle device contexts properly in CreateFunctionMetadata \u2026"
+  },
+  {
     "oid": "24790d1d56c9aa8baceb054383a626dba604b959",
     "statuses": [
       {
@@ -71,7 +123,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4718/display/redirect"
       }
     ],
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[TIR][Schedule] Fix cache_read loc detecting and region_cover checkin\u2026"
-  },
-  {
-    "oid": "88979834842115ef9ea8487d9a631dc3275f7a7d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3446567434/jobs/5751631313"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3446567434/jobs/5751631437"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3446567434/jobs/5751631172"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4707/display/redirect"
-      }
-    ],
-    "messageHeadline": "[IRBuilder][Minor] Add intrinsics like `T.int32x4` (#13361)"
-  },
-  {
-    "oid": "5ffcfd9327e24129b50ebb3c8c0456961e444999",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3443384475/jobs/5744857665"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3443384475/jobs/5744857731"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3443384475/jobs/5744857818"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4706/display/redirect"
-      }
-    ],
-    "messageHeadline": "[FQ2I] Add cast back to input data type after AvgPool2d (#13332)"
   }
 ]
