@@ -1,5 +1,31 @@
 [
   {
+    "oid": "2bb3382c89419820dab51a5a0fe4f09bb7ce6ecd",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3474847125/jobs/5808459693"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3474847125/jobs/5808459564"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3474847125/jobs/5808459411"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4728/display/redirect"
+      }
+    ],
+    "messageHeadline": "[OpenCL] Introduce OpenCL wrapper to TVM (#13362)"
+  },
+  {
     "oid": "4f4b4edafdb0837972e4df6f570368f9f7cefd20",
     "statuses": [
       {
@@ -16,6 +42,11 @@
         "name": "CI / Android",
         "status": "PENDING",
         "url": "https://github.com/apache/tvm/actions/runs/3474759826/jobs/5808275064"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4727/display/redirect"
       }
     ],
     "messageHeadline": "[TOPI][Hexagon] Implement quantized adaptive_avg_pool1d for hexagon (\u2026"
@@ -144,7 +175,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4722/display/redirect"
       }
     ],
@@ -170,7 +201,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4721/display/redirect"
       }
     ],
@@ -357,31 +388,5 @@
       }
     ],
     "messageHeadline": "[CI] Do not merge before running CI on main (#13372)"
-  },
-  {
-    "oid": "68f51e692b79e799112dd709da8aa0ce854f7f23",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3465999909/jobs/5789370180"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3465999909/jobs/5789370295"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3465999909/jobs/5789370358"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4713/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Fix Jenkins quoting (#13380)"
   }
 ]
