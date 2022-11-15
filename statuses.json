@@ -1,25 +1,51 @@
 [
   {
-    "oid": "41a22432608e5d1176f697848a06e87d3fe5c849",
+    "oid": "3aa16f72dd3f1807b11ec61cf372af07d32099c4",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/actions/runs/3466045845/jobs/5789461757"
+        "url": "https://github.com/apache/tvm/actions/runs/3466720734/jobs/5790872899"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/actions/runs/3466045845/jobs/5789461843"
+        "url": "https://github.com/apache/tvm/actions/runs/3466720734/jobs/5790872958"
       },
       {
         "name": "CI / Android",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/actions/runs/3466045845/jobs/5789461647"
+        "url": "https://github.com/apache/tvm/actions/runs/3466720734/jobs/5790872799"
       },
       {
         "name": "tvm-ci/branch",
         "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4715/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Codegen] Fix CUDA codegen for int64 Ramp (#13382)"
+  },
+  {
+    "oid": "41a22432608e5d1176f697848a06e87d3fe5c849",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3466045845/jobs/5789461757"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3466045845/jobs/5789461843"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3466045845/jobs/5789461647"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4714/display/redirect"
       }
     ],
@@ -30,12 +56,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3465999909/jobs/5789370180"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3465999909/jobs/5789370295"
       },
       {
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4713/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Skip empty fx graph in TorchBench tuning script (#13356)"
-  },
-  {
-    "oid": "a15663654b4edcefa6431a1c3fb033069d17bc71",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3441732624/jobs/5741592242"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3441732624/jobs/5741592144"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3441732624/jobs/5741592043"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4700/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Unannotate `schedule_rule` if corresponding schedule f\u2026"
   }
 ]
