@@ -1,5 +1,31 @@
 [
   {
+    "oid": "647be2b42510bffb3ed78267c19e76263adcac36",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3467575252/jobs/5792572231"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3467575252/jobs/5792572371"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3467575252/jobs/5792572312"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4716/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule] Add `from-target` Defaults for LLVM VNNI Targets (#13383)"
+  },
+  {
     "oid": "3aa16f72dd3f1807b11ec61cf372af07d32099c4",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Fuse loops around shared to global store block in `Mul\u2026"
-  },
-  {
-    "oid": "f3eb2399897b830cd5a4014ba53ac0cbb3a8826e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3441736178/jobs/5741599697"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3441736178/jobs/5741599755"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3441736178/jobs/5741599607"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4701/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Skip empty fx graph in TorchBench tuning script (#13356)"
   }
 ]
