@@ -1,5 +1,26 @@
 [
   {
+    "oid": "4f4b4edafdb0837972e4df6f570368f9f7cefd20",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3474759826/jobs/5808274937"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3474759826/jobs/5808275180"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3474759826/jobs/5808275064"
+      }
+    ],
+    "messageHeadline": "[TOPI][Hexagon] Implement quantized adaptive_avg_pool1d for hexagon (\u2026"
+  },
+  {
     "oid": "557f1a9dedcdcbedeb0cb2b8855ff49fff03f5d3",
     "statuses": [
       {
@@ -362,31 +383,5 @@
       }
     ],
     "messageHeadline": "[ci] Fix Jenkins quoting (#13380)"
-  },
-  {
-    "oid": "b6fae9b35eff4ad1f7cc2e83d8d7da5d701d8e44",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3465823110/jobs/5789002009"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3465823110/jobs/5789002196"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3465823110/jobs/5789002102"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4712/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][Bugfix] Fix AXIS_SEPARATORS in tir.Schedule.transform_layout (#\u2026"
   }
 ]
