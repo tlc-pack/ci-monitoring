@@ -1,5 +1,31 @@
 [
   {
+    "oid": "a80cdc26e291abc52bbd70c950023d9e0340464d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3482591360/jobs/5825085457"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3482591360/jobs/5825085556"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3482591360/jobs/5825085300"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4741/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR][Analysis][Arith] Implement basic data-flow analysis (#13130)"
+  },
+  {
     "oid": "b4d4b82dbb9be2e4d0954f9dfd8e1c46079b66ee",
     "statuses": [
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4740/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TOPI][Hexagon] Implement quantized adaptive_avg_pool1d for hexagon (\u2026"
-  },
-  {
-    "oid": "557f1a9dedcdcbedeb0cb2b8855ff49fff03f5d3",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3473959313/jobs/5806578082"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3473959313/jobs/5806577968"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3473959313/jobs/5806578272"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4726/display/redirect"
-      }
-    ],
-    "messageHeadline": "[docs] Add some more release process docs (#13351)"
   }
 ]
