@@ -1,15 +1,41 @@
 [
   {
-    "oid": "2bb3382c89419820dab51a5a0fe4f09bb7ce6ecd",
+    "oid": "86a5ceec271f241451b641d10b4c27e0cdeb1e89",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/actions/runs/3474847125/jobs/5808459693"
+        "url": "https://github.com/apache/tvm/actions/runs/3475497759/jobs/5809787994"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3475497759/jobs/5809788118"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3475497759/jobs/5809788059"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4729/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TVMScript] Use tir::Evaluate if expression is in statement context (\u2026"
+  },
+  {
+    "oid": "2bb3382c89419820dab51a5a0fe4f09bb7ce6ecd",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3474847125/jobs/5808459693"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3474847125/jobs/5808459564"
       },
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4728/display/redirect"
       }
     ],
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4727/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Codegen] Fix CUDA codegen for int64 Ramp (#13382)"
-  },
-  {
-    "oid": "41a22432608e5d1176f697848a06e87d3fe5c849",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3466045845/jobs/5789461757"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3466045845/jobs/5789461843"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3466045845/jobs/5789461647"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4714/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Do not merge before running CI on main (#13372)"
   }
 ]
