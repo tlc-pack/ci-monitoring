@@ -1,5 +1,31 @@
 [
   {
+    "oid": "6401d0ef62c8f22f187dfb9fde3dfe07f55df206",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3476274263/jobs/5811345203"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3476274263/jobs/5811345127"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3476274263/jobs/5811345256"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4734/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Fix extern_primfunc buffer order bug  (#13347)"
+  },
+  {
     "oid": "a042a93cd9e13038da2fcdc59d5b245df012eba0",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[RUNTIME][ALIGNMENT] Configurable kAllocAlignment if needed (#13307)"
-  },
-  {
-    "oid": "41b7a4508383d80ea8e380b44d48f89e42ed125e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3472814232/jobs/5804110650"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3472814232/jobs/5804110306"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3472814232/jobs/5804110494"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4719/display/redirect"
-      }
-    ],
-    "messageHeadline": "feat: fix pylint issues for conftest (#13386)"
   }
 ]
