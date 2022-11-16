@@ -1,5 +1,31 @@
 [
   {
+    "oid": "44ed06ac9f019f9f06608504c3382d0905b6d5a2",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3480960194/jobs/5821429576"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3480960194/jobs/5821429753"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3480960194/jobs/5821429907"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4737/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ETHOSN] Relax concatenate offloading requirements (#13405)"
+  },
+  {
     "oid": "78b53221f8dd8c1d2bbeff9d34803db33ca254dd",
     "statuses": [
       {
@@ -9,12 +35,12 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3480163382/jobs/5819604511"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3480163382/jobs/5819604939"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TOPI] Add padding for dense/batch matmul for x86 vnni (#13385)"
-  },
-  {
-    "oid": "8c30bda738eb0b07c0457b6ee651f3f32857903b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3473893265/jobs/5806436574"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3473893265/jobs/5806436472"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3473893265/jobs/5806436370"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4722/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] Support schedules with cache read in RewriteLayout (#1\u2026"
   }
 ]
