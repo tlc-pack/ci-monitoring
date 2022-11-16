@@ -1,5 +1,31 @@
 [
   {
+    "oid": "78b53221f8dd8c1d2bbeff9d34803db33ca254dd",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3480163382/jobs/5819604794"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3480163382/jobs/5819604511"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3480163382/jobs/5819604939"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4736/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Remove PrimFuncNode::preflattened_buffer_map (#10940)"
+  },
+  {
     "oid": "0d9b1850afa7553719789001aa69c2bd8a8f5651",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Support schedules with cache read in RewriteLayout (#1\u2026"
-  },
-  {
-    "oid": "72c60ad78a4cd9ca055f567ffd762462a2b85428",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3473861130/jobs/5806370432"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3473861130/jobs/5806370339"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3473861130/jobs/5806370539"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4721/display/redirect"
-      }
-    ],
-    "messageHeadline": "[AOT][FIX] Handle device contexts properly in CreateFunctionMetadata \u2026"
   }
 ]
