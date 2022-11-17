@@ -1,5 +1,26 @@
 [
   {
+    "oid": "25ad54058a28782314405aa93c0d28ca6cd78077",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3490840445/jobs/5842775320"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3490840445/jobs/5842775446"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3490840445/jobs/5842775175"
+      }
+    ],
+    "messageHeadline": "[CI] Update minor git options (#13398)"
+  },
+  {
     "oid": "5b1d2cc3e822367783a660e268ef3311f8a2f06b",
     "statuses": [
       {
@@ -362,31 +383,5 @@
       }
     ],
     "messageHeadline": "[TIR] Fix extern_primfunc buffer order bug  (#13347)"
-  },
-  {
-    "oid": "a042a93cd9e13038da2fcdc59d5b245df012eba0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3476209260/jobs/5811223122"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3476209260/jobs/5811223046"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3476209260/jobs/5811223215"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4733/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Add test to cover specific case of reducer match buffer checkin\u2026"
   }
 ]
