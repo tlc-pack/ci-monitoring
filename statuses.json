@@ -1,5 +1,31 @@
 [
   {
+    "oid": "ad5c811411aaacf9e99594eea69a2dc343cd6c7e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3484952414/jobs/5830030744"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3484952414/jobs/5830030573"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3484952414/jobs/5830030670"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4745/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Unify index data type when creating prim func (#13327)"
+  },
+  {
     "oid": "59abd9e1068f7d6d4230c428042918fbfa0e3c44",
     "statuses": [
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4744/display/redirect"
       }
     ],
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4743/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TECompiler] Replace static constant index with NameSupply (#13397)"
-  },
-  {
-    "oid": "49c5d2f17304fd4c109fb60fdc35f4627b89511c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3476202878/jobs/5811210594"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3476202878/jobs/5811210669"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3476202878/jobs/5811210503"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4730/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Change single dma alloc buffers to be vtcm (#13374)"
   }
 ]
