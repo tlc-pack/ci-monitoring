@@ -1,5 +1,31 @@
 [
   {
+    "oid": "b29ab5c6baea8884a5b9c0702c1c93da6a830866",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3493891083/jobs/5849176570"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3493891083/jobs/5849176474"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3493891083/jobs/5849176364"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4750/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Add test to show scheduling of resnet50 with async dma pipe\u2026"
+  },
+  {
     "oid": "01a4725b6b8b36d3a9a1df666478310078160d2d",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TIR] Remove PrimFuncNode::preflattened_buffer_map (#10940)"
-  },
-  {
-    "oid": "0d9b1850afa7553719789001aa69c2bd8a8f5651",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3477080675/jobs/5812885631"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3477080675/jobs/5812885745"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3477080675/jobs/5812885815"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4735/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] fix GPU other build  (#13366)"
   }
 ]
