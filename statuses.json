@@ -1,5 +1,31 @@
 [
   {
+    "oid": "80f8e8bb74d8f4d026116d86a7b1d81a9e69fbcf",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3500031436/jobs/5862263404"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3500031436/jobs/5862263308"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3500031436/jobs/5862263526"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4760/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TE] Remove binding to temporary variable (#13430)"
+  },
+  {
     "oid": "b023e9539c33a2fa43207a122ec60ad11c67314b",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[ACL] Enable int8 data type in QNN ADD (#13407)"
-  },
-  {
-    "oid": "ad5c811411aaacf9e99594eea69a2dc343cd6c7e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3484952414/jobs/5830030744"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3484952414/jobs/5830030573"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3484952414/jobs/5830030670"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4745/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Unify index data type when creating prim func (#13327)"
   }
 ]
