@@ -1,5 +1,31 @@
 [
   {
+    "oid": "4f35b4ded106ea850f136c7d990e9a9008b5888b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3499809590/jobs/5861775542"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3499809590/jobs/5861775463"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3499809590/jobs/5861775368"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4755/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR][Hexagon] Async DMA fixups (#13436)"
+  },
+  {
     "oid": "490e0e3120f304a98607770502b5700ec6ab9d55",
     "statuses": [
       {
@@ -14,7 +40,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3499160682/jobs/5860403396"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TIR][Analysis][Arith] Implement basic data-flow analysis (#13130)"
-  },
-  {
-    "oid": "b4d4b82dbb9be2e4d0954f9dfd8e1c46079b66ee",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3481379200/jobs/5822393128"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3481379200/jobs/5822392923"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3481379200/jobs/5822393274"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4740/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Fix TIR vrmpy tensorization (#13404)"
   }
 ]
