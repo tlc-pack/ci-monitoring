@@ -1,10 +1,36 @@
 [
   {
-    "oid": "80f8e8bb74d8f4d026116d86a7b1d81a9e69fbcf",
+    "oid": "c1b8721695d52a57a86dd7030c4ca2dbbf46134b",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3500611739/jobs/5863458256"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3500611739/jobs/5863458423"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3500611739/jobs/5863458500"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4761/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Upgrade Vela to v3.5.0 (#13394)"
+  },
+  {
+    "oid": "80f8e8bb74d8f4d026116d86a7b1d81a9e69fbcf",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3500031436/jobs/5862263404"
       },
       {
@@ -35,7 +61,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3500006979/jobs/5862211350"
       },
       {
@@ -61,7 +87,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3500001003/jobs/5862198094"
       },
       {
@@ -82,7 +108,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3499997725/jobs/5862191203"
       },
       {
@@ -108,7 +134,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3499993291/jobs/5862182009"
       },
       {
@@ -118,7 +144,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3499993291/jobs/5862182162"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[usmp] Hill Climb greedy layout size check relaxed (#13369)"
-  },
-  {
-    "oid": "c98f3cd6f8b0dcd8b6b07fecd5a60174ec13dc5b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3487141893/jobs/5834417840"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3487141893/jobs/5834417989"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3487141893/jobs/5834417713"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4746/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ACL] Enable int8 data type in QNN ADD (#13407)"
   }
 ]
