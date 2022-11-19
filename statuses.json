@@ -1,5 +1,31 @@
 [
   {
+    "oid": "26d9b5a7c60fa8f7fe600f569274319c70702631",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3504090385/jobs/5869547867"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3504090385/jobs/5869547826"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3504090385/jobs/5869547903"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4765/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hotfix] Skip Flaky Tests (Tracked in #13443) (#13444)"
+  },
+  {
     "oid": "76a6e7141f01501b298ef08dc50a1d22fba1573b",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[COMMUNITY] Egor Churaev -> Committer (#13422)"
-  },
-  {
-    "oid": "b29ab5c6baea8884a5b9c0702c1c93da6a830866",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3493891083/jobs/5849176570"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3493891083/jobs/5849176474"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3493891083/jobs/5849176364"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4750/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon] Add test to show scheduling of resnet50 with async dma pipe\u2026"
   }
 ]
