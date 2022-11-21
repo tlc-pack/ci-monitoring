@@ -1,5 +1,31 @@
 [
   {
+    "oid": "8136173a631bf6c7274d26285349225fcf6e495f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3512377847/jobs/5884018927"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3512377847/jobs/5884018729"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3512377847/jobs/5884018823"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4769/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci][docs] Fix docs deploy (#13442)"
+  },
+  {
     "oid": "edfeba5c3a2caf133d2d045d1c4d99f5c34aeb69",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TIR][Hexagon] Async DMA fixups (#13436)"
-  },
-  {
-    "oid": "490e0e3120f304a98607770502b5700ec6ab9d55",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3499160682/jobs/5860403095"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3499160682/jobs/5860403269"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3499160682/jobs/5860403396"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4754/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Split out C++ unittests (#13335)"
   }
 ]
