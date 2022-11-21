@@ -1,5 +1,83 @@
 [
   {
+    "oid": "edfeba5c3a2caf133d2d045d1c4d99f5c34aeb69",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3511315066/jobs/5881968653"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3511315066/jobs/5881968576"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3511315066/jobs/5881968511"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4768/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Roofline] Allow user choice of pass for saving lowered TIR (#13437)"
+  },
+  {
+    "oid": "41b04007aa5a36f81d183721c23560d77b7b4c1d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3511312833/jobs/5881964190"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3511312833/jobs/5881964340"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3511312833/jobs/5881964273"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4767/display/redirect"
+      }
+    ],
+    "messageHeadline": "[FIX][ONNX][Relay] onnx converter on matmul with scalar; bring back n\u2026"
+  },
+  {
+    "oid": "d6632070a01e23270f9f480efc39d09fc38eb55f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3511249037/jobs/5881845652"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3511249037/jobs/5881845610"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3511249037/jobs/5881845544"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4766/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Fix] Fix IndexDataTypeNormalizer to avoid redundant casting (#13449)"
+  },
+  {
     "oid": "26d9b5a7c60fa8f7fe600f569274319c70702631",
     "statuses": [
       {
@@ -310,83 +388,5 @@
       }
     ],
     "messageHeadline": "[ci] Split out C++ unittests (#13335)"
-  },
-  {
-    "oid": "37a885553c83ef5c0fe5165f5547c58b696d9763",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3498730074/jobs/5859464329"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3498730074/jobs/5859464472"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3498730074/jobs/5859464146"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4753/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Fix Cascader code generation without StorageRewrite (#13365)"
-  },
-  {
-    "oid": "53824d697a633260ac62777eafd624c6406d9d42",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3494090756/jobs/5849558578"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3494090756/jobs/5849558380"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3494090756/jobs/5849558468"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4752/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Hexagon][QNN] Add TOPI strategies for qnn ops mul/tanh/subtract (#13\u2026"
-  },
-  {
-    "oid": "9cb36b1aada8b4d7833ca3ef21a7b23342c57825",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3494085720/jobs/5849548428"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3494085720/jobs/5849548150"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3494085720/jobs/5849548263"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4751/display/redirect"
-      }
-    ],
-    "messageHeadline": "[COMMUNITY] Egor Churaev -> Committer (#13422)"
   }
 ]
