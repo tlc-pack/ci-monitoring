@@ -1,5 +1,57 @@
 [
   {
+    "oid": "77f9c49b4e5182486d80fc44630ebc5e40535245",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3517411202/jobs/5895149977"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3517411202/jobs/5895150151"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3517411202/jobs/5895150261"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4771/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Fix][MetaSchedule] Param for rule AutoBind on Python side (#13454)"
+  },
+  {
+    "oid": "b419c4b4de8d73b8e942b332074f4ae577348319",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3517387657/jobs/5895100625"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3517387657/jobs/5895100779"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3517387657/jobs/5895100968"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4770/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Roofline] Add fma (non-tensorcore) peak flops for CUDA (#13419)"
+  },
+  {
     "oid": "8136173a631bf6c7274d26285349225fcf6e495f",
     "statuses": [
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[DOCKER][ADRENO] Enable autotvm tuning cache from tophub for Adreno G\u2026"
-  },
-  {
-    "oid": "bfb4c00197c609207c294bf764bcec128c7a7775",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3499993291/jobs/5862182009"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3499993291/jobs/5862181893"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3499993291/jobs/5862182162"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4756/display/redirect"
-      }
-    ],
-    "messageHeadline": "[OpenCL] Improve OpenCL version detection (#13434)"
-  },
-  {
-    "oid": "4f35b4ded106ea850f136c7d990e9a9008b5888b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3499809590/jobs/5861775542"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3499809590/jobs/5861775463"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3499809590/jobs/5861775368"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4755/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR][Hexagon] Async DMA fixups (#13436)"
   }
 ]
