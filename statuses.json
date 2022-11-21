@@ -1,5 +1,57 @@
 [
   {
+    "oid": "545f8dc927d4dc9fb1394c67c681ea40ec16db8d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3518234691/jobs/5896921031"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3518234691/jobs/5896921121"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3518234691/jobs/5896920921"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4775/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TOPI] Add handwritten matvec for dynamic cases (#13423)"
+  },
+  {
+    "oid": "3ccc3009a6a4f3cce4cbe9e24e6fa18cc1247f87",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3518225899/jobs/5896903360"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3518225899/jobs/5896903283"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3518225899/jobs/5896903189"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4774/display/redirect"
+      }
+    ],
+    "messageHeadline": "Fix building static tvm_runtime on windows (#13445)"
+  },
+  {
     "oid": "97789078117e58289a4530e6b162b815f6064473",
     "statuses": [
       {
@@ -30,7 +82,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3517569691/jobs/5895490301"
       },
       {
@@ -82,7 +134,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3517387657/jobs/5895100625"
       },
       {
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[microNPU] Upgrade Vela to v3.5.0 (#13394)"
-  },
-  {
-    "oid": "80f8e8bb74d8f4d026116d86a7b1d81a9e69fbcf",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3500031436/jobs/5862263404"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3500031436/jobs/5862263308"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3500031436/jobs/5862263526"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4760/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TE] Remove binding to temporary variable (#13430)"
-  },
-  {
-    "oid": "b023e9539c33a2fa43207a122ec60ad11c67314b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3500006979/jobs/5862211245"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3500006979/jobs/5862211350"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3500006979/jobs/5862211534"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4759/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Fix,Roofline] Handle zero length features in roofline (#13424)"
   }
 ]
