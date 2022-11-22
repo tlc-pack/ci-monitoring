@@ -1,5 +1,31 @@
 [
   {
+    "oid": "27d8d4153b2117f0f0137dfbf848ddb67b0b5247",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3522739328/jobs/5906067604"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3522739328/jobs/5906067467"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3522739328/jobs/5906067769"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4779/display/redirect"
+      }
+    ],
+    "messageHeadline": "Bump tensorflow from 2.9.1 to 2.9.3 in /apps/android_camera/models (#\u2026"
+  },
+  {
     "oid": "723a13ac0891400a21724fcaaefbd4875dc35d9f",
     "statuses": [
       {
@@ -14,7 +40,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3522156650/jobs/5904803183"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Hotfix] Skip Flaky Tests (Tracked in #13443) (#13444)"
-  },
-  {
-    "oid": "76a6e7141f01501b298ef08dc50a1d22fba1573b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3501500040/jobs/5865203089"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3501500040/jobs/5865203154"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3501500040/jobs/5865203025"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4764/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TVMScript] Output elif where possible (#13433)"
   }
 ]
