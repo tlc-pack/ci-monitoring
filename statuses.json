@@ -1,5 +1,31 @@
 [
   {
+    "oid": "7cfa62e255409b083d07b537765726a634c449c4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3519784323/jobs/5900080468"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3519784323/jobs/5900080534"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3519784323/jobs/5900080589"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4776/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Meta Schedule] Patch ICHECK for `target_has_vnni` to avoid seg fault\u2026"
+  },
+  {
     "oid": "545f8dc927d4dc9fb1394c67c681ea40ec16db8d",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[OPENCL][TEXTURE] Test case enhancements and fixes for RPC (#13408)"
-  },
-  {
-    "oid": "c1b8721695d52a57a86dd7030c4ca2dbbf46134b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3500611739/jobs/5863458256"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3500611739/jobs/5863458423"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3500611739/jobs/5863458500"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4761/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Upgrade Vela to v3.5.0 (#13394)"
   }
 ]
