@@ -1,5 +1,57 @@
 [
   {
+    "oid": "b2058f4dd2e0ae1fc5ab51ac9f84b372a389a65a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3529447914/jobs/5920482182"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3529447914/jobs/5920482075"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3529447914/jobs/5920481980"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4786/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI][Docker] Store GTest sources in GPU docker image (#13468)"
+  },
+  {
+    "oid": "8cccc253dae1474e17eca47ce67b7a34e0c41eba",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3529446242/jobs/5920479178"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3529446242/jobs/5920479243"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3529446242/jobs/5920479099"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4785/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Enable CRT tests for CPU minimal build (#13471)"
+  },
+  {
     "oid": "e2fc4d7e984c406e2c3f87665f79af7a1d4674b7",
     "statuses": [
       {
@@ -305,8 +357,8 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4773/display/redirect"
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4787/display/redirect"
       }
     ],
     "messageHeadline": "[RUNTIME][CLML] Fix Dense layer crash issue (#13451)"
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[RPC] Fix tracker connection termination (#13420)"
-  },
-  {
-    "oid": "77f9c49b4e5182486d80fc44630ebc5e40535245",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3517411202/jobs/5895149977"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3517411202/jobs/5895150151"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3517411202/jobs/5895150261"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4771/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Fix][MetaSchedule] Param for rule AutoBind on Python side (#13454)"
-  },
-  {
-    "oid": "b419c4b4de8d73b8e942b332074f4ae577348319",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3517387657/jobs/5895100625"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3517387657/jobs/5895100779"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3517387657/jobs/5895100968"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4770/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Roofline] Add fma (non-tensorcore) peak flops for CUDA (#13419)"
   }
 ]
