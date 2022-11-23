@@ -1,5 +1,31 @@
 [
   {
+    "oid": "dcea36e76d12f28342c700789d51ccc401f60bfb",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3535186639/jobs/5932914796"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3535186639/jobs/5932914670"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3535186639/jobs/5932914532"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4789/display/redirect"
+      }
+    ],
+    "messageHeadline": "Add python venvs to demo_ images that build (#13435)"
+  },
+  {
     "oid": "ca5bc958d10dd3a504d2f2256a588ff194b7cb34",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Fix building static tvm_runtime on windows (#13445)"
-  },
-  {
-    "oid": "97789078117e58289a4530e6b162b815f6064473",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3517780019/jobs/5895943712"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3517780019/jobs/5895944029"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3517780019/jobs/5895943874"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4787/display/redirect"
-      }
-    ],
-    "messageHeadline": "[RUNTIME][CLML] Fix Dense layer crash issue (#13451)"
   }
 ]
