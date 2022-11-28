@@ -1,5 +1,31 @@
 [
   {
+    "oid": "449d674e8dcdacaf954d19ebcc26416f7959d231",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3565666328/jobs/5991119309"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3565666328/jobs/5991119440"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3565666328/jobs/5991117643"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4808/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR][Schedule] Add condition to check buffer type (#13429)"
+  },
+  {
     "oid": "1e5fc256491b3ba88d938fb51013ad5d32f70ac6",
     "statuses": [
       {
@@ -56,7 +82,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3564699284/jobs/5988977375"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TIR][Transform] Optional data-flow analysis in RemoveNoOp (#13217)"
-  },
-  {
-    "oid": "f5a102c83c9200cf9dba1250a7431f57e018f83c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3550883163/jobs/5964646660"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3550883163/jobs/5964646607"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3550883163/jobs/5964646634"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4793/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CMSIS-NN] Support for int16 in fully connected layer (#13484)"
   }
 ]
