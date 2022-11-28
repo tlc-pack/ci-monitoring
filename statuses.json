@@ -1,5 +1,31 @@
 [
   {
+    "oid": "b8d7cd7fe0f7f268272eb8714163e540875d9c0f",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3562757338/jobs/5984778293"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3562757338/jobs/5984778382"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3562757338/jobs/5984778186"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4799/display/redirect"
+      }
+    ],
+    "messageHeadline": "[DOCKER][ADRENO] we don't need microtvm being built for android cross\u2026"
+  },
+  {
     "oid": "ae4fd7df7dce9333d7efc5454d393afa4f23d27b",
     "statuses": [
       {
@@ -14,7 +40,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3562383457/jobs/5984070664"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TVMScript] Improvements tvm.script.highlight (#13438)"
-  },
-  {
-    "oid": "a41e192dc8a3d4246d54e35e3afbe2a9dd08d52b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3527854655/jobs/5917358924"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3527854655/jobs/5917358833"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3527854655/jobs/5917359023"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4783/display/redirect"
-      }
-    ],
-    "messageHeadline": "[MetaSchedule] TorchBench tuning script: add task extraction mode (#1\u2026"
   }
 ]
