@@ -1,20 +1,46 @@
 [
   {
-    "oid": "fc59b6dbdf445c09f70d20c8156cc940f696fdcd",
+    "oid": "a92a3dd84f8b3ae994e7a4bef9305dc00c425285",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/actions/runs/3563950383/jobs/5987337280"
+        "url": "https://github.com/apache/tvm/actions/runs/3564624264/jobs/5988811455"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/actions/runs/3563950383/jobs/5987337554"
+        "url": "https://github.com/apache/tvm/actions/runs/3564624264/jobs/5988811171"
       },
       {
         "name": "CI / Android",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3564624264/jobs/5988811327"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4804/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ACL] Enable int8 data type in QNN CONV2D (#13496)"
+  },
+  {
+    "oid": "fc59b6dbdf445c09f70d20c8156cc940f696fdcd",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3563950383/jobs/5987337280"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3563950383/jobs/5987337554"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3563950383/jobs/5987337405"
       },
       {
@@ -35,12 +61,12 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3563929856/jobs/5987293321"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3563929856/jobs/5987293158"
       },
       {
@@ -71,7 +97,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4801/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[microTVM][Zephyr] Add 'serial_number' option (#13377)"
-  },
-  {
-    "oid": "dcea36e76d12f28342c700789d51ccc401f60bfb",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3535186639/jobs/5932914796"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3535186639/jobs/5932914670"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3535186639/jobs/5932914532"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4789/display/redirect"
-      }
-    ],
-    "messageHeadline": "Add python venvs to demo_ images that build (#13435)"
   }
 ]
