@@ -1,5 +1,57 @@
 [
   {
+    "oid": "1e5fc256491b3ba88d938fb51013ad5d32f70ac6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3565303311/jobs/5990289096"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3565303311/jobs/5990289437"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3565303311/jobs/5990289272"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4807/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon]Call Acquire/Release resources API in Hexagon Launcher durin\u2026"
+  },
+  {
+    "oid": "25e98dd5e4bd989ade14e36df1fc2e1f81be7885",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3565182211/jobs/5990019053"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3565182211/jobs/5990019242"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3565182211/jobs/5990018860"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4806/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ACL] Enable int8 data type in pooling operators (#13488)"
+  },
+  {
     "oid": "61144f9d8711aad15d2b1a19d983a4891e1be706",
     "statuses": [
       {
@@ -71,7 +123,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4803/display/redirect"
       }
     ],
@@ -336,57 +388,5 @@
       }
     ],
     "messageHeadline": "[CMSIS-NN] Support for int16 in fully connected layer (#13484)"
-  },
-  {
-    "oid": "2105b937cd6b4f426156813d6562f2845e5604f0",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3550612776/jobs/5964149734"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3550612776/jobs/5964149800"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3550612776/jobs/5964149862"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4792/display/redirect"
-      }
-    ],
-    "messageHeadline": "[OpenCL][Adreno] Remove PrimFunc parameters annotation (#13483)"
-  },
-  {
-    "oid": "fae4c5f1b3ad39bee5acd3e725a005a24db0ffbd",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3546549640/jobs/5955706315"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3546549640/jobs/5955706176"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3546549640/jobs/5955706458"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4791/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Fix an error when the result of compute_at has unit loop (#13481)"
   }
 ]
