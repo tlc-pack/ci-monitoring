@@ -1,5 +1,31 @@
 [
   {
+    "oid": "5d8fc204a59f5d7cfed3d948084593866b16ceef",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3563401819/jobs/5986141525"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3563401819/jobs/5986141371"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3563401819/jobs/5986141647"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4801/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ACL] Enable int8 data type in QNN DENSE (#13487)"
+  },
+  {
     "oid": "c38a0c50a7cde09d548f570f7aafa8e293ef1485",
     "statuses": [
       {
@@ -30,7 +56,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3562757338/jobs/5984778293"
       },
       {
@@ -40,7 +66,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3562757338/jobs/5984778186"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[CI][Docker] Store GTest sources in GPU docker image (#13468)"
-  },
-  {
-    "oid": "8cccc253dae1474e17eca47ce67b7a34e0c41eba",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3529446242/jobs/5920479178"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3529446242/jobs/5920479243"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3529446242/jobs/5920479099"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4785/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ci] Enable CRT tests for CPU minimal build (#13471)"
   }
 ]
