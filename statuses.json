@@ -1,5 +1,31 @@
 [
   {
+    "oid": "95d2e9fa35524bbdafbe4ff758523eb571055d02",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3570785297/jobs/6002071153"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3570785297/jobs/6002071087"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3570785297/jobs/6002071212"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4815/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ARM] Add dynamic matvec support (#13502)"
+  },
+  {
     "oid": "40d0ec7515c8866d2787f8be0c98b07a666629ce",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[ACL] Enable int8 data type in QNN DENSE (#13487)"
-  },
-  {
-    "oid": "c38a0c50a7cde09d548f570f7aafa8e293ef1485",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3562989434/jobs/5985273086"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3562989434/jobs/5985273205"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3562989434/jobs/5985273307"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4800/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Adreno] Add documentation for Adreno deployment (#13393)"
   }
 ]
