@@ -1,5 +1,31 @@
 [
   {
+    "oid": "f6f7feafb297993f5f035de7f814407a2b876967",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3575367272/jobs/6011812208"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3575367272/jobs/6011812023"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3575367272/jobs/6011811830"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4818/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CMSIS-NN] Support int16 handling for pooling functions (#13498)"
+  },
+  {
     "oid": "c0ba8a195115ed5b6f5c53df951972b98276d15a",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[ACL] Enable int8 data type in QNN CONV2D (#13496)"
-  },
-  {
-    "oid": "fc59b6dbdf445c09f70d20c8156cc940f696fdcd",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3563950383/jobs/5987337280"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3563950383/jobs/5987337554"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3563950383/jobs/5987337405"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4803/display/redirect"
-      }
-    ],
-    "messageHeadline": "Bump pillow from 8.3.2 to 9.3.0 in /apps/microtvm/ethosu (#13464)"
   }
 ]
