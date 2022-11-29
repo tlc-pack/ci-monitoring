@@ -1,5 +1,31 @@
 [
   {
+    "oid": "c0ba8a195115ed5b6f5c53df951972b98276d15a",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3572174943/jobs/6004767144"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3572174943/jobs/6004767403"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3572174943/jobs/6004767238"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4817/display/redirect"
+      }
+    ],
+    "messageHeadline": "[docs][Adreno] Remove unnecessary compilation flag (#13509)"
+  },
+  {
     "oid": "57de9e7f3d2711582368903ce95f08b91216b7b5",
     "statuses": [
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4816/display/redirect"
       }
     ],
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "Bump pillow from 8.3.2 to 9.3.0 in /apps/microtvm/ethosu (#13464)"
-  },
-  {
-    "oid": "b6151bcaa239c48dbec3c79aeef62c9c7780e147",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3563929856/jobs/5987293481"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3563929856/jobs/5987293321"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3563929856/jobs/5987293158"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4802/display/redirect"
-      }
-    ],
-    "messageHeadline": "Fix typo in golang sample (#13476)"
   }
 ]
