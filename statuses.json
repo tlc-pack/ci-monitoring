@@ -1,5 +1,31 @@
 [
   {
+    "oid": "57de9e7f3d2711582368903ce95f08b91216b7b5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3571309937/jobs/6003069258"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3571309937/jobs/6003069379"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3571309937/jobs/6003069333"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4816/display/redirect"
+      }
+    ],
+    "messageHeadline": "Revert \"[microTVM] enable building microTVM components by default\" (#\u2026"
+  },
+  {
     "oid": "95d2e9fa35524bbdafbe4ff758523eb571055d02",
     "statuses": [
       {
@@ -9,7 +35,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3570785297/jobs/6002071087"
       },
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "Fix typo in golang sample (#13476)"
-  },
-  {
-    "oid": "5d8fc204a59f5d7cfed3d948084593866b16ceef",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3563401819/jobs/5986141525"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3563401819/jobs/5986141371"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3563401819/jobs/5986141647"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4801/display/redirect"
-      }
-    ],
-    "messageHeadline": "[ACL] Enable int8 data type in QNN DENSE (#13487)"
   }
 ]
