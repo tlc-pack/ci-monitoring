@@ -1,5 +1,31 @@
 [
   {
+    "oid": "c2dd53d5315b3073a14ced200ab55426ac69904e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3584113929/jobs/6030370231"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3584113929/jobs/6030370000"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3584113929/jobs/6030370450"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4824/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TE][TIR] Improved naming when converting TE to schedulable TIR (#13431)"
+  },
+  {
     "oid": "8dc8d248a1c3af96a4496900983bb8152ee128ae",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[TIR] Fix buffer shape and IndexMap indices dtype mismatch (#13463)"
-  },
-  {
-    "oid": "2a812f90f311310e63d648c103be6d97a660c079",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3566103080/jobs/5992117750"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3566103080/jobs/5992118246"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3566103080/jobs/5992117993"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4809/display/redirect"
-      }
-    ],
-    "messageHeadline": "Bump pillow from 8.3.2 to 9.3.0 in /apps/microtvm/cmsisnn (#13465)"
   }
 ]
