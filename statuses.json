@@ -1,5 +1,31 @@
 [
   {
+    "oid": "ab3f54d3f72981bc5afab7f21ea3e65b9d1b34d8",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3585868002/jobs/6034377243"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3585868002/jobs/6034377442"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3585868002/jobs/6034377008"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4825/display/redirect"
+      }
+    ],
+    "messageHeadline": "[CI] Add `set -x` for demo scripts (#13523)"
+  },
+  {
     "oid": "c2dd53d5315b3073a14ced200ab55426ac69904e",
     "statuses": [
       {
@@ -347,31 +373,5 @@
       }
     ],
     "messageHeadline": "[MetaSchedule] Enhance Database Validation Script (#13459)"
-  },
-  {
-    "oid": "36d18e905bc58e18ed80356b9161ddfbbbf098bf",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3567345349/jobs/5994924084"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3567345349/jobs/5994924311"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3567345349/jobs/5994924175"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4810/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Fix buffer shape and IndexMap indices dtype mismatch (#13463)"
   }
 ]
