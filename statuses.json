@@ -1,5 +1,31 @@
 [
   {
+    "oid": "bf16b42edb94d016fd03ee68cf664d99c5f97e61",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3595535676/jobs/6055142143"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3595535676/jobs/6055142011"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3595535676/jobs/6055142267"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4828/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Add HVX quant conv2d implementation (#13256)"
+  },
+  {
     "oid": "c7d7164c421ead653d1a300a9610e8d9da14722b",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[ci][docker] Update Docker image tags (#13504)"
-  },
-  {
-    "oid": "435df5081a68d5e3b913684414b87f2e93de835f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3570118645/jobs/6000785790"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3570118645/jobs/6000785623"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3570118645/jobs/6000785716"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4813/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microTVM] Use `serial_number` in Zephyr tutorials (#13479)"
   }
 ]
