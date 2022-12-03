@@ -1,20 +1,46 @@
 [
   {
-    "oid": "72c3399207793ee9c28639995c88a64115f2193b",
+    "oid": "d31a1fb0dbea484dec045c22ce2a756aa1071b38",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/actions/runs/3605840735/jobs/6076608488"
+        "url": "https://github.com/apache/tvm/actions/runs/3606387560/jobs/6077675269"
       },
       {
         "name": "CI / Windows",
         "status": "PENDING",
-        "url": "https://github.com/apache/tvm/actions/runs/3605840735/jobs/6076608427"
+        "url": "https://github.com/apache/tvm/actions/runs/3606387560/jobs/6077675118"
       },
       {
         "name": "CI / Android",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3606387560/jobs/6077675189"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4833/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Dis-allow any non-S3 URLs in CI (#13283)"
+  },
+  {
+    "oid": "72c3399207793ee9c28639995c88a64115f2193b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3605840735/jobs/6076608488"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/3605840735/jobs/6076608427"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3605840735/jobs/6076608379"
       },
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[CMSIS-NN] Support int16 handling for pooling functions (#13498)"
-  },
-  {
-    "oid": "c0ba8a195115ed5b6f5c53df951972b98276d15a",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3572174943/jobs/6004767144"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3572174943/jobs/6004767403"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3572174943/jobs/6004767238"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4817/display/redirect"
-      }
-    ],
-    "messageHeadline": "[docs][Adreno] Remove unnecessary compilation flag (#13509)"
   }
 ]
