@@ -1,5 +1,31 @@
 [
   {
+    "oid": "7bc41ecca26204112f266d146371d0e867ec1240",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3614780308/jobs/6091442362"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3614780308/jobs/6091442265"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3614780308/jobs/6091442308"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4834/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Logging] Mark LogFatal::~LogFatal as [[noreturn]] (#13542)"
+  },
+  {
     "oid": "d31a1fb0dbea484dec045c22ce2a756aa1071b38",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Docs][Bug] Fix broken link to tvmc python (#13499)"
-  },
-  {
-    "oid": "f6f7feafb297993f5f035de7f814407a2b876967",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3575367272/jobs/6011812208"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3575367272/jobs/6011812023"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3575367272/jobs/6011811830"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4818/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CMSIS-NN] Support int16 handling for pooling functions (#13498)"
   }
 ]
