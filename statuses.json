@@ -1,5 +1,26 @@
 [
   {
+    "oid": "3a81aef40bca9479d4a691b3a80e42b01f3f8a0d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3615558668/jobs/6092730662"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3615558668/jobs/6092730623"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3615558668/jobs/6092730585"
+      }
+    ],
+    "messageHeadline": "[Fix] Use proper target in VerifyGPUCode (#13548)"
+  },
+  {
     "oid": "7bc41ecca26204112f266d146371d0e867ec1240",
     "statuses": [
       {
@@ -362,31 +383,5 @@
       }
     ],
     "messageHeadline": "[microTVM][Tutorial] Fix micro_aot and micro_autotune tutorials (#13513)"
-  },
-  {
-    "oid": "b9f89a2eb9c37cedfaaa4f316fd86ed5ba5dcf1f",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3575632065/jobs/6012412142"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3575632065/jobs/6012412368"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3575632065/jobs/6012412539"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4819/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Docs][Bug] Fix broken link to tvmc python (#13499)"
   }
 ]
