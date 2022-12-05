@@ -1,5 +1,31 @@
 [
   {
+    "oid": "3482eab1c55ba3c456ad229005be57906e1c5edb",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3623728819/jobs/6109922768"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3623728819/jobs/6109922892"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3623728819/jobs/6109923007"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4841/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Fix Bug]fix the bug of schedule batch_matmul_int8 on cuda (#13551)"
+  },
+  {
     "oid": "3e956ce9dadd9f919ee2c78d64d9bc0e813bef68",
     "statuses": [
       {
@@ -149,7 +175,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4839/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[CI] Add `set -x` for demo scripts (#13523)"
-  },
-  {
-    "oid": "c2dd53d5315b3073a14ced200ab55426ac69904e",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3584113929/jobs/6030370231"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3584113929/jobs/6030370000"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3584113929/jobs/6030370450"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4824/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TE][TIR] Improved naming when converting TE to schedulable TIR (#13431)"
   }
 ]
