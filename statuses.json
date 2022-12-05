@@ -1,5 +1,31 @@
 [
   {
+    "oid": "012551ffda830d7992a467fce67cdf0ada3a1826",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3619463183/jobs/6100535476"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3619463183/jobs/6100535829"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3619463183/jobs/6100535665"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4837/display/redirect"
+      }
+    ],
+    "messageHeadline": "[microNPU] Fix cascade scheduling stability (#13428)"
+  },
+  {
     "oid": "e7160d569a19aa00b0fd605abd970d0e9ed8b1d0",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "Add methods to get the size of VTCM on device as well as the allocate\u2026"
-  },
-  {
-    "oid": "694d4bf5eaf65df4eaad93188830112c6b139956",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3578336606/jobs/6018382303"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3578336606/jobs/6018382202"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3578336606/jobs/6018382027"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4821/display/redirect"
-      }
-    ],
-    "messageHeadline": "[tir] Add copy on write to all nodes (#13512)"
   }
 ]
