@@ -1,5 +1,31 @@
 [
   {
+    "oid": "3e956ce9dadd9f919ee2c78d64d9bc0e813bef68",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3623676842/jobs/6109809047"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3623676842/jobs/6109809179"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3623676842/jobs/6109808891"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4840/display/redirect"
+      }
+    ],
+    "messageHeadline": "[DNNL][BYOC] enable dense_bias_sum fusion (#13550)"
+  },
+  {
     "oid": "2b110367d1e1df12a3e784b7cdcc1d769c97132c",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[TE][TIR] Improved naming when converting TE to schedulable TIR (#13431)"
-  },
-  {
-    "oid": "8dc8d248a1c3af96a4496900983bb8152ee128ae",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3579617957/jobs/6020992290"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3579617957/jobs/6020992189"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3579617957/jobs/6020992369"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4823/display/redirect"
-      }
-    ],
-    "messageHeadline": "[LLVM] Switch to using New Pass Manager (NPM) with LLVM 16+ (#13515)"
   }
 ]
