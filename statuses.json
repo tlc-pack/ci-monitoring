@@ -1,5 +1,31 @@
 [
   {
+    "oid": "6574e1603452f6865949647bc8e3bed4dca5e55e",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3627553699/jobs/6117554279"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3627553699/jobs/6117554054"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3627553699/jobs/6117554181"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4843/display/redirect"
+      }
+    ],
+    "messageHeadline": "[MetaSchedule][Hexagon] Add postproc for verifying VTCM usage (#13538)"
+  },
+  {
     "oid": "965490e618f066e7ed762f7f60bac4900a66c4d9",
     "statuses": [
       {
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[QNN] support zero points as variable scalar for QnnBatchMatMul op (#\u2026"
-  },
-  {
-    "oid": "6782a35018d5df63486569f17296737d75eedc55",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3586065295/jobs/6034809370"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3586065295/jobs/6034809530"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3586065295/jobs/6034809707"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4826/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] Disable RewriteSimplifier extensions in RemoveNoOp (#13524)"
   }
 ]
