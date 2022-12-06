@@ -14,7 +14,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3633774126/jobs/6131168419"
       },
       {
@@ -63,14 +63,14 @@
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1/display/redirect"
       },
       {
-        "name": "minimal/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1/display/redirect"
-      },
-      {
         "name": "tvm-ci/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4850/display/redirect"
+      },
+      {
+        "name": "minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1/display/redirect"
       }
     ],
     "messageHeadline": "[ci] Split Jenkinsfile into platform-specific jobs (#13300)"
