@@ -1,5 +1,31 @@
 [
   {
+    "oid": "9374738b29c986e863d331ffe29e1b36828a8565",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3633774126/jobs/6131168219"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3633774126/jobs/6131168325"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3633774126/jobs/6131168419"
+      },
+      {
+        "name": "tvm-ci/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4850/display/redirect"
+      }
+    ],
+    "messageHeadline": "[ci] Split Jenkinsfile into platform-specific jobs (#13300)"
+  },
+  {
     "oid": "eb2781f7c900f437d86d562fd0a53a887f02aa90",
     "statuses": [
       {
@@ -45,7 +71,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4848/display/redirect"
       }
     ],
@@ -71,7 +97,7 @@
       },
       {
         "name": "tvm-ci/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm/job/main/4847/display/redirect"
       }
     ],
@@ -362,31 +388,5 @@
       }
     ],
     "messageHeadline": "[Fix] Use proper target in VerifyGPUCode (#13548)"
-  },
-  {
-    "oid": "7bc41ecca26204112f266d146371d0e867ec1240",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3614780308/jobs/6091442362"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3614780308/jobs/6091442265"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3614780308/jobs/6091442308"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4839/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Logging] Mark LogFatal::~LogFatal as [[noreturn]] (#13542)"
   }
 ]
