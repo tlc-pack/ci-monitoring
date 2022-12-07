@@ -1,5 +1,81 @@
 [
   {
+    "oid": "3e42506a97fa776a298655d2291a38340a4a7daa",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3635373781/jobs/6134409735"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3635373781/jobs/6134409668"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3635373781/jobs/6134409601"
+      },
+      {
+        "name": "arm/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/4/display/redirect"
+      },
+      {
+        "name": "cortexm/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/4/display/redirect"
+      },
+      {
+        "name": "cpu/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/4/display/redirect"
+      },
+      {
+        "name": "docker/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/4/display/redirect"
+      },
+      {
+        "name": "gpu/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/4/display/redirect"
+      },
+      {
+        "name": "hexagon/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/4/display/redirect"
+      },
+      {
+        "name": "i386/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/4/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/4/display/redirect"
+      },
+      {
+        "name": "minimal/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/4/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/4/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/3/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Fix predefined inverse map in layout transform dtype legalizati\u2026"
+  },
+  {
     "oid": "da73295aa0fd4da99f68a77acc935841dc670973",
     "statuses": [
       {
@@ -53,23 +129,23 @@
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/3/display/redirect"
       },
       {
-        "name": "lint/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/3/display/redirect"
-      },
-      {
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/3/display/redirect"
       },
       {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/3/display/redirect"
+      },
+      {
         "name": "riscv/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/3/display/redirect"
       },
       {
         "name": "wasm/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/2/display/redirect"
       }
     ],
@@ -90,7 +166,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3635006038/jobs/6133693859"
       },
       {
@@ -104,16 +180,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/2/display/redirect"
       },
       {
-        "name": "cpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/2/display/redirect"
-      },
-      {
-        "name": "docker/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/2/display/redirect"
-      },
-      {
         "name": "gpu/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2/display/redirect"
@@ -124,19 +190,29 @@
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/2/display/redirect"
       },
       {
-        "name": "i386/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/2/display/redirect"
+        "name": "cpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/2/display/redirect"
       },
       {
-        "name": "minimal/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/2/display/redirect"
+        "name": "docker/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/2/display/redirect"
+      },
+      {
+        "name": "i386/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/2/display/redirect"
       },
       {
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/2/display/redirect"
+      },
+      {
+        "name": "minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/2/display/redirect"
       },
       {
         "name": "riscv/branch",
@@ -512,31 +588,5 @@
       }
     ],
     "messageHeadline": "[microTVM][Arduino]Add `serial_number` to project options and tests (\u2026"
-  },
-  {
-    "oid": "012551ffda830d7992a467fce67cdf0ada3a1826",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3619463183/jobs/6100535476"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3619463183/jobs/6100535829"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3619463183/jobs/6100535665"
-      },
-      {
-        "name": "tvm-ci/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm/job/main/4837/display/redirect"
-      }
-    ],
-    "messageHeadline": "[microNPU] Fix cascade scheduling stability (#13428)"
   }
 ]
