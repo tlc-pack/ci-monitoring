@@ -48,29 +48,29 @@
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/9/display/redirect"
       },
       {
-        "name": "lint/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/9/display/redirect"
-      },
-      {
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/9/display/redirect"
       },
       {
+        "name": "docker/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/9/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/9/display/redirect"
+      },
+      {
         "name": "riscv/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/9/display/redirect"
       },
       {
         "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/8/display/redirect"
-      },
-      {
-        "name": "docker/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/9/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/8/display/redirect"
       }
     ],
     "messageHeadline": "Added macro generation in MLF export (#12789)"
@@ -129,11 +129,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/8/display/redirect"
       },
       {
-        "name": "riscv/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/8/display/redirect"
-      },
-      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/8/display/redirect"
@@ -142,6 +137,11 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/8/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/8/display/redirect"
       },
       {
         "name": "wasm/branch",
