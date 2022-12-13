@@ -4,23 +4,18 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3684828345/jobs/6235033547"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3684828345/jobs/6235033734"
       },
       {
         "name": "CI / Android",
         "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3684828345/jobs/6235033937"
-      },
-      {
-        "name": "cortexm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/v0.11.0/1/display/redirect"
       },
       {
         "name": "hexagon/branch",
@@ -31,6 +26,11 @@
         "name": "arm/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/33/display/redirect"
+      },
+      {
+        "name": "cortexm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/33/display/redirect"
       },
       {
         "name": "cpu/branch",
@@ -50,7 +50,7 @@
       {
         "name": "i386/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/33/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/v0.11.0/1/display/redirect"
       },
       {
         "name": "lint/branch",
@@ -60,7 +60,7 @@
       {
         "name": "minimal/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/33/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/v0.11.0/1/display/redirect"
       },
       {
         "name": "riscv/branch",
