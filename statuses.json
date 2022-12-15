@@ -53,11 +53,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/44/display/redirect"
       },
       {
-        "name": "riscv/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/44/display/redirect"
-      },
-      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/44/display/redirect"
@@ -66,6 +61,11 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/44/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/44/display/redirect"
       },
       {
         "name": "wasm/branch",
@@ -94,19 +94,19 @@
         "url": "https://github.com/apache/tvm/actions/runs/3700619403/jobs/6269211673"
       },
       {
-        "name": "arm/branch",
+        "name": "hexagon/branch",
         "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/nightly/7/display/redirect"
+      },
+      {
+        "name": "arm/branch",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/7/display/redirect"
       },
       {
         "name": "cortexm/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/nightly/7/display/redirect"
-      },
-      {
-        "name": "hexagon/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/nightly/7/display/redirect"
       },
       {
         "name": "cpu/branch",
