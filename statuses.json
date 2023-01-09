@@ -14,7 +14,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3870626455/jobs/6597699390"
       },
       {
@@ -48,9 +48,9 @@
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/28/display/redirect"
       },
       {
-        "name": "lint/branch",
+        "name": "minimal/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/28/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/28/display/redirect"
       },
       {
         "name": "riscv/branch",
@@ -58,19 +58,19 @@
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/28/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/28/display/redirect"
-      },
-      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/28/display/redirect"
       },
       {
-        "name": "minimal/branch",
+        "name": "lint/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/111/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/28/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/28/display/redirect"
       }
     ],
     "messageHeadline": "[TIR][Arith] Add common sub expr analyzer (#13702)"
