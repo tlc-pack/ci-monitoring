@@ -48,11 +48,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/123/display/redirect"
       },
       {
-        "name": "lint/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/122/display/redirect"
-      },
-      {
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/122/display/redirect"
@@ -63,14 +58,19 @@
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/122/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/121/display/redirect"
-      },
-      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/122/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/122/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/121/display/redirect"
       }
     ],
     "messageHeadline": "[microTVM][Zephyr] Fix flash command for nrfjprog (#13723)"
@@ -170,6 +170,16 @@
         "url": "https://github.com/apache/tvm/actions/runs/3877989761/jobs/6613651200"
       },
       {
+        "name": "i386/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/121/display/redirect"
+      },
+      {
+        "name": "minimal/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/120/display/redirect"
+      },
+      {
         "name": "arm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/120/display/redirect"
@@ -193,16 +203,6 @@
         "name": "hexagon/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/120/display/redirect"
-      },
-      {
-        "name": "i386/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/121/display/redirect"
-      },
-      {
-        "name": "minimal/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/120/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -246,6 +246,16 @@
         "url": "https://github.com/apache/tvm/actions/runs/3877987129/jobs/6613645404"
       },
       {
+        "name": "i386/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/120/display/redirect"
+      },
+      {
+        "name": "minimal/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/119/display/redirect"
+      },
+      {
         "name": "arm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/119/display/redirect"
@@ -269,16 +279,6 @@
         "name": "hexagon/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/119/display/redirect"
-      },
-      {
-        "name": "i386/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/120/display/redirect"
-      },
-      {
-        "name": "minimal/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/119/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -322,6 +322,16 @@
         "url": "https://github.com/apache/tvm/actions/runs/3877981730/jobs/6613632745"
       },
       {
+        "name": "i386/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/119/display/redirect"
+      },
+      {
+        "name": "minimal/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/118/display/redirect"
+      },
+      {
         "name": "arm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/118/display/redirect"
@@ -345,16 +355,6 @@
         "name": "hexagon/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/118/display/redirect"
-      },
-      {
-        "name": "i386/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/119/display/redirect"
-      },
-      {
-        "name": "minimal/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/118/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -398,6 +398,11 @@
         "url": "https://github.com/apache/tvm/actions/runs/3877884499/jobs/6613422433"
       },
       {
+        "name": "cortexm/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/117/display/redirect"
+      },
+      {
         "name": "i386/branch",
         "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/118/display/redirect"
@@ -411,11 +416,6 @@
         "name": "arm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/117/display/redirect"
-      },
-      {
-        "name": "cortexm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/117/display/redirect"
       },
       {
         "name": "cpu/branch",
