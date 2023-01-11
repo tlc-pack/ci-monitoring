@@ -1,5 +1,26 @@
 [
   {
+    "oid": "77b6f0eec32a10d2ed716bf71a68e59bb97eefc1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3889683129/jobs/6638152385"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3889683129/jobs/6638152441"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/3889683129/jobs/6638152317"
+      }
+    ],
+    "messageHeadline": "[Tensorize][TOPI] Add AMX Tensorizing for int8 batch matmul (#13745)"
+  },
+  {
     "oid": "c2bc1ec95ec3b29c5d050285d7bdae77670b6c04",
     "statuses": [
       {
@@ -18,16 +39,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/3888916535/jobs/6636714264"
       },
       {
-        "name": "cpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/134/display/redirect"
-      },
-      {
-        "name": "hexagon/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/134/display/redirect"
-      },
-      {
         "name": "arm/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/134/display/redirect"
@@ -38,6 +49,11 @@
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/134/display/redirect"
       },
       {
+        "name": "cpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/134/display/redirect"
+      },
+      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/134/display/redirect"
@@ -46,6 +62,11 @@
         "name": "gpu/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/135/display/redirect"
+      },
+      {
+        "name": "hexagon/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/134/display/redirect"
       },
       {
         "name": "i386/branch",
@@ -1062,81 +1083,5 @@
       }
     ],
     "messageHeadline": "Add DisallowAsyncStridedMemCopy post processor to rem  (#13720)"
-  },
-  {
-    "oid": "b2da9453c6713e1428fc937ad0c6673ac9d31681",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3877989761/jobs/6613651427"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3877989761/jobs/6613651315"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/3877989761/jobs/6613651200"
-      },
-      {
-        "name": "arm/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/120/display/redirect"
-      },
-      {
-        "name": "cortexm/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/120/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/120/display/redirect"
-      },
-      {
-        "name": "i386/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/121/display/redirect"
-      },
-      {
-        "name": "minimal/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/120/display/redirect"
-      },
-      {
-        "name": "docker/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/120/display/redirect"
-      },
-      {
-        "name": "gpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/121/display/redirect"
-      },
-      {
-        "name": "hexagon/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/120/display/redirect"
-      },
-      {
-        "name": "lint/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/120/display/redirect"
-      },
-      {
-        "name": "riscv/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/120/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/119/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relay][Frontend] Span Filling TensorFlow 1 (#13728)"
   }
 ]
