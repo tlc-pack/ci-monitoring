@@ -14,7 +14,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/3992893884/jobs/6849136145"
       },
       {
@@ -30,12 +30,12 @@
       {
         "name": "cpu/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/nightly/43/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/194/display/redirect"
       },
       {
         "name": "cross-isa-minimal/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/nightly/7/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/29/display/redirect"
       },
       {
         "name": "gpu/branch",
@@ -53,14 +53,9 @@
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/43/display/redirect"
       },
       {
-        "name": "lint/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/43/display/redirect"
-      },
-      {
         "name": "minimal/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/43/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/194/display/redirect"
       },
       {
         "name": "riscv/branch",
@@ -68,14 +63,19 @@
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/43/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/43/display/redirect"
-      },
-      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/43/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/43/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/43/display/redirect"
       }
     ],
     "messageHeadline": "[Hexagon][Metaschedule] Add timeout_sec arg to get_hexagon_local_buil\u2026"
