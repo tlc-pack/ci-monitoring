@@ -4,17 +4,17 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/4110828566/jobs/7094015204"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/4110828566/jobs/7094015300"
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/4110828566/jobs/7094015392"
       },
       {
@@ -185,16 +185,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/nightly/56/display/redirect"
       },
       {
-        "name": "cpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/nightly/56/display/redirect"
-      },
-      {
-        "name": "cross-isa-minimal/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/nightly/20/display/redirect"
-      },
-      {
         "name": "hexagon/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/nightly/56/display/redirect"
@@ -203,6 +193,16 @@
         "name": "arm/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/56/display/redirect"
+      },
+      {
+        "name": "cpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/257/display/redirect"
+      },
+      {
+        "name": "cross-isa-minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/92/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -227,7 +227,7 @@
       {
         "name": "minimal/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/257/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/56/display/redirect"
       },
       {
         "name": "riscv/branch",
