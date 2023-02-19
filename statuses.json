@@ -4,7 +4,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/4213680895/jobs/7313563899"
       },
       {
@@ -19,7 +19,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "FAILURE",
         "url": "https://github.com/apache/tvm/actions/runs/4213680895/jobs/7313563821"
       },
       {
@@ -43,19 +43,9 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/151/display/redirect"
       },
       {
-        "name": "gpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/317/display/redirect"
-      },
-      {
         "name": "hexagon/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/316/display/redirect"
-      },
-      {
-        "name": "i386/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/317/display/redirect"
       },
       {
         "name": "minimal/branch",
@@ -63,19 +53,29 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/316/display/redirect"
       },
       {
-        "name": "riscv/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/317/display/redirect"
-      },
-      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/321/display/redirect"
       },
       {
+        "name": "gpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/317/display/redirect"
+      },
+      {
+        "name": "i386/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/317/display/redirect"
+      },
+      {
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/317/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/317/display/redirect"
       },
       {
         "name": "wasm/branch",
