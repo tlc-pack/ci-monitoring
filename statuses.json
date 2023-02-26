@@ -25,7 +25,7 @@
       {
         "name": "arm/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/75/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/353/display/redirect"
       },
       {
         "name": "cortexm/branch",
@@ -58,11 +58,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/75/display/redirect"
       },
       {
-        "name": "lint/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/75/display/redirect"
-      },
-      {
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/75/display/redirect"
@@ -73,14 +68,19 @@
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/75/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/75/display/redirect"
-      },
-      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/75/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/75/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/75/display/redirect"
       }
     ],
     "messageHeadline": "[Pytorch] frontend full_impl fix (#14122)"
