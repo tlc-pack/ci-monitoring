@@ -58,29 +58,29 @@
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/100/display/redirect"
       },
       {
-        "name": "lint/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/100/display/redirect"
-      },
-      {
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/100/display/redirect"
       },
       {
+        "name": "docker/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/100/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/100/display/redirect"
+      },
+      {
         "name": "riscv/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/100/display/redirect"
       },
       {
         "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/100/display/redirect"
-      },
-      {
-        "name": "docker/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/100/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/100/display/redirect"
       }
     ],
     "messageHeadline": "[TIR] Improved error message in InjectSoftwarePipeline (#14391)"
@@ -90,7 +90,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/4507565511/jobs/7935453903"
       },
       {
@@ -105,7 +105,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/4507565511/jobs/7935453780"
       },
       {
@@ -139,11 +139,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/462/display/redirect"
       },
       {
-        "name": "i386/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/463/display/redirect"
-      },
-      {
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/462/display/redirect"
@@ -152,6 +147,11 @@
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/467/display/redirect"
+      },
+      {
+        "name": "i386/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/463/display/redirect"
       },
       {
         "name": "lint/branch",
