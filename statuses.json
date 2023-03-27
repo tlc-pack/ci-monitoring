@@ -1,5 +1,31 @@
 [
   {
+    "oid": "6c3436136926613367ac3e19ece8bed90c4d5efb",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/4528588268/jobs/7975498546"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/4528588268/jobs/7975498390"
+      },
+      {
+        "name": "CI / Linux-Static-Runtime",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/4528588268/jobs/7975498264"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/4528588268/jobs/7975498701"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Adapt some intrinsics for high vector lanes (#14345)"
+  },
+  {
     "oid": "0d0d2f0bd33667316a255212e89a408a5f541817",
     "statuses": [
       {
@@ -1202,91 +1228,5 @@
       }
     ],
     "messageHeadline": "[TensorIR] New schedule primitive `set_dtype` (#14316)"
-  },
-  {
-    "oid": "0c2dd472864dddf910a27f7ef8575d15f8146a85",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/4487287348/jobs/7890564476"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/4487287348/jobs/7890564296"
-      },
-      {
-        "name": "CI / Linux-Static-Runtime",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/4487287348/jobs/7890564670"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/4487287348/jobs/7890564188"
-      },
-      {
-        "name": "arm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/455/display/redirect"
-      },
-      {
-        "name": "cortexm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/454/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/455/display/redirect"
-      },
-      {
-        "name": "cross-isa-minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/288/display/redirect"
-      },
-      {
-        "name": "docker/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/458/display/redirect"
-      },
-      {
-        "name": "gpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/454/display/redirect"
-      },
-      {
-        "name": "hexagon/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/453/display/redirect"
-      },
-      {
-        "name": "i386/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/454/display/redirect"
-      },
-      {
-        "name": "lint/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/454/display/redirect"
-      },
-      {
-        "name": "minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/453/display/redirect"
-      },
-      {
-        "name": "riscv/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/454/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/452/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Update GPU image for CUDA 11.7  (#14363)"
   }
 ]
