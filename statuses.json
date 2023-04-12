@@ -4,7 +4,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/4675052601/jobs/8279781246"
       },
       {
@@ -129,11 +129,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/nightly/117/display/redirect"
       },
       {
-        "name": "i386/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/117/display/redirect"
-      },
-      {
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/117/display/redirect"
@@ -152,6 +147,11 @@
         "name": "hexagon/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/557/display/redirect"
+      },
+      {
+        "name": "i386/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/117/display/redirect"
       },
       {
         "name": "lint/branch",
@@ -540,7 +540,7 @@
       },
       {
         "name": "gpu/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/554/display/redirect"
       },
       {
