@@ -109,11 +109,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/4679381928/jobs/8289326163"
       },
       {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/565/display/redirect"
-      },
-      {
         "name": "cortexm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/565/display/redirect"
@@ -147,6 +142,11 @@
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/562/display/redirect"
+      },
+      {
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/565/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -200,11 +200,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/567/display/redirect"
       },
       {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/564/display/redirect"
-      },
-      {
         "name": "cortexm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/564/display/redirect"
@@ -230,9 +225,9 @@
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/561/display/redirect"
       },
       {
-        "name": "minimal/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/561/display/redirect"
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/564/display/redirect"
       },
       {
         "name": "i386/branch",
@@ -243,6 +238,11 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/562/display/redirect"
+      },
+      {
+        "name": "minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/561/display/redirect"
       }
     ],
     "messageHeadline": "[CI] Add JAX deps in Dockerfiles (#14550)"
