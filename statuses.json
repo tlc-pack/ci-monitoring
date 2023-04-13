@@ -14,7 +14,7 @@
       },
       {
         "name": "CI / Linux-Static-Runtime",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/4691662018/jobs/8316418662"
       },
       {
@@ -41,11 +41,6 @@
         "name": "cross-isa-minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/405/display/redirect"
-      },
-      {
-        "name": "docker/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/576/display/redirect"
       },
       {
         "name": "gpu/branch",
@@ -81,6 +76,11 @@
         "name": "wasm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/569/display/redirect"
+      },
+      {
+        "name": "docker/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/576/display/redirect"
       }
     ],
     "messageHeadline": "[AOT] Fix warning on dropping const in TVMAotExecutor_GetInputName (#\u2026"
