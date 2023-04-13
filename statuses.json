@@ -4,12 +4,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/4688045190/jobs/8308089601"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/4688045190/jobs/8308090047"
       },
       {
@@ -30,7 +30,7 @@
       {
         "name": "cortexm/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/unity-merge-backup-04-13/1/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/571/display/redirect"
       },
       {
         "name": "cpu/branch",
@@ -50,7 +50,7 @@
       {
         "name": "hexagon/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/unity-merge-backup-04-13/1/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/568/display/redirect"
       },
       {
         "name": "i386/branch",
@@ -58,29 +58,29 @@
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/unity-merge-backup-04-13/1/display/redirect"
       },
       {
-        "name": "lint/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/unity-merge-backup-04-13/1/display/redirect"
-      },
-      {
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/unity-merge-backup-04-13/1/display/redirect"
       },
       {
+        "name": "docker/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/unity-merge-backup-04-13/1/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/unity-merge-backup-04-13/1/display/redirect"
+      },
+      {
         "name": "riscv/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/unity-merge-backup-04-13/1/display/redirect"
       },
       {
         "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/unity-merge-backup-04-13/1/display/redirect"
-      },
-      {
-        "name": "docker/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/unity-merge-backup-04-13/1/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/unity-merge-backup-04-13/1/display/redirect"
       }
     ],
     "messageHeadline": "[microNPU] Add support for MEAN with uint8 ifm (#14353)"
