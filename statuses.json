@@ -14,7 +14,7 @@
       },
       {
         "name": "CI / Linux-Static-Runtime",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/4708418314/jobs/8350845047"
       },
       {
@@ -73,14 +73,14 @@
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/577/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/575/display/redirect"
-      },
-      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/582/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/575/display/redirect"
       }
     ],
     "messageHeadline": "[TensorIR][Bugfix] `reindex_cache_write` do not mutate init statement\u2026"
