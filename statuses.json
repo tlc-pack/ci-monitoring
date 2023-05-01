@@ -14,7 +14,7 @@
       },
       {
         "name": "CI / Linux-Static-Runtime",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/4854875864/jobs/8652777262"
       },
       {
@@ -68,19 +68,19 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/606/display/redirect"
       },
       {
+        "name": "docker/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/612/display/redirect"
+      },
+      {
         "name": "riscv/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/606/display/redirect"
       },
       {
         "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/604/display/redirect"
-      },
-      {
-        "name": "docker/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/612/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/604/display/redirect"
       }
     ],
     "messageHeadline": "[PyTorch]  Add aten::new_zeros (#14747)"
@@ -114,11 +114,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/620/display/redirect"
       },
       {
-        "name": "gpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/607/display/redirect"
-      },
-      {
         "name": "lint/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/606/display/redirect"
@@ -142,6 +137,11 @@
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/611/display/redirect"
+      },
+      {
+        "name": "gpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/607/display/redirect"
       },
       {
         "name": "hexagon/branch",
