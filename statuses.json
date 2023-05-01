@@ -68,19 +68,19 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/605/display/redirect"
       },
       {
+        "name": "docker/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/611/display/redirect"
+      },
+      {
         "name": "riscv/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/605/display/redirect"
       },
       {
         "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/603/display/redirect"
-      },
-      {
-        "name": "docker/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/611/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/603/display/redirect"
       }
     ],
     "messageHeadline": "[Relay][Bugfix] Fix stride in LpPool for default (#14740)"
