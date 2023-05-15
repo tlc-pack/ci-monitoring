@@ -109,11 +109,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/4976698333/jobs/8905009227"
       },
       {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/675/display/redirect"
-      },
-      {
         "name": "cortexm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/660/display/redirect"
@@ -147,6 +142,11 @@
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/656/display/redirect"
+      },
+      {
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/675/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -195,16 +195,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/4976535292/jobs/8904694913"
       },
       {
-        "name": "cortexm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/nightly/146/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/nightly/146/display/redirect"
-      },
-      {
         "name": "cross-isa-minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/nightly/110/display/redirect"
@@ -222,7 +212,17 @@
       {
         "name": "arm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/674/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/146/display/redirect"
+      },
+      {
+        "name": "cortexm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/659/display/redirect"
+      },
+      {
+        "name": "cpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/660/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -232,7 +232,7 @@
       {
         "name": "i386/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/658/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/146/display/redirect"
       },
       {
         "name": "lint/branch",
