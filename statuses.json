@@ -4,12 +4,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/4984044642/jobs/8921861868"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/4984044642/jobs/8921862008"
       },
       {
@@ -114,11 +114,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/663/display/redirect"
       },
       {
-        "name": "hexagon/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/661/display/redirect"
-      },
-      {
         "name": "arm/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/679/display/redirect"
@@ -142,6 +137,11 @@
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/667/display/redirect"
+      },
+      {
+        "name": "hexagon/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/661/display/redirect"
       },
       {
         "name": "i386/branch",
