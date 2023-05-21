@@ -4,7 +4,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/5035649621/jobs/9031300160"
       },
       {
@@ -35,12 +35,12 @@
       {
         "name": "cpu/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/nightly/152/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/691/display/redirect"
       },
       {
         "name": "cross-isa-minimal/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/nightly/116/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/523/display/redirect"
       },
       {
         "name": "gpu/branch",
@@ -65,12 +65,7 @@
       {
         "name": "minimal/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/152/display/redirect"
-      },
-      {
-        "name": "riscv/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/152/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/684/display/redirect"
       },
       {
         "name": "wasm/branch",
@@ -81,6 +76,11 @@
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/152/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/684/display/redirect"
       }
     ],
     "messageHeadline": "[Contrib] Use f-strings for string formatting, NFC (#14893)"
