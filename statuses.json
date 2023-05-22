@@ -114,16 +114,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/154/display/redirect"
       },
       {
-        "name": "cortexm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/nightly/153/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/nightly/153/display/redirect"
-      },
-      {
         "name": "cross-isa-minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/nightly/117/display/redirect"
@@ -139,24 +129,29 @@
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/688/display/redirect"
       },
       {
+        "name": "i386/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/153/display/redirect"
+      },
+      {
         "name": "riscv/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/153/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/153/display/redirect"
+        "name": "cortexm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/691/display/redirect"
+      },
+      {
+        "name": "cpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/693/display/redirect"
       },
       {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/153/display/redirect"
-      },
-      {
-        "name": "i386/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/689/display/redirect"
       },
       {
         "name": "lint/branch",
@@ -167,6 +162,11 @@
         "name": "minimal/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/686/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/153/display/redirect"
       }
     ],
     "messageHeadline": "[TVMScript] Round-trip DeclBuffer with undefined data pointer (#14900)"
