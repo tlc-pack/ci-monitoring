@@ -4,12 +4,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/5053328761/jobs/9067070754"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/5053328761/jobs/9067070848"
       },
       {
@@ -60,12 +60,7 @@
       {
         "name": "minimal/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/689/display/redirect"
-      },
-      {
-        "name": "riscv/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/154/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/154/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -78,9 +73,14 @@
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/154/display/redirect"
       },
       {
+        "name": "riscv/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/154/display/redirect"
+      },
+      {
         "name": "wasm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/687/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/154/display/redirect"
       }
     ],
     "messageHeadline": "[TypoFix] fix some typo problem in keras frontend (#14916)"
