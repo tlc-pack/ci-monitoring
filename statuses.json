@@ -105,7 +105,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/5146036124/jobs/9264514775"
       },
       {
@@ -154,19 +154,19 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/723/display/redirect"
       },
       {
+        "name": "docker/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/733/display/redirect"
+      },
+      {
         "name": "riscv/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/723/display/redirect"
       },
       {
         "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/721/display/redirect"
-      },
-      {
-        "name": "docker/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/733/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/721/display/redirect"
       }
     ],
     "messageHeadline": "[CMAKE] Introduce dummy build as an option (#15000)"
@@ -210,11 +210,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/561/display/redirect"
       },
       {
-        "name": "docker/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/732/display/redirect"
-      },
-      {
         "name": "gpu/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/732/display/redirect"
@@ -228,6 +223,11 @@
         "name": "arm/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/746/display/redirect"
+      },
+      {
+        "name": "docker/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/732/display/redirect"
       },
       {
         "name": "i386/branch",
