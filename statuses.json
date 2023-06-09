@@ -25,7 +25,7 @@
       {
         "name": "arm/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1037/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1044/display/redirect"
       },
       {
         "name": "cortexm/branch",
@@ -58,11 +58,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/759/display/redirect"
       },
       {
-        "name": "lint/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/756/display/redirect"
-      },
-      {
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/754/display/redirect"
@@ -81,6 +76,11 @@
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/764/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/756/display/redirect"
       }
     ],
     "messageHeadline": "Revert \"[CI] Make Graviton3 default AArch64 job runner node (#14983)\"\u2026"
@@ -115,8 +115,8 @@
       },
       {
         "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/171/display/redirect"
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1005/display/redirect"
       },
       {
         "name": "cortexm/branch",
