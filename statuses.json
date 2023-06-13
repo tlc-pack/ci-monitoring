@@ -1,5 +1,31 @@
 [
   {
+    "oid": "68ac9097132b40cca88733267b628c0eb42bbbfb",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/5257092849/jobs/9499381344"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/5257092849/jobs/9499381578"
+      },
+      {
+        "name": "CI / Linux-Static-Runtime",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/5257092849/jobs/9499381076"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/5257092849/jobs/9499380775"
+      }
+    ],
+    "messageHeadline": "[CodeGenC] Use PrimFuncNode::ret_type in function signature (#15073)"
+  },
+  {
     "oid": "70532b87d19ca027963981f4873249a0e5857ef9",
     "statuses": [
       {
@@ -19,7 +45,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/5255995929/jobs/9496656334"
       },
       {
@@ -68,11 +94,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/763/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/760/display/redirect"
-      },
-      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/773/display/redirect"
@@ -81,6 +102,11 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/765/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/760/display/redirect"
       }
     ],
     "messageHeadline": "[COMMUNITY] Aleksei-grovety -> Reviewer (#15086)"
@@ -1207,91 +1233,5 @@
       }
     ],
     "messageHeadline": "[Bugfix][CI] Fix CacheControl version constraint violation (#15056)"
-  },
-  {
-    "oid": "f3fde8121bd2fd25066ea9ec1191880b67dee268",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/5208392244/jobs/9396932376"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/5208392244/jobs/9396932253"
-      },
-      {
-        "name": "CI / Linux-Static-Runtime",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/5208392244/jobs/9396932492"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/5208392244/jobs/9396932137"
-      },
-      {
-        "name": "arm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/775/display/redirect"
-      },
-      {
-        "name": "cortexm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/760/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/760/display/redirect"
-      },
-      {
-        "name": "cross-isa-minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/588/display/redirect"
-      },
-      {
-        "name": "docker/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/759/display/redirect"
-      },
-      {
-        "name": "gpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/760/display/redirect"
-      },
-      {
-        "name": "hexagon/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/753/display/redirect"
-      },
-      {
-        "name": "i386/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/754/display/redirect"
-      },
-      {
-        "name": "lint/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/751/display/redirect"
-      },
-      {
-        "name": "minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/749/display/redirect"
-      },
-      {
-        "name": "riscv/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/749/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/746/display/redirect"
-      }
-    ],
-    "messageHeadline": "[TIR] [Schedule] Fix decompose_padding bug with dtypes (#15050)"
   }
 ]
