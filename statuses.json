@@ -58,11 +58,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/779/display/redirect"
       },
       {
-        "name": "lint/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/776/display/redirect"
-      },
-      {
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/774/display/redirect"
@@ -81,6 +76,11 @@
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/784/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/776/display/redirect"
       }
     ],
     "messageHeadline": "[QNN] Implement quantized avg_pool2d (#15057)"
@@ -154,11 +154,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/773/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/770/display/redirect"
-      },
-      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/783/display/redirect"
@@ -167,6 +162,11 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/775/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/770/display/redirect"
       }
     ],
     "messageHeadline": "[Target][rocm] Replace rocm arch parsing from int to string (#15088)"
@@ -195,16 +195,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/5277293915/jobs/9545140308"
       },
       {
-        "name": "cortexm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/783/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/783/display/redirect"
-      },
-      {
         "name": "cross-isa-minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/611/display/redirect"
@@ -223,6 +213,16 @@
         "name": "arm/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1077/display/redirect"
+      },
+      {
+        "name": "cortexm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/783/display/redirect"
+      },
+      {
+        "name": "cpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/783/display/redirect"
       },
       {
         "name": "docker/branch",
