@@ -14,7 +14,7 @@
       },
       {
         "name": "CI / Linux-Static-Runtime",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/5391863904/jobs/9789362885"
       },
       {
@@ -30,12 +30,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/5390854814/jobs/9786834766"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/5390854814/jobs/9786835392"
       },
       {
@@ -45,7 +45,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/5390854814/jobs/9786835096"
       },
       {
@@ -121,7 +121,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/5390746650/jobs/9786565150"
       },
       {
@@ -221,11 +221,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/5390436457/jobs/9785773516"
       },
       {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1123/display/redirect"
-      },
-      {
         "name": "cortexm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/827/display/redirect"
@@ -251,14 +246,9 @@
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/820/display/redirect"
       },
       {
-        "name": "i386/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/821/display/redirect"
-      },
-      {
-        "name": "minimal/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/816/display/redirect"
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1123/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -266,9 +256,19 @@
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/826/display/redirect"
       },
       {
+        "name": "i386/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/821/display/redirect"
+      },
+      {
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/818/display/redirect"
+      },
+      {
+        "name": "minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/816/display/redirect"
       },
       {
         "name": "riscv/branch",
