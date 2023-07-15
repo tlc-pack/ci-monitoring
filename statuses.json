@@ -4,7 +4,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/5562216554/jobs/10160392023"
       },
       {
@@ -73,14 +73,14 @@
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/874/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/871/display/redirect"
-      },
-      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/885/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/871/display/redirect"
       }
     ],
     "messageHeadline": "[JVM] Fix the Maven pom.xml for OS X arm64 tvm4j build (#15321)"
