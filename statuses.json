@@ -90,7 +90,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/5611978750/jobs/10269091265"
       },
       {
@@ -149,16 +149,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/897/display/redirect"
       },
       {
-        "name": "riscv/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/895/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/892/display/redirect"
-      },
-      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/907/display/redirect"
@@ -167,6 +157,16 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/898/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/895/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/892/display/redirect"
       }
     ],
     "messageHeadline": "[Bug][Relay] fix relay frontend pytorch op addmm bug (#15294)"
