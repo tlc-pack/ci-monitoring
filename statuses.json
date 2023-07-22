@@ -19,7 +19,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/5630868762/job/15257252739"
       },
       {
@@ -73,14 +73,14 @@
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/905/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/902/display/redirect"
-      },
-      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/917/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/902/display/redirect"
       }
     ],
     "messageHeadline": "[TIR] Finer predicate handling in cross-thread reduction (#15374)"
