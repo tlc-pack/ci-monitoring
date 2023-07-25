@@ -58,11 +58,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/917/display/redirect"
       },
       {
-        "name": "lint/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/914/display/redirect"
-      },
-      {
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/913/display/redirect"
@@ -81,6 +76,11 @@
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/923/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/914/display/redirect"
       }
     ],
     "messageHeadline": "[TVMC] Add tvmc flag to print compilation time per pass (#15349)"
@@ -107,11 +107,6 @@
         "name": "CI / Android",
         "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/5658375139/job/15329545161"
-      },
-      {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1222/display/redirect"
       },
       {
         "name": "cortexm/branch",
@@ -149,9 +144,9 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/912/display/redirect"
       },
       {
-        "name": "riscv/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/910/display/redirect"
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1222/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -162,6 +157,11 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/913/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/910/display/redirect"
       },
       {
         "name": "wasm/branch",
