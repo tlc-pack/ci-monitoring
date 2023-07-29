@@ -4,12 +4,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/5700414570/job/15450231082"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/5700414570/job/15450231157"
       },
       {
@@ -21,11 +21,6 @@
         "name": "CI / Android",
         "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/5700414570/job/15450231206"
-      },
-      {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1234/display/redirect"
       },
       {
         "name": "cortexm/branch",
@@ -66,6 +61,11 @@
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/924/display/redirect"
+      },
+      {
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1234/display/redirect"
       },
       {
         "name": "docker/branch",
