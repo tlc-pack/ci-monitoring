@@ -195,11 +195,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/5763905655/job/15626712438"
       },
       {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1245/display/redirect"
-      },
-      {
         "name": "cortexm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/949/display/redirect"
@@ -240,9 +235,9 @@
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/933/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/930/display/redirect"
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1245/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -253,6 +248,11 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/936/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/930/display/redirect"
       }
     ],
     "messageHeadline": "[Relay][Strategy] Fix `arm_cpu` int8 conv2d schedule selection for 32\u2026"
