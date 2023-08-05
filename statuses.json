@@ -33,11 +33,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/nightly/229/display/redirect"
       },
       {
-        "name": "cpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/nightly/224/display/redirect"
-      },
-      {
         "name": "cross-isa-minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/nightly/187/display/redirect"
@@ -73,14 +68,19 @@
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/224/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/223/display/redirect"
+        "name": "cpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/954/display/redirect"
       },
       {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/223/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/223/display/redirect"
       }
     ],
     "messageHeadline": "[Script] Be more careful when generating ast.ExtSlice for Subscript (\u2026"
