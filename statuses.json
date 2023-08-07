@@ -19,7 +19,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/5784396819/job/15675002025"
       },
       {
@@ -68,19 +68,19 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/945/display/redirect"
       },
       {
+        "name": "docker/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/955/display/redirect"
+      },
+      {
         "name": "riscv/branch",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/943/display/redirect"
       },
       {
         "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/940/display/redirect"
-      },
-      {
-        "name": "docker/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/955/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/940/display/redirect"
       }
     ],
     "messageHeadline": "[Relay][Strategy] Use x86 dense schedules for arm_cpu (#15470)"
@@ -109,19 +109,9 @@
         "url": "https://github.com/apache/tvm/actions/runs/5782954355/job/15670781427"
       },
       {
-        "name": "cross-isa-minimal/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/782/display/redirect"
-      },
-      {
         "name": "gpu/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/1003/display/redirect"
-      },
-      {
-        "name": "hexagon/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/949/display/redirect"
       },
       {
         "name": "arm/branch",
@@ -139,9 +129,19 @@
         "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/957/display/redirect"
       },
       {
+        "name": "cross-isa-minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/782/display/redirect"
+      },
+      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/954/display/redirect"
+      },
+      {
+        "name": "hexagon/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/949/display/redirect"
       },
       {
         "name": "i386/branch",
@@ -195,11 +195,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/5782934618/job/15670724323"
       },
       {
-        "name": "cross-isa-minimal/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/781/display/redirect"
-      },
-      {
         "name": "gpu/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/1002/display/redirect"
@@ -218,6 +213,11 @@
         "name": "cpu/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/956/display/redirect"
+      },
+      {
+        "name": "cross-isa-minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/781/display/redirect"
       },
       {
         "name": "docker/branch",
