@@ -4,7 +4,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/6118955443/job/16607955073"
       },
       {
@@ -109,11 +109,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/6118057933/job/16605575995"
       },
       {
-        "name": "cross-isa-minimal/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/850/display/redirect"
-      },
-      {
         "name": "gpu/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/1077/display/redirect"
@@ -137,6 +132,11 @@
         "name": "cpu/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1025/display/redirect"
+      },
+      {
+        "name": "cross-isa-minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/850/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -197,7 +197,7 @@
       {
         "name": "gpu/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/1076/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/nightly/258/display/redirect"
       },
       {
         "name": "arm/branch",
