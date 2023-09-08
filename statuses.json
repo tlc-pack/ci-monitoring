@@ -90,7 +90,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/6117657198/job/16604613620"
       },
       {
@@ -105,28 +105,23 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/6117657198/job/16604613729"
-      },
-      {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1321/display/redirect"
       },
       {
         "name": "cortexm/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/nightly/258/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1029/display/redirect"
       },
       {
         "name": "cpu/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/nightly/252/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1024/display/redirect"
       },
       {
         "name": "cross-isa-minimal/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/nightly/215/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/849/display/redirect"
       },
       {
         "name": "gpu/branch",
@@ -146,17 +141,12 @@
       {
         "name": "minimal/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/250/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1011/display/redirect"
       },
       {
-        "name": "riscv/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/251/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/250/display/redirect"
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1321/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -167,6 +157,16 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/250/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1010/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1006/display/redirect"
       }
     ],
     "messageHeadline": "[Runtime] Make `CSourceModule` and `StaticLibraryModule` Binary Seria\u2026"
