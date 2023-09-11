@@ -90,7 +90,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/6143882483/job/16668193520"
       },
       {
@@ -107,11 +107,6 @@
         "name": "CI / Android",
         "status": "PENDING",
         "url": "https://github.com/apache/tvm/actions/runs/6143882483/job/16668194478"
-      },
-      {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1327/display/redirect"
       },
       {
         "name": "cortexm/branch",
@@ -154,9 +149,9 @@
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1015/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1011/display/redirect"
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1327/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -167,6 +162,11 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1017/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1011/display/redirect"
       }
     ],
     "messageHeadline": "[Bugfix][Strategy] Fix `arm_cpu` int8 conv2d strategy for dotprod and\u2026"
