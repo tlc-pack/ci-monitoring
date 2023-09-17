@@ -4,7 +4,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/6215610679/job/16868676505"
       },
       {
@@ -19,7 +19,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/6215610679/job/16868676618"
       },
       {
@@ -73,14 +73,14 @@
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1033/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1029/display/redirect"
-      },
-      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1044/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1029/display/redirect"
       }
     ],
     "messageHeadline": "[TIR] Do not drop 4th argument to tir.max (#15763)"
@@ -159,14 +159,14 @@
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1032/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1028/display/redirect"
-      },
-      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1043/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1028/display/redirect"
       }
     ],
     "messageHeadline": "[BugFix] Move symbols that are relevant to the runtime from libtvm to\u2026"
