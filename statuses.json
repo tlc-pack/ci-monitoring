@@ -240,11 +240,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1034/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1030/display/redirect"
-      },
-      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1045/display/redirect"
@@ -253,6 +248,11 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1036/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1030/display/redirect"
       }
     ],
     "messageHeadline": "[Arith] Fix detect non-divisible iteration form like (x % 255) // 16 \u2026"
