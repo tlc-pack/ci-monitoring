@@ -53,14 +53,9 @@
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/262/display/redirect"
       },
       {
-        "name": "riscv/branch",
+        "name": "minimal/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/262/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/261/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/261/display/redirect"
       },
       {
         "name": "cpu/branch",
@@ -78,9 +73,14 @@
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/261/display/redirect"
       },
       {
-        "name": "minimal/branch",
+        "name": "riscv/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1039/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/262/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/261/display/redirect"
       }
     ],
     "messageHeadline": "[Codegen][ROCm] Mismatched Dtype of Workgroup/Workitem (#15777)"
