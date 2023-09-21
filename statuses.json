@@ -23,11 +23,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/6256985133/job/16988647580"
       },
       {
-        "name": "i386/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1049/display/redirect"
-      },
-      {
         "name": "arm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/270/display/redirect"
@@ -35,7 +30,7 @@
       {
         "name": "cortexm/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1059/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/nightly/272/display/redirect"
       },
       {
         "name": "cpu/branch",
@@ -58,14 +53,14 @@
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1049/display/redirect"
       },
       {
-        "name": "minimal/branch",
+        "name": "i386/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1041/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1050/display/redirect"
       },
       {
-        "name": "wasm/branch",
+        "name": "minimal/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1035/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/262/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -80,7 +75,12 @@
       {
         "name": "riscv/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1039/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/263/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/262/display/redirect"
       }
     ],
     "messageHeadline": "[Hexagon] Properly handle RPC server shutdown (#15788)"
