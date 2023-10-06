@@ -4,7 +4,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/6429387723/job/17458347359"
       },
       {
@@ -19,7 +19,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/6429387723/job/17458346881"
       },
       {
@@ -68,11 +68,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1067/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1063/display/redirect"
-      },
-      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1077/display/redirect"
@@ -81,6 +76,11 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1068/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1063/display/redirect"
       }
     ],
     "messageHeadline": "[CI] Update ci-gpu image (#15836)"
@@ -107,11 +107,6 @@
         "name": "CI / Android",
         "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/6429224179/job/17457880474"
-      },
-      {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1377/display/redirect"
       },
       {
         "name": "cortexm/branch",
@@ -149,9 +144,9 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1067/display/redirect"
       },
       {
-        "name": "riscv/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1066/display/redirect"
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1377/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -164,9 +159,14 @@
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1067/display/redirect"
       },
       {
+        "name": "riscv/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1066/display/redirect"
+      },
+      {
         "name": "wasm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1061/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1062/display/redirect"
       }
     ],
     "messageHeadline": "Bump pillow from 9.3.0 to 10.0.1 in /apps/microtvm/ethosu (#15867)"
@@ -193,11 +193,6 @@
         "name": "CI / Android",
         "status": "PENDING",
         "url": "https://github.com/apache/tvm/actions/runs/6429220023/job/17457869218"
-      },
-      {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1376/display/redirect"
       },
       {
         "name": "cortexm/branch",
@@ -233,6 +228,11 @@
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1066/display/redirect"
+      },
+      {
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1376/display/redirect"
       },
       {
         "name": "docker/branch",
