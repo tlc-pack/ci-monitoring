@@ -63,11 +63,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1083/display/redirect"
       },
       {
-        "name": "lint/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1071/display/redirect"
-      },
-      {
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1071/display/redirect"
@@ -75,12 +70,17 @@
       {
         "name": "riscv/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1072/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1073/display/redirect"
       },
       {
         "name": "wasm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1066/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1071/display/redirect"
       }
     ],
     "messageHeadline": "[Docker] Add LLVM 17 to the LLVM install script (#15799)"
@@ -90,7 +90,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/6454219185/job/17519299899"
       },
       {
@@ -156,17 +156,17 @@
       {
         "name": "riscv/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1069/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1065/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1070/display/redirect"
       },
       {
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1070/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1065/display/redirect"
       }
     ],
     "messageHeadline": "[CMSIS-NN] Move CMSIS_5 from SHA to release based upgrade (#15747)"
