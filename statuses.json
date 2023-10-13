@@ -58,11 +58,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/update_ci_arm_20231012/1/display/redirect"
       },
       {
-        "name": "gpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/1160/display/redirect"
-      },
-      {
         "name": "hexagon/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/update_ci_arm_20231012/1/display/redirect"
@@ -81,6 +76,11 @@
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/update_ci_arm_20231012/1/display/redirect"
+      },
+      {
+        "name": "gpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/1160/display/redirect"
       }
     ],
     "messageHeadline": "[microNPU][ETHOSU] MatMul legalization support (#15780)"
