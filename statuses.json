@@ -4,7 +4,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/6507607294/job/17675340465"
       },
       {
@@ -19,7 +19,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/6507607294/job/17675340667"
       },
       {
@@ -73,14 +73,14 @@
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1085/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1077/display/redirect"
-      },
-      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1091/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1077/display/redirect"
       }
     ],
     "messageHeadline": "[microNPU][ETHOSU] MatMul legalization support (#15780)"
