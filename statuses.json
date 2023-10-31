@@ -23,11 +23,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/6705125254/job/18218931563"
       },
       {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1413/display/redirect"
-      },
-      {
         "name": "cortexm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1147/display/redirect"
@@ -68,19 +63,24 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1104/display/redirect"
       },
       {
-        "name": "riscv/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1105/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1099/display/redirect"
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1413/display/redirect"
       },
       {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1112/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1105/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1099/display/redirect"
       }
     ],
     "messageHeadline": "[Tests] Check int8+int32 testcases in test_estimate_peak_flops_cpu (#\u2026"
