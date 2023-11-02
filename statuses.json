@@ -1,5 +1,31 @@
 [
   {
+    "oid": "c3ce474dc172c521d7057061fac3b21207e83f0d",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/6732620903/job/18299664766"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/6732620903/job/18299664342"
+      },
+      {
+        "name": "CI / Linux-Static-Runtime",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/6732620903/job/18299664549"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/6732620903/job/18299664956"
+      }
+    ],
+    "messageHeadline": "[Pylint] fix pylint issues for thrust&tflite_runtime&util (#16023)"
+  },
+  {
     "oid": "bd3e8bb9cf33512a9da7af5d6854161131d8a6ac",
     "statuses": [
       {
@@ -109,6 +135,11 @@
         "url": "https://github.com/apache/tvm/actions/runs/6722170980/job/18269524741"
       },
       {
+        "name": "gpu/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/1250/display/redirect"
+      },
+      {
         "name": "arm/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/302/display/redirect"
@@ -132,11 +163,6 @@
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/294/display/redirect"
-      },
-      {
-        "name": "gpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/1245/display/redirect"
       },
       {
         "name": "hexagon/branch",
@@ -1142,91 +1168,5 @@
       }
     ],
     "messageHeadline": "[TVMScript][TIR] Pretty print TIR LLVM function name (#15953)"
-  },
-  {
-    "oid": "3c4ee86d97adad8fe7cf28bde2aaff8abf5e6f97",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/6634837359/job/18024834724"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/6634837359/job/18024834575"
-      },
-      {
-        "name": "CI / Linux-Static-Runtime",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/6634837359/job/18024834991"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/6634837359/job/18024834859"
-      },
-      {
-        "name": "gpu/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/nightly/302/display/redirect"
-      },
-      {
-        "name": "arm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/295/display/redirect"
-      },
-      {
-        "name": "cortexm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/nightly/300/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/nightly/290/display/redirect"
-      },
-      {
-        "name": "cross-isa-minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/nightly/252/display/redirect"
-      },
-      {
-        "name": "docker/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/287/display/redirect"
-      },
-      {
-        "name": "hexagon/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/nightly/292/display/redirect"
-      },
-      {
-        "name": "i386/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/290/display/redirect"
-      },
-      {
-        "name": "lint/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/287/display/redirect"
-      },
-      {
-        "name": "minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/287/display/redirect"
-      },
-      {
-        "name": "riscv/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/288/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/287/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CMake] Fix order of GNUInstallDirs module (#15966)"
   }
 ]
