@@ -23,11 +23,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/6739757543/job/18321799690"
       },
       {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/303/display/redirect"
-      },
-      {
         "name": "cortexm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/nightly/309/display/redirect"
@@ -68,9 +63,9 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/295/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/295/display/redirect"
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/303/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -81,6 +76,11 @@
         "name": "riscv/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/296/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/295/display/redirect"
       }
     ],
     "messageHeadline": "[TVMScript] Fix mismatched dtype of IterVar in `T.thread_binding` (#1\u2026"
