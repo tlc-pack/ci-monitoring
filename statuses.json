@@ -23,11 +23,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/6774847997/job/18412824008"
       },
       {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1432/display/redirect"
-      },
-      {
         "name": "cortexm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1169/display/redirect"
@@ -68,9 +63,9 @@
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1124/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1119/display/redirect"
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1432/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -81,6 +76,11 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1121/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1119/display/redirect"
       }
     ],
     "messageHeadline": "[TIR] Enhance Python Type Annotations for TIR stmt (#16076)"
@@ -109,16 +109,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/6773713624/job/18409181602"
       },
       {
-        "name": "cortexm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1168/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1148/display/redirect"
-      },
-      {
         "name": "cross-isa-minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/958/display/redirect"
@@ -137,6 +127,16 @@
         "name": "arm/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1431/display/redirect"
+      },
+      {
+        "name": "cortexm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1168/display/redirect"
+      },
+      {
+        "name": "cpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1149/display/redirect"
       },
       {
         "name": "docker/branch",
