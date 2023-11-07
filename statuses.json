@@ -4,7 +4,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/6790469472/job/18459925013"
       },
       {
@@ -19,7 +19,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/6790469472/job/18459925359"
       },
       {
@@ -114,14 +114,9 @@
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1178/display/redirect"
       },
       {
-        "name": "cross-isa-minimal/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/965/display/redirect"
-      },
-      {
         "name": "gpu/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/1282/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/1283/display/redirect"
       },
       {
         "name": "arm/branch",
@@ -132,6 +127,11 @@
         "name": "cpu/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1156/display/redirect"
+      },
+      {
+        "name": "cross-isa-minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/965/display/redirect"
       },
       {
         "name": "docker/branch",
