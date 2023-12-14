@@ -109,11 +109,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/7209307214/job/19639981254"
       },
       {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1482/display/redirect"
-      },
-      {
         "name": "cortexm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1231/display/redirect"
@@ -154,9 +149,9 @@
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1174/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1169/display/redirect"
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1482/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -167,6 +162,11 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1169/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1169/display/redirect"
       }
     ],
     "messageHeadline": "[TIR] ConvertSSA process entry func first (#16236)"
