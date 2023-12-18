@@ -23,11 +23,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/7239607517/job/19721667518"
       },
       {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/337/display/redirect"
-      },
-      {
         "name": "cortexm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/nightly/345/display/redirect"
@@ -68,9 +63,9 @@
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/330/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/329/display/redirect"
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/337/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -81,6 +76,11 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/329/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/329/display/redirect"
       }
     ],
     "messageHeadline": "[ARITH] Simplify nested if_then_else when constant is appearing in th\u2026"
