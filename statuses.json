@@ -58,11 +58,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1205/display/redirect"
       },
       {
-        "name": "minimal/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1211/display/redirect"
-      },
-      {
         "name": "riscv/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1211/display/redirect"
@@ -81,6 +76,11 @@
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1216/display/redirect"
+      },
+      {
+        "name": "minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1211/display/redirect"
       }
     ],
     "messageHeadline": "[TOPI][Target] Add fp16 SIMD support for conv2d on `arm_cpu` targets \u2026"
