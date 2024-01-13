@@ -23,11 +23,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/7506534088/job/20438161566"
       },
       {
-        "name": "riscv/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/346/display/redirect"
-      },
-      {
         "name": "cortexm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/nightly/362/display/redirect"
@@ -68,9 +63,9 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/345/display/redirect"
       },
       {
-        "name": "wasm/branch",
+        "name": "riscv/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/345/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/347/display/redirect"
       },
       {
         "name": "arm/branch",
@@ -81,6 +76,11 @@
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/345/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/345/display/redirect"
       }
     ],
     "messageHeadline": "[Relay][Frontend][Torch] fix a typo mistake in nonzero_numpy (#16390)"
