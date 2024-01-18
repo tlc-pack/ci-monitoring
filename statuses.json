@@ -40,7 +40,7 @@
       {
         "name": "gpu/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/1443/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/1445/display/redirect"
       },
       {
         "name": "hexagon/branch",
@@ -58,19 +58,9 @@
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1221/display/redirect"
       },
       {
-        "name": "minimal/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1227/display/redirect"
-      },
-      {
         "name": "riscv/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1227/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1224/display/redirect"
       },
       {
         "name": "arm/branch",
@@ -81,6 +71,16 @@
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1232/display/redirect"
+      },
+      {
+        "name": "minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1227/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1224/display/redirect"
       }
     ],
     "messageHeadline": "[Relay][Frontend][Torch] fix pytorch frontend linspace op (#16417)"
