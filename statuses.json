@@ -96,12 +96,12 @@
       {
         "name": "cpu/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1271/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main-before-unity-switch/1/display/redirect"
       },
       {
         "name": "cross-isa-minimal/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1067/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main-before-unity-switch/1/display/redirect"
       },
       {
         "name": "gpu/branch",
@@ -114,11 +114,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1284/display/redirect"
       },
       {
-        "name": "i386/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main-before-unity-switch/1/display/redirect"
-      },
-      {
         "name": "arm/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main-before-unity-switch/1/display/redirect"
@@ -129,6 +124,11 @@
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main-before-unity-switch/1/display/redirect"
       },
       {
+        "name": "i386/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1250/display/redirect"
+      },
+      {
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main-before-unity-switch/1/display/redirect"
@@ -136,17 +136,17 @@
       {
         "name": "minimal/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1234/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main-before-unity-switch/1/display/redirect"
       },
       {
         "name": "riscv/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1234/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main-before-unity-switch/1/display/redirect"
       },
       {
         "name": "wasm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1231/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main-before-unity-switch/1/display/redirect"
       }
     ],
     "messageHeadline": "[ROCm][WebGPU] Intrin Dispatch: `tanh`, `erf`, `log` (#16441)"
