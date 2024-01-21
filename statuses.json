@@ -3,11 +3,6 @@
     "oid": "ed3eb6e72f2119080ba8ab3f1a53f89ba79decf9",
     "statuses": [
       {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1542/display/redirect"
-      },
-      {
         "name": "cortexm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1336/display/redirect"
@@ -53,6 +48,11 @@
         "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1232/display/redirect"
       },
       {
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1542/display/redirect"
+      },
+      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1240/display/redirect"
@@ -91,7 +91,7 @@
       {
         "name": "cortexm/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1335/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main-before-unity-switch/1/display/redirect"
       },
       {
         "name": "cpu/branch",
@@ -116,17 +116,7 @@
       {
         "name": "i386/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1250/display/redirect"
-      },
-      {
-        "name": "minimal/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1234/display/redirect"
-      },
-      {
-        "name": "riscv/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1234/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main-before-unity-switch/1/display/redirect"
       },
       {
         "name": "arm/branch",
@@ -142,6 +132,16 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main-before-unity-switch/1/display/redirect"
+      },
+      {
+        "name": "minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1234/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1234/display/redirect"
       },
       {
         "name": "wasm/branch",
