@@ -63,11 +63,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/354/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/352/display/redirect"
-      },
-      {
         "name": "arm/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/360/display/redirect"
@@ -81,6 +76,11 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/352/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/352/display/redirect"
       }
     ],
     "messageHeadline": "[BugFix]Ensure that bf16 arrays are created as expected (#16436)"
