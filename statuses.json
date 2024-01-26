@@ -38,11 +38,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/361/display/redirect"
       },
       {
-        "name": "minimal/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/357/display/redirect"
-      },
-      {
         "name": "unity/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/nightly/5/display/redirect"
@@ -78,14 +73,19 @@
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/357/display/redirect"
       },
       {
+        "name": "minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/357/display/redirect"
+      },
+      {
         "name": "riscv/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1255/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/359/display/redirect"
       },
       {
         "name": "wasm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1252/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/357/display/redirect"
       }
     ],
     "messageHeadline": "[Unity] Improved error message in tvm::relax::UpdateStructInfo (#16472)"
