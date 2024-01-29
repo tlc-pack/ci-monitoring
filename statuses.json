@@ -19,7 +19,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/7690052621/job/20953345010"
       },
       {
@@ -114,11 +114,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/7689116542/job/20951126744"
       },
       {
-        "name": "cpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1297/display/redirect"
-      },
-      {
         "name": "cross-isa-minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1092/display/redirect"
@@ -134,24 +129,9 @@
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1252/display/redirect"
       },
       {
-        "name": "minimal/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1257/display/redirect"
-      },
-      {
-        "name": "riscv/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1258/display/redirect"
-      },
-      {
         "name": "unity/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/24/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1255/display/redirect"
       },
       {
         "name": "arm/branch",
@@ -162,6 +142,11 @@
         "name": "cortexm/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1363/display/redirect"
+      },
+      {
+        "name": "cpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1297/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -177,6 +162,21 @@
         "name": "i386/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1275/display/redirect"
+      },
+      {
+        "name": "minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1257/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1258/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1255/display/redirect"
       }
     ],
     "messageHeadline": "[Doc] Fix Docstring in `extern.py` for Sphinx (#16482)"
