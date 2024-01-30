@@ -23,11 +23,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/7709235546/job/21009995267"
       },
       {
-        "name": "cpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1304/display/redirect"
-      },
-      {
         "name": "cross-isa-minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1100/display/redirect"
@@ -48,11 +43,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1259/display/redirect"
       },
       {
-        "name": "minimal/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1264/display/redirect"
-      },
-      {
         "name": "riscv/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1265/display/redirect"
@@ -61,11 +51,6 @@
         "name": "unity/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/32/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1262/display/redirect"
       },
       {
         "name": "arm/branch",
@@ -78,6 +63,11 @@
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1370/display/redirect"
       },
       {
+        "name": "cpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1304/display/redirect"
+      },
+      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1270/display/redirect"
@@ -86,6 +76,16 @@
         "name": "i386/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1283/display/redirect"
+      },
+      {
+        "name": "minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1264/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1262/display/redirect"
       }
     ],
     "messageHeadline": "Bump pillow from 10.0.1 to 10.2.0 in /apps/microtvm (#16453)"
