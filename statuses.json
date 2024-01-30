@@ -14,7 +14,7 @@
       },
       {
         "name": "CI / Linux-Static-Runtime",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/7706396327/job/21001889468"
       },
       {
@@ -25,27 +25,67 @@
       {
         "name": "arm/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1571/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/368/display/redirect"
       },
       {
         "name": "cortexm/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1369/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/nightly/379/display/redirect"
       },
       {
         "name": "cpu/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1303/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/nightly/363/display/redirect"
+      },
+      {
+        "name": "cross-isa-minimal/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/nightly/326/display/redirect"
       },
       {
         "name": "gpu/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/1485/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/nightly/393/display/redirect"
+      },
+      {
+        "name": "hexagon/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/nightly/369/display/redirect"
+      },
+      {
+        "name": "i386/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/364/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/360/display/redirect"
+      },
+      {
+        "name": "minimal/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/360/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/362/display/redirect"
+      },
+      {
+        "name": "unity/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/31/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/360/display/redirect"
       },
       {
         "name": "docker/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1269/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/360/display/redirect"
       }
     ],
     "messageHeadline": "[Unity][MSC][Refactor] Reconstruct BYOC and runner (#16467)"
@@ -99,16 +139,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1314/display/redirect"
       },
       {
-        "name": "i386/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1281/display/redirect"
-      },
-      {
-        "name": "minimal/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1262/display/redirect"
-      },
-      {
         "name": "riscv/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1263/display/redirect"
@@ -117,11 +147,6 @@
         "name": "unity/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/30/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1260/display/redirect"
       },
       {
         "name": "arm/branch",
@@ -134,9 +159,24 @@
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1268/display/redirect"
       },
       {
+        "name": "i386/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1281/display/redirect"
+      },
+      {
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1257/display/redirect"
+      },
+      {
+        "name": "minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1262/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1260/display/redirect"
       }
     ],
     "messageHeadline": "[Unity][CodeGen] RunCodegen based on externally-exposed functions (#1\u2026"
@@ -167,7 +207,7 @@
       {
         "name": "cross-isa-minimal/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1097/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1096/display/redirect"
       },
       {
         "name": "hexagon/branch",
@@ -178,11 +218,6 @@
         "name": "i386/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1279/display/redirect"
-      },
-      {
-        "name": "unity/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/29/display/redirect"
       },
       {
         "name": "arm/branch",
@@ -223,6 +258,11 @@
         "name": "riscv/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1262/display/redirect"
+      },
+      {
+        "name": "unity/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/29/display/redirect"
       },
       {
         "name": "wasm/branch",
