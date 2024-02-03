@@ -4,12 +4,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/7768665132/job/21186853504"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/7768665132/job/21186853376"
       },
       {
@@ -19,13 +19,8 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/7768665132/job/21186853468"
-      },
-      {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1586/display/redirect"
       },
       {
         "name": "cortexm/branch",
@@ -55,7 +50,7 @@
       {
         "name": "i386/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1298/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1297/display/redirect"
       },
       {
         "name": "minimal/branch",
@@ -76,6 +71,11 @@
         "name": "wasm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1278/display/redirect"
+      },
+      {
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1586/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -100,7 +100,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/7768664149/job/21186850878"
       },
       {
@@ -114,11 +114,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/7768664149/job/21186851063"
       },
       {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1585/display/redirect"
-      },
-      {
         "name": "cortexm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1390/display/redirect"
@@ -127,6 +122,11 @@
         "name": "cpu/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1320/display/redirect"
+      },
+      {
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1585/display/redirect"
       }
     ],
     "messageHeadline": "[TIR] Require exactly same-dtype matching for Vulkan smem reuse (#16515)"
