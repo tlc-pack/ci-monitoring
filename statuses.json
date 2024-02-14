@@ -73,6 +73,11 @@
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1308/display/redirect"
       },
       {
+        "name": "unity/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/74/display/redirect"
+      },
+      {
         "name": "wasm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1306/display/redirect"
@@ -235,11 +240,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1303/display/redirect"
       },
       {
-        "name": "riscv/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1306/display/redirect"
-      },
-      {
         "name": "unity/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/72/display/redirect"
@@ -258,6 +258,11 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1297/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1306/display/redirect"
       }
     ],
     "messageHeadline": "[BYOC] Skip processed functions in FuseOpsByPattern and RunCodegen (#\u2026"
@@ -312,11 +317,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/7901688407/job/21565710999"
       },
       {
-        "name": "cortexm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1418/display/redirect"
-      },
-      {
         "name": "cpu/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1348/display/redirect"
@@ -337,19 +337,14 @@
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1373/display/redirect"
       },
       {
-        "name": "i386/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1324/display/redirect"
-      },
-      {
-        "name": "minimal/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1302/display/redirect"
-      },
-      {
         "name": "arm/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1610/display/redirect"
+      },
+      {
+        "name": "cortexm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1418/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -357,9 +352,19 @@
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1307/display/redirect"
       },
       {
+        "name": "i386/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1324/display/redirect"
+      },
+      {
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1296/display/redirect"
+      },
+      {
+        "name": "minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1302/display/redirect"
       },
       {
         "name": "riscv/branch",
@@ -369,7 +374,7 @@
       {
         "name": "unity/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/70/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/71/display/redirect"
       },
       {
         "name": "wasm/branch",
@@ -403,11 +408,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/7901684144/job/21565698698"
       },
       {
-        "name": "cortexm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1417/display/redirect"
-      },
-      {
         "name": "cpu/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1347/display/redirect"
@@ -423,19 +423,24 @@
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1372/display/redirect"
       },
       {
-        "name": "i386/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1323/display/redirect"
-      },
-      {
         "name": "arm/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1609/display/redirect"
       },
       {
+        "name": "cortexm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1417/display/redirect"
+      },
+      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1306/display/redirect"
+      },
+      {
+        "name": "i386/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1323/display/redirect"
       },
       {
         "name": "lint/branch",
@@ -496,7 +501,7 @@
       {
         "name": "gpu/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/1539/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/1540/display/redirect"
       },
       {
         "name": "hexagon/branch",
