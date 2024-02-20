@@ -58,11 +58,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1343/display/redirect"
       },
       {
-        "name": "lint/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1313/display/redirect"
-      },
-      {
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1320/display/redirect"
@@ -86,6 +81,11 @@
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1325/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1313/display/redirect"
       }
     ],
     "messageHeadline": "Extend gpu memory bandwidth test to work through RPC (#16608)"
@@ -115,8 +115,8 @@
       },
       {
         "name": "cpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1370/display/redirect"
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1368/display/redirect"
       },
       {
         "name": "gpu/branch",
