@@ -115,8 +115,8 @@
       },
       {
         "name": "cpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1377/display/redirect"
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1376/display/redirect"
       },
       {
         "name": "cross-isa-minimal/branch",
@@ -139,16 +139,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1318/display/redirect"
       },
       {
-        "name": "minimal/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1325/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1327/display/redirect"
-      },
-      {
         "name": "arm/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1634/display/redirect"
@@ -169,6 +159,11 @@
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1348/display/redirect"
       },
       {
+        "name": "minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1325/display/redirect"
+      },
+      {
         "name": "riscv/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1327/display/redirect"
@@ -177,6 +172,11 @@
         "name": "unity/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/94/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1327/display/redirect"
       }
     ],
     "messageHeadline": "[Doc] Fixed Docstring usage example in `tvm.ir.make_node` (#16610)"
