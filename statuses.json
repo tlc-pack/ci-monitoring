@@ -23,11 +23,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/8028313174/job/21933359026"
       },
       {
-        "name": "cpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/nightly/387/display/redirect"
-      },
-      {
         "name": "cross-isa-minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1186/display/redirect"
@@ -63,6 +58,11 @@
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/nightly/404/display/redirect"
       },
       {
+        "name": "cpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1406/display/redirect"
+      },
+      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/384/display/redirect"
@@ -85,7 +85,7 @@
       {
         "name": "wasm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1352/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/384/display/redirect"
       }
     ],
     "messageHeadline": "[RUNTIME][RPC] Enable RPCObjectRef over multi-hop RPC (#16635)"
