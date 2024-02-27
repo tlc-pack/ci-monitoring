@@ -9,7 +9,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/8062436578/job/22022149987"
       },
       {
@@ -58,11 +58,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1382/display/redirect"
       },
       {
-        "name": "lint/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1347/display/redirect"
-      },
-      {
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1357/display/redirect"
@@ -86,6 +81,11 @@
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1360/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1347/display/redirect"
       }
     ],
     "messageHeadline": "[SVE] Add support for scalable data type strings (#16612)"
