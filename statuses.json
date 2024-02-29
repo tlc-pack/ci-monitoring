@@ -23,11 +23,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/8097329217/job/22128153282"
       },
       {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1669/display/redirect"
-      },
-      {
         "name": "cortexm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1496/display/redirect"
@@ -73,9 +68,9 @@
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/129/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1360/display/redirect"
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1669/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -86,6 +81,11 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1351/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1360/display/redirect"
       }
     ],
     "messageHeadline": "[Bugfix][Transform] Preserve symbolic variables in FuseOps (#16637)"
@@ -112,11 +112,6 @@
         "name": "CI / Android",
         "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/8097314764/job/22128102045"
-      },
-      {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1668/display/redirect"
       },
       {
         "name": "cortexm/branch",
@@ -164,9 +159,9 @@
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/128/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1359/display/redirect"
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1668/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -177,6 +172,11 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1350/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1359/display/redirect"
       }
     ],
     "messageHeadline": "[Transform] Check for zero-param operators in LiftTransformParams (#1\u2026"
