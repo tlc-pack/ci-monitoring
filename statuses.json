@@ -23,11 +23,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/8130835340/job/22219493181"
       },
       {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1673/display/redirect"
-      },
-      {
         "name": "cortexm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1500/display/redirect"
@@ -73,6 +68,11 @@
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/133/display/redirect"
       },
       {
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1673/display/redirect"
+      },
+      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1368/display/redirect"
@@ -114,19 +114,19 @@
         "url": "https://github.com/apache/tvm/actions/runs/8130831959/job/22219487270"
       },
       {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1672/display/redirect"
+        "name": "cpu/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1419/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1365/display/redirect"
       },
       {
         "name": "cortexm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1499/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1419/display/redirect"
       },
       {
         "name": "cross-isa-minimal/branch",
@@ -154,19 +154,14 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1364/display/redirect"
       },
       {
-        "name": "riscv/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1365/display/redirect"
-      },
-      {
         "name": "unity/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/132/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1363/display/redirect"
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1672/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -177,6 +172,11 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1354/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1363/display/redirect"
       }
     ],
     "messageHeadline": "[Relax][Runtime] Support Unpack API for NDArrayCache (#16648)"
@@ -205,9 +205,9 @@
         "url": "https://github.com/apache/tvm/actions/runs/8130828086/job/22219480981"
       },
       {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1671/display/redirect"
+        "name": "riscv/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1364/display/redirect"
       },
       {
         "name": "cortexm/branch",
@@ -245,14 +245,14 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1363/display/redirect"
       },
       {
-        "name": "riscv/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1364/display/redirect"
-      },
-      {
         "name": "unity/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/131/display/redirect"
+      },
+      {
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1671/display/redirect"
       },
       {
         "name": "docker/branch",
