@@ -23,11 +23,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/8247010532/job/22554270485"
       },
       {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1709/display/redirect"
-      },
-      {
         "name": "cortexm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1541/display/redirect"
@@ -63,19 +58,14 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1400/display/redirect"
       },
       {
-        "name": "riscv/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1401/display/redirect"
-      },
-      {
         "name": "unity/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/168/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1399/display/redirect"
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1709/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -86,6 +76,16 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1391/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1401/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1399/display/redirect"
       }
     ],
     "messageHeadline": "[Disco] Propagate structlog configuration to disco workers (#16618)"
@@ -114,11 +114,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/8242483992/job/22541501186"
       },
       {
-        "name": "gpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/1879/display/redirect"
-      },
-      {
         "name": "arm/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/406/display/redirect"
@@ -142,6 +137,11 @@
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/397/display/redirect"
+      },
+      {
+        "name": "gpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/1878/display/redirect"
       },
       {
         "name": "hexagon/branch",
