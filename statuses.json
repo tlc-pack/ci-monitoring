@@ -1,5 +1,96 @@
 [
   {
+    "oid": "c00cc031de929ba04f46689bb42ced1a3a44d3ef",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/8278344447/job/22650489246"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/8278344447/job/22650490097"
+      },
+      {
+        "name": "CI / Linux-Static-Runtime",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/8278344447/job/22650489843"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/8278344447/job/22650489556"
+      },
+      {
+        "name": "arm/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1721/display/redirect"
+      },
+      {
+        "name": "cortexm/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1560/display/redirect"
+      },
+      {
+        "name": "cpu/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1472/display/redirect"
+      },
+      {
+        "name": "cross-isa-minimal/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1249/display/redirect"
+      },
+      {
+        "name": "gpu/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/1901/display/redirect"
+      },
+      {
+        "name": "hexagon/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1498/display/redirect"
+      },
+      {
+        "name": "i386/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1440/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1403/display/redirect"
+      },
+      {
+        "name": "minimal/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1414/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1413/display/redirect"
+      },
+      {
+        "name": "unity/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/180/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1412/display/redirect"
+      },
+      {
+        "name": "docker/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1417/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Target] Automatically detect system triple when not specified by the\u2026"
+  },
+  {
     "oid": "981009d457804df2af6d5666dda1644b18bcc49a",
     "statuses": [
       {
@@ -23,14 +114,9 @@
         "url": "https://github.com/apache/tvm/actions/runs/8273171135/job/22636412642"
       },
       {
-        "name": "cross-isa-minimal/branch",
+        "name": "gpu/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/nightly/366/display/redirect"
-      },
-      {
-        "name": "hexagon/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/nightly/418/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/nightly/434/display/redirect"
       },
       {
         "name": "arm/branch",
@@ -48,14 +134,19 @@
         "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/nightly/404/display/redirect"
       },
       {
+        "name": "cross-isa-minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/nightly/366/display/redirect"
+      },
+      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/399/display/redirect"
       },
       {
-        "name": "gpu/branch",
+        "name": "hexagon/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/1899/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/nightly/418/display/redirect"
       },
       {
         "name": "i386/branch",
@@ -1252,96 +1343,5 @@
       }
     ],
     "messageHeadline": "[LLVM][RUNTIME] Add optional LLVM ORCJIT runtime executor (#15964)"
-  },
-  {
-    "oid": "95f97e881a8988c801392f30994bad50b0451c9c",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8235399243/job/22519386652"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8235399243/job/22519387314"
-      },
-      {
-        "name": "CI / Linux-Static-Runtime",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8235399243/job/22519386973"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8235399243/job/22519387640"
-      },
-      {
-        "name": "gpu/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/1871/display/redirect"
-      },
-      {
-        "name": "hexagon/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1477/display/redirect"
-      },
-      {
-        "name": "arm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1706/display/redirect"
-      },
-      {
-        "name": "cortexm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1538/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1455/display/redirect"
-      },
-      {
-        "name": "cross-isa-minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1233/display/redirect"
-      },
-      {
-        "name": "docker/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1401/display/redirect"
-      },
-      {
-        "name": "i386/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1423/display/redirect"
-      },
-      {
-        "name": "lint/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1388/display/redirect"
-      },
-      {
-        "name": "minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1397/display/redirect"
-      },
-      {
-        "name": "riscv/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1398/display/redirect"
-      },
-      {
-        "name": "unity/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/165/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1396/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relax] CUDA graph rewrite treating StringImm as static (#16691)"
   }
 ]
