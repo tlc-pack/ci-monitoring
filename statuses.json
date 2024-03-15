@@ -100,7 +100,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/8297533079/job/22708868967"
       },
       {
@@ -164,11 +164,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/188/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1419/display/redirect"
-      },
-      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1425/display/redirect"
@@ -177,6 +172,11 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1411/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1419/display/redirect"
       }
     ],
     "messageHeadline": "[Web] Implement linear congruential generator, make runtime seedable \u2026"
