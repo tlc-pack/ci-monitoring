@@ -9,7 +9,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/8308988361/job/22739843300"
       },
       {
@@ -73,11 +73,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/193/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1423/display/redirect"
-      },
-      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1429/display/redirect"
@@ -86,6 +81,11 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1415/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1423/display/redirect"
       }
     ],
     "messageHeadline": "[Builtin] Sliding window and sink support for PagedKVCache (#16729)"
