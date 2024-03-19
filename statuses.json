@@ -1,5 +1,26 @@
 [
   {
+    "oid": "8b5bd555d13fe07092aa4179625eb6c1b7c1fe9b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/8343578584/job/22834054630"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/8343578584/job/22834054909"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/8343578584/job/22834055182"
+      }
+    ],
+    "messageHeadline": "[Target][CUDA] Allow non-numeric arch as needed for latest gpu (#16736)"
+  },
+  {
     "oid": "95ec38be98767e851e06e94393147f0321e98324",
     "statuses": [
       {
@@ -1267,36 +1288,5 @@
       }
     ],
     "messageHeadline": "[RUNTIME][METAL] Provide richer runtime when error happens (#16713)"
-  },
-  {
-    "oid": "071fb8a4290ff1c59f6d99d3ccbe051d5a0a1ff6",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8281252090/job/22659335633"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8281252090/job/22659335330"
-      },
-      {
-        "name": "CI / Linux-Static-Runtime",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8281252090/job/22659335933"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8281252090/job/22659336209"
-      },
-      {
-        "name": "arm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1725/display/redirect"
-      }
-    ],
-    "messageHeadline": "[RUNTIME] Ensure NDArray.CopyTo(Device) always sync (#16716)"
   }
 ]
