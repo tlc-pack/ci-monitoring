@@ -14,7 +14,7 @@
       },
       {
         "name": "CI / Linux-Static-Runtime",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/8367246676/job/22909214993"
       },
       {
@@ -41,11 +41,6 @@
         "name": "cross-isa-minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1279/display/redirect"
-      },
-      {
-        "name": "docker/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1444/display/redirect"
       },
       {
         "name": "gpu/branch",
@@ -86,6 +81,11 @@
         "name": "wasm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1440/display/redirect"
+      },
+      {
+        "name": "docker/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1444/display/redirect"
       }
     ],
     "messageHeadline": "[Runtime] CUDA IPC Memory support and custom allreduce kernels (#16750)"
