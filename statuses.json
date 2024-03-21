@@ -63,11 +63,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1474/display/redirect"
       },
       {
-        "name": "lint/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1433/display/redirect"
-      },
-      {
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1448/display/redirect"
@@ -86,6 +81,11 @@
         "name": "wasm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1443/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1433/display/redirect"
       }
     ],
     "messageHeadline": "[SME][Docker] Add Fixed Virtual Platform (FVP) and toolchain install \u2026"
@@ -205,19 +205,9 @@
         "url": "https://github.com/apache/tvm/actions/runs/8373120255/job/22925541140"
       },
       {
-        "name": "cpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1508/display/redirect"
-      },
-      {
         "name": "cross-isa-minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1280/display/redirect"
-      },
-      {
-        "name": "gpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/1940/display/redirect"
       },
       {
         "name": "hexagon/branch",
@@ -235,9 +225,19 @@
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1597/display/redirect"
       },
       {
+        "name": "cpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1508/display/redirect"
+      },
+      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1445/display/redirect"
+      },
+      {
+        "name": "gpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/1940/display/redirect"
       },
       {
         "name": "i386/branch",
