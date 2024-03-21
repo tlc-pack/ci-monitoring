@@ -9,7 +9,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/8375335411/job/22932464276"
       },
       {
@@ -68,24 +68,24 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1448/display/redirect"
       },
       {
-        "name": "riscv/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1446/display/redirect"
-      },
-      {
         "name": "unity/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/211/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1443/display/redirect"
-      },
-      {
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1433/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1446/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1443/display/redirect"
       }
     ],
     "messageHeadline": "[SME][Docker] Add Fixed Virtual Platform (FVP) and toolchain install \u2026"
@@ -114,11 +114,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/8374328576/job/22929309515"
       },
       {
-        "name": "cortexm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1598/display/redirect"
-      },
-      {
         "name": "cpu/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1509/display/redirect"
@@ -139,11 +134,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1534/display/redirect"
       },
       {
-        "name": "i386/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1473/display/redirect"
-      },
-      {
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1447/display/redirect"
@@ -154,9 +144,19 @@
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1752/display/redirect"
       },
       {
+        "name": "cortexm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1598/display/redirect"
+      },
+      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1446/display/redirect"
+      },
+      {
+        "name": "i386/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1473/display/redirect"
       },
       {
         "name": "lint/branch",
