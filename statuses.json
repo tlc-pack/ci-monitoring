@@ -23,14 +23,14 @@
         "url": "https://github.com/apache/tvm/actions/runs/8424862406/job/23069707516"
       },
       {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/424/display/redirect"
+        "name": "cortexm/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1624/display/redirect"
       },
       {
-        "name": "cortexm/branch",
+        "name": "arm/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1625/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/425/display/redirect"
       },
       {
         "name": "cpu/branch",
@@ -58,11 +58,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/418/display/redirect"
       },
       {
-        "name": "lint/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/411/display/redirect"
-      },
-      {
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/413/display/redirect"
@@ -86,6 +81,11 @@
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/411/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/411/display/redirect"
       }
     ],
     "messageHeadline": "[IR] Default to empty attributes, instead of NULL (#16745)"
