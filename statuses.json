@@ -19,7 +19,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/8441709305/job/23121466586"
       }
     ],
@@ -117,7 +117,7 @@
       {
         "name": "riscv/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1474/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1475/display/redirect"
       },
       {
         "name": "wasm/branch",
@@ -206,11 +206,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/237/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1469/display/redirect"
-      },
-      {
         "name": "arm/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1783/display/redirect"
@@ -224,6 +219,11 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1459/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1469/display/redirect"
       }
     ],
     "messageHeadline": "[Cutlass] Add check for group gemm param shapes (#16788)"
@@ -363,19 +363,9 @@
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1567/display/redirect"
       },
       {
-        "name": "i386/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1499/display/redirect"
-      },
-      {
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1471/display/redirect"
-      },
-      {
-        "name": "riscv/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1469/display/redirect"
       },
       {
         "name": "arm/branch",
@@ -393,9 +383,19 @@
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1472/display/redirect"
       },
       {
+        "name": "i386/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1499/display/redirect"
+      },
+      {
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1457/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1469/display/redirect"
       },
       {
         "name": "unity/branch",
@@ -454,11 +454,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1566/display/redirect"
       },
       {
-        "name": "i386/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1498/display/redirect"
-      },
-      {
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1470/display/redirect"
@@ -482,6 +477,11 @@
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1471/display/redirect"
+      },
+      {
+        "name": "i386/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1498/display/redirect"
       },
       {
         "name": "lint/branch",
@@ -621,11 +621,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1564/display/redirect"
       },
       {
-        "name": "minimal/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1468/display/redirect"
-      },
-      {
         "name": "riscv/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1466/display/redirect"
@@ -654,6 +649,11 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1454/display/redirect"
+      },
+      {
+        "name": "minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1468/display/redirect"
       },
       {
         "name": "unity/branch",
@@ -798,6 +798,11 @@
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1562/display/redirect"
       },
       {
+        "name": "riscv/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1464/display/redirect"
+      },
+      {
         "name": "arm/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1776/display/redirect"
@@ -831,11 +836,6 @@
         "name": "minimal/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1466/display/redirect"
-      },
-      {
-        "name": "riscv/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1463/display/redirect"
       },
       {
         "name": "unity/branch",
@@ -879,11 +879,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/1967/display/redirect"
       },
       {
-        "name": "hexagon/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1561/display/redirect"
-      },
-      {
         "name": "i386/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1493/display/redirect"
@@ -912,6 +907,11 @@
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1466/display/redirect"
+      },
+      {
+        "name": "hexagon/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1561/display/redirect"
       },
       {
         "name": "lint/branch",
