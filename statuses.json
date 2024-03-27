@@ -35,7 +35,7 @@
       {
         "name": "cpu/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1546/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1547/display/redirect"
       },
       {
         "name": "cross-isa-minimal/branch",
@@ -245,11 +245,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/238/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1470/display/redirect"
-      },
-      {
         "name": "arm/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1784/display/redirect"
@@ -268,6 +263,11 @@
         "name": "riscv/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1474/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1470/display/redirect"
       }
     ],
     "messageHeadline": "[SME] Add support for inserting processor state annotations (#16761)"
@@ -296,14 +296,14 @@
         "url": "https://github.com/apache/tvm/actions/runs/8439412040/job/23113953335"
       },
       {
+        "name": "cortexm/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1635/display/redirect"
+      },
+      {
         "name": "cpu/branch",
         "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1542/display/redirect"
-      },
-      {
-        "name": "cortexm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1635/display/redirect"
       },
       {
         "name": "gpu/branch",
