@@ -1,5 +1,31 @@
 [
   {
+    "oid": "cd60f6d4feb56abbc61abf050a398a041639ded4",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/8483769426/job/23245438858"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/8483769426/job/23245439079"
+      },
+      {
+        "name": "CI / Linux-Static-Runtime",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/8483769426/job/23245439284"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/8483769426/job/23245438633"
+      }
+    ],
+    "messageHeadline": "[Cmake] Allow using custom CCCL path for thrust (#16816)"
+  },
+  {
     "oid": "d2c7167913fabe0ac46c5bd50b0a9984d5b174c5",
     "statuses": [
       {
@@ -266,11 +292,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1493/display/redirect"
       },
       {
-        "name": "riscv/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1491/display/redirect"
-      },
-      {
         "name": "unity/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/255/display/redirect"
@@ -289,6 +310,11 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1474/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1491/display/redirect"
       },
       {
         "name": "wasm/branch",
@@ -1207,96 +1233,5 @@
       }
     ],
     "messageHeadline": "[Relax] Improve CanonicalizeBindings in DataflowVar edge case (#16783)"
-  },
-  {
-    "oid": "2f889774ec10b56ebfac89f78698e06eb200db46",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8447131417/job/23136977412"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8447131417/job/23136977744"
-      },
-      {
-        "name": "CI / Linux-Static-Runtime",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8447131417/job/23136977256"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8447131417/job/23136977612"
-      },
-      {
-        "name": "gpu/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/1984/display/redirect"
-      },
-      {
-        "name": "arm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1791/display/redirect"
-      },
-      {
-        "name": "cortexm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1644/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1553/display/redirect"
-      },
-      {
-        "name": "cross-isa-minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1313/display/redirect"
-      },
-      {
-        "name": "docker/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1478/display/redirect"
-      },
-      {
-        "name": "hexagon/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1579/display/redirect"
-      },
-      {
-        "name": "i386/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1507/display/redirect"
-      },
-      {
-        "name": "lint/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1463/display/redirect"
-      },
-      {
-        "name": "minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1479/display/redirect"
-      },
-      {
-        "name": "riscv/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1478/display/redirect"
-      },
-      {
-        "name": "unity/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/242/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1474/display/redirect"
-      }
-    ],
-    "messageHeadline": "[3rdparty] AUTO mode for custom all-reduce strategy (#16797)"
   }
 ]
