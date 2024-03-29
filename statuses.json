@@ -14,7 +14,7 @@
       },
       {
         "name": "CI / Linux-Static-Runtime",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/8483769426/job/23245439284"
       },
       {
@@ -45,8 +45,13 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/8483069377/job/23243505392"
+      },
+      {
+        "name": "arm/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1807/display/redirect"
       }
     ],
     "messageHeadline": "[Cutlass] Fix usage of cuda stream for group gemm (#16818)"
@@ -292,11 +297,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1493/display/redirect"
       },
       {
-        "name": "unity/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/255/display/redirect"
-      },
-      {
         "name": "arm/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1804/display/redirect"
@@ -315,6 +315,11 @@
         "name": "riscv/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1491/display/redirect"
+      },
+      {
+        "name": "unity/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/255/display/redirect"
       },
       {
         "name": "wasm/branch",
@@ -383,11 +388,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1492/display/redirect"
       },
       {
-        "name": "unity/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/254/display/redirect"
-      },
-      {
         "name": "arm/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1803/display/redirect"
@@ -406,6 +406,11 @@
         "name": "riscv/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1490/display/redirect"
+      },
+      {
+        "name": "unity/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/254/display/redirect"
       },
       {
         "name": "wasm/branch",
@@ -439,11 +444,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/8475365626/job/23223348838"
       },
       {
-        "name": "gpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/nightly/450/display/redirect"
-      },
-      {
         "name": "arm/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/428/display/redirect"
@@ -467,6 +467,11 @@
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/414/display/redirect"
+      },
+      {
+        "name": "gpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/nightly/450/display/redirect"
       },
       {
         "name": "hexagon/branch",
