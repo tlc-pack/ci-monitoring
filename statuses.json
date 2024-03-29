@@ -4,7 +4,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/8475365626/job/23223348527"
       },
       {
@@ -19,7 +19,7 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/8475365626/job/23223348838"
       },
       {
@@ -68,6 +68,11 @@
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1489/display/redirect"
       },
       {
+        "name": "unity/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/253/display/redirect"
+      },
+      {
         "name": "wasm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1485/display/redirect"
@@ -110,8 +115,8 @@
       },
       {
         "name": "cortexm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1657/display/redirect"
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1656/display/redirect"
       },
       {
         "name": "cross-isa-minimal/branch",
