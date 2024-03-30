@@ -95,7 +95,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/8493683949/job/23268036651"
       },
       {
@@ -326,11 +326,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1603/display/redirect"
       },
       {
-        "name": "i386/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1532/display/redirect"
-      },
-      {
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1502/display/redirect"
@@ -344,6 +339,11 @@
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1498/display/redirect"
+      },
+      {
+        "name": "i386/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1532/display/redirect"
       },
       {
         "name": "lint/branch",
