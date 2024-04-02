@@ -14,7 +14,7 @@
       },
       {
         "name": "CI / Linux-Static-Runtime",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/8522037074/job/23341383561"
       },
       {
@@ -38,9 +38,9 @@
         "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1588/display/redirect"
       },
       {
-        "name": "docker/branch",
+        "name": "cross-isa-minimal/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1510/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1350/display/redirect"
       },
       {
         "name": "gpu/branch",
@@ -71,6 +71,21 @@
         "name": "riscv/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1514/display/redirect"
+      },
+      {
+        "name": "unity/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/279/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1508/display/redirect"
+      },
+      {
+        "name": "docker/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1510/display/redirect"
       }
     ],
     "messageHeadline": "[Disco] Reduce Process/ThreadSession message queue reads and writes (\u2026"
