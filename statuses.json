@@ -25,42 +25,47 @@
       {
         "name": "arm/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1835/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/435/display/redirect"
       },
       {
         "name": "cortexm/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1698/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/nightly/442/display/redirect"
       },
       {
         "name": "cpu/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1598/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/nightly/427/display/redirect"
       },
       {
         "name": "cross-isa-minimal/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1359/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/nightly/387/display/redirect"
       },
       {
         "name": "gpu/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2041/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/nightly/456/display/redirect"
       },
       {
         "name": "hexagon/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1625/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/nightly/440/display/redirect"
       },
       {
         "name": "i386/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1553/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/427/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/420/display/redirect"
       },
       {
         "name": "minimal/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1523/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/422/display/redirect"
       },
       {
         "name": "riscv/branch",
@@ -70,22 +75,17 @@
       {
         "name": "unity/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/289/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/nightly/71/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/422/display/redirect"
       },
       {
         "name": "docker/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1519/display/redirect"
-      },
-      {
-        "name": "lint/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1504/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1518/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/420/display/redirect"
       }
     ],
     "messageHeadline": "[Relax] Provide well-formed output in `transform.LazyGetInput` (#16841)"
@@ -115,7 +115,7 @@
       },
       {
         "name": "gpu/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2037/display/redirect"
       },
       {
