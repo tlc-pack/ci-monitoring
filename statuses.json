@@ -1,1367 +1,1302 @@
 [
   {
-    "oid": "5c80691c81070df0d79fa22f64579945f4807c5e",
+    "oid": "d030ce27a197e0a3e819b311dca5c5421d1cf5ba",
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8675577339/job/23789151583"
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/8716583072/job/23910360042"
       },
       {
         "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8675577339/job/23789151640"
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/8716583072/job/23910360190"
       },
       {
         "name": "CI / Linux-Static-Runtime",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8675577339/job/23789151507"
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/8716583072/job/23910360411"
       },
       {
         "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8675577339/job/23789151719"
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/8716583072/job/23910360316"
       },
       {
         "name": "arm/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1871/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1886/display/redirect"
       },
       {
         "name": "cortexm/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1733/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1750/display/redirect"
       },
       {
         "name": "cpu/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1633/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1651/display/redirect"
       },
       {
         "name": "cross-isa-minimal/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1390/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1405/display/redirect"
       },
       {
         "name": "gpu/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2077/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2092/display/redirect"
       },
       {
         "name": "hexagon/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1659/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1674/display/redirect"
       },
       {
         "name": "i386/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1585/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1600/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1548/display/redirect"
       },
       {
         "name": "minimal/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1553/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1567/display/redirect"
       },
       {
         "name": "riscv/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1554/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1568/display/redirect"
       },
       {
         "name": "unity/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/320/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/334/display/redirect"
       },
       {
         "name": "wasm/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1549/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1563/display/redirect"
       },
       {
         "name": "docker/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1550/display/redirect"
-      },
-      {
-        "name": "lint/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1534/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1565/display/redirect"
       }
     ],
-    "messageHeadline": "[Dlight] Enhance vectorization loading weight for gemv (#16878)"
+    "messageHeadline": "[TVMScript] Optionally use `ruff format` instead of `black` (#16876)"
   },
   {
-    "oid": "0a3fe22208329edc596db0116752b3259f5d90a2",
+    "oid": "460f6f1d3e1625882df701252234350f83aa6da1",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8663131169/job/23756586876"
+        "url": "https://github.com/apache/tvm/actions/runs/8712778959/job/23899800700"
       },
       {
         "name": "CI / Windows",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8663131169/job/23756587137"
+        "url": "https://github.com/apache/tvm/actions/runs/8712778959/job/23899800878"
       },
       {
         "name": "CI / Linux-Static-Runtime",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8663131169/job/23756586574"
+        "url": "https://github.com/apache/tvm/actions/runs/8712778959/job/23899801075"
       },
       {
         "name": "CI / Android",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8663131169/job/23756587412"
+        "url": "https://github.com/apache/tvm/actions/runs/8712778959/job/23899800413"
+      },
+      {
+        "name": "arm/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/448/display/redirect"
+      },
+      {
+        "name": "cortexm/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/nightly/457/display/redirect"
+      },
+      {
+        "name": "cpu/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/nightly/440/display/redirect"
+      },
+      {
+        "name": "cross-isa-minimal/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/nightly/400/display/redirect"
+      },
+      {
+        "name": "gpu/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/nightly/472/display/redirect"
+      },
+      {
+        "name": "hexagon/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/nightly/456/display/redirect"
+      },
+      {
+        "name": "i386/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/440/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/433/display/redirect"
+      },
+      {
+        "name": "minimal/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/435/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/437/display/redirect"
+      },
+      {
+        "name": "unity/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/nightly/84/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/435/display/redirect"
+      },
+      {
+        "name": "docker/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/433/display/redirect"
+      }
+    ],
+    "messageHeadline": "[QoL][Relax] Infer StructInfo for relax::Tuple on construction (#16860)"
+  },
+  {
+    "oid": "94a44d7d62206849b891c1c262843d88bfb54c3b",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/8712768221/job/23899766032"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/8712768221/job/23899766213"
+      },
+      {
+        "name": "CI / Linux-Static-Runtime",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/8712768221/job/23899765841"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/8712768221/job/23899765628"
+      },
+      {
+        "name": "cpu/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1648/display/redirect"
       },
       {
         "name": "arm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/444/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1884/display/redirect"
       },
       {
         "name": "cortexm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/nightly/451/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/nightly/436/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1747/display/redirect"
       },
       {
         "name": "cross-isa-minimal/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/nightly/396/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1402/display/redirect"
       },
       {
         "name": "docker/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/429/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1563/display/redirect"
       },
       {
         "name": "gpu/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/nightly/467/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2090/display/redirect"
       },
       {
         "name": "hexagon/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/nightly/452/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1672/display/redirect"
       },
       {
         "name": "i386/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/436/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1598/display/redirect"
       },
       {
         "name": "lint/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/429/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1546/display/redirect"
       },
       {
         "name": "minimal/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/431/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1565/display/redirect"
       },
       {
         "name": "riscv/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/433/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1566/display/redirect"
       },
       {
         "name": "unity/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/nightly/80/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/332/display/redirect"
       },
       {
         "name": "wasm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/431/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1561/display/redirect"
       }
     ],
-    "messageHeadline": "[Relax] Enhance symbolic expr estimation in memory planning (#16872)"
+    "messageHeadline": "[QoL][Relax] Return well-formed IR from relax::Function::CreateEmpty \u2026"
   },
   {
-    "oid": "3f09e7f5cea7aaa113286e4652f0e430d52fc110",
+    "oid": "4cb4605ba3cb8e083aa0678515bac76ea66471f9",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8661646382/job/23752002695"
+        "url": "https://github.com/apache/tvm/actions/runs/8712759624/job/23899736408"
       },
       {
         "name": "CI / Windows",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8661646382/job/23752002254"
+        "url": "https://github.com/apache/tvm/actions/runs/8712759624/job/23899736708"
       },
       {
         "name": "CI / Linux-Static-Runtime",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8661646382/job/23752002898"
+        "url": "https://github.com/apache/tvm/actions/runs/8712759624/job/23899736178"
       },
       {
         "name": "CI / Android",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8661646382/job/23752002479"
+        "url": "https://github.com/apache/tvm/actions/runs/8712759624/job/23899736555"
       },
       {
         "name": "arm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1869/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1883/display/redirect"
       },
       {
         "name": "cortexm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1731/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1746/display/redirect"
       },
       {
         "name": "cpu/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1631/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1647/display/redirect"
       },
       {
         "name": "cross-isa-minimal/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1388/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1401/display/redirect"
       },
       {
         "name": "docker/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1548/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1562/display/redirect"
       },
       {
         "name": "gpu/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2075/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2089/display/redirect"
       },
       {
         "name": "hexagon/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1657/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1671/display/redirect"
       },
       {
         "name": "i386/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1583/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1597/display/redirect"
       },
       {
         "name": "lint/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1532/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1545/display/redirect"
       },
       {
         "name": "minimal/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1551/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1564/display/redirect"
       },
       {
         "name": "riscv/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1552/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1565/display/redirect"
       },
       {
         "name": "unity/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/318/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/331/display/redirect"
       },
       {
         "name": "wasm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1547/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1560/display/redirect"
       }
     ],
-    "messageHeadline": "[Thrust] Fix thrust workspace allocation (#16873)"
+    "messageHeadline": "[TVMScript][Bug] Add test case for missing symbolic bounds (#16877)"
   },
   {
-    "oid": "88a1c6560cb5fe3a757b9b9053bb71421728aedd",
+    "oid": "08965f08ff0f6a8d34d45f8275c4aa78b04c90ee",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8654110907/job/23730657130"
+        "url": "https://github.com/apache/tvm/actions/runs/8711890537/job/23896984940"
       },
       {
         "name": "CI / Windows",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8654110907/job/23730656868"
+        "url": "https://github.com/apache/tvm/actions/runs/8711890537/job/23896985517"
       },
       {
         "name": "CI / Linux-Static-Runtime",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8654110907/job/23730656996"
+        "url": "https://github.com/apache/tvm/actions/runs/8711890537/job/23896985206"
       },
       {
         "name": "CI / Android",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8654110907/job/23730657310"
+        "url": "https://github.com/apache/tvm/actions/runs/8711890537/job/23896985918"
       },
       {
         "name": "arm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/443/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1882/display/redirect"
       },
       {
         "name": "cortexm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/nightly/450/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1745/display/redirect"
       },
       {
         "name": "cpu/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/nightly/435/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1645/display/redirect"
       },
       {
         "name": "cross-isa-minimal/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/nightly/395/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1400/display/redirect"
       },
       {
         "name": "docker/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/428/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1561/display/redirect"
       },
       {
         "name": "gpu/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/nightly/465/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2088/display/redirect"
       },
       {
         "name": "hexagon/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/nightly/451/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1670/display/redirect"
       },
       {
         "name": "i386/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/435/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1596/display/redirect"
       },
       {
         "name": "lint/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/428/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1544/display/redirect"
       },
       {
         "name": "minimal/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/430/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1563/display/redirect"
       },
       {
         "name": "riscv/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/432/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1564/display/redirect"
       },
       {
         "name": "unity/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/nightly/79/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/330/display/redirect"
       },
       {
         "name": "wasm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/430/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1559/display/redirect"
       }
     ],
-    "messageHeadline": "[3rdparty] Bump flashinfer (#16868)"
+    "messageHeadline": "[CUBLAS] Set fp32 compute and scale dtypes in fp16 matmul (#16892)"
   },
   {
-    "oid": "0aae97d8e421fb60260b3d1ee0351393a6ae420c",
+    "oid": "3680a0d5a23da22124c17a845a39f3ae36b70ca3",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8653757848/job/23729626292"
+        "url": "https://github.com/apache/tvm/actions/runs/8711619878/job/23896121886"
       },
       {
         "name": "CI / Windows",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8653757848/job/23729626166"
+        "url": "https://github.com/apache/tvm/actions/runs/8711619878/job/23896121303"
       },
       {
         "name": "CI / Linux-Static-Runtime",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8653757848/job/23729626059"
+        "url": "https://github.com/apache/tvm/actions/runs/8711619878/job/23896121063"
       },
       {
         "name": "CI / Android",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8653757848/job/23729625906"
+        "url": "https://github.com/apache/tvm/actions/runs/8711619878/job/23896121550"
       },
       {
         "name": "arm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1867/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1881/display/redirect"
       },
       {
         "name": "cortexm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1729/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1744/display/redirect"
       },
       {
         "name": "cpu/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1629/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1644/display/redirect"
       },
       {
         "name": "cross-isa-minimal/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1386/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1399/display/redirect"
       },
       {
         "name": "docker/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1546/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1560/display/redirect"
       },
       {
         "name": "gpu/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2073/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2087/display/redirect"
       },
       {
         "name": "hexagon/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1655/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1669/display/redirect"
       },
       {
         "name": "i386/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1581/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1595/display/redirect"
       },
       {
         "name": "lint/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1530/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1543/display/redirect"
       },
       {
         "name": "minimal/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1549/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1562/display/redirect"
       },
       {
         "name": "riscv/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1550/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1563/display/redirect"
       },
       {
         "name": "unity/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/316/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/329/display/redirect"
       },
       {
         "name": "wasm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1545/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1558/display/redirect"
       }
     ],
-    "messageHeadline": "[PageKV] allow PopN to pop all the tokens in last block (#16871)"
+    "messageHeadline": "[RUNTIME][VULKAN] Support total_global_memory (#16890)"
   },
   {
-    "oid": "4b906554af2bad9859b405f694b1c59d77d74785",
+    "oid": "d1ac73ca2d3c14dc69e47818871478e8b0f295aa",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8645766329/job/23703623571"
+        "url": "https://github.com/apache/tvm/actions/runs/8710995262/job/23894131573"
       },
       {
         "name": "CI / Windows",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8645766329/job/23703623809"
+        "url": "https://github.com/apache/tvm/actions/runs/8710995262/job/23894132545"
       },
       {
         "name": "CI / Linux-Static-Runtime",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8645766329/job/23703624039"
+        "url": "https://github.com/apache/tvm/actions/runs/8710995262/job/23894132184"
       },
       {
         "name": "CI / Android",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8645766329/job/23703624307"
-      },
-      {
-        "name": "arm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1866/display/redirect"
-      },
-      {
-        "name": "cortexm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1728/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1628/display/redirect"
-      },
-      {
-        "name": "cross-isa-minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1385/display/redirect"
-      },
-      {
-        "name": "docker/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1545/display/redirect"
-      },
-      {
-        "name": "gpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2072/display/redirect"
-      },
-      {
-        "name": "hexagon/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1654/display/redirect"
-      },
-      {
-        "name": "i386/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1580/display/redirect"
-      },
-      {
-        "name": "lint/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1529/display/redirect"
-      },
-      {
-        "name": "minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1548/display/redirect"
-      },
-      {
-        "name": "riscv/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1549/display/redirect"
-      },
-      {
-        "name": "unity/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/315/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1544/display/redirect"
-      }
-    ],
-    "messageHeadline": "[OpenCL] Add OpenCL device for automatic target detection (#16854)"
-  },
-  {
-    "oid": "c67a05538642d24c75555b02103800d7f6a1ceaf",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8643570855/job/23696878712"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8643570855/job/23696878498"
-      },
-      {
-        "name": "CI / Linux-Static-Runtime",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8643570855/job/23696878177"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8643570855/job/23696878927"
-      },
-      {
-        "name": "arm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1865/display/redirect"
-      },
-      {
-        "name": "cortexm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1727/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1627/display/redirect"
-      },
-      {
-        "name": "cross-isa-minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1384/display/redirect"
-      },
-      {
-        "name": "docker/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1544/display/redirect"
-      },
-      {
-        "name": "gpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2071/display/redirect"
-      },
-      {
-        "name": "hexagon/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1653/display/redirect"
-      },
-      {
-        "name": "i386/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1579/display/redirect"
-      },
-      {
-        "name": "lint/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1528/display/redirect"
-      },
-      {
-        "name": "minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1547/display/redirect"
-      },
-      {
-        "name": "riscv/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1548/display/redirect"
-      },
-      {
-        "name": "unity/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/314/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1543/display/redirect"
-      }
-    ],
-    "messageHeadline": "[BugFix][Target] Added null check to fix segfault at ->defined() in c\u2026"
-  },
-  {
-    "oid": "f9e36fcbf8cd161f41251710b735958b61e51c6d",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8641240511/job/23690434886"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8641240511/job/23690434784"
-      },
-      {
-        "name": "CI / Linux-Static-Runtime",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8641240511/job/23690434579"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8641240511/job/23690434679"
-      },
-      {
-        "name": "arm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/442/display/redirect"
-      },
-      {
-        "name": "cortexm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/nightly/449/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/nightly/434/display/redirect"
-      },
-      {
-        "name": "cross-isa-minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/nightly/394/display/redirect"
-      },
-      {
-        "name": "docker/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/427/display/redirect"
-      },
-      {
-        "name": "gpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/nightly/464/display/redirect"
-      },
-      {
-        "name": "hexagon/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/nightly/450/display/redirect"
-      },
-      {
-        "name": "i386/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/434/display/redirect"
-      },
-      {
-        "name": "lint/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/427/display/redirect"
-      },
-      {
-        "name": "minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/429/display/redirect"
-      },
-      {
-        "name": "riscv/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/431/display/redirect"
-      },
-      {
-        "name": "unity/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/nightly/78/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/429/display/redirect"
-      }
-    ],
-    "messageHeadline": "[3rdparty] Bump FlashInfer (#16866)"
-  },
-  {
-    "oid": "4617efac7b815f367974244870ec3ec08cda2a72",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8640113774/job/23687533247"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8640113774/job/23687533060"
-      },
-      {
-        "name": "CI / Linux-Static-Runtime",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8640113774/job/23687533416"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8640113774/job/23687532865"
-      },
-      {
-        "name": "arm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1863/display/redirect"
-      },
-      {
-        "name": "cortexm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1725/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1624/display/redirect"
-      },
-      {
-        "name": "cross-isa-minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1382/display/redirect"
-      },
-      {
-        "name": "docker/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1542/display/redirect"
-      },
-      {
-        "name": "gpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2069/display/redirect"
-      },
-      {
-        "name": "hexagon/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1651/display/redirect"
-      },
-      {
-        "name": "i386/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1577/display/redirect"
-      },
-      {
-        "name": "lint/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1526/display/redirect"
-      },
-      {
-        "name": "minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1545/display/redirect"
-      },
-      {
-        "name": "riscv/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1546/display/redirect"
-      },
-      {
-        "name": "unity/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/312/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1541/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relax] Dispatch sort/scan for non-cuda gpu backends (#16867)"
-  },
-  {
-    "oid": "6748215b427fbfd7b7682836d4199a8a71ddb263",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8631164057/job/23658999029"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8631164057/job/23658999276"
-      },
-      {
-        "name": "CI / Linux-Static-Runtime",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8631164057/job/23658998861"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8631164057/job/23658998609"
-      },
-      {
-        "name": "arm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1862/display/redirect"
-      },
-      {
-        "name": "cortexm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1724/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1623/display/redirect"
-      },
-      {
-        "name": "cross-isa-minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1381/display/redirect"
-      },
-      {
-        "name": "docker/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1541/display/redirect"
-      },
-      {
-        "name": "gpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2068/display/redirect"
-      },
-      {
-        "name": "hexagon/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1650/display/redirect"
-      },
-      {
-        "name": "i386/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1576/display/redirect"
-      },
-      {
-        "name": "lint/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1525/display/redirect"
-      },
-      {
-        "name": "minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1544/display/redirect"
-      },
-      {
-        "name": "riscv/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1545/display/redirect"
-      },
-      {
-        "name": "unity/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/311/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1540/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Codegen, CUDA] Add handling of fp8 broadcast / const (#16865)"
-  },
-  {
-    "oid": "2829b59e1c78796da273b650f006628bca64cfcc",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8631138952/job/23658925095"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8631138952/job/23658926020"
-      },
-      {
-        "name": "CI / Linux-Static-Runtime",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8631138952/job/23658925384"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8631138952/job/23658925706"
+        "url": "https://github.com/apache/tvm/actions/runs/8710995262/job/23894131870"
       },
       {
         "name": "cortexm/branch",
         "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1722/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1743/display/redirect"
       },
       {
         "name": "arm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1860/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1880/display/redirect"
       },
       {
         "name": "cpu/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1622/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1643/display/redirect"
       },
       {
         "name": "cross-isa-minimal/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1380/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1398/display/redirect"
       },
       {
         "name": "docker/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1540/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1559/display/redirect"
       },
       {
         "name": "gpu/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2067/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2086/display/redirect"
       },
       {
         "name": "hexagon/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1649/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1668/display/redirect"
       },
       {
         "name": "i386/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1575/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1594/display/redirect"
       },
       {
         "name": "lint/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1524/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1542/display/redirect"
       },
       {
         "name": "minimal/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1543/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1561/display/redirect"
       },
       {
         "name": "riscv/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1544/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1562/display/redirect"
       },
       {
         "name": "unity/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/310/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/328/display/redirect"
       },
       {
         "name": "wasm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1539/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1557/display/redirect"
       }
     ],
-    "messageHeadline": "[TVMScript] Add parser and printer support for e4m3/e5m2 fp8 (#16864)"
+    "messageHeadline": "[CUBLAS][FP8] Support e4m3 gemm in cuBLAS BYOC (#16888)"
   },
   {
-    "oid": "a482b4c191a397202d9a7303964001630e0375c0",
+    "oid": "95d67789089e31d232dc045507e07ba11b04638d",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8631132660/job/23658906114"
+        "url": "https://github.com/apache/tvm/actions/runs/8705387502/job/23875673796"
       },
       {
         "name": "CI / Windows",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8631132660/job/23658904885"
+        "url": "https://github.com/apache/tvm/actions/runs/8705387502/job/23875673446"
       },
       {
         "name": "CI / Linux-Static-Runtime",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8631132660/job/23658905759"
+        "url": "https://github.com/apache/tvm/actions/runs/8705387502/job/23875673101"
       },
       {
         "name": "CI / Android",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8631132660/job/23658905254"
+        "url": "https://github.com/apache/tvm/actions/runs/8705387502/job/23875672804"
       },
       {
         "name": "arm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1859/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1879/display/redirect"
       },
       {
         "name": "cortexm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1721/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1741/display/redirect"
       },
       {
         "name": "cpu/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1621/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1641/display/redirect"
       },
       {
         "name": "cross-isa-minimal/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1379/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1397/display/redirect"
       },
       {
         "name": "docker/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1539/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1558/display/redirect"
       },
       {
         "name": "gpu/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2066/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2085/display/redirect"
       },
       {
         "name": "hexagon/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1648/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1667/display/redirect"
       },
       {
         "name": "i386/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1574/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1592/display/redirect"
       },
       {
         "name": "lint/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1523/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1541/display/redirect"
       },
       {
         "name": "minimal/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1542/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1560/display/redirect"
       },
       {
         "name": "riscv/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1543/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1561/display/redirect"
       },
       {
         "name": "unity/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/309/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/327/display/redirect"
       },
       {
         "name": "wasm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1538/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1556/display/redirect"
       }
     ],
-    "messageHeadline": "[Picojson] Let the key of objects in json be ordered by default (#16863)"
+    "messageHeadline": "[dlight] Add check for matmul dtype and fix reduction rule (#16884)"
   },
   {
-    "oid": "95cb0de27a8bcfe0586f38d8b0d2da955cf01432",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "FAILURE",
-        "url": "https://github.com/apache/tvm/actions/runs/8631120828/job/23658868202"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8631120828/job/23658868539"
-      },
-      {
-        "name": "CI / Linux-Static-Runtime",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8631120828/job/23658868806"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8631120828/job/23658867885"
-      },
-      {
-        "name": "arm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1858/display/redirect"
-      },
-      {
-        "name": "cortexm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1720/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1620/display/redirect"
-      },
-      {
-        "name": "cross-isa-minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1378/display/redirect"
-      },
-      {
-        "name": "docker/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1538/display/redirect"
-      },
-      {
-        "name": "gpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2065/display/redirect"
-      },
-      {
-        "name": "hexagon/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1647/display/redirect"
-      },
-      {
-        "name": "i386/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1573/display/redirect"
-      },
-      {
-        "name": "lint/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1522/display/redirect"
-      },
-      {
-        "name": "minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1541/display/redirect"
-      },
-      {
-        "name": "riscv/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1542/display/redirect"
-      },
-      {
-        "name": "unity/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/308/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1537/display/redirect"
-      }
-    ],
-    "messageHeadline": "[VULKAN] Fix CLZ support for Vulkan (#16858)"
-  },
-  {
-    "oid": "4d4f0508a2fd903d95ae46472d830cde84e9ce9e",
+    "oid": "e738f1d4f1bc256713b8fb5aaae168edcd693041",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8616697161/job/23614871288"
+        "url": "https://github.com/apache/tvm/actions/runs/8705384304/job/23875663780"
       },
       {
         "name": "CI / Windows",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8616697161/job/23614871740"
+        "url": "https://github.com/apache/tvm/actions/runs/8705384304/job/23875664471"
       },
       {
         "name": "CI / Linux-Static-Runtime",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8616697161/job/23614872222"
+        "url": "https://github.com/apache/tvm/actions/runs/8705384304/job/23875663434"
       },
       {
         "name": "CI / Android",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8616697161/job/23614872622"
-      },
-      {
-        "name": "arm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/441/display/redirect"
-      },
-      {
-        "name": "cortexm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/nightly/448/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/nightly/433/display/redirect"
-      },
-      {
-        "name": "cross-isa-minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/nightly/393/display/redirect"
-      },
-      {
-        "name": "docker/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/426/display/redirect"
-      },
-      {
-        "name": "gpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/nightly/463/display/redirect"
-      },
-      {
-        "name": "hexagon/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/nightly/449/display/redirect"
-      },
-      {
-        "name": "i386/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/433/display/redirect"
-      },
-      {
-        "name": "lint/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/426/display/redirect"
-      },
-      {
-        "name": "minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/428/display/redirect"
-      },
-      {
-        "name": "riscv/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/430/display/redirect"
-      },
-      {
-        "name": "unity/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/nightly/77/display/redirect"
+        "url": "https://github.com/apache/tvm/actions/runs/8705384304/job/23875664121"
       },
       {
         "name": "wasm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/428/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1555/display/redirect"
       }
     ],
-    "messageHeadline": "[SVE] Support scalable vectors in LoopVectorizer (#16782)"
+    "messageHeadline": "[Relax][Frontend] Fix sort, argsort and topk in nn module (#16886)"
   },
   {
-    "oid": "a309b6b857e9abc6849193cc7fa80c015fee7969",
+    "oid": "cdfdd0e4ec7452bedf4e79ba0ff474d2de70bbbf",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8608447369/job/23590823380"
+        "url": "https://github.com/apache/tvm/actions/runs/8705378374/job/23875645295"
       },
       {
         "name": "CI / Windows",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8608447369/job/23590823759"
+        "url": "https://github.com/apache/tvm/actions/runs/8705378374/job/23875644688"
       },
       {
         "name": "CI / Linux-Static-Runtime",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8608447369/job/23590823574"
+        "url": "https://github.com/apache/tvm/actions/runs/8705378374/job/23875644997"
       },
       {
         "name": "CI / Android",
         "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/8608447369/job/23590823224"
+        "url": "https://github.com/apache/tvm/actions/runs/8705378374/job/23875645623"
       },
       {
         "name": "arm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/440/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1877/display/redirect"
       },
       {
         "name": "cortexm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/nightly/447/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1740/display/redirect"
       },
       {
         "name": "cpu/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/nightly/432/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1640/display/redirect"
       },
       {
         "name": "cross-isa-minimal/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/nightly/392/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1396/display/redirect"
       },
       {
         "name": "docker/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/425/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1556/display/redirect"
       },
       {
         "name": "gpu/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/nightly/462/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2083/display/redirect"
       },
       {
         "name": "hexagon/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/nightly/447/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1665/display/redirect"
       },
       {
         "name": "i386/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/432/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1591/display/redirect"
       },
       {
         "name": "lint/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/425/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1540/display/redirect"
       },
       {
         "name": "minimal/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/427/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1559/display/redirect"
       },
       {
         "name": "riscv/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/429/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1560/display/redirect"
       },
       {
         "name": "unity/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/nightly/76/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/326/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Contrib] Enable fp16 for thrust sort (#16887)"
+  },
+  {
+    "oid": "d4056ca79571d4265a12beeedd1b1565953df936",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/8692545135/job/23837406556"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/8692545135/job/23837406305"
+      },
+      {
+        "name": "CI / Linux-Static-Runtime",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/8692545135/job/23837406825"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/8692545135/job/23837405994"
+      },
+      {
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/447/display/redirect"
+      },
+      {
+        "name": "cortexm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/nightly/456/display/redirect"
+      },
+      {
+        "name": "cpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/nightly/439/display/redirect"
+      },
+      {
+        "name": "cross-isa-minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/nightly/399/display/redirect"
+      },
+      {
+        "name": "docker/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/432/display/redirect"
+      },
+      {
+        "name": "gpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/nightly/471/display/redirect"
+      },
+      {
+        "name": "hexagon/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/nightly/455/display/redirect"
+      },
+      {
+        "name": "i386/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/439/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/432/display/redirect"
+      },
+      {
+        "name": "minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/434/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/436/display/redirect"
+      },
+      {
+        "name": "unity/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/nightly/83/display/redirect"
       },
       {
         "name": "wasm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/427/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/434/display/redirect"
       }
     ],
-    "messageHeadline": "[Thrust] Use pointer to tls pool to prevent creating new pool (#16856)"
+    "messageHeadline": "[SVE] Support splitting by vscale in `tir::split` and `te::split` (#1\u2026"
+  },
+  {
+    "oid": "f267691fa468fde4045f96d98f076b46f6702fbc",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/8691052813/job/23832362528"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/8691052813/job/23832361564"
+      },
+      {
+        "name": "CI / Linux-Static-Runtime",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/8691052813/job/23832361117"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/8691052813/job/23832362046"
+      },
+      {
+        "name": "cpu/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1637/display/redirect"
+      },
+      {
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1875/display/redirect"
+      },
+      {
+        "name": "cortexm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1738/display/redirect"
+      },
+      {
+        "name": "cross-isa-minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1394/display/redirect"
+      },
+      {
+        "name": "docker/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1554/display/redirect"
+      },
+      {
+        "name": "gpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2081/display/redirect"
+      },
+      {
+        "name": "hexagon/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1663/display/redirect"
+      },
+      {
+        "name": "i386/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1589/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1538/display/redirect"
+      },
+      {
+        "name": "minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1557/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1558/display/redirect"
+      },
+      {
+        "name": "unity/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/324/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1553/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relax] Stabilize relax pass mutation order (#16883)"
+  },
+  {
+    "oid": "a64d1f1cc37da7f202d943c2bea7eb747e624599",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/8680358829/job/23800728488"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/8680358829/job/23800728385"
+      },
+      {
+        "name": "CI / Linux-Static-Runtime",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/8680358829/job/23800728450"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/8680358829/job/23800728414"
+      },
+      {
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/446/display/redirect"
+      },
+      {
+        "name": "cortexm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/nightly/455/display/redirect"
+      },
+      {
+        "name": "cpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/nightly/438/display/redirect"
+      },
+      {
+        "name": "cross-isa-minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/nightly/398/display/redirect"
+      },
+      {
+        "name": "docker/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/431/display/redirect"
+      },
+      {
+        "name": "gpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/nightly/470/display/redirect"
+      },
+      {
+        "name": "hexagon/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/nightly/454/display/redirect"
+      },
+      {
+        "name": "i386/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/438/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/431/display/redirect"
+      },
+      {
+        "name": "minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/433/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/435/display/redirect"
+      },
+      {
+        "name": "unity/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/nightly/82/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/433/display/redirect"
+      }
+    ],
+    "messageHeadline": "[TIR] Make T.reinterpret nop when dtype is the same (#16879)"
+  },
+  {
+    "oid": "64911ab5da3640be4d9fb675513e57b742e188b1",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/8677602446/job/23793451531"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/8677602446/job/23793451621"
+      },
+      {
+        "name": "CI / Linux-Static-Runtime",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/8677602446/job/23793451711"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/8677602446/job/23793451427"
+      },
+      {
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/445/display/redirect"
+      },
+      {
+        "name": "cortexm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/nightly/452/display/redirect"
+      },
+      {
+        "name": "cpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/nightly/437/display/redirect"
+      },
+      {
+        "name": "cross-isa-minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/nightly/397/display/redirect"
+      },
+      {
+        "name": "docker/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/430/display/redirect"
+      },
+      {
+        "name": "gpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/nightly/469/display/redirect"
+      },
+      {
+        "name": "hexagon/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/nightly/453/display/redirect"
+      },
+      {
+        "name": "i386/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/437/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/430/display/redirect"
+      },
+      {
+        "name": "minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/432/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/434/display/redirect"
+      },
+      {
+        "name": "unity/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/nightly/81/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/432/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Runtime] Implemented Datatype.itemsize() (#16880)"
+  },
+  {
+    "oid": "d0cbb02e1db32faaae2b6ea6e729829bd019aeb6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/8676106341/job/23790253464"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/8676106341/job/23790253323"
+      },
+      {
+        "name": "CI / Linux-Static-Runtime",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/8676106341/job/23790253583"
+      },
+      {
+        "name": "CI / Android",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/8676106341/job/23790253725"
+      },
+      {
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1872/display/redirect"
+      },
+      {
+        "name": "cortexm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1734/display/redirect"
+      },
+      {
+        "name": "cpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1634/display/redirect"
+      },
+      {
+        "name": "cross-isa-minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1391/display/redirect"
+      },
+      {
+        "name": "docker/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1551/display/redirect"
+      },
+      {
+        "name": "gpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2078/display/redirect"
+      },
+      {
+        "name": "hexagon/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1660/display/redirect"
+      },
+      {
+        "name": "i386/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1586/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1535/display/redirect"
+      },
+      {
+        "name": "minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1554/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1555/display/redirect"
+      },
+      {
+        "name": "unity/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/321/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1550/display/redirect"
+      }
+    ],
+    "messageHeadline": "[release] Update version to 0.17.dev0 on main branch"
   }
 ]
