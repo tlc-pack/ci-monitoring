@@ -68,11 +68,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/360/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1590/display/redirect"
-      },
-      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1590/display/redirect"
@@ -86,6 +81,11 @@
         "name": "riscv/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1594/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1590/display/redirect"
       }
     ],
     "messageHeadline": "[Relax][TIR] Introduce new `cumsum` op for gpu (#16934)"
