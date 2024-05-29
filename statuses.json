@@ -73,11 +73,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1665/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1661/display/redirect"
-      },
-      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1661/display/redirect"
@@ -86,6 +81,11 @@
         "name": "riscv/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1664/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1661/display/redirect"
       }
     ],
     "messageHeadline": "[Relax][Bugfix] Apply FuseOps to nested DataflowBlock (#17033)"
