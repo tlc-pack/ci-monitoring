@@ -1,5 +1,96 @@
 [
   {
+    "oid": "b2c61162f006504b192493e9ceeac9b89a87da65",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/9277864050/job/25527842380"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/9277864050/job/25527842704"
+      },
+      {
+        "name": "CI / Linux-Static-Runtime",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/9277864050/job/25527842579"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/9277864050/job/25527842459"
+      },
+      {
+        "name": "lint/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1642/display/redirect"
+      },
+      {
+        "name": "unity/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/435/display/redirect"
+      },
+      {
+        "name": "arm/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1982/display/redirect"
+      },
+      {
+        "name": "cortexm/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1894/display/redirect"
+      },
+      {
+        "name": "cpu/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1761/display/redirect"
+      },
+      {
+        "name": "cross-isa-minimal/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1503/display/redirect"
+      },
+      {
+        "name": "gpu/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2208/display/redirect"
+      },
+      {
+        "name": "hexagon/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1794/display/redirect"
+      },
+      {
+        "name": "i386/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1709/display/redirect"
+      },
+      {
+        "name": "minimal/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1662/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1661/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1657/display/redirect"
+      },
+      {
+        "name": "docker/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1658/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Relax][Bugfix] Bind symbolic variables in R.match_cast (#17034)"
+  },
+  {
     "oid": "d4b096f905ad32be448c3a188ecf93a14c5734d5",
     "statuses": [
       {
@@ -1207,96 +1298,5 @@
       }
     ],
     "messageHeadline": "[USMP] add missing const specifier for global_const_workspace (#16999)"
-  },
-  {
-    "oid": "e978a449f9128a0099687bef2a11ba88a5cc0ab4",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/9190026882/job/25273346119"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/9190026882/job/25273346801"
-      },
-      {
-        "name": "CI / Linux-Static-Runtime",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/9190026882/job/25273346331"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/9190026882/job/25273346574"
-      },
-      {
-        "name": "hexagon/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1780/display/redirect"
-      },
-      {
-        "name": "arm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1968/display/redirect"
-      },
-      {
-        "name": "cortexm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1879/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1746/display/redirect"
-      },
-      {
-        "name": "cross-isa-minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1490/display/redirect"
-      },
-      {
-        "name": "docker/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1645/display/redirect"
-      },
-      {
-        "name": "gpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2189/display/redirect"
-      },
-      {
-        "name": "i386/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1695/display/redirect"
-      },
-      {
-        "name": "lint/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1628/display/redirect"
-      },
-      {
-        "name": "minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1649/display/redirect"
-      },
-      {
-        "name": "riscv/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1647/display/redirect"
-      },
-      {
-        "name": "unity/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/422/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1644/display/redirect"
-      }
-    ],
-    "messageHeadline": "[COMMUNITY] New committer: Balint Cristian (#17018)"
   }
 ]
