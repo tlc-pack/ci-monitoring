@@ -4,7 +4,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/9285460785/job/25550006912"
       },
       {
@@ -14,13 +14,18 @@
       },
       {
         "name": "CI / Linux-Static-Runtime",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/9285460785/job/25550007458"
       },
       {
         "name": "CI / Android",
         "status": "PENDING",
         "url": "https://github.com/apache/tvm/actions/runs/9285460785/job/25550007182"
+      },
+      {
+        "name": "lint/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1645/display/redirect"
       },
       {
         "name": "arm/branch",
@@ -56,11 +61,6 @@
         "name": "i386/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1712/display/redirect"
-      },
-      {
-        "name": "lint/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1645/display/redirect"
       },
       {
         "name": "minimal/branch",
@@ -114,6 +114,21 @@
         "url": "https://github.com/apache/tvm/actions/runs/9282976558/job/25542169989"
       },
       {
+        "name": "arm/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1984/display/redirect"
+      },
+      {
+        "name": "cortexm/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1897/display/redirect"
+      },
+      {
+        "name": "cpu/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1763/display/redirect"
+      },
+      {
         "name": "lint/branch",
         "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1644/display/redirect"
@@ -122,21 +137,6 @@
         "name": "unity/branch",
         "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/437/display/redirect"
-      },
-      {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1984/display/redirect"
-      },
-      {
-        "name": "cortexm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1897/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1763/display/redirect"
       },
       {
         "name": "cross-isa-minimal/branch",
