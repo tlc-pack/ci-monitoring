@@ -30,7 +30,7 @@
       {
         "name": "cortexm/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1922/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1923/display/redirect"
       },
       {
         "name": "cpu/branch",
@@ -63,19 +63,9 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1681/display/redirect"
       },
       {
-        "name": "riscv/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1680/display/redirect"
-      },
-      {
         "name": "unity/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/454/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1676/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -86,6 +76,16 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1661/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1680/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1676/display/redirect"
       }
     ],
     "messageHeadline": "[SME][TOPI] Add conv2d NHWC SME fp16->fp32 schedule (#17048)"
@@ -114,19 +114,9 @@
         "url": "https://github.com/apache/tvm/actions/runs/9386263692/job/25846413473"
       },
       {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/2002/display/redirect"
-      },
-      {
         "name": "cortexm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1921/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1780/display/redirect"
       },
       {
         "name": "cross-isa-minimal/branch",
@@ -137,6 +127,16 @@
         "name": "hexagon/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1821/display/redirect"
+      },
+      {
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/2002/display/redirect"
+      },
+      {
+        "name": "cpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1780/display/redirect"
       },
       {
         "name": "docker/branch",
