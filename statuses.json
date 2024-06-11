@@ -1,5 +1,31 @@
 [
   {
+    "oid": "ab02979a86a44e0a4093760611c7f0ec6c6a86f7",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/9467120924/job/26080414182"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/9467120924/job/26080414561"
+      },
+      {
+        "name": "CI / Linux-Static-Runtime",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/9467120924/job/26080413078"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/9467120924/job/26080413588"
+      }
+    ],
+    "messageHeadline": "[AOT] Correctly calculate workspace for vector types (#17077)"
+  },
+  {
     "oid": "d1cd95fa9c73fac4eced85548b919a4d69c16cdd",
     "statuses": [
       {
@@ -1247,46 +1273,5 @@
       }
     ],
     "messageHeadline": "[Relax][Frontend][Onnx] Cast Op special handling for ShapeExpr input \u2026"
-  },
-  {
-    "oid": "1c05902017e85d79388f0b919757c3d883799c06",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/9359231797/job/25762590255"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/9359231797/job/25762590573"
-      },
-      {
-        "name": "CI / Linux-Static-Runtime",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/9359231797/job/25762590426"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/9359231797/job/25762590119"
-      },
-      {
-        "name": "arm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/1998/display/redirect"
-      },
-      {
-        "name": "cortexm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/1917/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1776/display/redirect"
-      }
-    ],
-    "messageHeadline": "Introduce outer reduction for metal (#17058)"
   }
 ]
