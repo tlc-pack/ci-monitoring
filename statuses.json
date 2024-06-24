@@ -4,7 +4,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/9646195510/job/26602056864"
       },
       {
@@ -58,11 +58,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1771/display/redirect"
       },
       {
-        "name": "lint/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1692/display/redirect"
-      },
-      {
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1714/display/redirect"
@@ -86,6 +81,11 @@
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1709/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1692/display/redirect"
       }
     ],
     "messageHeadline": "[TIR][DLight] Enable SimdGroup op for Metal (#17112)"
