@@ -1,5 +1,41 @@
 [
   {
+    "oid": "51d7c5e47a108b7d03036e6a1045aa8348f9562c",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/9963582652/job/27529928842"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/9963582652/job/27529928302"
+      },
+      {
+        "name": "CI / Linux-Static-Runtime",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/9963582652/job/27529928038"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/9963582652/job/27529928573"
+      },
+      {
+        "name": "arm/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/2061/display/redirect"
+      },
+      {
+        "name": "cortexm/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/2032/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Hexagon] Support RPC execution of existing shared lib (#17162)"
+  },
+  {
     "oid": "70c53082e6715516aefefcdca6262e195f36a0de",
     "statuses": [
       {
@@ -73,11 +109,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/512/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1734/display/redirect"
-      },
-      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1735/display/redirect"
@@ -86,6 +117,11 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1718/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1734/display/redirect"
       }
     ],
     "messageHeadline": "[Relax] Fix fuseOps via pattern  (#17160)"
@@ -1192,96 +1228,5 @@
       }
     ],
     "messageHeadline": "[TOPI] Add dense schedule for fp16 and fp32 using gemm (#17091)"
-  },
-  {
-    "oid": "0fc047c98b1ebf730b8c9aad8b94ddac28a7b34b",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/9802781018/job/27067939471"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/9802781018/job/27067939599"
-      },
-      {
-        "name": "CI / Linux-Static-Runtime",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/9802781018/job/27067939181"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/9802781018/job/27067939327"
-      },
-      {
-        "name": "arm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/516/display/redirect"
-      },
-      {
-        "name": "cortexm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/nightly/547/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/nightly/512/display/redirect"
-      },
-      {
-        "name": "cross-isa-minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/nightly/467/display/redirect"
-      },
-      {
-        "name": "docker/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/497/display/redirect"
-      },
-      {
-        "name": "gpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/nightly/546/display/redirect"
-      },
-      {
-        "name": "hexagon/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/nightly/533/display/redirect"
-      },
-      {
-        "name": "i386/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/511/display/redirect"
-      },
-      {
-        "name": "lint/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/497/display/redirect"
-      },
-      {
-        "name": "minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/501/display/redirect"
-      },
-      {
-        "name": "riscv/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/503/display/redirect"
-      },
-      {
-        "name": "unity/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/nightly/155/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/501/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Compute-inline] Prefer T.where for reverse compute-inlined block wit\u2026"
   }
 ]
