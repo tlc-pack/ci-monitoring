@@ -35,7 +35,7 @@
       {
         "name": "cpu/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1861/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1860/display/redirect"
       },
       {
         "name": "cross-isa-minimal/branch",
@@ -73,11 +73,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/514/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1736/display/redirect"
-      },
-      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1737/display/redirect"
@@ -86,6 +81,11 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1720/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1736/display/redirect"
       }
     ],
     "messageHeadline": "[CI] Remove lint step from `unity/pr-head` step (#17155)"
@@ -114,11 +114,6 @@
         "url": "https://github.com/apache/tvm/actions/runs/9963582652/job/27529928573"
       },
       {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/2061/display/redirect"
-      },
-      {
         "name": "cortexm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/2033/display/redirect"
@@ -137,6 +132,11 @@
         "name": "hexagon/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1920/display/redirect"
+      },
+      {
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/2061/display/redirect"
       },
       {
         "name": "docker/branch",
