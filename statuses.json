@@ -1,10 +1,101 @@
 [
   {
-    "oid": "e6476847753c80e054719ac47bc2091c888418b6",
+    "oid": "bbc97c77fbd890361a8705c4450057c5c1bfd0db",
     "statuses": [
       {
         "name": "CI / MacOS",
         "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/10059293584/job/27804209569"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/10059293584/job/27804209946"
+      },
+      {
+        "name": "CI / Linux-Static-Runtime",
+        "status": "SUCCESS",
+        "url": "https://github.com/apache/tvm/actions/runs/10059293584/job/27804209154"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/10059293584/job/27804210349"
+      },
+      {
+        "name": "arm/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/2077/display/redirect"
+      },
+      {
+        "name": "cortexm/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/2056/display/redirect"
+      },
+      {
+        "name": "cpu/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1881/display/redirect"
+      },
+      {
+        "name": "cross-isa-minimal/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1605/display/redirect"
+      },
+      {
+        "name": "gpu/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2321/display/redirect"
+      },
+      {
+        "name": "hexagon/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1943/display/redirect"
+      },
+      {
+        "name": "i386/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1823/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1735/display/redirect"
+      },
+      {
+        "name": "minimal/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1763/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1756/display/redirect"
+      },
+      {
+        "name": "unity/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/531/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1752/display/redirect"
+      },
+      {
+        "name": "docker/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1752/display/redirect"
+      }
+    ],
+    "messageHeadline": "[Disco] Group-wise operation (#17180)"
+  },
+  {
+    "oid": "e6476847753c80e054719ac47bc2091c888418b6",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/10059086607/job/27803555109"
       },
       {
@@ -58,11 +149,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1822/display/redirect"
       },
       {
-        "name": "lint/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1734/display/redirect"
-      },
-      {
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1762/display/redirect"
@@ -86,6 +172,11 @@
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1751/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1734/display/redirect"
       }
     ],
     "messageHeadline": "[MetaSchedule] Replace `xgboost.rabit` with `xgboost.collective` beca\u2026"
@@ -1207,96 +1298,5 @@
       }
     ],
     "messageHeadline": "[Relax][BugFix] Fix a bug about the IR construction in test file  (#1\u2026"
-  },
-  {
-    "oid": "73078f11dcdc383246fefa50961a6a9bda6137cf",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/9964449420/job/27532733625"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/9964449420/job/27532733810"
-      },
-      {
-        "name": "CI / Linux-Static-Runtime",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/9964449420/job/27532733253"
-      },
-      {
-        "name": "CI / Android",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/9964449420/job/27532733455"
-      },
-      {
-        "name": "arm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/521/display/redirect"
-      },
-      {
-        "name": "cortexm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/nightly/552/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/nightly/518/display/redirect"
-      },
-      {
-        "name": "cross-isa-minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/nightly/473/display/redirect"
-      },
-      {
-        "name": "docker/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/502/display/redirect"
-      },
-      {
-        "name": "gpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/nightly/553/display/redirect"
-      },
-      {
-        "name": "hexagon/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/nightly/540/display/redirect"
-      },
-      {
-        "name": "i386/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/517/display/redirect"
-      },
-      {
-        "name": "lint/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/502/display/redirect"
-      },
-      {
-        "name": "minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/506/display/redirect"
-      },
-      {
-        "name": "riscv/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/508/display/redirect"
-      },
-      {
-        "name": "unity/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/nightly/161/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/506/display/redirect"
-      }
-    ],
-    "messageHeadline": "[CI] Remove lint step from `unity/pr-head` step (#17155)"
   }
 ]
