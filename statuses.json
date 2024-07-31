@@ -23,6 +23,11 @@
         "url": "https://github.com/apache/tvm/actions/runs/10183263482/job/28167756973"
       },
       {
+        "name": "i386/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1848/display/redirect"
+      },
+      {
         "name": "arm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/2095/display/redirect"
@@ -30,12 +35,12 @@
       {
         "name": "cortexm/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/2102/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/2103/display/redirect"
       },
       {
         "name": "cpu/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1908/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/1909/display/redirect"
       },
       {
         "name": "cross-isa-minimal/branch",
@@ -50,22 +55,7 @@
       {
         "name": "hexagon/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1976/display/redirect"
-      },
-      {
-        "name": "i386/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1849/display/redirect"
-      },
-      {
-        "name": "minimal/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1785/display/redirect"
-      },
-      {
-        "name": "unity/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/551/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/1977/display/redirect"
       },
       {
         "name": "wasm/branch",
@@ -83,9 +73,19 @@
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1753/display/redirect"
       },
       {
+        "name": "minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1785/display/redirect"
+      },
+      {
         "name": "riscv/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1777/display/redirect"
+      },
+      {
+        "name": "unity/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/551/display/redirect"
       }
     ],
     "messageHeadline": "[CI] Reduce logging level when checking if docker image exists (#17221)"
