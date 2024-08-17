@@ -9,7 +9,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "FAILURE",
         "url": "https://github.com/apache/tvm/actions/runs/10433988309/job/28896339973"
       },
       {
@@ -58,11 +58,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1880/display/redirect"
       },
       {
-        "name": "lint/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1779/display/redirect"
-      },
-      {
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1815/display/redirect"
@@ -86,6 +81,11 @@
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1796/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1779/display/redirect"
       }
     ],
     "messageHeadline": "[KVCache] Increase coalesce threshold (#17280)"
