@@ -4,12 +4,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/10525382953/job/29164059724"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "FAILURE",
         "url": "https://github.com/apache/tvm/actions/runs/10525382953/job/29164059969"
       },
       {
@@ -50,17 +50,12 @@
       {
         "name": "hexagon/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/2073/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/2074/display/redirect"
       },
       {
         "name": "i386/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1899/display/redirect"
-      },
-      {
-        "name": "lint/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1793/display/redirect"
       },
       {
         "name": "minimal/branch",
@@ -86,6 +81,11 @@
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1811/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1793/display/redirect"
       }
     ],
     "messageHeadline": "[Doc] IRModule (#17298)"
