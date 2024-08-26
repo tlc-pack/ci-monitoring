@@ -4,12 +4,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/10558939384/job/29249365514"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "FAILURE",
         "url": "https://github.com/apache/tvm/actions/runs/10558939384/job/29249365795"
       },
       {
@@ -58,11 +58,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1906/display/redirect"
       },
       {
-        "name": "lint/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1800/display/redirect"
-      },
-      {
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1836/display/redirect"
@@ -86,6 +81,11 @@
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1818/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1800/display/redirect"
       }
     ],
     "messageHeadline": "[Relax] Avoid wrapping TupleStructInfo into a Tuple for R.call_tir (#\u2026"
@@ -95,12 +95,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/10558907707/job/29249273895"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "FAILURE",
         "url": "https://github.com/apache/tvm/actions/runs/10558907707/job/29249274844"
       },
       {
@@ -136,7 +136,7 @@
       {
         "name": "gpu/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2401/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2400/display/redirect"
       },
       {
         "name": "hexagon/branch",
@@ -147,11 +147,6 @@
         "name": "i386/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1905/display/redirect"
-      },
-      {
-        "name": "lint/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1799/display/redirect"
       },
       {
         "name": "minimal/branch",
@@ -177,6 +172,11 @@
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1817/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1799/display/redirect"
       }
     ],
     "messageHeadline": "[Support] Fix the Read/Write of socket stream (#17284)"
@@ -186,12 +186,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/10558904485/job/29249264789"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "FAILURE",
         "url": "https://github.com/apache/tvm/actions/runs/10558904485/job/29249264193"
       },
       {
@@ -232,12 +232,12 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/10558885520/job/29249204249"
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "FAILURE",
         "url": "https://github.com/apache/tvm/actions/runs/10558885520/job/29249203777"
       },
       {
@@ -286,11 +286,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1903/display/redirect"
       },
       {
-        "name": "lint/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1797/display/redirect"
-      },
-      {
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1833/display/redirect"
@@ -314,6 +309,11 @@
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1815/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1797/display/redirect"
       }
     ],
     "messageHeadline": "[Codegen][WebGPU] LetNode common subexpr override (#17302)"
