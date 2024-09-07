@@ -23,24 +23,14 @@
         "url": "https://github.com/apache/tvm/actions/runs/10748804368/job/29812973887"
       },
       {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/561/display/redirect"
-      },
-      {
         "name": "cortexm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/2288/display/redirect"
       },
       {
-        "name": "cpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/nightly/564/display/redirect"
-      },
-      {
         "name": "cross-isa-minimal/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/nightly/516/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1710/display/redirect"
       },
       {
         "name": "hexagon/branch",
@@ -48,9 +38,14 @@
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/nightly/590/display/redirect"
       },
       {
-        "name": "riscv/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/549/display/redirect"
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/561/display/redirect"
+      },
+      {
+        "name": "cpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/2025/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -78,6 +73,11 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1873/display/redirect"
       },
       {
+        "name": "riscv/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/549/display/redirect"
+      },
+      {
         "name": "unity/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/641/display/redirect"
@@ -85,7 +85,7 @@
       {
         "name": "wasm/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/548/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1855/display/redirect"
       }
     ],
     "messageHeadline": "[DOCS] Minor fix typo in developer howto guide (#17343)"
