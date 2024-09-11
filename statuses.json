@@ -28,24 +28,19 @@
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/650/display/redirect"
       },
       {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/2186/display/redirect"
-      },
-      {
         "name": "cortexm/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/2309/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/2311/display/redirect"
       },
       {
         "name": "cpu/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/2040/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/2042/display/redirect"
       },
       {
         "name": "cross-isa-minimal/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1719/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1718/display/redirect"
       },
       {
         "name": "hexagon/branch",
@@ -53,9 +48,9 @@
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/2144/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1865/display/redirect"
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/2186/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -86,6 +81,11 @@
         "name": "riscv/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1872/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1864/display/redirect"
       }
     ],
     "messageHeadline": "[Relax] Fix inline source module cause path too long error (#17354)"
