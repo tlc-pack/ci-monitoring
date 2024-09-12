@@ -23,6 +23,11 @@
         "url": "https://github.com/apache/tvm/actions/runs/10836557669/job/30070578283"
       },
       {
+        "name": "i386/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1968/display/redirect"
+      },
+      {
         "name": "arm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/2195/display/redirect"
@@ -30,7 +35,7 @@
       {
         "name": "cortexm/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/2330/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/2331/display/redirect"
       },
       {
         "name": "cpu/branch",
@@ -40,7 +45,7 @@
       {
         "name": "cross-isa-minimal/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1729/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1728/display/redirect"
       },
       {
         "name": "gpu/branch",
@@ -53,19 +58,9 @@
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/2158/display/redirect"
       },
       {
-        "name": "i386/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/1969/display/redirect"
-      },
-      {
         "name": "minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1892/display/redirect"
-      },
-      {
-        "name": "unity/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/660/display/redirect"
       },
       {
         "name": "wasm/branch",
@@ -86,6 +81,11 @@
         "name": "riscv/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1882/display/redirect"
+      },
+      {
+        "name": "unity/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/660/display/redirect"
       }
     ],
     "messageHeadline": "[IR] Expose ReplaceGlobalVars utility in the Python API (#17361)"
@@ -124,19 +124,19 @@
         "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/2060/display/redirect"
       },
       {
-        "name": "cross-isa-minimal/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1727/display/redirect"
-      },
-      {
         "name": "hexagon/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/2156/display/redirect"
       },
       {
         "name": "arm/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/2194/display/redirect"
+      },
+      {
+        "name": "cross-isa-minimal/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1727/display/redirect"
       },
       {
         "name": "docker/branch",
