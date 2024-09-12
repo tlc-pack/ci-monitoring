@@ -28,14 +28,14 @@
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/2325/display/redirect"
       },
       {
-        "name": "cpu/branch",
-        "status": "ERROR",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/2054/display/redirect"
-      },
-      {
         "name": "arm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/565/display/redirect"
+      },
+      {
+        "name": "cpu/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/nightly/571/display/redirect"
       },
       {
         "name": "cross-isa-minimal/branch",
@@ -50,12 +50,7 @@
       {
         "name": "hexagon/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/nightly/596/display/redirect"
-      },
-      {
-        "name": "i386/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/565/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/2152/display/redirect"
       },
       {
         "name": "minimal/branch",
@@ -68,14 +63,14 @@
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/555/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/556/display/redirect"
-      },
-      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/546/display/redirect"
+      },
+      {
+        "name": "i386/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/565/display/redirect"
       },
       {
         "name": "lint/branch",
@@ -86,6 +81,11 @@
         "name": "unity/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/nightly/209/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/556/display/redirect"
       }
     ],
     "messageHeadline": "[Relax] Add new NN allgather operator (#17359)"
