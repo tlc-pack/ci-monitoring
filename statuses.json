@@ -63,11 +63,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1895/display/redirect"
       },
       {
-        "name": "unity/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/663/display/redirect"
-      },
-      {
         "name": "wasm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1877/display/redirect"
@@ -86,6 +81,11 @@
         "name": "riscv/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1885/display/redirect"
+      },
+      {
+        "name": "unity/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/663/display/redirect"
       }
     ],
     "messageHeadline": "[Bugfix][Relax] Preserve existing DataflowBlock in ConvertToDataflow \u2026"
@@ -119,19 +119,9 @@
         "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2471/display/redirect"
       },
       {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/2197/display/redirect"
-      },
-      {
         "name": "cortexm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/2333/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/2065/display/redirect"
       },
       {
         "name": "cross-isa-minimal/branch",
@@ -147,6 +137,16 @@
         "name": "wasm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1876/display/redirect"
+      },
+      {
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/2197/display/redirect"
+      },
+      {
+        "name": "cpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/2065/display/redirect"
       },
       {
         "name": "docker/branch",
