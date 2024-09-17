@@ -30,7 +30,7 @@
       {
         "name": "cortexm/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/2352/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/2351/display/redirect"
       },
       {
         "name": "cpu/branch",
@@ -45,12 +45,12 @@
       {
         "name": "gpu/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2487/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2486/display/redirect"
       },
       {
         "name": "hexagon/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/2178/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/2179/display/redirect"
       },
       {
         "name": "i386/branch",
@@ -60,22 +60,12 @@
       {
         "name": "minimal/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1907/display/redirect"
-      },
-      {
-        "name": "riscv/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1897/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1906/display/redirect"
       },
       {
         "name": "unity/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/674/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1887/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -86,6 +76,16 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1864/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1896/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1887/display/redirect"
       }
     ],
     "messageHeadline": "[TVMScript] Avoid segfault from invalid TVMScript (#17373)"
@@ -114,6 +114,11 @@
         "url": "https://github.com/apache/tvm/actions/runs/10904772634/job/30262013241"
       },
       {
+        "name": "docker/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1883/display/redirect"
+      },
+      {
         "name": "arm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/2209/display/redirect"
@@ -127,11 +132,6 @@
         "name": "cpu/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/2078/display/redirect"
-      },
-      {
-        "name": "docker/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1883/display/redirect"
       },
       {
         "name": "gpu/branch",
@@ -205,19 +205,9 @@
         "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1905/display/redirect"
       },
       {
-        "name": "riscv/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1894/display/redirect"
-      },
-      {
         "name": "unity/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/672/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1886/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -228,6 +218,16 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1863/display/redirect"
+      },
+      {
+        "name": "riscv/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1894/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1886/display/redirect"
       }
     ],
     "messageHeadline": "[Doc] Relax Deep Dive (#17380)"
