@@ -23,19 +23,9 @@
         "url": "https://github.com/apache/tvm/actions/runs/11135704882/job/30946222509"
       },
       {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/2243/display/redirect"
-      },
-      {
-        "name": "cortexm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/2431/display/redirect"
-      },
-      {
         "name": "cpu/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/2121/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/2120/display/redirect"
       },
       {
         "name": "cross-isa-minimal/branch",
@@ -48,9 +38,14 @@
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/2235/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1920/display/redirect"
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/2242/display/redirect"
+      },
+      {
+        "name": "cortexm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/2431/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -86,6 +81,11 @@
         "name": "unity/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/711/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1920/display/redirect"
       }
     ],
     "messageHeadline": "[Relax][PyTorch] Support tensor manipulation and creation ops for Exp\u2026"
