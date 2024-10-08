@@ -38,6 +38,11 @@
         "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/2140/display/redirect"
       },
       {
+        "name": "cross-isa-minimal/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/nightly/547/display/redirect"
+      },
+      {
         "name": "gpu/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/nightly/625/display/redirect"
@@ -48,24 +53,14 @@
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/594/display/redirect"
       },
       {
-        "name": "riscv/branch",
+        "name": "minimal/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/579/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/583/display/redirect"
       },
       {
         "name": "unity/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/nightly/234/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/580/display/redirect"
-      },
-      {
-        "name": "cross-isa-minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1787/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -83,9 +78,14 @@
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/570/display/redirect"
       },
       {
-        "name": "minimal/branch",
+        "name": "riscv/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/1956/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/nightly/579/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/580/display/redirect"
       }
     ],
     "messageHeadline": "[Relax][PyTorch][Docs] Use `torch.export` insteamd of `fx.symbolic_tr\u2026"
