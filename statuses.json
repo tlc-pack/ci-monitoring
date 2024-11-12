@@ -9,7 +9,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/11792879908/job/32847304444"
       },
       {
@@ -19,8 +19,13 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/11792879908/job/32847304956"
+      },
+      {
+        "name": "unity/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/758/display/redirect"
       },
       {
         "name": "arm/branch",
@@ -66,11 +71,6 @@
         "name": "riscv/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/1971/display/redirect"
-      },
-      {
-        "name": "unity/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/759/display/redirect"
       },
       {
         "name": "wasm/branch",
