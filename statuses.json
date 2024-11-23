@@ -73,11 +73,6 @@
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/nightly/264/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/608/display/redirect"
-      },
-      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/597/display/redirect"
@@ -86,6 +81,11 @@
         "name": "lint/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/597/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/608/display/redirect"
       }
     ],
     "messageHeadline": "[FIX][topi.scatter_nd] fixed shape equality assert by using analyzer \u2026"
