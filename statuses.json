@@ -43,6 +43,11 @@
         "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/2225/display/redirect"
       },
       {
+        "name": "cross-isa-minimal/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1850/display/redirect"
+      },
+      {
         "name": "gpu/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2664/display/redirect"
@@ -63,6 +68,11 @@
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/1967/display/redirect"
       },
       {
+        "name": "minimal/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/main/2013/display/redirect"
+      },
+      {
         "name": "riscv/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-riscv/job/main/2002/display/redirect"
@@ -73,24 +83,14 @@
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/795/display/redirect"
       },
       {
-        "name": "cross-isa-minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/nightly/581/display/redirect"
+        "name": "wasm/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/1992/display/redirect"
       },
       {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/1987/display/redirect"
-      },
-      {
-        "name": "minimal/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal/job/nightly/623/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/616/display/redirect"
       }
     ],
     "messageHeadline": "[Runtime][Dist] Implementation of KV cache transfer (#17557)"
