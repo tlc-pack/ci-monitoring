@@ -28,19 +28,14 @@
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/624/display/redirect"
       },
       {
-        "name": "cortexm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/nightly/713/display/redirect"
-      },
-      {
         "name": "cpu/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/nightly/639/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/2229/display/redirect"
       },
       {
         "name": "cross-isa-minimal/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/nightly/582/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1855/display/redirect"
       },
       {
         "name": "gpu/branch",
@@ -56,11 +51,6 @@
         "name": "i386/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/nightly/636/display/redirect"
-      },
-      {
-        "name": "lint/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/605/display/redirect"
       },
       {
         "name": "minimal/branch",
@@ -83,9 +73,19 @@
         "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/nightly/617/display/redirect"
       },
       {
+        "name": "cortexm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cortexm/job/main/2553/display/redirect"
+      },
+      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/nightly/605/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/nightly/605/display/redirect"
       }
     ],
     "messageHeadline": "Fix GPU detection in PerStoreFeatureNode (#17593)"
