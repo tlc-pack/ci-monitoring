@@ -9,7 +9,7 @@
       },
       {
         "name": "CI / Windows",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/13056776909/job/36429696609"
       },
       {
@@ -19,8 +19,13 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/13056776909/job/36429698024"
+      },
+      {
+        "name": "docker/branch",
+        "status": "ERROR",
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/2007/display/redirect"
       },
       {
         "name": "arm/branch",
@@ -41,11 +46,6 @@
         "name": "cross-isa-minimal/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-minimal-cross-isa/job/main/1874/display/redirect"
-      },
-      {
-        "name": "docker/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/2007/display/redirect"
       },
       {
         "name": "gpu/branch",
