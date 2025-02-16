@@ -14,7 +14,7 @@
       },
       {
         "name": "CI / Linux-Static-Runtime",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/13358563986/job/37304710498"
       },
       {
@@ -31,11 +31,6 @@
         "name": "cpu/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/2289/display/redirect"
-      },
-      {
-        "name": "docker/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/2038/display/redirect"
       },
       {
         "name": "gpu/branch",
@@ -58,9 +53,19 @@
         "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/2018/display/redirect"
       },
       {
+        "name": "unity/branch",
+        "status": "PENDING",
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/849/display/redirect"
+      },
+      {
         "name": "wasm/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/2044/display/redirect"
+      },
+      {
+        "name": "docker/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/2038/display/redirect"
       }
     ],
     "messageHeadline": "[Relax][PyTorch] Add support for bitwise_not, isfinite, isinf, isnan,\u2026"
