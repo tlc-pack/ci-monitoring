@@ -14,7 +14,7 @@
       },
       {
         "name": "CI / Linux-Static-Runtime",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/13751679605/job/38453405507"
       },
       {
@@ -48,24 +48,24 @@
         "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/2214/display/redirect"
       },
       {
-        "name": "lint/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/2069/display/redirect"
-      },
-      {
         "name": "unity/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/900/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/2095/display/redirect"
-      },
-      {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/2089/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/2069/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/2095/display/redirect"
       }
     ],
     "messageHeadline": "[FFI] Fix dynamic FFI index to ensure compatibility (#17727)"
