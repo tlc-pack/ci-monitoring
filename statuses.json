@@ -4,7 +4,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/13880732761/job/38838893405"
       },
       {
@@ -23,29 +23,24 @@
         "url": "https://github.com/apache/tvm/actions/runs/13880732761/job/38838893461"
       },
       {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/5494/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/2362/display/redirect"
-      },
-      {
         "name": "gpu/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2854/display/redirect"
       },
       {
-        "name": "i386/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/2235/display/redirect"
-      },
-      {
         "name": "unity/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/921/display/redirect"
+      },
+      {
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/5494/display/redirect"
+      },
+      {
+        "name": "cpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/2362/display/redirect"
       },
       {
         "name": "docker/branch",
@@ -56,6 +51,11 @@
         "name": "hexagon/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/2516/display/redirect"
+      },
+      {
+        "name": "i386/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/2235/display/redirect"
       },
       {
         "name": "lint/branch",
