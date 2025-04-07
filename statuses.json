@@ -4,7 +4,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/14301706824/job/40077111956"
       },
       {
@@ -14,7 +14,7 @@
       },
       {
         "name": "CI / Linux-Static-Runtime",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/14301706824/job/40077111580"
       },
       {
@@ -28,44 +28,44 @@
         "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/5527/display/redirect"
       },
       {
-        "name": "cpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/2392/display/redirect"
-      },
-      {
         "name": "gpu/branch",
         "status": "PENDING",
         "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2892/display/redirect"
       },
       {
-        "name": "hexagon/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/2545/display/redirect"
-      },
-      {
-        "name": "i386/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/2263/display/redirect"
-      },
-      {
-        "name": "lint/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/2118/display/redirect"
-      },
-      {
         "name": "unity/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/951/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/952/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/2144/display/redirect"
+        "name": "cpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/2392/display/redirect"
       },
       {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/2139/display/redirect"
+      },
+      {
+        "name": "hexagon/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/2545/display/redirect"
+      },
+      {
+        "name": "i386/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/2263/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/2118/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/2144/display/redirect"
       }
     ],
     "messageHeadline": "[Relax][PyTorch] Support argsort, topk ops for ExportedProgram import\u2026"
@@ -75,7 +75,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/14301697596/job/40077088093"
       },
       {
@@ -85,7 +85,7 @@
       },
       {
         "name": "CI / Linux-Static-Runtime",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/14301697596/job/40077087853"
       },
       {
@@ -94,34 +94,14 @@
         "url": "https://github.com/apache/tvm/actions/runs/14301697596/job/40077087647"
       },
       {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/5526/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/2391/display/redirect"
-      },
-      {
         "name": "gpu/branch",
-        "status": "PENDING",
+        "status": "ERROR",
         "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2891/display/redirect"
       },
       {
-        "name": "hexagon/branch",
+        "name": "arm/branch",
         "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/2544/display/redirect"
-      },
-      {
-        "name": "i386/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/2262/display/redirect"
-      },
-      {
-        "name": "lint/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/2117/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/5526/display/redirect"
       },
       {
         "name": "unity/branch",
@@ -129,14 +109,34 @@
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/950/display/redirect"
       },
       {
-        "name": "wasm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/2143/display/redirect"
+        "name": "cpu/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/2391/display/redirect"
       },
       {
         "name": "docker/branch",
         "status": "SUCCESS",
         "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/2138/display/redirect"
+      },
+      {
+        "name": "hexagon/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/2544/display/redirect"
+      },
+      {
+        "name": "i386/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/2262/display/redirect"
+      },
+      {
+        "name": "lint/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/2117/display/redirect"
+      },
+      {
+        "name": "wasm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/2143/display/redirect"
       }
     ],
     "messageHeadline": "[NFC] Fix `explict` typo (#17811)"
