@@ -1,5 +1,31 @@
 [
   {
+    "oid": "b3d3a7aef0fe75292e889c1fa705e3e06709e1e5",
+    "statuses": [
+      {
+        "name": "CI / MacOS",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/14572918769/job/40873288076"
+      },
+      {
+        "name": "CI / Windows",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/14572918769/job/40873287398"
+      },
+      {
+        "name": "CI / Linux-Static-Runtime",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/14572918769/job/40873287630"
+      },
+      {
+        "name": "CI / Android",
+        "status": "PENDING",
+        "url": "https://github.com/apache/tvm/actions/runs/14572918769/job/40873287851"
+      }
+    ],
+    "messageHeadline": "[Relax][PyTorch] Add copy_ op support in fxGraph (#17858)"
+  },
+  {
     "oid": "36f2502f00d58128451d64c8ff12fa871c994c92",
     "statuses": [
       {
@@ -997,76 +1023,5 @@
       }
     ],
     "messageHeadline": "[Relax][PyTorch] Add Logaddexp op support for exported program  (#17803)"
-  },
-  {
-    "oid": "f08165680e8b8696679d331e1f547de8839145cd",
-    "statuses": [
-      {
-        "name": "CI / MacOS",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/14507332642/job/40699074650"
-      },
-      {
-        "name": "CI / Windows",
-        "status": "SUCCESS",
-        "url": "https://github.com/apache/tvm/actions/runs/14507332642/job/40699074880"
-      },
-      {
-        "name": "CI / Linux-Static-Runtime",
-        "status": "CANCELLED",
-        "url": "https://github.com/apache/tvm/actions/runs/14507332642/job/40699075104"
-      },
-      {
-        "name": "CI / Android",
-        "status": "CANCELLED",
-        "url": "https://github.com/apache/tvm/actions/runs/14507332642/job/40699074443"
-      },
-      {
-        "name": "unity/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-unity/job/main/968/display/redirect"
-      },
-      {
-        "name": "arm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/5543/display/redirect"
-      },
-      {
-        "name": "cpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/2408/display/redirect"
-      },
-      {
-        "name": "docker/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-docker/job/main/2154/display/redirect"
-      },
-      {
-        "name": "gpu/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-gpu/job/main/2910/display/redirect"
-      },
-      {
-        "name": "hexagon/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-hexagon/job/main/2560/display/redirect"
-      },
-      {
-        "name": "i386/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-i386/job/main/2278/display/redirect"
-      },
-      {
-        "name": "lint/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-lint/job/main/2133/display/redirect"
-      },
-      {
-        "name": "wasm/branch",
-        "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-wasm/job/main/2159/display/redirect"
-      }
-    ],
-    "messageHeadline": "[Relax][PyTorch] Add support for norm op (#17841)"
   }
 ]
