@@ -4,7 +4,7 @@
     "statuses": [
       {
         "name": "CI / MacOS",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/14747026311/job/41396212865"
       },
       {
@@ -19,13 +19,8 @@
       },
       {
         "name": "CI / Android",
-        "status": "PENDING",
+        "status": "SUCCESS",
         "url": "https://github.com/apache/tvm/actions/runs/14747026311/job/41396212401"
-      },
-      {
-        "name": "arm/branch",
-        "status": "PENDING",
-        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/nightly/700/display/redirect"
       },
       {
         "name": "gpu/branch",
@@ -38,9 +33,14 @@
         "url": "https://ci.tlcpack.ai/job/tvm-unity/job/nightly/346/display/redirect"
       },
       {
+        "name": "arm/branch",
+        "status": "SUCCESS",
+        "url": "https://ci.tlcpack.ai/job/tvm-arm/job/main/5580/display/redirect"
+      },
+      {
         "name": "cpu/branch",
         "status": "SUCCESS",
-        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/main/2443/display/redirect"
+        "url": "https://ci.tlcpack.ai/job/tvm-cpu/job/nightly/713/display/redirect"
       },
       {
         "name": "docker/branch",
